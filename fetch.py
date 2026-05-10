@@ -1,0 +1,69 @@
+#!/usr/bin/env python3
+"""Fetch jobs from all companies in data/companies.json."""
+
+import json
+import sys
+from dataclasses import asdict, dataclass
+from pathlib import Path
+
+from scrapers import ats_greenhouse, ats_lever, ats_ashby
+from scrapers._base import Job, ScraperError
+
+
+DATA_DIR = Path("data")
+COMPANIES_FILE = DATA_DIR / "companies.json"
+OUTPUT_FILE = DATA_DIR / "jobs_raw.json"
+
+SCRAPERS = {
+    "greenhouse": ats_greenhouse.scrape,
+    "lever": ats_lever.scrape,
+    "ashby": ats_ashby.scrape,
+}
+
+
+def serialize_job(job: Job) -> dict:
+    d = asdict(job)
+    if d.get("posted_at"):
+        d["posted_at"] = d["posted_at"].isoformat()
+    return d
+
+
+def main():
+    companies = json.loads(COMPANIES_FILE.read_text())
+
+    all_jobs: list[Job] = []
+    errors: list[str] = []
+
+    for company in companies:
+        ats = company["ats"]
+        name = company["name"]
+        slug = company["slug"]
+
+        scraper = SCRAPERS.get(ats)
+        if not scraper:
+            print(f"  [skip] {name}: unknown ATS '{ats}'")
+            continue
+
+        print(f"  Fetching {name} ({ats}/{slug})...", end=" ", flush=True)
+        try:
+            jobs = scraper(name, slug)
+            all_jobs.extend(jobs)
+            print(f"{len(jobs)} jobs")
+        except ScraperError as e:
+            print(f"ERROR")
+            errors.append(str(e))
+
+    print(f"\nTotal: {len(all_jobs)} jobs from {len(companies)} companies")
+
+    OUTPUT_FILE.write_text(json.dumps([serialize_job(j) for j in all_jobs], indent=2))
+    print(f"Written to {OUTPUT_FILE}")
+
+    if errors:
+        print(f"\nErrors ({len(errors)}):")
+        for e in errors:
+            print(f"  - {e}")
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+.python-version
+venv/
+.venv/
+data/jobs_raw.json
+jobs/

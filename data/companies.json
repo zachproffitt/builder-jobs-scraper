@@ -1,0 +1,20 @@
+[
+  { "name": "Stripe",     "ats": "greenhouse", "slug": "stripe" },
+  { "name": "Airbnb",     "ats": "greenhouse", "slug": "airbnb" },
+  { "name": "Figma",      "ats": "greenhouse", "slug": "figma" },
+  { "name": "Notion",     "ats": "greenhouse", "slug": "notion" },
+  { "name": "Vercel",     "ats": "greenhouse", "slug": "vercel" },
+  { "name": "Netlify",    "ats": "greenhouse", "slug": "netlify" },
+  { "name": "Plaid",      "ats": "greenhouse", "slug": "plaid" },
+  { "name": "Scale AI",   "ats": "greenhouse", "slug": "scaleai" },
+
+  { "name": "Anthropic",  "ats": "lever",      "slug": "anthropic" },
+  { "name": "OpenAI",     "ats": "greenhouse", "slug": "openai" },
+  { "name": "Mistral",    "ats": "lever",      "slug": "mistral" },
+  { "name": "Hugging Face","ats": "lever",     "slug": "huggingface" },
+
+  { "name": "Linear",     "ats": "ashby",      "slug": "linear" },
+  { "name": "Retool",     "ats": "ashby",      "slug": "retool" },
+  { "name": "Clerk",      "ats": "ashby",      "slug": "clerk" },
+  { "name": "Supabase",   "ats": "ashby",      "slug": "supabase" }
+]
