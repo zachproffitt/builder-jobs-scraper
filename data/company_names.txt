@@ -1,0 +1,111 @@
+# To add a company: just add its name below and open a PR.
+# discover.py will find their ATS and slug automatically.
+# One company per line. Lines starting with # are ignored.
+
+10x Genomics
+1X Technologies
+Absci
+Agility Robotics
+Airbnb
+Allen Institute for AI
+Anduril Industries
+Anthropic
+Antora Energy
+Apex
+Applied Intuition
+Apptronik
+Astranis
+Astrobotic
+Atom Computing
+Aurora
+Axiom Space
+Blue Origin
+Bungie
+CD Projekt Red
+Cerebras Systems
+Classiq
+Clerk
+Cohere
+Commonwealth Fusion
+Covariant
+Epic Games
+Epirus
+Etched
+Exscientia
+Figma
+Figure AI
+Firefly Aerospace
+Form Energy
+General Fusion
+Generate Biomedicines
+Groq
+Heirloom Carbon
+Helion Energy
+Hugging Face
+Imbue
+Insitro
+IonQ
+Isomorphic Labs
+Kairos Power
+Kodiak Robotics
+Linear
+Machina Labs
+May Mobility
+Mistral
+Motional
+Mythic
+Netlify
+Neuralink
+Niantic
+Northvolt
+Oklo
+OpenAI
+Physical Intelligence
+Planet Labs
+Precision Neuroscience
+PsiQuantum
+Q-CTRL
+QuEra Computing
+Quantinuum
+QuantumScape
+Rebellion Defense
+Recursion
+Redwire
+Redwood Materials
+Relativity Space
+Remedy Entertainment
+Rigetti Computing
+Riot Games
+Roblox
+Rocket Lab
+Rondo Energy
+Runway
+Saildrone
+Sanctuary AI
+Scale AI
+Schrodinger
+Shield AI
+Sierra Space
+Spire Global
+Stripe
+Supabase
+Synchron
+TAE Technologies
+Tenstorrent
+TerraPower
+Terradepth
+Tokamak Energy
+True Anomaly
+Turion Space
+Umbra
+Unity Technologies
+Vannevar Labs
+Vast
+Vercel
+Viam
+Waymo
+Xanadu
+Zoox
+d-Matrix
+xAI
+Nuro

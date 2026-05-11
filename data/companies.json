@@ -1,15 +1,1010 @@
 [
-  { "name": "Stripe",       "ats": "greenhouse", "slug": "stripe" },
-  { "name": "Airbnb",       "ats": "greenhouse", "slug": "airbnb" },
-  { "name": "Figma",        "ats": "greenhouse", "slug": "figma" },
-  { "name": "Vercel",       "ats": "greenhouse", "slug": "vercel" },
-  { "name": "Netlify",      "ats": "greenhouse", "slug": "netlify" },
-  { "name": "Scale AI",     "ats": "greenhouse", "slug": "scaleai" },
-  { "name": "Anthropic",    "ats": "greenhouse", "slug": "anthropic" },
-
-  { "name": "Mistral",      "ats": "lever",      "slug": "mistral" },
-
-  { "name": "Linear",       "ats": "ashby",      "slug": "Linear" },
-  { "name": "Clerk",        "ats": "ashby",      "slug": "Clerk" },
-  { "name": "Supabase",     "ats": "ashby",      "slug": "Supabase" }
+  {
+    "name": "Stripe",
+    "ats": "greenhouse",
+    "slug": "stripe",
+    "website": "https://stripe.com",
+    "category": [
+      "fintech",
+      "infrastructure"
+    ]
+  },
+  {
+    "name": "Airbnb",
+    "ats": "greenhouse",
+    "slug": "airbnb",
+    "website": "https://airbnb.com",
+    "category": [
+      "consumer",
+      "marketplace"
+    ]
+  },
+  {
+    "name": "Figma",
+    "ats": "greenhouse",
+    "slug": "figma",
+    "website": "https://figma.com",
+    "category": [
+      "developer-tools"
+    ]
+  },
+  {
+    "name": "Vercel",
+    "ats": "greenhouse",
+    "slug": "vercel",
+    "website": "https://vercel.com",
+    "category": [
+      "developer-tools",
+      "infrastructure"
+    ]
+  },
+  {
+    "name": "Netlify",
+    "ats": "greenhouse",
+    "slug": "netlify",
+    "website": "https://netlify.com",
+    "category": [
+      "developer-tools",
+      "infrastructure"
+    ]
+  },
+  {
+    "name": "Scale AI",
+    "ats": "greenhouse",
+    "slug": "scaleai",
+    "website": "https://scale.com",
+    "category": [
+      "ai-ml",
+      "data"
+    ]
+  },
+  {
+    "name": "Anthropic",
+    "ats": "greenhouse",
+    "slug": "anthropic",
+    "website": "https://anthropic.com",
+    "category": [
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Mistral",
+    "ats": "lever",
+    "slug": "mistral",
+    "website": "https://mistral.ai",
+    "category": [
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Linear",
+    "ats": "ashby",
+    "slug": "Linear",
+    "website": "https://linear.app",
+    "category": [
+      "developer-tools"
+    ]
+  },
+  {
+    "name": "Clerk",
+    "ats": "ashby",
+    "slug": "Clerk",
+    "website": "https://clerk.com",
+    "category": [
+      "developer-tools",
+      "infrastructure"
+    ]
+  },
+  {
+    "name": "Supabase",
+    "ats": "ashby",
+    "slug": "Supabase",
+    "website": "https://supabase.com",
+    "category": [
+      "developer-tools",
+      "infrastructure"
+    ]
+  },
+  {
+    "name": "Rocket Lab",
+    "ats": "greenhouse",
+    "slug": "rocketlab",
+    "website": "https://rocketlabusa.com",
+    "category": [
+      "space"
+    ]
+  },
+  {
+    "name": "Planet Labs",
+    "ats": "greenhouse",
+    "slug": "planetlabs",
+    "website": "https://planet.com",
+    "category": [
+      "space"
+    ]
+  },
+  {
+    "name": "Relativity Space",
+    "ats": "greenhouse",
+    "slug": "relativityspace",
+    "website": "https://relativityspace.com",
+    "category": [
+      "space"
+    ]
+  },
+  {
+    "name": "Firefly Aerospace",
+    "ats": "greenhouse",
+    "slug": "fireflyaerospace",
+    "website": "https://firefly.com",
+    "category": [
+      "space"
+    ]
+  },
+  {
+    "name": "Astranis",
+    "ats": "greenhouse",
+    "slug": "astranis",
+    "website": "https://astranis.com",
+    "category": [
+      "space"
+    ]
+  },
+  {
+    "name": "Astrobotic",
+    "ats": "greenhouse",
+    "slug": "astrobotic",
+    "website": "https://astrobotic.com",
+    "category": [
+      "space"
+    ]
+  },
+  {
+    "name": "Spire Global",
+    "ats": "greenhouse",
+    "slug": "spire",
+    "website": "https://spire.com",
+    "category": [
+      "space"
+    ]
+  },
+  {
+    "name": "Umbra",
+    "ats": "greenhouse",
+    "slug": "umbra",
+    "website": "https://umbra.space",
+    "category": [
+      "space"
+    ]
+  },
+  {
+    "name": "True Anomaly",
+    "ats": "greenhouse",
+    "slug": "trueanomaly",
+    "website": "https://trueanomaly.space",
+    "category": [
+      "space",
+      "defense"
+    ]
+  },
+  {
+    "name": "Sierra Space",
+    "ats": "greenhouse",
+    "slug": "sierra-space",
+    "website": "https://sierraspace.com",
+    "category": [
+      "space"
+    ]
+  },
+  {
+    "name": "Blue Origin",
+    "ats": "greenhouse",
+    "slug": "blueorigin",
+    "website": "https://blueorigin.com",
+    "category": [
+      "space"
+    ]
+  },
+  {
+    "name": "Vast",
+    "ats": "greenhouse",
+    "slug": "vast-space",
+    "website": "https://www.vast.space",
+    "category": [
+      "space"
+    ]
+  },
+  {
+    "name": "Redwire",
+    "ats": "greenhouse",
+    "slug": "redwire",
+    "website": "https://redwirespace.com",
+    "category": [
+      "space"
+    ]
+  },
+  {
+    "name": "Axiom Space",
+    "ats": "greenhouse",
+    "slug": "axiom-space",
+    "website": "https://axiomspace.com",
+    "category": [
+      "space"
+    ]
+  },
+  {
+    "name": "Apex",
+    "ats": "ashby",
+    "slug": "Apex",
+    "website": "https://apexspace.com",
+    "category": [
+      "space"
+    ]
+  },
+  {
+    "name": "Turion Space",
+    "ats": "ashby",
+    "slug": "turion-space",
+    "website": "https://turionspace.com",
+    "category": [
+      "space"
+    ]
+  },
+  {
+    "name": "IonQ",
+    "ats": "greenhouse",
+    "slug": "ionq",
+    "website": "https://ionq.com",
+    "category": [
+      "quantum"
+    ]
+  },
+  {
+    "name": "Rigetti Computing",
+    "ats": "greenhouse",
+    "slug": "rigetti",
+    "website": "https://rigetti.com",
+    "category": [
+      "quantum"
+    ]
+  },
+  {
+    "name": "PsiQuantum",
+    "ats": "greenhouse",
+    "slug": "psiquantum",
+    "website": "https://psiquantum.com",
+    "category": [
+      "quantum"
+    ]
+  },
+  {
+    "name": "QuEra Computing",
+    "ats": "greenhouse",
+    "slug": "quera",
+    "website": "https://quera.com",
+    "category": [
+      "quantum"
+    ]
+  },
+  {
+    "name": "Atom Computing",
+    "ats": "greenhouse",
+    "slug": "atom-computing",
+    "website": "https://atom-computing.com",
+    "category": [
+      "quantum"
+    ]
+  },
+  {
+    "name": "Xanadu",
+    "ats": "greenhouse",
+    "slug": "xanadu",
+    "website": "https://xanadu.ai",
+    "category": [
+      "quantum"
+    ]
+  },
+  {
+    "name": "Q-CTRL",
+    "ats": "greenhouse",
+    "slug": "q-ctrl",
+    "website": "https://q-ctrl.com",
+    "category": [
+      "quantum"
+    ]
+  },
+  {
+    "name": "Quantinuum",
+    "ats": "lever",
+    "slug": "quantinuum",
+    "website": "https://quantinuum.com",
+    "category": [
+      "quantum"
+    ]
+  },
+  {
+    "name": "Classiq",
+    "ats": "greenhouse",
+    "slug": "classiq",
+    "website": "https://classiq.io",
+    "category": [
+      "quantum"
+    ]
+  },
+  {
+    "name": "Helion Energy",
+    "ats": "greenhouse",
+    "slug": "helion",
+    "website": "https://helionenergy.com",
+    "category": [
+      "nuclear",
+      "energy"
+    ]
+  },
+  {
+    "name": "Commonwealth Fusion",
+    "ats": "greenhouse",
+    "slug": "cfs",
+    "website": "https://cfs.energy",
+    "category": [
+      "nuclear",
+      "energy"
+    ]
+  },
+  {
+    "name": "TAE Technologies",
+    "ats": "greenhouse",
+    "slug": "tae-technologies",
+    "website": "https://tae.com",
+    "category": [
+      "nuclear",
+      "energy"
+    ]
+  },
+  {
+    "name": "TerraPower",
+    "ats": "greenhouse",
+    "slug": "terrapower",
+    "website": "https://terrapower.com",
+    "category": [
+      "nuclear",
+      "energy"
+    ]
+  },
+  {
+    "name": "Oklo",
+    "ats": "greenhouse",
+    "slug": "oklo",
+    "website": "https://oklo.com",
+    "category": [
+      "nuclear",
+      "energy"
+    ]
+  },
+  {
+    "name": "Kairos Power",
+    "ats": "greenhouse",
+    "slug": "kairos-power",
+    "website": "https://kairospower.com",
+    "category": [
+      "nuclear",
+      "energy"
+    ]
+  },
+  {
+    "name": "General Fusion",
+    "ats": "greenhouse",
+    "slug": "general-fusion",
+    "website": "https://generalfusion.com",
+    "category": [
+      "nuclear",
+      "energy"
+    ]
+  },
+  {
+    "name": "Tokamak Energy",
+    "ats": "greenhouse",
+    "slug": "tokamak-energy",
+    "website": "https://tokamakenergy.co.uk",
+    "category": [
+      "nuclear",
+      "energy"
+    ]
+  },
+  {
+    "name": "Figure AI",
+    "ats": "ashby",
+    "slug": "Figure",
+    "website": "https://figure.ai",
+    "category": [
+      "robotics",
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "1X Technologies",
+    "ats": "greenhouse",
+    "slug": "1x-technologies",
+    "website": "https://1x.tech",
+    "category": [
+      "robotics"
+    ]
+  },
+  {
+    "name": "Apptronik",
+    "ats": "greenhouse",
+    "slug": "apptronik",
+    "website": "https://apptronik.com",
+    "category": [
+      "robotics"
+    ]
+  },
+  {
+    "name": "Agility Robotics",
+    "ats": "greenhouse",
+    "slug": "agility-robotics",
+    "website": "https://agilityrobotics.com",
+    "category": [
+      "robotics"
+    ]
+  },
+  {
+    "name": "Covariant",
+    "ats": "greenhouse",
+    "slug": "covariant",
+    "website": "https://covariant.ai",
+    "category": [
+      "robotics",
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Sanctuary AI",
+    "ats": "greenhouse",
+    "slug": "sanctuary-ai",
+    "website": "https://sanctuary.ai",
+    "category": [
+      "robotics",
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Viam",
+    "ats": "greenhouse",
+    "slug": "viam",
+    "website": "https://viam.com",
+    "category": [
+      "robotics",
+      "developer-tools"
+    ]
+  },
+  {
+    "name": "Physical Intelligence",
+    "ats": "ashby",
+    "slug": "pi",
+    "website": "https://physicalintelligence.company",
+    "category": [
+      "robotics",
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Machina Labs",
+    "ats": "greenhouse",
+    "slug": "machina-labs",
+    "website": "https://machinalabs.ai",
+    "category": [
+      "robotics"
+    ]
+  },
+  {
+    "name": "OpenAI",
+    "ats": "greenhouse",
+    "slug": "openai",
+    "website": "https://openai.com",
+    "category": [
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Cohere",
+    "ats": "greenhouse",
+    "slug": "cohere",
+    "website": "https://cohere.com",
+    "category": [
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Runway",
+    "ats": "greenhouse",
+    "slug": "runwayml",
+    "website": "https://runwayml.com",
+    "category": [
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Imbue",
+    "ats": "greenhouse",
+    "slug": "imbue",
+    "website": "https://imbue.com",
+    "category": [
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Allen Institute for AI",
+    "ats": "greenhouse",
+    "slug": "allenai",
+    "website": "https://allenai.org",
+    "category": [
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "xAI",
+    "ats": "greenhouse",
+    "slug": "xai",
+    "website": "https://x.ai",
+    "category": [
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Hugging Face",
+    "ats": "lever",
+    "slug": "hugging-face",
+    "website": "https://huggingface.co",
+    "category": [
+      "ai-ml",
+      "developer-tools"
+    ]
+  },
+  {
+    "name": "Waymo",
+    "ats": "greenhouse",
+    "slug": "waymo",
+    "website": "https://waymo.com",
+    "category": [
+      "autonomous-vehicles",
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Aurora",
+    "ats": "greenhouse",
+    "slug": "aurora-innovation",
+    "website": "https://aurora.tech",
+    "category": [
+      "autonomous-vehicles"
+    ]
+  },
+  {
+    "name": "Zoox",
+    "ats": "greenhouse",
+    "slug": "zoox",
+    "website": "https://zoox.com",
+    "category": [
+      "autonomous-vehicles"
+    ]
+  },
+  {
+    "name": "Motional",
+    "ats": "greenhouse",
+    "slug": "motional",
+    "website": "https://motional.com",
+    "category": [
+      "autonomous-vehicles"
+    ]
+  },
+  {
+    "name": "May Mobility",
+    "ats": "greenhouse",
+    "slug": "may-mobility",
+    "website": "https://maymobility.com",
+    "category": [
+      "autonomous-vehicles"
+    ]
+  },
+  {
+    "name": "Applied Intuition",
+    "ats": "greenhouse",
+    "slug": "applied-intuition",
+    "website": "https://appliedintuition.com",
+    "category": [
+      "autonomous-vehicles",
+      "developer-tools"
+    ]
+  },
+  {
+    "name": "Kodiak Robotics",
+    "ats": "greenhouse",
+    "slug": "kodiak-robotics",
+    "website": "https://kodiak.ai",
+    "category": [
+      "autonomous-vehicles"
+    ]
+  },
+  {
+    "name": "Anduril Industries",
+    "ats": "greenhouse",
+    "slug": "anduril-industries",
+    "website": "https://anduril.com",
+    "category": [
+      "defense"
+    ]
+  },
+  {
+    "name": "Shield AI",
+    "ats": "greenhouse",
+    "slug": "shield-ai",
+    "website": "https://shield.ai",
+    "category": [
+      "defense",
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Rebellion Defense",
+    "ats": "greenhouse",
+    "slug": "rebellion-defense",
+    "website": "https://rebelliondefense.com",
+    "category": [
+      "defense",
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Epirus",
+    "ats": "greenhouse",
+    "slug": "epirus",
+    "website": "https://epirusinc.com",
+    "category": [
+      "defense"
+    ]
+  },
+  {
+    "name": "Vannevar Labs",
+    "ats": "greenhouse",
+    "slug": "vannevar-labs",
+    "website": "https://vannevarlabs.com",
+    "category": [
+      "defense",
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Recursion",
+    "ats": "greenhouse",
+    "slug": "recursionpharma",
+    "website": "https://recursion.com",
+    "category": [
+      "biotech",
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Insitro",
+    "ats": "greenhouse",
+    "slug": "insitro",
+    "website": "https://insitro.com",
+    "category": [
+      "biotech",
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Schrodinger",
+    "ats": "greenhouse",
+    "slug": "schrodinger",
+    "website": "https://schrodinger.com",
+    "category": [
+      "biotech",
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Absci",
+    "ats": "greenhouse",
+    "slug": "absci",
+    "website": "https://absci.com",
+    "category": [
+      "biotech",
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "10x Genomics",
+    "ats": "greenhouse",
+    "slug": "10xgenomics",
+    "website": "https://10xgenomics.com",
+    "category": [
+      "biotech"
+    ]
+  },
+  {
+    "name": "Generate Biomedicines",
+    "ats": "greenhouse",
+    "slug": "generatebiomedicines",
+    "website": "https://generatebiomedicines.com",
+    "category": [
+      "biotech",
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Isomorphic Labs",
+    "ats": "greenhouse",
+    "slug": "isomorphiclabs",
+    "website": "https://isomorphiclabs.com",
+    "category": [
+      "biotech",
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Exscientia",
+    "ats": "greenhouse",
+    "slug": "exscientia",
+    "website": "https://exscientia.ai",
+    "category": [
+      "biotech",
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Cerebras Systems",
+    "ats": "greenhouse",
+    "slug": "cerebras-systems",
+    "website": "https://cerebras.net",
+    "category": [
+      "semiconductors",
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Tenstorrent",
+    "ats": "greenhouse",
+    "slug": "tenstorrent",
+    "website": "https://tenstorrent.com",
+    "category": [
+      "semiconductors",
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Groq",
+    "ats": "greenhouse",
+    "slug": "groq",
+    "website": "https://groq.com",
+    "category": [
+      "semiconductors",
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Etched",
+    "ats": "ashby",
+    "slug": "Etched",
+    "website": "https://etched.com",
+    "category": [
+      "semiconductors",
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "d-Matrix",
+    "ats": "greenhouse",
+    "slug": "d-matrix",
+    "website": "https://d-matrix.ai",
+    "category": [
+      "semiconductors",
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Mythic",
+    "ats": "greenhouse",
+    "slug": "mythic",
+    "website": "https://mythic-ai.com",
+    "category": [
+      "semiconductors",
+      "ai-ml"
+    ]
+  },
+  {
+    "name": "Form Energy",
+    "ats": "greenhouse",
+    "slug": "form-energy",
+    "website": "https://formenergy.com",
+    "category": [
+      "climate",
+      "energy"
+    ]
+  },
+  {
+    "name": "QuantumScape",
+    "ats": "greenhouse",
+    "slug": "quantumscape",
+    "website": "https://quantumscape.com",
+    "category": [
+      "climate",
+      "energy"
+    ]
+  },
+  {
+    "name": "Redwood Materials",
+    "ats": "greenhouse",
+    "slug": "redwood-materials",
+    "website": "https://redwoodmaterials.com",
+    "category": [
+      "climate",
+      "energy"
+    ]
+  },
+  {
+    "name": "Northvolt",
+    "ats": "greenhouse",
+    "slug": "northvolt",
+    "website": "https://northvolt.com",
+    "category": [
+      "climate",
+      "energy"
+    ]
+  },
+  {
+    "name": "Heirloom Carbon",
+    "ats": "greenhouse",
+    "slug": "heirloom-carbon",
+    "website": "https://heirloomcarbon.com",
+    "category": [
+      "climate"
+    ]
+  },
+  {
+    "name": "Rondo Energy",
+    "ats": "greenhouse",
+    "slug": "rondo-energy",
+    "website": "https://rondoenergy.com",
+    "category": [
+      "climate",
+      "energy"
+    ]
+  },
+  {
+    "name": "Antora Energy",
+    "ats": "greenhouse",
+    "slug": "antora-energy",
+    "website": "https://antoraenergy.com",
+    "category": [
+      "climate",
+      "energy"
+    ]
+  },
+  {
+    "name": "Epic Games",
+    "ats": "greenhouse",
+    "slug": "epic-games",
+    "website": "https://epicgames.com",
+    "category": [
+      "gaming"
+    ]
+  },
+  {
+    "name": "Riot Games",
+    "ats": "greenhouse",
+    "slug": "riotgames",
+    "website": "https://riotgames.com",
+    "category": [
+      "gaming"
+    ]
+  },
+  {
+    "name": "Roblox",
+    "ats": "greenhouse",
+    "slug": "roblox",
+    "website": "https://roblox.com",
+    "category": [
+      "gaming"
+    ]
+  },
+  {
+    "name": "Bungie",
+    "ats": "greenhouse",
+    "slug": "bungie",
+    "website": "https://bungie.net",
+    "category": [
+      "gaming"
+    ]
+  },
+  {
+    "name": "Niantic",
+    "ats": "greenhouse",
+    "slug": "niantic-labs",
+    "website": "https://nianticlabs.com",
+    "category": [
+      "gaming"
+    ]
+  },
+  {
+    "name": "CD Projekt Red",
+    "ats": "greenhouse",
+    "slug": "cdprojektred",
+    "website": "https://cdprojektred.com",
+    "category": [
+      "gaming"
+    ]
+  },
+  {
+    "name": "Remedy Entertainment",
+    "ats": "greenhouse",
+    "slug": "remedy",
+    "website": "https://remedygames.com",
+    "category": [
+      "gaming"
+    ]
+  },
+  {
+    "name": "Unity Technologies",
+    "ats": "greenhouse",
+    "slug": "unity-technologies",
+    "website": "https://unity.com",
+    "category": [
+      "gaming",
+      "developer-tools"
+    ]
+  },
+  {
+    "name": "Neuralink",
+    "ats": "greenhouse",
+    "slug": "neuralink",
+    "website": "https://neuralink.com",
+    "category": [
+      "neurotech"
+    ]
+  },
+  {
+    "name": "Synchron",
+    "ats": "greenhouse",
+    "slug": "synchron",
+    "website": "https://synchron.com",
+    "category": [
+      "neurotech"
+    ]
+  },
+  {
+    "name": "Precision Neuroscience",
+    "ats": "greenhouse",
+    "slug": "precision-neuroscience",
+    "website": "https://precisionneuro.io",
+    "category": [
+      "neurotech"
+    ]
+  },
+  {
+    "name": "Saildrone",
+    "ats": "greenhouse",
+    "slug": "saildrone",
+    "website": "https://saildrone.com",
+    "category": [
+      "ocean",
+      "robotics"
+    ]
+  },
+  {
+    "name": "Terradepth",
+    "ats": "greenhouse",
+    "slug": "terradepth",
+    "website": "https://terradepth.com",
+    "category": [
+      "ocean"
+    ]
+  },
+  {
+    "name": "Nuro",
+    "ats": "greenhouse",
+    "slug": "nuro",
+    "category": []
+  }
 ]
