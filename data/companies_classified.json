@@ -1,0 +1,139 @@
+[
+  {
+    "name": "Stripe",
+    "slug": "stripe",
+    "grounded": false,
+    "summary": "Stripe provides payment processing infrastructure for online businesses.",
+    "industry": [
+      "fintech",
+      "payments",
+      "developer-tools"
+    ],
+    "stage": "public",
+    "source_hash": "762f82f2"
+  },
+  {
+    "name": "Airbnb",
+    "slug": "airbnb",
+    "grounded": false,
+    "summary": "Airbnb operates a global marketplace platform connecting hosts and guests for short-term lodging.",
+    "industry": [
+      "marketplace",
+      "consumer"
+    ],
+    "stage": "public",
+    "source_hash": "5359fe4f"
+  },
+  {
+    "name": "Figma",
+    "slug": "figma",
+    "grounded": false,
+    "summary": "Figma builds a collaborative web-based interface design tool for real-time team collaboration.",
+    "industry": [
+      "saas",
+      "enterprise-software"
+    ],
+    "stage": "late-stage",
+    "source_hash": "7e401556"
+  },
+  {
+    "name": "Vercel",
+    "slug": "vercel",
+    "grounded": false,
+    "summary": "Vercel builds a platform for frontend developers to deploy and collaborate on web applications with serverless infrastructure.",
+    "industry": [
+      "developer-tools",
+      "cloud",
+      "open-source"
+    ],
+    "stage": "late-stage",
+    "source_hash": "620342df"
+  },
+  {
+    "name": "Netlify",
+    "slug": "netlify",
+    "grounded": false,
+    "summary": "Netlify provides a cloud platform for deploying and hosting web applications, with a focus on static sites and serverless functions.",
+    "industry": [
+      "developer-tools",
+      "cloud",
+      "open-source"
+    ],
+    "stage": "late-stage",
+    "source_hash": "b42aed83"
+  },
+  {
+    "name": "Scale AI",
+    "slug": "scaleai",
+    "grounded": false,
+    "summary": "Scale AI builds tools for labeling and annotating data used to train artificial intelligence and machine learning models.",
+    "industry": [
+      "ai-ml",
+      "data"
+    ],
+    "stage": "late-stage",
+    "source_hash": "14725541"
+  },
+  {
+    "name": "Anthropic",
+    "slug": "anthropic",
+    "grounded": false,
+    "summary": "Anthropic develops large-scale AI language models for enterprise and developer use.",
+    "industry": [
+      "ai-ml",
+      "enterprise-software"
+    ],
+    "stage": "late-stage",
+    "source_hash": "a5a2970a"
+  },
+  {
+    "name": "Mistral",
+    "slug": "mistral",
+    "grounded": false,
+    "summary": "Mistral builds open-source large language models for AI developers.",
+    "industry": [
+      "ai-ml",
+      "open-source"
+    ],
+    "stage": "late-stage",
+    "source_hash": "b8be1fdc"
+  },
+  {
+    "name": "Linear",
+    "slug": "Linear",
+    "grounded": true,
+    "summary": "Linear builds a platform for product development that integrates AI tools for teams and agents.",
+    "industry": [
+      "ai-ml",
+      "developer-tools",
+      "enterprise-software"
+    ],
+    "stage": "growth",
+    "source_hash": "5007547c"
+  },
+  {
+    "name": "Clerk",
+    "slug": "Clerk",
+    "grounded": true,
+    "summary": "Clerk builds full-stack React components and hooks for user and organization management.",
+    "industry": [
+      "developer-tools",
+      "saas"
+    ],
+    "stage": "unknown",
+    "source_hash": "ae166909"
+  },
+  {
+    "name": "Supabase",
+    "slug": "Supabase",
+    "grounded": true,
+    "summary": "Supabase builds a Postgres development platform offering Database, Auth, Storage, Edge Functions, Realtime, and Vector Search.",
+    "industry": [
+      "developer-tools",
+      "infrastructure",
+      "open-source"
+    ],
+    "stage": "growth",
+    "source_hash": "23386a3c"
+  }
+]
