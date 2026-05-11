@@ -126,7 +126,7 @@
   {
     "name": "Relativity Space",
     "ats": "greenhouse",
-    "slug": "relativityspace",
+    "slug": "relativity",
     "website": "https://relativityspace.com",
     "category": [
       "space"
@@ -180,7 +180,7 @@
   {
     "name": "True Anomaly",
     "ats": "greenhouse",
-    "slug": "trueanomaly",
+    "slug": "trueanomalyinc",
     "website": "https://trueanomaly.space",
     "category": [
       "space",
@@ -189,8 +189,8 @@
   },
   {
     "name": "Sierra Space",
-    "ats": "greenhouse",
-    "slug": "sierra-space",
+    "ats": "ashby",
+    "slug": "sierra",
     "website": "https://sierraspace.com",
     "category": [
       "space"
@@ -198,7 +198,7 @@
   },
   {
     "name": "Blue Origin",
-    "ats": "greenhouse",
+    "ats": "lever",
     "slug": "blueorigin",
     "website": "https://blueorigin.com",
     "category": [
@@ -208,7 +208,7 @@
   {
     "name": "Vast",
     "ats": "greenhouse",
-    "slug": "vast-space",
+    "slug": "vast",
     "website": "https://www.vast.space",
     "category": [
       "space"
@@ -226,7 +226,7 @@
   {
     "name": "Axiom Space",
     "ats": "greenhouse",
-    "slug": "axiom-space",
+    "slug": "axiom",
     "website": "https://axiomspace.com",
     "category": [
       "space"
@@ -234,8 +234,8 @@
   },
   {
     "name": "Apex",
-    "ats": "ashby",
-    "slug": "Apex",
+    "ats": "greenhouse",
+    "slug": "apex",
     "website": "https://apexspace.com",
     "category": [
       "space"
@@ -261,7 +261,7 @@
   },
   {
     "name": "Rigetti Computing",
-    "ats": "greenhouse",
+    "ats": "lever",
     "slug": "rigetti",
     "website": "https://rigetti.com",
     "category": [
@@ -288,8 +288,8 @@
   },
   {
     "name": "Atom Computing",
-    "ats": "greenhouse",
-    "slug": "atom-computing",
+    "ats": "lever",
+    "slug": "atomcomputing",
     "website": "https://atom-computing.com",
     "category": [
       "quantum"
@@ -306,7 +306,7 @@
   },
   {
     "name": "Q-CTRL",
-    "ats": "greenhouse",
+    "ats": "lever",
     "slug": "q-ctrl",
     "website": "https://q-ctrl.com",
     "category": [
@@ -333,7 +333,7 @@
   },
   {
     "name": "Helion Energy",
-    "ats": "greenhouse",
+    "ats": "ashby",
     "slug": "helion",
     "website": "https://helionenergy.com",
     "category": [
@@ -343,8 +343,8 @@
   },
   {
     "name": "Commonwealth Fusion",
-    "ats": "greenhouse",
-    "slug": "cfs",
+    "ats": "lever",
+    "slug": "cfsenergy",
     "website": "https://cfs.energy",
     "category": [
       "nuclear",
@@ -356,16 +356,6 @@
     "ats": "greenhouse",
     "slug": "tae-technologies",
     "website": "https://tae.com",
-    "category": [
-      "nuclear",
-      "energy"
-    ]
-  },
-  {
-    "name": "TerraPower",
-    "ats": "greenhouse",
-    "slug": "terrapower",
-    "website": "https://terrapower.com",
     "category": [
       "nuclear",
       "energy"
@@ -384,7 +374,7 @@
   {
     "name": "Kairos Power",
     "ats": "greenhouse",
-    "slug": "kairos-power",
+    "slug": "kairospower",
     "website": "https://kairospower.com",
     "category": [
       "nuclear",
@@ -423,8 +413,8 @@
   },
   {
     "name": "1X Technologies",
-    "ats": "greenhouse",
-    "slug": "1x-technologies",
+    "ats": "ashby",
+    "slug": "1x",
     "website": "https://1x.tech",
     "category": [
       "robotics"
@@ -442,7 +432,7 @@
   {
     "name": "Agility Robotics",
     "ats": "greenhouse",
-    "slug": "agility-robotics",
+    "slug": "agilityrobotics",
     "website": "https://agilityrobotics.com",
     "category": [
       "robotics"
@@ -460,8 +450,8 @@
   },
   {
     "name": "Sanctuary AI",
-    "ats": "greenhouse",
-    "slug": "sanctuary-ai",
+    "ats": "lever",
+    "slug": "sanctuary",
     "website": "https://sanctuary.ai",
     "category": [
       "robotics",
@@ -471,7 +461,7 @@
   {
     "name": "Viam",
     "ats": "greenhouse",
-    "slug": "viam",
+    "slug": "viamrobotics",
     "website": "https://viam.com",
     "category": [
       "robotics",
@@ -481,7 +471,7 @@
   {
     "name": "Physical Intelligence",
     "ats": "ashby",
-    "slug": "pi",
+    "slug": "physicalintelligence",
     "website": "https://physicalintelligence.company",
     "category": [
       "robotics",
@@ -499,7 +489,7 @@
   },
   {
     "name": "OpenAI",
-    "ats": "greenhouse",
+    "ats": "ashby",
     "slug": "openai",
     "website": "https://openai.com",
     "category": [
@@ -508,7 +498,7 @@
   },
   {
     "name": "Cohere",
-    "ats": "greenhouse",
+    "ats": "ashby",
     "slug": "cohere",
     "website": "https://cohere.com",
     "category": [
@@ -517,8 +507,8 @@
   },
   {
     "name": "Runway",
-    "ats": "greenhouse",
-    "slug": "runwayml",
+    "ats": "ashby",
+    "slug": "runway",
     "website": "https://runwayml.com",
     "category": [
       "ai-ml"
@@ -536,7 +526,7 @@
   {
     "name": "Allen Institute for AI",
     "ats": "greenhouse",
-    "slug": "allenai",
+    "slug": "thealleninstitute",
     "website": "https://allenai.org",
     "category": [
       "ai-ml"
@@ -582,7 +572,7 @@
   },
   {
     "name": "Zoox",
-    "ats": "greenhouse",
+    "ats": "lever",
     "slug": "zoox",
     "website": "https://zoox.com",
     "category": [
@@ -601,7 +591,7 @@
   {
     "name": "May Mobility",
     "ats": "greenhouse",
-    "slug": "may-mobility",
+    "slug": "maymobility",
     "website": "https://maymobility.com",
     "category": [
       "autonomous-vehicles"
@@ -610,7 +600,7 @@
   {
     "name": "Applied Intuition",
     "ats": "greenhouse",
-    "slug": "applied-intuition",
+    "slug": "appliedintuition",
     "website": "https://appliedintuition.com",
     "category": [
       "autonomous-vehicles",
@@ -620,7 +610,7 @@
   {
     "name": "Kodiak Robotics",
     "ats": "greenhouse",
-    "slug": "kodiak-robotics",
+    "slug": "kodiak",
     "website": "https://kodiak.ai",
     "category": [
       "autonomous-vehicles"
@@ -629,7 +619,7 @@
   {
     "name": "Anduril Industries",
     "ats": "greenhouse",
-    "slug": "anduril-industries",
+    "slug": "andurilindustries",
     "website": "https://anduril.com",
     "category": [
       "defense"
@@ -638,7 +628,7 @@
   {
     "name": "Shield AI",
     "ats": "greenhouse",
-    "slug": "shield-ai",
+    "slug": "shield",
     "website": "https://shield.ai",
     "category": [
       "defense",
@@ -648,7 +638,7 @@
   {
     "name": "Rebellion Defense",
     "ats": "greenhouse",
-    "slug": "rebellion-defense",
+    "slug": "rebelliondefense",
     "website": "https://rebelliondefense.com",
     "category": [
       "defense",
@@ -667,7 +657,7 @@
   {
     "name": "Vannevar Labs",
     "ats": "greenhouse",
-    "slug": "vannevar-labs",
+    "slug": "vannevarlabs",
     "website": "https://vannevarlabs.com",
     "category": [
       "defense",
@@ -675,18 +665,8 @@
     ]
   },
   {
-    "name": "Recursion",
-    "ats": "greenhouse",
-    "slug": "recursionpharma",
-    "website": "https://recursion.com",
-    "category": [
-      "biotech",
-      "ai-ml"
-    ]
-  },
-  {
     "name": "Insitro",
-    "ats": "greenhouse",
+    "ats": "ashby",
     "slug": "insitro",
     "website": "https://insitro.com",
     "category": [
@@ -744,19 +724,9 @@
     ]
   },
   {
-    "name": "Exscientia",
-    "ats": "greenhouse",
-    "slug": "exscientia",
-    "website": "https://exscientia.ai",
-    "category": [
-      "biotech",
-      "ai-ml"
-    ]
-  },
-  {
     "name": "Cerebras Systems",
     "ats": "greenhouse",
-    "slug": "cerebras-systems",
+    "slug": "cerebrassystems",
     "website": "https://cerebras.net",
     "category": [
       "semiconductors",
@@ -795,7 +765,7 @@
   },
   {
     "name": "d-Matrix",
-    "ats": "greenhouse",
+    "ats": "ashby",
     "slug": "d-matrix",
     "website": "https://d-matrix.ai",
     "category": [
@@ -815,8 +785,8 @@
   },
   {
     "name": "Form Energy",
-    "ats": "greenhouse",
-    "slug": "form-energy",
+    "ats": "lever",
+    "slug": "form",
     "website": "https://formenergy.com",
     "category": [
       "climate",
@@ -836,7 +806,7 @@
   {
     "name": "Redwood Materials",
     "ats": "greenhouse",
-    "slug": "redwood-materials",
+    "slug": "redwoodmaterials",
     "website": "https://redwoodmaterials.com",
     "category": [
       "climate",
@@ -855,8 +825,8 @@
   },
   {
     "name": "Heirloom Carbon",
-    "ats": "greenhouse",
-    "slug": "heirloom-carbon",
+    "ats": "ashby",
+    "slug": "heirloomcarbon",
     "website": "https://heirloomcarbon.com",
     "category": [
       "climate"
@@ -865,7 +835,7 @@
   {
     "name": "Rondo Energy",
     "ats": "greenhouse",
-    "slug": "rondo-energy",
+    "slug": "rondoenergy",
     "website": "https://rondoenergy.com",
     "category": [
       "climate",
@@ -875,7 +845,7 @@
   {
     "name": "Antora Energy",
     "ats": "greenhouse",
-    "slug": "antora-energy",
+    "slug": "antora",
     "website": "https://antoraenergy.com",
     "category": [
       "climate",
@@ -885,7 +855,7 @@
   {
     "name": "Epic Games",
     "ats": "greenhouse",
-    "slug": "epic-games",
+    "slug": "epicgames",
     "website": "https://epicgames.com",
     "category": [
       "gaming"
@@ -920,8 +890,8 @@
   },
   {
     "name": "Niantic",
-    "ats": "greenhouse",
-    "slug": "niantic-labs",
+    "ats": "ashby",
+    "slug": "niantic",
     "website": "https://nianticlabs.com",
     "category": [
       "gaming"
@@ -1005,6 +975,406 @@
     "name": "Nuro",
     "ats": "greenhouse",
     "slug": "nuro",
+    "category": []
+  },
+  {
+    "name": "Altos Labs",
+    "ats": "greenhouse",
+    "slug": "altoslabs",
+    "category": []
+  },
+  {
+    "name": "Bedrock Ocean",
+    "ats": "ashby",
+    "slug": "bedrockocean",
+    "category": []
+  },
+  {
+    "name": "Beta Technologies",
+    "ats": "lever",
+    "slug": "beta",
+    "category": []
+  },
+  {
+    "name": "Calico Labs",
+    "ats": "greenhouse",
+    "slug": "calicolabs",
+    "category": []
+  },
+  {
+    "name": "Capella Space",
+    "ats": "greenhouse",
+    "slug": "capellaspace",
+    "category": []
+  },
+  {
+    "name": "ElevenLabs",
+    "ats": "ashby",
+    "slug": "elevenlabs",
+    "category": []
+  },
+  {
+    "name": "Ginkgo Bioworks",
+    "ats": "greenhouse",
+    "slug": "ginkgobioworks",
+    "category": []
+  },
+  {
+    "name": "Inari Agriculture",
+    "ats": "greenhouse",
+    "slug": "inariagriculture",
+    "category": []
+  },
+  {
+    "name": "Isar Aerospace",
+    "ats": "greenhouse",
+    "slug": "isaraerospace",
+    "category": []
+  },
+  {
+    "name": "Lightmatter",
+    "ats": "greenhouse",
+    "slug": "lightmatter",
+    "category": []
+  },
+  {
+    "name": "Loft Orbital",
+    "ats": "lever",
+    "slug": "loftorbital",
+    "category": []
+  },
+  {
+    "name": "Orbital Sidekick",
+    "ats": "lever",
+    "slug": "orbitalsidekick",
+    "category": []
+  },
+  {
+    "name": "Palantir",
+    "ats": "lever",
+    "slug": "palantir",
+    "category": []
+  },
+  {
+    "name": "Primer AI",
+    "ats": "greenhouse",
+    "slug": "primerai",
+    "category": []
+  },
+  {
+    "name": "Quaise Energy",
+    "ats": "greenhouse",
+    "slug": "quaise",
+    "category": []
+  },
+  {
+    "name": "Relay Therapeutics",
+    "ats": "greenhouse",
+    "slug": "relaytherapeutics",
+    "category": []
+  },
+  {
+    "name": "Seurat Technologies",
+    "ats": "greenhouse",
+    "slug": "seurat",
+    "category": []
+  },
+  {
+    "name": "Skydio",
+    "ats": "ashby",
+    "slug": "skydio",
+    "category": []
+  },
+  {
+    "name": "Sofar Ocean",
+    "ats": "ashby",
+    "slug": "sofarocean",
+    "category": []
+  },
+  {
+    "name": "Velo3D",
+    "ats": "lever",
+    "slug": "velo3d",
+    "category": []
+  },
+  {
+    "name": "Wayve",
+    "ats": "greenhouse",
+    "slug": "wayve",
+    "category": []
+  },
+  {
+    "name": "Weaviate",
+    "ats": "ashby",
+    "slug": "weaviate",
+    "category": []
+  },
+  {
+    "name": "Archer Aviation",
+    "ats": "greenhouse",
+    "slug": "archer56",
+    "category": []
+  },
+  {
+    "name": "Cajal Therapeutics",
+    "ats": "greenhouse",
+    "slug": "cajal-tx",
+    "category": []
+  },
+  {
+    "name": "Larian Studios",
+    "ats": "lever",
+    "slug": "larian",
+    "category": []
+  },
+  {
+    "name": "Qdrant",
+    "ats": "ashby",
+    "slug": "qdrant.tech",
+    "category": []
+  },
+  {
+    "name": "Retro Biosciences",
+    "ats": "lever",
+    "slug": "retro",
+    "category": []
+  },
+  {
+    "name": "Varda Space Industries",
+    "ats": "greenhouse",
+    "slug": "vardaspace",
+    "category": []
+  },
+  {
+    "name": "BlackSky",
+    "ats": "greenhouse",
+    "slug": "blacksky",
+    "category": []
+  },
+  {
+    "name": "ClickHouse",
+    "ats": "greenhouse",
+    "slug": "clickhouse",
+    "category": []
+  },
+  {
+    "name": "Docker",
+    "ats": "ashby",
+    "slug": "docker",
+    "category": []
+  },
+  {
+    "name": "EightSleep",
+    "ats": "ashby",
+    "slug": "eightsleep",
+    "category": []
+  },
+  {
+    "name": "Finch",
+    "ats": "lever",
+    "slug": "finch",
+    "category": []
+  },
+  {
+    "name": "Found",
+    "ats": "greenhouse",
+    "slug": "found",
+    "category": []
+  },
+  {
+    "name": "GitLab",
+    "ats": "greenhouse",
+    "slug": "gitlab",
+    "category": []
+  },
+  {
+    "name": "Havoc AI",
+    "ats": "ashby",
+    "slug": "havocai",
+    "category": []
+  },
+  {
+    "name": "Katalyst",
+    "ats": "greenhouse",
+    "slug": "katalyst",
+    "category": []
+  },
+  {
+    "name": "LiveKit",
+    "ats": "ashby",
+    "slug": "livekit",
+    "category": []
+  },
+  {
+    "name": "Netflix",
+    "ats": "lever",
+    "slug": "netflix",
+    "category": []
+  },
+  {
+    "name": "OneBrief",
+    "ats": "ashby",
+    "slug": "onebrief",
+    "category": []
+  },
+  {
+    "name": "Rula",
+    "ats": "ashby",
+    "slug": "rula",
+    "category": []
+  },
+  {
+    "name": "Slingshot Aerospace",
+    "ats": "greenhouse",
+    "slug": "slingshotaerospace",
+    "category": []
+  },
+  {
+    "name": "Strava",
+    "ats": "ashby",
+    "slug": "strava",
+    "category": []
+  },
+  {
+    "name": "Tailscale",
+    "ats": "greenhouse",
+    "slug": "tailscale",
+    "category": []
+  },
+  {
+    "name": "Temporal",
+    "ats": "greenhouse",
+    "slug": "temporal",
+    "category": []
+  },
+  {
+    "name": "Ursa Major",
+    "ats": "greenhouse",
+    "slug": "ursamajor",
+    "category": []
+  },
+  {
+    "name": "Grafana",
+    "ats": "greenhouse",
+    "slug": "grafanalabs",
+    "website": "https://grafana.com",
+    "category": [],
+    "about_text": "Careers at Grafana Labs | Build the Future of Observability | Grafana Labs What\u2019s new: Grafana 13 release, the latest in AI, OSS project updates, and more from GrafanaCON2026 Learn more EN Downloads Contact Us Grafana Cloud Solutions Pricing Open Source Learn Docs Company AI/Search Sign in Sign up Site Search Ask AI Shape the future of observability Create, sell, and scale technology that matters with a global, remote-first team built on trust, ownership, and impact. Explore open roles 1,600+ Global employees in 40+ countries (and growing every month!) Top 5% Our 2025 employee engagement score puts us in the top 5% of global technology companies 100% We are 100% fully remote and hold ourselves responsible for outcomes not hours or location Our guiding principles Shared values are foundational to culture. They empower us, as both individuals and teams, to have an impact and achieve our mission, because we\u2019re aligned on what\u2019s really important to us. We\u2019ve established these guiding principles to drive independent thinking, thoughtful decision-making, and result-oriented action that stays true to our mission. Long-term greedy: Grafanistas think long-term, prioritizing enduring value over short-term gains, and act today with tomorrow in mind. We will not sacrifice long-term success for immediate upside. Souls intact: Grafanistas operate with integrity. We think about what it will take to appreciate and respect each other decades from now, and actively work to build that trust every single day. Do (and say) the hard things: Grafanistas are courageous. We address difficult issues directly and kindly, make tough decisions, have uncomfortable conversations, and drive necessary change, understanding the cost of avoidance. Ship constantly: Grafanistas iterate rapidly. We release early and often to learn and adapt. We value feedback, embrace experimentation, and understand our success comes through continuous refinement. We are all in customer success: Our success is defined solely by the success of our customers. Grafanistas dismantle traditional organizational barriers to solve customer problems. Every role is customer-impacting because every decision impacts the value we deliver. Seek diverse perspectives: Grafanistas make stronger decisions by seeking out diverse perspectives. We recognize building Grafana Labs is our collective responsibility and work across boundaries to achieve it. We break down silos and optimize for overall success, not just one team. Roll your sleeves up: Grafanistas dive deep. We stay connected to the details and are unafraid to get our hands dirty. We understand our domains thoroughly to ensure high standards are achieved. Help each other thrive: We lift each other up and act with integrity. We actively support colleagues, share knowledge, and foster an environment where everyone can succeed. We uphold our values, especially under pressure, acting with intelligence and heart. Default to transparency: Grafanistas operate openly. "
+  },
+  {
+    "name": "Headspace",
+    "ats": "greenhouse",
+    "slug": "hs",
+    "website": "https://headspace.com",
+    "category": [],
+    "about_text": "About Us - Headspace Take a Global Deep Breath on May 13th For You What we offer Meditation Online therapy Mindfulness Sleep Mental health coaching Ebb AI companion How we help Anxiety Stress Sleep better Mental health Mindful families Explore our library New and popular Guided courses Beginning meditation Calming everyday anxiety Mindful parenting Mindfulness at work Sleep music White noise View all Get started with therapy For Business Who we serve Employers Small businesses Health plans Consultants Members What we offer Full EAP replacement Comprehensive mental health care Meditation and mindfulness Our approach Our care model Headspace culture Resources Customer stories White papers and research Events and webinars Request a demo For Providers Our Plans Headspace app subscriptions Annual Monthly Pay with HSA/FSA Family plan Gifts Refer a friend Redeem a code Human care services Online therapy Mental health coaching Businesses Plans for businesses Plans for small businesses Try for free Resources Explore the blog Meditation Mindfulness Sleep Mental Health View all Mental health articles What is mental health coaching? What can a mental health coach help me with? How do I get started with mental health coaching? View all Meditation articles What is meditation? Meditation techniques How to meditate View all Mindfulness articles What is mindfulness? Flow state How to be more present View all Sleep articles Sleepy hygiene How to sleep better How to fall asleep View all Resources for business 2025 Workforce State of Mind Tailoring EAPs for Today&#x27;s Workforce The value of workplace mental health support View all Try for free About About Headspace About us Our teachers Press Brand partners Ginger is now Headspace Our expertise Science White papers and research AI at Headspace Join us Careers Headspace Training Institute Care providers Try for free Log in Help Try for free About Headspace Headspace&#x27;s mission is to provide every person access to lifelong mental health support. Who we are Think of Headspace as your everyday mental health companion, making it easy to put your mind first with personalized support \u2013 from self-guided to human delivered clinical care \u2013 designed for everyday life. What we do Through evidence-based meditation and mindfulness tools, AI-powered guidance, mental health coaching, therapy, psychiatry, Headspace helps you create life-changing habits to support your mental health and find a healthier, happier you. How we do it Our four values inform our decisions and how we operate day-to-day: Make the Mission Matter, Iterate to Great, Own the Outcome, Connect with Courage. Headspace Headspace is the leading everyday mental health companion, helping people care for their minds anytime, anywhere. Our all-in-one app delivers personalized support \u2014 from AI-powered guidance to meditation and mindfulness, coaching, and therapy \u2014 all designed to fit seamlessly into daily life. We partner with employers, health plans, and organizat"
+  },
+  {
+    "name": "Scribd",
+    "ats": "ashby",
+    "slug": "ScribdInc",
+    "website": "https://scribd.com",
+    "category": [],
+    "about_text": "About Scribd Inc. | Scribd Inc. Home About Newsroom Commitments Careers Contact We close the gap between information and understanding. Scribd, Inc. is an AI-powered knowledge company. Our products leverage the world&#x27;s largest collection of human-created content and intelligent tools to help people move from information access to real understanding and application. Our core values 01 Prioritize the Customer. We put our customers first. We passionately strive to understand and serve their unique needs, create delight, reduce complexity and build trust. 02 Be Real. We are true to ourselves. We act with authenticity and transparency. We are open minded and seek diverse perspectives without exception. 03 Be Bold. We challenge the status quo, welcome big ideas and push boundaries. By taking calculated risks, we build resilience and confidence. 04 Act Like an Owner. We are all in. We are intensely enthusiastic about the future of Scribd, Inc. and make decisions with the best interest of the company in mind. 05 Debate &amp; Commit. We value all ideas and encourage respectful debate to bring varying perspectives to the table. Once a decision is made, we fully commit. 06 Embrace Plot Twists. We navigate the unexpected with data and intuition. We learn by doing and grow from our mistakes. 07 Take Action. We bias toward action. We move fast and aim for progress over perfection, focusing on finding clarity over certainty. We trust our gut and get to it. 08 Deliver Today; Build for Tomorrow. We invest in the future by delivering results now. We balance future potential and present realities with discipline and optimism. Leadership Tony Grimminck Chief Executive Officer Read more Tony Grimminck Chief Executive Officer Tony Grimminck is the Chief Executive Officer of Scribd, Inc., where he leads the company\u2019s vision, strategy, and operations. He joined Scribd, Inc. as Chief Financial Officer in 2019 and was appointed CEO in 2023, bringing deep experience in finance, strategy, and scaling consumer-focused businesses. \u200d Prior to Scribd, Inc., Tony held executive roles at HotelTonight and StubHub and served as Vice President of Investment Banking at Goldman Sachs and J.P. Morgan. Earlier in his career, he was an Officer in the Australian Army. He holds a Bachelor of Engineering (Honors) and a Master\u2019s in Engineering Science from the University of New South Wales, an MBA from Columbia University, and graduated from the Royal Military College, Duntroon, and the Australian Defence Force Academy. Patsy Mangan Chief People Officer Read more Patsy Mangan Chief People Officer Patsy Mangan is the Chief People Officer at Scribd, Inc., leading Human Resources, Talent Acquisition, People Experience, Internal Communications, and IT. She is known for progressive thinking and building innovative people strategies that strengthen culture and performance. Her leadership has driven initiatives such as ScribdFlex, the company\u2019s differentiated flexible work model; Scribd Humans"
+  },
+  {
+    "name": "Recursion",
+    "ats": "greenhouse",
+    "slug": "recursionpharmaceuticals",
+    "website": "https://recursion.com",
+    "category": []
+  },
+  {
+    "name": "TerraPower",
+    "ats": "greenhouse",
+    "slug": "terrapowerllc",
+    "website": "https://terrapower.com",
+    "category": []
+  },
+  {
+    "name": "Second Dinner",
+    "ats": "ashby",
+    "slug": "SecondDinner",
+    "website": "https://seconddinner.com",
+    "category": []
+  },
+  {
+    "name": "Undead Labs",
+    "ats": "greenhouse",
+    "slug": "undeadlabsllc",
+    "website": "https://undeadlabs.com",
+    "category": [],
+    "about_text": "About &mdash; Undead Labs 0 Skip to Content Undead Labs Home About State of Decay Careers Open Menu Close Menu Undead Labs Home About State of Decay Careers Open Menu Close Menu Home About State of Decay Careers WE BRAVE THE DARKNESS TO DISCOVER OUR LIGHT Transformative in-game experiences that create a positive impact. At Undead Labs, our studio of ambitious and intentional creative leaders aims to elevate each other, our games, and the world around us. We strive to achieve our highest potential together, courageously redefining what\u2019s possible and developing games that inspire and unite. Our Story Undead Labs was founded in 2009 and is known for developing the survival-fantasy franchise State of Decay, which has garnered a fan base of over 10 million. Undead Labs first released State of Decay in 2013 on Xbox 360 and launched State of Decay 2 in 2018 on Xbox One, Windows, and Xbox GamePass. State of Decay is not a hero\u2019s journey but an experience that calls for ingenuity, adaptability, perseverance, and collectivism. Despite its dystopian setting, State of Decay is optimistic. Players\u2019 actions have enduring consequences, and the struggle to survive is an expression of hope. As one of the Xbox Game Studios, our team operates from Undead Labs\u2019 flagship studio in downtown Seattle, WA, and our satellite studios in Champaign, IL, and Orlando, FL. EXPLORE STATE OF DECAY WE STRIVE TO ACHIEVE OUR HIGHEST POTENTIAL Our Values These guiding principles define our culture and drive excellence in everything we do. Be Humble, Be Curious Respect the differences each of us brings to the team. Get curious about each other\u2019s perspectives and stay open to alternative ideas. Find opportunities to learn, grow, and improve. Make Things Better Make things better and make better things for our players, for each other, and for our industry. Grow in your craft. Invest in relationships with each other. Increment, iterate, and deliver. Help The Team Thrive Help your team and teammates wherever and whenever it may be needed. Be proactive in communicating and engaging. Prioritize your work to support our team, studio, and customers. Celebrate our collective achievements. RISE TO THE MOMENT Choose to take responsibility, especially in the face of uncertainty or risk. Adapt, persevere, and commit. Undead Careers Undead Careers ABOUT STATE OF DECAY CAREERS PRIVACY &amp; COOKIES CONSUMER HEALTH PRIVACY TERMS OF USE TRADEMARKS ABOUT OUR ADS PRESS KIT DISCORD TWITTER FACEBOOK INSTAGRAM"
+  },
+  {
+    "name": "Zynga",
+    "ats": "greenhouse",
+    "slug": "zyngacareers",
+    "website": "https://zynga.com",
+    "category": [],
+    "about_text": "Free Mobile &amp; Online Games - Zynga - Zynga Zynga Games Company News Advertisers Blog Our Story Leadership Press Kit Careers Life at Zynga Job Openings Interns &#038; Grads Play With Pride Support Player Support Player ID &#038; PIN &nbsp; Games Company News Leadership Advertisers Blog Careers Life at Zynga Job Openings Locations Disciplines University Support Security Update Player Support Player Forums 101 Okey Plus 1010! Backgammon Plus Barista Life Baseball Heroes Bid Whist Plus Black Diamond Casino Blob Runner 3D Boggle With Friends Boggle: Arcade Edition Bounzy! Build Roads \u00c7anak Okey Plus Car Restoration 3D Cashier 3D Crosswords With Friends CSR Racing 2 Dodge Master Dragon City Drive Thru 3D Empires &#038; Puzzles: RPG Quest FarmVille 2 FarmVille 2: Country Escape FarmVille 2: Tropic Escape FarmVille 3 Fast Driver 3D Fit and Squeeze Flipper Dunk FreeCell Solitaire Game of Thrones Slots Casino Game of Thrones: Legends Garden Tails Gear Race 3D Gin Rummy Plus Go Knots 3D Gold Rush 3D! Golf Rival Gun Gang Hair Challenge Harry Potter: Puzzles &#038; Spells High Heels! Hit Guys Hit It Rich! Joust Run Match Factory! Merge Dragons! Merge Farm! Merge Magic! Merged! Money Maker 3D Monster Legends Oil Well Drilling Okey Plus Onnect Overloaded Picker 3D Pixel Shot 3D Puzzle Combat Queen Bee! Repair Master 3D Repair My Car! Rummy Plus &#8211; Original Card Game Sleep Well! Solitaire Spades Plus Spider Solitaire Tangle Master 3D Tasty Town &#8211; The Cooking Game They Need You Tiny Royale: ZOMBIES! Toon Blast Top Troops Touchdrawn Towing Race Toy Blast Two Dots Water Shooty Weapon Cloner Willy Wonka Slots Wizard of Oz Magic Match Wizard of Oz Slots Wonka&#8217;s World of Candy Wood Shop Word Life &#8211; Crossword puzzle Words With Friends World Chef Zero21 Solitaire Zynga Poker &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; View Game Merge Dragons! Can you save the magical world of Dragons? Zynga's Latest Featured Games View Game Leave it all behind and escape to the farm, where the air is fresh and the people are friendly. Experience nature at its finest, harvesting bountiful crops and raising hundreds of adorable animals. Take a break from the world and enjoy life at a different pace. Available on Android and iOS. View Game Represent your Hogwarts house and celebrate the magic and enchantment of Harry Potter like never before! Prepare to master spells, outsmart challenges, and explore the wonders of the Wizarding World while becoming enchanted by the most marvelous matching puzzles ever found on your mobile device! View Game View Game View Game Are you ready to spin the slot machines on your way to the ultimate glory: The Iron Throne? Test your skill in one of the most immersive, free slot machine games to come out of the Seven Kingdoms. View Game Attention Wordies! We\u2019re excited to announce the launch of Words With Friends, a next-generation take on the world\u2019s most popular mobile word game today on the App Store for iPhone and iPad and on Google Play for"
+  },
+  {
+    "name": "Crystal Dynamics",
+    "ats": "greenhouse",
+    "slug": "crystaldynamics",
+    "website": "https://crystald.com",
+    "category": []
+  },
+  {
+    "name": "Firaxis Games",
+    "ats": "greenhouse",
+    "slug": "firaxis",
+    "website": "https://firaxis.com",
+    "category": []
+  },
+  {
+    "name": "Frontier Developments",
+    "ats": "ashby",
+    "slug": "frontier",
+    "website": "https://frontier.co.uk",
+    "category": []
+  },
+  {
+    "name": "Gearbox Software",
+    "ats": "greenhouse",
+    "slug": "gearbox",
+    "website": "https://gearboxsoftware.com",
+    "category": []
+  },
+  {
+    "name": "Insomniac Games",
+    "ats": "greenhouse",
+    "slug": "insomniac",
+    "website": "https://insomniac.com",
+    "category": []
+  },
+  {
+    "name": "Naughty Dog",
+    "ats": "greenhouse",
+    "slug": "naughtydog",
+    "website": "https://naughtydog.com",
+    "category": []
+  },
+  {
+    "name": "Rockstar Games",
+    "ats": "greenhouse",
+    "slug": "rockstargames",
+    "website": "https://rockstargames.com",
+    "category": []
+  },
+  {
+    "name": "Scopely",
+    "ats": "greenhouse",
+    "slug": "scopely",
+    "website": "https://scopely.com",
+    "category": []
+  },
+  {
+    "name": "Supercell",
+    "ats": "ashby",
+    "slug": "supercell",
+    "website": "https://supercell.com",
     "category": []
   }
 ]

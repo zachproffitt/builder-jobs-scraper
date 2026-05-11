@@ -96,6 +96,7 @@ def explore_one(job: dict, company_summary: str) -> dict:
         model=MODEL,
         messages=[{"role": "user", "content": prompt}],
         options={"temperature": 0.1},
+        keep_alive="5m",
     )
 
     return {

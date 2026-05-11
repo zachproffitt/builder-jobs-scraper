@@ -1,111 +1,228 @@
-# To add a company: just add its name below and open a PR.
-# discover.py will find their ATS and slug automatically.
-# One company per line. Lines starting with # are ignored.
+# To add a company: add a line below as:  Company Name | domain.com
+# discover.py uses the domain to find the ATS and scrape company info.
+# If the wrong company is matched, edit data/companies.json directly.
+# Lines starting with # are ignored.
 
-10x Genomics
-1X Technologies
-Absci
-Agility Robotics
-Airbnb
-Allen Institute for AI
-Anduril Industries
-Anthropic
-Antora Energy
-Apex
-Applied Intuition
-Apptronik
-Astranis
-Astrobotic
-Atom Computing
-Aurora
-Axiom Space
-Blue Origin
-Bungie
-CD Projekt Red
-Cerebras Systems
-Classiq
-Clerk
-Cohere
-Commonwealth Fusion
-Covariant
-Epic Games
-Epirus
-Etched
-Exscientia
-Figma
-Figure AI
-Firefly Aerospace
-Form Energy
-General Fusion
-Generate Biomedicines
-Groq
-Heirloom Carbon
-Helion Energy
-Hugging Face
-Imbue
-Insitro
-IonQ
-Isomorphic Labs
-Kairos Power
-Kodiak Robotics
-Linear
-Machina Labs
-May Mobility
-Mistral
-Motional
-Mythic
-Netlify
-Neuralink
-Niantic
-Northvolt
-Oklo
-OpenAI
-Physical Intelligence
-Planet Labs
-Precision Neuroscience
-PsiQuantum
-Q-CTRL
-QuEra Computing
-Quantinuum
-QuantumScape
-Rebellion Defense
-Recursion
-Redwire
-Redwood Materials
-Relativity Space
-Remedy Entertainment
-Rigetti Computing
-Riot Games
-Roblox
-Rocket Lab
-Rondo Energy
-Runway
-Saildrone
-Sanctuary AI
-Scale AI
-Schrodinger
-Shield AI
-Sierra Space
-Spire Global
-Stripe
-Supabase
-Synchron
-TAE Technologies
-Tenstorrent
-TerraPower
-Terradepth
-Tokamak Energy
-True Anomaly
-Turion Space
-Umbra
-Unity Technologies
-Vannevar Labs
-Vast
-Vercel
-Viam
-Waymo
-Xanadu
-Zoox
-d-Matrix
-xAI
-Nuro
+10x Genomics | 10xgenomics.com
+1X Technologies | 1x.tech
+Absci | absci.com
+Agility Robotics | agilityrobotics.com
+Airbnb | airbnb.com
+Altos Labs | altoslabs.com
+Allen Institute for AI | allenai.org
+Anduril Industries | anduril.com
+Anthropic | anthropic.com
+Antora Energy | antoraenergy.com
+Apex | apexspace.com
+Applied Intuition | appliedintuition.com
+Apptronik | apptronik.com
+Archer Aviation | archer.com
+Astranis | astranis.com
+Astrobotic | astrobotic.com
+Atom Computing | atom-computing.com
+Aurora | aurora.tech
+Axiom Space | axiomspace.com
+Bedrock Ocean | bedrockocean.com
+Beta Technologies | beta.team
+BlackSky | blacksky.com
+Blue Origin | blueorigin.com
+Bungie | bungie.net
+Cajal Therapeutics | cajaltx.com
+Calico Labs | calicolabs.com
+Capella Space | capellaspace.com
+CD Projekt Red | cdprojektred.com
+Cerebras Systems | cerebras.net
+Chess.com | chess.com
+Classiq | classiq.io
+Clerk | clerk.com
+ClickHouse | clickhouse.com
+Cohere | cohere.com
+Commonwealth Fusion | cfs.energy
+Covariant | covariant.ai
+DigitalOcean | digitalocean.com
+Docker | docker.com
+EightSleep | eightsleep.com
+ElevenLabs | elevenlabs.io
+Epic Games | epicgames.com
+Epirus | epirusinc.com
+Etched | etched.com
+Figma | figma.com
+Figure AI | figure.ai
+Finch | tryfinch.com
+Firefly Aerospace | firefly.com
+Form Energy | formenergy.com
+Found | found.com
+General Fusion | generalfusion.com
+Generate Biomedicines | generatebiomedicines.com
+Ginkgo Bioworks | ginkgobioworks.com
+GitHub | github.com
+GitLab | gitlab.com
+Grafana | grafana.com
+Groq | groq.com
+Havoc AI | havoc.ai
+Headspace | headspace.com
+Heirloom Carbon | heirloomcarbon.com
+Helion Energy | helionenergy.com
+Hugging Face | huggingface.co
+Imbue | imbue.com
+Inari Agriculture | inari.com
+Insitro | insitro.com
+IonQ | ionq.com
+Isar Aerospace | isaraerospace.com
+Isomorphic Labs | isomorphiclabs.com
+Kairos Power | kairospower.com
+Katalyst | katalyst.com
+Kodiak Robotics | kodiak.ai
+Larian Studios | larian.com
+LeoLabs | leolabs.space
+Lightmatter | lightmatter.com
+Linear | linear.app
+LiveKit | livekit.io
+Loft Orbital | loftorbital.com
+Machina Labs | machinalabs.ai
+May Mobility | maymobility.com
+Mistral | mistral.ai
+Modular | modular.com
+Motional | motional.com
+Mythic | mythic-ai.com
+Netlify | netlify.com
+Netflix | netflix.com
+Neuralink | neuralink.com
+Niantic | nianticlabs.com
+Northvolt | northvolt.com
+Oklo | oklo.com
+OneBrief | onebrief.com
+OpenAI | openai.com
+Orbital Sidekick | orbitalsidekick.com
+Palantir | palantir.com
+Physical Intelligence | physicalintelligence.company
+Planet Labs | planet.com
+Precision Neuroscience | precisionne.com
+Primer AI | primer.ai
+PsiQuantum | psiquantum.com
+Q-CTRL | q-ctrl.com
+Qdrant | qdrant.tech
+Quaise Energy | quaise.energy
+QuEra Computing | quera.com
+Quantinuum | quantinuum.com
+QuantumScape | quantumscape.com
+Rebellion Defense | rebelliondefense.com
+Recursion | recursion.com
+Redwire | redwirespace.com
+Redwood Materials | redwoodmaterials.com
+Relativity Space | relativityspace.com
+Relay Therapeutics | relaytx.com
+Remedy Entertainment | remedygames.com
+Retro Biosciences | retro.bio
+Rigetti Computing | rigetti.com
+Riot Games | riotgames.com
+Roblox | roblox.com
+Rocket Lab | rocketlabusa.com
+Rondo Energy | rondoenergy.com
+Rula | rula.com
+Runway | runwayml.com
+Saildrone | saildrone.com
+Sanctuary AI | sanctuary.ai
+Scale AI | scale.com
+Schrodinger | schrodinger.com
+Scribd | scribd.com
+Seurat Technologies | seurat.com
+Shield AI | shield.ai
+Sierra Space | sierraspace.com
+Skydio | skydio.com
+Slingshot Aerospace | slingshotaerospace.com
+Sofar Ocean | sofarocean.com
+Spire Global | spire.com
+Strava | strava.com
+Stripe | stripe.com
+Supabase | supabase.com
+Synchron | synchron.com
+TAE Technologies | tae.com
+Tailscale | tailscale.com
+Tempus AI | tempus.com
+Temporal | temporal.io
+Tenstorrent | tenstorrent.com
+TerraPower | terrapower.com
+Terradepth | terradepth.com
+That Gaming Company | thatgamingcompany.com
+Tokamak Energy | tokamakenergy.com
+True Anomaly | trueanomaly.space
+Turion Space | turionspace.com
+Umbra | umbra.space
+Unity Technologies | unity.com
+Ursa Major | ursamajor.com
+Vannevar Labs | vannevarlabs.com
+Varda Space Industries | varda.space
+Vast | vast.space
+Velo3D | velo3d.com
+Vercel | vercel.com
+Viam | viam.com
+Waymo | waymo.com
+Wayve | wayve.ai
+Weaviate | weaviate.io
+Wikimedia Foundation | wikimedia.org
+Xanadu | xanadu.ai
+Zoox | zoox.com
+d-Matrix | d-matrix.ai
+xAI | x.ai
+Nuro | nuro.ai
+# --- Game Studios ---
+11 bit studios | 11bitstudios.com
+Arkane Studios | arkane-studios.com
+Arrowhead Game Studios | arrowheadgamestudios.com
+Bend Studio | bendstudio.com
+BioWare | bioware.com
+Blizzard Entertainment | blizzard.com
+Creative Assembly | creative-assembly.com
+Crystal Dynamics | crystald.com
+DICE | dice.se
+Digital Extremes | digitalextremes.com
+Double Fine Productions | doublefine.com
+Endnight Games | endnightgames.com
+Fatshark | fatshark.se
+Firaxis Games | firaxis.com
+Frost Giant Studios | frostgiant.com
+Frontier Developments | frontier.co.uk
+Gearbox Software | gearboxsoftware.com
+Guerrilla Games | guerrilla-games.com
+Gunfire Games | gunfiregames.com
+Hazelight Studios | hazelight.se
+Housemarque | housemarque.com
+IO Interactive | ioi.dk
+id Software | idsoftware.com
+Infinity Ward | infinityward.com
+Insomniac Games | insomniac.com
+Iron Galaxy | irongalaxystudios.com
+King | king.com
+Klei Entertainment | klei.com
+Kojima Productions | kojimaproductions.jp
+MachineGames | machinegames.com
+Media Molecule | mediamolecule.com
+Monolith Productions | lith.com
+Naughty Dog | naughtydog.com
+NetherRealm Studios | netherrealm.com
+Ninja Theory | ninjatheory.com
+Obsidian Entertainment | obsidian.net
+People Can Fly | peoplecanfly.com
+Playground Games | playground-games.com
+Platinum Games | platinumgames.com
+Rare | rare.co.uk
+Raven Software | ravensoftware.com
+Respawn Entertainment | respawn.com
+Rockstar Games | rockstargames.com
+Rocksteady Studios | rocksteady.co.uk
+Santa Monica Studio | sms.playstation.com
+Scopely | scopely.com
+Second Dinner | seconddinner.com
+Sledgehammer Games | sledgehammergames.com
+Sucker Punch Productions | suckerpunch.com
+Supercell | supercell.com
+Supergiant Games | supergiantgames.com
+Techland | techland.pl
+The Coalition | thecoalitionstudio.com
+Treyarch | treyarch.com
+Turtle Rock Studios | turtlerockstudios.com
+Undead Labs | undeadlabs.com
+Valve | valvesoftware.com
+Warhorse Studios | warhorsestudios.cz
+Zynga | zynga.com
