@@ -5,4 +5,5 @@ __pycache__/
 venv/
 .venv/
 data/jobs_raw.json
+data/explore_results.jsonl
 jobs/

@@ -113,28 +113,35 @@ def scrape_careers(domain: str, client: httpx.Client) -> "tuple[str, str] | None
     return None
 
 
-def scrape_about(domain: str, client: httpx.Client) -> str:
+def scrape_meta_description(domain: str, client: httpx.Client) -> str:
     """
-    Fetch the company's about page and return visible text (up to 3000 chars).
+    Fetch og:description or meta description from the homepage.
+    These live in the HTML <head> so they work even on JS-rendered pages.
     Returns empty string on failure.
     """
-    base = f"https://{domain}"
-
-    for path in ABOUT_PATHS:
+    try:
         time.sleep(REQUEST_DELAY)
-        try:
-            r = client.get(base + path, timeout=10, follow_redirects=True)
-            if r.status_code != 200:
-                continue
-            # Strip HTML tags and collapse whitespace
-            text = re.sub(r"<script[^>]*>.*?</script>", " ", r.text, flags=re.S)
-            text = re.sub(r"<style[^>]*>.*?</style>", " ", text, flags=re.S)
-            text = re.sub(r"<[^>]+>", " ", text)
-            text = re.sub(r"\s+", " ", text).strip()
-            if len(text) > 200:
-                return text[:3000]
-        except Exception:
-            continue
+        r = client.get(f"https://{domain}", timeout=10, follow_redirects=True)
+        if r.status_code != 200:
+            return ""
+
+        # Try og:description first (usually higher quality), then meta description.
+        # Require at least 20 chars to skip placeholder values.
+        patterns = [
+            r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\']([^"\']{20,})',
+            r'<meta[^>]+content=["\']([^"\']{20,})["\'][^>]+property=["\']og:description',
+            r'<meta[^>]+name=["\']description["\'][^>]+content=["\']([^"\']{20,})',
+            r'<meta[^>]+content=["\']([^"\']{20,})["\'][^>]+name=["\']description',
+        ]
+        for pattern in patterns:
+            m = re.search(pattern, r.text, re.I)
+            if m:
+                text = m.group(m.lastindex).strip()
+                # Decode common HTML entities
+                text = text.replace("&#x27;", "'").replace("&amp;", "&").replace("&quot;", '"')
+                return text[:500]
+    except Exception:
+        pass
 
     return ""
 
@@ -244,7 +251,7 @@ def main():
                 result = scrape_careers(domain, client)
                 if result:
                     ats, slug = result
-                    about = scrape_about(domain, client)
+                    meta = scrape_meta_description(domain, client)
                     entry = {
                         "name": name,
                         "ats": ats,
@@ -252,8 +259,8 @@ def main():
                         "website": f"https://{domain}",
                         "category": [],
                     }
-                    if about:
-                        entry["about_text"] = about
+                    if meta:
+                        entry["meta_description"] = meta
                     existing[name.lower()] = entry
                     newly_found.append(name)
                     changed = True

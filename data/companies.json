@@ -7,7 +7,8 @@
     "category": [
       "fintech",
       "infrastructure"
-    ]
+    ],
+    "meta_description": "Stripe is a financial services platform that helps all types of businesses accept payments, build flexible billing models, and manage money movement."
   },
   {
     "name": "Airbnb",
@@ -17,7 +18,8 @@
     "category": [
       "consumer",
       "marketplace"
-    ]
+    ],
+    "meta_description": "Get an Airbnb for every kind of trip \u2192 8 million vacation rentals \u2192 2 million Guest Favorites \u2192 220+ countries and regions worldwide"
   },
   {
     "name": "Figma",
@@ -26,7 +28,8 @@
     "website": "https://figma.com",
     "category": [
       "developer-tools"
-    ]
+    ],
+    "meta_description": "Figma is the leading collaborative design platform for building meaningful products. Design, prototype, and build products faster\u2014while gathering feedback all in one place."
   },
   {
     "name": "Vercel",
@@ -36,7 +39,8 @@
     "category": [
       "developer-tools",
       "infrastructure"
-    ]
+    ],
+    "meta_description": "Vercel gives developers the frameworks, workflows, and infrastructure to build a faster, more personalized web."
   },
   {
     "name": "Netlify",
@@ -46,7 +50,8 @@
     "category": [
       "developer-tools",
       "infrastructure"
-    ]
+    ],
+    "meta_description": "Create with AI or code, deploy instantly on production infrastructure. One platform to build and ship."
   },
   {
     "name": "Scale AI",
@@ -56,7 +61,8 @@
     "category": [
       "ai-ml",
       "data"
-    ]
+    ],
+    "meta_description": "Scale delivers proven data, evaluations, and outcomes to AI labs, governments, and the Fortune 500."
   },
   {
     "name": "Anthropic",
@@ -65,7 +71,8 @@
     "website": "https://anthropic.com",
     "category": [
       "ai-ml"
-    ]
+    ],
+    "meta_description": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
   },
   {
     "name": "Mistral",
@@ -74,7 +81,8 @@
     "website": "https://mistral.ai",
     "category": [
       "ai-ml"
-    ]
+    ],
+    "meta_description": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models."
   },
   {
     "name": "Linear",
@@ -83,7 +91,8 @@
     "website": "https://linear.app",
     "category": [
       "developer-tools"
-    ]
+    ],
+    "meta_description": "Purpose-built for planning and building products with AI agents."
   },
   {
     "name": "Clerk",
@@ -93,7 +102,8 @@
     "category": [
       "developer-tools",
       "infrastructure"
-    ]
+    ],
+    "meta_description": "The easiest way to add authentication and user management to your application. Purpose-built for React, Next.js, Remix, and \u201cThe Modern Web\u201d."
   },
   {
     "name": "Supabase",
@@ -103,7 +113,8 @@
     "category": [
       "developer-tools",
       "infrastructure"
-    ]
+    ],
+    "meta_description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free."
   },
   {
     "name": "Rocket Lab",
@@ -112,7 +123,8 @@
     "website": "https://rocketlabusa.com",
     "category": [
       "space"
-    ]
+    ],
+    "meta_description": "The end-to-end space company delivering reliable launch services, spacecraft, satellite components."
   },
   {
     "name": "Planet Labs",
@@ -121,7 +133,8 @@
     "website": "https://planet.com",
     "category": [
       "space"
-    ]
+    ],
+    "meta_description": "Discover how Planet's daily satellite imagery and insights empower global decisions and actions with a multidimensional view of our changing planet."
   },
   {
     "name": "Relativity Space",
@@ -130,7 +143,8 @@
     "website": "https://relativityspace.com",
     "category": [
       "space"
-    ]
+    ],
+    "meta_description": "Relativity Space builds reusable rockets that make access to space more reliable and routine\u2014empowering science, exploration, and innovation beyond our planet."
   },
   {
     "name": "Firefly Aerospace",
@@ -148,7 +162,8 @@
     "website": "https://astranis.com",
     "category": [
       "space"
-    ]
+    ],
+    "meta_description": "Astranis designs, builds, and operates the world\u2019s most advanced high-orbit satellites."
   },
   {
     "name": "Astrobotic",
@@ -157,7 +172,8 @@
     "website": "https://astrobotic.com",
     "category": [
       "space"
-    ]
+    ],
+    "meta_description": "Deliver your technology to space! Astrobotic is contracting payloads for lunar missions. Configure your mission, reserve your flight, and learn about our technology."
   },
   {
     "name": "Spire Global",
@@ -175,7 +191,8 @@
     "website": "https://umbra.space",
     "category": [
       "space"
-    ]
+    ],
+    "meta_description": "Highest quality SAR data delivered at the highest volumes revolutionizing remote sensing on a global scale. Refined mission solutions and best-in-class SAR data"
   },
   {
     "name": "True Anomaly",
@@ -185,7 +202,8 @@
     "category": [
       "space",
       "defense"
-    ]
+    ],
+    "meta_description": "Delivering decisive capabilities for space superiority."
   },
   {
     "name": "Sierra Space",
@@ -212,7 +230,8 @@
     "website": "https://www.vast.space",
     "category": [
       "space"
-    ]
+    ],
+    "meta_description": "Vast's mission is to build next-generation habitats that allow humanity to live and thrive long-term in space, ensuring America\u2019s continuous human presence in low-Earth orbit."
   },
   {
     "name": "Redwire",
@@ -221,7 +240,8 @@
     "website": "https://redwirespace.com",
     "category": [
       "space"
-    ]
+    ],
+    "meta_description": "Redwire is the Mission Partner of Choice for Civil, Commercial, and National Security Space."
   },
   {
     "name": "Axiom Space",
@@ -230,7 +250,8 @@
     "website": "https://axiomspace.com",
     "category": [
       "space"
-    ]
+    ],
+    "meta_description": "Creating a thriving home in space that benefits every human, everywhere."
   },
   {
     "name": "Apex",
@@ -239,7 +260,8 @@
     "website": "https://apexspace.com",
     "category": [
       "space"
-    ]
+    ],
+    "meta_description": "Mass-manufacturing productized satellite platforms to accelerate deployment of critical, next-generation constellations."
   },
   {
     "name": "Turion Space",
@@ -257,7 +279,8 @@
     "website": "https://ionq.com",
     "category": [
       "quantum"
-    ]
+    ],
+    "meta_description": "IonQ delivers trapped ion quantum computing systems, cloud access, and enterprise solutions for real-world quantum applications."
   },
   {
     "name": "Rigetti Computing",
@@ -266,7 +289,8 @@
     "website": "https://rigetti.com",
     "category": [
       "quantum"
-    ]
+    ],
+    "meta_description": "Practical quantum computing. Delivered over the cloud."
   },
   {
     "name": "PsiQuantum",
@@ -275,7 +299,8 @@
     "website": "https://psiquantum.com",
     "category": [
       "quantum"
-    ]
+    ],
+    "meta_description": "PsiQuantum is on a mission to build the first commercially useful quantum computer to solve humanity"
   },
   {
     "name": "QuEra Computing",
@@ -284,7 +309,8 @@
     "website": "https://quera.com",
     "category": [
       "quantum"
-    ]
+    ],
+    "meta_description": "QuEra Computing is the leading provider of quantum computers based on neutral-atoms. Our mission is to build the most scalable quantum computers."
   },
   {
     "name": "Atom Computing",
@@ -302,7 +328,8 @@
     "website": "https://xanadu.ai",
     "category": [
       "quantum"
-    ]
+    ],
+    "meta_description": "Xanadu is a Canadian quantum computing company with the mission to build quantum computers that are useful and available to people everywhere."
   },
   {
     "name": "Q-CTRL",
@@ -311,7 +338,8 @@
     "website": "https://q-ctrl.com",
     "category": [
       "quantum"
-    ]
+    ],
+    "meta_description": "Infrastructure software to power the quantum future. We expand the utility of quantum computers and deliver new quantum sensing capabilities through software."
   },
   {
     "name": "Quantinuum",
@@ -320,7 +348,8 @@
     "website": "https://quantinuum.com",
     "category": [
       "quantum"
-    ]
+    ],
+    "meta_description": "Our trapped ion quantum computers and software solutions are the highest performing in the industry, enabling our users to solve industry's most complex problems."
   },
   {
     "name": "Classiq",
@@ -329,7 +358,8 @@
     "website": "https://classiq.io",
     "category": [
       "quantum"
-    ]
+    ],
+    "meta_description": "Discover how Classiq's Quantum Computing Software is revolutionizing quantum development, enabling circuits beyond imagination. Unlock the future today"
   },
   {
     "name": "Helion Energy",
@@ -339,7 +369,8 @@
     "category": [
       "nuclear",
       "energy"
-    ]
+    ],
+    "meta_description": "Enabling a future with unlimited clean energy"
   },
   {
     "name": "Commonwealth Fusion",
@@ -349,7 +380,8 @@
     "category": [
       "nuclear",
       "energy"
-    ]
+    ],
+    "meta_description": "The world's largest and leading commercial fusion energy company"
   },
   {
     "name": "TAE Technologies",
@@ -379,7 +411,8 @@
     "category": [
       "nuclear",
       "energy"
-    ]
+    ],
+    "meta_description": "Building the future of clean energy through iterative development and vertical integration. Kairos Power's advanced reactors deliver reliable, safe nuclear power at scale."
   },
   {
     "name": "General Fusion",
@@ -399,7 +432,8 @@
     "category": [
       "nuclear",
       "energy"
-    ]
+    ],
+    "meta_description": "Delivering transformative superconducting and fusion energy technologies"
   },
   {
     "name": "Figure AI",
@@ -409,7 +443,8 @@
     "category": [
       "robotics",
       "ai-ml"
-    ]
+    ],
+    "meta_description": "Figure is the first-of-its-kind AI robotics company bringing a general purpose humanoid to life."
   },
   {
     "name": "1X Technologies",
@@ -418,7 +453,8 @@
     "website": "https://1x.tech",
     "category": [
       "robotics"
-    ]
+    ],
+    "meta_description": "We're an AI and robotics company based in Palo Alto, California. We create safe humanoid robots that do your chores and offer personalized assistance."
   },
   {
     "name": "Apptronik",
@@ -436,7 +472,8 @@
     "website": "https://agilityrobotics.com",
     "category": [
       "robotics"
-    ]
+    ],
+    "meta_description": "Agility's humanoid robots are deployed today in manufacturing, distribution, and logistics. Proven automation for industrial environments."
   },
   {
     "name": "Covariant",
@@ -446,7 +483,8 @@
     "category": [
       "robotics",
       "ai-ml"
-    ]
+    ],
+    "meta_description": "Covariant builds and delivers Robotics Foundation Models into the real world, meeting the reliability and flexibility required by the world\u2019s leading retailers and logistics providers."
   },
   {
     "name": "Sanctuary AI",
@@ -466,7 +504,8 @@
     "category": [
       "robotics",
       "developer-tools"
-    ]
+    ],
+    "meta_description": "One platform for the entire robotics lifecycle. Multi-language SDKs, hardware abstracted into simple APIs, and fleet management from first prototype to global scale."
   },
   {
     "name": "Physical Intelligence",
@@ -476,7 +515,8 @@
     "category": [
       "robotics",
       "ai-ml"
-    ]
+    ],
+    "meta_description": "Physical Intelligence is bringing general-purpose AI into the physical world."
   },
   {
     "name": "Machina Labs",
@@ -485,7 +525,8 @@
     "website": "https://machinalabs.ai",
     "category": [
       "robotics"
-    ]
+    ],
+    "meta_description": "Machina builds intelligent, software-defined factories that deliver complex metal structures for aerospace, defense, and advanced mobility programs"
   },
   {
     "name": "OpenAI",
@@ -503,7 +544,8 @@
     "website": "https://cohere.com",
     "category": [
       "ai-ml"
-    ]
+    ],
+    "meta_description": "Cohere builds powerful models and AI solutions enabling enterprises to automate processes, empower employees, and turn fragmented data into actionable insights."
   },
   {
     "name": "Runway",
@@ -512,7 +554,8 @@
     "website": "https://runwayml.com",
     "category": [
       "ai-ml"
-    ]
+    ],
+    "meta_description": "We are building foundational General World Models that will be capable of simulating all possible worlds and experiences. The next frontier of intelligence will come from models that can understand, perceive, generate and act in the world."
   },
   {
     "name": "Imbue",
@@ -521,7 +564,8 @@
     "website": "https://imbue.com",
     "category": [
       "ai-ml"
-    ]
+    ],
+    "meta_description": "We build products that give people power over their digital world, from modifying algorithms and agents, to building personal software you can trust."
   },
   {
     "name": "Allen Institute for AI",
@@ -530,7 +574,8 @@
     "website": "https://allenai.org",
     "category": [
       "ai-ml"
-    ]
+    ],
+    "meta_description": "Ai2, founded by Paul Allen and led by Ali Farhadi, conducts high-impact research and engineering to tackle key problems in artificial intelligence."
   },
   {
     "name": "xAI",
@@ -549,7 +594,8 @@
     "category": [
       "ai-ml",
       "developer-tools"
-    ]
+    ],
+    "meta_description": "We\u2019re on a journey to advance and democratize artificial intelligence through open source and open science."
   },
   {
     "name": "Waymo",
@@ -559,7 +605,8 @@
     "category": [
       "autonomous-vehicles",
       "ai-ml"
-    ]
+    ],
+    "meta_description": "Waymo\u2014formerly the Google self-driving car project\u2014makes it safe and easy for people & things to get around with autonomous vehicles. Take a ride now."
   },
   {
     "name": "Aurora",
@@ -568,7 +615,8 @@
     "website": "https://aurora.tech",
     "category": [
       "autonomous-vehicles"
-    ]
+    ],
+    "meta_description": "Step inside the world of self-driving freight, powered by the Aurora Driver. Delivering the benefits of self-driving technology safely, quickly, and broadly."
   },
   {
     "name": "Zoox",
@@ -577,7 +625,8 @@
     "website": "https://zoox.com",
     "category": [
       "autonomous-vehicles"
-    ]
+    ],
+    "meta_description": "Zoox is a purpose-built autonomous vehicle designed for riders, not drivers. Learn more about the Zoox robotaxi and the future of ride-hailing."
   },
   {
     "name": "Motional",
@@ -586,7 +635,8 @@
     "website": "https://motional.com",
     "category": [
       "autonomous-vehicles"
-    ]
+    ],
+    "meta_description": "Motional harnesses deep industry experience in our mission to develop and deploy autonomous vehicles and to make driverless technology safe and reliable."
   },
   {
     "name": "May Mobility",
@@ -605,7 +655,8 @@
     "category": [
       "autonomous-vehicles",
       "developer-tools"
-    ]
+    ],
+    "meta_description": "Applied Intuition powers physical AI, automating machines across automotive, defense, trucking, mining, construction, & agriculture."
   },
   {
     "name": "Kodiak Robotics",
@@ -614,7 +665,8 @@
     "website": "https://kodiak.ai",
     "category": [
       "autonomous-vehicles"
-    ]
+    ],
+    "meta_description": "Our purpose-built autonomous solution, the Kodiak Driver, is the AV industry\u2019s most advanced driverless technology, seamlessly integrating into any driving platform for reliable movement in any environment. Learn how we\u2019re shaping the future of ground transportation."
   },
   {
     "name": "Anduril Industries",
@@ -623,7 +675,8 @@
     "website": "https://anduril.com",
     "category": [
       "defense"
-    ]
+    ],
+    "meta_description": "Anduril Industries builds advanced autonomous systems and defense technology to protect US and allied forces. Creating the future of national security through AI, robotics, and cutting-edge engineering."
   },
   {
     "name": "Shield AI",
@@ -643,7 +696,8 @@
     "category": [
       "defense",
       "ai-ml"
-    ]
+    ],
+    "meta_description": "Rebellion is building the system that will shield America\u2019s infrastructure."
   },
   {
     "name": "Epirus",
@@ -652,7 +706,8 @@
     "website": "https://epirusinc.com",
     "category": [
       "defense"
-    ]
+    ],
+    "meta_description": "Epirus combines the latest in directed energy, long-pulse high-power microwaves (HPM), AI, and advanced electronics for unmatched electronic warfare effects. The Leonidas family of HPM systems by Epirus are the most effective non-kinetic cUAS and counter swarm solution on the market."
   },
   {
     "name": "Vannevar Labs",
@@ -662,7 +717,8 @@
     "category": [
       "defense",
       "ai-ml"
-    ]
+    ],
+    "meta_description": "Vannevar builds agentic AI for 21st-century conflict, pre-trained for national security missions and delivering decision advantage."
   },
   {
     "name": "Insitro",
@@ -682,7 +738,8 @@
     "category": [
       "biotech",
       "ai-ml"
-    ]
+    ],
+    "meta_description": "Schr\u00f6dinger is the scientific leader in developing state-of-the-art chemical simulation software for use in pharmaceutical, biotechnology, and materials research."
   },
   {
     "name": "Absci",
@@ -701,7 +758,8 @@
     "website": "https://10xgenomics.com",
     "category": [
       "biotech"
-    ]
+    ],
+    "meta_description": "We deliver powerful, reliable tools that fuel scientific discoveries and drive exponential progress to master biology to advance human health."
   },
   {
     "name": "Generate Biomedicines",
@@ -721,7 +779,8 @@
     "category": [
       "biotech",
       "ai-ml"
-    ]
+    ],
+    "meta_description": "Isomorphic Labs is building a future where frontier AI can help to unlock deeper scientific insights, faster breakthroughs, and life-changing medicines."
   },
   {
     "name": "Cerebras Systems",
@@ -731,7 +790,8 @@
     "category": [
       "semiconductors",
       "ai-ml"
-    ]
+    ],
+    "meta_description": "Cerebras is the go-to platform for fast and effortless AI training. Learn more at cerebras.ai."
   },
   {
     "name": "Tenstorrent",
@@ -741,7 +801,8 @@
     "category": [
       "semiconductors",
       "ai-ml"
-    ]
+    ],
+    "meta_description": "Tenstorrent is a next-generation computing company that builds computers for AI.  Headquartered in the U.S. with offices in Austin, Texas, and Silicon Valley, and global offices in Toronto, Belgrade, Seoul, Tokyo, and Bangalore, Tenstorrent brings together experts in the field of computer architecture, ASIC design, RISC-V technology, advanced systems, and neural network compilers."
   },
   {
     "name": "Groq",
@@ -751,7 +812,8 @@
     "category": [
       "semiconductors",
       "ai-ml"
-    ]
+    ],
+    "meta_description": "The Groq LPU delivers inference with the speed and cost developers need."
   },
   {
     "name": "Etched",
@@ -761,7 +823,8 @@
     "category": [
       "semiconductors",
       "ai-ml"
-    ]
+    ],
+    "meta_description": "The best performance for your most demanding inference workloads."
   },
   {
     "name": "d-Matrix",
@@ -791,7 +854,8 @@
     "category": [
       "climate",
       "energy"
-    ]
+    ],
+    "meta_description": "Form Energy is an American company driving innovation in energy manufacturing and technology to ensure a clean, secure, and reliable electric grid."
   },
   {
     "name": "QuantumScape",
@@ -801,7 +865,8 @@
     "category": [
       "climate",
       "energy"
-    ]
+    ],
+    "meta_description": "QuantumScape is on a mission to transform energy storage with revolutionary solid state battery technology that will charge faster, go farther and last longer."
   },
   {
     "name": "Redwood Materials",
@@ -821,7 +886,8 @@
     "category": [
       "climate",
       "energy"
-    ]
+    ],
+    "meta_description": "Pioneering\u00a0a\u00a0sustainable battery industry to enable the future of energy."
   },
   {
     "name": "Heirloom Carbon",
@@ -830,7 +896,8 @@
     "website": "https://heirloomcarbon.com",
     "category": [
       "climate"
-    ]
+    ],
+    "meta_description": "Heirloom is restoring balance to our atmosphere by removing 1 billion tons of carbon dioxide. We use natural processes to engineer the world's most cost-effective Direct Air Capture solution."
   },
   {
     "name": "Rondo Energy",
@@ -850,7 +917,8 @@
     "category": [
       "climate",
       "energy"
-    ]
+    ],
+    "meta_description": "Antora builds and deploys thermal energy storage to power always-on industrial operations with low-cost energy. Factory-built in the United States, Antora\u2019s thermal batteries deliver reliable and cost-effective heat and power for industrial loads of any size."
   },
   {
     "name": "Epic Games",
@@ -868,7 +936,8 @@
     "website": "https://riotgames.com",
     "category": [
       "gaming"
-    ]
+    ],
+    "meta_description": "Riot Games. Developer of League of Legends, VALORANT, Teamfight Tactics, Legends of Runeterra, and Wild Rift. Creators of Arcane. Home of LOL and VALORANT Esports."
   },
   {
     "name": "Roblox",
@@ -877,7 +946,8 @@
     "website": "https://roblox.com",
     "category": [
       "gaming"
-    ]
+    ],
+    "meta_description": "Roblox is ushering in the next generation of entertainment. Imagine, create, and play together with millions of people across an infinite variety of immersive, user-generated 3D worlds."
   },
   {
     "name": "Bungie",
@@ -895,7 +965,8 @@
     "website": "https://nianticlabs.com",
     "category": [
       "gaming"
-    ]
+    ],
+    "meta_description": "We build real world, AR games and apps that encourage people to explore the world, including top hits like Pok\u00e9mon GO. Discover Niantic today!"
   },
   {
     "name": "CD Projekt Red",
@@ -904,7 +975,8 @@
     "website": "https://cdprojektred.com",
     "category": [
       "gaming"
-    ]
+    ],
+    "meta_description": "As the team behind The Witcher 4, Cyberpunk 2077, and The Witcher 3: Wild Hunt, we create revolutionary RPGs with memorable stories that inspire gamers."
   },
   {
     "name": "Remedy Entertainment",
@@ -913,7 +985,8 @@
     "website": "https://remedygames.com",
     "category": [
       "gaming"
-    ]
+    ],
+    "meta_description": "Known for story-driven and visually stunning action games, Remedy have created blockbuster games such as Control, Alan Wake, and Max Payne."
   },
   {
     "name": "Unity Technologies",
@@ -923,7 +996,8 @@
     "category": [
       "gaming",
       "developer-tools"
-    ]
+    ],
+    "meta_description": "Develop, deploy, and grow with Unity, the world\u2019s leading 3D game engine. Build for all major platforms from mobile, to PC and console as well as XR, acquire players, monetize your game, and power industrial applications."
   },
   {
     "name": "Neuralink",
@@ -932,7 +1006,8 @@
     "website": "https://neuralink.com",
     "category": [
       "neurotech"
-    ]
+    ],
+    "meta_description": "Creating a generalized brain interface to restore autonomy to those with unmet medical needs today and unlock human potential tomorrow."
   },
   {
     "name": "Synchron",
@@ -941,7 +1016,8 @@
     "website": "https://synchron.com",
     "category": [
       "neurotech"
-    ]
+    ],
+    "meta_description": "Our vision is to transform medicine with unprecedented access to brain data. A breakthrough platform launching a new field of medicine."
   },
   {
     "name": "Precision Neuroscience",
@@ -950,7 +1026,8 @@
     "website": "https://precisionneuro.io",
     "category": [
       "neurotech"
-    ]
+    ],
+    "meta_description": "Unlocking the full potential of the brain."
   },
   {
     "name": "Saildrone",
@@ -960,7 +1037,8 @@
     "category": [
       "ocean",
       "robotics"
-    ]
+    ],
+    "meta_description": "Saildrone is a maritime defense company that builds autonomous systems to give decision-makers and warfighters the enduring advantage to outpace adversaries."
   },
   {
     "name": "Terradepth",
@@ -969,7 +1047,8 @@
     "website": "https://terradepth.com",
     "category": [
       "ocean"
-    ]
+    ],
+    "meta_description": "Terradepth delivers seabed-to-cloud ocean data solutions through autonomous vehicles and Absolute Ocean\u2014enabling faster, smarter maritime decisions."
   },
   {
     "name": "Nuro",
@@ -1259,7 +1338,8 @@
     "slug": "grafanalabs",
     "website": "https://grafana.com",
     "category": [],
-    "about_text": "Careers at Grafana Labs | Build the Future of Observability | Grafana Labs What\u2019s new: Grafana 13 release, the latest in AI, OSS project updates, and more from GrafanaCON2026 Learn more EN Downloads Contact Us Grafana Cloud Solutions Pricing Open Source Learn Docs Company AI/Search Sign in Sign up Site Search Ask AI Shape the future of observability Create, sell, and scale technology that matters with a global, remote-first team built on trust, ownership, and impact. Explore open roles 1,600+ Global employees in 40+ countries (and growing every month!) Top 5% Our 2025 employee engagement score puts us in the top 5% of global technology companies 100% We are 100% fully remote and hold ourselves responsible for outcomes not hours or location Our guiding principles Shared values are foundational to culture. They empower us, as both individuals and teams, to have an impact and achieve our mission, because we\u2019re aligned on what\u2019s really important to us. We\u2019ve established these guiding principles to drive independent thinking, thoughtful decision-making, and result-oriented action that stays true to our mission. Long-term greedy: Grafanistas think long-term, prioritizing enduring value over short-term gains, and act today with tomorrow in mind. We will not sacrifice long-term success for immediate upside. Souls intact: Grafanistas operate with integrity. We think about what it will take to appreciate and respect each other decades from now, and actively work to build that trust every single day. Do (and say) the hard things: Grafanistas are courageous. We address difficult issues directly and kindly, make tough decisions, have uncomfortable conversations, and drive necessary change, understanding the cost of avoidance. Ship constantly: Grafanistas iterate rapidly. We release early and often to learn and adapt. We value feedback, embrace experimentation, and understand our success comes through continuous refinement. We are all in customer success: Our success is defined solely by the success of our customers. Grafanistas dismantle traditional organizational barriers to solve customer problems. Every role is customer-impacting because every decision impacts the value we deliver. Seek diverse perspectives: Grafanistas make stronger decisions by seeking out diverse perspectives. We recognize building Grafana Labs is our collective responsibility and work across boundaries to achieve it. We break down silos and optimize for overall success, not just one team. Roll your sleeves up: Grafanistas dive deep. We stay connected to the details and are unafraid to get our hands dirty. We understand our domains thoroughly to ensure high standards are achieved. Help each other thrive: We lift each other up and act with integrity. We actively support colleagues, share knowledge, and foster an environment where everyone can succeed. We uphold our values, especially under pressure, acting with intelligence and heart. Default to transparency: Grafanistas operate openly. "
+    "about_text": "Careers at Grafana Labs | Build the Future of Observability | Grafana Labs What\u2019s new: Grafana 13 release, the latest in AI, OSS project updates, and more from GrafanaCON2026 Learn more EN Downloads Contact Us Grafana Cloud Solutions Pricing Open Source Learn Docs Company AI/Search Sign in Sign up Site Search Ask AI Shape the future of observability Create, sell, and scale technology that matters with a global, remote-first team built on trust, ownership, and impact. Explore open roles 1,600+ Global employees in 40+ countries (and growing every month!) Top 5% Our 2025 employee engagement score puts us in the top 5% of global technology companies 100% We are 100% fully remote and hold ourselves responsible for outcomes not hours or location Our guiding principles Shared values are foundational to culture. They empower us, as both individuals and teams, to have an impact and achieve our mission, because we\u2019re aligned on what\u2019s really important to us. We\u2019ve established these guiding principles to drive independent thinking, thoughtful decision-making, and result-oriented action that stays true to our mission. Long-term greedy: Grafanistas think long-term, prioritizing enduring value over short-term gains, and act today with tomorrow in mind. We will not sacrifice long-term success for immediate upside. Souls intact: Grafanistas operate with integrity. We think about what it will take to appreciate and respect each other decades from now, and actively work to build that trust every single day. Do (and say) the hard things: Grafanistas are courageous. We address difficult issues directly and kindly, make tough decisions, have uncomfortable conversations, and drive necessary change, understanding the cost of avoidance. Ship constantly: Grafanistas iterate rapidly. We release early and often to learn and adapt. We value feedback, embrace experimentation, and understand our success comes through continuous refinement. We are all in customer success: Our success is defined solely by the success of our customers. Grafanistas dismantle traditional organizational barriers to solve customer problems. Every role is customer-impacting because every decision impacts the value we deliver. Seek diverse perspectives: Grafanistas make stronger decisions by seeking out diverse perspectives. We recognize building Grafana Labs is our collective responsibility and work across boundaries to achieve it. We break down silos and optimize for overall success, not just one team. Roll your sleeves up: Grafanistas dive deep. We stay connected to the details and are unafraid to get our hands dirty. We understand our domains thoroughly to ensure high standards are achieved. Help each other thrive: We lift each other up and act with integrity. We actively support colleagues, share knowledge, and foster an environment where everyone can succeed. We uphold our values, especially under pressure, acting with intelligence and heart. Default to transparency: Grafanistas operate openly. ",
+    "meta_description": "Avoid lock-in and ensure reliability with Grafana Cloud. The AI-powered platform built on open standards unifies metrics, logs, traces, profiles, and business data."
   },
   {
     "name": "Headspace",
@@ -1267,7 +1347,8 @@
     "slug": "hs",
     "website": "https://headspace.com",
     "category": [],
-    "about_text": "About Us - Headspace Take a Global Deep Breath on May 13th For You What we offer Meditation Online therapy Mindfulness Sleep Mental health coaching Ebb AI companion How we help Anxiety Stress Sleep better Mental health Mindful families Explore our library New and popular Guided courses Beginning meditation Calming everyday anxiety Mindful parenting Mindfulness at work Sleep music White noise View all Get started with therapy For Business Who we serve Employers Small businesses Health plans Consultants Members What we offer Full EAP replacement Comprehensive mental health care Meditation and mindfulness Our approach Our care model Headspace culture Resources Customer stories White papers and research Events and webinars Request a demo For Providers Our Plans Headspace app subscriptions Annual Monthly Pay with HSA/FSA Family plan Gifts Refer a friend Redeem a code Human care services Online therapy Mental health coaching Businesses Plans for businesses Plans for small businesses Try for free Resources Explore the blog Meditation Mindfulness Sleep Mental Health View all Mental health articles What is mental health coaching? What can a mental health coach help me with? How do I get started with mental health coaching? View all Meditation articles What is meditation? Meditation techniques How to meditate View all Mindfulness articles What is mindfulness? Flow state How to be more present View all Sleep articles Sleepy hygiene How to sleep better How to fall asleep View all Resources for business 2025 Workforce State of Mind Tailoring EAPs for Today&#x27;s Workforce The value of workplace mental health support View all Try for free About About Headspace About us Our teachers Press Brand partners Ginger is now Headspace Our expertise Science White papers and research AI at Headspace Join us Careers Headspace Training Institute Care providers Try for free Log in Help Try for free About Headspace Headspace&#x27;s mission is to provide every person access to lifelong mental health support. Who we are Think of Headspace as your everyday mental health companion, making it easy to put your mind first with personalized support \u2013 from self-guided to human delivered clinical care \u2013 designed for everyday life. What we do Through evidence-based meditation and mindfulness tools, AI-powered guidance, mental health coaching, therapy, psychiatry, Headspace helps you create life-changing habits to support your mental health and find a healthier, happier you. How we do it Our four values inform our decisions and how we operate day-to-day: Make the Mission Matter, Iterate to Great, Own the Outcome, Connect with Courage. Headspace Headspace is the leading everyday mental health companion, helping people care for their minds anytime, anywhere. Our all-in-one app delivers personalized support \u2014 from AI-powered guidance to meditation and mindfulness, coaching, and therapy \u2014 all designed to fit seamlessly into daily life. We partner with employers, health plans, and organizat"
+    "about_text": "About Us - Headspace Take a Global Deep Breath on May 13th For You What we offer Meditation Online therapy Mindfulness Sleep Mental health coaching Ebb AI companion How we help Anxiety Stress Sleep better Mental health Mindful families Explore our library New and popular Guided courses Beginning meditation Calming everyday anxiety Mindful parenting Mindfulness at work Sleep music White noise View all Get started with therapy For Business Who we serve Employers Small businesses Health plans Consultants Members What we offer Full EAP replacement Comprehensive mental health care Meditation and mindfulness Our approach Our care model Headspace culture Resources Customer stories White papers and research Events and webinars Request a demo For Providers Our Plans Headspace app subscriptions Annual Monthly Pay with HSA/FSA Family plan Gifts Refer a friend Redeem a code Human care services Online therapy Mental health coaching Businesses Plans for businesses Plans for small businesses Try for free Resources Explore the blog Meditation Mindfulness Sleep Mental Health View all Mental health articles What is mental health coaching? What can a mental health coach help me with? How do I get started with mental health coaching? View all Meditation articles What is meditation? Meditation techniques How to meditate View all Mindfulness articles What is mindfulness? Flow state How to be more present View all Sleep articles Sleepy hygiene How to sleep better How to fall asleep View all Resources for business 2025 Workforce State of Mind Tailoring EAPs for Today&#x27;s Workforce The value of workplace mental health support View all Try for free About About Headspace About us Our teachers Press Brand partners Ginger is now Headspace Our expertise Science White papers and research AI at Headspace Join us Careers Headspace Training Institute Care providers Try for free Log in Help Try for free About Headspace Headspace&#x27;s mission is to provide every person access to lifelong mental health support. Who we are Think of Headspace as your everyday mental health companion, making it easy to put your mind first with personalized support \u2013 from self-guided to human delivered clinical care \u2013 designed for everyday life. What we do Through evidence-based meditation and mindfulness tools, AI-powered guidance, mental health coaching, therapy, psychiatry, Headspace helps you create life-changing habits to support your mental health and find a healthier, happier you. How we do it Our four values inform our decisions and how we operate day-to-day: Make the Mission Matter, Iterate to Great, Own the Outcome, Connect with Courage. Headspace Headspace is the leading everyday mental health companion, helping people care for their minds anytime, anywhere. Our all-in-one app delivers personalized support \u2014 from AI-powered guidance to meditation and mindfulness, coaching, and therapy \u2014 all designed to fit seamlessly into daily life. We partner with employers, health plans, and organizat",
+    "meta_description": "Live a healthier, happier, more well-rested life in just a few minutes a day. Get the science-backed mental health app for every moment. Try for free."
   },
   {
     "name": "Scribd",
@@ -1275,28 +1356,32 @@
     "slug": "ScribdInc",
     "website": "https://scribd.com",
     "category": [],
-    "about_text": "About Scribd Inc. | Scribd Inc. Home About Newsroom Commitments Careers Contact We close the gap between information and understanding. Scribd, Inc. is an AI-powered knowledge company. Our products leverage the world&#x27;s largest collection of human-created content and intelligent tools to help people move from information access to real understanding and application. Our core values 01 Prioritize the Customer. We put our customers first. We passionately strive to understand and serve their unique needs, create delight, reduce complexity and build trust. 02 Be Real. We are true to ourselves. We act with authenticity and transparency. We are open minded and seek diverse perspectives without exception. 03 Be Bold. We challenge the status quo, welcome big ideas and push boundaries. By taking calculated risks, we build resilience and confidence. 04 Act Like an Owner. We are all in. We are intensely enthusiastic about the future of Scribd, Inc. and make decisions with the best interest of the company in mind. 05 Debate &amp; Commit. We value all ideas and encourage respectful debate to bring varying perspectives to the table. Once a decision is made, we fully commit. 06 Embrace Plot Twists. We navigate the unexpected with data and intuition. We learn by doing and grow from our mistakes. 07 Take Action. We bias toward action. We move fast and aim for progress over perfection, focusing on finding clarity over certainty. We trust our gut and get to it. 08 Deliver Today; Build for Tomorrow. We invest in the future by delivering results now. We balance future potential and present realities with discipline and optimism. Leadership Tony Grimminck Chief Executive Officer Read more Tony Grimminck Chief Executive Officer Tony Grimminck is the Chief Executive Officer of Scribd, Inc., where he leads the company\u2019s vision, strategy, and operations. He joined Scribd, Inc. as Chief Financial Officer in 2019 and was appointed CEO in 2023, bringing deep experience in finance, strategy, and scaling consumer-focused businesses. \u200d Prior to Scribd, Inc., Tony held executive roles at HotelTonight and StubHub and served as Vice President of Investment Banking at Goldman Sachs and J.P. Morgan. Earlier in his career, he was an Officer in the Australian Army. He holds a Bachelor of Engineering (Honors) and a Master\u2019s in Engineering Science from the University of New South Wales, an MBA from Columbia University, and graduated from the Royal Military College, Duntroon, and the Australian Defence Force Academy. Patsy Mangan Chief People Officer Read more Patsy Mangan Chief People Officer Patsy Mangan is the Chief People Officer at Scribd, Inc., leading Human Resources, Talent Acquisition, People Experience, Internal Communications, and IT. She is known for progressive thinking and building innovative people strategies that strengthen culture and performance. Her leadership has driven initiatives such as ScribdFlex, the company\u2019s differentiated flexible work model; Scribd Humans"
+    "about_text": "About Scribd Inc. | Scribd Inc. Home About Newsroom Commitments Careers Contact We close the gap between information and understanding. Scribd, Inc. is an AI-powered knowledge company. Our products leverage the world&#x27;s largest collection of human-created content and intelligent tools to help people move from information access to real understanding and application. Our core values 01 Prioritize the Customer. We put our customers first. We passionately strive to understand and serve their unique needs, create delight, reduce complexity and build trust. 02 Be Real. We are true to ourselves. We act with authenticity and transparency. We are open minded and seek diverse perspectives without exception. 03 Be Bold. We challenge the status quo, welcome big ideas and push boundaries. By taking calculated risks, we build resilience and confidence. 04 Act Like an Owner. We are all in. We are intensely enthusiastic about the future of Scribd, Inc. and make decisions with the best interest of the company in mind. 05 Debate &amp; Commit. We value all ideas and encourage respectful debate to bring varying perspectives to the table. Once a decision is made, we fully commit. 06 Embrace Plot Twists. We navigate the unexpected with data and intuition. We learn by doing and grow from our mistakes. 07 Take Action. We bias toward action. We move fast and aim for progress over perfection, focusing on finding clarity over certainty. We trust our gut and get to it. 08 Deliver Today; Build for Tomorrow. We invest in the future by delivering results now. We balance future potential and present realities with discipline and optimism. Leadership Tony Grimminck Chief Executive Officer Read more Tony Grimminck Chief Executive Officer Tony Grimminck is the Chief Executive Officer of Scribd, Inc., where he leads the company\u2019s vision, strategy, and operations. He joined Scribd, Inc. as Chief Financial Officer in 2019 and was appointed CEO in 2023, bringing deep experience in finance, strategy, and scaling consumer-focused businesses. \u200d Prior to Scribd, Inc., Tony held executive roles at HotelTonight and StubHub and served as Vice President of Investment Banking at Goldman Sachs and J.P. Morgan. Earlier in his career, he was an Officer in the Australian Army. He holds a Bachelor of Engineering (Honors) and a Master\u2019s in Engineering Science from the University of New South Wales, an MBA from Columbia University, and graduated from the Royal Military College, Duntroon, and the Australian Defence Force Academy. Patsy Mangan Chief People Officer Read more Patsy Mangan Chief People Officer Patsy Mangan is the Chief People Officer at Scribd, Inc., leading Human Resources, Talent Acquisition, People Experience, Internal Communications, and IT. She is known for progressive thinking and building innovative people strategies that strengthen culture and performance. Her leadership has driven initiatives such as ScribdFlex, the company\u2019s differentiated flexible work model; Scribd Humans",
+    "meta_description": "Get to the source. Specialized knowledge on any topic, and answers you won\u2019t find anywhere else. Home to the world\u2019s documents, 300M+ and counting."
   },
   {
     "name": "Recursion",
     "ats": "greenhouse",
     "slug": "recursionpharmaceuticals",
     "website": "https://recursion.com",
-    "category": []
+    "category": [],
+    "meta_description": "Dive into Recursion's innovative approach to decoding biology. Join our mission & explore what AI drug discovery companies can do. Contact us today!"
   },
   {
     "name": "TerraPower",
     "ats": "greenhouse",
     "slug": "terrapowerllc",
     "website": "https://terrapower.com",
-    "category": []
+    "category": [],
+    "meta_description": "Leading innovations in nuclear applications for reactor and storage technology, while advancing methods to transform the fight against cancer."
   },
   {
     "name": "Second Dinner",
     "ats": "ashby",
     "slug": "SecondDinner",
     "website": "https://seconddinner.com",
-    "category": []
+    "category": [],
+    "meta_description": "Second Dinner is a small, sleek, and absurdly vigorous new game studio. We may be small, but we've got BIG DREAMS!"
   },
   {
     "name": "Undead Labs",
@@ -1304,7 +1389,8 @@
     "slug": "undeadlabsllc",
     "website": "https://undeadlabs.com",
     "category": [],
-    "about_text": "About &mdash; Undead Labs 0 Skip to Content Undead Labs Home About State of Decay Careers Open Menu Close Menu Undead Labs Home About State of Decay Careers Open Menu Close Menu Home About State of Decay Careers WE BRAVE THE DARKNESS TO DISCOVER OUR LIGHT Transformative in-game experiences that create a positive impact. At Undead Labs, our studio of ambitious and intentional creative leaders aims to elevate each other, our games, and the world around us. We strive to achieve our highest potential together, courageously redefining what\u2019s possible and developing games that inspire and unite. Our Story Undead Labs was founded in 2009 and is known for developing the survival-fantasy franchise State of Decay, which has garnered a fan base of over 10 million. Undead Labs first released State of Decay in 2013 on Xbox 360 and launched State of Decay 2 in 2018 on Xbox One, Windows, and Xbox GamePass. State of Decay is not a hero\u2019s journey but an experience that calls for ingenuity, adaptability, perseverance, and collectivism. Despite its dystopian setting, State of Decay is optimistic. Players\u2019 actions have enduring consequences, and the struggle to survive is an expression of hope. As one of the Xbox Game Studios, our team operates from Undead Labs\u2019 flagship studio in downtown Seattle, WA, and our satellite studios in Champaign, IL, and Orlando, FL. EXPLORE STATE OF DECAY WE STRIVE TO ACHIEVE OUR HIGHEST POTENTIAL Our Values These guiding principles define our culture and drive excellence in everything we do. Be Humble, Be Curious Respect the differences each of us brings to the team. Get curious about each other\u2019s perspectives and stay open to alternative ideas. Find opportunities to learn, grow, and improve. Make Things Better Make things better and make better things for our players, for each other, and for our industry. Grow in your craft. Invest in relationships with each other. Increment, iterate, and deliver. Help The Team Thrive Help your team and teammates wherever and whenever it may be needed. Be proactive in communicating and engaging. Prioritize your work to support our team, studio, and customers. Celebrate our collective achievements. RISE TO THE MOMENT Choose to take responsibility, especially in the face of uncertainty or risk. Adapt, persevere, and commit. Undead Careers Undead Careers ABOUT STATE OF DECAY CAREERS PRIVACY &amp; COOKIES CONSUMER HEALTH PRIVACY TERMS OF USE TRADEMARKS ABOUT OUR ADS PRESS KIT DISCORD TWITTER FACEBOOK INSTAGRAM"
+    "about_text": "About &mdash; Undead Labs 0 Skip to Content Undead Labs Home About State of Decay Careers Open Menu Close Menu Undead Labs Home About State of Decay Careers Open Menu Close Menu Home About State of Decay Careers WE BRAVE THE DARKNESS TO DISCOVER OUR LIGHT Transformative in-game experiences that create a positive impact. At Undead Labs, our studio of ambitious and intentional creative leaders aims to elevate each other, our games, and the world around us. We strive to achieve our highest potential together, courageously redefining what\u2019s possible and developing games that inspire and unite. Our Story Undead Labs was founded in 2009 and is known for developing the survival-fantasy franchise State of Decay, which has garnered a fan base of over 10 million. Undead Labs first released State of Decay in 2013 on Xbox 360 and launched State of Decay 2 in 2018 on Xbox One, Windows, and Xbox GamePass. State of Decay is not a hero\u2019s journey but an experience that calls for ingenuity, adaptability, perseverance, and collectivism. Despite its dystopian setting, State of Decay is optimistic. Players\u2019 actions have enduring consequences, and the struggle to survive is an expression of hope. As one of the Xbox Game Studios, our team operates from Undead Labs\u2019 flagship studio in downtown Seattle, WA, and our satellite studios in Champaign, IL, and Orlando, FL. EXPLORE STATE OF DECAY WE STRIVE TO ACHIEVE OUR HIGHEST POTENTIAL Our Values These guiding principles define our culture and drive excellence in everything we do. Be Humble, Be Curious Respect the differences each of us brings to the team. Get curious about each other\u2019s perspectives and stay open to alternative ideas. Find opportunities to learn, grow, and improve. Make Things Better Make things better and make better things for our players, for each other, and for our industry. Grow in your craft. Invest in relationships with each other. Increment, iterate, and deliver. Help The Team Thrive Help your team and teammates wherever and whenever it may be needed. Be proactive in communicating and engaging. Prioritize your work to support our team, studio, and customers. Celebrate our collective achievements. RISE TO THE MOMENT Choose to take responsibility, especially in the face of uncertainty or risk. Adapt, persevere, and commit. Undead Careers Undead Careers ABOUT STATE OF DECAY CAREERS PRIVACY &amp; COOKIES CONSUMER HEALTH PRIVACY TERMS OF USE TRADEMARKS ABOUT OUR ADS PRESS KIT DISCORD TWITTER FACEBOOK INSTAGRAM",
+    "meta_description": "Undead Labs LLC is an American video game developer based in Seattle, Washington."
   },
   {
     "name": "Zynga",
@@ -1312,7 +1398,8 @@
     "slug": "zyngacareers",
     "website": "https://zynga.com",
     "category": [],
-    "about_text": "Free Mobile &amp; Online Games - Zynga - Zynga Zynga Games Company News Advertisers Blog Our Story Leadership Press Kit Careers Life at Zynga Job Openings Interns &#038; Grads Play With Pride Support Player Support Player ID &#038; PIN &nbsp; Games Company News Leadership Advertisers Blog Careers Life at Zynga Job Openings Locations Disciplines University Support Security Update Player Support Player Forums 101 Okey Plus 1010! Backgammon Plus Barista Life Baseball Heroes Bid Whist Plus Black Diamond Casino Blob Runner 3D Boggle With Friends Boggle: Arcade Edition Bounzy! Build Roads \u00c7anak Okey Plus Car Restoration 3D Cashier 3D Crosswords With Friends CSR Racing 2 Dodge Master Dragon City Drive Thru 3D Empires &#038; Puzzles: RPG Quest FarmVille 2 FarmVille 2: Country Escape FarmVille 2: Tropic Escape FarmVille 3 Fast Driver 3D Fit and Squeeze Flipper Dunk FreeCell Solitaire Game of Thrones Slots Casino Game of Thrones: Legends Garden Tails Gear Race 3D Gin Rummy Plus Go Knots 3D Gold Rush 3D! Golf Rival Gun Gang Hair Challenge Harry Potter: Puzzles &#038; Spells High Heels! Hit Guys Hit It Rich! Joust Run Match Factory! Merge Dragons! Merge Farm! Merge Magic! Merged! Money Maker 3D Monster Legends Oil Well Drilling Okey Plus Onnect Overloaded Picker 3D Pixel Shot 3D Puzzle Combat Queen Bee! Repair Master 3D Repair My Car! Rummy Plus &#8211; Original Card Game Sleep Well! Solitaire Spades Plus Spider Solitaire Tangle Master 3D Tasty Town &#8211; The Cooking Game They Need You Tiny Royale: ZOMBIES! Toon Blast Top Troops Touchdrawn Towing Race Toy Blast Two Dots Water Shooty Weapon Cloner Willy Wonka Slots Wizard of Oz Magic Match Wizard of Oz Slots Wonka&#8217;s World of Candy Wood Shop Word Life &#8211; Crossword puzzle Words With Friends World Chef Zero21 Solitaire Zynga Poker &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; View Game Merge Dragons! Can you save the magical world of Dragons? Zynga's Latest Featured Games View Game Leave it all behind and escape to the farm, where the air is fresh and the people are friendly. Experience nature at its finest, harvesting bountiful crops and raising hundreds of adorable animals. Take a break from the world and enjoy life at a different pace. Available on Android and iOS. View Game Represent your Hogwarts house and celebrate the magic and enchantment of Harry Potter like never before! Prepare to master spells, outsmart challenges, and explore the wonders of the Wizarding World while becoming enchanted by the most marvelous matching puzzles ever found on your mobile device! View Game View Game View Game Are you ready to spin the slot machines on your way to the ultimate glory: The Iron Throne? Test your skill in one of the most immersive, free slot machine games to come out of the Seven Kingdoms. View Game Attention Wordies! We\u2019re excited to announce the launch of Words With Friends, a next-generation take on the world\u2019s most popular mobile word game today on the App Store for iPhone and iPad and on Google Play for"
+    "about_text": "Free Mobile &amp; Online Games - Zynga - Zynga Zynga Games Company News Advertisers Blog Our Story Leadership Press Kit Careers Life at Zynga Job Openings Interns &#038; Grads Play With Pride Support Player Support Player ID &#038; PIN &nbsp; Games Company News Leadership Advertisers Blog Careers Life at Zynga Job Openings Locations Disciplines University Support Security Update Player Support Player Forums 101 Okey Plus 1010! Backgammon Plus Barista Life Baseball Heroes Bid Whist Plus Black Diamond Casino Blob Runner 3D Boggle With Friends Boggle: Arcade Edition Bounzy! Build Roads \u00c7anak Okey Plus Car Restoration 3D Cashier 3D Crosswords With Friends CSR Racing 2 Dodge Master Dragon City Drive Thru 3D Empires &#038; Puzzles: RPG Quest FarmVille 2 FarmVille 2: Country Escape FarmVille 2: Tropic Escape FarmVille 3 Fast Driver 3D Fit and Squeeze Flipper Dunk FreeCell Solitaire Game of Thrones Slots Casino Game of Thrones: Legends Garden Tails Gear Race 3D Gin Rummy Plus Go Knots 3D Gold Rush 3D! Golf Rival Gun Gang Hair Challenge Harry Potter: Puzzles &#038; Spells High Heels! Hit Guys Hit It Rich! Joust Run Match Factory! Merge Dragons! Merge Farm! Merge Magic! Merged! Money Maker 3D Monster Legends Oil Well Drilling Okey Plus Onnect Overloaded Picker 3D Pixel Shot 3D Puzzle Combat Queen Bee! Repair Master 3D Repair My Car! Rummy Plus &#8211; Original Card Game Sleep Well! Solitaire Spades Plus Spider Solitaire Tangle Master 3D Tasty Town &#8211; The Cooking Game They Need You Tiny Royale: ZOMBIES! Toon Blast Top Troops Touchdrawn Towing Race Toy Blast Two Dots Water Shooty Weapon Cloner Willy Wonka Slots Wizard of Oz Magic Match Wizard of Oz Slots Wonka&#8217;s World of Candy Wood Shop Word Life &#8211; Crossword puzzle Words With Friends World Chef Zero21 Solitaire Zynga Poker &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; View Game Merge Dragons! Can you save the magical world of Dragons? Zynga's Latest Featured Games View Game Leave it all behind and escape to the farm, where the air is fresh and the people are friendly. Experience nature at its finest, harvesting bountiful crops and raising hundreds of adorable animals. Take a break from the world and enjoy life at a different pace. Available on Android and iOS. View Game Represent your Hogwarts house and celebrate the magic and enchantment of Harry Potter like never before! Prepare to master spells, outsmart challenges, and explore the wonders of the Wizarding World while becoming enchanted by the most marvelous matching puzzles ever found on your mobile device! View Game View Game View Game Are you ready to spin the slot machines on your way to the ultimate glory: The Iron Throne? Test your skill in one of the most immersive, free slot machine games to come out of the Seven Kingdoms. View Game Attention Wordies! We\u2019re excited to announce the launch of Words With Friends, a next-generation take on the world\u2019s most popular mobile word game today on the App Store for iPhone and iPad and on Google Play for",
+    "meta_description": "Online games & mobile games offer limitless fun! Play the most popular free games around by Zynga - Farmville, Hit it Rich, Zynga Poker and many more!"
   },
   {
     "name": "Crystal Dynamics",
@@ -1326,14 +1413,16 @@
     "ats": "greenhouse",
     "slug": "firaxis",
     "website": "https://firaxis.com",
-    "category": []
+    "category": [],
+    "meta_description": "Welcome to Firaxis Games. Creators of Sid Meier\u2019s Civilization VII, XCOM, and Marvel\u2019s Midnight Suns. Explore our latest news, games, and career openings."
   },
   {
     "name": "Frontier Developments",
     "ats": "ashby",
     "slug": "frontier",
     "website": "https://frontier.co.uk",
-    "category": []
+    "category": [],
+    "meta_description": "We craft games that offer authentic simulation and deep management experiences to our passionate players. With hours of endless creativity, strategy and discovery, we pride ourselves in being at the forefront of the creative management simulation (CMS) genre."
   },
   {
     "name": "Gearbox Software",
@@ -1361,20 +1450,23 @@
     "ats": "greenhouse",
     "slug": "rockstargames",
     "website": "https://rockstargames.com",
-    "category": []
+    "category": [],
+    "meta_description": "The official home of Rockstar Games"
   },
   {
     "name": "Scopely",
     "ats": "greenhouse",
     "slug": "scopely",
     "website": "https://scopely.com",
-    "category": []
+    "category": [],
+    "meta_description": "Scopely is expanding the possibilities of play through game experiences that aim to inspire community, connection and competition. Inspire play, every day."
   },
   {
     "name": "Supercell",
     "ats": "ashby",
     "slug": "supercell",
     "website": "https://supercell.com",
-    "category": []
+    "category": [],
+    "meta_description": "Visit Supercell.com and find out more about us and our games."
   }
 ]
