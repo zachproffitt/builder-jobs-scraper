@@ -76,7 +76,8 @@ Answer both:
    no = will not primarily write code
    unclear = description doesn't make it possible to determine
 
-2. SUMMARY (only if BUILDER is yes): 1-2 sentences. What will this person build or own?
+2. SUMMARY (only if BUILDER is yes): 1-2 sentences in imperative active voice starting with a verb.
+   E.g. "Build and maintain the data pipeline..." or "Own the compiler backend..."
    Name the specific system, product, or infrastructure. No perks, no culture.
    If too vague to summarize honestly, write: vague
 
