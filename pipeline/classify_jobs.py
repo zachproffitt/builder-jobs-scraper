@@ -20,17 +20,18 @@ WORKERS = 3  # concurrent Ollama requests
 SAVE_EVERY = 100
 
 PROMPT = """/no_think
-You are filtering a job board for software builders — people who primarily write code or build software/hardware systems.
+You are filtering a job board for software engineers — people who primarily write code.
 
-INCLUDE — person primarily writes code or builds systems:
+INCLUDE — person primarily writes code:
 - Software engineers of all kinds (backend, frontend, mobile, infrastructure, platform, SRE, DevOps)
 - Data engineers building pipelines, ETL systems, data infrastructure
 - ML/AI engineers building models, training infrastructure, inference systems
 - Security engineers building security systems and tooling
 - QA/test engineers writing automation and test infrastructure
-- Firmware, embedded, kernel engineers
-- Engineering managers leading teams of builders
-- Researchers who primarily build novel models or systems (e.g., at AI/ML labs)
+- Firmware and embedded software engineers (writing code that runs on hardware)
+- Kernel and systems software engineers
+- Engineering managers leading teams of software engineers
+- Researchers who primarily build novel models or software systems (e.g., at AI/ML labs)
 - Data scientists who primarily build and train models, not just analyze data
 - Analytics engineers building data pipelines and warehouse infrastructure
 - Forward deployed engineers embedded at client sites writing and deploying software
@@ -41,13 +42,16 @@ EXCLUDE — person is not primarily writing code:
 - Technical program managers (coordinating, not coding)
 - Developer advocates and developer relations
 - Product managers and product designers
+- Hardware engineers (electrical, mechanical, PCB design, RF, optical, systems integration of physical components)
+- Manufacturing, process, and production engineers
 - Any title containing "analyst" without also containing "engineer" — data analyst,
   business analyst, product analyst, operations analyst, marketing analyst, etc.
   (Analytics Engineer and Data Engineer stay in; Data Analyst is out)
-- Research roles that are primarily analytical rather than building systems
+- Research roles that are primarily analytical rather than building software systems
 
 For borderline cases where the title doesn't resolve it, use the description:
-ask "Will this person primarily write code or build systems?" — if yes, BUILDER; if no or unclear, exclude.
+ask "Will this person primarily write code?" — if yes, BUILDER; if no or unclear, exclude.
+A firmware engineer writes code. A hardware engineer designs circuits or physical components — exclude them.
 
 Job title: {title}
 Company: {company}
