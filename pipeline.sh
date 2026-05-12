@@ -19,7 +19,7 @@ python3 fetch_jobs.py || echo "  [warn] Some companies failed to fetch — conti
 # 2. Fetch Greenhouse descriptions for today's new jobs
 echo ""
 echo "=== [2/5] Fetching Greenhouse descriptions ==="
-python3 fetch_descriptions.py
+python3 fetch_job_descriptions.py
 
 # 3. Classify only today's new jobs
 echo ""
@@ -29,7 +29,7 @@ python3 classify_jobs.py
 # 4. Render builder jobs to the builder-jobs repo
 echo ""
 echo "=== [4/5] Rendering ==="
-python3 render.py
+python3 render_jobs.py
 
 # 5. Regenerate README index
 echo ""

@@ -1,22 +1,22 @@
 # builder-jobs-scraper
 
-Pipeline that pulls engineering job listings directly from company ATS APIs and publishes them to [zachproffitt/builder-jobs](https://github.com/zachproffitt/builder-jobs).
+Pipeline that fetches engineering job listings directly from company career pages, classifies them with a local LLM, and publishes rendered markdown to [zachproffitt/builder-jobs](https://github.com/zachproffitt/builder-jobs).
 
-Rather than scraping aggregator job boards like LinkedIn or Indeed, we pull directly from each company's ATS — giving fresher data and avoiding the noise of reposted or sponsored listings.
+Rather than aggregating from job boards like LinkedIn or Indeed, we go directly to the source — giving fresher data without the noise of reposted or sponsored listings.
 
 ## How it works
 
-Jobs are fetched from each company's ATS, classified by a local LLM (builder role or not), and rendered as markdown files in a separate output repo. The output repo is kept clean and browsable on its own — no pipeline code, just jobs.
+Jobs are fetched from each company's career page, classified by a local LLM (builder role or not), and rendered as markdown files in a separate output repo. The output repo is clean and browsable on its own — no pipeline code, just jobs.
 
 ```
-fetch_jobs.py           fetch current listings from all companies
-fetch_descriptions.py   fetch full description text (where not in listing API)
-classify_jobs.py        LLM: is this a builder role? summarize, extract skills
-render.py               write one .md per engineering job → builder-jobs/jobs/
-generate_index.py       regenerate README.md in builder-jobs
+fetch_jobs.py              fetch current listings from all companies
+fetch_job_descriptions.py  fetch full description text (where not included in listing)
+classify_jobs.py           LLM: is this a builder role? summarize, extract skills
+render_jobs.py             write one .md per engineering job → builder-jobs/jobs/
+generate_index.py          regenerate README.md in builder-jobs
 ```
 
-Run all steps in sequence:
+Run the full pipeline:
 
 ```bash
 make run
@@ -29,17 +29,19 @@ make fetch
 make describe
 make classify
 make render
+make index
 ```
 
 ## Supported ATS
 
-| ATS | Descriptions in listing |
-|---|---|
-| Greenhouse | ✗ |
-| Lever | ✓ |
-| Ashby | ✓ |
-| SmartRecruiters | ✓ |
-| Rippling | in progress |
+| ATS | Supported | Scraper |
+|---|---|---|
+| Greenhouse | ✓ | `scrapers/ats_greenhouse.py` |
+| Lever | ✓ | `scrapers/ats_lever.py` |
+| Ashby | ✓ | `scrapers/ats_ashby.py` |
+| SmartRecruiters | ✓ | `scrapers/ats_smartrecruiters.py` |
+| Rippling | planned | — |
+| Workday | planned | — |
 
 ## Adding companies
 
@@ -55,24 +57,26 @@ Then run:
 make discover
 ```
 
-`discover_companies.py` will visit the company's careers page, detect the ATS, and extract the slug automatically. Results are written to `data/companies.json`. If a slug is wrong, edit `companies.json` directly — that entry is skipped on future runs.
+`discover_companies.py` visits the company's careers page, detects the ATS, and extracts the slug automatically. Results are written to `data/companies.json`. If a slug is detected incorrectly, edit `companies.json` directly — that entry is skipped on future discover runs.
 
 ## Rolling window
 
-Only jobs first seen within the last **14 days** are kept. Older jobs are dropped from `jobs_raw.json` and their rendered `.md` files are deleted from `builder-jobs` on each run.
+Only jobs first seen within the last **14 days** are kept. On each run, older jobs are dropped from `jobs_raw.json` and their rendered `.md` files are deleted from `builder-jobs`.
 
-`seen_jobs.json` is a permanent registry of every job ID ever seen with its original `first_seen` date. This ensures a long-running posting that ages out of the window and re-appears on the ATS keeps its original date and is not re-classified as new.
+`seen_jobs.json` is a permanent registry of every job ID ever seen with its original `first_seen` date. This prevents a long-running posting that ages out of the window from being re-classified as new when it re-appears.
 
-Each daily run only classifies jobs where `first_seen = today` (new arrivals) or where job content has changed since the last classification.
+Each daily run only classifies jobs where `first_seen = today` (new arrivals) or where a job's content has changed since last classification. Use `--all` flags on the first run or after a gap.
 
 ## Setup
 
-Clone both repos as siblings:
+Requires Python 3.11+. Clone both repos as siblings:
 
 ```bash
 git clone https://github.com/zachproffitt/builder-jobs-scraper
 git clone https://github.com/zachproffitt/builder-jobs
 ```
+
+The two repos must be siblings on disk — `render_jobs.py` and `generate_index.py` default to writing output to `../jobs/`.
 
 Install dependencies:
 
@@ -85,6 +89,20 @@ Install [Ollama](https://ollama.com) and pull the classification model:
 ```bash
 ollama pull qwen3:14b
 ```
+
+## First run
+
+On the first run, use `--all` flags to fetch descriptions and classify the full current set of listings rather than just today's new ones:
+
+```bash
+make fetch
+make describe-all
+make classify-all
+make render
+make index
+```
+
+After that, `make run` handles everything daily.
 
 ## Data files
 
@@ -104,9 +122,9 @@ ollama pull qwen3:14b
 | `WINDOW_DAYS` | `fetch_jobs.py` | `14` | Rolling window in days |
 | `MODEL` | `classify_jobs.py` | `qwen3:14b` | Ollama model |
 | `WORKERS` | `classify_jobs.py` | `3` | Concurrent LLM requests |
-| `WORKERS` | `fetch_descriptions.py` | `10` | Concurrent description fetches |
-| `SAVE_EVERY` | `classify_jobs.py` | `100` | Checkpoint interval |
+| `WORKERS` | `fetch_job_descriptions.py` | `10` | Concurrent description fetches |
+| `SAVE_EVERY` | `classify_jobs.py` | `100` | Checkpoint interval (jobs between saves) |
 
 ## Known issues
 
-- ~27 companies in `companies.json` have incorrect slugs and return 404 errors every run. These need to be corrected or removed.
+- ~27 companies in `companies.json` have incorrect slugs and return 404 errors on every run. These need to be corrected or removed.
