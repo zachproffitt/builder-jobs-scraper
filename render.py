@@ -18,7 +18,7 @@ Usage:
 import hashlib
 import json
 import re
-from datetime import date, datetime, timezone
+from datetime import date, datetime
 from pathlib import Path
 
 
@@ -60,7 +60,7 @@ def render_job(job: dict, classification: dict, company_summary: str | None) -> 
         remote_str = "Not specified"
 
     posted = format_date(job.get("posted_at"))
-    fetched = date.today().isoformat()
+    first_seen = job.get("first_seen") or date.today().isoformat()
     raw_text = (job.get("raw_text") or "").strip()
     job_summary = classification.get("job_summary") or ""
     shash = source_hash(job, classification)
@@ -74,8 +74,8 @@ def render_job(job: dict, classification: dict, company_summary: str | None) -> 
         f"location: {location}",
         f"remote: {remote_str}",
         f"posted_at: {posted}",
+        f"first_seen: {first_seen}",
         f"url: {job['url']}",
-        f"fetched_at: {fetched}",
         f"{HASH_MARKER}{shash}",
         "---",
         "",
@@ -96,6 +96,7 @@ def render_job(job: dict, classification: dict, company_summary: str | None) -> 
         f"| Location | {location} |",
         f"| Remote | {remote_str} |",
         f"| Posted | {posted} |",
+        f"| First seen | {first_seen} |",
         f"| Source | {job['source']} |",
         "",
         f"[Apply]({job['url']})",
