@@ -14,7 +14,7 @@ CLASSIFIED_FILE = Path(__file__).parent.parent / "data" / "jobs_classified.json"
 COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies_classified.json"
 
 HASH_MARKER = "render_hash: "
-FORMAT_VERSION = "6"  # bump to force re-render of all files
+FORMAT_VERSION = "7"  # bump to force re-render of all files
 SKILL_COLOR = "3B82F6"
 
 
@@ -102,12 +102,12 @@ def render_job(job: dict, classification: dict, company_summary: str | None) -> 
     detail_parts = []
     if display_location and display_location != "Not specified":
         detail_parts.append(display_location)
+    if level:
+        detail_parts.append(f"`{level.capitalize()}`")
     if remote_str == "Remote":
         detail_parts.append("`Remote`")
     elif remote_str == "On-site":
         detail_parts.append("On-site")
-    if level:
-        detail_parts.append(f"`{level.capitalize()}`")
 
     company_line = f"**{job['company']}**"
     meta_line = (company_line + "  \n" + " · ".join(detail_parts)) if detail_parts else company_line

@@ -59,10 +59,10 @@ def format_meta(fm: dict) -> str:
     parts = [f"**{company}**"]
     if location:
         parts.append(location)
-    if remote == "Remote":
-        parts.append("`Remote`")
     if level and level not in ("unclear", ""):
         parts.append(f"`{level.capitalize()}`")
+    if remote == "Remote":
+        parts.append("`Remote`")
 
     return " · ".join(parts)
 
