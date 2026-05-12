@@ -98,9 +98,7 @@ def main():
         "Roles are scraped daily from company career pages and filtered by an LLM to keep only",
         "positions where the person will primarily write code or build systems.",
         "",
-        f"**{total} open roles** · updated daily",
-        "",
-        "---",
+        f"### {total} open roles &nbsp;·&nbsp; updated daily",
         "",
     ]
 
@@ -111,6 +109,8 @@ def main():
             label = datetime.strptime(date, "%Y-%m-%d").strftime("%B %-d, %Y")
         except ValueError:
             label = date
+        lines.append("<br>")
+        lines.append("")
         lines.append(f"## {label}")
         lines.append("")
         for j in jobs:
