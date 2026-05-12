@@ -1,0 +1,596 @@
+[
+  {
+    "name": "Stripe",
+    "slug": "stripe",
+    "summary": "Stripe builds payment processing, flexible billing systems, and financial infrastructure for businesses.",
+    "source_hash": "c925eb4d"
+  },
+  {
+    "name": "Airbnb",
+    "slug": "airbnb",
+    "summary": "Airbnb connects travelers with short-term vacation rentals in 220+ countries.",
+    "source_hash": "8905bf63"
+  },
+  {
+    "name": "Figma",
+    "slug": "figma",
+    "summary": "Figma builds a collaborative design platform for product development, enabling design, prototyping, and feedback in one place.",
+    "source_hash": "e43e7d75"
+  },
+  {
+    "name": "Vercel",
+    "slug": "vercel",
+    "summary": "Vercel provides a platform for deploying web applications with frameworks, workflows, and serverless infrastructure.",
+    "source_hash": "5511b0cb"
+  },
+  {
+    "name": "Netlify",
+    "slug": "netlify",
+    "summary": "Netlify builds a platform for creating and deploying web applications using code or AI on production infrastructure.",
+    "source_hash": "0819f195"
+  },
+  {
+    "name": "Scale AI",
+    "slug": "scaleai",
+    "summary": "Scale AI provides data, evaluations, and outcomes to AI labs, governments, and the Fortune 500.",
+    "source_hash": "46f572a2"
+  },
+  {
+    "name": "Anthropic",
+    "slug": "anthropic",
+    "summary": "Anthropic builds reliable, interpretable, and steerable AI systems through AI safety research.",
+    "source_hash": "5767eb20"
+  },
+  {
+    "name": "Mistral",
+    "slug": "mistral",
+    "summary": "Mistral builds an AI platform for enterprises that enables customization, fine-tuning, and deployment of AI assistants, autonomous agents, and multimodal AI using open models.",
+    "source_hash": "6cd28439"
+  },
+  {
+    "name": "Linear",
+    "slug": "Linear",
+    "summary": "Linear builds a product development system for teams and AI agents used by companies like OpenAI and Coinbase.",
+    "source_hash": "7d58c09a"
+  },
+  {
+    "name": "Clerk",
+    "slug": "Clerk",
+    "summary": "Clerk builds authentication and user management tools for React, Next.js, Remix, and the modern web.",
+    "source_hash": "4c654e99"
+  },
+  {
+    "name": "Supabase",
+    "slug": "Supabase",
+    "summary": "Supabase builds a Postgres development platform with Database, Auth, Storage, Edge Functions, Realtime, and Vector Search, integrated for backend application development.",
+    "source_hash": "51c2fcad"
+  },
+  {
+    "name": "Rocket Lab",
+    "slug": "rocketlab",
+    "summary": "Rocket Lab builds launch services, spacecraft, and satellite components for space missions.",
+    "source_hash": "f4bd9914"
+  },
+  {
+    "name": "Planet Labs",
+    "slug": "planetlabs",
+    "summary": "Planet builds daily satellite imagery and insights used for global decision-making.",
+    "source_hash": "ed0041fb"
+  },
+  {
+    "name": "Relativity Space",
+    "slug": "relativity",
+    "summary": "Relativity Space builds reusable rockets that make access to space more reliable and routine.",
+    "source_hash": "ce89688e"
+  },
+  {
+    "name": "Astranis",
+    "slug": "astranis",
+    "summary": "Astranis designs, builds, and operates high-orbit satellites.",
+    "source_hash": "f85fb910"
+  },
+  {
+    "name": "Astrobotic",
+    "slug": "astrobotic",
+    "summary": "Astrobotic contracts payloads for lunar missions, delivering technology to space.",
+    "source_hash": "7f6b2f91"
+  },
+  {
+    "name": "Umbra",
+    "slug": "umbra",
+    "summary": "Umbra delivers high-volume, high-quality SAR data for global remote sensing and mission-critical applications.",
+    "source_hash": "94805a96"
+  },
+  {
+    "name": "True Anomaly",
+    "slug": "trueanomalyinc",
+    "summary": "True Anomaly builds software for space mission systems used by defense and aerospace engineers.",
+    "source_hash": "b777ca60"
+  },
+  {
+    "name": "Vast",
+    "slug": "vast",
+    "summary": "Vast builds next-generation habitats for long-term human presence in low-Earth orbit.",
+    "source_hash": "35410071"
+  },
+  {
+    "name": "Redwire",
+    "slug": "redwire",
+    "summary": "Redwire provides engineering solutions for civil, commercial, and national security space missions.",
+    "source_hash": "dc37eaa0"
+  },
+  {
+    "name": "Axiom Space",
+    "slug": "axiom",
+    "summary": "Axiom Space builds sustainable space habitats designed to support human life beyond Earth.",
+    "source_hash": "0acd4fbf"
+  },
+  {
+    "name": "Apex",
+    "slug": "apex",
+    "summary": "Apex mass-manufactures productized satellite platforms to accelerate deployment of next-generation constellations.",
+    "source_hash": "625546a6"
+  },
+  {
+    "name": "Turion Space",
+    "slug": "turion-space",
+    "summary": "Turion Space builds spacecraft to secure Earth and expand humanity\u2019s reach beyond it.",
+    "source_hash": "5a29fddd"
+  },
+  {
+    "name": "IonQ",
+    "slug": "ionq",
+    "summary": "IonQ builds trapped ion quantum computing systems, provides cloud access, and develops enterprise solutions for real-world quantum applications.",
+    "source_hash": "43e74c94"
+  },
+  {
+    "name": "Rigetti Computing",
+    "slug": "rigetti",
+    "summary": "Rigetti Computing provides cloud-based quantum computing hardware and software for practical applications.",
+    "source_hash": "905535ae"
+  },
+  {
+    "name": "PsiQuantum",
+    "slug": "psiquantum",
+    "summary": "PsiQuantum builds quantum computers designed to solve complex problems in various industries.",
+    "source_hash": "1ded180b"
+  },
+  {
+    "name": "QuEra Computing",
+    "slug": "quera",
+    "summary": "QuEra Computing builds quantum computers using neutral-atoms technology for scalable quantum computing.",
+    "source_hash": "60842341"
+  },
+  {
+    "name": "Xanadu",
+    "slug": "xanadu",
+    "summary": "Xanadu builds quantum computing systems used by people worldwide.",
+    "source_hash": "f020e711"
+  },
+  {
+    "name": "Q-CTRL",
+    "slug": "q-ctrl",
+    "summary": "Q-CTRL builds infrastructure software to expand quantum computer utility and enable quantum sensing capabilities.",
+    "source_hash": "9b488462"
+  },
+  {
+    "name": "Quantinuum",
+    "slug": "quantinuum",
+    "summary": "Quantinuum builds trapped ion quantum computers and software solutions used by researchers and developers to solve complex problems.",
+    "source_hash": "76520eb9"
+  },
+  {
+    "name": "Classiq",
+    "slug": "classiq",
+    "summary": "Classiq builds quantum computing software used by quantum developers to design and optimize quantum circuits.",
+    "source_hash": "f4b2fa11"
+  },
+  {
+    "name": "Helion Energy",
+    "slug": "helion",
+    "summary": "Helion Energy develops fusion energy systems to provide unlimited clean power.",
+    "source_hash": "7f6c5511"
+  },
+  {
+    "name": "Commonwealth Fusion",
+    "slug": "cfsenergy",
+    "summary": "Commonwealth Fusion develops commercial fusion energy systems for power generation.",
+    "source_hash": "b1d40886"
+  },
+  {
+    "name": "Kairos Power",
+    "slug": "kairospower",
+    "summary": "Kairos Power builds advanced nuclear reactors that deliver reliable, safe power at scale.",
+    "source_hash": "0ab0b3c9"
+  },
+  {
+    "name": "Tokamak Energy",
+    "slug": "tokamak-energy",
+    "summary": "Tokamak Energy builds superconducting and fusion energy technologies for power generation.",
+    "source_hash": "41ed882f"
+  },
+  {
+    "name": "Figure AI",
+    "slug": "Figure",
+    "summary": "Figure AI builds AI-powered humanoid robots designed for general-purpose tasks.",
+    "source_hash": "9adf4615"
+  },
+  {
+    "name": "1X Technologies",
+    "slug": "1x",
+    "summary": "1X Technologies builds AI-powered humanoid robots that perform household chores and offer personalized assistance.",
+    "source_hash": "495cc1ea"
+  },
+  {
+    "name": "Agility Robotics",
+    "slug": "agilityrobotics",
+    "summary": "Agility Robotics builds humanoid robots deployed in manufacturing, distribution, and logistics for industrial automation.",
+    "source_hash": "f9123171"
+  },
+  {
+    "name": "Covariant",
+    "slug": "covariant",
+    "summary": "Covariant builds Robotics Foundation Models deployed by retailers and logistics providers.",
+    "source_hash": "a7be2f4f"
+  },
+  {
+    "name": "Viam",
+    "slug": "viamrobotics",
+    "summary": "Viam builds a robotics platform with multi-language SDKs, hardware abstracted into simple APIs, and fleet management from prototype to global scale.",
+    "source_hash": "f4e3f102"
+  },
+  {
+    "name": "Physical Intelligence",
+    "slug": "physicalintelligence",
+    "summary": "Physical Intelligence builds general-purpose AI systems for physical applications.",
+    "source_hash": "48392507"
+  },
+  {
+    "name": "Machina Labs",
+    "slug": "machina-labs",
+    "summary": "Machina Labs builds software-defined factories that deliver complex metal structures for aerospace, defense, and advanced mobility programs.",
+    "source_hash": "258679d9"
+  },
+  {
+    "name": "Cohere",
+    "slug": "cohere",
+    "summary": "Cohere builds AI models and solutions used by enterprises to automate processes, empower employees, and turn fragmented data into actionable insights.",
+    "source_hash": "d04a0f44"
+  },
+  {
+    "name": "Runway",
+    "slug": "runway",
+    "summary": "Runway builds foundational General World Models capable of simulating all possible worlds and experiences.",
+    "source_hash": "3660e0dc"
+  },
+  {
+    "name": "Imbue",
+    "slug": "imbue",
+    "summary": "Imbue builds software that lets users modify algorithms and agents and create personal software.",
+    "source_hash": "4def343c"
+  },
+  {
+    "name": "Allen Institute for AI",
+    "slug": "thealleninstitute",
+    "summary": "Ai2 conducts research and engineering to address key challenges in artificial intelligence.",
+    "source_hash": "b83e6fc1"
+  },
+  {
+    "name": "Hugging Face",
+    "slug": "hugging-face",
+    "summary": "Hugging Face builds open-source AI tools and libraries for machine learning model development and deployment.",
+    "source_hash": "c7c1fcac"
+  },
+  {
+    "name": "Waymo",
+    "slug": "waymo",
+    "summary": "Waymo develops autonomous vehicle technology for transportation of people and goods.",
+    "source_hash": "75c2067a"
+  },
+  {
+    "name": "Aurora",
+    "slug": "aurora-innovation",
+    "summary": "Aurora builds self-driving freight technology, including the Aurora Driver, used in freight delivery.",
+    "source_hash": "4d932867"
+  },
+  {
+    "name": "Zoox",
+    "slug": "zoox",
+    "summary": "Zoox builds autonomous robotaxis used by riders for ride-hailing.",
+    "source_hash": "318e95fd"
+  },
+  {
+    "name": "Motional",
+    "slug": "motional",
+    "summary": "Motional develops and deploys autonomous vehicle systems used in transportation.",
+    "source_hash": "f2c50c25"
+  },
+  {
+    "name": "Applied Intuition",
+    "slug": "appliedintuition",
+    "summary": "Applied Intuition builds physical AI systems automating machines across automotive, defense, trucking, mining, construction, and agriculture.",
+    "source_hash": "c3845a45"
+  },
+  {
+    "name": "Kodiak Robotics",
+    "slug": "kodiak",
+    "summary": "Kodiak Robotics develops autonomous driving technology that integrates into any driving platform for reliable movement in various environments.",
+    "source_hash": "1552a0cb"
+  },
+  {
+    "name": "Anduril Industries",
+    "slug": "andurilindustries",
+    "summary": "Anduril Industries builds autonomous systems and defense technology using AI, robotics, and advanced engineering.",
+    "source_hash": "a71e7cfa"
+  },
+  {
+    "name": "Rebellion Defense",
+    "slug": "rebelliondefense",
+    "summary": "Rebellion Defense builds a system to shield America\u2019s infrastructure from cyber threats.",
+    "source_hash": "29e7f70f"
+  },
+  {
+    "name": "Epirus",
+    "slug": "epirus",
+    "summary": "Epirus builds high-power microwave systems using directed energy, AI, and advanced electronics for non-kinetic counter-UAS and swarm defense.",
+    "source_hash": "463b343d"
+  },
+  {
+    "name": "Vannevar Labs",
+    "slug": "vannevarlabs",
+    "summary": "Vannevar Labs builds agentic AI pre-trained for national security missions used by defense and intelligence agencies.",
+    "source_hash": "4eefb7c3"
+  },
+  {
+    "name": "Schrodinger",
+    "slug": "schrodinger",
+    "summary": "Schrodinger builds chemical simulation software used in pharmaceutical, biotechnology, and materials research.",
+    "source_hash": "5b5ffcae"
+  },
+  {
+    "name": "10x Genomics",
+    "slug": "10xgenomics",
+    "summary": "10x Genomics develops tools for genomic research used by scientists to advance human health.",
+    "source_hash": "3dbbac3b"
+  },
+  {
+    "name": "Isomorphic Labs",
+    "slug": "isomorphiclabs",
+    "summary": "Isomorphic Labs builds AI tools to accelerate scientific research and drug discovery.",
+    "source_hash": "3183dc21"
+  },
+  {
+    "name": "Cerebras Systems",
+    "slug": "cerebrassystems",
+    "summary": "Cerebras builds AI training platforms used by machine learning engineers.",
+    "source_hash": "82df6e7b"
+  },
+  {
+    "name": "Tenstorrent",
+    "slug": "tenstorrent",
+    "summary": "Tenstorrent builds AI computers using RISC-V and ASIC technology.",
+    "source_hash": "b15cee69"
+  },
+  {
+    "name": "Groq",
+    "slug": "groq",
+    "summary": "Groq builds the Groq LPU used by developers for inference with speed and cost.",
+    "source_hash": "eb028f21"
+  },
+  {
+    "name": "Etched",
+    "slug": "Etched",
+    "summary": "Etched builds AI inference systems purpose-built for transformers, delivering 10x higher performance and lower cost/latency than B200 using ASICs.",
+    "source_hash": "219a75b8"
+  },
+  {
+    "name": "Form Energy",
+    "slug": "form",
+    "summary": "Form Energy develops long-duration energy storage systems to support a reliable electric grid.",
+    "source_hash": "1395e95c"
+  },
+  {
+    "name": "QuantumScape",
+    "slug": "quantumscape",
+    "summary": "QuantumScape builds solid-state battery technology for faster charging, longer range, and extended lifespan.",
+    "source_hash": "69d1f1fc"
+  },
+  {
+    "name": "Northvolt",
+    "slug": "northvolt",
+    "summary": "Northvolt develops sustainable battery technology for electric vehicles and renewable energy storage.",
+    "source_hash": "f09328c0"
+  },
+  {
+    "name": "Heirloom Carbon",
+    "slug": "heirloomcarbon",
+    "summary": "Heirloom Carbon uses natural processes to engineer Direct Air Capture solutions for removing carbon dioxide from the atmosphere.",
+    "source_hash": "c9f5cd5e"
+  },
+  {
+    "name": "Antora Energy",
+    "slug": "antora",
+    "summary": "Antora builds and deploys factory-built thermal batteries in the United States for industrial operations.",
+    "source_hash": "387b95b6"
+  },
+  {
+    "name": "Riot Games",
+    "slug": "riotgames",
+    "summary": "Riot Games develops League of Legends, VALORANT, Teamfight Tactics, Legends of Runeterra, Wild Rift, and Arcane, and operates LOL and VALORANT Esports.",
+    "source_hash": "9c360f26"
+  },
+  {
+    "name": "Roblox",
+    "slug": "roblox",
+    "summary": "Roblox builds a platform for creating and playing user-generated 3D games.",
+    "source_hash": "ce234a52"
+  },
+  {
+    "name": "Niantic",
+    "slug": "niantic",
+    "summary": "Niantic builds AR games and apps that use real-world locations, including Pok\u00e9mon GO.",
+    "source_hash": "4a28b702"
+  },
+  {
+    "name": "CD Projekt Red",
+    "slug": "cdprojektred",
+    "summary": "CD Projekt Red develops RPGs used by gamers.",
+    "source_hash": "3abdb601"
+  },
+  {
+    "name": "Remedy Entertainment",
+    "slug": "remedy",
+    "summary": "Remedy Entertainment develops story-driven action games such as Control, Alan Wake, and Max Payne.",
+    "source_hash": "18693c36"
+  },
+  {
+    "name": "Unity Technologies",
+    "slug": "unity-technologies",
+    "summary": "Unity builds a 3D game engine for mobile, PC, console, XR, and industrial applications.",
+    "source_hash": "53e54a7b"
+  },
+  {
+    "name": "Neuralink",
+    "slug": "neuralink",
+    "summary": "Neuralink builds brain-computer interfaces to restore autonomy for individuals with neurological conditions.",
+    "source_hash": "2caba242"
+  },
+  {
+    "name": "Synchron",
+    "slug": "synchron",
+    "summary": "Synchron builds a platform that provides access to brain data for medical research and clinical applications.",
+    "source_hash": "f1654094"
+  },
+  {
+    "name": "Precision Neuroscience",
+    "slug": "precision-neuroscience",
+    "summary": "Precision Neuroscience builds software tools for analyzing neural data in brain research.",
+    "source_hash": "8b01d96a"
+  },
+  {
+    "name": "Saildrone",
+    "slug": "saildrone",
+    "summary": "Saildrone builds autonomous maritime systems used by decision-makers and warfighters.",
+    "source_hash": "99d41db7"
+  },
+  {
+    "name": "Terradepth",
+    "slug": "terradepth",
+    "summary": "Terradepth builds seabed-to-cloud ocean data solutions using autonomous vehicles and Absolute Ocean for maritime decision-making.",
+    "source_hash": "e96749dc"
+  },
+  {
+    "name": "Bedrock Ocean",
+    "slug": "bedrockocean",
+    "summary": "Bedrock Ocean maps the ocean floor and builds systems to explore and commercialize underwater resources at scale.",
+    "source_hash": "487c6a65"
+  },
+  {
+    "name": "ElevenLabs",
+    "slug": "elevenlabs",
+    "summary": "ElevenLabs builds AI voice models and the ElevenAgent platform used by businesses and developers.",
+    "source_hash": "728b6971"
+  },
+  {
+    "name": "Skydio",
+    "slug": "skydio",
+    "summary": "Skydio develops autonomous drones using AI and advanced hardware for applications in energy, public safety, and defense.",
+    "source_hash": "02cb4a53"
+  },
+  {
+    "name": "Sofar Ocean",
+    "slug": "sofarocean",
+    "summary": "Sofar builds a real-time ocean network that processes billions of measurements into insights for scientists, governments, and shipping fleets, enhancing ocean predictability and sustainability.",
+    "source_hash": "a5fa36b1"
+  },
+  {
+    "name": "Weaviate",
+    "slug": "weaviate",
+    "summary": "Weaviate builds an AI-native vector database using machine learning to process unstructured data, with open source and enterprise adoption.",
+    "source_hash": "8476dad2"
+  },
+  {
+    "name": "Qdrant",
+    "slug": "qdrant.tech",
+    "summary": "Qdrant builds an open-source vector search engine for AI applications, including semantic search, retrieval-augmented generation (RAG), AI agents, and real-time recommendations.",
+    "source_hash": "e5660122"
+  },
+  {
+    "name": "Grafana",
+    "slug": "grafanalabs",
+    "summary": "Grafana builds an AI-powered observability platform on open standards that unifies metrics, logs, traces, profiles, and business data to avoid lock-in and ensure reliability.",
+    "source_hash": "ff9bc3d4"
+  },
+  {
+    "name": "Headspace",
+    "slug": "hs",
+    "summary": "Headspace builds a mental health app offering guided meditation and mindfulness exercises.",
+    "source_hash": "d11f3481"
+  },
+  {
+    "name": "Scribd",
+    "slug": "ScribdInc",
+    "summary": "Scribd hosts 300 million+ documents, providing specialized knowledge across topics.",
+    "source_hash": "4ea0ff95"
+  },
+  {
+    "name": "Recursion",
+    "slug": "recursionpharmaceuticals",
+    "summary": "Recursion builds AI platforms for drug discovery by decoding biology using high-throughput experimentation and machine learning.",
+    "source_hash": "73c937fb"
+  },
+  {
+    "name": "TerraPower",
+    "slug": "terrapowerllc",
+    "summary": "TerraPower develops nuclear reactor and storage technologies and advances cancer treatment methods.",
+    "source_hash": "1d22fd4a"
+  },
+  {
+    "name": "Second Dinner",
+    "slug": "SecondDinner",
+    "summary": "Second Dinner develops video games for PC and consoles.",
+    "source_hash": "abcc991b"
+  },
+  {
+    "name": "Undead Labs",
+    "slug": "undeadlabsllc",
+    "summary": "Undead Labs develops video games.",
+    "source_hash": "c337cbd0"
+  },
+  {
+    "name": "Zynga",
+    "slug": "zyngacareers",
+    "summary": "Zynga develops online and mobile games including Farmville, Hit it Rich, and Zynga Poker.",
+    "source_hash": "2a4e2ad4"
+  },
+  {
+    "name": "Firaxis Games",
+    "slug": "firaxis",
+    "summary": "Firaxis Games develops strategy and simulation games including Sid Meier\u2019s Civilization VII and XCOM.",
+    "source_hash": "94d352bb"
+  },
+  {
+    "name": "Frontier Developments",
+    "slug": "frontier",
+    "summary": "Frontier Developments develops creative management simulation games featuring authentic simulation and deep management experiences for passionate players.",
+    "source_hash": "30d994cc"
+  },
+  {
+    "name": "Rockstar Games",
+    "slug": "rockstargames",
+    "summary": "Rockstar Games develops video games, including the Grand Theft Auto series.",
+    "source_hash": "8d5bb5d2"
+  },
+  {
+    "name": "Scopely",
+    "slug": "scopely",
+    "summary": "Scopely builds mobile games that foster community and competition through social interaction features.",
+    "source_hash": "bb364a26"
+  },
+  {
+    "name": "Supercell",
+    "slug": "supercell",
+    "summary": "Supercell develops mobile games.",
+    "source_hash": "becd76f2"
+  }
+]
