@@ -47,7 +47,7 @@ def source_hash(company: dict) -> str:
     return hashlib.md5(json.dumps(company, sort_keys=True).encode()).hexdigest()[:8]
 
 
-def get_excerpts(slug: str, jobs: list[dict], n: int = 3, chars: int = 600) -> "str | None":
+def get_excerpts(slug: str, jobs: list[dict], n: int = 3, chars: int = 600) -> str | None:
     matches = [j for j in jobs if j.get("company_slug") == slug and j.get("raw_text", "").strip()]
     if not matches:
         return None
@@ -55,7 +55,7 @@ def get_excerpts(slug: str, jobs: list[dict], n: int = 3, chars: int = 600) -> "
     return "\n\n---\n\n".join(parts)
 
 
-def classify_company(company: dict, jobs: list[dict]) -> "dict | None":
+def classify_company(company: dict, jobs: list[dict]) -> dict | None:
     meta = company.get("meta_description", "").strip()
     excerpts = get_excerpts(company["slug"], jobs)
 

@@ -1,9 +1,24 @@
+import re
 import httpx
 from ._base import Job, ScraperError
 
 
 BASE_URL = "https://boards-api.greenhouse.io/v1/boards/{slug}/jobs"
-JOB_URL = "https://boards-api.greenhouse.io/v1/boards/{slug}/jobs/{job_id}"
+
+# Only match patterns where "remote" is an explicit signal, not inferred.
+# "Remote" alone, with a region qualifier, or as one of multiple options.
+_REMOTE_RE = re.compile(r"\bremote\b", re.I)
+_HYBRID_RE = re.compile(r"\bhybrid\b", re.I)
+
+
+def infer_remote(location: str | None) -> bool | None:
+    if not location:
+        return None
+    if _REMOTE_RE.search(location):
+        return True
+    if _HYBRID_RE.search(location):
+        return None  # hybrid — don't claim remote
+    return None  # can't tell from location alone
 
 
 def scrape(company: str, slug: str) -> list[Job]:
@@ -14,23 +29,19 @@ def scrape(company: str, slug: str) -> list[Job]:
     except httpx.HTTPError as e:
         raise ScraperError(f"Greenhouse request failed for {slug}: {e}") from e
 
-    data = response.json()
     jobs = []
 
-    for item in data.get("jobs", []):
-        job_id = str(item["id"])
+    for item in response.json().get("jobs", []):
         location = item.get("location", {}).get("name")
-        departments = [d["name"] for d in item.get("departments", []) if d.get("name")]
-
         jobs.append(Job(
-            id=f"greenhouse-{slug}-{job_id}",
+            id=f"greenhouse-{slug}-{item['id']}",
             company=company,
             company_slug=slug,
             title=item["title"],
             url=item["absolute_url"],
             source="greenhouse",
             location=location,
-            departments=departments,
+            remote=infer_remote(location),
         ))
 
     return jobs

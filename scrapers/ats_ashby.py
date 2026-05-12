@@ -1,4 +1,5 @@
 import httpx
+from datetime import datetime, timezone
 from ._base import Job, ScraperError
 
 
@@ -13,27 +14,26 @@ def scrape(company: str, slug: str) -> list[Job]:
     except httpx.HTTPError as e:
         raise ScraperError(f"Ashby request failed for {slug}: {e}") from e
 
-    data = response.json()
     jobs = []
 
-    for item in data.get("jobs", []):
-        job_id = item["id"]
-        location = item.get("location")
-        department = item.get("department")
-        remote = item.get("isRemote")
-        raw_text = item.get("descriptionPlain", "")
+    for item in response.json().get("jobs", []):
+        published = item.get("publishedAt")
+        try:
+            posted_at = datetime.fromisoformat(published.replace("Z", "+00:00")) if published else None
+        except (ValueError, AttributeError):
+            posted_at = None
 
         jobs.append(Job(
-            id=f"ashby-{slug}-{job_id}",
+            id=f"ashby-{slug}-{item['id']}",
             company=company,
             company_slug=slug,
             title=item["title"],
             url=item["jobUrl"],
             source="ashby",
-            location=location,
-            remote=remote,
-            raw_text=raw_text,
-            departments=[department] if department else [],
+            location=item.get("location"),
+            remote=item.get("isRemote"),
+            posted_at=posted_at,
+            raw_text=item.get("descriptionPlain", ""),
         ))
 
     return jobs

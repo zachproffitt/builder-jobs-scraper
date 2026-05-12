@@ -1,4 +1,5 @@
 import httpx
+from datetime import datetime, timezone
 from ._base import Job, ScraperError
 
 
@@ -19,10 +20,17 @@ def scrape(company: str, slug: str) -> list[Job]:
         job_id = item["id"]
         categories = item.get("categories", {})
         location = categories.get("location")
-        department = categories.get("department")
+        department = categories.get("department") or categories.get("team")
         commitment = categories.get("commitment", "")
-
         remote = "remote" in commitment.lower() if commitment else None
+
+        created_ms = item.get("createdAt")
+        posted_at = (
+            datetime.fromtimestamp(created_ms / 1000, tz=timezone.utc)
+            if created_ms else None
+        )
+
+        raw_text = item.get("descriptionPlain", "").strip()
 
         jobs.append(Job(
             id=f"lever-{slug}-{job_id}",
@@ -33,7 +41,8 @@ def scrape(company: str, slug: str) -> list[Job]:
             source="lever",
             location=location,
             remote=remote,
-            departments=[department] if department else [],
+            posted_at=posted_at,
+            raw_text=raw_text,
         ))
 
     return jobs
