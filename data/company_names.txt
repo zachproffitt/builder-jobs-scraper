@@ -694,6 +694,205 @@ Haven Studios | havenstudios.com
 Innersloth | innersloth.com
 Landfall Games | landfall.se
 
+# --- AI Startups (additional) ---
+Aleph Alpha | aleph-alpha.com
+AssemblyAI | assemblyai.com
+Coframe | coframe.ai
+Copy.ai | copy.ai
+Deepgram | deepgram.com
+Factory | factory.ai
+Fireflies.ai | fireflies.ai
+Gamma | gamma.app
+Jasper | jasper.ai
+Krisp | krisp.ai
+Lovable | lovable.dev
+Mem | mem.ai
+Sakana AI | sakana.ai
+Speechify | speechify.com
+Tabnine | tabnine.com
+Tome | tome.app
+Windsurf | windsurf.com
+Writesonic | writesonic.com
+
+# --- Speech & Audio AI ---
+Resemble AI | resemble.ai
+Rev | rev.com
+
+# --- Developer Tools (additional) ---
+Buf | buf.build
+Cal.com | cal.com
+Coderabbit | coderabbit.ai
+Continue | continue.dev
+Depot | depot.dev
+Dagger | dagger.io
+Mintlify | mintlify.com
+Novu | novu.co
+Permit.io | permit.io
+ReadySet | readyset.io
+Speakeasy | speakeasyapi.dev
+Stainless | stainlessapi.com
+Tembo | tembo.io
+Unkey | unkey.dev
+
+# --- B2B SaaS / CRM / Sales ---
+6sense | 6sense.com
+Apollo.io | apollo.io
+Calendly | calendly.com
+Clari | clari.com
+Demandbase | demandbase.com
+Freshworks | freshworks.com
+G2 | g2.com
+Gong | gong.io
+Intercom | intercom.com
+Outreach | outreach.io
+Pipedrive | pipedrive.com
+Salesloft | salesloft.com
+Typeform | typeform.com
+ZoomInfo | zoominfo.com
+
+# --- Payments & Banking Infrastructure ---
+Adyen | adyen.com
+Checkout.com | checkout.com
+Modern Treasury | moderntreasury.com
+Moov | moov.io
+Spreedly | spreedly.com
+Synctera | synctera.com
+Unit | unit.co
+Wise | wise.com
+
+# --- International Fintech ---
+Monzo | monzo.com
+N26 | n26.com
+Nubank | nubank.com.br
+Revolut | revolut.com
+Starling Bank | starlingbank.com
+
+# --- Insurance Tech ---
+At-Bay | at-bay.com
+Coalition | coalitioninc.com
+Corvus Insurance | corvusinsurance.com
+Hippo | hippo.com
+Lemonade | lemonade.com
+Next Insurance | nextinsurance.com
+Root Insurance | joinroot.com
+
+# --- Travel Tech ---
+Booking.com | booking.com
+Expedia | expedia.com
+Hopper | hopper.com
+Kiwi.com | kiwi.com
+Skyscanner | skyscanner.com
+Tripadvisor | tripadvisor.com
+
+# --- Media & Streaming ---
+Hulu | hulu.com
+SoundCloud | soundcloud.com
+Twitch | twitch.tv
+
+# --- Mapping & Location ---
+Esri | esri.com
+Foursquare | foursquare.com
+HERE Technologies | here.com
+Mapbox | mapbox.com
+Radar | radar.io
+TomTom | tomtom.com
+
+# --- Networking & CDN ---
+Akamai | akamai.com
+Arista Networks | arista.com
+Cisco | cisco.com
+F5 Networks | f5.com
+Juniper Networks | juniper.net
+
+# --- Defense Contractors (prime) ---
+BAE Systems | baesystems.com
+Booz Allen Hamilton | boozallen.com
+General Dynamics | gd.com
+L3Harris | l3harris.com
+Leidos | leidos.com
+Lockheed Martin | lockheedmartin.com
+Northrop Grumman | northropgrumman.com
+SAIC | saic.com
+
+# --- Vertical SaaS ---
+Jobber | getjobber.com
+Mindbody | mindbodyonline.com
+Procore | procore.com
+ServiceTitan | servicetitan.com
+Thumbtack | thumbtack.com
+Veeva Systems | veeva.com
+
+# --- Field Robotics & Drones ---
+Iris Automation | irisonboard.com
+Matternet | matternet.co
+Percepto | percepto.com
+
+# --- 3D Printing & Advanced Manufacturing ---
+Carbon | carbon3d.com
+Desktop Metal | desktopmetal.com
+Formlabs | formlabs.com
+Markforged | markforged.com
+
+# --- DevSecOps ---
+GitGuardian | gitguardian.com
+JFrog | jfrog.com
+Mend | mend.io
+Sonatype | sonatype.com
+
+# --- Agriculture Tech ---
+Farmers Business Network | farmersbusinessnetwork.com
+Indigo Agriculture | indigoag.com
+Pivot Bio | pivotbio.com
+Taranis | taranis.ag
+
+# --- Construction Tech ---
+Buildxact | buildxact.com
+OpenSpace | openspace.ai
+Versatile | versatile.ai
+
+# --- Climate Startups (additional) ---
+Ambri | ambri.com
+Electric Hydrogen | electrichydrogen.com
+Energy Vault | energyvault.com
+Malta | maltainc.com
+Noon Energy | noonenergy.com
+Turntide Technologies | turntide.com
+
+# --- Biotech (additional) ---
+Alector | alector.com
+Arvinas | arvinas.com
+BioNTech | biontech.com
+C4 Therapeutics | c4therapeutics.com
+Kymera Therapeutics | kymeratherapeutics.com
+Moderna | modernatx.com
+Monte Rosa Therapeutics | monterosatx.com
+Nurix | nurix.com
+Verily | verily.com
+
+# --- Computer Vision ---
+Cape Analytics | capeanalytics.com
+Matterport | matterport.com
+Tractable | tractable.ai
+
+# --- Data Privacy & Governance ---
+BigID | bigid.com
+OneTrust | onetrust.com
+Osano | osano.com
+Transcend | transcend.io
+Wirewheel | wirewheel.io
+
+# --- HR Tech (additional) ---
+Betterworks | betterworks.com
+Greenhouse Software | greenhouse.com
+Shortcut | shortcut.com
+Workleap | workleap.com
+
+# --- Gaming (additional) ---
+Compulsion Games | compulsiongames.com
+Firewalk Studios | firewalkstudios.com
+The Initiative | theinitiative.com
+Turn 10 Studios | turn10studios.com
+
 # --- Other Notable Engineering Companies ---
 Asana | asana.com
 Block | block.xyz
@@ -707,3 +906,4 @@ Observe | observeinc.com
 Otter.ai | otter.ai
 Runway Financial | runway.com
 Substack | substack.com
+Webflow | webflow.com
