@@ -61,10 +61,16 @@ def main():
     print(f"Found {total} jobs across {len(by_date)} dates")
 
     lines = [
-        "# Engineering Jobs",
+        "# Builder Jobs",
         "",
-        "Builder-focused engineering job board. Updated daily.",
-        f"**{total} open roles** across {len(by_date)} days.",
+        "A job board for engineers who build things — software, hardware, firmware, ML systems.",
+        "Roles are scraped daily from company career pages and filtered by an LLM to keep only",
+        "positions where the person will primarily write code or build systems.",
+        "No sales engineers, TPMs, or analyst roles.",
+        "",
+        f"**{total} open roles** · updated daily",
+        "",
+        "---",
         "",
     ]
 
