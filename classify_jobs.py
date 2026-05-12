@@ -22,8 +22,10 @@ Usage:
 
 import hashlib
 import json
+import sys
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import date
 from pathlib import Path
 
 import ollama
@@ -151,17 +153,28 @@ def main():
     if OUTPUT_FILE.exists():
         existing = json.loads(OUTPUT_FILE.read_text())
 
+    classify_all = "--all" in sys.argv
+    today = date.today().isoformat()
+
+    def needs_work(j: dict) -> bool:
+        # Skip if already classified with the same content
+        ex = existing.get(j["id"])
+        if ex and ex.get("source_hash") == source_hash(j):
+            return False
+        # Include if: new today, content changed on known job, or --all
+        return (
+            classify_all
+            or j.get("first_seen") == today
+            or j["id"] in existing  # content changed (hash already differs from above)
+        )
+
     with_desc = [
         j for j in jobs
-        if j.get("raw_text", "").strip()
-        and (
-            j["id"] not in existing
-            or existing[j["id"]].get("source_hash") != source_hash(j)
-        )
+        if j.get("raw_text", "").strip() and needs_work(j)
     ]
     without_desc = sum(1 for j in jobs if not j.get("raw_text", "").strip())
 
-    emit(f"{len(with_desc)} jobs to classify, {without_desc} skipped (no description yet)")
+    emit(f"{len(with_desc)} jobs to classify today, {without_desc} skipped (no description)")
     emit(f"Workers: {WORKERS}, Model: {MODEL}\n")
 
     if not with_desc:

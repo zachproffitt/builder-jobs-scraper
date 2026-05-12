@@ -7,19 +7,21 @@ from dataclasses import asdict
 from datetime import date, timedelta
 from pathlib import Path
 
-from scrapers import ats_greenhouse, ats_lever, ats_ashby
+from scrapers import ats_greenhouse, ats_lever, ats_ashby, ats_smartrecruiters
 from scrapers._base import Job, ScraperError
 
 
 DATA_DIR = Path("data")
 COMPANIES_FILE = DATA_DIR / "companies.json"
 OUTPUT_FILE = DATA_DIR / "jobs_raw.json"
+SEEN_FILE = DATA_DIR / "seen_jobs.json"
 WINDOW_DAYS = 14
 
 SCRAPERS = {
     "greenhouse": ats_greenhouse.scrape,
     "lever": ats_lever.scrape,
     "ashby": ats_ashby.scrape,
+    "smartrecruiters": ats_smartrecruiters.scrape,
 }
 
 
@@ -33,7 +35,12 @@ def serialize_job(job: Job) -> dict:
 def main():
     companies = json.loads(COMPANIES_FILE.read_text())
 
-    # Preserve first_seen dates and fetched descriptions across runs
+    # Permanent ID registry — never pruned, survives the rolling window
+    seen: dict[str, str] = {}
+    if SEEN_FILE.exists():
+        seen = json.loads(SEEN_FILE.read_text())
+
+    # Preserve descriptions from the rolling window
     prev: dict[str, dict] = {}
     if OUTPUT_FILE.exists():
         for j in json.loads(OUTPUT_FILE.read_text()):
@@ -59,14 +66,15 @@ def main():
             jobs = scraper(name, slug)
             for job in jobs:
                 d = serialize_job(job)
-                old = prev.get(d["id"])
-                if old:
-                    d["first_seen"] = old.get("first_seen", today)
-                    if old.get("raw_text"):
-                        d["raw_text"] = old["raw_text"]
+                job_id = d["id"]
+                if job_id in seen:
+                    d["first_seen"] = seen[job_id]
                 else:
                     d["first_seen"] = today
+                    seen[job_id] = today
                     new_count += 1
+                if prev.get(job_id, {}).get("raw_text"):
+                    d["raw_text"] = prev[job_id]["raw_text"]
                 all_jobs.append(d)
             print(f"{len(jobs)} jobs")
         except ScraperError as e:
@@ -85,6 +93,7 @@ def main():
     print(f"New: {new_count}  |  Closed: {closed_count}  |  Aged out (>{WINDOW_DAYS}d): {aged_out}")
 
     OUTPUT_FILE.write_text(json.dumps(all_jobs, indent=2))
+    SEEN_FILE.write_text(json.dumps(seen, indent=2))
     print(f"Written to {OUTPUT_FILE}")
 
     if errors:

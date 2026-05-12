@@ -1,30 +1,33 @@
 #!/usr/bin/env python3
 """
-Fetch full job descriptions for Greenhouse jobs.
+Fetch descriptions for Greenhouse jobs that don't have one yet.
 
 The Greenhouse listing API returns metadata only. This script hits the
-per-job detail endpoint to get the description HTML, strips it to plain
-text, and writes results back into data/jobs_raw.json.
+per-job detail endpoint, strips HTML to plain text, and writes results
+back into data/jobs_raw.json.
 
-Already-fetched descriptions are skipped (cached by job ID). Only
-Greenhouse jobs are processed — Lever and Ashby return descriptions
-in their listing endpoints.
+By default only processes jobs first_seen today so each daily run is fast.
+Use --all to backfill all Greenhouse jobs without descriptions.
 
 Usage:
-    python fetch_descriptions.py
+    python fetch_descriptions.py          # today's new jobs only
+    python fetch_descriptions.py --all    # all without descriptions
 """
 
 import html
 import json
 import re
-import time
+import sys
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import date
 from pathlib import Path
 
 import httpx
 
 JOBS_FILE = Path("data/jobs_raw.json")
 DETAIL_URL = "https://boards-api.greenhouse.io/v1/boards/{slug}/jobs/{job_id}"
-REQUEST_DELAY = 0.15  # seconds between requests per company
+WORKERS = 10
 
 
 def html_to_text(raw: str) -> str:
@@ -36,10 +39,12 @@ def html_to_text(raw: str) -> str:
     return text.strip()
 
 
-def fetch_description(slug: str, job_id: str, client: httpx.Client) -> str | None:
-    url = DETAIL_URL.format(slug=slug, job_id=job_id)
+def fetch_description(job: dict) -> str | None:
+    slug = job.get("company_slug", "")
+    greenhouse_id = job["id"].rsplit("-", 1)[-1]
+    url = DETAIL_URL.format(slug=slug, job_id=greenhouse_id)
     try:
-        r = client.get(url, timeout=12)
+        r = httpx.get(url, timeout=15)
         r.raise_for_status()
         content = r.json().get("content", "")
         return html_to_text(content) if content else None
@@ -47,59 +52,45 @@ def fetch_description(slug: str, job_id: str, client: httpx.Client) -> str | Non
         return None
 
 
-def extract_greenhouse_id(job_id: str) -> str:
-    # job_id format: "greenhouse-{slug}-{numeric_id}"
-    return job_id.rsplit("-", 1)[-1]
-
-
 def main():
+    fetch_all = "--all" in sys.argv
+    today = date.today().isoformat()
+
     jobs = json.loads(JOBS_FILE.read_text())
 
-    gh_jobs = [
+    to_fetch = [
         j for j in jobs
-        if j["source"] == "greenhouse" and not j.get("raw_text", "").strip()
+        if j.get("source") == "greenhouse"
+        and not j.get("raw_text", "").strip()
+        and (fetch_all or j.get("first_seen") == today)
     ]
-    already_have = sum(
-        1 for j in jobs
-        if j["source"] == "greenhouse" and j.get("raw_text", "").strip()
-    )
 
-    print(f"Greenhouse jobs: {len(gh_jobs)} need descriptions, {already_have} already fetched\n")
-
-    if not gh_jobs:
-        print("Nothing to do.")
+    if not to_fetch:
+        scope = "all" if fetch_all else "today's"
+        print(f"No {scope} Greenhouse jobs need descriptions")
         return
 
-    # Group by slug to be polite with per-company rate limiting
-    by_slug: dict[str, list] = {}
-    for job in gh_jobs:
-        by_slug.setdefault(job["company_slug"], []).append(job)
+    scope = "all" if fetch_all else "today's new"
+    print(f"Fetching descriptions for {len(to_fetch)} {scope} Greenhouse jobs...")
 
     job_index = {j["id"]: j for j in jobs}
+    lock = threading.Lock()
     fetched = failed = 0
 
-    with httpx.Client(follow_redirects=True) as client:
-        for slug, slug_jobs in by_slug.items():
-            company = slug_jobs[0]["company"]
-            print(f"  {company} ({len(slug_jobs)} jobs)...", end=" ", flush=True)
-            slug_fetched = 0
-
-            for job in slug_jobs:
-                gh_id = extract_greenhouse_id(job["id"])
-                text = fetch_description(slug, gh_id, client)
-                if text:
-                    job_index[job["id"]]["raw_text"] = text
-                    slug_fetched += 1
+    with ThreadPoolExecutor(max_workers=WORKERS) as executor:
+        futures = {executor.submit(fetch_description, job): job for job in to_fetch}
+        for future in as_completed(futures):
+            job = futures[future]
+            desc = future.result()
+            with lock:
+                if desc:
+                    job_index[job["id"]]["raw_text"] = desc
                     fetched += 1
                 else:
                     failed += 1
-                time.sleep(REQUEST_DELAY)
-
-            print(f"{slug_fetched}/{len(slug_jobs)}")
 
     JOBS_FILE.write_text(json.dumps(list(job_index.values()), indent=2))
-    print(f"\nFetched: {fetched}, Failed: {failed}")
-    print(f"Written to {JOBS_FILE}")
+    print(f"Fetched: {fetched}, Failed: {failed}")
 
 
 if __name__ == "__main__":
