@@ -7524,11 +7524,6 @@
     "job_summary": null,
     "source_hash": "7f980872"
   },
-  "ashby-Etched-a735c757-7d39-47de-9329-77d6362b5547": {
-    "is_engineering": true,
-    "job_summary": "The person will build firmware for AI inference systems optimized for transformer models, including low-level drivers, APIs, and embedded architectures (e.g., I2C, SPI, PCIe). They will contribute to hardware-software co-development for Etched's ASICs targeting real-time video generation and deep reasoning agents.",
-    "source_hash": "a13d7395"
-  },
   "lever-velo3d-a959e44b-abee-480d-8c94-39d140b07d8e": {
     "is_engineering": false,
     "job_summary": null,
@@ -7538,11 +7533,6 @@
     "is_engineering": false,
     "job_summary": null,
     "source_hash": "5810b9df"
-  },
-  "lever-cfsenergy-7ffc3a72-30c9-4b35-8953-0b065e534bbf": {
-    "is_engineering": true,
-    "job_summary": "The person will build high power RF antennas, plasma facing components, port plugs, error field correction coils, vertical stability coils, and plasma diagnostics for the SPARC Tokamak. They will also use bespoke tools for real-time control of a burning plasma.",
-    "source_hash": "62f54e36"
   },
   "ashby-havocai-4e5f5a78-a6dc-4a5e-86ad-ff172f33a9a1": {
     "is_engineering": false,
@@ -7569,11 +7559,6 @@
     "job_summary": null,
     "source_hash": "ecab594f"
   },
-  "ashby-turion-space-5fe3e906-07e3-4509-9ab0-68a1ceb3d78d": {
-    "is_engineering": true,
-    "job_summary": "This person will design and implement advanced GNC algorithms and control systems for satellite missions, including embedded flight code processes and hardware-in-the-loop testing for Rendezvous and Proximity Operations. They will own the development of novel algorithms and ensure integration with satellite subsystems.",
-    "source_hash": "f4830d5c"
-  },
   "lever-form-2f3e0ba8-68c1-48d4-a329-e0e895196772": {
     "is_engineering": false,
     "job_summary": null,
@@ -7594,40 +7579,10 @@
     "job_summary": null,
     "source_hash": "154ce6be"
   },
-  "ashby-helion-9b11de3a-b129-432a-81c2-56dbdf64e5a9": {
-    "is_engineering": true,
-    "job_summary": "This person will build and integrate major components of the fusion fuel cycle, including reactors, columns, and piping systems, ensuring their design, procurement, and commissioning for Helion's fusion power plant.",
-    "source_hash": "c236751f"
-  },
-  "ashby-ScribdInc-e928c933-c006-4420-84e6-f9fb1187a090": {
-    "is_engineering": true,
-    "job_summary": "The person will build the AI layer on top of Scribd's Medallion Architecture and Semantic Layer, deploy Databricks Apps infrastructure with guardrails for non-technical users, and develop AI tooling to accelerate the team's development lifecycle.",
-    "source_hash": "a870bd42"
-  },
-  "lever-atomcomputing-0341d594-0f59-4ae8-971e-9d657843e509": {
-    "is_engineering": true,
-    "job_summary": "This person will build software systems for quantum error correction in neutral atom quantum computers, focusing on architecture and implementation of fault-tolerant logical qubits.",
-    "source_hash": "12567455"
-  },
   "ashby-docker-1cf172b1-0787-4ac7-b443-416c23153f0f": {
     "is_engineering": false,
     "job_summary": null,
     "source_hash": "53293609"
-  },
-  "ashby-qdrant.tech-2f130d2c-72a2-4542-adde-0fe5cee94a65": {
-    "is_engineering": true,
-    "job_summary": "This person will build evaluation infrastructure for agentic retrieval, reference implementations for agent memory architectures, and experiment frameworks to test retrieval patterns in agent loops. They will also design systems for skill/tool retrieval and profile agent retrieval traces for performance.",
-    "source_hash": "054b229d"
-  },
-  "ashby-supercell-1a3b2775-fcd6-4cdf-a6f5-90a6706d030c": {
-    "is_engineering": true,
-    "job_summary": "This person will build automated reliability infrastructure, validation workflows, and test surfaces for Supercell's Titan engine, focusing on regression detection, integration stability, and performance monitoring across mobile platforms.",
-    "source_hash": "fb470615"
-  },
-  "ashby-onebrief-aa76bd44-9c25-4bc5-8e45-fe66d58f20d2": {
-    "is_engineering": true,
-    "job_summary": "This person will build real-time collaboration features (dashboards, maps, timeline visualizations, briefing workflows) and evolve Onebrief\u2019s design system, including component libraries and interaction patterns, to enhance the platform\u2019s UX for military staff.",
-    "source_hash": "c40cf755"
   },
   "ashby-rula-f6199178-da81-4c2b-9e32-372191b36d26": {
     "is_engineering": false,
@@ -7638,11 +7593,6 @@
     "is_engineering": false,
     "job_summary": null,
     "source_hash": "d8da2b1e"
-  },
-  "ashby-eightsleep-08de157c-a35b-45c7-a8e4-1754a7fdb04c": {
-    "is_engineering": true,
-    "job_summary": "This person will design and develop complex electromechanical systems, including hardware components integrated with sensors and actuators, and lead product development from concept through production.",
-    "source_hash": "95dba2ff"
   },
   "ashby-Supabase-7c5a2a51-f1ed-48cd-be50-7ff4b8192ce4": {
     "is_engineering": false,
@@ -7659,35 +7609,15 @@
     "job_summary": null,
     "source_hash": "39e112d6"
   },
-  "ashby-physicalintelligence-f70f9481-ea7e-48e4-9212-f9c10952a028": {
-    "is_engineering": true,
-    "job_summary": "The Build & Release Engineer will build and maintain GitHub-based CI/CD pipelines, Bazel-based build systems, Kubernetes services, and cloud infrastructure using Terraform to enable reliable, scalable software development workflows.",
-    "source_hash": "7abc3b6b"
-  },
-  "ashby-sofarocean-28baef4b-7bc6-40ee-a479-b4a940ecdbfd": {
-    "is_engineering": true,
-    "job_summary": "This person will build the Wayfinder Optimization Engine, a ship-routing tool that combines weather data with ship performance models to optimize maritime routes. They will develop and improve core algorithms, implement features, and maintain the system written in Rust and Python.",
-    "source_hash": "612d975d"
-  },
   "lever-rigetti-888f8b16-13fa-4723-a3de-ecf2174a2eb9": {
     "is_engineering": null,
     "job_summary": null,
     "source_hash": "2178cffa"
   },
-  "lever-finch-9152b5a0-c4d8-4840-9c08-a3a615a582bf": {
-    "is_engineering": true,
-    "job_summary": null,
-    "source_hash": "be3d8512"
-  },
   "ashby-SecondDinner-c9b9b788-a73f-4b91-b088-04766758163e": {
     "is_engineering": false,
     "job_summary": null,
     "source_hash": "b696cfe6"
-  },
-  "lever-q-ctrl-ccfd9f22-1d08-4fa0-bc36-092431631f4e": {
-    "is_engineering": true,
-    "job_summary": "The Lead Integration Engineer will build and integrate quantum navigation systems, ensuring seamless operation of hardware and software subsystems in gravimeters, accelerometers, and magnetometers for GPS-denied navigation applications.",
-    "source_hash": "164d05bc"
   },
   "lever-retro-f757e70b-31fb-4dba-bb46-8201d45cb394": {
     "is_engineering": false,
@@ -7699,14 +7629,893 @@
     "job_summary": null,
     "source_hash": "23236b74"
   },
-  "ashby-runway-e22fd0c9-06f5-4b27-9157-f3d8bac5b80a": {
-    "is_engineering": true,
-    "job_summary": null,
-    "source_hash": "b962c652"
-  },
   "lever-orbitalsidekick-4b790a87-4cd3-4f71-a237-46e7fd634ba4": {
     "is_engineering": null,
     "job_summary": null,
     "source_hash": "6fd3ed9f"
+  },
+  "lever-mistral-7894fd8a-ffc9-4c89-87f0-f8a7b695cf01": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "36ac5f10"
+  },
+  "lever-mistral-618c9763-cb22-4343-baca-cf1cf6b05f5c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "6c7dbc5d"
+  },
+  "lever-mistral-2a357282-9d44-4b41-a249-c75ffe878ce2": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "4db6c15b"
+  },
+  "lever-mistral-ed08b81f-9c52-4f86-addd-c4c06f3b114a": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "d077412c"
+  },
+  "lever-mistral-25757afe-9b9d-4be7-87e1-e744eaa01105": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "8b7a4aec"
+  },
+  "lever-mistral-5fb6179e-74ae-46c8-9cde-95b71890e76a": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "c621a9ea"
+  },
+  "lever-mistral-46bf0c1c-cca2-4941-bd8d-18024fa59afa": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "7956e877"
+  },
+  "lever-mistral-04a3a058-aff8-4cc4-a419-eb09e83fa947": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "36949fa1"
+  },
+  "lever-mistral-52808932-3aaa-419f-a08d-1fb2a0aed781": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "6615d651"
+  },
+  "lever-mistral-abff0584-d2e2-446e-b2a8-28d660e3773a": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "36d8d8f0"
+  },
+  "lever-mistral-51a3b9c3-6679-4e24-85df-746cc0a8e565": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "1b1ab839"
+  },
+  "lever-mistral-daf03118-b649-4a1b-8f61-a4e86839fd7c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "cb24a5db"
+  },
+  "lever-mistral-9808a516-afa8-49a4-93e2-dfc6c616ea0b": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "65f96946"
+  },
+  "lever-mistral-bb02882b-fb2e-4d06-9d5e-bd7654eee8e7": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "d24d0cd0"
+  },
+  "lever-mistral-0cde829a-c9b9-4ee1-827f-9bd30c1810fc": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "5dc0ac0f"
+  },
+  "lever-mistral-c9e2dbb5-00ed-4096-ba88-ac0bdffb68fd": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "91129f00"
+  },
+  "lever-mistral-8f93bac1-1885-41ea-8650-cb5454be97e7": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "4e9d56be"
+  },
+  "lever-mistral-1937a5af-2c9b-4a75-bb91-b06ebe714dbd": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "d569d274"
+  },
+  "lever-mistral-2aaf4e18-0943-4ebe-914d-cc9e32db8834": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "3b3fb77c"
+  },
+  "lever-mistral-f9697798-31f8-4809-87b6-05eeb5261353": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "3186a7d9"
+  },
+  "lever-mistral-1e51a251-94cd-486e-8992-93024840412e": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "8b782da5"
+  },
+  "lever-mistral-55c2e8f4-a3ea-4e59-9ccf-dac2fee26c65": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "82dd7aa6"
+  },
+  "lever-mistral-2aaf3b8e-3bee-46b7-9942-70351e63007f": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "bdfa2e20"
+  },
+  "lever-mistral-ffbb8f6c-67de-4b25-b37c-0eafd11e7b4f": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "31ff4557"
+  },
+  "lever-mistral-e59555e3-899d-4e1e-875f-90b825bc1e28": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "c6494018"
+  },
+  "lever-mistral-d9f2767e-cdab-4e07-9944-20bbc468613d": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "5882d72e"
+  },
+  "lever-mistral-1fe045c3-40c3-4d6c-ad4a-89145f28b9fa": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "402e1180"
+  },
+  "lever-mistral-fd865fe4-7344-43b0-9d8d-600e8b366725": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "2b0573ec"
+  },
+  "lever-mistral-3e8b03e7-ff33-4cd1-8042-90b7ac3c4683": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "378b7bc1"
+  },
+  "lever-mistral-c79ff8ed-6689-4dda-aec6-979a5dc767d0": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "b02a61ec"
+  },
+  "lever-mistral-94173e13-3050-4044-862a-e8dfc2deda5e": {
+    "is_engineering": true,
+    "job_summary": "Build tooling and infrastructure to train, evaluate, and analyze AI models at scale. Develop novel methods for large language models and distributed systems.",
+    "skills": [
+      "PyTorch",
+      "JAX",
+      "Ray",
+      "Kubernetes",
+      "Python"
+    ],
+    "source_hash": "ee272112"
+  },
+  "lever-mistral-7b20d2c8-d5a7-4efd-a13e-05d920ec5985": {
+    "is_engineering": true,
+    "job_summary": "Build tooling and infrastructure to train, evaluate, and analyze AI models at scale. Develop novel methods for large language models and integrate them into real-world systems.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "JAX",
+      "Ray",
+      "Kubernetes"
+    ],
+    "source_hash": "de24ad07"
+  },
+  "lever-mistral-675b7f06-a76b-4144-af0c-4dd3282ef489": {
+    "is_engineering": true,
+    "job_summary": "Build tooling and infrastructure for training, evaluation, and analysis of AI models at scale.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "JAX",
+      "Ray",
+      "Kubernetes"
+    ],
+    "source_hash": "ecf9c756"
+  },
+  "lever-mistral-60f9dc5b-6d1c-4236-be38-be7233669f00": {
+    "is_engineering": true,
+    "job_summary": "Build tooling and infrastructure for training, evaluation, and analysis of AI models at scale. Deploy AI systems on real robot platforms.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "MLOps",
+      "vision-language models",
+      "robotics simulation tools"
+    ],
+    "source_hash": "b8c59f5a"
+  },
+  "lever-mistral-4e498cbf-151e-483a-b3f7-76ff64a22041": {
+    "is_engineering": true,
+    "job_summary": "Build tooling and infrastructure for training, evaluation, and analysis of AI models at scale.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "JAX",
+      "Ray",
+      "Kubernetes"
+    ],
+    "source_hash": "e9b0b09c"
+  },
+  "lever-mistral-bedfc2aa-f1b6-4136-bd17-b3abe4c06120": {
+    "is_engineering": true,
+    "job_summary": "Build tooling and infrastructure for training, evaluation, and analysis of AI models at scale.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "JAX",
+      "Ray",
+      "Kubernetes"
+    ],
+    "source_hash": "18386a61"
+  },
+  "lever-mistral-aceffeba-c4e9-4b3b-adff-e7e78b986c5c": {
+    "is_engineering": true,
+    "job_summary": "Design and maintain full-stack applications integrating Mistral AI models into client software. Develop complex use cases for AI model deployment in customer systems.",
+    "skills": [
+      "Python",
+      "TypeScript",
+      "React",
+      "NextJS",
+      "NodeJS"
+    ],
+    "source_hash": "755a00c7"
+  },
+  "lever-mistral-ac195fdb-1731-4ce2-b47e-c1bb8c72c59d": {
+    "is_engineering": true,
+    "job_summary": "Build and deliver full-stack AI solutions for global customers as technical lead",
+    "skills": [],
+    "source_hash": "fba93833"
+  },
+  "lever-mistral-3e51d533-1f2d-48e3-9a2b-33fc7e8b0c0c": {
+    "is_engineering": true,
+    "job_summary": "Deploy and scale AI applications across customer environments, from low-level GPU stack to front-end interfaces. Contribute to open-source codebases for inference and fine-tuning.",
+    "skills": [],
+    "source_hash": "4ac203cf"
+  },
+  "lever-mistral-5538042e-f157-4a2c-a9ee-e412de9ba761": {
+    "is_engineering": true,
+    "job_summary": "Develop and maintain full-stack applications integrating AI models into client software. Design scalable applications ensuring seamless front-end and back-end integration.",
+    "skills": [
+      "Python",
+      "TypeScript",
+      "React",
+      "NodeJS",
+      "NextJS"
+    ],
+    "source_hash": "713e319a"
+  },
+  "lever-mistral-5993e633-2c23-4054-801e-1da4c2adadc5": {
+    "is_engineering": true,
+    "job_summary": "Deploy enterprise AI use cases, develop state-of-the-art LLM applications, and contribute to open-source codebases for inference and fine-tuning.",
+    "skills": [],
+    "source_hash": "3b44bee5"
+  },
+  "lever-mistral-e0db3860-0a80-47a8-958a-f8e62f3bb59c": {
+    "is_engineering": true,
+    "job_summary": "Design and implement evaluation frameworks and scalable infrastructure to measure LLM capabilities across diverse use cases.",
+    "skills": [],
+    "source_hash": "74b5ce48"
+  },
+  "lever-mistral-77f6fd1b-65cf-45d8-9b68-594c62732f62": {
+    "is_engineering": true,
+    "job_summary": "Deploy state-of-the-art GenAI applications for enterprise clients, contributing to open-source codebases for inference and fine-tuning. Collaborate on complex LLM projects involving fine-tuning and RAG.",
+    "skills": [
+      "Python",
+      "LLMs",
+      "RAG",
+      "APIs",
+      "back-end",
+      "front-end"
+    ],
+    "source_hash": "5bbcff28"
+  },
+  "lever-mistral-a73cb128-b07e-437c-b82d-57b06661c52b": {
+    "is_engineering": true,
+    "job_summary": "Deploy state-of-the-art GenAI applications into production and contribute to open-source codebases for inference and fine-tuning.",
+    "skills": [],
+    "source_hash": "a56efecf"
+  },
+  "lever-mistral-cb2137e6-d6b1-47d7-8450-6370a61f2b79": {
+    "is_engineering": true,
+    "job_summary": "Deploy production AI solutions using LLMs and contribute to open-source codebases for inference and fine-tuning. Collaborate on complex customer projects involving fine-tuning and RAG systems.",
+    "skills": [
+      "Python",
+      "APIs",
+      "back-end",
+      "front-end",
+      "LLMs"
+    ],
+    "source_hash": "4b003d5e"
+  },
+  "lever-mistral-0b476d3a-5f0c-4dda-9a5e-bd5ed8515328": {
+    "is_engineering": true,
+    "job_summary": "Deploy Mistral AI products into production environments and contribute to open-source codebases for inference and fine-tuning.",
+    "skills": [],
+    "source_hash": "c796d4a8"
+  },
+  "lever-mistral-6fc7ccb5-47bb-4eab-aea0-55929403315d": {
+    "is_engineering": true,
+    "job_summary": "Deploy state-of-the-art GenAI applications and contribute to open-source codebases for inference and fine-tuning.",
+    "skills": [],
+    "source_hash": "866a2c89"
+  },
+  "lever-mistral-c7b7fdfe-a071-4d62-bc15-7bcdff8067e7": {
+    "is_engineering": true,
+    "job_summary": "Deploy AI solutions into production for sovereign institutions and develop GenAI applications tailored to critical infrastructure needs. Contribute to open-source codebases for inference and fine-tuning.",
+    "skills": [],
+    "source_hash": "f233b668"
+  },
+  "lever-mistral-de237900-114c-4e39-aa19-671bb3201eee": {
+    "is_engineering": true,
+    "job_summary": "Build full-stack AI applications and GenAI interfaces tailored for critical infrastructure and sovereign institutions. Develop APIs, dashboards, and workflow tools for secure, compliant deployment.",
+    "skills": [],
+    "source_hash": "cc6668d4"
+  },
+  "lever-mistral-ebfdc0da-13fd-4ae9-9861-bedb5ff493ea": {
+    "is_engineering": true,
+    "job_summary": "Build and deploy complex AI systems including fine-tuning, RAG, agentic workflows, and custom LLM applications for enterprise customers.",
+    "skills": [],
+    "source_hash": "e2b2bf59"
+  },
+  "lever-mistral-cb2986cc-4768-40b9-9d67-e53d78b247dc": {
+    "is_engineering": true,
+    "job_summary": "Design and implement complex AI systems including fine-tuning, RAG, agentic workflows, and custom LLM applications.",
+    "skills": [],
+    "source_hash": "cf5b0f4d"
+  },
+  "lever-mistral-e2cf255f-49c8-4630-afe0-7f665f51f01f": {
+    "is_engineering": true,
+    "job_summary": "Design and implement complex AI systems including fine-tuning, RAG, agentic workflows, and custom LLM applications.",
+    "skills": [],
+    "source_hash": "bf70a1fc"
+  },
+  "lever-mistral-042d7b29-279b-48e2-a44b-c7bdc3180dab": {
+    "is_engineering": true,
+    "job_summary": "Design and implement complex AI systems including fine-tuning, RAG, agentic workflows, and custom LLM applications. Deliver critical lines of code for enterprise AI solutions.",
+    "skills": [],
+    "source_hash": "35bfb01f"
+  },
+  "lever-mistral-b7ae8fc4-5779-4ad2-8f5b-632b4d9498cf": {
+    "is_engineering": true,
+    "job_summary": "Develop and deploy state-of-the-art models across text, image, and speech modalities. Build tools and frameworks for data generation, model training, evaluation, and deployment.",
+    "skills": [
+      "PyTorch",
+      "JAX",
+      "Python",
+      "RAG pipelines",
+      "GPU clusters"
+    ],
+    "source_hash": "e0c66770"
+  },
+  "lever-mistral-c41d9d9e-f0ea-4621-a4a9-3f10dfa9ae84": {
+    "is_engineering": true,
+    "job_summary": "Develop and deploy state-of-the-art models across text, image, and speech modalities. Build tools and frameworks for data generation, model training, and evaluation.",
+    "skills": [
+      "PyTorch",
+      "JAX",
+      "Python",
+      "GPU clusters",
+      "RAG pipelines"
+    ],
+    "source_hash": "977e8aec"
+  },
+  "lever-mistral-426ef8c0-eb26-4004-a690-f33c62b445a7": {
+    "is_engineering": true,
+    "job_summary": "Develop and deploy state-of-the-art models across text, image, and speech modalities. Build tools and frameworks for data generation, model training, evaluation, and deployment.",
+    "skills": [
+      "PyTorch",
+      "JAX",
+      "Python"
+    ],
+    "source_hash": "44b178d5"
+  },
+  "lever-mistral-4d689780-4995-4fe5-9b7e-e8c28a180397": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "1c8ca32a"
+  },
+  "lever-mistral-bd88179e-de69-4675-8a6c-74e2547a85ac": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain the internal tooling used by annotators.",
+    "skills": [],
+    "source_hash": "698dee83"
+  },
+  "lever-mistral-e9e2c848-2128-4c59-968d-ccf2ae35b438": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "c0f28c23"
+  },
+  "lever-mistral-0048593b-1ca4-4c35-855e-be944c2cb655": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "43c8dcf2"
+  },
+  "lever-mistral-94a331c8-0ddf-4e88-a6ad-7a70c212e0fa": {
+    "is_engineering": true,
+    "job_summary": "Build and enforce Infrastructure-as-Code security through Terraform guardrails and policy-as-code integration. Design and execute security tooling strategies for CNAPP, CSPM, SAST, SCA, and SBOM-CVE tracking.",
+    "skills": [
+      "Terraform",
+      "Kubernetes",
+      "Python",
+      "Go",
+      "CNAPP",
+      "CSPM",
+      "SAST",
+      "SCA",
+      "secrets management",
+      "SBOM-CVE tracking"
+    ],
+    "source_hash": "3e2bf4c8"
+  },
+  "lever-mistral-6f7f6e7a-3dc4-430b-8957-a64450a10066": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain high-throughput data pipelines for SIEM infrastructure, ensuring reliable log ingestion and query performance.",
+    "skills": [
+      "Python",
+      "Go",
+      "Kubernetes",
+      "Azure",
+      "GCP"
+    ],
+    "source_hash": "f239fb31"
+  },
+  "lever-mistral-f9782b09-ca3c-4bfc-ba7a-349551ef9a82": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain robust detection mechanisms and automated response workflows for security threats across Mistral's AI ecosystem. Write automation scripts in Python or Go to interact with security APIs and enrich alert context.",
+    "skills": [
+      "KQL",
+      "Splunk SPL",
+      "Python",
+      "Go",
+      "SIEM"
+    ],
+    "source_hash": "adc06f68"
+  },
+  "lever-mistral-c9b75928-dd48-4432-b6f1-fc0b24e51657": {
+    "is_engineering": true,
+    "job_summary": "Integrate security controls into CI/CD pipelines using Kubernetes and Docker. Deploy and maintain CNAPP and CSPM tools for infrastructure protection.",
+    "skills": [
+      "Python",
+      "Go",
+      "Bash",
+      "Kubernetes",
+      "Docker"
+    ],
+    "source_hash": "56ee4b09"
+  },
+  "lever-mistral-2414ad08-5756-4875-afb5-04d26464b397": {
+    "is_engineering": true,
+    "job_summary": "Build and automate offensive tooling to identify and mitigate vulnerabilities in agentic applications, cloud infrastructure, and foundational models.",
+    "skills": [],
+    "source_hash": "5fa54fce"
+  },
+  "lever-mistral-1cb8bbe9-012f-46a6-83d0-1200be477793": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "f725fa27"
+  },
+  "lever-mistral-6f28da96-76f9-44bb-9b85-4e3519fde6d4": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain scalable data pipelines, ETL processes, and analytics infrastructure. Collaborate with machine learning teams to develop model training and deployment pipelines.",
+    "skills": [
+      "Python",
+      "SQL",
+      "dbt",
+      "Snowflake",
+      "BigQuery"
+    ],
+    "source_hash": "9d5a8d89"
+  },
+  "lever-mistral-bf5bcae2-839b-492e-a5bc-11d4427ee843": {
+    "is_engineering": true,
+    "job_summary": "Build and deploy data-driven features for AI products, including end-to-end data science projects from model training to production evaluation.",
+    "skills": [
+      "Python",
+      "SQL",
+      "A/B testing",
+      "causal inference",
+      "model deployment"
+    ],
+    "source_hash": "bc1a3f8e"
+  },
+  "lever-mistral-ddf7bcbb-e223-4768-a553-6e95df472cf7": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "1c7056b3"
+  },
+  "lever-mistral-d87ba0cc-010c-4237-a04f-dae2481cb59f": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "5510dd39"
+  },
+  "lever-mistral-c7ffe998-bf72-4459-8b48-ab1eeeeeb090": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "64da0643"
+  },
+  "lever-mistral-a3b1b690-ed9e-4916-8a24-24f0ac0f1f8f": {
+    "is_engineering": true,
+    "job_summary": "Develop and apply AI/ML solutions to address domain-specific scientific problems using advanced algorithms and frameworks.",
+    "skills": [
+      "deep learning",
+      "LLMs",
+      "agentic AI"
+    ],
+    "source_hash": "4e14eb0a"
+  },
+  "lever-mistral-add3ec37-a655-4a60-8823-1e871aa1e9b2": {
+    "is_engineering": true,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "cc0074c8"
+  },
+  "lever-mistral-a1854159-922e-4de7-adb6-7c1b608c147f": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "15bce838"
+  },
+  "lever-mistral-b002e59e-c262-4c68-86a8-4af575f5c4df": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain CI/CD pipelines, optimize cloud registries (Docker, Azure, GCP), and implement static and dynamic code analysis tools to enhance developer productivity and infrastructure reliability.",
+    "skills": [
+      "Docker",
+      "Azure",
+      "GCP",
+      "CI/CD",
+      "code analysis tools"
+    ],
+    "source_hash": "edb001e4"
+  },
+  "lever-mistral-bfb756e5-c820-4c55-96f4-f41c4cfa972e": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "d78b9cd2"
+  },
+  "lever-mistral-8a74fb66-c6ae-40eb-981d-d07ca17593be": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "bb7d7195"
+  },
+  "lever-mistral-9f3f377e-c85c-4521-b0ea-52afbca2a5e4": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "83f622d8"
+  },
+  "lever-mistral-eaa62529-1f3a-4360-87b0-310ebd3715ce": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "693f81d4"
+  },
+  "lever-mistral-05d162b7-6a6d-47b6-badf-d51bf122c01f": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "04f6f038"
+  },
+  "lever-mistral-21e7e5d6-a469-4eeb-a0c5-2e0f3e92bd9e": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "bd6c0a85"
+  },
+  "lever-mistral-d7007133-0f05-4775-9fe3-f0eed36ea7b9": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "b48d00a1"
+  },
+  "lever-mistral-00174d62-29ca-42c3-8dfb-8bc396384d48": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "07080c2e"
+  },
+  "lever-mistral-05357f94-2843-4385-a5ef-1a132ad88315": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "2d734922"
+  },
+  "lever-mistral-1d8de5a6-9794-4919-9c43-b2494e6cfa0f": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "38445acd"
+  },
+  "lever-mistral-a6064464-4ff5-42e6-aa15-75122a5fa9f6": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "e7db5b54"
+  },
+  "lever-mistral-3a121ef0-8b21-4a27-8ca1-89502926f957": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "62727b45"
+  },
+  "lever-mistral-fbcc92bb-a69e-44a3-a8cc-fa8011e8d75a": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "9e550ecf"
+  },
+  "lever-mistral-d027b953-5c6a-4145-8697-9472efba873f": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "b8da0a32"
+  },
+  "lever-mistral-0a274090-e9f9-4ed4-a6e0-aac5acdf4248": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "fa2b2796"
+  },
+  "lever-mistral-518120c6-c4af-4246-bc8b-1b6965b82652": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "694ae641"
+  },
+  "lever-mistral-078e3097-9b9c-48a9-bfd8-92df5a41f931": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "f4b0d140"
+  },
+  "lever-mistral-bd69355b-9159-4bad-b52d-b71110e65090": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "f288b8a7"
+  },
+  "lever-mistral-b84413c1-00a1-4663-8697-aa6548cc87f8": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "4abfb434"
+  },
+  "lever-mistral-aef81704-b44b-4a42-bdb0-a895cf709df6": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "57f3bedc"
+  },
+  "lever-mistral-59624055-8cc3-43dc-81d4-4f01d77e30c9": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "a5a127cf"
+  },
+  "lever-mistral-64c9a48e-6d23-4090-bf0f-5a979830fbaf": {
+    "is_engineering": true,
+    "job_summary": "Design and develop scalable backend features and APIs for authentication, billing, and AI tooling systems.",
+    "skills": [
+      "Golang",
+      "APIs",
+      "databases",
+      "caching"
+    ],
+    "source_hash": "e6a91911"
+  },
+  "lever-mistral-4337cebc-b951-4528-98f8-ebcb45db5645": {
+    "is_engineering": true,
+    "job_summary": "Design and implement evaluation pipelines for large language models, and define metrics for model behavior across reasoning, alignment, and tools.",
+    "skills": [],
+    "source_hash": "8cb87c7c"
+  },
+  "lever-mistral-6857fa38-ce30-4513-9930-acf7d78d42ed": {
+    "is_engineering": true,
+    "job_summary": "Design and optimize high-performance network architectures for HPC clusters and AI workloads. Implement and maintain low-latency networking solutions using InfiniBand, RoCE, and high-speed Ethernet.",
+    "skills": [
+      "InfiniBand",
+      "RoCE",
+      "TCP/IP",
+      "MPLS",
+      "Ansible",
+      "Python"
+    ],
+    "source_hash": "ab9552e4"
+  },
+  "lever-mistral-ef4c26fc-3fdb-4dd2-a64e-95264ee769dd": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain Mistral\u2019s open-source libraries (mistral-common, mistral-finetune, mistral-inference) and optimize them for performance and accuracy. Create internal and external tooling to support open-source model releases and community collaboration.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "MLOps",
+      "vLLM",
+      "Hugging Face"
+    ],
+    "source_hash": "d4343bd8"
+  },
+  "ashby-Etched-a735c757-7d39-47de-9329-77d6362b5547": {
+    "is_engineering": true,
+    "job_summary": "Develop firmware for AI inference systems optimized for transformer models, focusing on low-level drivers, APIs, and embedded architectures. Implement and troubleshoot firmware across hardware and software stacks for scalable, fault-tolerant AI solutions.",
+    "skills": [
+      "firmware design",
+      "I2C",
+      "SPI",
+      "PCIe",
+      "DRAM",
+      "embedded architectures"
+    ],
+    "source_hash": "a13d7395"
+  },
+  "lever-cfsenergy-7ffc3a72-30c9-4b35-8953-0b065e534bbf": {
+    "is_engineering": true,
+    "job_summary": "Build precision ultra high vacuum subassemblies for SPARC Tokamak, including high power RF antennas and plasma diagnostics.",
+    "skills": [],
+    "source_hash": "62f54e36"
+  },
+  "ashby-turion-space-5fe3e906-07e3-4509-9ab0-68a1ceb3d78d": {
+    "is_engineering": true,
+    "job_summary": "Develop and implement advanced GNC algorithms and control systems for Rendezvous and Proximity Operation (RPO) missions. Maintain technical ownership over embedded flight code processes for satellite systems.",
+    "skills": [
+      "C++",
+      "Python",
+      "MATLAB",
+      "star trackers",
+      "GPS"
+    ],
+    "source_hash": "f4830d5c"
+  },
+  "ashby-helion-9b11de3a-b129-432a-81c2-56dbdf64e5a9": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "c236751f"
+  },
+  "ashby-ScribdInc-e928c933-c006-4420-84e6-f9fb1187a090": {
+    "is_engineering": true,
+    "job_summary": "Build the AI layer on top of Scribd's Medallion Architecture and Semantic Layer, connecting AI agents to governed data. Deploy Databricks Apps infrastructure for non-technical users to productionize AI applications.",
+    "skills": [
+      "Databricks",
+      "Medallion Architecture",
+      "Semantic Layer",
+      "AI tooling",
+      "agentic workflows"
+    ],
+    "source_hash": "a870bd42"
+  },
+  "lever-atomcomputing-0341d594-0f59-4ae8-971e-9d657843e509": {
+    "is_engineering": true,
+    "job_summary": "Design and implement error correction algorithms for neutral atom quantum computers.",
+    "skills": [],
+    "source_hash": "12567455"
+  },
+  "ashby-qdrant.tech-2f130d2c-72a2-4542-adde-0fe5cee94a65": {
+    "is_engineering": true,
+    "job_summary": "Build evaluation infrastructure for agentic retrieval systems and define metrics that correlate with end-to-end task success. Design reference implementations for agent memory architectures and skill retrieval patterns.",
+    "skills": [],
+    "source_hash": "054b229d"
+  },
+  "ashby-supercell-1a3b2775-fcd6-4cdf-a6f5-90a6706d030c": {
+    "is_engineering": true,
+    "job_summary": "Build automated reliability foundations including validation workflows, regression detection, and performance/stability signals. Create tooling and infrastructure for engine and horizontal teams.",
+    "skills": [
+      "C++",
+      "iOS",
+      "Android",
+      "macOS",
+      "Windows"
+    ],
+    "source_hash": "fb470615"
+  },
+  "ashby-onebrief-aa76bd44-9c25-4bc5-8e45-fe66d58f20d2": {
+    "is_engineering": true,
+    "job_summary": "Build and implement core real-time collaboration features such as dashboards, maps, and briefing workflows. Evolve the design system by extending component libraries and improving Figma-to-code translation.",
+    "skills": [
+      "Figma",
+      "code",
+      "component libraries",
+      "interaction patterns",
+      "prototype tools"
+    ],
+    "source_hash": "c40cf755"
+  },
+  "ashby-eightsleep-08de157c-a35b-45c7-a8e4-1754a7fdb04c": {
+    "is_engineering": true,
+    "job_summary": "Design and develop complex electromechanical systems, including plastic, metal, and soft goods components integrated with novel sensors and actuators. Drive product development from concept through production.",
+    "skills": [
+      "CAD",
+      "prototyping",
+      "testing",
+      "production",
+      "electromechanical systems"
+    ],
+    "source_hash": "95dba2ff"
+  },
+  "ashby-physicalintelligence-f70f9481-ea7e-48e4-9212-f9c10952a028": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain GitHub-based CI/CD pipelines, Bazel build systems, and Kubernetes services using Terraform. Optimize infrastructure to improve build reliability and engineering velocity.",
+    "skills": [
+      "GitHub Actions",
+      "Bazel",
+      "Kubernetes",
+      "Terraform",
+      "cloud infrastructure"
+    ],
+    "source_hash": "7abc3b6b"
+  },
+  "ashby-sofarocean-28baef4b-7bc6-40ee-a479-b4a940ecdbfd": {
+    "is_engineering": true,
+    "job_summary": "Develop and maintain the Wayfinder Optimization Engine, improving core algorithms and delivering end-to-end features for maritime route optimization.",
+    "skills": [
+      "Rust",
+      "Python",
+      "C++",
+      "C"
+    ],
+    "source_hash": "612d975d"
+  },
+  "lever-finch-9152b5a0-c4d8-4840-9c08-a3a615a582bf": {
+    "is_engineering": true,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "be3d8512"
+  },
+  "lever-q-ctrl-ccfd9f22-1d08-4fa0-bc36-092431631f4e": {
+    "is_engineering": true,
+    "job_summary": "Integrate electronics, optics, mechanics, and software subsystems for quantum navigation products, ensuring seamless hardware-software functionality. Validate complete systems in laboratory and field environments.",
+    "skills": [],
+    "source_hash": "164d05bc"
+  },
+  "ashby-runway-e22fd0c9-06f5-4b27-9157-f3d8bac5b80a": {
+    "is_engineering": true,
+    "job_summary": "Lead and scale the engineering team to build and maintain Runway's collaborative business planning platform.",
+    "skills": [],
+    "source_hash": "b962c652"
   }
 }

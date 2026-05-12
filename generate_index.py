@@ -21,6 +21,7 @@ from pathlib import Path
 
 JOBS_REPO = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).parent.parent / "jobs"
 README = JOBS_REPO / "README.md"
+SKILL_COLOR = "3B82F6"
 
 
 def parse_frontmatter(path: Path) -> dict:
@@ -37,6 +38,31 @@ def parse_frontmatter(path: Path) -> dict:
     return fm
 
 
+def skill_badge(skill: str) -> str:
+    label = skill.strip().replace("-", "--").replace("_", "__").replace(" ", "_")
+    label = label.replace("+", "%2B").replace("#", "%23")
+    return f"![{skill}](https://img.shields.io/badge/{label}-{SKILL_COLOR}?style=flat-square)"
+
+
+def format_meta(fm: dict) -> str:
+    company = fm.get("company", "")
+    location = fm.get("location", "").strip()
+    remote = fm.get("remote", "").strip()
+
+    if " | " in location:
+        location = location.split(" | ")[0].strip()
+    if location in ("Not specified", ""):
+        location = ""
+
+    parts = [f"**{company}**"]
+    if location:
+        parts.append(location)
+    if remote == "Remote":
+        parts.append("`Remote`")
+
+    return " · ".join(parts)
+
+
 def main():
     if not JOBS_REPO.exists():
         print(f"Jobs repo not found: {JOBS_REPO}")
@@ -50,10 +76,14 @@ def main():
         fm = parse_frontmatter(md)
         if not fm.get("id"):
             continue
+        skills_raw = fm.get("skills", "")
+        skills = [s.strip() for s in skills_raw.split(",") if s.strip()] if skills_raw else []
         by_date[fm.get("first_seen", "unknown")].append({
             "title": fm.get("title", ""),
             "company": fm.get("company", ""),
+            "meta": format_meta(fm),
             "summary": fm.get("summary", ""),
+            "skills": skills,
             "posted_at": fm.get("posted_at", ""),
             "path": str(md.relative_to(JOBS_REPO)),
         })
@@ -76,7 +106,7 @@ def main():
 
     for date in sorted(by_date.keys(), reverse=True):
         jobs = by_date[date]
-        jobs.sort(key=lambda j: j["posted_at"], reverse=True)
+        jobs.sort(key=lambda j: j["company"].lower())
         try:
             label = datetime.strptime(date, "%Y-%m-%d").strftime("%B %-d, %Y")
         except ValueError:
@@ -85,10 +115,11 @@ def main():
         lines.append("")
         for j in jobs:
             lines.append(f"### [{j['title']}]({j['path']})")
+            lines.append(j["meta"])
             if j["summary"]:
-                lines.append(f"**{j['company']}** — {j['summary']}")
-            else:
-                lines.append(f"**{j['company']}**")
+                lines.append(f"> {j['summary']}")
+            if j["skills"]:
+                lines.append(" ".join(skill_badge(s) for s in j["skills"]))
             lines.append("")
 
     README.write_text("\n".join(lines))

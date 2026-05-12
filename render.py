@@ -35,7 +35,8 @@ def slugify(text: str) -> str:
 
 
 def source_hash(job: dict, classification: dict) -> str:
-    key = f"{job['id']}:{job['title']}:{job.get('raw_text', '')[:200]}:{classification.get('job_summary', '')}"
+    skills_str = ",".join(classification.get("skills") or [])
+    key = f"{job['id']}:{job['title']}:{job.get('raw_text', '')[:200]}:{classification.get('job_summary', '')}:{skills_str}"
     return hashlib.md5(key.encode()).hexdigest()[:8]
 
 
@@ -63,6 +64,7 @@ def render_job(job: dict, classification: dict, company_summary: str | None) -> 
     first_seen = job.get("first_seen") or date.today().isoformat()
     raw_text = (job.get("raw_text") or "").strip()
     job_summary = classification.get("job_summary") or ""
+    skills = classification.get("skills") or []
     shash = source_hash(job, classification)
 
     lines = [
@@ -77,6 +79,7 @@ def render_job(job: dict, classification: dict, company_summary: str | None) -> 
         f"first_seen: {first_seen}",
         f"url: {job['url']}",
         f"summary: {job_summary}",
+        f"skills: {', '.join(skills)}",
         f"{HASH_MARKER}{shash}",
         "---",
         "",

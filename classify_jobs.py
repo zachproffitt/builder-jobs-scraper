@@ -10,6 +10,7 @@ Output is data/jobs_classified.json — a dict keyed by job_id with:
   {
     "is_engineering": true/false/null,  # null = no description available yet
     "job_summary": "...",               # only when is_engineering=true
+    "skills": ["Python", "Rust", ...],  # only when is_engineering=true
     "source_hash": "..."                # hash of input data for delta skipping
   }
 
@@ -81,9 +82,14 @@ Answer both:
    Name the specific system, product, or infrastructure. No perks, no culture.
    If too vague to summarize honestly, write: vague
 
+3. SKILLS (only if BUILDER is yes): up to 5 specific technologies, languages, or tools mentioned in the description.
+   Comma-separated. Be specific — "PyTorch" not "ML", "Rust" not "systems programming".
+   If none are clearly mentioned, write: n/a
+
 Respond in exactly this format:
 BUILDER: <yes/no/unclear>
 SUMMARY: <summary or vague or n/a>
+SKILLS: <skill1, skill2, ... or n/a>
 """
 
 
@@ -93,7 +99,7 @@ def source_hash(job: dict) -> str:
 
 
 def classify_with_llm(job: dict) -> tuple:
-    """Returns (is_engineering, job_summary)."""
+    """Returns (is_engineering, job_summary, skills)."""
     description = job.get("raw_text", "").strip()[:3000]
     prompt = PROMPT.format(
         title=job["title"],
@@ -110,6 +116,7 @@ def classify_with_llm(job: dict) -> tuple:
 
     is_engineering = None
     job_summary = None
+    skills = []
 
     for line in text.splitlines():
         if line.startswith("BUILDER:"):
@@ -122,8 +129,12 @@ def classify_with_llm(job: dict) -> tuple:
             val = line.removeprefix("SUMMARY:").strip()
             if val.lower() not in ("n/a", "vague", ""):
                 job_summary = val
+        elif line.startswith("SKILLS:"):
+            val = line.removeprefix("SKILLS:").strip()
+            if val.lower() != "n/a":
+                skills = [s.strip() for s in val.split(",") if s.strip()]
 
-    return is_engineering, job_summary
+    return is_engineering, job_summary, skills
 
 
 def main():
@@ -167,7 +178,7 @@ def main():
     SAVE_EVERY = 100
 
     def process(job: dict) -> tuple:
-        return job, classify_with_llm(job)
+        return job, classify_with_llm(job)  # returns (job, (is_e, summary, skills))
 
     with ThreadPoolExecutor(max_workers=WORKERS) as executor:
         future_to_job = {executor.submit(process, job): job for job in with_desc}
@@ -178,7 +189,7 @@ def main():
                 n = completed
 
             try:
-                job, (is_e, summary) = future.result()
+                job, (is_e, summary, skills) = future.result()
             except Exception as e:
                 job = future_to_job[future]
                 with lock:
@@ -190,6 +201,7 @@ def main():
                 existing[job["id"]] = {
                     "is_engineering": is_e,
                     "job_summary": summary,
+                    "skills": skills,
                     "source_hash": source_hash(job),
                 }
                 if is_e is True:
