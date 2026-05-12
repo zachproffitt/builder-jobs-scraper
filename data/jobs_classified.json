@@ -7498,5 +7498,215 @@
     "is_engineering": true,
     "job_summary": "The person will build billing infrastructure, including pricing primitives, payment flows, contract models, revenue data pipelines, and the payments stack (e.g., authorization logic, fraud controls). They will own interfaces like the billing API and revenue datasets, and automate systems for quote-to-cash processes and reconciliation.",
     "source_hash": "cb7d4016"
+  },
+  "lever-larian-507e5ace-6e09-44cc-a1d6-664a6590aa77": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "394f5b42"
+  },
+  "ashby-openai-69877e54-defd-463c-b066-a1f0d65349f3": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "b27fdb23"
+  },
+  "lever-mistral-3ec6fd88-fc86-4c2c-bb5d-0c66876ba62d": {
+    "is_engineering": null,
+    "job_summary": null,
+    "source_hash": "b2c78901"
+  },
+  "ashby-d-matrix-766eba1c-d7c4-4db3-881b-c1993c3a6f46": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "7e2dc95a"
+  },
+  "ashby-elevenlabs-b647ad26-3e3a-4e0b-8ef4-6bab2cacd5c7": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "7f980872"
+  },
+  "ashby-Etched-a735c757-7d39-47de-9329-77d6362b5547": {
+    "is_engineering": true,
+    "job_summary": "The person will build firmware for AI inference systems optimized for transformer models, including low-level drivers, APIs, and embedded architectures (e.g., I2C, SPI, PCIe). They will contribute to hardware-software co-development for Etched's ASICs targeting real-time video generation and deep reasoning agents.",
+    "source_hash": "a13d7395"
+  },
+  "lever-velo3d-a959e44b-abee-480d-8c94-39d140b07d8e": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "05b4df32"
+  },
+  "lever-zoox-379f39ea-d01b-4112-ad65-a148b8a24fa9": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "5810b9df"
+  },
+  "lever-cfsenergy-7ffc3a72-30c9-4b35-8953-0b065e534bbf": {
+    "is_engineering": true,
+    "job_summary": "The person will build high power RF antennas, plasma facing components, port plugs, error field correction coils, vertical stability coils, and plasma diagnostics for the SPARC Tokamak. They will also use bespoke tools for real-time control of a burning plasma.",
+    "source_hash": "62f54e36"
+  },
+  "ashby-havocai-4e5f5a78-a6dc-4a5e-86ad-ff172f33a9a1": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "57b5e005"
+  },
+  "ashby-skydio-eb7fbbdb-3346-4f7f-a202-8bfd3441217a": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "24aae968"
+  },
+  "ashby-cohere-5139acd7-3429-483e-9984-040bd799e8a0": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "d4309f52"
+  },
+  "ashby-sierra-e3781010-1f68-484a-b624-9000b1681a57": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "c02c8b14"
+  },
+  "lever-palantir-774cf5c9-bf6a-4d77-bf60-d50ef1beb1a0": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "ecab594f"
+  },
+  "ashby-turion-space-5fe3e906-07e3-4509-9ab0-68a1ceb3d78d": {
+    "is_engineering": true,
+    "job_summary": "This person will design and implement advanced GNC algorithms and control systems for satellite missions, including embedded flight code processes and hardware-in-the-loop testing for Rendezvous and Proximity Operations. They will own the development of novel algorithms and ensure integration with satellite subsystems.",
+    "source_hash": "f4830d5c"
+  },
+  "lever-form-2f3e0ba8-68c1-48d4-a329-e0e895196772": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "354dea4a"
+  },
+  "ashby-bedrockocean-083df46b-885f-4c1d-af15-3a573b80e8d0": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "3b10164c"
+  },
+  "ashby-livekit-6f6ece65-40f0-4f90-aa09-dd282ffb5c22": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "60b961d3"
+  },
+  "ashby-insitro-e7288bb3-49e0-4268-a27e-ed61a275f3df": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "154ce6be"
+  },
+  "ashby-helion-9b11de3a-b129-432a-81c2-56dbdf64e5a9": {
+    "is_engineering": true,
+    "job_summary": "This person will build and integrate major components of the fusion fuel cycle, including reactors, columns, and piping systems, ensuring their design, procurement, and commissioning for Helion's fusion power plant.",
+    "source_hash": "c236751f"
+  },
+  "ashby-ScribdInc-e928c933-c006-4420-84e6-f9fb1187a090": {
+    "is_engineering": true,
+    "job_summary": "The person will build the AI layer on top of Scribd's Medallion Architecture and Semantic Layer, deploy Databricks Apps infrastructure with guardrails for non-technical users, and develop AI tooling to accelerate the team's development lifecycle.",
+    "source_hash": "a870bd42"
+  },
+  "lever-atomcomputing-0341d594-0f59-4ae8-971e-9d657843e509": {
+    "is_engineering": true,
+    "job_summary": "This person will build software systems for quantum error correction in neutral atom quantum computers, focusing on architecture and implementation of fault-tolerant logical qubits.",
+    "source_hash": "12567455"
+  },
+  "ashby-docker-1cf172b1-0787-4ac7-b443-416c23153f0f": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "53293609"
+  },
+  "ashby-qdrant.tech-2f130d2c-72a2-4542-adde-0fe5cee94a65": {
+    "is_engineering": true,
+    "job_summary": "This person will build evaluation infrastructure for agentic retrieval, reference implementations for agent memory architectures, and experiment frameworks to test retrieval patterns in agent loops. They will also design systems for skill/tool retrieval and profile agent retrieval traces for performance.",
+    "source_hash": "054b229d"
+  },
+  "ashby-supercell-1a3b2775-fcd6-4cdf-a6f5-90a6706d030c": {
+    "is_engineering": true,
+    "job_summary": "This person will build automated reliability infrastructure, validation workflows, and test surfaces for Supercell's Titan engine, focusing on regression detection, integration stability, and performance monitoring across mobile platforms.",
+    "source_hash": "fb470615"
+  },
+  "ashby-onebrief-aa76bd44-9c25-4bc5-8e45-fe66d58f20d2": {
+    "is_engineering": true,
+    "job_summary": "This person will build real-time collaboration features (dashboards, maps, timeline visualizations, briefing workflows) and evolve Onebrief\u2019s design system, including component libraries and interaction patterns, to enhance the platform\u2019s UX for military staff.",
+    "source_hash": "c40cf755"
+  },
+  "ashby-rula-f6199178-da81-4c2b-9e32-372191b36d26": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "2ab2f291"
+  },
+  "ashby-weaviate-0d1c47c4-bc5b-45d8-8791-8f30f0fb2a12": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "d8da2b1e"
+  },
+  "ashby-eightsleep-08de157c-a35b-45c7-a8e4-1754a7fdb04c": {
+    "is_engineering": true,
+    "job_summary": "This person will design and develop complex electromechanical systems, including hardware components integrated with sensors and actuators, and lead product development from concept through production.",
+    "source_hash": "95dba2ff"
+  },
+  "ashby-Supabase-7c5a2a51-f1ed-48cd-be50-7ff4b8192ce4": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "0a2ac7c5"
+  },
+  "ashby-strava-439de2d2-2db0-45c0-9428-8ff17da0965c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "f8f55e22"
+  },
+  "ashby-Linear-c7151df1-8c03-4c3b-b46c-becf51b61bcc": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "39e112d6"
+  },
+  "ashby-physicalintelligence-f70f9481-ea7e-48e4-9212-f9c10952a028": {
+    "is_engineering": true,
+    "job_summary": "The Build & Release Engineer will build and maintain GitHub-based CI/CD pipelines, Bazel-based build systems, Kubernetes services, and cloud infrastructure using Terraform to enable reliable, scalable software development workflows.",
+    "source_hash": "7abc3b6b"
+  },
+  "ashby-sofarocean-28baef4b-7bc6-40ee-a479-b4a940ecdbfd": {
+    "is_engineering": true,
+    "job_summary": "This person will build the Wayfinder Optimization Engine, a ship-routing tool that combines weather data with ship performance models to optimize maritime routes. They will develop and improve core algorithms, implement features, and maintain the system written in Rust and Python.",
+    "source_hash": "612d975d"
+  },
+  "lever-rigetti-888f8b16-13fa-4723-a3de-ecf2174a2eb9": {
+    "is_engineering": null,
+    "job_summary": null,
+    "source_hash": "2178cffa"
+  },
+  "lever-finch-9152b5a0-c4d8-4840-9c08-a3a615a582bf": {
+    "is_engineering": true,
+    "job_summary": null,
+    "source_hash": "be3d8512"
+  },
+  "ashby-SecondDinner-c9b9b788-a73f-4b91-b088-04766758163e": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "b696cfe6"
+  },
+  "lever-q-ctrl-ccfd9f22-1d08-4fa0-bc36-092431631f4e": {
+    "is_engineering": true,
+    "job_summary": "The Lead Integration Engineer will build and integrate quantum navigation systems, ensuring seamless operation of hardware and software subsystems in gravimeters, accelerometers, and magnetometers for GPS-denied navigation applications.",
+    "source_hash": "164d05bc"
+  },
+  "lever-retro-f757e70b-31fb-4dba-bb46-8201d45cb394": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "e5f4284e"
+  },
+  "ashby-Clerk-cc13322d-892c-4fec-bf9f-07dc605343b3": {
+    "is_engineering": false,
+    "job_summary": null,
+    "source_hash": "23236b74"
+  },
+  "ashby-runway-e22fd0c9-06f5-4b27-9157-f3d8bac5b80a": {
+    "is_engineering": true,
+    "job_summary": null,
+    "source_hash": "b962c652"
+  },
+  "lever-orbitalsidekick-4b790a87-4cd3-4f71-a237-46e7fd634ba4": {
+    "is_engineering": null,
+    "job_summary": null,
+    "source_hash": "6fd3ed9f"
   }
 }

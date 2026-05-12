@@ -76,6 +76,7 @@ def render_job(job: dict, classification: dict, company_summary: str | None) -> 
         f"posted_at: {posted}",
         f"first_seen: {first_seen}",
         f"url: {job['url']}",
+        f"summary: {job_summary}",
         f"{HASH_MARKER}{shash}",
         "---",
         "",
