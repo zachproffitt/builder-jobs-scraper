@@ -7,9 +7,14 @@ The domain is used to scrape the company's careers page and find the ATS.
 
 For each company not already in data/companies.json, fetches the careers
 page at domain/careers (and variations), follows redirects, and extracts
-the ATS slug from greenhouse.io, lever.co, or ashbyhq.com URLs.
+the ATS and slug from the page URL or HTML.
 
-Also scrapes domain/about for a company description stored in companies.json.
+Supported ATS (scrapers exist): greenhouse, lever, ashby, smartrecruiters
+Detected only (no scraper yet): workday, icims, taleo, bamboo, rippling, workable, breezy
+
+Companies with unsupported ATS are still saved to companies.json so they
+appear as [skip] entries in fetch_jobs.py output — use that list as a
+task list for building new scrapers.
 
 Usage:
     python discover.py             # resolve new companies only
@@ -46,12 +51,27 @@ _GH_BOARD = re.compile(r"(?:boards|job-boards(?:\.eu)?)\.greenhouse\.io/([A-Za-z
 # Slugs that are generic page names, not real ATS board IDs
 _SLUG_BLACKLIST = {"embed", "job_board", "jobs", "careers", "apply", "boards"}
 
+# ATS patterns: (regex, ats_name, group_for_slug)
+# Supported = scraper exists; detected = saves to companies.json but fetch skips with [skip]
 ATS_PATTERNS = [
+    # Supported
     (_GH_EMBED, "greenhouse"),
     (_GH_BOARD, "greenhouse"),
     (re.compile(r"jobs\.lever\.co/([A-Za-z0-9_.+-]+)", re.I), "lever"),
     (re.compile(r"jobs\.ashbyhq\.com/([A-Za-z0-9_.+-]+)", re.I), "ashby"),
+    (re.compile(r"jobs\.smartrecruiters\.com/([A-Za-z0-9_.+-]+)", re.I), "smartrecruiters"),
+    # Detected only — no scraper yet
+    (re.compile(r"([A-Za-z0-9-]+)\.wd\d+\.myworkdayjobs\.com", re.I), "workday"),
+    (re.compile(r"myworkdayjobs\.com/(?:[a-z]{2}-[A-Z]{2}/site/)?([A-Za-z0-9_-]+)", re.I), "workday"),
+    (re.compile(r"([A-Za-z0-9-]+)\.icims\.com", re.I), "icims"),
+    (re.compile(r"([A-Za-z0-9-]+)\.taleo\.net", re.I), "taleo"),
+    (re.compile(r"([A-Za-z0-9-]+)\.bamboohr\.com", re.I), "bamboo"),
+    (re.compile(r"app\.rippling\.com/(?:jobs|hiring)/([A-Za-z0-9_-]+)", re.I), "rippling"),
+    (re.compile(r"apply\.workable\.com/([A-Za-z0-9_-]+)", re.I), "workable"),
+    (re.compile(r"([A-Za-z0-9-]+)\.breezy\.hr", re.I), "breezy"),
 ]
+
+SUPPORTED_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters"}
 
 
 def parse_names_file() -> list[tuple[str, str]]:
@@ -98,6 +118,12 @@ def scrape_careers(domain: str, client: httpx.Client) -> "tuple[str, str] | None
             r = client.get(base + path, timeout=10, follow_redirects=True)
         except Exception:
             continue
+
+        # Check each URL in the redirect chain (Workday often redirects to its own domain)
+        for hist in r.history:
+            result = extract_ats(str(hist.url))
+            if result:
+                return result
 
         # Check the final URL (after redirects)
         result = extract_ats(str(r.url))
@@ -153,6 +179,10 @@ def verify_entry(company: dict, client: httpx.Client) -> bool:
     if not ats or not slug:
         return False
 
+    # Unsupported ATS — can't verify via API, assume still valid
+    if ats not in SUPPORTED_ATS:
+        return True
+
     time.sleep(REQUEST_DELAY)
     try:
         if ats == "greenhouse":
@@ -172,6 +202,12 @@ def verify_entry(company: dict, client: httpx.Client) -> bool:
                 f"https://api.ashbyhq.com/posting-api/job-board/{slug}", timeout=8
             )
             return r.status_code == 200 and "jobs" in r.json()
+        elif ats == "smartrecruiters":
+            r = client.get(
+                f"https://api.smartrecruiters.com/v1/companies/{slug}/postings",
+                timeout=8,
+            )
+            return r.status_code == 200
     except Exception:
         pass
     return False
@@ -245,6 +281,8 @@ def main():
             print(f"Resolving {len(new_entries)} new companies ({len(existing)} already known)...")
             print()
 
+            detected_unsupported = []  # (name, ats, slug)
+
             for i, (name, domain) in enumerate(new_entries, 1):
                 print(f"  [{i:>3}/{len(new_entries)}] {name} ({domain})...", end=" ", flush=True)
 
@@ -262,20 +300,36 @@ def main():
                     if meta:
                         entry["meta_description"] = meta
                     existing[name.lower()] = entry
-                    newly_found.append(name)
                     changed = True
-                    print(f"{ats}/{slug}")
+                    if ats in SUPPORTED_ATS:
+                        newly_found.append(name)
+                        print(f"{ats}/{slug}")
+                    else:
+                        detected_unsupported.append((name, ats, slug))
+                        print(f"{ats}/{slug} [no scraper]")
                 else:
                     unresolved.append((name, domain))
                     print("not found")
 
-        print(f"\nResolved {len(newly_found)} new companies.")
+        supported_count = len(newly_found)
+        unsupported_count = len(detected_unsupported) if "detected_unsupported" in dir() else 0
+        print(f"\nResolved: {supported_count} supported, {unsupported_count} detected (no scraper yet).")
+
+        if "detected_unsupported" in dir() and detected_unsupported:
+            print(f"\nDetected ATS with no scraper — will be skipped in fetch ({len(detected_unsupported)}):")
+            by_ats: dict[str, list[str]] = {}
+            for name, ats, slug in detected_unsupported:
+                by_ats.setdefault(ats, []).append(name)
+            for ats in sorted(by_ats):
+                print(f"  [{ats}] {', '.join(by_ats[ats])}")
+            ats_list = "/".join(sorted(by_ats))
+            print(f"\n  → Build scrapers/ats_<name>.py for: {ats_list}")
 
         if unresolved:
-            print(f"\nNeeds manual review ({len(unresolved)}):")
+            print(f"\nCould not detect ATS ({len(unresolved)}) — check careers page manually:")
             for name, domain in unresolved:
                 print(f"  - {name} ({domain})")
-            print("\nCheck the careers page manually and add to data/companies.json.")
+            print("\nAdd resolved entries directly to data/companies.json.")
 
     # Write updated companies.json
     if changed:
@@ -294,7 +348,7 @@ def main():
             log_lines.append(f"  - {name}")
 
     if unresolved:
-        log_lines.append(f"\nUnresolved new companies ({len(unresolved)}):")
+        log_lines.append(f"\nCould not detect ATS ({len(unresolved)}):")
         for name, domain in unresolved:
             log_lines.append(f"  - {name} ({domain})")
 

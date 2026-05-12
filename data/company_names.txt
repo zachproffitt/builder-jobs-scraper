@@ -226,3 +226,363 @@ Undead Labs | undeadlabs.com
 Valve | valvesoftware.com
 Warhorse Studios | warhorsestudios.cz
 Zynga | zynga.com
+
+# --- AI / ML ---
+Adept | adept.ai
+AI21 Labs | ai21.com
+Augment Code | augmentcode.com
+Character.ai | character.ai
+Codeium | codeium.com
+Cognition | cognition.ai
+Contextual AI | contextual.ai
+Descript | descript.com
+Glean | glean.com
+Harvey | harvey.ai
+Hebbia | hebbia.ai
+Inflection AI | inflection.ai
+Luma AI | lumalabs.ai
+Magic | magic.dev
+Midjourney | midjourney.com
+Perplexity | perplexity.ai
+Pika | pika.art
+Poolside | poolside.ai
+Replicate | replicate.com
+Sierra | sierra.ai
+Speak | speak.com
+Stability AI | stability.ai
+Suno | suno.com
+Together AI | together.ai
+Typeface | typeface.ai
+Weights & Biases | wandb.ai
+Writer | writer.com
+
+# --- Developer Tools & Infrastructure ---
+Airbyte | airbyte.com
+Airtable | airtable.com
+Amplitude | amplitude.com
+Astronomer | astronomer.io
+Braze | braze.com
+Chainguard | chainguard.dev
+Cloudflare | cloudflare.com
+Coda | coda.io
+CockroachLabs | cockroachlabs.com
+Dagster | dagster.io
+Databricks | databricks.com
+Datadog | datadoghq.com
+dbt Labs | getdbt.com
+Eppo | geteppo.com
+Fastly | fastly.com
+Fivetran | fivetran.com
+Fly.io | fly.io
+Harness | harness.io
+HashiCorp | hashicorp.com
+Hightouch | hightouch.com
+Honeycomb | honeycomb.io
+InfluxData | influxdata.com
+Klaviyo | klaviyo.com
+LaunchDarkly | launchdarkly.com
+Loom | loom.com
+Materialize | materialize.com
+Miro | miro.com
+Mixpanel | mixpanel.com
+Modal | modal.com
+Monday.com | monday.com
+Neon | neon.tech
+Notion | notion.so
+PagerDuty | pagerduty.com
+PlanetScale | planetscale.com
+Postman | postman.com
+Prefect | prefect.io
+Pulumi | pulumi.com
+Redpanda | redpanda.com
+Retool | retool.com
+RudderStack | rudderstack.com
+Semgrep | semgrep.dev
+Sentry | sentry.io
+SingleStore | singlestore.com
+Socket | socket.dev
+Starburst | starburst.io
+Statsig | statsig.com
+TimescaleDB | timescale.com
+Turso | turso.tech
+Twilio | twilio.com
+Vanta | vanta.com
+Zapier | zapier.com
+
+# --- Security ---
+Abnormal Security | abnormalsecurity.com
+Axonius | axonius.com
+CrowdStrike | crowdstrike.com
+Cyera | cyera.io
+Drata | drata.com
+Huntress | huntress.com
+Lacework | lacework.com
+Nightfall AI | nightfall.ai
+Orca Security | orca.security
+SentinelOne | sentinelone.com
+Snyk | snyk.io
+Tines | tines.com
+Wiz | wiz.io
+
+# --- Fintech ---
+Affirm | affirm.com
+Brex | brex.com
+Carta | carta.com
+Chime | chime.com
+Coinbase | coinbase.com
+Deel | deel.com
+Gusto | gusto.com
+Klarna | klarna.com
+Marqeta | marqeta.com
+Mercury | mercury.com
+Pave | pave.dev
+Plaid | plaid.com
+Ramp | ramp.com
+Robinhood | robinhood.com
+Toast | toasttab.com
+
+# --- Consumer & Social ---
+Calm | calm.com
+Discord | discord.com
+DoorDash | doordash.com
+Duolingo | duolingo.com
+Hinge | hinge.co
+Instacart | instacart.com
+Lyft | lyft.com
+Peloton | onepeloton.com
+Pinterest | pinterest.com
+Reddit | reddit.com
+Snap | snap.com
+Zwift | zwift.com
+
+# --- Healthcare & Biotech (additional) ---
+Akili Interactive | akiliinteractive.com
+Carbon Health | carbonhealth.com
+Cityblock Health | cityblock.com
+Deep Genomics | deepgenomics.com
+Devoted Health | devoted.com
+Exscientia | exscientia.ai
+Hims & Hers | forhims.com
+Illumina | illumina.com
+Insilico Medicine | insilico.com
+Lyra Health | lyrahealth.com
+Pacific Biosciences | pacb.com
+PathAI | pathai.com
+Ro | ro.co
+Seer Bio | seer.bio
+Spring Health | springhealth.com
+Synthego | synthego.com
+Transcarent | transcarent.com
+Viz.ai | viz.ai
+
+# --- Autonomous Vehicles (additional) ---
+Embark Technology | embarktrucks.com
+Gatik | gatik.ai
+Mobileye | mobileye.com
+Outrider | outrider.ai
+Phantom Auto | phantom.auto
+Plus AI | plus.ai
+Pony.ai | pony.ai
+Torc Robotics | torc.ai
+Waabi | waabi.ai
+
+# --- eVTOL & Advanced Aviation ---
+Eve Air Mobility | eveairmobility.com
+Joby Aviation | jobyaviation.com
+Skyryse | skyryse.com
+Vertical Aerospace | vertical-aerospace.com
+Wisk Aero | wisk.aero
+
+# --- Space (additional) ---
+ABL Space Systems | ablspacesystems.com
+Astroscale | astroscale.com
+CesiumAstro | cesiumastro.com
+D-Orbit | d-orbit.com
+HawkEye 360 | he360.com
+Maxar Technologies | maxar.com
+Momentus | momentus.space
+Satellogic | satellogic.com
+Starfish Space | starfishspace.com
+Stoke Space | stokespace.com
+Swift Navigation | swiftnav.com
+
+# --- Robotics (additional) ---
+Bear Robotics | bearrobotics.ai
+Boston Dynamics | bostondynamics.com
+Chef Robotics | chefrobotics.ai
+Field AI | field-ai.com
+Miso Robotics | misorobotics.com
+Skild AI | skild.ai
+Standard Bots | standardbots.com
+
+# --- Climate & Energy (additional) ---
+Air Company | aircompany.com
+Charm Industrial | charmindustrial.com
+Ebb Carbon | ebbcarbon.com
+Fervo Energy | fervoenergy.com
+NuScale Power | nuscalepower.com
+Prometheus Fuels | prometheusfuels.com
+Radiant Nuclear | radiantnuclear.com
+Solugen | solugen.com
+Twelve | twelve.co
+Verdox | verdox.com
+X-energy | x-energy.com
+
+# --- Quantum Computing (additional) ---
+Alice & Bob | alice-bob.com
+Oxford Quantum Circuits | oxfordquantumcircuits.com
+Pasqal | pasqal.com
+Quantum Machines | quantum-machines.co
+SandboxAQ | sandboxaq.com
+
+# --- Defense Tech (additional) ---
+Dedrone | dedrone.com
+Joyn Bio | joyn.bio
+Sarcos Technology | sarcos.com
+
+# --- Big Tech (many use Workday or proprietary ATS — add scrapers as needed) ---
+Adobe | adobe.com
+Amazon | amazon.com
+AMD | amd.com
+Apple | apple.com
+Atlassian | atlassian.com
+Autodesk | autodesk.com
+Box | box.com
+Dropbox | dropbox.com
+Google | google.com
+HubSpot | hubspot.com
+Intel | intel.com
+Intuit | intuit.com
+LinkedIn | linkedin.com
+Meta | meta.com
+Microsoft | microsoft.com
+Nvidia | nvidia.com
+Okta | okta.com
+Palo Alto Networks | paloaltonetworks.com
+Qualcomm | qualcomm.com
+Salesforce | salesforce.com
+Samsung R&D | samsung.com
+ServiceNow | servicenow.com
+Shopify | shopify.com
+Splunk | splunk.com
+Uber | uber.com
+Workday | workday.com
+Zoom | zoom.us
+
+# --- Data & Analytics ---
+Elastic | elastic.co
+MongoDB | mongodb.com
+Metabase | metabase.com
+Neo4j | neo4j.com
+Sigma Computing | sigmacomputing.com
+Snowflake | snowflake.com
+Sourcegraph | sourcegraph.com
+ThoughtSpot | thoughtspot.com
+
+# --- Developer Tools (additional) ---
+Attentive | attentive.com
+Coder | coder.com
+CodeSandbox | codesandbox.io
+Cursor | cursor.com
+GitPod | gitpod.io
+JetBrains | jetbrains.com
+Render | render.com
+Replit | replit.com
+
+# --- Security (additional) ---
+Chainalysis | chainalysis.com
+Cybereason | cybereason.com
+Darktrace | darktrace.com
+Keeper Security | keepersecurity.com
+Recorded Future | recordedfuture.com
+TRM Labs | trmlabs.com
+Vectra AI | vectra.ai
+
+# --- Fintech (additional) ---
+Acorns | acorns.com
+Anchorage Digital | anchorage.com
+Betterment | betterment.com
+BitGo | bitgo.com
+Circle | circle.com
+Gemini | gemini.com
+Kraken | kraken.com
+Paxos | paxos.com
+Ripple | ripple.com
+Wealthfront | wealthfront.com
+
+# --- Healthcare Tech (additional) ---
+Color Health | color.com
+Flatiron Health | flatiron.com
+Foundation Medicine | foundationmedicine.com
+GRAIL | grail.com
+Guardant Health | guardanthealth.com
+Headway | headway.co
+Modern Health | joinmodernhealth.com
+Natera | natera.com
+Veracyte | veracyte.com
+
+# --- Robotics & Logistics (additional) ---
+6 River Systems | 6riversystems.com
+Apian | apian.com
+Berkshire Grey | berkshiregrey.com
+Dextrous Robotics | dextrousrobotics.com
+Locus Robotics | locusrobotics.com
+Symbotic | symbotic.com
+Vention | vention.io
+Wing | wing.com
+Zipline | flyzipline.com
+
+# --- Space (additional) ---
+Phantom Space | phantomspace.com
+Pixxel | pixxel.space
+Virgin Galactic | virgingalactic.com
+
+# --- Gaming (additional) ---
+2K Games | 2k.com
+Avalanche Studios | avalanchestudios.com
+Bethesda Game Studios | bethesdagamestudios.com
+Chucklefish | chucklefish.com
+Devolver Digital | devolverdigital.com
+Electronic Arts | ea.com
+Eidos-Montréal | eidosmontreal.com
+Moon Studios | moon-studios.com
+Paradox Interactive | paradoxinteractive.com
+Playdead | playdead.com
+Saber Interactive | saber3d.com
+Square Enix | square-enix-games.com
+THQ Nordic | thqnordic.com
+Ubisoft | ubisoft.com
+
+# --- EdTech ---
+Coursera | coursera.org
+Khan Academy | khanacademy.org
+Udemy | udemy.com
+
+# --- Real Estate Tech ---
+Compass | compass.com
+Opendoor | opendoor.com
+Redfin | redfin.com
+Zillow | zillow.com
+
+# --- E-commerce Tech ---
+BigCommerce | bigcommerce.com
+Gorgias | gorgias.com
+Yotpo | yotpo.com
+
+# --- Logistics & Supply Chain ---
+Flexport | flexport.com
+project44 | project44.com
+
+# --- Other Notable Engineering Companies ---
+Asana | asana.com
+Block | block.xyz
+Bumble | bumble.com
+ClickUp | clickup.com
+Hex | hex.tech
+Ironclad | ironcladapp.com
+Metaplane | metaplane.run
+Navan | navan.com
+Observe | observeinc.com
+Otter.ai | otter.ai
+Runway Financial | runway.com
+Substack | substack.com

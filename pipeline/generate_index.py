@@ -10,6 +10,7 @@ from pathlib import Path
 
 JOBS_REPO = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).parent.parent.parent / "jobs"
 README = JOBS_REPO / "README.md"
+COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies.json"
 SKILL_COLOR = "3B82F6"
 
 
@@ -95,6 +96,12 @@ def main():
     total = sum(len(v) for v in by_date.values())
     print(f"Found {total} jobs across {len(by_date)} dates")
 
+    company_count = 0
+    if COMPANIES_FILE.exists():
+        import json
+        companies = json.loads(COMPANIES_FILE.read_text())
+        company_count = len([c for c in companies if c.get("ats") in {"greenhouse", "lever", "ashby", "smartrecruiters"}])
+
     lines = [
         "# Builder Jobs",
         "",
@@ -102,7 +109,7 @@ def main():
         "Roles are scraped daily from company career pages and filtered by an LLM to keep only",
         "positions where the person will primarily write code.",
         "",
-        f"### {total} open roles &nbsp;·&nbsp; updated daily",
+        f"### {total} open roles &nbsp;·&nbsp; {company_count} companies &nbsp;·&nbsp; updated daily",
         "",
     ]
 
