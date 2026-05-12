@@ -1,16 +1,5 @@
 #!/usr/bin/env python3
-"""
-Generate README.md for the jobs repo by scanning all rendered job files.
-
-Reads every *.md file under JOBS_REPO (excluding README.md itself), parses
-frontmatter, groups by first_seen date, and writes README.md with newest
-dates at the top.
-
-Usage:
-    python generate_index.py [jobs_repo_path]
-
-JOBS_REPO defaults to ../jobs relative to this script.
-"""
+"""Generate README.md for the jobs repo by scanning all rendered job files."""
 
 import re
 import sys
@@ -19,7 +8,7 @@ from datetime import datetime
 from pathlib import Path
 
 
-JOBS_REPO = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).parent.parent / "jobs"
+JOBS_REPO = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).parent.parent.parent / "jobs"
 README = JOBS_REPO / "README.md"
 SKILL_COLOR = "3B82F6"
 
@@ -28,7 +17,9 @@ def parse_frontmatter(path: Path) -> dict:
     text = path.read_text()
     if not text.startswith("---"):
         return {}
-    end = text.index("---", 3)
+    end = text.find("---", 3)
+    if end == -1:
+        return {}
     fm_text = text[3:end]
     fm = {}
     for line in fm_text.splitlines():
@@ -102,13 +93,13 @@ def main():
         "",
     ]
 
-    for date in sorted(by_date.keys(), reverse=True):
-        jobs = by_date[date]
+    for dt in sorted(by_date.keys(), reverse=True):
+        jobs = by_date[dt]
         jobs.sort(key=lambda j: j["company"].lower())
         try:
-            label = datetime.strptime(date, "%Y-%m-%d").strftime("%B %-d, %Y")
+            label = datetime.strptime(dt, "%Y-%m-%d").strftime("%B %-d, %Y")
         except ValueError:
-            label = date
+            label = dt
         lines.append("<br>")
         lines.append("")
         lines.append(f"## {label}")

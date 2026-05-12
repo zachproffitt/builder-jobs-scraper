@@ -10,13 +10,11 @@ By default only processes jobs first_seen today so each daily run is fast.
 Use --all to backfill all Greenhouse jobs without descriptions.
 
 Usage:
-    python fetch_descriptions.py          # today's new jobs only
-    python fetch_descriptions.py --all    # all without descriptions
+    python fetch_job_descriptions.py          # today's new jobs only
+    python fetch_job_descriptions.py --all    # all without descriptions
 """
 
-import html
 import json
-import re
 import sys
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -25,18 +23,11 @@ from pathlib import Path
 
 import httpx
 
-JOBS_FILE = Path("data/jobs_raw.json")
+from scrapers._base import html_to_text
+
+JOBS_FILE = Path(__file__).parent.parent / "data" / "jobs_raw.json"
 DETAIL_URL = "https://boards-api.greenhouse.io/v1/boards/{slug}/jobs/{job_id}"
 WORKERS = 10
-
-
-def html_to_text(raw: str) -> str:
-    text = html.unescape(raw)
-    text = re.sub(r"<br\s*/?>", "\n", text, flags=re.I)
-    text = re.sub(r"</p>|</li>|</h[1-6]>", "\n", text, flags=re.I)
-    text = re.sub(r"<[^>]+>", "", text)
-    text = re.sub(r"\n{3,}", "\n\n", text)
-    return text.strip()
 
 
 def fetch_description(job: dict) -> str | None:

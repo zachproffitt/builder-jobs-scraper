@@ -1,27 +1,12 @@
-import html
-import re
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import httpx
-from ._base import Job, ScraperError
+from ._base import Job, ScraperError, html_to_text
 
 LIST_URL = "https://api.smartrecruiters.com/v1/companies/{slug}/postings"
 DETAIL_URL = "https://api.smartrecruiters.com/v1/companies/{slug}/postings/{job_id}"
 WORKERS = 8
-
-_TAG_RE = re.compile(r"<[^>]+>")
-_WHITESPACE_RE = re.compile(r"\n{3,}")
-
-
-def html_to_text(raw: str) -> str:
-    text = html.unescape(raw or "")
-    text = re.sub(r"<br\s*/?>", "\n", text, flags=re.I)
-    text = re.sub(r"</p>|</li>|</h[1-6]>", "\n", text, flags=re.I)
-    text = _TAG_RE.sub("", text)
-    lines = [l.strip() for l in text.splitlines()]
-    text = "\n".join(l for l in lines if l)
-    return _WHITESPACE_RE.sub("\n\n", text).strip()
 
 
 def parse_date(s: str | None):

@@ -1,5 +1,22 @@
+import html
+import re
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import date
+
+
+_BLOCK_END_RE = re.compile(r"</p>|</li>|</h[1-6]>", re.I)
+_BR_RE = re.compile(r"<br\s*/?>", re.I)
+_TAG_RE = re.compile(r"<[^>]+>")
+_WHITESPACE_RE = re.compile(r"\n{3,}")
+
+
+def html_to_text(raw: str) -> str:
+    text = html.unescape(raw or "")
+    text = _BR_RE.sub("\n", text)
+    text = _BLOCK_END_RE.sub("\n", text)
+    text = _TAG_RE.sub("", text)
+    lines = [l.strip() for l in text.splitlines()]
+    return _WHITESPACE_RE.sub("\n\n", "\n".join(l for l in lines if l)).strip()
 
 
 @dataclass
@@ -9,10 +26,10 @@ class Job:
     company_slug: str
     title: str
     url: str
-    source: str          # "greenhouse", "lever", "ashby"
+    source: str          # "greenhouse", "lever", "ashby", "smartrecruiters"
     location: str | None = None
     remote: bool | None = None
-    posted_at: datetime | None = None
+    posted_at: date | None = None
     raw_text: str = ""
 
 

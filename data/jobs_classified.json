@@ -8517,5 +8517,3147 @@
     "job_summary": "Lead and scale the engineering team to build and maintain Runway's collaborative business planning platform.",
     "skills": [],
     "source_hash": "b962c652"
+  },
+  "lever-mistral-e97be5bf-6ee6-41d6-8a48-6626e9718ca6": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "3a931685"
+  },
+  "lever-mistral-29aa0964-a859-464b-832c-a12a2154b501": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "8494343e"
+  },
+  "lever-mistral-dfb77ba1-727b-454e-a323-e6e0eafec561": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "547ae997"
+  },
+  "lever-mistral-25e20280-bdd6-4dee-9857-9247aeac0067": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "bf9d6f20"
+  },
+  "lever-mistral-d67de1b6-2cb3-4afb-b2a6-5e4901dce408": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "af555c0c"
+  },
+  "lever-mistral-7ed4baa4-9323-4c5e-96eb-732a92257474": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "0dd20a4d"
+  },
+  "lever-mistral-b161e4b7-001c-4b91-8396-b3f38aff919b": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "fa6ddf5d"
+  },
+  "lever-mistral-6201f9a0-233f-4de3-a8cc-65b75e99370f": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "838edd7b"
+  },
+  "lever-mistral-ca22a1ac-c87e-4463-914a-6753ca79318c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "2f570d1d"
+  },
+  "lever-mistral-c08c3a0f-9899-4e6c-8195-8b1cc24c56ff": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "5bac214c"
+  },
+  "lever-mistral-7809b483-bdae-4964-97c7-5b8d232a142f": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "e49ffb63"
+  },
+  "lever-mistral-11087966-f183-44b1-adc9-3a400c1f52ad": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "67aede3f"
+  },
+  "lever-mistral-650e0e53-dc35-4e61-9b46-6f7ef003d0be": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "099e0334"
+  },
+  "lever-mistral-c5e134c7-0513-40cb-99f7-e1e87f9a3349": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "5b2e741a"
+  },
+  "lever-mistral-6366e859-3a0f-44ed-9578-629a04c77e3c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "ebb71a82"
+  },
+  "lever-mistral-ef744f52-3ceb-42f1-84f6-1c8bde220eb1": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "6ef5a830"
+  },
+  "lever-mistral-071a5491-ea01-413f-ad78-f85b5e4c2215": {
+    "is_engineering": true,
+    "job_summary": "Build and scale data infrastructure for AI model training, including compute fleets, data lakes, and metadata systems. Implement production-grade pipelines and multi-cluster orchestration.",
+    "skills": [
+      "Kubernetes",
+      "Python",
+      "PyTorch",
+      "cloud-native systems",
+      "data lakes"
+    ],
+    "source_hash": "37f142b1"
+  },
+  "lever-mistral-37f53ee5-dd88-43e3-be6a-70e3db159c8f": {
+    "is_engineering": true,
+    "job_summary": "Build and scale distributed compute and storage systems for MLOps and research, architecting multi-cluster orchestration layers and modern storage formats.",
+    "skills": [
+      "Python",
+      "Kubernetes",
+      "SLURM",
+      "columnar storage",
+      "cloud-native deployment workflows"
+    ],
+    "source_hash": "408866c8"
+  },
+  "lever-mistral-bada0014-0f32-4370-b55f-81c5595c7339": {
+    "is_engineering": true,
+    "job_summary": "Build and optimize large-scale ML systems for open-weight models, delivering production-grade components for Le Chat and enterprise API.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "JAX",
+      "TensorFlow",
+      "DeepSpeed",
+      "FSDP",
+      "SLURM",
+      "K8s",
+      "CUDA"
+    ],
+    "source_hash": "8e15a23c"
+  },
+  "lever-mistral-07447e1d-7900-46d4-b61b-186f2f76847f": {
+    "is_engineering": true,
+    "job_summary": "Build and optimize large-scale learning systems for open-weight models, integrating research with production components.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "JAX",
+      "DeepSpeed",
+      "FSDP"
+    ],
+    "source_hash": "2dd1775b"
+  },
+  "lever-mistral-18be2b70-c05d-48e4-82ac-e5cb462c96c0": {
+    "is_engineering": true,
+    "job_summary": "Build and optimize a cloud-agnostic platform to improve research stability, scalability, and velocity. Design and implement tools for high-performance computing environments and data pipelines.",
+    "skills": [
+      "Python",
+      "Go",
+      "CI/CD",
+      "containerization",
+      "orchestration"
+    ],
+    "source_hash": "1cc6be77"
+  },
+  "lever-mistral-df0d75c1-97ef-4e50-85e6-0ffd8f5b7d7c": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain shared dev-tools, evaluation pipelines, training frameworks, cluster tooling, and CI/CD systems for large-scale AI model development. Design and optimize distributed services using Kubernetes and SLURM to support thousands-of-GPU jobs.",
+    "skills": [
+      "Python",
+      "C++",
+      "Rust",
+      "Go",
+      "Java",
+      "Kubernetes",
+      "SLURM"
+    ],
+    "source_hash": "b26c0f8d"
+  },
+  "lever-mistral-e0ed3178-622f-45b5-99ae-324a1c7f86ce": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "86b7f790"
+  },
+  "lever-mistral-0004f890-99d5-47c5-bb67-8f3f76a1e08f": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "00446ae4"
+  },
+  "lever-mistral-de3db0dd-972a-4201-b2ff-a9d41371f53c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "76b2b6fd"
+  },
+  "lever-mistral-0d94546e-a15a-4644-8115-0b960f79d973": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "6d8f85a1"
+  },
+  "lever-mistral-8f3566b9-8165-46e1-899f-f37f8fe35ab5": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "90d6e9e2"
+  },
+  "lever-mistral-281f4a57-dbe2-40b5-a35f-e180e15a4f12": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "65308c92"
+  },
+  "lever-mistral-6e16e4fa-a60b-4270-a815-06b0450fb597": {
+    "is_engineering": true,
+    "job_summary": "Design and maintain scalable, highly available infrastructures for web services and ML workloads. Implement monitoring, alerting, and incident response systems to ensure platform reliability.",
+    "skills": [
+      "Kubernetes",
+      "Flux",
+      "Terraform",
+      "monitoring systems",
+      "containerization"
+    ],
+    "source_hash": "cae28edb"
+  },
+  "lever-mistral-b320e972-3ed8-4d02-acb1-37950812cdbc": {
+    "is_engineering": true,
+    "job_summary": "Design and maintain scalable infrastructures for web services and ML workloads using Kubernetes, Terraform, and Flux. Develop monitoring, alerting, and incident response systems to ensure platform reliability and performance.",
+    "skills": [
+      "Kubernetes",
+      "Terraform",
+      "Flux",
+      "CI/CD",
+      "containerization"
+    ],
+    "source_hash": "27373735"
+  },
+  "lever-mistral-592525d7-0837-4002-9b94-42ef2f7c2571": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "90c2a011"
+  },
+  "lever-mistral-97a9b891-7979-4ca7-a2d9-f1f5e9107ce5": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "743a10cb"
+  },
+  "lever-mistral-305432ef-27ac-4012-a893-a662813ac6e9": {
+    "is_engineering": true,
+    "job_summary": "Develop and enhance the frontend of Mistral AI's AI platform, ensuring seamless integration with backend systems and user-centric design.",
+    "skills": [
+      "TypeScript",
+      "NodeJS",
+      "React",
+      "NextJS",
+      "Tanstack React Query"
+    ],
+    "source_hash": "e1eb831a"
+  },
+  "lever-mistral-77b8339f-da37-4f38-b554-1d154f72ca8f": {
+    "is_engineering": true,
+    "job_summary": "Develop and maintain scalable backend systems and APIs for AI Studio, Le Chat, and Mistral Code. Design and implement secure, high-performance architectures for authentication, billing, and AI tooling.",
+    "skills": [],
+    "source_hash": "a1a1db57"
+  },
+  "lever-mistral-f2e8ba75-bf5a-4976-bb96-c5d3e0f99366": {
+    "is_engineering": true,
+    "job_summary": "Develop scalable backend systems and APIs for AI Studio, Le Chat, and Mistral Code. Design and implement distributed systems for inference, billing, and observability.",
+    "skills": [],
+    "source_hash": "4564e97d"
+  },
+  "lever-mistral-e76d2957-2bf6-4d8f-90a2-29bf9a927823": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain scalable backend systems and APIs for AI Studio, Le Chat, and Mistral Code, focusing on authentication, billing, and observability.",
+    "skills": [],
+    "source_hash": "2cda36e0"
+  },
+  "lever-mistral-31364497-4081-454a-b50c-12d15daf6876": {
+    "is_engineering": true,
+    "job_summary": "Build and test infrastructure to deploy models, APIs, and AI Studio across cloud and on-premises environments. Implement automation to enhance deployment velocity and scalability.",
+    "skills": [
+      "Python",
+      "Golang",
+      "Docker",
+      "Kubernetes",
+      "Helm",
+      "Terraform"
+    ],
+    "source_hash": "a7dd5827"
+  },
+  "lever-mistral-c9e16eb0-0cb9-423d-8495-a96d10782622": {
+    "is_engineering": true,
+    "job_summary": "Build and enhance CI/CD pipelines to streamline development workflows. Design and maintain scalable multi-cloud infrastructures.",
+    "skills": [
+      "Go",
+      "Python",
+      "Docker",
+      "Azure",
+      "GCP"
+    ],
+    "source_hash": "aa0b004e"
+  },
+  "lever-mistral-3eef7a1f-cd9d-430e-ac67-9d52534c346a": {
+    "is_engineering": true,
+    "job_summary": "Build integrations, connectors, and workflows across internal systems (CRM, billing, HRIS) and develop end-to-end web apps for Mistral's Enterprise Agents platform.",
+    "skills": [
+      "Python",
+      "TypeScript",
+      "React",
+      "APIs",
+      "dashboards"
+    ],
+    "source_hash": "f9193cf0"
+  },
+  "lever-mistral-70d5293a-9183-40d9-874a-cc08a14d5de6": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain the search platform's indexing and retrieval systems for web and knowledge. Optimize full search pipelines from document ingestion to retrieval.",
+    "skills": [
+      "Python",
+      "Go",
+      "C++",
+      "Rust",
+      "Docker",
+      "K8s",
+      "Terraform"
+    ],
+    "source_hash": "5723530a"
+  },
+  "lever-mistral-cf4616fc-977a-475c-bb2e-eb46a2c4a94f": {
+    "is_engineering": true,
+    "job_summary": "Develop backend features and APIs for AI Studio and Applications, ensuring scalability and reliability. Design and maintain frontend components using TypeScript, React, and Next.js.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "modern frameworks",
+      "cloud-native concepts"
+    ],
+    "source_hash": "49e2f376"
+  },
+  "lever-mistral-03918386-cb56-4e4d-afa8-1f8b7676a4a6": {
+    "is_engineering": true,
+    "job_summary": "Develop automated test suites for AI products and build tools to enhance quality testing processes.",
+    "skills": [
+      "Playwright",
+      "Postman",
+      "Python",
+      "TypeScript",
+      "QA frameworks"
+    ],
+    "source_hash": "b51f7d19"
+  },
+  "lever-mistral-d1596baf-56dc-4bdd-8ad0-5daf1fe1e844": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "cf1f29fe"
+  },
+  "lever-mistral-6ad69a1f-ba15-4c99-9449-9a558dee1104": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "aedc74ec"
+  },
+  "lever-mistral-9a6c0605-8beb-4122-99c8-ae96beea691b": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "984e85eb"
+  },
+  "lever-mistral-2e48b51e-4872-41ee-833d-f8b57d25cf0d": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "c93c2721"
+  },
+  "lever-mistral-03e85b97-a91d-46e9-afa4-77945235277a": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "3e61d31a"
+  },
+  "lever-mistral-b1005559-123a-4207-97c1-60fcd67bef5b": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "00b3e4d8"
+  },
+  "lever-mistral-9c9bd375-c6d3-46a4-8338-4882254cc717": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "23dcbe93"
+  },
+  "lever-mistral-41262cfd-5a86-4645-b059-1de4ee9b9ccb": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "c98feb5f"
+  },
+  "lever-mistral-f4226e68-4a9a-4b95-a879-f2f993e5808b": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "00349ee8"
+  },
+  "lever-mistral-5ee49b30-7757-4e24-aa54-080265ce1d15": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "8ad377bc"
+  },
+  "lever-mistral-942f8627-3079-416b-a2a7-bf651b336acb": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "d5d011c0"
+  },
+  "lever-mistral-b2849d9e-c6aa-426d-8ca7-d668e3d44d78": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "fcdcf291"
+  },
+  "lever-mistral-a228ac73-62f1-4a2a-8afe-5070f445143f": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "e2040b2b"
+  },
+  "lever-mistral-f00a13aa-61f1-4c56-993c-20846adc2b15": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "ebb5a967"
+  },
+  "lever-mistral-ad392e8e-746f-457d-ac04-28c33b8fdfce": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "4bbd8a2a"
+  },
+  "lever-mistral-9e1aac08-ea14-4a56-ab84-1bc3a7d941b8": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "7e4bb890"
+  },
+  "ashby-Linear-d3bc1ced-3ce4-4086-a050-555055dbb1ff": {
+    "is_engineering": true,
+    "job_summary": "Build new user-facing features including database models, GraphQL resolvers, and UI components. Optimize data synchronization and implement real-time collaborative editing.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "Node",
+      "GraphQL",
+      "PostgreSQL"
+    ],
+    "source_hash": "d3af4633"
+  },
+  "ashby-Linear-cd5ae036-0223-427a-b038-ba16ef9dcb32": {
+    "is_engineering": true,
+    "job_summary": "Build new user-facing features including database models, GraphQL resolvers, and UI components. Optimize the data synchronization stack and implement real-time collaborative editing in the content editor.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "GraphQL",
+      "PostgreSQL"
+    ],
+    "source_hash": "90758ec9"
+  },
+  "ashby-Linear-069c4628-88d7-4e4d-b393-c996fc7f3076": {
+    "is_engineering": true,
+    "job_summary": "Build AI-powered functionality into Linear's product development system. Develop real-time collaborative content editor and scalable UI components.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Node",
+      "GraphQL",
+      "PostgreSQL"
+    ],
+    "source_hash": "2f993db4"
+  },
+  "ashby-Linear-453f1ba0-a35e-4ed2-8215-1514e0a30b92": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "8a0b843a"
+  },
+  "ashby-Linear-4f10c2ca-d19a-42b5-9e1f-d1794c43dd89": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "16bdfbcb"
+  },
+  "ashby-Linear-4dc6be78-ccf0-45c8-bd98-a061a9e2ffe4": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "d86b4b6d"
+  },
+  "ashby-Linear-12f8f208-0b9c-4569-bb3d-41c8a197029e": {
+    "is_engineering": true,
+    "job_summary": "Build AI-powered functionality into Linear's product development system. Update the real-time collaborative content editor used across internal surfaces.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Node",
+      "GraphQL",
+      "PostgreSQL"
+    ],
+    "source_hash": "b7ec052a"
+  },
+  "ashby-Linear-b7669c4b-eeca-421d-ba9a-d90203f6fcb2": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "ba0fc1e8"
+  },
+  "ashby-Linear-86abcce0-04b2-405c-9a8e-e0ca84813914": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "98a79389"
+  },
+  "ashby-Linear-c21af93e-210f-4969-8eaa-90fb16a5b720": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "d7f1e81a"
+  },
+  "ashby-Linear-b4a7764e-c680-4bdf-9956-dc78f2ca94d5": {
+    "is_engineering": true,
+    "job_summary": "Build AI-powered product features and design backend services for natural language interfaces and agentic workloads.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Node",
+      "GraphQL",
+      "PostgreSQL"
+    ],
+    "source_hash": "d8a12ea2"
+  },
+  "ashby-Linear-3adaa1f5-2cf1-480d-8daf-92345ec08395": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "07beed40"
+  },
+  "ashby-Linear-82778dbf-711e-4d23-9d49-4a60db76737a": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "89b06d33"
+  },
+  "ashby-Linear-5e5f6557-7ac6-4b9f-bdb0-89354e77c644": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "f29a3a7d"
+  },
+  "ashby-Linear-a264869e-f058-487c-ab7f-9b77dffa427c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "083bca72"
+  },
+  "ashby-Linear-ba8a41d2-4198-481a-a7f4-e09c5364ff7f": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "b0f5df05"
+  },
+  "ashby-Linear-3d95000c-5631-4ea6-a614-78910bb3f199": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "21d32da8"
+  },
+  "ashby-Linear-59fa48ec-6685-4ab2-a388-6203423811d2": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "019e04b7"
+  },
+  "ashby-Linear-d37b3d76-3080-47f9-8a19-60505573112c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "3488b823"
+  },
+  "ashby-Linear-1d652292-04d9-405c-8101-578efd020e94": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "bb160eb4"
+  },
+  "ashby-Linear-1bfdcabe-aa5f-4999-9a6d-b8a824dd779b": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "e49d9861"
+  },
+  "ashby-Linear-62a4524c-75da-499e-b150-7f68ce9f2da3": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "f7334a50"
+  },
+  "ashby-Supabase-d5573afa-636c-4219-832f-386f498243bf": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "87754aed"
+  },
+  "ashby-Supabase-c01f7436-1fdd-4a3e-8b96-8cadc33b006e": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "8aca8e2b"
+  },
+  "ashby-Supabase-e4e3ccb7-7b7d-42a2-be0f-26cbb5ae4abd": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "93a0087c"
+  },
+  "ashby-Supabase-142135ae-a15f-4ec7-90bb-cb4e7968bc09": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "d0b6bda2"
+  },
+  "ashby-Supabase-69d1b2ec-9d9b-45b0-937a-a8454f66487e": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "84b2d728"
+  },
+  "ashby-Supabase-51c3a3a9-7539-47f3-82e7-b95958342e2c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "aff38743"
+  },
+  "ashby-Supabase-0aba9686-a3f0-4459-be3e-337bc7b0f90c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "c8e1b2cf"
+  },
+  "ashby-Supabase-2e718684-4f75-4a99-8d6b-3b6bd44e4228": {
+    "is_engineering": true,
+    "job_summary": "Build and implement distributed database infrastructure including sharded query routing, consensus protocols, and materialization pipelines for Multigres.",
+    "skills": [
+      "Raft",
+      "Paxos",
+      "Postgres internals",
+      "change data capture",
+      "distributed transactions"
+    ],
+    "source_hash": "8f3e738d"
+  },
+  "ashby-Supabase-a1320bbf-bfae-49a8-a1b7-12eeccaf39ca": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "3db5f440"
+  },
+  "ashby-Supabase-82665e7b-1dac-401d-ac0b-42e3f2485421": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "40e58766"
+  },
+  "ashby-Supabase-c3099780-60d5-4b8a-ab08-c701d114cf62": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "a87c8d05"
+  },
+  "ashby-Supabase-a069c886-1107-408e-88b4-e1aa8d33d4bc": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "26b2175e"
+  },
+  "ashby-Supabase-c16bd707-29f2-46fb-8409-7270ff00978b": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain PostgreSQL extensions in C and Rust. Own idempotent deployment pipelines for thousands of PostgreSQL instances.",
+    "skills": [
+      "C",
+      "Rust",
+      "PostgreSQL",
+      "WAL",
+      "MVCC"
+    ],
+    "source_hash": "f6fa7838"
+  },
+  "ashby-Supabase-f035bda1-b5d3-4c5b-8736-b9c335fe1c3b": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain the Multigres Operator, a Go-based Kubernetes operator for distributed Postgres deployments. Architect cloud deployment infrastructure for EKS and Kubernetes platforms.",
+    "skills": [
+      "Go",
+      "Kubernetes",
+      "EKS",
+      "CSI drivers",
+      "Terraform",
+      "Pulumi"
+    ],
+    "source_hash": "3e0c0de6"
+  },
+  "ashby-Supabase-04b01838-a907-4d43-be4e-956babde6102": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "761c878c"
+  },
+  "ashby-Supabase-66bab062-b769-43cf-ac3c-a2630257624c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "701b3b75"
+  },
+  "ashby-Supabase-f18b1173-51c3-4ff6-bcda-89f8111931f4": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "c037759d"
+  },
+  "ashby-Supabase-3889002e-536e-4046-a330-70e942b0cc96": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "64762ed8"
+  },
+  "ashby-Supabase-62945518-2468-4cf5-9f36-904b60f75183": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "ff96e71e"
+  },
+  "ashby-Supabase-2ab81e46-2e46-4120-938c-429b9f4aa7a7": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "c81670bd"
+  },
+  "ashby-Supabase-2ed5e80d-438b-47a5-9efe-12d168b8de81": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain internal support tooling, including dashboards, ticket automations, AI-assisted workflows, and third-party integrations. Own the evolution of the primary admin dashboard and implement AI agents for automation.",
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "Elixir",
+      "API design",
+      "background jobs",
+      "data modeling",
+      "Front",
+      "Slack",
+      "Linear"
+    ],
+    "source_hash": "d1991cc2"
+  },
+  "ashby-Supabase-f7e9e4f4-6fcf-44ae-a5a9-958706259e99": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "80b165cc"
+  },
+  "ashby-Supabase-f9b0d8ca-16e3-481d-b41e-5453bbc77cc9": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain automation workflows across HubSpot, BigQuery, and Hightouch. Develop internal tools and APIs to integrate AI into sales workflows and synchronize data pipelines.",
+    "skills": [
+      "Python",
+      "Node.js",
+      "HubSpot APIs",
+      "BigQuery",
+      "Cloud Functions"
+    ],
+    "source_hash": "13c27955"
+  },
+  "ashby-Supabase-26ad8432-a03e-40f9-a4cc-05344ceedfa3": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "1172570b"
+  },
+  "ashby-Supabase-be8f22ff-2380-49ac-911b-c6dfabec4bad": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "3d118108"
+  },
+  "ashby-Supabase-894139b0-cc52-4fe4-b84f-ab6660b517d0": {
+    "is_engineering": true,
+    "job_summary": "Own and operate Kubernetes infrastructure for observability systems, ensuring high uptime for logging, tracing, and metrics. Orchestrate and scale telemetry tools like VictoriaMetrics and OpenTelemetry Collector.",
+    "skills": [
+      "Kubernetes",
+      "Terraform",
+      "VictoriaMetrics",
+      "OpenTelemetry Collector",
+      "Vector"
+    ],
+    "source_hash": "e11a80de"
+  },
+  "ashby-Supabase-4859464f-afab-4409-b295-4f4cbbfc41eb": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "58bb5556"
+  },
+  "ashby-Supabase-ad92f53a-6d0f-4761-abc3-588c7c7c6cd8": {
+    "is_engineering": true,
+    "job_summary": "Design and build the Supabase Kotlin SDK, including Auth, Database, Storage, Functions, and Realtime clients. Define idiomatic Kotlin API conventions and maintain consistency across the SDK ecosystem.",
+    "skills": [
+      "Kotlin",
+      "coroutines",
+      "Flow",
+      "Gradle",
+      "Jetpack"
+    ],
+    "source_hash": "53cdeac8"
+  },
+  "ashby-Supabase-d1675ea0-359c-4b4e-a484-42f889e0ccf6": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "03274ce4"
+  },
+  "ashby-Supabase-a13f3149-ea55-4abf-8bcd-d53ed575bd37": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "69d331be"
+  },
+  "ashby-Supabase-48950725-e0d9-4025-92d9-f75e1b60ce45": {
+    "is_engineering": true,
+    "job_summary": "Package PostgreSQL software using Nix, manage lifecycle upgrades, optimize CI/CD pipelines, and resolve production deployment issues for Supabase's PostgreSQL platform.",
+    "skills": [
+      "Nix",
+      "Ansible",
+      "Packer",
+      "Docker",
+      "GitHub Actions"
+    ],
+    "source_hash": "ebb6a3e8"
+  },
+  "ashby-Supabase-47282e37-34dc-401d-a1cd-dbe85fdd1c22": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "0598a303"
+  },
+  "ashby-Supabase-a5a5a35a-ff03-4777-bb05-6eaaf5e8a1a6": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "09add5a1"
+  },
+  "ashby-Supabase-e569b7f7-fa8f-4139-86f6-4f52b456882d": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain the Auth product, implementing secure authentication features in Go and TypeScript.",
+    "skills": [
+      "Go",
+      "TypeScript",
+      "Postgres",
+      "JWT",
+      "HTTP"
+    ],
+    "source_hash": "0152476d"
+  },
+  "ashby-Supabase-77439e1c-e4eb-483c-aa8e-7686913886e3": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain the Auth server written in Go, ensuring performance, reliability, and scalability across Supabase's infrastructure. Implement observability tools and collaborate on deployment pipelines for Postgres-based services.",
+    "skills": [
+      "Go",
+      "Postgres",
+      "Kubernetes",
+      "AWS",
+      "Prometheus",
+      "Grafana",
+      "OpenTelemetry"
+    ],
+    "source_hash": "e8dcece1"
+  },
+  "ashby-Supabase-dc8187e4-c799-48a9-a408-ad8393eec39f": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "fdcc32c3"
+  },
+  "ashby-Supabase-64085bde-a5c2-4198-a2e1-d76f5a78f56f": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "86649630"
+  },
+  "ashby-Supabase-b97630c4-0c42-4523-8226-9697d00aa12e": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain the Supabase CLI and local development workflows across Windows, Linux, and macOS. Implement TypeScript-based CLI tooling with focus on reliability, maintainability, and cross-platform compatibility.",
+    "skills": [
+      "TypeScript",
+      "CLI tooling",
+      "CI/CD",
+      "Docker",
+      "Postgres"
+    ],
+    "source_hash": "baeb19d4"
+  },
+  "ashby-Supabase-847a7bd7-6b75-444a-aeda-d0b28a11c764": {
+    "is_engineering": true,
+    "job_summary": "Design and implement cloud-agnostic abstractions for compute, networking, and storage layers to enable multi-cloud portability. Maintain Kubernetes-based workload orchestration across cloud environments.",
+    "skills": [
+      "Kubernetes",
+      "Pulumi",
+      "AWS",
+      "GCP",
+      "Azure"
+    ],
+    "source_hash": "91d13c7d"
+  },
+  "ashby-Supabase-2e6ee4b3-6573-477f-9c95-d1221cd9f9f9": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain the marketing and documentation sites for Supabase, including improving their design, layout, and technical clarity.",
+    "skills": [
+      "React",
+      "Next.js",
+      "Vite",
+      "Tailwind CSS",
+      "shadcn/Radix/Base UI"
+    ],
+    "source_hash": "5166e356"
+  },
+  "ashby-Supabase-b8010a28-109c-46a9-b8b7-c7f9b24077fa": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "0e100c2b"
+  },
+  "ashby-Supabase-bf3628f2-f6e8-414e-a3fd-2f5ff481b60c": {
+    "is_engineering": true,
+    "job_summary": "Maintain and improve AWS organizational architecture, defining reusable infrastructure standards and patterns for operational excellence.",
+    "skills": [
+      "Pulumi (TypeScript)",
+      "Terraform",
+      "Kubernetes"
+    ],
+    "source_hash": "8105dd60"
+  },
+  "ashby-Supabase-dd3f74dc-29f8-46b1-bcfb-b7f090b7146a": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain backend APIs using NestJS and TypeScript, and develop cross-platform CLI tooling for Supabase's local development experience.",
+    "skills": [
+      "TypeScript",
+      "NestJS",
+      "Node.js",
+      "CLI tooling",
+      "cross-platform development"
+    ],
+    "source_hash": "170c851a"
+  },
+  "ashby-Supabase-39ddcc6f-e366-47aa-9755-d0af7a1036bc": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "1124b728"
+  },
+  "ashby-Supabase-d7a5b422-8c57-400d-9eac-059d5dbe4632": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "73253873"
+  },
+  "ashby-sierra-8152eaf6-012b-4154-95e2-7d6c52faba93": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "7ea7b5d0"
+  },
+  "ashby-sierra-b16462e4-ce32-4ce9-b788-0a8f0f096361": {
+    "is_engineering": true,
+    "job_summary": "Build agent architecture, retrieval systems, and simulation platforms for AI agents. Develop tools for content management and agent development lifecycle.",
+    "skills": [],
+    "source_hash": "ec45042a"
+  },
+  "ashby-sierra-41e66706-b647-4ab1-8c7f-8f2975babba7": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "42977cc8"
+  },
+  "ashby-sierra-d77487f9-bab3-44c6-be18-744e7125c8b3": {
+    "is_engineering": true,
+    "job_summary": "Build the platform primitives that power agent development, including runtime systems, developer tooling, and internal infrastructure.",
+    "skills": [],
+    "source_hash": "9f750a35"
+  },
+  "ashby-sierra-a5402a9c-d0ea-4e60-a1bc-68574d54950f": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "7690c9ed"
+  },
+  "ashby-sierra-422cb7bb-ab03-447b-808c-6d72f59bbd2f": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "9ea432aa"
+  },
+  "ashby-sierra-effd7cd2-8a28-4bae-a3b8-40720ba09717": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "3d86132a"
+  },
+  "ashby-sierra-9501ffa2-b433-4f51-b7f0-d8e53e37442d": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "ca0e20c0"
+  },
+  "ashby-sierra-b7d1dbcd-ca72-472f-b15e-5b4b0f886be0": {
+    "is_engineering": true,
+    "job_summary": "Build and deploy AI agents for enterprise clients to manage subscription churn and optimize operations.",
+    "skills": [],
+    "source_hash": "6276566f"
+  },
+  "ashby-sierra-ba780c1d-ebd7-45b8-8c99-12666af5bfa3": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "db2d0959"
+  },
+  "ashby-sierra-fed8ca9a-0bb7-44ef-a541-0be6a8ae7bba": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "4cf1968b"
+  },
+  "ashby-sierra-e9f5fdb6-91ee-4c55-9230-41ec8865650e": {
+    "is_engineering": true,
+    "job_summary": "Build and ship highly performant, mission-critical AI agents for industries like finance, healthcare, and commerce.",
+    "skills": [],
+    "source_hash": "7abb1140"
+  },
+  "ashby-sierra-b4b762e6-8ce7-4ea7-b9b3-40c04f62135a": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "4d1566c3"
+  },
+  "ashby-sierra-b3829801-8e0b-4047-8cd8-8a51c87028fd": {
+    "is_engineering": true,
+    "job_summary": "Build the core systems that power agents, including the Agent SDK, agentic loop, retrieval systems, and evaluation frameworks.",
+    "skills": [
+      "Go",
+      "TypeScript",
+      "Python",
+      "LLM-based applications",
+      "SDK development"
+    ],
+    "source_hash": "11062644"
+  },
+  "ashby-sierra-bbef339c-3365-40df-804b-ece245386b43": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain security primitives for application, cloud, and AI agent systems. Implement automation and tooling into CI/CD pipelines for compliance checks and infrastructure reviews.",
+    "skills": [],
+    "source_hash": "6d2075e2"
+  },
+  "ashby-sierra-c56c272f-86e0-43c8-b3eb-6f6b1cec3b36": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "0672bf83"
+  },
+  "ashby-sierra-ecbaa355-c644-471a-ac11-07a21ee0c543": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "c850588e"
+  },
+  "ashby-sierra-7053ca02-ee36-48cc-b331-9d795a966c4c": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "29baf0de"
+  },
+  "ashby-sierra-f391b10c-7a4a-42b4-9887-dd32b31d6e4e": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain the frontend for product and marketing surfaces, ensuring a cohesive user experience across all touch points. Lead the design system and UI components to enable consistent, high-quality interfaces.",
+    "skills": [],
+    "source_hash": "99ac8519"
+  },
+  "ashby-sierra-fd955efb-b782-4be3-ae81-30b5d75d8a3d": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "c9b8b02d"
+  },
+  "ashby-sierra-f4319197-e898-4756-a7f2-af884fe1e0c7": {
+    "is_engineering": true,
+    "job_summary": "Build systems that analyze agent interactions and generate insights to improve performance. Develop learning systems for retrieval, ranking, and personalization.",
+    "skills": [],
+    "source_hash": "68773e0f"
+  },
+  "ashby-sierra-548eccd8-85c7-4cfa-a145-1c6ba5c17dc2": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "afe9b3b5"
+  },
+  "ashby-sierra-38f06024-4ee9-47d6-a36f-f2791ac1e412": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "e527754d"
+  },
+  "ashby-sierra-5b2b078a-748b-492c-b07c-5aba8cb72b27": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "f4790a48"
+  },
+  "ashby-sierra-4892f01e-8871-4b32-8963-527f1cf8db5d": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "1592c9a0"
+  },
+  "ashby-sierra-c25ca18c-dbe6-439d-9a40-ce23b40c323c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "eee3599a"
+  },
+  "ashby-sierra-55e76105-7f8d-42e8-b1d1-120b7b83922e": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain cloud infrastructure using Terraform to ensure scalable, secure, and reproducible environments. Architect and operate distributed systems leveraging retrieval systems, ML models, and authentication features.",
+    "skills": [
+      "Terraform",
+      "AWS",
+      "GCP",
+      "CI/CD",
+      "distributed databases"
+    ],
+    "source_hash": "10807008"
+  },
+  "ashby-sierra-39c1ed90-786b-41c6-943e-7c2427f90043": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "036fdc6c"
+  },
+  "ashby-sierra-9738d0f0-13be-4e89-9fba-505e7cac288f": {
+    "is_engineering": true,
+    "job_summary": "Build and ship AI agents with Sierra\u2019s customers in a production environment. Contribute to the platform by writing code and designing products.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Python",
+      "Go"
+    ],
+    "source_hash": "abc9aadd"
+  },
+  "ashby-sierra-9ebc3a79-82bf-478d-bd98-d473d41bdeaf": {
+    "is_engineering": true,
+    "job_summary": "Build and deploy AI agents for enterprises and startups, evolving Sierra's platform based on customer needs.",
+    "skills": [],
+    "source_hash": "b4a1dff3"
+  },
+  "ashby-sierra-9d9e7d4a-2a27-4f64-9b1f-d79c5d3f129a": {
+    "is_engineering": true,
+    "job_summary": "Build and deploy AI agents for large enterprises and startups to manage subscription churn and drive efficiency.",
+    "skills": [],
+    "source_hash": "70311e15"
+  },
+  "ashby-sierra-aadfc0a0-93f6-454b-9767-c24793fa3eff": {
+    "is_engineering": true,
+    "job_summary": "Build and deploy production-grade AI agents for enterprise and startup clients.",
+    "skills": [],
+    "source_hash": "2456b3df"
+  },
+  "ashby-sierra-9f5b273f-1604-4b5b-bbbb-13cf0af35150": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "0f63c669"
+  },
+  "ashby-sierra-ef109d91-43de-4f96-94e5-fac6f1d8c8e1": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "8f24c877"
+  },
+  "ashby-sierra-684fe45e-e8ab-40bc-8faa-c291646a48bb": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "4e26a850"
+  },
+  "ashby-sierra-48fb4d34-8622-45fc-9fca-f8f20b6d034a": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "58574608"
+  },
+  "ashby-sierra-0ff928f7-cca0-4d2b-ae64-c07277ff5252": {
+    "is_engineering": true,
+    "job_summary": "Build and deploy production-grade AI agents for enterprise and startup clients.",
+    "skills": [],
+    "source_hash": "af0c82c2"
+  },
+  "ashby-sierra-53a8fd83-3e58-41a4-b014-2da447db820b": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "f7cd1723"
+  },
+  "ashby-sierra-980b339c-60b6-4473-bf4c-1d69557da9f2": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "ae1fde88"
+  },
+  "ashby-sierra-c7e3f330-6649-4c42-920d-eb267ebd6d16": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "0f8cfa12"
+  },
+  "ashby-sierra-43e6eda7-6e46-43e8-82a5-6e5035f063bb": {
+    "is_engineering": true,
+    "job_summary": "Build and deploy AI agents for enterprise clients to manage subscription churn and optimize operations.",
+    "skills": [],
+    "source_hash": "9af557f8"
+  },
+  "ashby-sierra-0c892d11-9f19-4b8d-9c2b-409346c52b7a": {
+    "is_engineering": true,
+    "job_summary": "Build real-time eventing infrastructure and ETL pipelines. Develop systems for long-term agent memory and CDP primitives.",
+    "skills": [
+      "Spark",
+      "Flink",
+      "Trino",
+      "Iceberg",
+      "Hudi"
+    ],
+    "source_hash": "b3dedd4f"
+  },
+  "ashby-sierra-3914e14a-2339-4d49-97e8-3a0de793cfb1": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain the observability stack for Sierra\u2019s AI-driven infrastructure, including monitoring, alerting, logging, and tracing systems. Design and implement scalable cloud infrastructure using Terraform and AWS services.",
+    "skills": [
+      "Terraform",
+      "AWS",
+      "Prometheus",
+      "Grafana",
+      "Datadog"
+    ],
+    "source_hash": "8a82f00c"
+  },
+  "ashby-sierra-2dee25a0-a0c1-425e-b67a-9d49fc821369": {
+    "is_engineering": true,
+    "job_summary": "Build and deliver production-grade AI agents for industries like finance, healthcare, and commerce. Own the full lifecycle of agent development, ensuring scalability and reliability in production environments.",
+    "skills": [],
+    "source_hash": "08f730a8"
+  },
+  "ashby-sierra-8d46d44c-8294-4807-a6b1-5087f0506a38": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "161c02ba"
+  },
+  "ashby-sierra-b1fc320b-d0d2-4ca5-9ce3-2ce8f51cf70e": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "190293ea"
+  },
+  "ashby-sierra-3437596e-e545-42a9-af82-9947fabf828c": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "7883cbef"
+  },
+  "ashby-sierra-ed38b1c1-2862-4e40-9894-3c6f20f7a785": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "3ec66860"
+  },
+  "ashby-sierra-dc443fd1-14bd-493c-9397-c3713c78321c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "34e96e42"
+  },
+  "ashby-sierra-df431e56-56f5-42ed-bc62-7d6f7041bd27": {
+    "is_engineering": true,
+    "job_summary": "Build and deploy AI agents for enterprise clients to manage subscription churn and optimize operations.",
+    "skills": [],
+    "source_hash": "a079d737"
+  },
+  "ashby-sierra-198cd5cd-aa18-4541-abc9-b1f1ec0e5084": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "eec851a9"
+  },
+  "ashby-sierra-e9f85c28-882b-4fc6-b7e1-b24b17b54599": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "bdbfb88e"
+  },
+  "ashby-sierra-fa2c5897-99d3-406d-9842-bf4c209e1095": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "b87b3aa0"
+  },
+  "ashby-sierra-1bd9c1e7-a2aa-428d-9a31-1a4eed26391f": {
+    "is_engineering": true,
+    "job_summary": "Build infrastructure for real-time speech-to-text, telephony integrations, and scalable systems to handle millions of calls. Develop full-stack solutions for speech synthesis and agentic loop runtime.",
+    "skills": [
+      "Go",
+      "TypeScript"
+    ],
+    "source_hash": "c10b2e3c"
+  },
+  "ashby-sierra-2fdb200f-c5cf-420c-9997-5e5cea6e1e20": {
+    "is_engineering": true,
+    "job_summary": "Build the simulation platform for testing AI agents and develop no-code tools for managing AI agent content.",
+    "skills": [
+      "Go",
+      "TypeScript",
+      "Cursor",
+      "Claude Code",
+      "ADLC (Agent Development Life Cycle)"
+    ],
+    "source_hash": "1e6166b0"
+  },
+  "ashby-sierra-6207b02d-d334-4000-b84e-2af779171838": {
+    "is_engineering": true,
+    "job_summary": "Build and deploy production-grade AI agents for enterprise and startup clients. Develop scalable systems that drive revenue and optimize operations across industries.",
+    "skills": [],
+    "source_hash": "4b3c61e9"
+  },
+  "ashby-sierra-d4a8ec61-f97d-4010-9505-0fc2d8b00167": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "4d771d0b"
+  },
+  "ashby-sierra-b89816c1-80b2-449b-b69e-2c261b8e9e23": {
+    "is_engineering": true,
+    "job_summary": "Build and deploy AI agents for enterprise clients to manage subscription churn and optimize operations.",
+    "skills": [],
+    "source_hash": "12f3f4be"
+  },
+  "ashby-sierra-9dc1651d-43e9-4970-a757-a5223cef1c4d": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "4c9a1014"
+  },
+  "ashby-sierra-1045b1db-228b-40df-97d8-a8f9371d35bd": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "6d265da4"
+  },
+  "ashby-sierra-034c2c56-357f-4ed2-9da7-f4d36a999385": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "b6cc4bcc"
+  },
+  "ashby-sierra-edf44ab4-538b-4e65-b93c-392c950b9fe6": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "017cab81"
+  },
+  "ashby-sierra-2e07f536-bbaa-4cc0-957a-774ddf99de64": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "7079e30a"
+  },
+  "ashby-sierra-ce463311-0c6c-43d9-ab79-dd751743104f": {
+    "is_engineering": true,
+    "job_summary": "Build and deploy production-grade AI agents for enterprises and startups, driving revenue and scalability across industries.",
+    "skills": [],
+    "source_hash": "108af2ea"
+  },
+  "ashby-sierra-fe103c28-bc7e-433e-ad82-90a1655cba32": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "0ce2e582"
+  },
+  "ashby-sierra-0e73be8d-e05f-4c47-aa74-416b2984334c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "a28d6c1d"
+  },
+  "ashby-sierra-5ed4bbfa-1c27-4242-be7f-b8dc4ce8c25f": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain systems for analyzing agent performance data, A/B testing agents, and monitoring for defects. Develop Explorer, an AI-powered conversational data clustering tool.",
+    "skills": [
+      "Go",
+      "TypeScript"
+    ],
+    "source_hash": "18d4163e"
+  },
+  "ashby-sierra-8f9d2381-aa28-4ad8-bdbd-8b6a7585b56c": {
+    "is_engineering": true,
+    "job_summary": "Build and deploy AI agents for enterprise clients to manage subscription churn and optimize operations.",
+    "skills": [],
+    "source_hash": "4d7716c4"
+  },
+  "ashby-sierra-f1d6b8d6-570a-4d19-8cf5-8145fc93c1ae": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "4f69292b"
+  },
+  "ashby-sierra-8646493c-93a6-482e-a810-4a0aa6e3438f": {
+    "is_engineering": true,
+    "job_summary": "Build and ship production-grade AI agents for industries like finance, healthcare, and commerce.",
+    "skills": [],
+    "source_hash": "0e15cc83"
+  },
+  "ashby-sierra-44120ba5-4cf7-48a1-86af-7981c41c179e": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "2f365fbd"
+  },
+  "ashby-sierra-a9e0b5c2-3b06-4dba-94eb-ca8fb057d70c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "aafd1d9a"
+  },
+  "ashby-sierra-a0b9444b-2354-4db3-8fe8-87892e2e282e": {
+    "is_engineering": true,
+    "job_summary": "Own the mobile Experience SDKs for iOS and Android, leading their architecture, implementation, and integration with OS-level features like notifications, voice routing, and app extensions. Design fluid, responsive mobile interfaces and ensure seamless developer and user experiences.",
+    "skills": [
+      "iOS",
+      "Android",
+      "Figma",
+      "notifications",
+      "voice/audio routing"
+    ],
+    "source_hash": "cd703c9a"
+  },
+  "ashby-sierra-f673561e-aece-4df9-ae46-55779dc6a9d8": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "f7292b28"
+  },
+  "ashby-sierra-08d96098-7213-44af-98da-f62366189f3b": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "31fcb36e"
+  },
+  "ashby-sierra-9a630c65-af8c-461b-8fd4-b52ccb431f6f": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "5ce48405"
+  },
+  "ashby-sierra-201c6046-acb5-4fd4-a685-e993f34ec0d1": {
+    "is_engineering": true,
+    "job_summary": "Build systems that secure Sierra\u2019s platform by implementing identity management, access control, and data lifecycle management across backend services and infrastructure.",
+    "skills": [
+      "Python",
+      "Go",
+      "TypeScript",
+      "API design",
+      "authentication frameworks"
+    ],
+    "source_hash": "c748ae73"
+  },
+  "ashby-sierra-39e15cc4-a16e-4ddb-b609-a345e2dd67c8": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "d13efd1e"
+  },
+  "ashby-sierra-876920df-7c3a-4e20-a9fe-52df474e6c47": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "38abee13"
+  },
+  "ashby-sierra-1a0a0334-41f8-4c15-9ed8-615336855e5e": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "4d8f76a3"
+  },
+  "ashby-sierra-a4376f1f-10bd-4804-899e-4b98b8245198": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "f9b7ee0a"
+  },
+  "ashby-sierra-8d30e19d-73fd-4ebc-9cb2-83fc25f6a76e": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "454e44c8"
+  },
+  "ashby-sierra-2da4e2ef-2cf3-4df5-9dcd-972bc2a0fb1c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "d07c4d3f"
+  },
+  "ashby-sierra-1c991675-099f-49dd-9b9b-bd3c9111e65c": {
+    "is_engineering": true,
+    "job_summary": "Design and implement Go-to-Market software integrations between Salesforce and platforms like Marketing Automation and Configure-Price-Quote. Build and maintain data pipelines on ETL platforms.",
+    "skills": [
+      "Salesforce",
+      "SQL",
+      "ETL",
+      "Reverse ETL",
+      "Composable CDP"
+    ],
+    "source_hash": "56ed7e44"
+  },
+  "ashby-sierra-fc6eaada-479c-4ff6-be79-7e267b9ed2b4": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain identity and access management systems, integration points, and extensibility features for enterprise customers. Ensure platform scalability, security, and compliance readiness.",
+    "skills": [],
+    "source_hash": "d949dccf"
+  },
+  "ashby-sierra-409c7bae-fdfc-4d36-a427-297683063d43": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "a9219a61"
+  },
+  "ashby-sierra-06453dd1-a29f-4aea-bb06-2d49862860e8": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "12d25298"
+  },
+  "ashby-sierra-23efd6e0-a64d-4421-b684-bbd44e5c752e": {
+    "is_engineering": true,
+    "job_summary": "Develop and deploy AI Agents as an Agent Software Engineer, building technical documentation, sample repositories, and training materials for SDK adoption.",
+    "skills": [
+      "TypeScript",
+      "LangGraph",
+      "MCP servers",
+      "SDKs",
+      "APIs"
+    ],
+    "source_hash": "9c71d80a"
+  },
+  "ashby-sierra-10d2e2f1-6657-40c9-b6fb-6999c76df6cf": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "acafe9d3"
+  },
+  "ashby-sierra-1a0e307f-7f02-4971-820c-a244ad909617": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "c78dc106"
+  },
+  "ashby-sierra-757f6d53-8849-46b5-b23e-184753c05e62": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "8411ef46"
+  },
+  "ashby-sierra-687a56db-9f2a-42f9-94a0-fa06730c1e10": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "ff48cd81"
+  },
+  "ashby-sierra-c6d2a0ee-2401-4751-bafb-e1468876e568": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "96e8714e"
+  },
+  "ashby-sierra-e296cc07-99ca-4ec0-a826-8bdcd168fa15": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "5a032a52"
+  },
+  "ashby-sierra-43765060-50c1-4574-8134-428facdb388b": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "95defa27"
+  },
+  "ashby-sierra-2a76bb97-2719-413c-94ad-775553e63abd": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "fcfad8a1"
+  },
+  "ashby-sierra-ebe951fb-8e8d-4bff-a499-e19010018f3b": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "b9001f2a"
+  },
+  "ashby-sierra-eb3ee157-3d2a-412a-88a2-e2cfc5647a66": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain production-grade AI agents for healthcare interactions, ensuring HIPAA compliance and empathetic communication.",
+    "skills": [],
+    "source_hash": "d4335ed5"
+  },
+  "ashby-sierra-631848ec-1a74-4067-8b9f-cd04a71aab6d": {
+    "is_engineering": true,
+    "job_summary": "Build and deploy AI agents for large enterprises and startups to manage subscription churn and drive efficiency.",
+    "skills": [],
+    "source_hash": "d7f5101d"
+  },
+  "ashby-sierra-d3e957bc-b1d8-4006-be41-064d8fe4097f": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "68642821"
+  },
+  "ashby-sierra-21a4df49-1b95-4fe9-b375-af6cf69c0812": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "a0057b31"
+  },
+  "ashby-sierra-85e1d0f9-e0d5-4a82-9b30-fa4372e32872": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "7827aa7d"
+  },
+  "ashby-sierra-65eb2c63-c936-4e8e-87e7-ea080dcdca73": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "f78538b9"
+  },
+  "ashby-sierra-569ba29b-de35-4bce-a16c-e27cb9b683ea": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "3f251728"
+  },
+  "ashby-sierra-2bba25d3-f5c1-4d84-b3fb-846b40597ff5": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "39f3cfd1"
+  },
+  "ashby-sierra-a696c4aa-9477-4d67-8f58-cc0d466a49b4": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "04294b2e"
+  },
+  "ashby-sierra-c6378c64-afc9-4751-a79b-a888fe6ceb70": {
+    "is_engineering": true,
+    "job_summary": "Build the support function's systems, tooling, and automation using Agent OS and AI tools. Create internal tooling to accelerate debugging and investigation.",
+    "skills": [
+      "Agent OS",
+      "Codex",
+      "Claude"
+    ],
+    "source_hash": "57ca8497"
+  },
+  "ashby-sierra-39355227-d7a2-4066-b930-2bf2eeebc20c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "d7a9d395"
+  },
+  "ashby-sierra-c74d600c-235c-4d42-8546-b178b7adefc2": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain production AI agents for Sierra's customers, shipping features and learning from real-world use cases.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Go",
+      "RAG pipelines",
+      "eval frameworks"
+    ],
+    "source_hash": "274c9588"
+  },
+  "ashby-sierra-2c5520b7-5914-480c-8706-d800fbe42935": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "0cbdeec1"
+  },
+  "ashby-sierra-8e477331-3525-4e87-b311-e500f0fa61e9": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "4541dc87"
+  },
+  "ashby-sierra-a84c4ee1-1534-4bfa-960b-25f104a2bde6": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "1343aaeb"
+  },
+  "ashby-sierra-99e82c10-977f-4b42-a737-2d9812ce614d": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "d83b3506"
+  },
+  "ashby-sierra-0c66e8ed-1c18-4b64-ad27-a522a866b6e1": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "740d7ced"
+  },
+  "ashby-sierra-5aaa2eeb-92bc-4b0a-901e-8e091eff819e": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "f3149af8"
+  },
+  "ashby-sierra-38262b5f-65ec-4563-922f-ea3d3d8f78b8": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "d9ee4ee4"
+  },
+  "ashby-sierra-22ba107d-de01-4aa3-98fc-838cccad760c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "f21f7e00"
+  },
+  "ashby-sierra-787c1efd-2327-46e7-9335-59a20ad4be18": {
+    "is_engineering": true,
+    "job_summary": "Build and deploy AI agents for enterprise clients to manage subscription churn and optimize operations.",
+    "skills": [],
+    "source_hash": "34982a49"
+  },
+  "ashby-sierra-b8a89b9a-70a1-4e47-874c-41542d1bc60a": {
+    "is_engineering": true,
+    "job_summary": "Build and deploy production-grade AI agents for industries like finance, healthcare, and commerce. Drive the agent development life cycle from pilot to deployment.",
+    "skills": [],
+    "source_hash": "2a1a532c"
+  },
+  "ashby-sierra-1162dcd2-b181-49d5-9316-342cd68acbed": {
+    "is_engineering": true,
+    "job_summary": "Build and deploy AI agents for large enterprises and startups across industries like finance, healthcare, and commerce.",
+    "skills": [],
+    "source_hash": "aca6e048"
+  },
+  "ashby-sierra-a4541730-ae7f-4771-b3e9-7f9da6cc5d23": {
+    "is_engineering": true,
+    "job_summary": "Build and deploy AI agents for large enterprises and startups, ensuring they are production-grade, scalable, and mission-critical.",
+    "skills": [],
+    "source_hash": "bb6a0f01"
+  },
+  "ashby-sierra-d9c0aa93-e35d-4752-9cef-4c39dcad5365": {
+    "is_engineering": true,
+    "job_summary": "Own the deployment architecture and infrastructure lifecycle for enterprise customers, ensuring secure and compliant AI platform deployments.",
+    "skills": [
+      "VPC configuration",
+      "networking",
+      "infrastructure provisioning",
+      "automation tooling",
+      "runbook development"
+    ],
+    "source_hash": "543aa88d"
+  },
+  "ashby-sierra-5ea8d56f-09b5-4113-9929-a3ef42d010ef": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "c9bc303a"
+  },
+  "ashby-sierra-1e052261-0c89-4ccb-abfa-3820a1596a6e": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "dda9d054"
+  },
+  "ashby-sierra-9ec424f1-9013-41d1-bc4d-d36ddb9c98c1": {
+    "is_engineering": true,
+    "job_summary": "Build enforcement systems and automation to continuously enforce security controls, detect unauthorized access, and govern OAuth scopes across SaaS and integration landscapes.",
+    "skills": [],
+    "source_hash": "2f4d09fb"
+  },
+  "ashby-sierra-8023c5e9-5622-4f50-b3ba-0690a60e4cb2": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "e7ef9808"
+  },
+  "ashby-turion-space-eba9894d-7ed1-43cb-8e0a-1903e934c617": {
+    "is_engineering": true,
+    "job_summary": "Build and control system-level thermal models. Lead the design and analysis of satellite hardware systems.",
+    "skills": [
+      "Thermal Desktop",
+      "SolidWorks",
+      "3D CAD software"
+    ],
+    "source_hash": "652b0777"
+  },
+  "ashby-turion-space-5dfa5da9-28be-41de-a306-853912da09e3": {
+    "is_engineering": true,
+    "job_summary": "Develop and maintain the flight software testing framework for HITL and SITL environments, writing automated tests that interact with hardware components.",
+    "skills": [
+      "C/C++",
+      "Google Test",
+      "CppUnit",
+      "Pytest",
+      "CI/CD"
+    ],
+    "source_hash": "9aa28c51"
+  },
+  "ashby-turion-space-c5b25fd7-9698-4083-aafb-a3a35e358846": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "d3a99b08"
+  },
+  "ashby-turion-space-be3d3224-9b85-4ad4-a7fc-7919cc2eccb9": {
+    "is_engineering": true,
+    "job_summary": "Develop and validate RPO algorithms and simulation frameworks for spacecraft trajectory optimization, integrating high-fidelity models into simulation environments and supporting real-time software and embedded hardware interfaces.",
+    "skills": [
+      "Python",
+      "C++",
+      "MATLAB/Simulink",
+      "GPOPS",
+      "NLOPT"
+    ],
+    "source_hash": "c2a3f3bd"
+  },
+  "ashby-turion-space-0c113d8d-b2ee-48af-ba11-4f2d39f75042": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "afe570a7"
+  },
+  "ashby-turion-space-03292d10-436f-45f0-be4a-28e2aec8d719": {
+    "is_engineering": true,
+    "job_summary": "Design and implement HDL modules for FPGA systems and develop firmware for soft core platforms to interface with FPGA fabric and peripherals.",
+    "skills": [
+      "VHDL",
+      "Verilog",
+      "SystemVerilog",
+      "C/C++",
+      "Xilinx Vivado"
+    ],
+    "source_hash": "893b23e5"
+  },
+  "ashby-turion-space-b0e9ad6c-a121-47a9-b302-900ec58eecb1": {
+    "is_engineering": true,
+    "job_summary": "Own the development of HDL and firmware for custom FPGA/SOC systems, including high-speed data movement modules and soft core firmware. Design and verify HDL to interface with SoC hard cores and peripherals.",
+    "skills": [
+      "VHDL",
+      "Verilog",
+      "SystemVerilog",
+      "Xilinx Vivado",
+      "C/C++",
+      "FreeRTOS",
+      "embedded Linux",
+      "JLink",
+      "Keil",
+      "IAR",
+      "GCC"
+    ],
+    "source_hash": "a2d853d3"
+  },
+  "ashby-turion-space-b9916877-9a1c-4ba1-b4ef-df2a4428304f": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "17a9548f"
+  },
+  "ashby-turion-space-4bbc9820-5f90-49ae-93cd-6e404d6313c4": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "896bbc4c"
+  },
+  "ashby-turion-space-a29bc0d7-5c0f-4f09-b060-3ff3d5dccfec": {
+    "is_engineering": true,
+    "job_summary": "Design and implement manufacturing processes for spacecraft systems, ensuring quality and safety in mechanical and electrical integration.",
+    "skills": [],
+    "source_hash": "dfc56fed"
+  },
+  "ashby-turion-space-4d7f7bec-dc06-40b5-953c-8ffab5d8977c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "65563b23"
+  },
+  "ashby-turion-space-5ab6234c-90be-435b-bfe7-3418d51ebb2b": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "8fcfe9e3"
+  },
+  "ashby-turion-space-90d7d643-40a4-4242-a928-32089c1d2581": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "3caaef40"
+  },
+  "ashby-turion-space-1e94d923-d49f-4cdb-bcf3-b8daa2e350d5": {
+    "is_engineering": true,
+    "job_summary": "Design and develop flight software for spacecraft systems, including simulation code and integration testing.",
+    "skills": [
+      "C/C++",
+      "Git",
+      "GTest",
+      "Python",
+      "Linux"
+    ],
+    "source_hash": "86b0bf6b"
+  },
+  "lever-rigetti-e5b4fa3e-5f27-4412-83d3-eb9e33f390a6": {
+    "is_engineering": true,
+    "job_summary": "Develop software infrastructure to automate analysis of quantum processor datasets and improve calibration models.",
+    "skills": [],
+    "source_hash": "fcd16704"
+  },
+  "lever-rigetti-6dbfb7e0-33ac-48a8-8f73-e086d1e837e7": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain cryogenic and RF hardware systems for quantum computing.",
+    "skills": [],
+    "source_hash": "0cde0a5e"
+  },
+  "lever-rigetti-2ba95ee4-cb4f-4c9f-85a1-edbfdcf0bbb7": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "ba082e27"
+  },
+  "lever-rigetti-3e4cacb0-5870-4b37-9737-c69c4cdef8cf": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain the software infrastructure for Rigetti\u2019s quantum computing platform, ensuring hybrid deployments across cloud and on-prem environments.",
+    "skills": [],
+    "source_hash": "eafe4193"
+  },
+  "lever-rigetti-05a7f63b-cfff-407b-aa87-720db6084167": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "1f7b29e1"
+  },
+  "lever-rigetti-b06e5caa-dc81-41b2-b1b0-8f118255c33a": {
+    "is_engineering": true,
+    "job_summary": "Design and develop low-noise mixed-signal board components, including power supply rails, clock distribution, and high-speed transceivers for quantum control systems.",
+    "skills": [],
+    "source_hash": "e9e23e7a"
+  },
+  "lever-rigetti-ff81d9dd-c93b-47d9-ac8f-fd04f60f1bd2": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "5f6e83c0"
+  },
+  "lever-rigetti-7eb798d5-75e6-4bf4-893e-f9fe9d8a169e": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain RF and cryogenic systems for quantum processors. Develop best practices for testing and troubleshooting complex hardware infrastructure.",
+    "skills": [],
+    "source_hash": "6f8bc57e"
+  },
+  "lever-rigetti-0f66c1c3-12be-4e60-a7e1-25e494ee2841": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "0e39eb9f"
+  },
+  "lever-rigetti-efc17b70-a451-4aeb-8a37-70cb7201693b": {
+    "is_engineering": true,
+    "job_summary": "Design and implement high-performance digital logic for FPGA-based control systems driving quantum processors. Collaborate with hardware and firmware teams to develop scalable, low-latency control architectures.",
+    "skills": [],
+    "source_hash": "ac15a256"
+  },
+  "lever-rigetti-fc3de2cf-e797-40f4-9f99-89d5bd967a5d": {
+    "is_engineering": true,
+    "job_summary": "Design and layout microwave multi-qubit circuits for fabrication, and develop next-generation quantum processors using full-wave electromagnetic simulation workflows.",
+    "skills": [
+      "full-wave electromagnetic simulation",
+      "superconducting circuits",
+      "microwave multi-qubit circuits",
+      "integrated circuit layout",
+      "quantum processors"
+    ],
+    "source_hash": "08e29594"
+  },
+  "lever-rigetti-2a4c64d5-92c7-426c-89d0-7197781ef086": {
+    "is_engineering": true,
+    "job_summary": "Optimize superconducting qubit readout and reset protocols. Improve measurement protocols, signal chains, amplifiers, and device layouts for quantum processors.",
+    "skills": [],
+    "source_hash": "a8f2c8e3"
+  },
+  "lever-rigetti-288d5644-744a-4989-b129-d742b0c10e1d": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "41cac18d"
+  },
+  "lever-rigetti-fa3531f7-30b6-4394-a1d2-9338f00d615d": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "bc110031"
+  },
+  "lever-rigetti-44203cde-c934-495d-a891-775a381aa855": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "cc01b2a4"
+  },
+  "lever-atomcomputing-2f5c2c02-4ffc-45c9-9dc7-263fe4c223da": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "85c7cd8f"
+  },
+  "lever-atomcomputing-aed214f9-50bb-49c0-baa1-aba9625c61cd": {
+    "is_engineering": true,
+    "job_summary": "Assemble and test PCBs for quantum computing control systems.",
+    "skills": [],
+    "source_hash": "a5c0d061"
+  },
+  "lever-atomcomputing-76c70a0b-f054-4f28-be63-e9892cfb6cd4": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain optoelectronic devices for quantum computers by executing cleanroom fabrication processes and documenting parameters.",
+    "skills": [],
+    "source_hash": "c7a26ee5"
+  },
+  "lever-atomcomputing-24162fb2-206d-4bf5-966b-3764129ce7d0": {
+    "is_engineering": true,
+    "job_summary": "Design and develop opto-mechanical subsystems for quantum computing systems. Develop fixtures and processes for precision alignment and assembly of quantum hardware.",
+    "skills": [],
+    "source_hash": "bcff0632"
+  },
+  "lever-atomcomputing-a74fb4af-b45f-4684-b1db-a45353670864": {
+    "is_engineering": true,
+    "job_summary": "Design and implement scalable backend services for quantum job orchestration, researcher workflows, and external APIs. Lead architectural decisions for distributed systems and cloud infrastructure.",
+    "skills": [],
+    "source_hash": "7f5dbe58"
+  },
+  "lever-atomcomputing-80e5c981-71d6-4a01-939d-7053b79b7cc8": {
+    "is_engineering": true,
+    "job_summary": "Develop quantum algorithms and map them to Atom Computing hardware.",
+    "skills": [],
+    "source_hash": "0170d03f"
+  },
+  "lever-atomcomputing-b1925174-e326-4f45-8f11-ccfce067ac16": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "fe152f6d"
+  },
+  "lever-atomcomputing-5f4f5345-fe76-4396-94f9-1449c1b22ad6": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "9d3ec89d"
+  },
+  "lever-atomcomputing-d41b071a-3faa-435c-baba-8c3819eab878": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain the infrastructure that powers Atom Computing's quantum computers, ensuring reliable deployment and operation across on-premises and cloud environments.",
+    "skills": [],
+    "source_hash": "16982c7f"
+  },
+  "lever-atomcomputing-aa9b27ea-63d2-4988-9ee7-57e2d45a2755": {
+    "is_engineering": true,
+    "job_summary": "Design and build opto-mechanical subsystems for quantum computing, and develop fixtures and processes for precision alignment and assembly.",
+    "skills": [],
+    "source_hash": "9dbb610e"
+  },
+  "lever-atomcomputing-14785a8a-532a-40a6-9ec0-2b9855e915ba": {
+    "is_engineering": true,
+    "job_summary": "Design and develop custom high-performance optical systems for quantum computing, including ray-tracing, tolerancing, and finalizing optical prescriptions.",
+    "skills": [],
+    "source_hash": "ded8a6bf"
+  },
+  "lever-atomcomputing-016dce9d-b977-4e00-8047-d329c27f0d5a": {
+    "is_engineering": true,
+    "job_summary": "Design opto-mechanical subsystems for quantum computers and assist with fixturing, assembly, alignment, and testing of quantum computing hardware.",
+    "skills": [],
+    "source_hash": "30cb1b99"
+  },
+  "lever-atomcomputing-34f2f0d8-c8ea-4795-bd0b-143abd13b747": {
+    "is_engineering": true,
+    "job_summary": "Design and build high-performance control systems for quantum computing platforms. Implement real-time systems and hardware orchestration for deterministic, high-throughput pipelines.",
+    "skills": [
+      "embedded software",
+      "real-time systems",
+      "GPU acceleration",
+      "FPGA",
+      "hardware orchestration"
+    ],
+    "source_hash": "1a1c7588"
+  },
+  "lever-atomcomputing-68b51bf2-f5f6-4657-b827-9e8507bd6977": {
+    "is_engineering": true,
+    "job_summary": "Lead the development of the software stack for Atom Computing's quantum platform, including APIs, cloud integrations, and researcher workflows.",
+    "skills": [],
+    "source_hash": "cf328c73"
+  },
+  "lever-q-ctrl-e391e448-7bb1-4165-b8ea-5bf771c96e41": {
+    "is_engineering": true,
+    "job_summary": "Design and implement the Opal Suite architecture to enable scalable, high-performance systems for quantum computing applications.",
+    "skills": [],
+    "source_hash": "d1e84ab0"
+  },
+  "lever-q-ctrl-102ca76a-e35c-4141-9a27-a6b92c1665a2": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "f2b315d2"
+  },
+  "lever-q-ctrl-430c7bc5-9d5c-4f97-a4e4-b500353d951d": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "638474a3"
+  },
+  "lever-q-ctrl-831dfe64-8d6c-4b9f-a4a9-081dfbdcf472": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "020a1345"
+  },
+  "lever-q-ctrl-a0478c6d-9580-484c-a828-b8cff7804216": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "400f9c2a"
+  },
+  "lever-q-ctrl-aa443e33-8fe4-4f7c-8878-460600512528": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "54014aca"
+  },
+  "greenhouse-airbnb-7655958": {
+    "is_engineering": true,
+    "job_summary": "Design and build systems that serve ML models within the messaging stack, focusing on latency, reliability, and scalability. Implement feature pipelines, model serving, and monitoring for ML-powered messaging features.",
+    "skills": [
+      "model serving",
+      "feature pipelines",
+      "online/offline evaluation",
+      "monitoring",
+      "NLP/NLU"
+    ],
+    "source_hash": "bcad2db7"
+  },
+  "greenhouse-airbnb-7916842": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "862b9d57"
+  },
+  "greenhouse-airbnb-7762368": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "4659b7ff"
+  },
+  "greenhouse-vercel-5993726004": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "cec668ba"
+  },
+  "greenhouse-rocketlab-7701219003": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "fc2ff790"
+  },
+  "greenhouse-relativity-8219374002": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "d63998fc"
+  },
+  "greenhouse-relativity-8545832002": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "eae2789f"
+  },
+  "greenhouse-relativity-8399322002": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "3bcc78d5"
+  },
+  "greenhouse-relativity-8205991002": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "5c3222c4"
+  },
+  "greenhouse-relativity-8434147002": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "a5a49112"
+  },
+  "greenhouse-relativity-8459333002": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "3ff164fb"
+  },
+  "greenhouse-astranis-4622097006": {
+    "is_engineering": true,
+    "job_summary": "Design and build high-performance services for autonomous satellite control and real-time telemetry monitoring.",
+    "skills": [
+      "Python",
+      "Postgres",
+      "RabbitMQ",
+      "Flink",
+      "Kubernetes"
+    ],
+    "source_hash": "026c7842"
+  },
+  "greenhouse-spire-7294480": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "c8e2b3b7"
+  },
+  "greenhouse-trueanomalyinc-5120691007": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "7c956fa8"
+  },
+  "greenhouse-trueanomalyinc-5069437007": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "2bf6fd85"
+  },
+  "greenhouse-trueanomalyinc-5006127007": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "495bca07"
+  },
+  "ashby-helion-b7feaec3-e0af-4e67-a8ef-1707507f92b1": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "684ae94d"
+  },
+  "ashby-helion-d21554ad-1add-4cda-8fe0-e7cb082463e0": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "d061c61e"
+  },
+  "ashby-helion-3901a045-7e58-47b9-9ba8-3049485490de": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "79a8eae9"
+  },
+  "ashby-helion-520b0d15-04e0-4da0-8d27-9b76e879548a": {
+    "is_engineering": true,
+    "job_summary": "Develop and validate electrical simulation models for fusion systems. Integrate with mechanical, thermal, and controls simulations to optimize performance.",
+    "skills": [
+      "Simulink",
+      "Python",
+      "controls systems",
+      "power electronics",
+      "automation scripts"
+    ],
+    "source_hash": "d0dcf1bf"
+  },
+  "ashby-helion-b5659fa4-aadc-47d0-9746-f58cf8bc51e2": {
+    "is_engineering": true,
+    "job_summary": "Define and lead the architecture of electrical subsystems for fusion machines, ensuring alignment with machine requirements and operational goals.",
+    "skills": [],
+    "source_hash": "f800f14f"
+  },
+  "ashby-helion-76ee70fa-9803-4b21-b87a-4c1168add50b": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain fusion systems on Polaris, including high-voltage pulsed power systems and diagnostics.",
+    "skills": [],
+    "source_hash": "c28dabf6"
+  },
+  "ashby-helion-c4724186-c706-458e-a47f-5be613ed9442": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "44b6e66d"
+  },
+  "ashby-helion-0e786f93-c149-41eb-b8ba-7eb41df18b13": {
+    "is_engineering": true,
+    "job_summary": "Build AI-assisted tools and workflows to integrate operational data with documentation, using LLMs and structured schemas. Develop lightweight automation agents to support fusion systems.",
+    "skills": [
+      "Python",
+      "LLM APIs (OpenAI",
+      "Claude)",
+      "RAG",
+      "search",
+      "Confluence/Jira"
+    ],
+    "source_hash": "311319c4"
+  },
+  "lever-cfsenergy-a6d69919-22d5-4422-9d39-6ed5e4bcc008": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "b4037b45"
+  },
+  "lever-cfsenergy-e7ee262c-c372-4a46-95f9-54f46ab3e6ac": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "a225f462"
+  },
+  "lever-cfsenergy-cee7ceeb-8999-475e-a1dc-094bd8e433a5": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "a4889f6a"
+  },
+  "greenhouse-oklo-5990167004": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "a24ffe16"
+  },
+  "greenhouse-oklo-5993856004": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "60df8c6a"
+  },
+  "greenhouse-oklo-5986860004": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "e9196651"
+  },
+  "greenhouse-oklo-5983994004": {
+    "is_engineering": true,
+    "job_summary": "Design and implement instrumentation control systems, including PLC/SCADA, dashboards, and network topology for fuel recycling facilities.",
+    "skills": [
+      "PLC",
+      "SCADA",
+      "network topology"
+    ],
+    "source_hash": "e8221702"
+  },
+  "greenhouse-oklo-5983985004": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [
+      "AspenTech",
+      "ChemCAD",
+      "Promax",
+      "Excel",
+      "Python"
+    ],
+    "source_hash": "5d83cbc9"
+  },
+  "greenhouse-oklo-5987687004": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "72b7169d"
+  },
+  "greenhouse-kairospower-4101384004": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "521bc7c1"
+  },
+  "greenhouse-kairospower-5527250004": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "e52d2f0b"
+  },
+  "greenhouse-apptronik-5994540004": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain end-to-end motion data pipelines integrating mocap, game engines, and generative AI models. Develop tools for kinematic retargeting and trajectory synthesis for humanoid robot reinforcement learning.",
+    "skills": [
+      "Unreal Engine",
+      "Unity",
+      "GMR",
+      "Omni-retarget",
+      "physics simulators"
+    ],
+    "source_hash": "304f5a3d"
+  },
+  "ashby-physicalintelligence-567d620f-7600-4e35-9edd-f41ed4db45ce": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "c6b0b9ef"
+  },
+  "ashby-cohere-d5cc437c-2397-4c1a-9d12-3a2bf64d98ea": {
+    "is_engineering": true,
+    "job_summary": "Build and improve cutting-edge search models for semantic retrieval, optimize data pipelines for training and evaluation, and collaborate on inference systems for search infrastructure.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "JAX",
+      "XLA/MLIR"
+    ],
+    "source_hash": "02e4efad"
+  },
+  "ashby-cohere-64fb905c-b3b4-4fcf-9e1c-a806c9c40068": {
+    "is_engineering": true,
+    "job_summary": "Build the data ingestion and search platform powering Cohere's AI assistant, including backend systems, data pipelines, and indexing services.",
+    "skills": [
+      "Go",
+      "Python",
+      "Kubernetes",
+      "Docker",
+      "OpenSearch"
+    ],
+    "source_hash": "eb27c63a"
+  },
+  "ashby-cohere-f5f727bc-9eab-4fcc-9fdd-92a9ce47c37c": {
+    "is_engineering": true,
+    "job_summary": "Improve the platform\u2019s auth, billing, and payment systems. Add new features to the interactive Playground and implement platform features for managing deployments.",
+    "skills": [
+      "Golang",
+      "React"
+    ],
+    "source_hash": "69a29c99"
+  },
+  "ashby-cohere-2a7f1fad-05ff-4260-af36-556d1d694775": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "ad057227"
+  },
+  "greenhouse-xai-5135086007": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "33ab56ad"
+  },
+  "greenhouse-waymo-7895442": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "7ed6a5db"
+  },
+  "greenhouse-waymo-7905695": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain highly scalable core services for Waymo's user-facing booking system. Architect APIs and systems for internal and external partners.",
+    "skills": [
+      "C++",
+      "distributed systems",
+      "APIs"
+    ],
+    "source_hash": "d4f460a6"
+  },
+  "lever-zoox-fe3ec246-6f0a-4405-9ae8-10e322ac6799": {
+    "is_engineering": true,
+    "job_summary": "Build and implement tools using Large Language Models to streamline engineering workflows and improve development velocity for autonomy software.",
+    "skills": [
+      "Large Language Models",
+      "programming languages",
+      "tools",
+      "full-stack development",
+      "system design"
+    ],
+    "source_hash": "91a5f079"
+  },
+  "lever-zoox-2d73563c-8039-4d1b-844c-3953259ba6b1": {
+    "is_engineering": true,
+    "job_summary": "Develop and implement 3D vision algorithms to enhance simulation environments and improve diversity in virtual scenarios.",
+    "skills": [],
+    "source_hash": "9d57734c"
+  },
+  "lever-zoox-9b3ab3ee-b130-49b6-8413-7d8fd9c33ed3": {
+    "is_engineering": true,
+    "job_summary": "Design and implement foundation models to enhance the perception stack's semantic understanding of obstacles and behavioral signals.",
+    "skills": [
+      "vision-language models",
+      "multimodal transformers",
+      "audio-visual architectures",
+      "dataset construction",
+      "model evaluation"
+    ],
+    "source_hash": "9a548c9e"
+  },
+  "lever-zoox-48639085-6179-4a14-94c5-5b5ba027879c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "b0e61e3e"
+  },
+  "lever-zoox-4df5862c-edd7-4033-acb8-59ebbfbbb941": {
+    "is_engineering": true,
+    "job_summary": "Design and integrate ML models for semantic map elements in autonomous vehicles.",
+    "skills": [],
+    "source_hash": "30d98cae"
+  },
+  "lever-zoox-cb5a0398-c82b-40c2-ac0d-efd286024282": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "4d1a3240"
+  },
+  "lever-zoox-3ec16f47-6e4a-4f27-a0ec-6cde3e4fa810": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "96d45fde"
+  },
+  "lever-zoox-7b625fa4-4524-4d33-8fe8-8c0f5e574b26": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "e945fc89"
+  },
+  "lever-zoox-9abd3543-0d46-4fd8-882c-2fe93d75a51b": {
+    "is_engineering": true,
+    "job_summary": "Optimize GPU-based algorithms for computer vision and deep learning in self-driving systems. Influence compute platform design and resource allocation.",
+    "skills": [],
+    "source_hash": "9051017c"
+  },
+  "greenhouse-motional-7730335003": {
+    "is_engineering": true,
+    "job_summary": "Architect scalable ML systems for data discovery and model improvement, including multimodal representation learning and active learning loops. Own system-level architecture for real-time inference across GPU/CPU clusters.",
+    "skills": [],
+    "source_hash": "2520088e"
+  },
+  "greenhouse-appliedintuition-4652157005": {
+    "is_engineering": true,
+    "job_summary": "Develop core middleware services for the software-defined vehicle platform, focusing on communication protocols and system management functions.",
+    "skills": [
+      "C++",
+      "SOME/IP",
+      "DDS",
+      "Protobuf/gRPC",
+      "networking"
+    ],
+    "source_hash": "f22c94f4"
+  },
+  "greenhouse-andurilindustries-5062369007": {
+    "is_engineering": true,
+    "job_summary": "Own vehicle subsystems from conceptual design through productionization, ensuring technical and programmatic risks are managed for autonomous airpower systems.",
+    "skills": [],
+    "source_hash": "5dc57724"
+  },
+  "greenhouse-andurilindustries-5032537007": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "42ff1d8f"
+  },
+  "greenhouse-andurilindustries-5053420007": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "0c6cd4b3"
+  },
+  "greenhouse-andurilindustries-5127006007": {
+    "is_engineering": true,
+    "job_summary": "Design and develop high-performance PCBs and host boards for FPGAs, SoCs, and SoMs.",
+    "skills": [
+      "Verilog",
+      "FPGA",
+      "Altium Designer",
+      "Ethernet",
+      "signal integrity"
+    ],
+    "source_hash": "11a24fc8"
+  },
+  "greenhouse-andurilindustries-5052227007": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "53327632"
+  },
+  "greenhouse-andurilindustries-5072097007": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "cfc9a96a"
+  },
+  "greenhouse-andurilindustries-5001771007": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "6b8756ef"
+  },
+  "greenhouse-andurilindustries-4672868007": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain the foundational vehicle software stack for autonomous robotics systems like the Fury unmanned fighter jet and Barracuda. Develop software for vehicle control, networking, sensor integration, and telemetry.",
+    "skills": [
+      "Python",
+      "C++",
+      "Rust",
+      "Go",
+      "JavaScript"
+    ],
+    "source_hash": "2dbf34a0"
+  },
+  "greenhouse-andurilindustries-5135558007": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "0b1b792e"
+  },
+  "greenhouse-andurilindustries-4934226007": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "f6cc0009"
+  },
+  "greenhouse-andurilindustries-5135564007": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "830fb6b5"
+  },
+  "greenhouse-andurilindustries-4931248007": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "bd304658"
+  },
+  "greenhouse-andurilindustries-5040554007": {
+    "is_engineering": true,
+    "job_summary": "Develop and optimize robot programs for manufacturing automation systems, including motion planning, path planning, and vision-based guidance. Design and integrate industrial robots and cobots into production environments.",
+    "skills": [
+      "FANUC",
+      "UR",
+      "RoboDK",
+      "FANUC ROBOGUIDE",
+      "Delmia"
+    ],
+    "source_hash": "2c0e7930"
+  },
+  "greenhouse-andurilindustries-5124926007": {
+    "is_engineering": true,
+    "job_summary": "Develop and maintain core computer vision libraries for UAV perception systems. Integrate classical and ML methods to solve real-world object detection and tracking challenges.",
+    "skills": [
+      "C++",
+      "Python",
+      "Linux",
+      "object detection",
+      "object tracking"
+    ],
+    "source_hash": "590d7aa8"
+  },
+  "greenhouse-andurilindustries-5133683007": {
+    "is_engineering": true,
+    "job_summary": "Build and implement robust automated systems for development, verification, and deployment across multi-stage release pipelines and end-to-end test environments.",
+    "skills": [],
+    "source_hash": "9bf957ab"
+  },
+  "greenhouse-andurilindustries-5132802007": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "8dfe18d9"
+  },
+  "greenhouse-andurilindustries-5106302007": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "3f1816f9"
+  },
+  "greenhouse-andurilindustries-4978539007": {
+    "is_engineering": true,
+    "job_summary": "Design and develop system architecture for UAVs, integrating hardware, software, and electrical components for new Anduril drone platforms.",
+    "skills": [],
+    "source_hash": "8c2af52f"
+  },
+  "greenhouse-10xgenomics-7652624": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "3ca7e0ee"
+  },
+  "ashby-Etched-a99318bd-b433-44b7-9600-2ee9533c90a1": {
+    "is_engineering": true,
+    "job_summary": "Develop test infrastructure and checkers for systolic arrays, DMA engines, and NoCs in SystemVerilog and Python. Build performance models and debug hardware-software stack issues.",
+    "skills": [
+      "SystemVerilog",
+      "Python",
+      "coverage monitors",
+      "testbenches",
+      "performance models"
+    ],
+    "source_hash": "89a00db3"
+  },
+  "ashby-Etched-c68df61f-2526-4fcd-9ac5-6faa23bb2bca": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "918762d6"
+  },
+  "ashby-d-matrix-017b49d8-d1c7-4af4-9b69-b28ecad822e2": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "9ac8ee63"
+  },
+  "greenhouse-roblox-7342441": {
+    "is_engineering": true,
+    "job_summary": "Design and develop Knowledge Graph systems for large-scale ML applications. Build and scale Vector Database infrastructure to support 100B+ vector searches.",
+    "skills": [
+      "Knowledge Graphs",
+      "Vector Databases",
+      "RAG systems",
+      "Ground Truth Data labeling",
+      "evaluation frameworks"
+    ],
+    "source_hash": "fe17315d"
+  },
+  "greenhouse-roblox-7701054": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain ML solutions and ranking frameworks that power discovery canvases. Develop causal inference models to measure platform initiatives.",
+    "skills": [],
+    "source_hash": "6b9100cb"
+  },
+  "greenhouse-nuro-7917839": {
+    "is_engineering": true,
+    "job_summary": "Build internal tools and platform systems for fleet operations, including responsive frontends and backend services integrating with vehicle systems and cloud infrastructure.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "RESTful/gRPC APIs",
+      "PostgreSQL",
+      "GCP/AWS"
+    ],
+    "source_hash": "116703a3"
+  },
+  "greenhouse-nuro-7707921": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "648775cd"
+  },
+  "greenhouse-calicolabs-8407823002": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "a0a0fa45"
+  },
+  "ashby-elevenlabs-158034c9-eb7c-4348-a0b8-fa9e817b29f1": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "be31e20f"
+  },
+  "ashby-elevenlabs-3b57cc5c-f019-4a0b-a5ff-e1046e4f1fa1": {
+    "is_engineering": true,
+    "job_summary": "Build and deploy automated moderation and guardrail systems to protect the platform and users across a multimodal space.",
+    "skills": [],
+    "source_hash": "427135f4"
+  },
+  "ashby-elevenlabs-7a4b3411-7e0f-4197-82bd-0a4017146d19": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "05186a84"
+  },
+  "ashby-elevenlabs-46bad7dc-c8d7-403d-8b10-a2d71c005384": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "f47c75fe"
+  },
+  "ashby-elevenlabs-f330bd23-f909-4e50-bf58-9974aee85fc8": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "d68dda46"
+  },
+  "ashby-elevenlabs-b92059ea-d71f-4eef-a184-8510265752fb": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "b7748234"
+  },
+  "ashby-elevenlabs-66c91741-b009-48ca-8d08-fad475ffc6e6": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "4bf2d5cb"
+  },
+  "ashby-elevenlabs-d107e946-5995-498b-be4a-d0fb75203660": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "acebe462"
+  },
+  "ashby-elevenlabs-01d0899b-0e40-4af2-a859-5d21962666b1": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain the infrastructure systems that enable ElevenLabs teams to operate at scale. Own the tooling and platforms required for safe, high-velocity development across the company.",
+    "skills": [],
+    "source_hash": "8edc9dce"
+  },
+  "greenhouse-ginkgobioworks-5099624007": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "c25649fe"
+  },
+  "greenhouse-ginkgobioworks-5022683007": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "44fbddc0"
+  },
+  "greenhouse-isaraerospace-4740890101": {
+    "is_engineering": true,
+    "job_summary": "Integrate subsystem kits into the Spectrum Launch Vehicle architecture, govern CAD models and EBOM, and enforce design standards across Propulsion, AGNC, and LV Structures teams.",
+    "skills": [
+      "Siemens NX",
+      "Solidworks",
+      "PLM systems",
+      "EBOM",
+      "ICD frameworks"
+    ],
+    "source_hash": "30842f78"
+  },
+  "lever-loftorbital-6a588112-01a4-425b-8ec8-90a57866a0df": {
+    "is_engineering": true,
+    "job_summary": "Build mission applications on Loft\u2019s API and operational infrastructure. Translate mission objectives into executable workflows, configurations, and tooling for on-orbit execution.",
+    "skills": [],
+    "source_hash": "7d5d4893"
+  },
+  "lever-loftorbital-dc1538b5-d315-4993-9e3a-81ec8cc6bbf2": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "40c1a5bc"
+  },
+  "lever-loftorbital-ec358375-0c36-4f71-9d2e-6935aaa4f619": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "fe2aed04"
+  },
+  "lever-loftorbital-6914d685-4e2f-45c5-a75a-33d903ef8363": {
+    "is_engineering": true,
+    "job_summary": "Design and develop embedded software for satellite electronic payloads, advancing in-space compute and RF communication systems.",
+    "skills": [],
+    "source_hash": "9d099ff3"
+  },
+  "lever-loftorbital-f48e757b-27c8-4b8c-87b3-f56dd6954102": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "7e140e50"
+  },
+  "lever-palantir-2e193bdf-e668-49c1-ba32-66cc1aa131a4": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "d9304ccf"
+  },
+  "lever-palantir-8148182c-6127-4689-b615-7815a94173bb": {
+    "is_engineering": true,
+    "job_summary": "Design and implement custom web applications and end-to-end solutions to address customer data challenges.",
+    "skills": [],
+    "source_hash": "d4e041f9"
+  },
+  "lever-palantir-8f15d728-99cc-4003-9add-928bd72a7f30": {
+    "is_engineering": true,
+    "job_summary": "Design and implement custom web applications to solve customer problems. Build end-to-end solutions for high-stakes data-driven projects.",
+    "skills": [],
+    "source_hash": "56789bda"
+  },
+  "lever-palantir-1b6f1d82-d459-4dea-8bc2-8d2ffe6f881a": {
+    "is_engineering": true,
+    "job_summary": "Build and implement custom software solutions for clients using data, including coding web applications and managing large-scale data systems.",
+    "skills": [],
+    "source_hash": "95a5b0a3"
+  },
+  "lever-palantir-d582cd84-14fd-4aa3-b413-15982d286bd9": {
+    "is_engineering": true,
+    "job_summary": "Code custom web applications and implement data-driven solutions for customer projects.",
+    "skills": [],
+    "source_hash": "f777e9c0"
+  },
+  "lever-palantir-ae1addd8-f7f2-4ff5-b963-7ffb63f496e0": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "7faa8540"
+  },
+  "lever-palantir-cd2423c6-da68-430c-8be5-0ae7eea36497": {
+    "is_engineering": true,
+    "job_summary": "Build elegant, robust APIs powered by K8s controllers that bridge raw Kubernetes clusters and a fully-featured, infrastructure-agnostic runtime.",
+    "skills": [
+      "Kubernetes",
+      "K8s controllers",
+      "containerization"
+    ],
+    "source_hash": "9e608285"
+  },
+  "ashby-skydio-5e1057a4-214f-4783-b676-c1315cfa81ea": {
+    "is_engineering": true,
+    "job_summary": "Build scalable data processing pipelines and cloud-based tools to analyze wireless validation data from lab and factory testing environments.",
+    "skills": [
+      "Python",
+      "data pipelines",
+      "scripting",
+      "APIs",
+      "data visualization tools"
+    ],
+    "source_hash": "1c5e6ceb"
+  },
+  "ashby-skydio-71033170-d9d0-474b-b712-a11e4f11c146": {
+    "is_engineering": true,
+    "job_summary": "Develop and optimize ISP and encoder pipelines for autonomous flight camera systems, implementing real-time image processing algorithms on embedded hardware.",
+    "skills": [
+      "C++",
+      "Python",
+      "GStreamer",
+      "Android Camera HAL3",
+      "Linux V4L2"
+    ],
+    "source_hash": "e62f2604"
+  },
+  "lever-velo3d-a6da4e36-e09b-4486-a190-266de14ccb62": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "ed2423d6"
+  },
+  "lever-velo3d-1ea950a1-9227-4102-92db-4b3d09713ad0": {
+    "is_engineering": true,
+    "job_summary": "Design and develop electrical components, subsystems, and integration test systems for manufacturing processes.",
+    "skills": [],
+    "source_hash": "97031e86"
+  },
+  "greenhouse-wayve-8545427002": {
+    "is_engineering": true,
+    "job_summary": "Develop and implement high-fidelity simulation components for autonomous driving systems, integrating machine-learned graphics and robotics subsystems.",
+    "skills": [
+      "C++",
+      "Python",
+      "NeRF",
+      "Gaussian Splatting",
+      "GenAI"
+    ],
+    "source_hash": "6c523389"
+  },
+  "lever-larian-66793055-cc67-4691-8191-56713e457714": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "088d8028"
+  },
+  "lever-larian-4fd694b3-ece7-4307-9949-15cac512a815": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "2f88fa0a"
+  },
+  "lever-larian-19153167-a979-4236-917d-1a83c0ab631e": {
+    "is_engineering": true,
+    "job_summary": "Manage CI/CD pipelines and improve deployment workflows. Maintain automation systems for build stability.",
+    "skills": [],
+    "source_hash": "c8848cd4"
+  },
+  "lever-larian-828b8b15-a5be-40c1-9530-a45b7c581b8b": {
+    "is_engineering": true,
+    "job_summary": "Develop and optimize rendering systems, visual effects, and graphical features for immersive worlds. Collaborate with core teams on performance improvements and cutting-edge graphics technologies.",
+    "skills": [],
+    "source_hash": "0ecc274f"
+  },
+  "lever-larian-fa188b38-8b46-4cfe-a349-fdf8fd0771ac": {
+    "is_engineering": true,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "b440fe13"
+  },
+  "lever-larian-bf42260a-554e-44dd-8d96-a6621982d4ca": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "9d2fee79"
+  },
+  "lever-larian-3fc7173f-bd7f-4cd8-93cb-f3022d43d892": {
+    "is_engineering": true,
+    "job_summary": "Develop and maintain internal tools for game development.",
+    "skills": [],
+    "source_hash": "043475cd"
+  },
+  "ashby-qdrant.tech-a293cbdf-f1ae-4ed2-ba8c-4125efad505a": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "fb5c2ea0"
+  },
+  "lever-retro-688ebd3c-1d16-4ef8-9097-9c28de361d01": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "02e63443"
+  },
+  "greenhouse-clickhouse-5680773004": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "79884c6c"
+  },
+  "greenhouse-clickhouse-5809495004": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "86c2e7d0"
+  },
+  "ashby-docker-ea9e3250-7338-4e20-8fb2-e90f50c11550": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "c38c51a1"
+  },
+  "greenhouse-gitlab-8534549002": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "44cfda37"
+  },
+  "ashby-onebrief-89a6cd19-422b-4d2d-84ff-7076e2857054": {
+    "is_engineering": true,
+    "job_summary": "Design and maintain geospatial data pipelines and systems for AtomEngine's simulation runtime, ensuring scalability, performance, and integration of geospatial datasets.",
+    "skills": [
+      "GeoServer",
+      "PostGIS"
+    ],
+    "source_hash": "6df4f83f"
+  },
+  "ashby-rula-34a78521-e6f6-4dba-abe4-6577be4259c4": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "f9ee3e49"
+  },
+  "ashby-strava-70ea7daf-798f-4edf-a95b-5954946ffbac": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "cef88389"
+  },
+  "ashby-strava-cdd98cb6-0275-4297-b52e-163503a177d3": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "6176d88a"
+  },
+  "greenhouse-tailscale-4647909005": {
+    "is_engineering": true,
+    "job_summary": "Design and implement core client subsystems such as connection management, encrypted transport, and NAT traversal in Go.",
+    "skills": [
+      "Go",
+      "WireGuard",
+      "TCP/UDP",
+      "TLS",
+      "concurrency"
+    ],
+    "source_hash": "68a9fdb4"
+  },
+  "greenhouse-grafanalabs-5988484004": {
+    "is_engineering": true,
+    "job_summary": "Refactor and enhance the Grafana App Platform's core architecture to ensure scalability, multi-tenancy, and integration with observability apps. Build and maintain systems that support dashboards, alerts, and telemetry for cloud and on-premise deployments.",
+    "skills": [],
+    "source_hash": "039ab4ce"
+  },
+  "ashby-ScribdInc-423eb3d3-0a9b-4378-ad06-233a9cfd480d": {
+    "is_engineering": true,
+    "job_summary": "Define the architecture for the agentic engineering platform and evolve the development environment to integrate AI agents as collaborators.",
+    "skills": [],
+    "source_hash": "75b4a2db"
+  },
+  "greenhouse-recursionpharmaceuticals-7875594": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "b30bf93c"
+  },
+  "greenhouse-terrapowerllc-4170403009": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "e0596e2d"
+  },
+  "greenhouse-scopely-5180550008": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "3a79c1c6"
+  },
+  "greenhouse-scopely-5195068008": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "da3c788e"
+  },
+  "greenhouse-scopely-5086908008": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "source_hash": "8cd3ac41"
+  },
+  "ashby-supercell-1d91d31a-2022-40a2-ae8f-289decdf2ea4": {
+    "is_engineering": true,
+    "job_summary": "Design and build a scalable, highly available, and secure platform for Supercell ID, including account safety, identity systems, and cross-game infrastructure.",
+    "skills": [
+      "Java",
+      "DynamoDB",
+      "AWS",
+      "Terraform",
+      "AI-assisted development tools"
+    ],
+    "source_hash": "04912dab"
   }
 }

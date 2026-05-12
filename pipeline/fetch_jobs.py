@@ -11,7 +11,7 @@ from scrapers import ats_greenhouse, ats_lever, ats_ashby, ats_smartrecruiters
 from scrapers._base import Job, ScraperError
 
 
-DATA_DIR = Path("data")
+DATA_DIR = Path(__file__).parent.parent / "data"
 COMPANIES_FILE = DATA_DIR / "companies.json"
 OUTPUT_FILE = DATA_DIR / "jobs_raw.json"
 SEEN_FILE = DATA_DIR / "seen_jobs.json"
@@ -78,7 +78,7 @@ def main():
                 all_jobs.append(d)
             print(f"{len(jobs)} jobs")
         except ScraperError as e:
-            print(f"ERROR")
+            print("ERROR")
             errors.append(str(e))
 
     closed_count = len(prev) - sum(1 for j in all_jobs if j["id"] in prev)

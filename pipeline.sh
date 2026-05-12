@@ -4,6 +4,7 @@ set -e
 
 SCRAPER_DIR="$(cd "$(dirname "$0")" && pwd)"
 JOBS_REPO="$(dirname "$SCRAPER_DIR")/jobs"
+export PYTHONPATH="$SCRAPER_DIR"
 
 cd "$SCRAPER_DIR"
 
@@ -14,27 +15,27 @@ echo "========================================"
 # 1. Fetch current listings from all companies
 echo ""
 echo "=== [1/5] Fetching jobs ==="
-python3 fetch_jobs.py || echo "  [warn] Some companies failed to fetch — continuing with successful results"
+python3 pipeline/fetch_jobs.py || echo "  [warn] Some companies failed to fetch — continuing with successful results"
 
 # 2. Fetch Greenhouse descriptions for today's new jobs
 echo ""
 echo "=== [2/5] Fetching Greenhouse descriptions ==="
-python3 fetch_job_descriptions.py
+python3 pipeline/fetch_job_descriptions.py
 
 # 3. Classify only today's new jobs
 echo ""
 echo "=== [3/5] Classifying new jobs ==="
-python3 classify_jobs.py
+python3 pipeline/classify_jobs.py
 
 # 4. Render builder jobs to the builder-jobs repo
 echo ""
 echo "=== [4/5] Rendering ==="
-python3 render_jobs.py
+python3 pipeline/render_jobs.py
 
 # 5. Regenerate README index
 echo ""
 echo "=== [5/5] Generating index ==="
-python3 generate_index.py "$JOBS_REPO"
+python3 pipeline/generate_index.py "$JOBS_REPO"
 
 # 6. Commit and push builder-jobs repo
 echo ""
