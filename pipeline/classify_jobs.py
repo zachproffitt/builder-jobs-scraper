@@ -3,6 +3,7 @@
 
 import hashlib
 import json
+import re
 import sys
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -115,7 +116,7 @@ def classify_with_llm(job: dict) -> tuple[bool | None, str | None, list[str]]:
         elif line.startswith("SKILLS:"):
             val = line.removeprefix("SKILLS:").strip()
             if val.lower() != "n/a":
-                skills = [s.strip() for s in val.split(",") if s.strip()]
+                skills = [s.strip() for s in re.split(r",\s*(?![^(]*\))", val) if s.strip()]
 
     return is_engineering, job_summary, skills
 

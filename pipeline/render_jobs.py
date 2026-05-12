@@ -14,11 +14,21 @@ CLASSIFIED_FILE = Path(__file__).parent.parent / "data" / "jobs_classified.json"
 COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies_classified.json"
 
 HASH_MARKER = "render_hash: "
-FORMAT_VERSION = "2"  # bump to force re-render of all files
+FORMAT_VERSION = "3"  # bump to force re-render of all files
+SKILL_COLOR = "3B82F6"
 
 
 def slugify(text: str) -> str:
     return re.sub(r"[^a-z0-9-]", "-", text.lower()).strip("-")
+
+
+def skill_badge(skill: str) -> str:
+    label = skill.strip().replace("-", "--").replace("_", "__").replace(" ", "_")
+    label = (label
+        .replace("(", "%28").replace(")", "%29")
+        .replace(",", "%2C").replace("/", "%2F")
+        .replace("+", "%2B").replace("#", "%23"))
+    return f"![{skill}](https://img.shields.io/badge/{label}-{SKILL_COLOR}?style=flat-square)"
 
 
 def render_hash(job: dict, classification: dict) -> str:
@@ -47,8 +57,9 @@ def render_job(job: dict, classification: dict, company_summary: str | None) -> 
     skills = classification.get("skills") or []
     rhash = render_hash(job, classification)
 
-    lines = [
-        "---",
+    # HTML comment holds machine-readable metadata — not rendered by GitHub
+    meta_lines = [
+        "<!--",
         f"id: {job['id']}",
         f"company: {job['company']}",
         f"title: {job['title']}",
@@ -60,30 +71,40 @@ def render_job(job: dict, classification: dict, company_summary: str | None) -> 
         f"url: {job['url']}",
         f"summary: {job_summary}",
         f"skills: {', '.join(skills)}",
-        f"{HASH_MARKER}{rhash}",
-        "---",
+        f"render_hash: {rhash}",
+        "-->",
+    ]
+
+    # Inline meta line matching README style: Company · Location · `Remote` · date
+    meta_parts = [f"**{job['company']}**"]
+    if location != "Not specified":
+        meta_parts.append(location)
+    if remote_str == "Remote":
+        meta_parts.append("`Remote`")
+    elif remote_str == "On-site":
+        meta_parts.append("On-site")
+    if posted:
+        meta_parts.append(f"Posted {posted}")
+    meta_line = " · ".join(meta_parts)
+
+    lines = meta_lines + [
         "",
         f"# {job['title']}",
+        "",
+        meta_line,
         "",
     ]
 
     if company_summary:
-        lines += [f"**{job['company']}** — {company_summary}", ""]
+        lines += [f"_{company_summary}_", ""]
 
     if job_summary:
-        lines += [f"> {job_summary}", ""]
+        lines += [f"_{job_summary}_", ""]
+
+    if skills:
+        lines += [" ".join(skill_badge(s) for s in skills), ""]
 
     lines += [f"**[→ Apply at {job['company']}]({job['url']})**", ""]
-
-    # Metadata table — omit Posted if unknown
-    table_rows = [
-        f"| Location | {location} |",
-        f"| Remote | {remote_str} |",
-    ]
-    if posted:
-        table_rows.append(f"| Posted | {posted} |")
-
-    lines += ["| | |", "|---|---|"] + table_rows + [""]
 
     if raw_text:
         lines += ["---", "", raw_text, "", "---", "", f"**[→ Apply at {job['company']}]({job['url']})**", ""]
@@ -94,8 +115,8 @@ def render_job(job: dict, classification: dict, company_summary: str | None) -> 
 def read_hash(path: Path) -> str | None:
     try:
         for line in path.read_text().splitlines():
-            if line.startswith(HASH_MARKER):
-                return line.removeprefix(HASH_MARKER).strip()
+            if line.startswith("render_hash:"):
+                return line.removeprefix("render_hash:").strip()
     except FileNotFoundError:
         pass
     return None

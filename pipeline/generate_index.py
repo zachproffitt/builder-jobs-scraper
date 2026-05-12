@@ -15,14 +15,14 @@ SKILL_COLOR = "3B82F6"
 
 def parse_frontmatter(path: Path) -> dict:
     text = path.read_text()
-    if not text.startswith("---"):
+    if not text.startswith("<!--"):
         return {}
-    end = text.find("---", 3)
+    end = text.find("-->")
     if end == -1:
         return {}
-    fm_text = text[3:end]
+    meta_text = text[4:end]
     fm = {}
-    for line in fm_text.splitlines():
+    for line in meta_text.splitlines():
         if ":" in line:
             key, _, val = line.partition(":")
             fm[key.strip()] = val.strip()
