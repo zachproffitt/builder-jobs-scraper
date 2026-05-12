@@ -14,7 +14,7 @@ CLASSIFIED_FILE = Path(__file__).parent.parent / "data" / "jobs_classified.json"
 COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies_classified.json"
 
 HASH_MARKER = "render_hash: "
-FORMAT_VERSION = "3"  # bump to force re-render of all files
+FORMAT_VERSION = "5"  # bump to force re-render of all files
 SKILL_COLOR = "3B82F6"
 
 
@@ -42,6 +42,13 @@ def format_date(iso: str | None) -> str | None:
         return None
     try:
         return datetime.fromisoformat(iso).strftime("%Y-%m-%d")
+    except ValueError:
+        return iso
+
+
+def pretty_date(iso: str) -> str:
+    try:
+        return datetime.strptime(iso, "%Y-%m-%d").strftime("%B %-d, %Y")
     except ValueError:
         return iso
 
@@ -96,7 +103,7 @@ def render_job(job: dict, classification: dict, company_summary: str | None) -> 
     ]
 
     if company_summary:
-        lines += [f"_{company_summary}_", ""]
+        lines += [f"> {company_summary}", ""]
 
     if job_summary:
         lines += [f"_{job_summary}_", ""]
@@ -104,10 +111,13 @@ def render_job(job: dict, classification: dict, company_summary: str | None) -> 
     if skills:
         lines += [" ".join(skill_badge(s) for s in skills), ""]
 
-    lines += [f"**[→ Apply at {job['company']}]({job['url']})**", ""]
+    date_label = f"Posted {pretty_date(posted)}" if posted else f"First seen {pretty_date(first_seen)}"
+    lines += [f"<sub>{date_label}</sub>", ""]
+
+    lines += [f"**[→ Apply]({job['url']})**", ""]
 
     if raw_text:
-        lines += ["---", "", raw_text, "", "---", "", f"**[→ Apply at {job['company']}]({job['url']})**", ""]
+        lines += ["---", "", raw_text, "", "---", "", f"**[→ Apply]({job['url']})**", ""]
 
     return "\n".join(lines)
 
