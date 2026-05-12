@@ -573,6 +573,127 @@ Yotpo | yotpo.com
 Flexport | flexport.com
 project44 | project44.com
 
+# --- Chips & Hardware ---
+Graphcore | graphcore.ai
+Hailo | hailo.ai
+Rain Neuromorphics | rain.ai
+SambaNova | sambanova.ai
+Untether AI | untether.ai
+
+# --- Electric Vehicles ---
+Lucid Motors | lucidmotors.com
+Rivian | rivian.com
+Scout Motors | scoutmotors.com
+VinFast | vinfastauto.us
+
+# --- eVTOL / Advanced Air Mobility (additional) ---
+Lilium | lilium.com
+Supernal | supernal.aero
+
+# --- Data Infrastructure (additional) ---
+Alation | alation.com
+Atlan | atlan.com
+Dremio | dremio.com
+Immuta | immuta.com
+Imply | imply.io
+PingCAP | pingcap.com
+ScyllaDB | scylladb.com
+StarTree | startree.ai
+YugabyteDB | yugabyte.com
+
+# --- Observability (additional) ---
+Chronosphere | chronosphere.io
+Dynatrace | dynatrace.com
+Groundcover | groundcover.com
+New Relic | newrelic.com
+
+# --- AI Infrastructure / MLOps ---
+Anyscale | anyscale.com
+Comet ML | comet.com
+LangChain | langchain.com
+LlamaIndex | llamaindex.ai
+Marqo | marqo.ai
+Pinecone | pinecone.io
+Zilliz | zilliz.com
+
+# --- Security (additional) ---
+Apiiro | apiiro.com
+ArmorCode | armorcode.com
+Cobalt | cobalt.io
+Endor Labs | endorlabs.com
+Horizon3 | horizon3.ai
+Legit Security | legitsecurity.com
+Orca Security | orca.security
+Ox Security | ox.security
+Pentera | pentera.io
+
+# --- Crypto / Web3 ---
+Alchemy | alchemy.com
+Aptos Labs | aptoslabs.com
+Consensys | consensys.net
+Mysten Labs | mystenlabs.com
+Near Protocol | near.org
+Solana Labs | solana.com
+
+# --- Consumer & Marketplace ---
+Depop | depop.com
+Etsy | etsy.com
+Eventbrite | eventbrite.com
+Fanatics | fanatics.com
+Poshmark | poshmark.com
+SeatGeek | seatgeek.com
+Spotify | spotify.com
+StockX | stockx.com
+Wayfair | wayfair.com
+Whatnot | whatnot.com
+
+# --- HR Tech ---
+15Five | 15five.com
+Culture Amp | cultureamp.com
+HiBob | hibob.com
+Lattice | lattice.com
+Leapsome | leapsome.com
+Personio | personio.com
+
+# --- Legal Tech ---
+Clio | clio.com
+Disco | csdisco.com
+Everlaw | everlaw.com
+
+# --- Productivity & Collaboration ---
+37signals | 37signals.com
+Front | front.app
+GitBook | gitbook.com
+Height | height.app
+Nuclino | nuclino.com
+Slab | slab.com
+Superhuman | superhuman.com
+
+# --- Healthcare Infrastructure ---
+Datavant | datavant.com
+Particle Health | particlehealth.com
+Redox | redoxengine.com
+
+# --- Climate & Energy (additional) ---
+Arcadia Power | arcadia.com
+Span | span.io
+Stem | stem.com
+Sunrun | sunrun.com
+
+# --- Industrial & Manufacturing Tech ---
+Augury | augury.com
+Motive | gomotive.com
+Parsable | parsable.com
+Samsara | samsara.com
+Tulip | tulip.co
+
+# --- Gaming (additional) ---
+Crytek | crytek.com
+Grinding Gear Games | grindinggear.com
+Haven Studios | havenstudios.com
+Innersloth | innersloth.com
+Landfall Games | landfall.se
+
 # --- Other Notable Engineering Companies ---
 Asana | asana.com
 Block | block.xyz
