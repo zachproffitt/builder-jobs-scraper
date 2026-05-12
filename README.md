@@ -1,12 +1,10 @@
 # builder-jobs-scraper
 
-Pipeline that fetches engineering job listings directly from company career pages, classifies them with a local LLM, and publishes rendered markdown to [zachproffitt/builder-jobs](https://github.com/zachproffitt/builder-jobs).
-
-Rather than aggregating from job boards like LinkedIn or Indeed, we go directly to the source — giving fresher data without the noise of reposted or sponsored listings.
+Pipeline that fetches engineering job listings directly from company career pages, classifies them with a local LLM, and publishes rendered markdown to **[zachproffitt/builder-jobs](https://github.com/zachproffitt/builder-jobs)**.
 
 ## How it works
 
-Jobs are fetched from each company's career page, classified by a local LLM (builder role or not), and rendered as markdown files in a separate output repo. The output repo is clean and browsable on its own — no pipeline code, just jobs.
+Jobs are fetched from each company's career page, classified by a local LLM (builder role or not), and rendered as markdown files.
 
 ```
 fetch_jobs.py              fetch current listings from all companies
