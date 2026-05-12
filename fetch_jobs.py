@@ -3,7 +3,7 @@
 
 import json
 import sys
-from dataclasses import asdict, dataclass
+from dataclasses import asdict
 from pathlib import Path
 
 from scrapers import ats_greenhouse, ats_lever, ats_ashby
