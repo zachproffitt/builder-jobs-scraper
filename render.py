@@ -22,10 +22,13 @@ from datetime import date, datetime
 from pathlib import Path
 
 
+import sys
+
 JOBS_FILE = Path("data/jobs_raw.json")
 CLASSIFIED_FILE = Path("data/jobs_classified.json")
 COMPANIES_FILE = Path("data/companies_classified.json")
-JOBS_DIR = Path("jobs")
+# Default: sibling builder-jobs repo's jobs/ subdirectory
+JOBS_DIR = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).parent.parent / "jobs" / "jobs"
 
 HASH_MARKER = "source_hash: "
 

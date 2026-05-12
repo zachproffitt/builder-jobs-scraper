@@ -4,7 +4,7 @@
 import json
 import sys
 from dataclasses import asdict
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 from scrapers import ats_greenhouse, ats_lever, ats_ashby
@@ -14,6 +14,7 @@ from scrapers._base import Job, ScraperError
 DATA_DIR = Path("data")
 COMPANIES_FILE = DATA_DIR / "companies.json"
 OUTPUT_FILE = DATA_DIR / "jobs_raw.json"
+WINDOW_DAYS = 14
 
 SCRAPERS = {
     "greenhouse": ats_greenhouse.scrape,
@@ -74,8 +75,14 @@ def main():
 
     closed_count = len(prev) - sum(1 for j in all_jobs if j["id"] in prev)
 
+    # Drop jobs outside the rolling window
+    cutoff = (date.today() - timedelta(days=WINDOW_DAYS)).isoformat()
+    before = len(all_jobs)
+    all_jobs = [j for j in all_jobs if j.get("first_seen", today) >= cutoff]
+    aged_out = before - len(all_jobs)
+
     print(f"\nTotal: {len(all_jobs)} jobs from {len(companies)} companies")
-    print(f"New: {new_count}  |  Closed since last run: {closed_count}")
+    print(f"New: {new_count}  |  Closed: {closed_count}  |  Aged out (>{WINDOW_DAYS}d): {aged_out}")
 
     OUTPUT_FILE.write_text(json.dumps(all_jobs, indent=2))
     print(f"Written to {OUTPUT_FILE}")
