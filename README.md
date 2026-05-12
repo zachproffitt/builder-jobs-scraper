@@ -4,14 +4,12 @@ Pipeline that fetches engineering job listings directly from company career page
 
 ## How it works
 
-Jobs are fetched from each company's career page, classified by a local LLM (builder role or not), and rendered as markdown files.
-
 ```
-fetch_jobs.py              fetch current listings from all companies
-fetch_job_descriptions.py  fetch full description text (where not included in listing)
-classify_jobs.py           LLM: is this a builder role? summarize, extract skills
-render_jobs.py             write one .md per engineering job → builder-jobs/jobs/
-generate_index.py          regenerate README.md in builder-jobs
+pipeline/fetch_jobs.py              fetch current listings from all companies
+pipeline/fetch_job_descriptions.py  fetch full description text (where not included in listing)
+pipeline/classify_jobs.py           LLM: is this a builder role? summarize, extract skills
+pipeline/render_jobs.py             write one .md per engineering job → builder-jobs/jobs/
+pipeline/generate_index.py          regenerate README.md in builder-jobs
 ```
 
 Run the full pipeline:
@@ -43,7 +41,7 @@ make index
 
 ## Adding companies
 
-Add any company to `data/company_names.txt` in the format `Company Name | domain.com`:
+Add a line to `data/company_names.txt`:
 
 ```
 Acme Corp | acme.com
@@ -55,13 +53,13 @@ Then run:
 make discover
 ```
 
-`discover_companies.py` visits the company's careers page, detects the ATS, and extracts the slug automatically. Results are written to `data/companies.json`. If a slug is detected incorrectly, edit `companies.json` directly — that entry is skipped on future discover runs.
+`tools/discover_companies.py` visits the company's careers page, detects the ATS, and extracts the slug automatically. Results are written to `data/companies.json`. If a slug is detected incorrectly, edit `companies.json` directly — that entry is skipped on future discover runs.
 
 ## Rolling window
 
 Only jobs first seen within the last **14 days** are kept. On each run, older jobs are dropped from `jobs_raw.json` and their rendered `.md` files are deleted from `builder-jobs`.
 
-`seen_jobs.json` is a permanent registry of every job ID ever seen with its original `first_seen` date. This prevents a long-running posting that ages out of the window from being re-classified as new when it re-appears.
+`seen_jobs.json` is a permanent registry of every job ID ever seen with its original `first_seen` date. This prevents a long-running posting that ages out of the window from being re-classified as new when it reappears.
 
 Each daily run only classifies jobs where `first_seen = today` (new arrivals) or where a job's content has changed since last classification. Use `--all` flags on the first run or after a gap.
 
