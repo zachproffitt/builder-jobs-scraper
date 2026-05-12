@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Classify companies — runs once per new company, not per job.
+Generate a one-sentence company summary for each company in data/companies.json.
 
-Reads data/companies.json, classifies any companies not already in
-data/companies_classified.json, and writes results back.
+Uses meta_description (scraped from homepage) and/or job description excerpts
+as grounding. Companies with no grounding are skipped — we only output summaries
+we can be confident in.
 
-Uses job description excerpts as grounding where available (Ashby/Lever jobs).
-Falls back to model knowledge for companies with no descriptions (Greenhouse),
-marking those results as grounded=False for review.
+Results are cached in data/companies_classified.json and only regenerated when
+the company's source data changes (tracked via source_hash).
 
 Usage:
     python classify_companies.py
@@ -24,76 +24,51 @@ JOBS_FILE = Path("data/jobs_raw.json")
 OUTPUT_FILE = Path("data/companies_classified.json")
 MODEL = "qwen3:14b"
 
-SHARED_INSTRUCTIONS = """
-Answer each item precisely:
+PROMPT = """/no_think
+You are writing a one-sentence company summary for a software engineering job board.
 
-1. SUMMARY (1 sentence max): What does this company do? Focus on the product,
-   not company values or culture. Write it as a fact, not marketing copy.
-   Bad: "X is a fast-growing company that empowers developers."
-   Good: "X builds open-source Postgres tooling for backend developers."
+Rules:
+- One sentence, maximum 20 words.
+- State what the company builds or does. Be specific.
+- No marketing language, no adjectives like "leading" or "powerful".
+- Write as a plain fact.
 
-2. INDUSTRY TAGS: Choose 2-4 from this list (comma-separated):
-   ai-ml, fintech, payments, developer-tools, infrastructure, cloud, security,
-   data, open-source, enterprise-software, consumer, ecommerce, healthcare,
-   edtech, gaming, media, crypto, saas, marketplace, other
+Bad: "X is a fast-growing company that empowers developers with cutting-edge tools."
+Good: "X builds open-source Postgres tooling used by backend developers."
 
-3. STAGE: Pick one — infer from team size, funding, or growth signals:
-   early-stage (seed/series A, <100 employees)
-   growth (series B-D, 100-1000 employees)
-   late-stage (post-series D or pre-IPO, 1000+ employees)
-   public (publicly traded)
-   unknown
+Company: {name}
+{sources}
 
-Respond in exactly this format — no extra text:
-SUMMARY: <one sentence>
-INDUSTRY: <tag1>, <tag2>
-STAGE: <stage>
+Respond with only the summary sentence. No labels, no extra text.
 """
-
-PROMPT_GROUNDED = """/no_think
-You are building a concise company profile for a software engineering job board.
-Base your answers ONLY on the job description excerpts below — do not rely on
-prior knowledge, as it may be outdated or wrong.
-
-Company name: {name}
-
-Job description excerpts (from {name}'s actual postings):
----
-{excerpts}
----
-""" + SHARED_INSTRUCTIONS
-
-PROMPT_KNOWLEDGE = """/no_think
-You are building a concise company profile for a software engineering job board.
-Use your training knowledge about this well-known company.
-
-Company name: {name}
-""" + SHARED_INSTRUCTIONS
 
 
 def source_hash(company: dict) -> str:
     return hashlib.md5(json.dumps(company, sort_keys=True).encode()).hexdigest()[:8]
 
 
-def get_excerpts(slug: str, jobs: list[dict], n: int = 3, chars: int = 800) -> "str | None":
+def get_excerpts(slug: str, jobs: list[dict], n: int = 3, chars: int = 600) -> "str | None":
     matches = [j for j in jobs if j.get("company_slug") == slug and j.get("raw_text", "").strip()]
     if not matches:
         return None
-    parts = []
-    for job in matches[:n]:
-        text = job["raw_text"].strip()[:chars]
-        parts.append(f"[{job['title']}]\n{text}")
-    return "\n\n".join(parts)
+    parts = [job["raw_text"].strip()[:chars] for job in matches[:n]]
+    return "\n\n---\n\n".join(parts)
 
 
-def classify_company(company: dict, jobs: list[dict]) -> dict:
+def classify_company(company: dict, jobs: list[dict]) -> "dict | None":
+    meta = company.get("meta_description", "").strip()
     excerpts = get_excerpts(company["slug"], jobs)
-    grounded = excerpts is not None
 
-    if grounded:
-        prompt = PROMPT_GROUNDED.format(name=company["name"], excerpts=excerpts)
-    else:
-        prompt = PROMPT_KNOWLEDGE.format(name=company["name"])
+    if not meta and not excerpts:
+        return None  # No grounding — skip rather than hallucinate
+
+    sources = []
+    if meta:
+        sources.append(f"Website: {meta}")
+    if excerpts:
+        sources.append(f"Job description excerpts:\n{excerpts}")
+
+    prompt = PROMPT.format(name=company["name"], sources="\n\n".join(sources))
 
     response = ollama.chat(
         model=MODEL,
@@ -101,23 +76,14 @@ def classify_company(company: dict, jobs: list[dict]) -> dict:
         options={"temperature": 0.1},
     )
 
-    text = response["message"]["content"].strip()
-    result = {
+    summary = response["message"]["content"].strip().strip('"')
+
+    return {
         "name": company["name"],
         "slug": company["slug"],
-        "grounded": grounded,
+        "summary": summary,
+        "source_hash": source_hash(company),
     }
-
-    for line in text.splitlines():
-        if line.startswith("SUMMARY:"):
-            result["summary"] = line.removeprefix("SUMMARY:").strip()
-        elif line.startswith("INDUSTRY:"):
-            result["industry"] = [t.strip() for t in line.removeprefix("INDUSTRY:").split(",")]
-        elif line.startswith("STAGE:"):
-            result["stage"] = line.removeprefix("STAGE:").strip()
-
-    result["source_hash"] = source_hash(company)
-    return result
 
 
 def main():
@@ -134,20 +100,24 @@ def main():
         or existing[c["slug"]].get("source_hash") != source_hash(c)
     ]
 
-    if not to_classify:
-        print(f"All {len(companies)} companies already classified.")
+    skippable = [c for c in to_classify if not c.get("meta_description") and not get_excerpts(c["slug"], jobs)]
+    to_run = [c for c in to_classify if c not in skippable]
+
+    print(f"{len(to_run)} to classify, {len(existing)} cached, {len(skippable)} skipped (no grounding)\n")
+
+    if not to_run:
+        print("Nothing to do.")
         return
 
-    print(f"Classifying {len(to_classify)} companies (skipping {len(existing)} cached)...")
-
-    for i, company in enumerate(to_classify, 1):
-        has_desc = bool(get_excerpts(company["slug"], jobs))
-        mode = "grounded" if has_desc else "knowledge"
-        print(f"  [{i}/{len(to_classify)}] {company['name']} ({mode})...", end=" ", flush=True)
+    for i, company in enumerate(to_run, 1):
+        print(f"  [{i:>3}/{len(to_run)}] {company['name']}...", end=" ", flush=True)
         try:
             result = classify_company(company, jobs)
-            existing[company["slug"]] = result
-            print(result.get("summary", "done"))
+            if result:
+                existing[company["slug"]] = result
+                print(result["summary"])
+            else:
+                print("skipped")
         except Exception as e:
             print(f"ERROR: {e}")
 
