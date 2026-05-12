@@ -14,6 +14,7 @@ CLASSIFIED_FILE = Path(__file__).parent.parent / "data" / "jobs_classified.json"
 COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies_classified.json"
 
 HASH_MARKER = "render_hash: "
+FORMAT_VERSION = "2"  # bump to force re-render of all files
 
 
 def slugify(text: str) -> str:
@@ -22,13 +23,13 @@ def slugify(text: str) -> str:
 
 def render_hash(job: dict, classification: dict) -> str:
     skills_str = ",".join(classification.get("skills") or [])
-    key = f"{job['id']}:{job['title']}:{job.get('raw_text', '')[:200]}:{classification.get('job_summary', '')}:{skills_str}"
+    key = f"v{FORMAT_VERSION}:{job['id']}:{job['title']}:{job.get('raw_text', '')[:200]}:{classification.get('job_summary', '')}:{skills_str}"
     return hashlib.md5(key.encode()).hexdigest()[:8]
 
 
-def format_date(iso: str | None) -> str:
+def format_date(iso: str | None) -> str | None:
     if not iso:
-        return "Unknown"
+        return None
     try:
         return datetime.fromisoformat(iso).strftime("%Y-%m-%d")
     except ValueError:
@@ -54,7 +55,7 @@ def render_job(job: dict, classification: dict, company_summary: str | None) -> 
         f"source: {job['source']}",
         f"location: {location}",
         f"remote: {remote_str}",
-        f"posted_at: {posted}",
+        f"posted_at: {posted or 'Unknown'}",
         f"first_seen: {first_seen}",
         f"url: {job['url']}",
         f"summary: {job_summary}",
@@ -72,22 +73,20 @@ def render_job(job: dict, classification: dict, company_summary: str | None) -> 
     if job_summary:
         lines += [f"> {job_summary}", ""]
 
-    lines += [
-        "| Field | Value |",
-        "|---|---|",
-        f"| Company | {job['company']} |",
+    lines += [f"**[→ Apply at {job['company']}]({job['url']})**", ""]
+
+    # Metadata table — omit Posted if unknown
+    table_rows = [
         f"| Location | {location} |",
         f"| Remote | {remote_str} |",
-        f"| Posted | {posted} |",
-        f"| First seen | {first_seen} |",
-        f"| Source | {job['source']} |",
-        "",
-        f"[Apply]({job['url']})",
-        "",
     ]
+    if posted:
+        table_rows.append(f"| Posted | {posted} |")
+
+    lines += ["| | |", "|---|---|"] + table_rows + [""]
 
     if raw_text:
-        lines += ["---", "", raw_text, ""]
+        lines += ["---", "", raw_text, "", "---", "", f"**[→ Apply at {job['company']}]({job['url']})**", ""]
 
     return "\n".join(lines)
 

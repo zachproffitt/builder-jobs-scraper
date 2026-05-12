@@ -31,7 +31,10 @@ def parse_frontmatter(path: Path) -> dict:
 
 def skill_badge(skill: str) -> str:
     label = skill.strip().replace("-", "--").replace("_", "__").replace(" ", "_")
-    label = label.replace("+", "%2B").replace("#", "%23")
+    label = (label
+        .replace("(", "%28").replace(")", "%29")
+        .replace(",", "%2C").replace("/", "%2F")
+        .replace("+", "%2B").replace("#", "%23"))
     return f"![{skill}](https://img.shields.io/badge/{label}-{SKILL_COLOR}?style=flat-square)"
 
 
