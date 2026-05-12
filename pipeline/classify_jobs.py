@@ -75,10 +75,27 @@ Answer both:
    Comma-separated. Be specific — "PyTorch" not "ML", "Rust" not "systems programming".
    If none are clearly mentioned, write: n/a
 
+4. LEVEL: Seniority of this role. Use signals in this priority order:
+   a. Title keyword (most reliable):
+      "Intern"/"Co-op" → intern
+      "Junior"/"Associate"/"Entry" → junior
+      "Senior" → senior
+      "Staff" → staff
+      "Principal" → principal
+      "Manager"/"Director" → manager
+      No keyword → use years of experience from description
+   b. Years of experience in description:
+      0-1 → junior, 1-3 → mid, 3-6 → senior, 6-10 → staff, 10+ → principal
+   c. If title has a level keyword, use it even if description says fewer years.
+   d. If no signal at all, write: unclear
+
+   Respond with exactly one of: intern / junior / mid / senior / staff / principal / manager / unclear
+
 Respond in exactly this format:
 BUILDER: <yes/no/unclear>
 SUMMARY: <summary or vague or n/a>
 SKILLS: <skill1, skill2, ... or n/a>
+LEVEL: <intern/junior/mid/senior/staff/principal/manager/unclear>
 """
 
 
@@ -87,7 +104,10 @@ def content_hash(job: dict) -> str:
     return hashlib.md5(key.encode()).hexdigest()[:8]
 
 
-def classify_with_llm(job: dict) -> tuple[bool | None, str | None, list[str]]:
+VALID_LEVELS = {"intern", "junior", "mid", "senior", "staff", "principal", "manager"}
+
+
+def classify_with_llm(job: dict) -> tuple[bool | None, str | None, list[str], str | None]:
     description = job.get("raw_text", "").strip()[:3000]
     prompt = PROMPT.format(
         title=job["title"],
@@ -105,6 +125,7 @@ def classify_with_llm(job: dict) -> tuple[bool | None, str | None, list[str]]:
     is_engineering = None
     job_summary = None
     skills = []
+    level = None
 
     for line in text.splitlines():
         if line.startswith("BUILDER:"):
@@ -121,8 +142,12 @@ def classify_with_llm(job: dict) -> tuple[bool | None, str | None, list[str]]:
             val = line.removeprefix("SKILLS:").strip()
             if val.lower() != "n/a":
                 skills = [s.strip() for s in re.split(r",\s*(?![^(]*\))", val) if s.strip()]
+        elif line.startswith("LEVEL:"):
+            val = line.removeprefix("LEVEL:").strip().lower()
+            if val in VALID_LEVELS:
+                level = val
 
-    return is_engineering, job_summary, skills
+    return is_engineering, job_summary, skills, level
 
 
 def main():
@@ -144,7 +169,7 @@ def main():
 
         def needs_work(j: dict) -> bool:
             ex = existing.get(j["id"])
-            if ex and ex.get("source_hash") == content_hash(j):
+            if ex and ex.get("source_hash") == content_hash(j) and not classify_all:
                 return False
             return (
                 classify_all
@@ -182,7 +207,7 @@ def main():
                     n = completed
 
                 try:
-                    job, (is_e, summary, skills) = future.result()
+                    job, (is_e, summary, skills, level) = future.result()
                 except Exception as e:
                     job = future_to_job[future]
                     with lock:
@@ -195,6 +220,7 @@ def main():
                         "is_engineering": is_e,
                         "job_summary": summary,
                         "skills": skills,
+                        "level": level,
                         "source_hash": content_hash(job),
                     }
                     if is_e is True:

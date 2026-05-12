@@ -42,17 +42,27 @@ def format_meta(fm: dict) -> str:
     company = fm.get("company", "")
     location = fm.get("location", "").strip()
     remote = fm.get("remote", "").strip()
+    level = fm.get("level", "").strip()
 
     if " | " in location:
         location = location.split(" | ")[0].strip()
     if location in ("Not specified", ""):
         location = ""
 
+    # Strip "remote" from location string when the Remote tag is already shown
+    if remote == "Remote" and location:
+        location = re.sub(r"\s*[-–,]\s*remote\b", "", location, flags=re.I)
+        location = re.sub(r"\bremote\s*[-–,]\s*", "", location, flags=re.I)
+        location = re.sub(r"^\s*remote\s*$", "", location, flags=re.I)
+        location = location.strip().strip("-").strip(",").strip()
+
     parts = [f"**{company}**"]
     if location:
         parts.append(location)
     if remote == "Remote":
         parts.append("`Remote`")
+    if level and level not in ("unclear", ""):
+        parts.append(f"`{level.capitalize()}`")
 
     return " · ".join(parts)
 

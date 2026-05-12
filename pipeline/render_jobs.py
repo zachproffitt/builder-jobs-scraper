@@ -14,7 +14,7 @@ CLASSIFIED_FILE = Path(__file__).parent.parent / "data" / "jobs_classified.json"
 COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies_classified.json"
 
 HASH_MARKER = "render_hash: "
-FORMAT_VERSION = "5"  # bump to force re-render of all files
+FORMAT_VERSION = "6"  # bump to force re-render of all files
 SKILL_COLOR = "3B82F6"
 
 
@@ -33,8 +33,19 @@ def skill_badge(skill: str) -> str:
 
 def render_hash(job: dict, classification: dict) -> str:
     skills_str = ",".join(classification.get("skills") or [])
-    key = f"v{FORMAT_VERSION}:{job['id']}:{job['title']}:{job.get('raw_text', '')[:200]}:{classification.get('job_summary', '')}:{skills_str}"
+    level = classification.get("level") or ""
+    key = f"v{FORMAT_VERSION}:{job['id']}:{job['title']}:{job.get('raw_text', '')[:200]}:{classification.get('job_summary', '')}:{skills_str}:{level}"
     return hashlib.md5(key.encode()).hexdigest()[:8]
+
+
+def clean_location(location: str, is_remote: bool) -> str:
+    """Strip 'remote' from location string when the Remote tag is already shown."""
+    if not is_remote or not location:
+        return location
+    cleaned = re.sub(r"\s*[-–,]\s*remote\b", "", location, flags=re.I)
+    cleaned = re.sub(r"\bremote\s*[-–,]\s*", "", cleaned, flags=re.I)
+    cleaned = re.sub(r"^\s*remote\s*$", "", cleaned, flags=re.I)
+    return cleaned.strip().strip("-").strip(",").strip()
 
 
 def format_date(iso: str | None) -> str | None:
@@ -62,7 +73,11 @@ def render_job(job: dict, classification: dict, company_summary: str | None) -> 
     raw_text = (job.get("raw_text") or "").strip()
     job_summary = classification.get("job_summary") or ""
     skills = classification.get("skills") or []
+    level = classification.get("level")
     rhash = render_hash(job, classification)
+
+    is_remote = job.get("remote") is True
+    display_location = clean_location(location, is_remote)
 
     # HTML comment holds machine-readable metadata — not rendered by GitHub
     meta_lines = [
@@ -78,21 +93,24 @@ def render_job(job: dict, classification: dict, company_summary: str | None) -> 
         f"url: {job['url']}",
         f"summary: {job_summary}",
         f"skills: {', '.join(skills)}",
+        f"level: {level or ''}",
         f"render_hash: {rhash}",
         "-->",
     ]
 
-    # Inline meta line matching README style: Company · Location · `Remote` · date
-    meta_parts = [f"**{job['company']}**"]
-    if location != "Not specified":
-        meta_parts.append(location)
+    # Two-line meta: company name prominent, details below
+    detail_parts = []
+    if display_location and display_location != "Not specified":
+        detail_parts.append(display_location)
     if remote_str == "Remote":
-        meta_parts.append("`Remote`")
+        detail_parts.append("`Remote`")
     elif remote_str == "On-site":
-        meta_parts.append("On-site")
-    if posted:
-        meta_parts.append(f"Posted {posted}")
-    meta_line = " · ".join(meta_parts)
+        detail_parts.append("On-site")
+    if level:
+        detail_parts.append(f"`{level.capitalize()}`")
+
+    company_line = f"**{job['company']}**"
+    meta_line = (company_line + "  \n" + " · ".join(detail_parts)) if detail_parts else company_line
 
     lines = meta_lines + [
         "",
