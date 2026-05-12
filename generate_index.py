@@ -117,9 +117,13 @@ def main():
             lines.append(f"### [{j['title']}]({j['path']})")
             lines.append(j["meta"])
             if j["summary"]:
-                lines.append(f"> {j['summary']}")
+                lines.append("")
+                lines.append(f"_{j['summary']}_")
             if j["skills"]:
+                lines.append("")
                 lines.append(" ".join(skill_badge(s) for s in j["skills"]))
+            lines.append("")
+            lines.append("---")
             lines.append("")
 
     README.write_text("\n".join(lines))
