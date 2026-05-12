@@ -15,6 +15,7 @@ JOBS_REPO defaults to ../jobs relative to this script.
 import re
 import sys
 from collections import defaultdict
+from datetime import datetime
 from pathlib import Path
 
 
@@ -66,7 +67,6 @@ def main():
         "A job board for engineers who build things — software, hardware, firmware, ML systems.",
         "Roles are scraped daily from company career pages and filtered by an LLM to keep only",
         "positions where the person will primarily write code or build systems.",
-        "No sales engineers, TPMs, or analyst roles.",
         "",
         f"**{total} open roles** · updated daily",
         "",
@@ -77,7 +77,11 @@ def main():
     for date in sorted(by_date.keys(), reverse=True):
         jobs = by_date[date]
         jobs.sort(key=lambda j: j["posted_at"], reverse=True)
-        lines.append(f"## {date}")
+        try:
+            label = datetime.strptime(date, "%Y-%m-%d").strftime("%B %-d, %Y")
+        except ValueError:
+            label = date
+        lines.append(f"## {label}")
         lines.append("")
         for j in jobs:
             lines.append(f"### [{j['title']}]({j['path']})")
