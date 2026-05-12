@@ -3,8 +3,10 @@
 JOBS_REPO ?= ../jobs
 export PYTHONPATH := $(shell pwd)
 
-run:
-	bash pipeline.sh
+run: discover fetch describe classify render index
+
+discover:
+	python3 tools/discover_companies.py
 
 fetch:
 	python3 pipeline/fetch_jobs.py
@@ -26,6 +28,3 @@ render:
 
 index:
 	python3 pipeline/generate_index.py $(JOBS_REPO)
-
-discover:
-	python3 tools/discover_companies.py
