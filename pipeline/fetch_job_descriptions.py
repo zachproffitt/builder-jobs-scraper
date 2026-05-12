@@ -18,7 +18,7 @@ import json
 import sys
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import date
+from datetime import datetime, timezone
 from pathlib import Path
 
 import httpx
@@ -45,7 +45,7 @@ def fetch_description(job: dict) -> str | None:
 
 def main():
     fetch_all = "--all" in sys.argv
-    today = date.today().isoformat()
+    today = datetime.now(timezone.utc).date().isoformat()
 
     jobs = json.loads(JOBS_FILE.read_text())
 

@@ -7,7 +7,7 @@ import re
 import sys
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import date
+from datetime import datetime, timezone
 from pathlib import Path
 
 import ollama
@@ -165,7 +165,7 @@ def main():
             existing = json.loads(OUTPUT_FILE.read_text())
 
         classify_all = "--all" in sys.argv
-        today = date.today().isoformat()
+        today = datetime.now(timezone.utc).date().isoformat()
 
         def needs_work(j: dict) -> bool:
             ex = existing.get(j["id"])

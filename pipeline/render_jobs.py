@@ -5,7 +5,7 @@ import hashlib
 import json
 import re
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 
@@ -69,7 +69,7 @@ def render_job(job: dict, classification: dict, company_summary: str | None) -> 
     remote_str = {True: "Remote", False: "On-site"}.get(job.get("remote"), "Not specified")
 
     posted = format_date(job.get("posted_at"))
-    first_seen = job.get("first_seen") or date.today().isoformat()
+    first_seen = job.get("first_seen") or datetime.now(timezone.utc).date().isoformat()
     raw_text = (job.get("raw_text") or "").strip()
     job_summary = classification.get("job_summary") or ""
     skills = classification.get("skills") or []

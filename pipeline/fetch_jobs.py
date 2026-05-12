@@ -4,7 +4,7 @@
 import json
 import sys
 from dataclasses import asdict
-from datetime import date, timedelta
+from datetime import date, timedelta, timezone, datetime
 from pathlib import Path
 
 from scrapers import ats_greenhouse, ats_lever, ats_ashby, ats_smartrecruiters
@@ -46,7 +46,7 @@ def main():
         for j in json.loads(OUTPUT_FILE.read_text()):
             prev[j["id"]] = j
 
-    today = date.today().isoformat()
+    today = datetime.now(timezone.utc).date().isoformat()
     all_jobs: list[dict] = []
     errors: list[str] = []
     new_count = closed_count = 0
@@ -84,7 +84,7 @@ def main():
     closed_count = len(prev) - sum(1 for j in all_jobs if j["id"] in prev)
 
     # Drop jobs outside the rolling window
-    cutoff = (date.today() - timedelta(days=WINDOW_DAYS)).isoformat()
+    cutoff = (datetime.now(timezone.utc).date() - timedelta(days=WINDOW_DAYS)).isoformat()
     before = len(all_jobs)
     all_jobs = [j for j in all_jobs if j.get("first_seen", today) >= cutoff]
     aged_out = before - len(all_jobs)
