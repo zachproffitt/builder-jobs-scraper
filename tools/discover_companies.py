@@ -291,6 +291,19 @@ def main():
 
             print(f"\nFixed {len(fixed)}, still broken: {len(still_broken)}\n")
 
+        # --- Backfill website field for existing entries that have a known domain ---
+        backfilled = 0
+        for key, company in existing.items():
+            if not company.get("website"):
+                domain = name_domain.get(company["name"])
+                if domain:
+                    company["website"] = f"https://{domain}"
+                    existing[key] = company
+                    changed = True
+                    backfilled += 1
+        if backfilled:
+            print(f"Backfilled website field for {backfilled} existing companies.")
+
         # --- Discover new companies ---
         new_entries = [(n, d) for n, d in entries if n.lower() not in existing]
 

@@ -699,237 +699,284 @@
   {
     "name": "Nuro",
     "ats": "greenhouse",
-    "slug": "nuro"
+    "slug": "nuro",
+    "website": "https://nuro.ai"
   },
   {
     "name": "Altos Labs",
     "ats": "greenhouse",
-    "slug": "altoslabs"
+    "slug": "altoslabs",
+    "website": "https://altoslabs.com"
   },
   {
     "name": "Bedrock Ocean",
     "ats": "ashby",
-    "slug": "bedrockocean"
+    "slug": "bedrockocean",
+    "website": "https://bedrockocean.com"
   },
   {
     "name": "Beta Technologies",
     "ats": "lever",
-    "slug": "beta"
+    "slug": "beta",
+    "website": "https://beta.team"
   },
   {
     "name": "Calico Labs",
     "ats": "greenhouse",
-    "slug": "calicolabs"
+    "slug": "calicolabs",
+    "website": "https://calicolabs.com"
   },
   {
     "name": "Capella Space",
     "ats": "greenhouse",
-    "slug": "capellaspace"
+    "slug": "capellaspace",
+    "website": "https://capellaspace.com"
   },
   {
     "name": "ElevenLabs",
     "ats": "ashby",
-    "slug": "elevenlabs"
+    "slug": "elevenlabs",
+    "website": "https://elevenlabs.io"
   },
   {
     "name": "Ginkgo Bioworks",
     "ats": "greenhouse",
-    "slug": "ginkgobioworks"
+    "slug": "ginkgobioworks",
+    "website": "https://ginkgobioworks.com"
   },
   {
     "name": "Inari Agriculture",
     "ats": "greenhouse",
-    "slug": "inariagriculture"
+    "slug": "inariagriculture",
+    "website": "https://inari.com"
   },
   {
     "name": "Isar Aerospace",
     "ats": "greenhouse",
-    "slug": "isaraerospace"
+    "slug": "isaraerospace",
+    "website": "https://isaraerospace.com"
   },
   {
     "name": "Lightmatter",
     "ats": "greenhouse",
-    "slug": "lightmatter"
+    "slug": "lightmatter",
+    "website": "https://lightmatter.com"
   },
   {
     "name": "Loft Orbital",
     "ats": "lever",
-    "slug": "loftorbital"
+    "slug": "loftorbital",
+    "website": "https://loftorbital.com"
   },
   {
     "name": "Orbital Sidekick",
     "ats": "lever",
-    "slug": "orbitalsidekick"
+    "slug": "orbitalsidekick",
+    "website": "https://orbitalsidekick.com"
   },
   {
     "name": "Palantir",
     "ats": "lever",
-    "slug": "palantir"
+    "slug": "palantir",
+    "website": "https://palantir.com"
   },
   {
     "name": "Primer AI",
     "ats": "greenhouse",
-    "slug": "primerai"
+    "slug": "primerai",
+    "website": "https://primer.ai"
   },
   {
     "name": "Quaise Energy",
     "ats": "greenhouse",
-    "slug": "quaise"
+    "slug": "quaise",
+    "website": "https://quaise.energy"
   },
   {
     "name": "Relay Therapeutics",
     "ats": "greenhouse",
-    "slug": "relaytherapeutics"
+    "slug": "relaytherapeutics",
+    "website": "https://relaytx.com"
   },
   {
     "name": "Seurat Technologies",
     "ats": "greenhouse",
-    "slug": "seurat"
+    "slug": "seurat",
+    "website": "https://seurat.com"
   },
   {
     "name": "Skydio",
     "ats": "ashby",
-    "slug": "skydio"
+    "slug": "skydio",
+    "website": "https://skydio.com"
   },
   {
     "name": "Sofar Ocean",
     "ats": "ashby",
-    "slug": "sofarocean"
+    "slug": "sofarocean",
+    "website": "https://sofarocean.com"
   },
   {
     "name": "Velo3D",
     "ats": "lever",
-    "slug": "velo3d"
+    "slug": "velo3d",
+    "website": "https://velo3d.com"
   },
   {
     "name": "Wayve",
     "ats": "greenhouse",
-    "slug": "wayve"
+    "slug": "wayve",
+    "website": "https://wayve.ai"
   },
   {
     "name": "Weaviate",
     "ats": "ashby",
-    "slug": "weaviate"
+    "slug": "weaviate",
+    "website": "https://weaviate.io"
   },
   {
     "name": "Archer Aviation",
     "ats": "greenhouse",
-    "slug": "archer56"
+    "slug": "archer56",
+    "website": "https://archer.com"
   },
   {
     "name": "Cajal Therapeutics",
     "ats": "greenhouse",
-    "slug": "cajal-tx"
+    "slug": "cajal-tx",
+    "website": "https://cajaltx.com"
   },
   {
     "name": "Larian Studios",
     "ats": "lever",
-    "slug": "larian"
+    "slug": "larian",
+    "website": "https://larian.com"
   },
   {
     "name": "Qdrant",
     "ats": "ashby",
-    "slug": "qdrant.tech"
+    "slug": "qdrant.tech",
+    "website": "https://qdrant.tech"
   },
   {
     "name": "Retro Biosciences",
     "ats": "lever",
-    "slug": "retro"
+    "slug": "retro",
+    "website": "https://retro.bio"
   },
   {
     "name": "Varda Space Industries",
     "ats": "greenhouse",
-    "slug": "vardaspace"
+    "slug": "vardaspace",
+    "website": "https://varda.space"
   },
   {
     "name": "BlackSky",
     "ats": "greenhouse",
-    "slug": "blacksky"
+    "slug": "blacksky",
+    "website": "https://blacksky.com"
   },
   {
     "name": "ClickHouse",
     "ats": "greenhouse",
-    "slug": "clickhouse"
+    "slug": "clickhouse",
+    "website": "https://clickhouse.com"
   },
   {
     "name": "Docker",
     "ats": "ashby",
-    "slug": "docker"
+    "slug": "docker",
+    "website": "https://docker.com"
   },
   {
     "name": "EightSleep",
     "ats": "ashby",
-    "slug": "eightsleep"
+    "slug": "eightsleep",
+    "website": "https://eightsleep.com"
   },
   {
     "name": "Finch",
     "ats": "lever",
-    "slug": "finch"
+    "slug": "finch",
+    "website": "https://tryfinch.com"
   },
   {
     "name": "Found",
     "ats": "greenhouse",
-    "slug": "found"
+    "slug": "found",
+    "website": "https://found.com"
   },
   {
     "name": "GitLab",
     "ats": "greenhouse",
-    "slug": "gitlab"
+    "slug": "gitlab",
+    "website": "https://gitlab.com"
   },
   {
     "name": "Havoc AI",
     "ats": "ashby",
-    "slug": "havocai"
+    "slug": "havocai",
+    "website": "https://havoc.ai"
   },
   {
     "name": "Katalyst",
     "ats": "greenhouse",
-    "slug": "katalyst"
+    "slug": "katalyst",
+    "website": "https://katalyst.com"
   },
   {
     "name": "LiveKit",
     "ats": "ashby",
-    "slug": "livekit"
+    "slug": "livekit",
+    "website": "https://livekit.io"
   },
   {
     "name": "Netflix",
     "ats": "lever",
-    "slug": "netflix"
+    "slug": "netflix",
+    "website": "https://netflix.com"
   },
   {
     "name": "OneBrief",
     "ats": "ashby",
-    "slug": "onebrief"
+    "slug": "onebrief",
+    "website": "https://onebrief.com"
   },
   {
     "name": "Rula",
     "ats": "ashby",
-    "slug": "rula"
+    "slug": "rula",
+    "website": "https://rula.com"
   },
   {
     "name": "Slingshot Aerospace",
     "ats": "greenhouse",
-    "slug": "slingshotaerospace"
+    "slug": "slingshotaerospace",
+    "website": "https://slingshotaerospace.com"
   },
   {
     "name": "Strava",
     "ats": "ashby",
-    "slug": "strava"
+    "slug": "strava",
+    "website": "https://strava.com"
   },
   {
     "name": "Tailscale",
     "ats": "greenhouse",
-    "slug": "tailscale"
+    "slug": "tailscale",
+    "website": "https://tailscale.com"
   },
   {
     "name": "Temporal",
     "ats": "greenhouse",
-    "slug": "temporal"
+    "slug": "temporal",
+    "website": "https://temporal.io"
   },
   {
     "name": "Ursa Major",
     "ats": "greenhouse",
-    "slug": "ursamajor"
+    "slug": "ursamajor",
+    "website": "https://ursamajor.com"
   },
   {
     "name": "Grafana",
@@ -1045,5 +1092,1297 @@
     "slug": "supercell",
     "website": "https://supercell.com",
     "meta_description": "Visit Supercell.com and find out more about us and our games."
+  },
+  {
+    "name": "GitHub",
+    "ats": "icims",
+    "slug": "www",
+    "website": "https://github.com",
+    "category": [],
+    "meta_description": "Join the world&#39;s most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity."
+  },
+  {
+    "name": "Tempus AI",
+    "ats": "workday",
+    "slug": "tempus",
+    "website": "https://tempus.com",
+    "category": [],
+    "meta_description": "Tempus has built the world\u2019s largest library of clinical & molecular data and an operating system to make that data accessible and useful, starting with cancer."
+  },
+  {
+    "name": "Bend Studio",
+    "ats": "greenhouse",
+    "slug": "sonyinteractiveentertainmentglobal",
+    "website": "https://bendstudio.com",
+    "category": [],
+    "meta_description": "With over 25 years of experience, Bend Studio is a Sony first-party AAA game developer, located at the base of Oregon\u2019s beautiful Cascade Mountains."
+  },
+  {
+    "name": "Character.ai",
+    "ats": "ashby",
+    "slug": "character",
+    "website": "https://character.ai",
+    "category": []
+  },
+  {
+    "name": "Codeium",
+    "ats": "ashby",
+    "slug": "cognition",
+    "website": "https://codeium.com",
+    "category": [],
+    "meta_description": "Windsurf is the world's most advanced AI coding assistant for developers and enterprises. Windsurf Editor \u2014 the first AI-native IDE that keeps developers in flow."
+  },
+  {
+    "name": "Cognition",
+    "ats": "ashby",
+    "slug": "cognition",
+    "website": "https://cognition.ai",
+    "category": [],
+    "meta_description": "An Agent Lab building the future of software engineering. We\u2019re the makers of Devin, a collaborative AI teammate that helps ambitious engineering teams achieve more."
+  },
+  {
+    "name": "Descript",
+    "ats": "greenhouse",
+    "slug": "descript",
+    "website": "https://descript.com",
+    "category": [],
+    "meta_description": "Descript makes editing video and audio as easy as editing text. Record, transcribe, edit, and publish in one tool. Try for free, with powerful upgrades for creators & teams."
+  },
+  {
+    "name": "Hebbia",
+    "ats": "greenhouse",
+    "slug": "hebbia",
+    "website": "https://hebbia.ai",
+    "category": [],
+    "meta_description": "The leading AI platform for finance, used by the world&#39;s leading asset managers, investment banks, law firms and Fortune 500 companies."
+  },
+  {
+    "name": "Inflection AI",
+    "ats": "greenhouse",
+    "slug": "inflectionai",
+    "website": "https://inflection.ai",
+    "category": [],
+    "meta_description": "Inflection AI is pioneering the future with human-centered, emotionally intelligent AI that transforms interactions from transactional to reltational, creating enduring value for individuals and enterprises alike."
+  },
+  {
+    "name": "Magic",
+    "ats": "ashby",
+    "slug": "magic.dev",
+    "website": "https://magic.dev",
+    "category": [],
+    "meta_description": "Magic is an AI company that is working toward building safe AGI to accelerate humanity\u2019s progress on the world\u2019s most important problems."
+  },
+  {
+    "name": "Pika",
+    "ats": "ashby",
+    "slug": "pika",
+    "website": "https://pika.art",
+    "category": [],
+    "meta_description": "The idea-to-video platform that sets your creativity in motion."
+  },
+  {
+    "name": "Sierra",
+    "ats": "ashby",
+    "slug": "Sierra",
+    "website": "https://sierra.ai",
+    "category": [],
+    "meta_description": "Sierra helps businesses build better, more human customer experiences with AI."
+  },
+  {
+    "name": "Speak",
+    "ats": "ashby",
+    "slug": "speak",
+    "website": "https://speak.com",
+    "category": [],
+    "meta_description": "Speak is the first & only app that lets you get real conversational practice without needing a live tutor on the other end. And we build some serious AI tech to make that possible."
+  },
+  {
+    "name": "Stability AI",
+    "ats": "greenhouse",
+    "slug": "stabilityai",
+    "website": "https://stability.ai",
+    "category": [],
+    "meta_description": "Stability AI is the enterprise-ready creative partner for teams and creators, delivering professional-grade generative AI tools and solutions for content production at scale."
+  },
+  {
+    "name": "Suno",
+    "ats": "ashby",
+    "slug": "suno",
+    "website": "https://suno.com",
+    "category": [],
+    "meta_description": "Create stunning original music for free in seconds using our AI generator. Make your own masterpieces, share with friends, and discover music from artists worldwide."
+  },
+  {
+    "name": "Writer",
+    "ats": "ashby",
+    "slug": "writer",
+    "website": "https://writer.com",
+    "category": [],
+    "meta_description": "WRITER is the enterprise AI agent platform trusted by Fortune 500 companies, built to help teams execute and scale on-brand, compliant work."
+  },
+  {
+    "name": "Airbyte",
+    "ats": "ashby",
+    "slug": "airbyte",
+    "website": "https://airbyte.com",
+    "category": [],
+    "meta_description": "Airbyte is the context layer for production-grade AI agents. Connect any sources into a queryable Context Store, so your agent reasons across systems without stitching APIs at runtime."
+  },
+  {
+    "name": "Amplitude",
+    "ats": "greenhouse",
+    "slug": "amplitude",
+    "website": "https://amplitude.com",
+    "category": [],
+    "meta_description": "Build better products by turning your user data into meaningful insights, using Amplitude's digital analytics platform and experimentation tools."
+  },
+  {
+    "name": "Astronomer",
+    "ats": "ashby",
+    "slug": "astronomer",
+    "website": "https://astronomer.io",
+    "category": [],
+    "meta_description": "Apache Airflow\u00ae orchestrates the world\u2019s data, ML, and AI pipelines. Astro is the best way to build, run, and observe them at scale."
+  },
+  {
+    "name": "CockroachLabs",
+    "ats": "greenhouse",
+    "slug": "cockroachlabs",
+    "website": "https://cockroachlabs.com",
+    "category": [],
+    "meta_description": "CockroachDB is a distributed database with standard SQL for cloud applications. CockroachDB powers companies like Comcast, Lush, and Bose."
+  },
+  {
+    "name": "dbt Labs",
+    "ats": "greenhouse",
+    "slug": "dbtlabsinc",
+    "website": "https://getdbt.com",
+    "category": [],
+    "meta_description": "dbt Labs empowers data teams to build reliable, governed data pipelines\u2014accelerating analytics and AI initiatives with speed and confidence."
+  },
+  {
+    "name": "Eppo",
+    "ats": "ashby",
+    "slug": "eppo",
+    "website": "https://geteppo.com",
+    "category": [],
+    "meta_description": "Eppo runs trustworthy, data warehouse-native A/B tests. World-class statistical rigor, feature management, and experiment reports - all in one tool."
+  },
+  {
+    "name": "Harness",
+    "ats": "greenhouse",
+    "slug": "harnessinc",
+    "website": "https://harness.io",
+    "category": [],
+    "meta_description": "Harness is a unified, end-to-end AI software delivery platform to manage the SDLC using purpose-built AI agents."
+  },
+  {
+    "name": "Hightouch",
+    "ats": "greenhouse",
+    "slug": "hightouch",
+    "website": "https://hightouch.com",
+    "category": [],
+    "meta_description": "Hightouch is the Agentic Marketing Platform powered by the industry-leading Composable CDP: AI marketing that actually knows your brand, customers, and business."
+  },
+  {
+    "name": "InfluxData",
+    "ats": "ashby",
+    "slug": "Influxdata",
+    "website": "https://influxdata.com",
+    "category": []
+  },
+  {
+    "name": "LaunchDarkly",
+    "ats": "greenhouse",
+    "slug": "launchdarkly",
+    "website": "https://launchdarkly.com",
+    "category": [],
+    "meta_description": "Maximize the value of every software feature through automation and feature management."
+  },
+  {
+    "name": "Mixpanel",
+    "ats": "greenhouse",
+    "slug": "mixpanel",
+    "website": "https://mixpanel.com",
+    "category": [],
+    "meta_description": "Mixpanel is the product analytics platform that helps teams track user behavior, measure conversions, and improve retention. Start free today."
+  },
+  {
+    "name": "Notion",
+    "ats": "ashby",
+    "slug": "notion",
+    "website": "https://notion.so",
+    "category": [],
+    "meta_description": "Build Custom Agents, search across all your apps, and automate busywork. The AI workspace where teams get more done, faster."
+  },
+  {
+    "name": "PlanetScale",
+    "ats": "greenhouse",
+    "slug": "planetscale",
+    "website": "https://planetscale.com",
+    "category": [],
+    "meta_description": "PlanetScale offers the world\u2019s fastest and most scalable cloud hosting for Vitess and Postgres."
+  },
+  {
+    "name": "Prefect",
+    "ats": "ashby",
+    "slug": "prefect",
+    "website": "https://prefect.io",
+    "category": [],
+    "meta_description": "Orchestrate workflows with Prefect. Build AI applications with Horizon. Open-source foundations, production-ready platforms."
+  },
+  {
+    "name": "Semgrep",
+    "ats": "ashby",
+    "slug": "semgrep",
+    "website": "https://semgrep.dev",
+    "category": [],
+    "meta_description": "An extensible developer-friendly application security platform that scans source code to surface true and actionable security issues with AI-assisted SAST, SCA, and Secrets Detection solutions."
+  },
+  {
+    "name": "Sentry",
+    "ats": "ashby",
+    "slug": "sentry",
+    "website": "https://sentry.io",
+    "category": [],
+    "meta_description": "Application performance monitoring for developers &#38; software teams to see errors clearer, solve issues faster &#38; continue learning continuously. Get started at sentry.io."
+  },
+  {
+    "name": "SingleStore",
+    "ats": "greenhouse",
+    "slug": "singlestore",
+    "website": "https://singlestore.com",
+    "category": [],
+    "meta_description": "SingleStore delivers the performance you need for enterprise AI. We combine transactional (OLTP) and analytical (OLAP) processing, multi-model data support (vectors, full-text, JSON, time-series, etc.) and real-time analytics all in one platform."
+  },
+  {
+    "name": "Socket",
+    "ats": "ashby",
+    "slug": "socket",
+    "website": "https://socket.dev",
+    "category": []
+  },
+  {
+    "name": "CrowdStrike",
+    "ats": "workday",
+    "slug": "crowdstrike",
+    "website": "https://crowdstrike.com",
+    "category": [],
+    "meta_description": "CrowdStrike is a global cybersecurity leader with an advanced cloud-native platform for protecting endpoints, cloud workloads, identities and data."
+  },
+  {
+    "name": "Huntress",
+    "ats": "greenhouse",
+    "slug": "huntress",
+    "website": "https://huntress.com",
+    "category": [],
+    "meta_description": "Stop cyberattacks with the Huntress Managed Platform. Get 24/7 SOC-backed EDR, ITDR, SIEM, & Security Awareness Training for enterprise-grade protection across all your environments"
+  },
+  {
+    "name": "Nightfall AI",
+    "ats": "ashby",
+    "slug": "nightfall-ai",
+    "website": "https://nightfall.ai",
+    "category": [],
+    "meta_description": "Nightfall is the agentic, all-in-one data loss prevention (DLP) & AI data security platform that prevents data leaks, gets visibility into data flows, and stops data exfiltration across SaaS, gen AI apps, endpoints, and more."
+  },
+  {
+    "name": "Marqeta",
+    "ats": "greenhouse",
+    "slug": "marqeta",
+    "website": "https://marqeta.com",
+    "category": [],
+    "meta_description": "Transform your business with Marqeta's modern card issuing platform. Our open API platform allows businesses to instantly issue cards and process payments."
+  },
+  {
+    "name": "Mercury",
+    "ats": "greenhouse",
+    "slug": "mercury",
+    "website": "https://mercury.com",
+    "category": [],
+    "meta_description": "Everything you do with money. All in one place. Apply in 10 minutes for business banking that transforms how you operate."
+  },
+  {
+    "name": "Ramp",
+    "ats": "ashby",
+    "slug": "ramp",
+    "website": "https://ramp.com",
+    "category": []
+  },
+  {
+    "name": "Duolingo",
+    "ats": "breezy",
+    "slug": "duolingo",
+    "website": "https://duolingo.com",
+    "category": [],
+    "meta_description": "Learn languages by playing a game. It"
+  },
+  {
+    "name": "Reddit",
+    "ats": "greenhouse",
+    "slug": "reddit",
+    "website": "https://reddit.com",
+    "category": []
+  },
+  {
+    "name": "Zwift",
+    "ats": "greenhouse",
+    "slug": "zwift",
+    "website": "https://zwift.com",
+    "category": [],
+    "meta_description": "Zwift is a virtual cycling app that is transforming indoor cycling. Discover training plans, ride with friends from around the world, and workout anytime."
+  },
+  {
+    "name": "Akili Interactive",
+    "ats": "greenhouse",
+    "slug": "akiliinteractive",
+    "website": "https://akiliinteractive.com",
+    "category": [],
+    "meta_description": "Akili Interactive is a prescription digital medicine company combining scientific and clinical rigor with the ingenuity of the tech industry to reinvent medicine."
+  },
+  {
+    "name": "Cityblock Health",
+    "ats": "workday",
+    "slug": "cityblockhealth",
+    "website": "https://cityblock.com",
+    "category": [],
+    "meta_description": "Cityblock Health delivers compassionate care that\u2019s built around you\u2014because your time, feelings, and story matter."
+  },
+  {
+    "name": "Deep Genomics",
+    "ats": "lever",
+    "slug": "deepgenomics",
+    "website": "https://deepgenomics.com",
+    "category": [],
+    "meta_description": "Revolutions in AI, biology and automation are enabling a new approach to medicine. Deep Genomics is at the forefront."
+  },
+  {
+    "name": "Devoted Health",
+    "ats": "workday",
+    "slug": "devoted",
+    "website": "https://devoted.com",
+    "category": []
+  },
+  {
+    "name": "Exscientia",
+    "ats": "greenhouse",
+    "slug": "recursionpharmaceuticals",
+    "website": "https://exscientia.ai",
+    "category": [],
+    "meta_description": "Dive into Recursion's innovative approach to decoding biology. Join our mission & explore what AI drug discovery companies can do. Contact us today!"
+  },
+  {
+    "name": "Ro",
+    "ats": "lever",
+    "slug": "ro",
+    "website": "https://ro.co",
+    "category": [],
+    "meta_description": "Ro is a telehealth company connecting patients with US-licensed professionals entirely online. Get treatment now for weight loss, sexual health, hair loss, fertility, & more."
+  },
+  {
+    "name": "Synthego",
+    "ats": "lever",
+    "slug": "synthego",
+    "website": "https://synthego.com",
+    "category": [],
+    "meta_description": "High-quality, scalable solutions for CRISPR research, molecular biology and diagnostic workflows."
+  },
+  {
+    "name": "Viz.ai",
+    "ats": "ashby",
+    "slug": "Viz.ai",
+    "website": "https://viz.ai",
+    "category": [],
+    "meta_description": "Viz.ai closes the gaps between patients, clinicians, and life-saving treatments with its leading-edge AI-powered care coordination solution."
+  },
+  {
+    "name": "Plus AI",
+    "ats": "lever",
+    "slug": "plus-2",
+    "website": "https://plus.ai",
+    "category": [],
+    "meta_description": "PlusAI is transforming transportation with Physical AI, developing SuperDrive\u2122 virtual driver software for factory-built autonomous commercial vehicles and HyperFoundry\u2122 AI data platform."
+  },
+  {
+    "name": "Pony.ai",
+    "ats": "workable",
+    "slug": "pony-dot-ai",
+    "website": "https://pony.ai",
+    "category": [],
+    "meta_description": "Leading global autonomous driving technology company Pony.ai, Inc. (\u201cPony.ai\u201d) is pursuing an ambitious vision for autonomous mobility. We aim to bring safe, sustainable, and accessible mobility to the entire world."
+  },
+  {
+    "name": "Waabi",
+    "ats": "lever",
+    "slug": "waabi",
+    "website": "https://waabi.ai",
+    "category": [],
+    "meta_description": "Waabi is pioneering Physical AI, starting with autonomous trucks. \nWe developed a next-generation approach leveraging an end-to-end interpretable and verifiable AI model that\u2019s powered by the industry's most realistic neural simulator. This dramatically reduces the development time and resources needed to bring self-driving vehicles to public roads \u2014 safely and at scale."
+  },
+  {
+    "name": "Joby Aviation",
+    "ats": "icims",
+    "slug": "careers-jobyaviation",
+    "website": "https://jobyaviation.com",
+    "category": [],
+    "meta_description": "Experience Joby Aviation\u2019s all-electric air taxi: vertical take-off and landing, seamless door to door travel, all from our app."
+  },
+  {
+    "name": "Skyryse",
+    "ats": "greenhouse",
+    "slug": "skyryse",
+    "website": "https://skyryse.com",
+    "category": [],
+    "meta_description": "SkyOS is the first fully digitized aircraft operating system that enhances safety and offers optionally-piloted capabilities."
+  },
+  {
+    "name": "Wisk Aero",
+    "ats": "workday",
+    "slug": "wisk",
+    "website": "https://wisk.aero",
+    "category": [],
+    "meta_description": "Wisk is building the world\u2019s first autonomous, all-electric air taxi. Backed by Boeing, with six generations of aircraft and 1,750+ test flights."
+  },
+  {
+    "name": "Astroscale",
+    "ats": "bamboo",
+    "slug": "astroscale",
+    "website": "https://astroscale.com",
+    "category": [],
+    "meta_description": "Astroscale delivers safe, sustainable on-orbit services\u2014debris removal, life extension & inspection\u2014for civil, defense, and commercial space missions."
+  },
+  {
+    "name": "CesiumAstro",
+    "ats": "lever",
+    "slug": "CesiumAstro",
+    "website": "https://cesiumastro.com",
+    "category": [],
+    "meta_description": "CesiumAstro delivers scalable satellites, terminals, and software-defined systems for the missions that matter\u2014built for performance, ready to deploy."
+  },
+  {
+    "name": "Maxar Technologies",
+    "ats": "workday",
+    "slug": "maxar",
+    "website": "https://maxar.com",
+    "category": [],
+    "meta_description": "Vantor is driving a more autonomous, interoperable world across the defense, intelligence, and commercial sectors. Our spatial intelligence products combine spatial data, AI, and software to deliver total clarity from space to ground."
+  },
+  {
+    "name": "Momentus",
+    "ats": "greenhouse",
+    "slug": "momentus",
+    "website": "https://momentus.space",
+    "category": []
+  },
+  {
+    "name": "Satellogic",
+    "ats": "bamboo",
+    "slug": "satellogic",
+    "website": "https://satellogic.com",
+    "category": [],
+    "meta_description": "Making Earth Observation imagery accessible and affordable to solve the world&#039;s most pressing problems"
+  },
+  {
+    "name": "Bear Robotics",
+    "ats": "breezy",
+    "slug": "bear-robotics",
+    "website": "https://bearrobotics.ai",
+    "category": [],
+    "meta_description": "Discover how Bear Robotics is transforming hospitality and logistics with award-winning service robots and industrial AMRs. Automate repetitive tasks and elevate operational workflows with cutting-edge AI technology."
+  },
+  {
+    "name": "Boston Dynamics",
+    "ats": "workday",
+    "slug": "bostondynamics",
+    "website": "https://bostondynamics.com",
+    "category": [],
+    "meta_description": "A leading global robotics company, Boston Dynamics builds practical robotics to tackle your toughest automation challenges and change your idea of what robots can do."
+  },
+  {
+    "name": "Chef Robotics",
+    "ats": "lever",
+    "slug": "ChefRobotics",
+    "website": "https://chefrobotics.ai",
+    "category": [],
+    "meta_description": "Chef Robotics brings intelligent, adaptable automation to food manufacturers. Scale meal assembly with robots built for the real world."
+  },
+  {
+    "name": "Standard Bots",
+    "ats": "ashby",
+    "slug": "StandardBots",
+    "website": "https://standardbots.com",
+    "category": [],
+    "meta_description": "The all-in-one, most intuitive, most affordable industrial cobots."
+  },
+  {
+    "name": "Air Company",
+    "ats": "greenhouse",
+    "slug": "aircompany",
+    "website": "https://aircompany.com",
+    "category": [],
+    "meta_description": "AIRCO develops advanced carbon conversion technology that transforms CO2 and hydrogen into fully formulated synthetic fuels to strengthen energy security."
+  },
+  {
+    "name": "Charm Industrial",
+    "ats": "lever",
+    "slug": "charmindustrial",
+    "website": "https://charmindustrial.com",
+    "category": [],
+    "meta_description": "Charm Industrial provides high-quality carbon removal through bio-oil sequestration."
+  },
+  {
+    "name": "Twelve",
+    "ats": "ashby",
+    "slug": "twelve",
+    "website": "https://twelve.co",
+    "category": [],
+    "meta_description": "A world made from air"
+  },
+  {
+    "name": "SandboxAQ",
+    "ats": "greenhouse",
+    "slug": "sandboxaq",
+    "website": "https://sandboxaq.com",
+    "category": [],
+    "meta_description": "SandboxAQ leverages the compound effects of AI and advanced computing to address some of the biggest challenges impacting society. SandboxAQ technologies include AI simulation, cryptography management for cybersecurity, and AI sensing for global organizations."
+  },
+  {
+    "name": "Joyn Bio",
+    "ats": "greenhouse",
+    "slug": "ginkgobioworks",
+    "website": "https://joyn.bio",
+    "category": [],
+    "meta_description": "Build autonomous labs to accelerate biotech R&D. Program biology like software. Run experiments on our cloud lab or build your own. Trusted by 130+ customers."
+  },
+  {
+    "name": "Palo Alto Networks",
+    "ats": "workday",
+    "slug": "paloaltonetworks",
+    "website": "https://paloaltonetworks.com",
+    "category": [],
+    "meta_description": "Implement Zero Trust, Secure your Network, Cloud workloads, Hybrid Workforce, Leverage Threat Intelligence & Security Consulting. Cybersecurity Services & Education for CISO&rsquo;s, Head of Infrastructure, Network Security Engineers, Cloud Architects & SOC Managers"
+  },
+  {
+    "name": "Samsung R&D",
+    "ats": "workday",
+    "slug": "sec",
+    "website": "https://samsung.com",
+    "category": [],
+    "meta_description": "Discover the latest in electronic & smart appliance technology with Samsung. Find the next big thing from smartphones & tablets to laptops & tvs & more."
+  },
+  {
+    "name": "Workday",
+    "ats": "workday",
+    "slug": "workday",
+    "website": "https://workday.com",
+    "category": [],
+    "meta_description": "Superintelligence for work is here. Empower your people with agentic AI."
+  },
+  {
+    "name": "Sourcegraph",
+    "ats": "greenhouse",
+    "slug": "sourcegraph91",
+    "website": "https://sourcegraph.com",
+    "category": [],
+    "meta_description": "Give humans and agents complete context to understand, oversee, and evolve the world"
+  },
+  {
+    "name": "Coder",
+    "ats": "ashby",
+    "slug": "Coder",
+    "website": "https://coder.com",
+    "category": [],
+    "meta_description": "Give developers a secure, governed environment to run AI coding agents at scale. Self-hosted infrastructure with full control over agent permissions, audit logging, and compliance."
+  },
+  {
+    "name": "Cursor",
+    "ats": "ashby",
+    "slug": "cursor",
+    "website": "https://cursor.com",
+    "category": [],
+    "meta_description": "Built to make you extraordinarily productive, Cursor is the best way to build software with AI."
+  },
+  {
+    "name": "JetBrains",
+    "ats": "greenhouse",
+    "slug": "jetbrains",
+    "website": "https://jetbrains.com",
+    "category": [],
+    "meta_description": "JetBrains is a cutting-edge software vendor specializing in the creation of intelligent development tools, including IntelliJ IDEA \u2013 the leading Java IDE, and the Kotlin programming language."
+  },
+  {
+    "name": "Render",
+    "ats": "ashby",
+    "slug": "render",
+    "website": "https://render.com",
+    "category": [],
+    "meta_description": "Deploy and scale any app or agent from your first user to your billionth. Build faster on intuitive cloud infrastructure for the modern web."
+  },
+  {
+    "name": "Replit",
+    "ats": "ashby",
+    "slug": "replit",
+    "website": "https://replit.com",
+    "category": [],
+    "meta_description": "Build and deploy software collaboratively with the power of AI without spending a second on setup."
+  },
+  {
+    "name": "Chainalysis",
+    "ats": "greenhouse",
+    "slug": "chainalysis",
+    "website": "https://chainalysis.com",
+    "category": [],
+    "meta_description": "Chainalysis helps government agencies, cryptocurrency businesses, and financial institutions engage confidently with cryptocurrency."
+  },
+  {
+    "name": "Darktrace",
+    "ats": "workday",
+    "slug": "darktrace",
+    "website": "https://darktrace.com",
+    "category": [],
+    "meta_description": "Darktrace AI interrupts in-progress cyber-attacks in seconds, including ransomware, email phishing, and threats to cloud environments and critical infrastructure."
+  },
+  {
+    "name": "Keeper Security",
+    "ats": "greenhouse",
+    "slug": "keepersecurity",
+    "website": "https://keepersecurity.com",
+    "category": [],
+    "meta_description": "Keeper is the unified control plane for privileged access, secrets, remote connections, endpoints and databases in a single zero-trust platform."
+  },
+  {
+    "name": "TRM Labs",
+    "ats": "greenhouse",
+    "slug": "trmlabs",
+    "website": "https://trmlabs.com",
+    "category": [],
+    "meta_description": "Trusted by public sector agencies and private sector institutions on the front lines of illicit activity, including criminal networks, sanctioned actors and state-backed threats."
+  },
+  {
+    "name": "Vectra AI",
+    "ats": "greenhouse",
+    "slug": "vectranetworks",
+    "website": "https://vectra.ai",
+    "category": [],
+    "meta_description": "We protect modern networks from modern attacks. Vectra AI sees attackers' every move, connecting the dots across network, identity, and cloud."
+  },
+  {
+    "name": "Anchorage Digital",
+    "ats": "lever",
+    "slug": "anchorage",
+    "website": "https://anchorage.com",
+    "category": [],
+    "meta_description": "Anchorage Digital is a regulated crypto platform that provides institutions with integrated financial services and infrastructure solutions. With the only federally chartered crypto bank in the US, as well as Anchorage Digital Singapore, which offers equivalent security and service standards, Anchorage Digital delivers an unparalleled combination of secure custody, regulatory compliance, and platform capabilities."
+  },
+  {
+    "name": "BitGo",
+    "ats": "greenhouse",
+    "slug": "bitgo",
+    "website": "https://bitgo.com",
+    "category": [],
+    "meta_description": "How institutions and platforms securely access crypto"
+  },
+  {
+    "name": "Kraken",
+    "ats": "ashby",
+    "slug": "kraken.com",
+    "website": "https://kraken.com",
+    "category": [],
+    "meta_description": "Own the power of your money with Kraken. Trade crypto, stocks, futures, staking and more. Trusted by millions worldwide since 2011. Get started today."
+  },
+  {
+    "name": "Paxos",
+    "ats": "ashby",
+    "slug": "paxos-technology-solutions",
+    "website": "https://paxos.com",
+    "category": [],
+    "meta_description": "Paxos builds regulated blockchain and digital asset solutions for global leaders in financial services. Designed for enterprises."
+  },
+  {
+    "name": "Wealthfront",
+    "ats": "lever",
+    "slug": "wealthfront",
+    "website": "https://wealthfront.com",
+    "category": [],
+    "meta_description": "Wealthfront makes building wealth easy. Earn 3.30% APY on your uninvested cash and invest in expert-built, automated portfolios of stocks, bonds, and ETFs."
+  },
+  {
+    "name": "GRAIL",
+    "ats": "lever",
+    "slug": "grailbio",
+    "website": "https://grail.com",
+    "category": []
+  },
+  {
+    "name": "Natera",
+    "ats": "greenhouse",
+    "slug": "natera",
+    "website": "https://natera.com",
+    "category": [],
+    "meta_description": "Dedicated to oncology, women\u2019s health, and organ health. Natera\u2019s cell-free DNA tests help protect health and inform more personalized decisions about care."
+  },
+  {
+    "name": "Berkshire Grey",
+    "ats": "bamboo",
+    "slug": "berkshiregrey",
+    "website": "https://berkshiregrey.com",
+    "category": []
+  },
+  {
+    "name": "2K Games",
+    "ats": "greenhouse",
+    "slug": "2kearlycareers",
+    "website": "https://2k.com",
+    "category": [],
+    "meta_description": "2K publishes titles in today"
+  },
+  {
+    "name": "Playdead",
+    "ats": "breezy",
+    "slug": "playdead",
+    "website": "https://playdead.com",
+    "category": []
+  },
+  {
+    "name": "Square Enix",
+    "ats": "workable",
+    "slug": "square-enix-america",
+    "website": "https://square-enix-games.com",
+    "category": [],
+    "meta_description": "Find all the latest news and updates about your favourite games and upcoming releases."
+  },
+  {
+    "name": "BigCommerce",
+    "ats": "workday",
+    "slug": "bigcommerce",
+    "website": "https://bigcommerce.com",
+    "category": [],
+    "meta_description": "Power modern buying experiences across brands, regions, and channels \u2014 all from a single, scalable foundation. Learn more."
+  },
+  {
+    "name": "Rain Neuromorphics",
+    "ats": "ashby",
+    "slug": "rain-ai-jobs",
+    "website": "https://rain.ai",
+    "category": [],
+    "meta_description": "We are building the compute platform that will power the future of AI infrastructure and redefine the cost of compute."
+  },
+  {
+    "name": "Rivian",
+    "ats": "icims",
+    "slug": "us-careers-rivian",
+    "website": "https://rivian.com",
+    "category": [],
+    "meta_description": "Discover Rivian's long-range electric vehicles, innovative EV trucks, SUVs and vans built for adventure. Join the movement towards a sustainable future."
+  },
+  {
+    "name": "Scout Motors",
+    "ats": "greenhouse",
+    "slug": "scoutmotors",
+    "website": "https://scoutmotors.com",
+    "category": []
+  },
+  {
+    "name": "Anyscale",
+    "ats": "ashby",
+    "slug": "anyscale",
+    "website": "https://anyscale.com",
+    "category": [],
+    "meta_description": "Powered by Ray, Anyscale helps AI builders run data-intensive workloads to build and deploy Foundation Models and AI at scale on any cloud."
+  },
+  {
+    "name": "LangChain",
+    "ats": "ashby",
+    "slug": "langchain",
+    "website": "https://langchain.com",
+    "category": [],
+    "meta_description": "LangChain provides the engineering platform and open source frameworks developers use to build, test, and deploy reliable AI agents."
+  },
+  {
+    "name": "Pinecone",
+    "ats": "ashby",
+    "slug": "pinecone",
+    "website": "https://pinecone.io",
+    "category": [],
+    "meta_description": "Search through billions of items for similar matches to any object, in milliseconds. It\u2019s the next generation of search, an API call away."
+  },
+  {
+    "name": "Zilliz",
+    "ats": "lever",
+    "slug": "zilliz",
+    "website": "https://zilliz.com",
+    "category": [],
+    "meta_description": "Zilliz offers a fully managed Vector Lakebase powered by Milvus, unifying real-time vector search, lake-scale discovery, and AI data operations."
+  },
+  {
+    "name": "ArmorCode",
+    "ats": "greenhouse",
+    "slug": "armorcode",
+    "website": "https://armorcode.com",
+    "category": [],
+    "meta_description": "ArmorCode&#039;s Unified Exposure Management Platform helps security teams unify, prioritize, and remediate vulnerabilities 10x faster."
+  },
+  {
+    "name": "Cobalt",
+    "ats": "greenhouse",
+    "slug": "cobaltio",
+    "website": "https://cobalt.io",
+    "category": [],
+    "meta_description": "Modernize traditional offensive security with global talent and a SaaS platform to deliver better security - from the team that innovated pentest via Pentest as a Service (PtaaS)."
+  },
+  {
+    "name": "Endor Labs",
+    "ats": "greenhouse",
+    "slug": "endorlabs",
+    "website": "https://endorlabs.com",
+    "category": [],
+    "meta_description": "Endor Labs is an application security platform built for AI-generated and human-written code, helping teams prioritize and fix real risk across the SDLC."
+  },
+  {
+    "name": "Horizon3",
+    "ats": "ashby",
+    "slug": "horizon3ai",
+    "website": "https://horizon3.ai",
+    "category": [],
+    "meta_description": "Horizon3.ai uses real-world attacks to safely show what attackers can actually do in your environment\u2014so you can fix and prove what matters."
+  },
+  {
+    "name": "Alchemy",
+    "ats": "ashby",
+    "slug": "alchemy",
+    "website": "https://alchemy.com",
+    "category": [],
+    "meta_description": "Whether you're a large enterprise or a startup, Alchemy makes building onchain easy."
+  },
+  {
+    "name": "Aptos Labs",
+    "ats": "greenhouse",
+    "slug": "aptoslabs",
+    "website": "https://aptoslabs.com",
+    "category": [],
+    "meta_description": "Building products, applications, and tooling on the Aptos blockchain. Bringing the benefits of decentralization to the masses."
+  },
+  {
+    "name": "Mysten Labs",
+    "ats": "ashby",
+    "slug": "mystenlabs",
+    "website": "https://mystenlabs.com",
+    "category": [],
+    "meta_description": "Mysten Labs is developing crucial infrastructure to power a more decentralized internet, transforming how people connect and share information online."
+  },
+  {
+    "name": "Near Protocol",
+    "ats": "greenhouse",
+    "slug": "nearfoundation",
+    "website": "https://near.org",
+    "category": [],
+    "meta_description": "NEAR is the unified commerce layer for unlocking asset liquidity and empowering agents to autonomously transact."
+  },
+  {
+    "name": "Culture Amp",
+    "ats": "greenhouse",
+    "slug": "cultureamp",
+    "website": "https://cultureamp.com",
+    "category": [],
+    "meta_description": "Empower your teams and fuel positive change with performance, development, and employee engagement tools \u2013 all-in-one intuitive employee experience platform."
+  },
+  {
+    "name": "Lattice",
+    "ats": "greenhouse",
+    "slug": "lattice",
+    "website": "https://lattice.com",
+    "category": [],
+    "meta_description": "Join 5,000+ forward-thinking teams using Lattice\u2019s HR and AI tools to manage people and performance \u2014 all on one trusted platform."
+  },
+  {
+    "name": "Leapsome",
+    "ats": "ashby",
+    "slug": "Leapsome",
+    "website": "https://leapsome.com",
+    "category": [],
+    "meta_description": "Discover the ultimate HR software platform your team will love. Streamline your processes and boost productivity. Get started today!"
+  },
+  {
+    "name": "Disco",
+    "ats": "greenhouse",
+    "slug": "disco",
+    "website": "https://csdisco.com",
+    "category": [],
+    "meta_description": "DISCO's AI-driven legal software and services raise the bar by offering cloud-based solutions developed by lawyers for lawyers."
+  },
+  {
+    "name": "Front",
+    "ats": "ashby",
+    "slug": "frontcareers",
+    "website": "https://front.app",
+    "category": [],
+    "meta_description": "Deliver exceptional service at scale with Front, the modern CX platform combining client communication, automation, and analytics for customer-first teams."
+  },
+  {
+    "name": "GitBook",
+    "ats": "ashby",
+    "slug": "GitBook",
+    "website": "https://gitbook.com",
+    "category": [],
+    "meta_description": "GitBook is a knowledge platform that connects your docs, product and users, answers user questions, and identifies knowledge gaps. Docs-as-code support & AI insights included."
+  },
+  {
+    "name": "Superhuman",
+    "ats": "greenhouse",
+    "slug": "grammarly",
+    "website": "https://superhuman.com",
+    "category": [],
+    "meta_description": "Superhuman is the AI productivity suite that gives you superpowers everywhere you work. So you can be more creative, strategic, and impactful."
+  },
+  {
+    "name": "Particle Health",
+    "ats": "greenhouse",
+    "slug": "particlehealth",
+    "website": "https://particlehealth.com",
+    "category": [],
+    "meta_description": "Fuel next-gen healthcare solutions with clean, actionable data from 270 million+ patient records."
+  },
+  {
+    "name": "Span",
+    "ats": "greenhouse",
+    "slug": "spanio",
+    "website": "https://span.io",
+    "category": [],
+    "meta_description": "Lower your energy bill with SPAN smart electrical panels - advanced features and intelligent design save you money and energy."
+  },
+  {
+    "name": "Sunrun",
+    "ats": "workday",
+    "slug": "sunrun",
+    "website": "https://sunrun.com",
+    "category": [],
+    "meta_description": "Sunrun is the leading home solar panel and battery storage company. Go solar for little to $0 down, lock in low energy rates. Get a quote today."
+  },
+  {
+    "name": "AssemblyAI",
+    "ats": "greenhouse",
+    "slug": "assemblyai",
+    "website": "https://assemblyai.com",
+    "category": [],
+    "meta_description": "With AssemblyAI's industry-leading Speech AI models, transcribe speech to text and extract insights from your voice data."
+  },
+  {
+    "name": "Deepgram",
+    "ats": "ashby",
+    "slug": "Deepgram",
+    "website": "https://deepgram.com",
+    "category": [],
+    "meta_description": "Power enterprise voice solutions with Deepgram\u2019s Speech-to-Text, Text-to-Speech, and Voice Agent APIs. Real-time, accurate, and built for scale."
+  },
+  {
+    "name": "Jasper",
+    "ats": "ashby",
+    "slug": "Jasper",
+    "website": "https://jasper.ai",
+    "category": [],
+    "meta_description": "Orchestrate intelligent agents to run end-to-end marketing workflows\u2014delivering speed, control, and measurable impact."
+  },
+  {
+    "name": "Lovable",
+    "ats": "ashby",
+    "slug": "lovable",
+    "website": "https://lovable.dev",
+    "category": [],
+    "meta_description": "Build apps, websites, and digital products faster using Lovable\u2019s no-code and AI-powered platform, no deep coding skills required."
+  },
+  {
+    "name": "Speechify",
+    "ats": "greenhouse",
+    "slug": "speechify",
+    "website": "https://speechify.com",
+    "category": [],
+    "meta_description": "Speechify reads anything aloud to you. Listen to books, PDFs, or web pages anytime with natural voices. Try Speechify free."
+  },
+  {
+    "name": "Windsurf",
+    "ats": "ashby",
+    "slug": "cognition",
+    "website": "https://windsurf.com",
+    "category": [],
+    "meta_description": "Windsurf is the world's most advanced AI coding assistant for developers and enterprises. Windsurf Editor \u2014 the first AI-native IDE that keeps developers in flow."
+  },
+  {
+    "name": "Rev",
+    "ats": "ashby",
+    "slug": "rev",
+    "website": "https://rev.com",
+    "category": [],
+    "meta_description": "The best legal AI platform for precise transcription, secure evidence analysis, and court-ready summaries. Trusted by top law firms and attorneys nationwide."
+  },
+  {
+    "name": "Coderabbit",
+    "ats": "ashby",
+    "slug": "coderabbit",
+    "website": "https://coderabbit.ai",
+    "category": [],
+    "meta_description": "AI-first pull request reviewer with context-aware feedback, line-by-line code suggestions, and real-time chat."
+  },
+  {
+    "name": "Speakeasy",
+    "ats": "ashby",
+    "slug": "Speakeasy",
+    "website": "https://speakeasyapi.dev",
+    "category": [],
+    "meta_description": "Connect, secure, control, and observe AI in real time. Every MCP, skill, and agent session governed."
+  },
+  {
+    "name": "Stainless",
+    "ats": "ashby",
+    "slug": "stainlessapi",
+    "website": "https://stainlessapi.com",
+    "category": [],
+    "meta_description": "Stainless helps you deliver robust and idiomatic SDKs, documentation that keeps up with your API, and token-efficient MCP servers."
+  },
+  {
+    "name": "Demandbase",
+    "ats": "ashby",
+    "slug": "demandbase",
+    "website": "https://demandbase.com",
+    "category": [],
+    "meta_description": "Elevate your B2B go-to-market strategy with Demandbase&#039;s ABM platform, delivering smarter insights, agent-led automation, and AI-powered pipeline."
+  },
+  {
+    "name": "G2",
+    "ats": "greenhouse",
+    "slug": "g2crowd",
+    "website": "https://g2.com",
+    "category": []
+  },
+  {
+    "name": "Intercom",
+    "ats": "greenhouse",
+    "slug": "intercom",
+    "website": "https://intercom.com",
+    "category": [],
+    "meta_description": "The only helpdesk with a natively integrated AI Agent. Deliver perfect customer experiences with the highest-performing platform. Start your free trial today."
+  },
+  {
+    "name": "Modern Treasury",
+    "ats": "ashby",
+    "slug": "moderntreasury",
+    "website": "https://moderntreasury.com",
+    "category": [],
+    "meta_description": "Launch payment operations in days, not months. One API for multi-rail payments with programmable accounts, real-time reporting, and built-in compliance."
+  },
+  {
+    "name": "Spreedly",
+    "ats": "lever",
+    "slug": "spreedly",
+    "website": "https://spreedly.com",
+    "category": [],
+    "meta_description": "Spreedly is the world's leading Payments Orchestration Platform that lets you connect to payment services in over 100 countries with a single API connection."
+  },
+  {
+    "name": "Synctera",
+    "ats": "ashby",
+    "slug": "synctera",
+    "website": "https://synctera.com",
+    "category": [],
+    "meta_description": "Synctera is the banking and payments platform powering financial innovation. Synctera enables companies of all sizes to build, launch, and scale embedded banking and FinTech products"
+  },
+  {
+    "name": "Monzo",
+    "ats": "greenhouse",
+    "slug": "monzo",
+    "website": "https://monzo.com",
+    "category": [],
+    "meta_description": "Organise, save & invest with a free UK current account, joint account or business account. Make your money more Monzo."
+  },
+  {
+    "name": "Hippo",
+    "ats": "greenhouse",
+    "slug": "hippo70",
+    "website": "https://hippo.com",
+    "category": [],
+    "meta_description": "Hippo Insurance Services helps you compare quotes from 70+ top carriers to save on homeowners insurance \u2014 all in just 60 seconds."
+  },
+  {
+    "name": "Foursquare",
+    "ats": "ashby",
+    "slug": "foursquare",
+    "website": "https://foursquare.com",
+    "category": [],
+    "meta_description": "Foursquare is the industry-leading geospatial intelligence platform. Power your business with 100M+ POIs, foot traffic data, and location-based solutions for marketers, developers, and analysts."
+  },
+  {
+    "name": "Mapbox",
+    "ats": "ashby",
+    "slug": "Mapbox",
+    "website": "https://mapbox.com",
+    "category": [],
+    "meta_description": "APIs and SDKs for AI-powered maps, location search, turn-by-turn navigation, and geospatial data in mobile or web apps. Get started for free."
+  },
+  {
+    "name": "Radar",
+    "ats": "ashby",
+    "slug": "radar",
+    "website": "https://radar.io",
+    "category": [],
+    "meta_description": "Geofencing, maps, and geo-compliance, all in a single cost-effective platform."
+  },
+  {
+    "name": "F5 Networks",
+    "ats": "workday",
+    "slug": "ffive",
+    "website": "https://f5.com",
+    "category": [],
+    "meta_description": "F5 application services ensure that applications are always secure and perform the way they should\u2014in any environment and on any device."
+  },
+  {
+    "name": "Juniper Networks",
+    "ats": "workday",
+    "slug": "hpe",
+    "website": "https://juniper.net",
+    "category": [],
+    "meta_description": "Proven AI for your network. Mist, the AI-native networking platform makes every connection more reliable, measurable, and secure for businesses."
+  },
+  {
+    "name": "Booz Allen Hamilton",
+    "ats": "workday",
+    "slug": "bah",
+    "website": "https://boozallen.com",
+    "category": [],
+    "meta_description": "We transform missions with tomorrow\u2019s technologies to advance the country\u2019s most critical civil, defense, and national security priorities."
+  },
+  {
+    "name": "ServiceTitan",
+    "ats": "workday",
+    "slug": "servicetitan",
+    "website": "https://servicetitan.com",
+    "category": [],
+    "meta_description": "Our all-in-one software is built for home and commercial contractors to keep all their service visits and construction projects running smoothly."
+  },
+  {
+    "name": "Carbon",
+    "ats": "greenhouse",
+    "slug": "carbon",
+    "website": "https://carbon3d.com",
+    "category": [],
+    "meta_description": "From rapid prototyping to end-use parts, the Carbon Digital Light Synthesis Process is the dream of Additive Manufacturing realized."
+  },
+  {
+    "name": "Desktop Metal",
+    "ats": "greenhouse",
+    "slug": "desktopmetal",
+    "website": "https://desktopmetal.com",
+    "category": [],
+    "meta_description": "Desktop Metal\u2122 exists to make metal 3D printing and carbon fiber 3D printing accessible to all engineers, designers, and manufacturers."
+  },
+  {
+    "name": "Sonatype",
+    "ats": "lever",
+    "slug": "sonatype",
+    "website": "https://sonatype.com",
+    "category": [],
+    "meta_description": "Sonatype provides intelligence & automated governance to help you build faster & safer with open source and AI. From the creators of Nexus Repository."
+  },
+  {
+    "name": "OpenSpace",
+    "ats": "greenhouse",
+    "slug": "openspace",
+    "website": "https://openspace.ai",
+    "category": [],
+    "meta_description": "OpenSpace is the Visual Intelligence Platform built for construction teams. Turn jobsite imagery into real-time insights that drive better decisions, faster. Trusted on 95,000+ projects worldwide."
+  },
+  {
+    "name": "Energy Vault",
+    "ats": "lever",
+    "slug": "EnergyVault",
+    "website": "https://energyvault.com",
+    "category": [],
+    "meta_description": "Energy Vault partners globally to deliver innovative energy storage hardware, software, and service solutions. Enabling a renewable world."
+  },
+  {
+    "name": "Arvinas",
+    "ats": "greenhouse",
+    "slug": "arvinas",
+    "website": "https://arvinas.com",
+    "category": [],
+    "meta_description": "Arvinas is a clinical-stage biotechnology company leading the way in targeted protein degradation therapeutics."
+  },
+  {
+    "name": "Moderna",
+    "ats": "workday",
+    "slug": "modernatx",
+    "website": "https://modernatx.com",
+    "category": [],
+    "meta_description": "Learn how we\u2019re changing the world of medicine. Discover career opportunities, our product pipeline, and browse media resources. Meet Moderna."
+  },
+  {
+    "name": "Verily",
+    "ats": "workday",
+    "slug": "verily",
+    "website": "https://verily.com",
+    "category": [],
+    "meta_description": "Verily is building the future of precision health. Our AI-native platform transforms complex health data for research, care, and better patient outcomes."
+  },
+  {
+    "name": "Tractable",
+    "ats": "ashby",
+    "slug": "tractable",
+    "website": "https://tractable.ai",
+    "category": [],
+    "meta_description": "Driving the Future of Auto Appraisal with Intelligent Automation Faster, more accurate damage assessments for repairers, recyclers, insurers, and more Request a demo Automating the Road Ahead, One Scan at a Time. Discover LumaScanner &#8211; the latest innovation to improve your Fixed Ops Request a demo Smart AI solutions to industry challenges Find the right [&hellip;]"
+  },
+  {
+    "name": "Osano",
+    "ats": "greenhouse",
+    "slug": "osano",
+    "website": "https://osano.com",
+    "category": [],
+    "meta_description": "Osano simplifies global privacy compliance (GDPR, CPRA, and more) by helping organizations build, manage, and scale their privacy program."
+  },
+  {
+    "name": "Transcend",
+    "ats": "greenhouse",
+    "slug": "transcendinc",
+    "website": "https://transcend.io",
+    "category": [],
+    "meta_description": "Transcend offers data governance solutions that help companies achieve privacy compliance through powerful data mapping and data discovery, automated data subject requests, and simple cookie consent, all with industry leading security."
+  },
+  {
+    "name": "Shortcut",
+    "ats": "bamboo",
+    "slug": "shortcut",
+    "website": "https://shortcut.com",
+    "category": [],
+    "meta_description": "Shortcut is a fast, lightweight and enjoyable project management platform for software development teams."
+  },
+  {
+    "name": "Workleap",
+    "ats": "greenhouse",
+    "slug": "workleap",
+    "website": "https://workleap.com",
+    "category": [],
+    "meta_description": "Elevate your hybrid teams with Workleap's all-in-one employee experience platform designed to streamline workflows and improve productivity."
+  },
+  {
+    "name": "Bumble",
+    "ats": "workday",
+    "slug": "bumble",
+    "website": "https://bumble.com",
+    "category": [],
+    "meta_description": "Bumble has changed the way people date, create meaningful relationships & network with women making the first move. Meet new people & download Bumble."
+  },
+  {
+    "name": "Ironclad",
+    "ats": "ashby",
+    "slug": "ironcladhq",
+    "website": "https://ironcladapp.com",
+    "category": [],
+    "meta_description": "Design and deploy any type of contract in minutes. Instantly surface insights from legal agreements; manage risk. Get a custom demo."
+  },
+  {
+    "name": "Webflow",
+    "ats": "greenhouse",
+    "slug": "webflow",
+    "website": "https://webflow.com",
+    "category": [],
+    "meta_description": "Design, build, optimize, and rank in AI search \u2014 all in Webflow. Enterprise-grade security, CMS, hosting, and AEO built in. Trusted by over 300k teams."
   }
 ]
