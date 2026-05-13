@@ -21361,5 +21361,38 @@
       "equity"
     ],
     "source_hash": "936738b6"
+  },
+  "greenhouse-hightouch-4417521004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$150k-$220k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "17946d2f"
+  },
+  "ashby-ramp-428f41e2-48e8-409d-b5e3-8053f7fc7a27": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build self-serve platform tooling and agentic workflows that automate marketing operations at scale, converting repeated requests into reusable platform capabilities. Own end-to-end systems integrating AI agents with guardrails to reduce manual marketing work and drive compounding leverage across 9+ teams.",
+    "skills": [
+      "Next.js",
+      "TypeScript",
+      "Python",
+      "Sanity CMS",
+      "LLMs/AI Agents",
+      "MCP (Model Context Protocol)",
+      "A/B Testing Platforms",
+      "Agentic Workflows"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "45b42bdf"
   }
 }
