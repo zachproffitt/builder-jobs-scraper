@@ -136,7 +136,7 @@ def main():
         for j in jobs:
             lines.append(f"### [{j['title']}]({j['path']})")
             domain = company_logos.get(j["company"], "")
-            logo = f'<img src="https://logo.clearbit.com/{domain}" height="16" width="16"> ' if domain else ""
+            logo = f'<img src="https://icons.duckduckgo.com/ip3/{domain}.ico" height="16" width="16"> ' if domain else ""
             lines.append(f"{logo}{j['meta']}")
             if j["summary"]:
                 lines.append("")
