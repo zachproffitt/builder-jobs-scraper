@@ -17539,9 +17539,11 @@
     "is_hybrid": true,
     "job_summary": null,
     "skills": [],
-    "level": "manager",
+    "level": "senior",
     "comp": null,
-    "comp_extras": [],
+    "comp_extras": [
+      "equity"
+    ],
     "source_hash": "883f9063"
   },
   "lever-mistral-eb6a8a44-19f6-4b84-bce8-8a818542d2c4": {
@@ -17552,7 +17554,9 @@
     "skills": [],
     "level": "senior",
     "comp": null,
-    "comp_extras": [],
+    "comp_extras": [
+      "equity"
+    ],
     "source_hash": "02759984"
   },
   "greenhouse-stripe-7524533": {
@@ -17561,7 +17565,7 @@
     "is_hybrid": false,
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "mid",
     "comp": null,
     "comp_extras": [],
     "source_hash": "633454ae"
@@ -17573,27 +17577,33 @@
     "job_summary": null,
     "skills": [],
     "level": "manager",
-    "comp": null,
-    "comp_extras": [],
+    "comp": "$127k-$180.6k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
     "source_hash": "d904dc9b"
   },
   "ashby-Supabase-b7206c22-979f-444a-809b-e70d9ee23c7f": {
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Own the Go codebase and architecture of Supabase's Terraform provider, shipping reliable infrastructure-as-code tooling for developers at scale. Drive schema design, resource lifecycle correctness, and migration paths while partnering with product leadership on roadmap and technical strategy.",
+    "job_summary": "Own and evolve the Go-based Supabase Terraform provider, building reliability, ergonomics, and migration paths for infrastructure-as-code workflows at scale. Focus on resource lifecycle correctness, schema evolution, and backwards compatibility for millions of developers.",
     "skills": [
       "Go",
       "Terraform",
       "PostgreSQL",
       "TypeScript",
       "CI/CD",
-      "Distributed Systems",
-      "Infrastructure as Code"
+      "Testing Infrastructure",
+      "Schema Design",
+      "Distributed Systems"
     ],
     "level": "senior",
     "comp": null,
-    "comp_extras": [],
+    "comp_extras": [
+      "equity"
+    ],
     "source_hash": "12e0bad1"
   },
   "greenhouse-axiom-8547085002": {
@@ -17622,7 +17632,7 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build and evolve Supabase Edge Runtime, a Rust-based host for distributed TypeScript functions that executes code globally at the edge. Optimize for latency and reliability at scale while integrating tightly with Postgres, Auth, Storage, and Realtime services.",
+    "job_summary": "Build and evolve Supabase Edge Runtime, a Rust-based Deno host that executes distributed TypeScript functions at the edge globally. Drive performance optimization, reliability, and developer experience through monitoring, observability, and tight integration with the Supabase platform stack.",
     "skills": [
       "Rust",
       "TypeScript",
@@ -17635,7 +17645,9 @@
     ],
     "level": "senior",
     "comp": null,
-    "comp_extras": [],
+    "comp_extras": [
+      "equity"
+    ],
     "source_hash": "182795d0"
   },
   "greenhouse-stripe-7546284": {
@@ -17653,19 +17665,19 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Develop automated test systems and software to validate custom spacecraft electronics across environmental conditions. Work on flight-critical power and communications hardware for satellites in orbit.",
+    "job_summary": "Develop automated test systems and software to validate custom spacecraft electronics across environmental conditions. Work on satellite avionics test infrastructure for high-reliability defense and government communications systems.",
     "skills": [
       "Python",
       "Altium Designer",
+      "Oscilloscope",
       "Power Electronics",
-      "Environmental Testing (Thermal/Vibration/TVAC)",
-      "Oscilloscope/Test Equipment",
+      "Environmental Testing (vibration/thermal/TVAC)",
       "PCBA Design",
-      "Embedded Systems",
-      "Electrical Harness Design"
+      "Test Automation",
+      "U.S. Citizenship Required"
     ],
-    "level": "junior",
-    "comp": null,
+    "level": "mid",
+    "comp": "$105k-$165k",
     "comp_extras": [
       "equity"
     ],
@@ -17674,7 +17686,7 @@
   "ashby-cohere-64c12340-0f1d-4320-9b5a-9bcb44150a1d": {
     "is_engineering": false,
     "is_contract": false,
-    "is_hybrid": false,
+    "is_hybrid": true,
     "job_summary": null,
     "skills": [],
     "level": "manager",
@@ -17686,19 +17698,19 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build automated hardware test systems and PCBAs to validate flight electronics for satellite systems. Write Python control software for bench equipment and test infrastructure supporting qualification of avionics hardware in space environments.",
+    "job_summary": "Design and build automated test hardware and control software to validate satellite avionics flight systems. Work on mission-critical test infrastructure for space-qualified hardware in a defense/government contracting environment.",
     "skills": [
       "Python",
-      "PCB design",
+      "PCB Design",
       "Altium Designer",
       "Oscilloscope",
-      "Test automation",
-      "Embedded systems debugging",
-      "Signal integrity",
-      "Electrical test equipment"
+      "Embedded Systems",
+      "Test Automation",
+      "Signal Integrity",
+      "Electrical Engineering (B.S./M.S. required)"
     ],
     "level": "mid",
-    "comp": null,
+    "comp": "$105k-$165k",
     "comp_extras": [
       "equity"
     ],
@@ -17722,8 +17734,10 @@
     "job_summary": null,
     "skills": [],
     "level": "mid",
-    "comp": null,
-    "comp_extras": [],
+    "comp": "$98,000\u2014$130,000",
+    "comp_extras": [
+      "equity"
+    ],
     "source_hash": "3d850356"
   },
   "ashby-openai-14994645-e453-478c-be65-511dc156a961": {
@@ -17744,8 +17758,11 @@
     "job_summary": null,
     "skills": [],
     "level": "junior",
-    "comp": null,
-    "comp_extras": [],
+    "comp": "\u20ac48k-\u20ac56k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
     "source_hash": "5db9d043"
   },
   "ashby-openai-9f17b453-8ac8-418b-aa55-763ad5c7038d": {
@@ -17754,7 +17771,7 @@
     "is_hybrid": true,
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "senior",
     "comp": null,
     "comp_extras": [],
     "source_hash": "d2ef52b4"
@@ -17763,18 +17780,23 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Design and implement Waymo's core trip platform backend services, including partner-facing APIs for ride-hailing and delivery use cases across 1st and 3rd party platforms. Build low-latency, large-scale distributed systems in an autonomous vehicle domain requiring deep expertise in Google infrastructure technologies.",
+    "job_summary": "Design and implement Waymo's core trip platform APIs and backend services supporting ride-hailing and delivery across 1st and 3rd party partners. Build low-latency, large-scale distributed systems handling trip requests, pricing, and routing in the autonomous vehicle domain.",
     "skills": [
       "C++",
-      "Backend API Development",
+      "Backend Development",
+      "API Design",
       "Distributed Systems",
-      "Google Cloud Platform (Borg, Spanner, Flume)",
+      "Google Cloud Platform",
+      "Spanner",
       "Low-Latency Systems",
-      "Large-Scale Systems Design"
+      "Transportation/Autonomous Vehicles"
     ],
     "level": "mid",
-    "comp": null,
-    "comp_extras": [],
+    "comp": "$175k-$215k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
     "source_hash": "4da59c58"
   },
   "greenhouse-xai-5136112007": {
@@ -17814,38 +17836,42 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Design and implement test automation frameworks, custom scripts, and validation strategies for advanced networking devices and systems. Requires active security clearance and will involve Hardware-In-The-Loop testing of embedded networking systems in a defense/intelligence community context.",
+    "job_summary": "Design and implement test automation frameworks, scripts, and custom utilities to validate advanced networking devices and systems. Requires active security clearance and involves Hardware-In-The-Loop testing of defense/IC systems in a specialized domain.",
     "skills": [
       "Python",
       "Wireshark",
+      "Test Automation Frameworks",
       "Hardware-In-The-Loop Testing",
-      "Embedded Systems",
-      "Network Protocols",
+      "Networking Protocols",
       "Security Clearance"
     ],
     "level": "senior",
-    "comp": null,
-    "comp_extras": [],
+    "comp": "$191k-$253k",
+    "comp_extras": [
+      "equity"
+    ],
     "source_hash": "6cb06eac"
   },
   "greenhouse-andurilindustries-5038708007": {
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Design and operate developer productivity and DevSecOps infrastructure serving software engineering teams across sovereign UK and Australian defense programs. Requires UK security clearance and experience in highly regulated defense or government environments.",
+    "job_summary": "Design and deploy infrastructure automation, DevSecOps toolchains, and observability systems to support sovereign and multinational defense programs in the UK and Australia. Requires UK security clearance and experience in highly regulated defense or government environments.",
     "skills": [
       "Terraform",
       "AWS",
       "Infrastructure as Code",
       "DevSecOps",
       "Linux",
-      "Network Security",
-      "Kubernetes",
-      "Security Clearance (SC level)"
+      "PKI",
+      "TLS",
+      "VMWare"
     ],
     "level": "senior",
-    "comp": null,
-    "comp_extras": [],
+    "comp": "\u00a375k-\u00a3100k",
+    "comp_extras": [
+      "equity"
+    ],
     "source_hash": "00632c04"
   },
   "greenhouse-appliedintuition-4091510005": {
@@ -17854,8 +17880,8 @@
     "is_hybrid": true,
     "job_summary": null,
     "skills": [],
-    "level": null,
-    "comp": null,
+    "level": "mid",
+    "comp": "$90k-$150k",
     "comp_extras": [
       "equity"
     ],
@@ -17865,16 +17891,16 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build and operate scalable microservices and core backend services for League of Legends, ensuring high quality of service and reliability at massive scale (100M+ monthly players). Work with China-specific requirements and Riot's standard tech stack across multiple languages and cloud platforms.",
+    "job_summary": "Build and operate scalable microservices and backend systems that handle high-volume gaming infrastructure and China-specific requirements. Work with distributed systems operating at massive scale (100+ million monthly players) while maintaining fault tolerance and reliability across multiple tech stacks.",
     "skills": [
-      "C++",
       "Java",
       "Go",
+      "C++",
       "C#",
+      "Microservices",
       "AWS",
-      "Azure",
-      "Tencent Cloud",
-      "Microservices"
+      "Distributed Systems",
+      "Cloud Services (Tencent Cloud)"
     ],
     "level": "senior",
     "comp": null,
@@ -17888,8 +17914,11 @@
     "job_summary": null,
     "skills": [],
     "level": "manager",
-    "comp": null,
-    "comp_extras": [],
+    "comp": "$238k-$294k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
     "source_hash": "734482e0"
   },
   "greenhouse-vardaspace-7732699003": {
@@ -17899,7 +17928,7 @@
     "job_summary": null,
     "skills": [],
     "level": "senior",
-    "comp": "$100k-$140k",
+    "comp": "$100,000-$140,000",
     "comp_extras": [
       "equity"
     ],
@@ -17929,7 +17958,7 @@
   },
   "greenhouse-found-4694720005": {
     "is_engineering": false,
-    "is_contract": false,
+    "is_contract": true,
     "is_hybrid": false,
     "job_summary": null,
     "skills": [],
@@ -17946,7 +17975,9 @@
     "skills": [],
     "level": "senior",
     "comp": null,
-    "comp_extras": [],
+    "comp_extras": [
+      "equity"
+    ],
     "source_hash": "a522d985"
   },
   "greenhouse-riotgames-7915320": {
@@ -17966,67 +17997,76 @@
     "is_hybrid": false,
     "job_summary": null,
     "skills": [],
-    "level": "manager",
+    "level": null,
     "comp": null,
-    "comp_extras": [],
+    "comp_extras": [
+      "equity"
+    ],
     "source_hash": "ad4bc475"
   },
   "greenhouse-grafanalabs-5994761004": {
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build intuitive, guided exploration UIs and workflows for the Grafana Drilldown plugin that enable users to navigate telemetry data without writing queries. Optimize for responsiveness and performance in a system serving millions of users across observability use cases.",
+    "job_summary": "Build intuitive, queryless exploration workflows and UI components for the Grafana Drilldown plugin that enable users to navigate telemetry data through point-and-click interactions. Drive performance optimization and cross-ecosystem integration across Grafana's observability platform serving millions of users.",
     "skills": [
       "React",
       "TypeScript",
-      "Frontend Performance Optimization",
-      "Grafana Plugin Development",
-      "User Experience Design",
-      "Query Building",
-      "Observability",
-      "JavaScript"
+      "Open Telemetry",
+      "Testing Automation",
+      "Accessibility",
+      "Performance Optimization",
+      "User Interface Design",
+      "Remote Collaboration"
     ],
     "level": "staff",
-    "comp": null,
-    "comp_extras": [],
+    "comp": "SEK 878,578 - SEK 1,054,294",
+    "comp_extras": [
+      "equity"
+    ],
     "source_hash": "48340895"
   },
   "greenhouse-grafanalabs-5994757004": {
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build intuitive frontend workflows for the Drilldown observability plugin that enable users to explore telemetry data through point-and-click interactions without writing queries. Performance and responsiveness are non-negotiable requirements for this user-facing system integrated with the Grafana ecosystem.",
+    "job_summary": "Build intuitive, queryless exploration workflows and guided UI features for the Grafana Drilldown plugin that help users navigate and analyze telemetry data. Optimize for performance and responsiveness while integrating across the Grafana observability ecosystem.",
     "skills": [
       "React",
-      "JavaScript",
       "TypeScript",
-      "Grafana",
-      "observability",
-      "UI/UX development",
-      "plugin architecture",
-      "performance optimization"
+      "Frontend Development",
+      "Testing Automation",
+      "Accessibility",
+      "Performance Optimization",
+      "OpenTelemetry"
     ],
     "level": "staff",
-    "comp": null,
-    "comp_extras": [],
+    "comp": "\u20ac117,600-\u20ac141,200",
+    "comp_extras": [
+      "equity"
+    ],
     "source_hash": "46aa03e2"
   },
   "greenhouse-grafanalabs-5994759004": {
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build intuitive frontend interfaces and guided workflows for the Drilldown observability plugin, enabling users to explore telemetry data through point-and-click interactions. Performance is critical \u2014 the plugin must feel responsive and interactive across Grafana's ecosystem serving millions of users.",
+    "job_summary": "Build intuitive, guided exploration workflows and queryless user interfaces within Grafana's Drilldown plugin that help users navigate complex telemetry data through point-and-click interactions. Drive frontend architecture improvements and feature delivery while maintaining high performance standards in a production observability platform used by millions.",
     "skills": [
       "React",
       "TypeScript",
+      "OpenTelemetry",
+      "JavaScript",
       "Frontend Performance Optimization",
-      "Grafana",
-      "Observability/Telemetry",
-      "Plugin Architecture"
+      "Accessibility",
+      "Testing Automation",
+      "UI/UX Design"
     ],
     "level": "staff",
-    "comp": null,
-    "comp_extras": [],
+    "comp": "\u00a3103,958-\u00a3124,750",
+    "comp_extras": [
+      "equity"
+    ],
     "source_hash": "35932bf0"
   },
   "greenhouse-reddit-7921134": {
@@ -18043,37 +18083,39 @@
   "greenhouse-cockroachlabs-7422578": {
     "is_engineering": true,
     "is_contract": false,
-    "is_hybrid": false,
-    "job_summary": "Design and build specialized indexing systems for CockroachDB, including vector, full-text, and geospatial indexes to support AI-native and search-driven applications. Work on distributed systems challenges integrating high-performance indexing into a production SQL query engine at scale.",
+    "is_hybrid": true,
+    "job_summary": "Design and build specialized indexing systems (vector, full-text, geospatial) for CockroachDB's distributed SQL engine. Work on high-performance indexing at the frontier of databases and AI, integrating new indexing mechanisms into the query engine and developing hybrid search capabilities.",
     "skills": [
       "Go",
       "C++",
       "Rust",
+      "PostgreSQL",
       "Vector Indexing",
-      "Query Execution",
-      "Distributed Systems",
-      "SQL",
-      "PostgreSQL"
+      "Full-Text Search",
+      "Geospatial Indexing",
+      "Distributed Systems"
     ],
-    "level": "senior",
+    "level": "staff",
     "comp": null,
-    "comp_extras": [],
+    "comp_extras": [
+      "equity"
+    ],
     "source_hash": "f2b1ecd3"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5994701004": {
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Operate and evolve a global, high-capacity backbone network connecting PlayStation data centers, studios, and cloud platforms through incident response, troubleshooting, and automation. Work on production infrastructure at scale across distributed regions in a 24/7 follow-the-sun operational model.",
+    "job_summary": "Operate and evolve a global production network backbone connecting data centers, studios, and cloud platforms that power PlayStation services. Work on large-scale networking infrastructure with 24/7 on-call responsibilities in a follow-the-sun operational model.",
     "skills": [
       "BGP",
       "OSPF",
       "IS-IS",
-      "Python",
       "Git",
+      "Python",
       "Linux",
-      "sFlow",
-      "IPFIX"
+      "MPLS",
+      "sFlow"
     ],
     "level": "junior",
     "comp": null,
@@ -18082,12 +18124,12 @@
   },
   "greenhouse-scoutmotors-5098959007": {
     "is_engineering": false,
-    "is_contract": false,
+    "is_contract": true,
     "is_hybrid": false,
     "job_summary": null,
     "skills": [],
     "level": "intern",
-    "comp": null,
+    "comp": "$20/hour",
     "comp_extras": [],
     "source_hash": "f1c70be8"
   },
@@ -18109,16 +18151,15 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build and maintain the Android Maps SDK, designing expressive APIs and implementing features that integrate multiple Mapbox SDKs (Navigation, Maps, Search) across diverse devices from phones to embedded boards. Lead architectural direction, mentor teams, and optimize performance for a platform used by millions of developers building navigation and AR experiences.",
+    "job_summary": "Build and architect the Android Maps SDK that powers mobile map experiences across millions of developer applications. Design scalable APIs and cross-platform implementations that integrate Navigation, Maps, and Search SDKs while optimizing performance across diverse device types from phones to smartwatches.",
     "skills": [
       "Kotlin",
       "Java",
       "Android",
-      "SDKs",
-      "APIs",
-      "Mobile Development",
-      "Performance Optimization",
-      "Cross-platform Development"
+      "C++",
+      "SDK design",
+      "Performance optimization",
+      "Testing frameworks"
     ],
     "level": "senior",
     "comp": null,
@@ -18140,19 +18181,19 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": true,
-    "job_summary": "Lead a security engineering organization building secure-by-design platform primitives (compute, storage, networking, identity) and infrastructure that embed security properties at the architectural level. Direct high-performing security engineers and engineering leaders across a fintech platform handling sensitive financial data at scale, protecting against sophisticated adversaries.",
+    "job_summary": "Lead the architecture and delivery of security-focused platform primitives (compute, storage, networking, identity) across Monzo's financial infrastructure. Build secure-by-design systems and tooling that enable engineering teams to move at scale without compromising security in a high-threat environment handling millions of users' sensitive financial data.",
     "skills": [
-      "Secure by Design",
-      "Platform Architecture",
       "Distributed Systems",
-      "Cloud Infrastructure",
-      "Identity Systems",
+      "Cryptography",
+      "Kubernetes",
+      "Cloud Infrastructure (AWS/GCP/Azure)",
+      "Go",
+      "Rust",
       "Threat Modeling",
-      "Security Tools",
-      "Kubernetes"
+      "Platform Security"
     ],
     "level": "manager",
-    "comp": "$170k-$200k",
+    "comp": "\u00a3170k-\u00a3200k",
     "comp_extras": [
       "equity"
     ],
@@ -18162,19 +18203,19 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build and maintain the Android Maps SDK, designing expressive APIs and implementing cross-platform features that power navigation and location experiences across mobile devices, wearables, and embedded systems. Lead large-scale architectural initiatives and mentor engineers on a team shipping SDKs used by millions of developers.",
+    "job_summary": "Build the Android Maps SDK and related developer tools, designing expressive APIs and cross-platform implementations for mobile mapping applications at scale. Integrate multiple Mapbox SDKs (Navigation, Maps, Search) while optimizing performance across diverse device form factors from phones to embedded boards.",
     "skills": [
       "Kotlin",
       "Java",
       "Android",
-      "Maps SDK",
-      "Navigation SDK",
-      "Cross-platform Development",
-      "Performance Optimization",
-      "API Design"
+      "C++",
+      "Native Development",
+      "Testing Frameworks",
+      "Performance Profiling",
+      "SDK Design"
     ],
     "level": "senior",
-    "comp": null,
+    "comp": "$95k-$143k",
     "comp_extras": [],
     "source_hash": "f3b13caa"
   },
@@ -18182,16 +18223,16 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build the Android Maps SDK \u2014 a public library powering mobile maps across Flutter, Android, iOS, and embedded devices. Design scalable APIs and cross-platform implementations that integrate Navigation, Maps, and Search SDKs for high-traffic consumer and enterprise applications.",
+    "job_summary": "Build and architect the Android Maps SDK that powers mobile mapping applications across phones, tablets, smartwatches, and embedded devices. Lead cross-functional technical initiatives integrating Navigation, Maps, and Search SDKs while mentoring teams and setting long-term architectural direction.",
     "skills": [
       "Kotlin",
       "Java",
       "Android",
-      "SDK design",
       "C++",
-      "Cross-platform development",
-      "Performance optimization",
-      "API design"
+      "SDK design",
+      "Performance profiling",
+      "Testing frameworks",
+      "AOSP"
     ],
     "level": "senior",
     "comp": null,
@@ -18205,7 +18246,7 @@
     "job_summary": null,
     "skills": [],
     "level": "principal",
-    "comp": null,
+    "comp": "$160,700\u2014$200,850",
     "comp_extras": [],
     "source_hash": "31744010"
   },
@@ -18223,17 +18264,16 @@
   "greenhouse-riotgames-7875327": {
     "is_engineering": true,
     "is_contract": false,
-    "is_hybrid": false,
-    "job_summary": "Build and maintain tools, pipelines, and systems for character asset development in League of Legends. Work at scale across multiple partner studios to develop processes and enforce data pipelines for live-service content delivery.",
+    "is_hybrid": true,
+    "job_summary": "Build tools, pipelines, and systems for character asset development in League of Legends, enabling artists to author and scale high-quality content. Work at the intersection of art and engineering to maintain data pipelines at scale across multiple live-service content types and partner studios.",
     "skills": [
       "Python",
-      "3D tools (Maya/Blender)",
-      "Character pipeline development",
-      "VFX",
-      "Rendering",
-      "Substance",
-      "ZBrush",
-      "DCC applications"
+      "C++",
+      "C#",
+      "CI/CD",
+      "Character Pipelines",
+      "3D Tools (Substance, ZBrush, Maya)",
+      "DCC App Development"
     ],
     "level": "senior",
     "comp": null,
@@ -18257,7 +18297,7 @@
     "is_hybrid": false,
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "senior",
     "comp": null,
     "comp_extras": [],
     "source_hash": "ac258b85"
@@ -18266,40 +18306,43 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build and evolve a high-performance internal data warehouse platform using ClickHouse, dbt, and Airflow, delivering optimized data pipelines and models to support company-wide analytics and decision-making. Optimize and maintain data infrastructure processing 2.5 PB of data with sub-hour latency requirements across 30+ external data sources.",
+    "job_summary": "Design and build reusable data pipeline components, ETL abstractions, and DataOps tooling on ClickHouse to power real-time analytics across the organization. Optimize high-throughput pipelines processing 2.5+ PB of data with sub-hour latency requirements.",
     "skills": [
       "Python",
       "Airflow",
       "dbt",
-      "ClickHouse",
       "SQL",
+      "ClickHouse",
+      "GitHub Actions",
       "AWS",
-      "CI/CD",
-      "GitHub Actions"
+      "Incremental ETL"
     ],
     "level": "senior",
-    "comp": null,
-    "comp_extras": [],
+    "comp": "$84k-$170k",
+    "comp_extras": [
+      "equity"
+    ],
     "source_hash": "ecd834b5"
   },
   "greenhouse-grafanalabs-5994758004": {
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build intuitive, guided UI workflows for the Drilldown plugin that help users explore complex telemetry data through point-and-click interactions without writing queries. Optimize for responsive performance while integrating seamlessly across the Grafana observability ecosystem serving 20M+ users.",
+    "job_summary": "Build and enhance queryless exploration workflows for the Drilldown plugin, enabling users to navigate telemetry data through intuitive point-and-click interfaces. Optimize for performance and responsiveness while integrating with the broader Grafana observability ecosystem.",
     "skills": [
       "React",
       "TypeScript",
-      "JavaScript",
-      "Plugin Architecture",
-      "Frontend Performance",
-      "Grafana",
-      "Telemetry/Observability Platforms",
-      "User Experience Design"
+      "Frontend Development",
+      "Open Telemetry",
+      "Accessibility",
+      "Performance Optimization",
+      "Testing Automation"
     ],
     "level": "staff",
-    "comp": null,
-    "comp_extras": [],
+    "comp": "\u20ac109,709-\u20ac131,651",
+    "comp_extras": [
+      "equity"
+    ],
     "source_hash": "63d05035"
   },
   "greenhouse-scopely-5182672008": {
@@ -18317,19 +18360,21 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build intuitive frontend workflows and plugins for the Drilldown observability product that enable users to explore telemetry data through guided, queryless interfaces. Optimize for responsiveness and performance while integrating across the Grafana ecosystem (Mimir, Loki, Tempo).",
+    "job_summary": "Build intuitive, queryless exploration workflows and guided user interfaces for the Grafana observability platform using React and TypeScript. The role requires ownership of frontend systems that must maintain responsive, high-performance interactions while integrating across the broader Grafana ecosystem.",
     "skills": [
       "React",
       "TypeScript",
-      "JavaScript",
-      "Grafana",
-      "Plugin Development",
-      "Frontend Performance Optimization",
-      "User Interface Design"
+      "Frontend Development",
+      "Performance Optimization",
+      "Accessibility",
+      "Testing Automation",
+      "Open Telemetry"
     ],
     "level": "staff",
-    "comp": null,
-    "comp_extras": [],
+    "comp": "\u20ac94,025-\u20ac112,830",
+    "comp_extras": [
+      "equity"
+    ],
     "source_hash": "fd36cea5"
   },
   "ashby-cognition-99ac30db-26d9-4cae-8b50-5a509dfb10a9": {
@@ -18368,21 +18413,23 @@
   "greenhouse-cockroachlabs-7349702": {
     "is_engineering": true,
     "is_contract": false,
-    "is_hybrid": false,
-    "job_summary": "Design and build cloud platform infrastructure and cluster management systems for CockroachDB Cloud across multiple cloud providers. Operate mission-critical production services at global scale with complex distributed systems challenges.",
+    "is_hybrid": true,
+    "job_summary": "Design, build, and operate cloud platform infrastructure and systems for CockroachDB Cloud across multiple cloud providers (AWS, Azure, GCP), including Kubernetes cluster management, deployment automation, and production reliability tooling. You will work on globally distributed, mission-critical systems managing multi-region deployments and elastic scaling at scale.",
     "skills": [
+      "Go",
+      "Python",
       "Kubernetes",
       "AWS",
       "Azure",
       "GCP",
-      "Go",
-      "Distributed Systems",
-      "Infrastructure Automation",
-      "Production Operations"
+      "Terraform",
+      "Distributed Systems"
     ],
-    "level": "staff",
+    "level": "mid",
     "comp": null,
-    "comp_extras": [],
+    "comp_extras": [
+      "equity"
+    ],
     "source_hash": "54f64abb"
   }
 }

@@ -116,7 +116,8 @@ Extract the following. Use judgment — if the description gives strong signals,
    Respond with exactly one of: yes / no
 
 7. COMP: Base salary range stated in the posting.
-   Format as "$Xk-$Yk" (e.g. "$120k-$160k") or "$X-$Y" if stated in full.
+   Preserve the original currency symbol (e.g. "$120k-$160k", "£75k-£100k", "€80k-€110k").
+   Abbreviate thousands as k (e.g. £75,000 → £75k). If stated in full dollars/pounds/etc, keep as-is.
    If multiple ranges by location, use the overall min to overall max.
    If only a single figure, use that. If not stated, write: n/a
 
@@ -236,7 +237,8 @@ def call_ollama(prompt: str) -> str:
 
 
 def classify_with_llm(job: dict) -> dict:
-    description = job.get("raw_text", "").strip()[:3000]
+    import html
+    description = html.unescape(job.get("raw_text", "")).strip()
     template = OLLAMA_PROMPT if BACKEND == "ollama" else PROMPT
     prompt = template.format(
         title=job["title"],

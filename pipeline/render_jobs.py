@@ -15,7 +15,7 @@ COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies_classified.j
 COMPANIES_DOMAINS_FILE = Path(__file__).parent.parent / "data" / "companies.json"
 
 HASH_MARKER = "render_hash: "
-FORMAT_VERSION = "12"  # bump to force re-render of all files
+FORMAT_VERSION = "13"  # bump to force re-render of all files
 SKILL_COLOR = "3B82F6"
 
 
@@ -41,13 +41,14 @@ def render_hash(job: dict, classification: dict) -> str:
 
 
 def clean_location(location: str, is_remote: bool) -> str:
-    """Strip 'remote' from location string when the Remote tag is already shown."""
+    """Strip 'remote'/'hybrid' from location string when the tag is already shown."""
     if not is_remote or not location:
         return location
-    cleaned = re.sub(r"\s*[-–,]\s*remote\b", "", location, flags=re.I)
-    cleaned = re.sub(r"\bremote\s*[-–,]\s*", "", cleaned, flags=re.I)
-    cleaned = re.sub(r"^\s*remote\s*$", "", cleaned, flags=re.I)
-    return cleaned.strip().strip("-").strip(",").strip()
+    cleaned = re.sub(r"\s*\(\s*(?:remote|hybrid)\s*\)", "", location, flags=re.I)
+    cleaned = re.sub(r"\s*[-–,|]\s*(?:remote|hybrid)\b", "", cleaned, flags=re.I)
+    cleaned = re.sub(r"\b(?:remote|hybrid)\s*[-–,|]\s*", "", cleaned, flags=re.I)
+    cleaned = re.sub(r"^\s*(?:remote|hybrid)\s*$", "", cleaned, flags=re.I)
+    return cleaned.strip().strip("-").strip(",").strip("|").strip()
 
 
 def format_date(iso: str | None) -> str | None:

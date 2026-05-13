@@ -55,10 +55,11 @@ def format_meta(fm: dict) -> str:
         location = ""
 
     if remote == "Remote" and location:
-        location = re.sub(r"\s*[-–,]\s*remote\b", "", location, flags=re.I)
-        location = re.sub(r"\bremote\s*[-–,]\s*", "", location, flags=re.I)
-        location = re.sub(r"^\s*remote\s*$", "", location, flags=re.I)
-        location = location.strip().strip("-").strip(",").strip()
+        location = re.sub(r"\s*\(\s*(?:remote|hybrid)\s*\)", "", location, flags=re.I)
+        location = re.sub(r"\s*[-–,|]\s*(?:remote|hybrid)\b", "", location, flags=re.I)
+        location = re.sub(r"\b(?:remote|hybrid)\s*[-–,|]\s*", "", location, flags=re.I)
+        location = re.sub(r"^\s*(?:remote|hybrid)\s*$", "", location, flags=re.I)
+        location = location.strip().strip("-").strip(",").strip("|").strip()
 
     parts = [f"**{company}**"]
     if location:
