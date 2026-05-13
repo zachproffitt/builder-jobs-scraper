@@ -18431,5 +18431,400 @@
       "equity"
     ],
     "source_hash": "54f64abb"
+  },
+  "ashby-sierra-98c89e11-17f2-42a6-8ea3-2bd4dd10d313": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "46a8197f"
+  },
+  "greenhouse-axiom-8547779002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3eb473f6"
+  },
+  "greenhouse-rocketlab-7732662003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$100,000\u2014$130,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "07318399"
+  },
+  "greenhouse-epicgames-5657932004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "comp": "$186,758-$301,303",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "69b701ad"
+  },
+  "greenhouse-epicgames-5678441004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "comp": "$197,654\u2014$289,893 CAD",
+    "comp_extras": [],
+    "source_hash": "013c8f45"
+  },
+  "greenhouse-anthropic-5218395008": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Optimize the performance and reliability of Claude Code and the Bun JavaScript runtime by designing and building core systems including runtime internals, I/O paths, memory management, and the agent execution loop. Drive down memory usage, latency, and startup time across the stack from kernel interfaces through the JS engine to the agent layer.",
+    "skills": [
+      "C",
+      "C++",
+      "Rust",
+      "JavaScript",
+      "Linux internals",
+      "Memory management",
+      "Performance profiling",
+      "Bun runtime"
+    ],
+    "level": "senior",
+    "comp": "$320k-$485k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "96dddb85"
+  },
+  "greenhouse-epicgames-5657930004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "70705d56"
+  },
+  "lever-loftorbital-6a0e24ba-4583-4996-bd26-694e8beb4ee9": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0e4f6036"
+  },
+  "greenhouse-scopely-5098020008": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build and evolve CI/CD pipelines, automation frameworks, and internal developer tooling that enable safe, reliable software delivery across development and production environments. This role requires operating systems across multiple environments and improving engineering team productivity through infrastructure-as-code and deployment automation.",
+    "skills": [
+      "Python",
+      "Go",
+      "GitHub Actions",
+      "GitLab CI",
+      "Jenkins",
+      "Kubernetes",
+      "AWS",
+      "Terraform"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "dd18c8a7"
+  },
+  "greenhouse-scopely-5124529008": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build backend services and APIs in Python running on AWS for a large-scale multiplayer strategy game, handling server architecture, performance optimization, and anti-cheat systems. Work on foundational server technologies supporting millions of concurrent players with requirements for high availability, low latency, and security hardening.",
+    "skills": [
+      "Python",
+      "AWS",
+      "Redis",
+      "Flask",
+      "Docker",
+      "MySQL",
+      "Linux",
+      "Terraform"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b6af309e"
+  },
+  "greenhouse-scopely-5081833008": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build and operate reliability and observability infrastructure for a multiplayer strategy MMO, automating operational toil and implementing systems that scale to millions of concurrent players. Drive production incident response, performance optimization, and cloud cost management across distributed game services.",
+    "skills": [
+      "Go",
+      "Python",
+      "Terraform",
+      "Kubernetes",
+      "AWS",
+      "Datadog",
+      "Infrastructure as Code",
+      "Distributed Systems"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "35cf1f36"
+  },
+  "ashby-Sierra-98c89e11-17f2-42a6-8ea3-2bd4dd10d313": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "bbfa0129"
+  },
+  "greenhouse-sonyinteractiveentertainmentglobal-5988667004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$155,200\u2013$232,800",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "a43c3b57"
+  },
+  "greenhouse-rockstargames-7681483003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$75,500\u2014$111,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "2ef7eea3"
+  },
+  "greenhouse-mercury-5995303004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": "$170.4k-$236.7k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "09c643d5"
+  },
+  "greenhouse-scopely-4662589008": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build and maintain the backend server infrastructure for a cross-platform Strategy/MMO game's LiveOps platform, delivering high-performance web services that handle millions of concurrent players. Design scalable, low-latency cloud solutions in AWS supporting real-time game operations and player engagement at massive scale.",
+    "skills": [
+      "Python",
+      "Go",
+      "C#",
+      "JavaScript",
+      "TypeScript",
+      "PostgreSQL",
+      "Redis",
+      "DynamoDB"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6695922d"
+  },
+  "ashby-ramp-b4cbb19e-8249-4339-8eac-20e3806d7999": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "44076537"
+  },
+  "greenhouse-natera-5995430004": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9e7598bb"
+  },
+  "ashby-notion-c565d3b0-0dcf-4bcd-b29b-4168479ac78e": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build scalable evaluation infrastructure and tooling that enables Notion's AI teams to ship high-quality models faster, including eval runners, benchmarks, datasets, and measurement systems. Work at the intersection of developer tooling and distributed systems to make LLM evaluations reliable, cost-effective, and integrated into daily shipping workflows.",
+    "skills": [
+      "TypeScript",
+      "Python",
+      "Distributed Systems",
+      "Data Pipelines",
+      "LLM Evaluation",
+      "CI/CD",
+      "Batch Processing",
+      "Kubernetes"
+    ],
+    "level": "mid",
+    "comp": "$214k-$300k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "1442ceb9"
+  },
+  "ashby-horizon3ai-6b2bc47c-7a5d-4bca-a10c-8a79cb7f977d": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$210k-$240k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "995421d2"
+  },
+  "ashby-coderabbit-186fcc99-8e71-4462-b9a2-71f1b4aa44ca": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$140k-$190k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "0faa711f"
+  },
+  "greenhouse-intercom-7917235": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "9f2ebb19"
+  },
+  "ashby-horizon3ai-d9156591-9240-4362-8fb9-babd8ca30d3c": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "\u20ac160k-\u20ac190k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "3ee5c44b"
+  },
+  "ashby-horizon3ai-c4fb9e3c-0856-4430-ac4b-ca8b90cc1b80": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "\u20ac160k-\u20ac190k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "b192918c"
+  },
+  "greenhouse-workleap-5133911007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build a brand-new web application for ShareGate Migrate from scratch, establishing technical foundations and shipping full-stack features using TypeScript and React. Integrate Microsoft 365 APIs (Microsoft Graph, Azure AD/Entra ID, MSAL) to enable migration and authentication workflows at scale for thousands of IT professionals.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "C#/.NET",
+      "Microsoft Graph",
+      "Azure AD/Entra ID",
+      "MSAL",
+      "Relational Databases",
+      "Non-relational Databases"
+    ],
+    "level": "mid",
+    "comp": "$100k-$130k CAD",
+    "comp_extras": [],
+    "source_hash": "13e94cd1"
+  },
+  "greenhouse-intercom-7920710": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "ff7dd308"
+  },
+  "greenhouse-intercom-7920712": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "bb52de1f"
   }
 }
