@@ -95,11 +95,21 @@ Answer both:
 
    Respond with exactly one of: intern / junior / mid / senior / staff / principal / manager / unclear
 
+5. CONTRACT: Is this a contract, temporary, or fixed-term position rather than permanent full-time employment?
+   yes = contract, contractor, freelance, fixed-term, temporary, limited-term engagement
+   no = permanent full-time employment (default if not stated)
+   Look for signals in the title (e.g. "CONTRACT", "Contractor") and description (e.g. "12-month contract",
+   "fixed-term", "temporary position"). Ignore uses of "contract" that refer to the domain or work content
+   (e.g. "smart contracts", "government contracts", "contract negotiation").
+
+   Respond with exactly one of: yes / no
+
 Respond in exactly this format:
 BUILDER: <yes/no/unclear>
 SUMMARY: <summary or vague or n/a>
 SKILLS: <skill1, skill2, ... or n/a>
 LEVEL: <intern/junior/mid/senior/staff/principal/manager/unclear>
+CONTRACT: <yes/no>
 """
 
 
@@ -111,7 +121,7 @@ def content_hash(job: dict) -> str:
 VALID_LEVELS = {"intern", "junior", "mid", "senior", "staff", "principal", "manager"}
 
 
-def classify_with_llm(job: dict) -> tuple[bool | None, str | None, list[str], str | None]:
+def classify_with_llm(job: dict) -> tuple[bool | None, str | None, list[str], str | None, bool]:
     description = job.get("raw_text", "").strip()[:3000]
     prompt = PROMPT.format(
         title=job["title"],
@@ -130,6 +140,7 @@ def classify_with_llm(job: dict) -> tuple[bool | None, str | None, list[str], st
     job_summary = None
     skills = []
     level = None
+    is_contract = False
 
     for line in text.splitlines():
         if line.startswith("BUILDER:"):
@@ -150,8 +161,11 @@ def classify_with_llm(job: dict) -> tuple[bool | None, str | None, list[str], st
             val = line.removeprefix("LEVEL:").strip().lower()
             if val in VALID_LEVELS:
                 level = val
+        elif line.startswith("CONTRACT:"):
+            val = line.removeprefix("CONTRACT:").strip().lower()
+            is_contract = val == "yes"
 
-    return is_engineering, job_summary, skills, level
+    return is_engineering, job_summary, skills, level, is_contract
 
 
 def main():
@@ -204,7 +218,7 @@ def main():
                 n = completed
 
             try:
-                job, (is_e, summary, skills, level) = future.result()
+                job, (is_e, summary, skills, level, is_contract) = future.result()
             except Exception as e:
                 job = future_to_job[future]
                 with lock:
@@ -215,6 +229,7 @@ def main():
             with lock:
                 existing[job["id"]] = {
                     "is_engineering": is_e,
+                    "is_contract": is_contract,
                     "job_summary": summary,
                     "skills": skills,
                     "level": level,
@@ -222,7 +237,8 @@ def main():
                 }
                 if is_e is True:
                     eng += 1
-                    line = f"  [{n:>5}/{total}] ✓ {job['company']}: {job['title'][:50]} — {(summary or 'no summary')[:60]}"
+                    contract_tag = " [contract]" if is_contract else ""
+                    line = f"  [{n:>5}/{total}] ✓ {job['company']}: {job['title'][:50]}{contract_tag} — {(summary or 'no summary')[:60]}"
                 elif is_e is False:
                     not_eng += 1
                     line = f"  [{n:>5}/{total}] ✗ {job['company']}: {job['title'][:50]}"

@@ -15,7 +15,7 @@ COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies_classified.j
 COMPANIES_DOMAINS_FILE = Path(__file__).parent.parent / "data" / "companies.json"
 
 HASH_MARKER = "render_hash: "
-FORMAT_VERSION = "8"  # bump to force re-render of all files
+FORMAT_VERSION = "9"  # bump to force re-render of all files
 SKILL_COLOR = "3B82F6"
 
 
@@ -178,6 +178,7 @@ def main():
     eng_jobs = [
         j for j in jobs
         if classified.get(j["id"], {}).get("is_engineering") is True
+        and not classified.get(j["id"], {}).get("is_contract", False)
     ]
 
     print(f"Engineering jobs to render: {len(eng_jobs)} / {len(jobs)} total")
