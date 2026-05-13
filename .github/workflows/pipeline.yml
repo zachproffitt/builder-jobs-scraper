@@ -1,0 +1,90 @@
+name: Hourly pipeline
+
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout scraper
+        uses: actions/checkout@v4
+        with:
+          path: scraper
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Checkout jobs repo
+        uses: actions/checkout@v4
+        with:
+          repository: zachproffitt/builder-jobs
+          path: jobs
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scraper/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Configure git
+        run: |
+          git config --global user.name "builder-jobs-bot"
+          git config --global user.email "bot@builder-jobs"
+
+      - name: Fetch jobs
+        working-directory: scraper
+        run: PYTHONPATH=. python pipeline/fetch_jobs.py
+
+      - name: Fetch descriptions
+        working-directory: scraper
+        run: PYTHONPATH=. python pipeline/fetch_job_descriptions.py
+
+      - name: Classify companies
+        working-directory: scraper
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: PYTHONPATH=. python pipeline/classify_companies.py
+
+      - name: Classify jobs
+        working-directory: scraper
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: PYTHONPATH=. python pipeline/classify_jobs.py
+
+      - name: Render jobs
+        working-directory: scraper
+        run: PYTHONPATH=. python pipeline/render_jobs.py ../jobs/jobs
+
+      - name: Generate index
+        working-directory: scraper
+        run: PYTHONPATH=. python pipeline/generate_index.py ../jobs
+
+      - name: Commit and push jobs repo
+        working-directory: jobs
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes in jobs repo"
+          else
+            git commit -m "$(date -u '+%b %-d at %H:%M UTC')"
+            git push
+          fi
+
+      - name: Commit and push scraper data
+        working-directory: scraper
+        run: |
+          git add data/seen_jobs.json data/seen_companies.json data/jobs_classified.json data/companies_classified.json
+          if git diff --cached --quiet; then
+            echo "No changes in scraper data"
+          else
+            git commit -m "Pipeline data — $(date -u '+%b %-d at %H:%M UTC')"
+            git push
+          fi
