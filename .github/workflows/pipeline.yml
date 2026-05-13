@@ -12,20 +12,20 @@ jobs:
 
     steps:
       - name: Checkout scraper
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           path: scraper
           token: ${{ secrets.GH_PAT }}
 
       - name: Checkout jobs repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: zachproffitt/builder-jobs
           path: jobs
           token: ${{ secrets.GH_PAT }}
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
