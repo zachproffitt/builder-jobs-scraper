@@ -21348,5 +21348,18 @@
       "bonus"
     ],
     "source_hash": "d7d4220c"
+  },
+  "greenhouse-anthropic-5211184008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$310k-$375k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "936738b6"
   }
 }
