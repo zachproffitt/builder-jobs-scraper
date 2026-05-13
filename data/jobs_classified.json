@@ -18826,5 +18826,724 @@
       "bonus"
     ],
     "source_hash": "bb52de1f"
+  },
+  "greenhouse-stripe-7463165": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ee986d89"
+  },
+  "greenhouse-vast-4680779006": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$23\u2013$49",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c66027d6"
+  },
+  "greenhouse-figma-5991176004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and operationalize AI-powered workflows that integrate across the GTM stack (Salesforce, Slack, data systems) to automate sales operations. Apply LLMs pragmatically to production workflows with quality checks, monitoring, and reusable patterns for distributed adoption.",
+    "skills": [
+      "Python",
+      "SQL",
+      "Salesforce",
+      "Slack",
+      "OpenAI",
+      "Anthropic",
+      "LLMs",
+      "API Integration"
+    ],
+    "level": "mid",
+    "comp": "$140,000\u2014$296,000 USD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "19ce96ba"
+  },
+  "ashby-1x-70ac9c3a-c166-443c-a26b-4dac210d854f": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$30/hr\u2013$50/hr",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "0e6677ca"
+  },
+  "greenhouse-stripe-7921649": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e9036b12"
+  },
+  "greenhouse-airbnb-7917632": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": "$136,000\u2013$160,000 USD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "f46f2c40"
+  },
+  "greenhouse-apptronik-5995524004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4dd38d06"
+  },
+  "greenhouse-apptronik-5995503004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bf2bc545"
+  },
+  "ashby-openai-579595e5-0b16-485e-b7c5-102fc7467def": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and build data pipelines and canonical datasets in Databricks to power People Innovation Labs' internal products and analytics. Work across distributed systems and ETL infrastructure to ensure seamless data integration for people metrics and product analytics.",
+    "skills": [
+      "Python",
+      "Databricks",
+      "Spark",
+      "Airflow",
+      "ETL",
+      "Data Warehousing",
+      "Scala",
+      "Java"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d6c19009"
+  },
+  "greenhouse-apptronik-5988362004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8c6b0ea9"
+  },
+  "greenhouse-waymo-7921098": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$272k-$336k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "567fcf2d"
+  },
+  "greenhouse-maymobility-8541133002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "\u00a56,087,200\u2014\u00a57,609,000",
+    "comp_extras": [],
+    "source_hash": "a3b6bc38"
+  },
+  "ashby-cohere-36d1f52f-8270-4652-adf5-5303a0ff341b": {
+    "is_engineering": true,
+    "is_contract": true,
+    "is_hybrid": true,
+    "job_summary": "Design, train, and improve cutting-edge large-scale language models, then deploy them to production. Work on novel training techniques, distributed model serving, and streaming data strategies at massive scale.",
+    "skills": [
+      "Python",
+      "TensorFlow",
+      "JAX",
+      "CUDA",
+      "Transformers",
+      "Distributed Training",
+      "XLA/MLIR",
+      "TF-Serving"
+    ],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d3e55741"
+  },
+  "greenhouse-andurilindustries-5136791007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$86,000\u2014$114,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c6e54427"
+  },
+  "greenhouse-apptronik-5995487004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bc4b125d"
+  },
+  "greenhouse-andurilindustries-5075291007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$129k-$171k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "b081238d"
+  },
+  "greenhouse-andurilindustries-5030386007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$111k-$147k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "09eb1bdf"
+  },
+  "greenhouse-andurilindustries-5136753007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build autonomy, simulation, and command-and-control software for autonomous maritime platforms and underwater vessels operating at scale. Requires active U.S. Secret security clearance and involvement in full lifecycle product delivery including manufacturing, deployment, and field operations.",
+    "skills": [
+      "C++",
+      "Rust",
+      "Go",
+      "TypeScript",
+      "React",
+      "Robotics",
+      "Computer Vision",
+      "Security Clearance"
+    ],
+    "level": "mid",
+    "comp": "$166k-$220k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "58495667"
+  },
+  "greenhouse-andurilindustries-5088766007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Architect and build distributed systems for manufacturing execution (work order management, scheduling, material flow, capacity planning) that orchestrate Anduril's production operations at scale. This role bridges manufacturing domain requirements with platform infrastructure in a defense context requiring security clearance and involving mission-critical systems.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "Remix",
+      "AWS",
+      "Manufacturing Execution Systems (MES)",
+      "Distributed Systems",
+      "U.S. Person Status / TS/SCI Clearance"
+    ],
+    "level": "staff",
+    "comp": "$220,000\u2013$292,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "81dcc91a"
+  },
+  "greenhouse-andurilindustries-5136556007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$113k-$194k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "bd81662b"
+  },
+  "greenhouse-epirus-5993844004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$100.8k-$116.5k",
+    "comp_extras": [],
+    "source_hash": "75fd5bdf"
+  },
+  "greenhouse-redwoodmaterials-5992035004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "84b94ef2"
+  },
+  "greenhouse-redwoodmaterials-5995579004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c8a3f767"
+  },
+  "greenhouse-roblox-7920868": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "83232ea3"
+  },
+  "greenhouse-riotgames-7545471": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build and evolve scalable backend services and frontend architecture for Riot's content publishing platform that delivers content across game clients, websites, and mobile apps to millions of players. Own the full-stack systems (CMS, microservices, internal tools) that enable content creators to manage and distribute content at global scale across a complex ecosystem.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "Java",
+      "Node.js",
+      "CI/CD Pipelines",
+      "AWS Lambda",
+      "Content Management Systems",
+      "Distributed Systems"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "91f582ad"
+  },
+  "greenhouse-epirus-5814084004": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$142,700\u2013$171,000",
+    "comp_extras": [],
+    "source_hash": "cdf766db"
+  },
+  "greenhouse-roblox-7918044": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fcf8011e"
+  },
+  "lever-palantir-164da0e1-0bc2-46a7-bd4c-cb46b889dc63": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and build automation and observability systems for database deployment and operations across diverse environments. Respond to production incidents affecting critical infrastructure used in high-impact domains.",
+    "skills": [
+      "Database Systems",
+      "Automation",
+      "Observability",
+      "Distributed Systems",
+      "Infrastructure as Code"
+    ],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "01290534"
+  },
+  "greenhouse-redwoodmaterials-5995097004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$125k-$197.5k",
+    "comp_extras": [],
+    "source_hash": "48cc63a8"
+  },
+  "greenhouse-archer56-7692947003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$204k-$224k",
+    "comp_extras": [],
+    "source_hash": "4e4d338e"
+  },
+  "greenhouse-tenstorrent-5136750007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d1edf28c"
+  },
+  "greenhouse-rockstargames-7726904003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$137,300-$180,500",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "dc308784"
+  },
+  "ashby-ScribdInc-be9b9e96-34c3-4600-b1d3-aaae65b788c0": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Design and build scalable distributed systems that extract, enrich, and process metadata from millions of documents, images, and audio content using Python and cloud infrastructure. Integrate LLMs into production metadata pipelines operating at global scale across hundreds of millions of documents.",
+    "skills": [
+      "Python",
+      "Scala",
+      "Airflow",
+      "Spark",
+      "Databricks",
+      "AWS",
+      "Terraform",
+      "LLMs"
+    ],
+    "level": "senior",
+    "comp": "$103,500-$196,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "dfa950f0"
+  },
+  "greenhouse-amplitude-8547989002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "34529e3c"
+  },
+  "ashby-astronomer-4bb8ee05-551c-42ef-92b6-a0972ccc3898": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "up to $200k OTE",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "064d410b"
+  },
+  "greenhouse-zyngacareers-5995422004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5b05b06a"
+  },
+  "greenhouse-huntress-7725311003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "\u20ac63k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "ff884428"
+  },
+  "ashby-semgrep-ced05a0c-4078-4f79-8f43-57854bf7cff1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$300k-$400k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "efe76ace"
+  },
+  "greenhouse-rockstargames-7711703003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Develop full-stack online services infrastructure (matchmaking, cloud saves, player stats, leaderboards) that powers Rockstar's game platforms using C#, React, and SQL. Work on foundational systems and tooling that enable global teams to build and maintain the online environment at scale.",
+    "skills": [
+      "C#",
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "MSSQL",
+      "T-SQL",
+      "Perforce",
+      "Redis"
+    ],
+    "level": "mid",
+    "comp": "$101,100\u2013$134,300",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "8df83f4a"
+  },
+  "greenhouse-amplitude-8548089002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6a97cbcf"
+  },
+  "ashby-replit-b2d681c3-e0da-42a6-b813-f3a8181a1af0": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "28a99235"
+  },
+  "ashby-replit-16f1c784-449b-4c84-bee7-b2bf18768977": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Design and implement application security architecture for Replit's multi-tenant SaaS platform, defining secure patterns for tenant separation, authentication, authorization, and encryption. Lead threat modeling, security code reviews, and architecture documentation while mentoring engineering teams on secure-by-design practices.",
+    "skills": [
+      "Python",
+      "Go",
+      "JavaScript",
+      "OAuth",
+      "SAML",
+      "OIDC",
+      "mTLS",
+      "Threat Modeling"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "47a528f4"
+  },
+  "greenhouse-natera-5995455004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$80,000\u2014$100,000",
+    "comp_extras": [],
+    "source_hash": "32b391ad"
+  },
+  "greenhouse-huntress-7725309003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "\u00a352.5k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "e6ce8d5b"
+  },
+  "greenhouse-mercury-5994222004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$239,000 - $298,800",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "8699e7ca"
+  },
+  "ashby-notion-3c365b9b-fbcb-4f8c-bdb5-b6b4bc90b588": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$250,000-$300,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "ccb970e1"
+  },
+  "ashby-langchain-068b2e23-af01-42c7-9bce-d86976ea4d6e": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Engineer a distributed database storage layer for AI observability, optimized for ingesting and querying trillions of traces at scale. Design and optimize execution engines, storage layout, and cloud integration while profiling performance across memory, CPU, and async runtimes.",
+    "skills": [
+      "Rust",
+      "Database internals",
+      "Kubernetes",
+      "S3/GCS/Azure Blob",
+      "Query engines",
+      "Distributed systems",
+      "Performance profiling",
+      "Systems programming"
+    ],
+    "level": "senior",
+    "comp": "$175k-$240k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "20602028"
+  },
+  "greenhouse-scoutmotors-5128323007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design, develop, and maintain iOS applications for Scout's digital products ecosystem. Drive technical architecture and implementation of mobile platforms from the ground up, ensuring scalability and performance in the automotive IoT space.",
+    "skills": [
+      "Swift",
+      "SwiftUI",
+      "iOS",
+      "GraphQL",
+      "Git",
+      "CI/CD",
+      "Mobile Security",
+      "IoT"
+    ],
+    "level": "senior",
+    "comp": "$140k-$187k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "737e5531"
+  },
+  "greenhouse-endorlabs-4694935005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$190k-$250k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "a56bbac9"
+  },
+  "greenhouse-webflow-7921664": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$128k-$175k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "cfeb47b6"
   }
 }
