@@ -12,9 +12,10 @@ from pathlib import Path
 JOBS_FILE = Path(__file__).parent.parent / "data" / "jobs_raw.json"
 CLASSIFIED_FILE = Path(__file__).parent.parent / "data" / "jobs_classified.json"
 COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies_classified.json"
+COMPANIES_DOMAINS_FILE = Path(__file__).parent.parent / "data" / "companies.json"
 
 HASH_MARKER = "render_hash: "
-FORMAT_VERSION = "7"  # bump to force re-render of all files
+FORMAT_VERSION = "8"  # bump to force re-render of all files
 SKILL_COLOR = "3B82F6"
 
 
@@ -64,7 +65,7 @@ def pretty_date(iso: str) -> str:
         return iso
 
 
-def render_job(job: dict, classification: dict, company_summary: str | None) -> str:
+def render_job(job: dict, classification: dict, company_summary: str | None, domain: str = "") -> str:
     location = job.get("location") or "Not specified"
     remote_str = {True: "Remote", False: "On-site"}.get(job.get("remote"), "Not specified")
 
@@ -109,7 +110,8 @@ def render_job(job: dict, classification: dict, company_summary: str | None) -> 
     elif remote_str == "On-site":
         detail_parts.append("On-site")
 
-    company_line = f"**{job['company']}**"
+    logo = f'<img src="https://www.google.com/s2/favicons?domain={domain}&sz=32" width="16" height="16" align="absmiddle">&ensp;' if domain else ""
+    company_line = f"{logo}**{job['company']}**"
     meta_line = (company_line + "  \n" + " · ".join(detail_parts)) if detail_parts else company_line
 
     lines = meta_lines + [
@@ -164,6 +166,13 @@ def main():
         for c in json.loads(COMPANIES_FILE.read_text()):
             company_summaries[c["slug"]] = c.get("summary", "")
 
+    company_domains: dict[str, str] = {}
+    if COMPANIES_DOMAINS_FILE.exists():
+        for c in json.loads(COMPANIES_DOMAINS_FILE.read_text()):
+            if c.get("website") and c.get("name"):
+                domain = c["website"].removeprefix("https://").removeprefix("http://").split("/")[0]
+                company_domains[c["name"]] = domain
+
     JOBS_DIR.mkdir(exist_ok=True)
 
     eng_jobs = [
@@ -191,7 +200,8 @@ def main():
             skipped += 1
             continue
 
-        path.write_text(render_job(job, cl, company_summary))
+        domain = company_domains.get(job["company"], "")
+        path.write_text(render_job(job, cl, company_summary, domain))
         written += 1
 
     removed = 0
