@@ -109,6 +109,8 @@ def main():
         "Roles are scraped daily from company career pages and filtered by an LLM to keep only",
         "positions where the person will primarily write code.",
         "",
+        "**Philosophy**: This board is designed to be scrolled, not filtered. The LLM curation keeps the signal high enough that browsing everything new takes a few minutes and gives you a broader picture of the market. For location, we clearly identify remote and hybrid support. For seniority, we tag every role but recommend browsing a level above and below yourself.",
+        "",
         f"### {total} open roles &nbsp;·&nbsp; {company_count} companies &nbsp;·&nbsp; updated daily",
         "",
     ]
