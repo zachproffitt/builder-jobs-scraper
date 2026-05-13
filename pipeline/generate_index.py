@@ -109,6 +109,12 @@ def main():
     new_today = len(by_date.get(today, []))
     print(f"Found {total} jobs across {len(by_date)} dates ({new_today} new today)")
 
+    all_timestamps = [j["first_seen_at"] for v in by_date.values() for j in v if j.get("first_seen_at")]
+    last_run_str = ""
+    if all_timestamps:
+        last_run_dt = datetime.fromisoformat(max(all_timestamps))
+        last_run_str = last_run_dt.strftime("%B %-d, %Y at %H:%M UTC")
+
     company_count = 0
     company_logos: dict[str, str] = {}
     if COMPANIES_FILE.exists():
@@ -129,6 +135,8 @@ def main():
         "Listings older than 14 days are removed automatically.",
         "",
         f"### {total} open roles ({new_today} new today) &nbsp;·&nbsp; {company_count} companies searched",
+        "",
+        f"<sub>Last updated {last_run_str}</sub>" if last_run_str else "",
         "",
     ]
 
