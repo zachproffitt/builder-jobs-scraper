@@ -18697,23 +18697,23 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": true,
-    "job_summary": "Build scalable evaluation infrastructure and tooling that enables Notion's AI teams to ship high-quality models faster, including eval runners, benchmarks, datasets, and measurement systems. Work at the intersection of developer tooling and distributed systems to make LLM evaluations reliable, cost-effective, and integrated into daily shipping workflows.",
+    "job_summary": "Build scalable evaluation infrastructure and harnesses that enable AI engineers at Notion to run, maintain, and iterate on LLM evals locally, in CI, and at scale. Design measurement systems, benchmark tooling, and data pipelines that surface quality regressions and integrate evals into daily shipping workflows across the AI organization.",
     "skills": [
       "TypeScript",
       "Python",
       "Distributed Systems",
       "Data Pipelines",
       "LLM Evaluation",
-      "CI/CD",
-      "Batch Processing",
-      "Kubernetes"
+      "PostgreSQL",
+      "Kubernetes",
+      "CI/CD"
     ],
     "level": "mid",
     "comp": "$214k-$300k",
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "1442ceb9"
+    "source_hash": "3dc58b29"
   },
   "ashby-horizon3ai-6b2bc47c-7a5d-4bca-a10c-8a79cb7f977d": {
     "is_engineering": false,
@@ -19307,12 +19307,12 @@
     "job_summary": null,
     "skills": [],
     "level": "mid",
-    "comp": "up to $200k OTE",
+    "comp": null,
     "comp_extras": [
       "equity",
       "bonus"
     ],
-    "source_hash": "064d410b"
+    "source_hash": "5fe596bf"
   },
   "greenhouse-zyngacareers-5995422004": {
     "is_engineering": false,
@@ -20260,5 +20260,370 @@
     "comp": "$156,000\u2013$195,000",
     "comp_extras": [],
     "source_hash": "44b7cb2f"
+  },
+  "greenhouse-anthropic-5218047008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$190k-$270k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "05aa9b18"
+  },
+  "greenhouse-astranis-4681183006": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and build mission-critical backend services that autonomously control satellites, monitor telemetry, and manage fleet operations. This role requires U.S. citizenship or permanent residency due to export control regulations on space technology.",
+    "skills": [
+      "Python",
+      "PostgreSQL",
+      "RabbitMQ",
+      "Kubernetes",
+      "Pub/Sub Systems",
+      "Streaming Systems (Flink)"
+    ],
+    "level": "intern",
+    "comp": "$29/hour",
+    "comp_extras": [],
+    "source_hash": "7f86f672"
+  },
+  "greenhouse-trueanomalyinc-5136101007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$70k-$95k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "b7ddf529"
+  },
+  "greenhouse-trueanomalyinc-5136091007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$70,000-$95,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "2006abcc"
+  },
+  "greenhouse-trueanomalyinc-5134226007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$120k-$165k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "f55c1d0e"
+  },
+  "greenhouse-astranis-4679108006": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$100k-$100k",
+    "comp_extras": [],
+    "source_hash": "abf6f1c4"
+  },
+  "greenhouse-appliedintuition-4695020005": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Design and build simulator architecture and autonomy products across multiple domains, working across the full stack from infrastructure to customer-facing features. Work on simulation, modeling, and autonomous systems in a defense and automotive context with access to high-profile customers (top 20 automakers, U.S. military).",
+    "skills": [
+      "C++",
+      "Python",
+      "Simulation",
+      "ROS",
+      "Cloud Infrastructure",
+      "Autonomous Systems",
+      "Robotics",
+      "Physics Modeling"
+    ],
+    "level": "senior",
+    "comp": "$125k-$222k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e530d4f3"
+  },
+  "greenhouse-andurilindustries-5136878007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$146k-$194k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "a79d24b1"
+  },
+  "greenhouse-trueanomalyinc-5136113007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": "$28/hr",
+    "comp_extras": [],
+    "source_hash": "05aed4f6"
+  },
+  "greenhouse-andurilindustries-5136544007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Architect and lead development of autonomous robotic systems for defense applications, including locomotion, manipulation, perception, and whole-body control. Requires hands-on technical contribution and experience shipping real-world robotic systems in unstructured, contested environments with an aggressive delivery timeline.",
+    "skills": [
+      "Python",
+      "C++",
+      "Reinforcement Learning",
+      "Robot Manipulation",
+      "Legged Locomotion",
+      "Whole-Body Control",
+      "Sim-to-Real Transfer",
+      "TS/SCI Clearance"
+    ],
+    "level": "principal",
+    "comp": "$254k-$444k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "cedc166c"
+  },
+  "ashby-skydio-2b312ffb-26c3-4b7f-8904-acbc4e51934b": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$100,000-$130,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "ade79b4d"
+  },
+  "greenhouse-andurilindustries-5137065007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$146k-$194k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "569747f3"
+  },
+  "greenhouse-gitlab-8543383002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$91,600\u2014$152,400",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "3f54889f"
+  },
+  "greenhouse-slingshotaerospace-5995728004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Develop advanced astrodynamics, orbit determination, and multi-sensor data fusion algorithms for space operations intelligence and autonomy. Requires U.S. security clearance and expertise in spacecraft navigation, dynamic systems modeling, and mission optimization for defense/government space applications.",
+    "skills": [
+      "Python",
+      "C/C++",
+      "Orbit Determination",
+      "Astrodynamics",
+      "Machine Learning",
+      "Data Fusion",
+      "Security Clearance",
+      "PhD Preferred"
+    ],
+    "level": "senior",
+    "comp": "$150k-$250k",
+    "comp_extras": [],
+    "source_hash": "04e0f2dc"
+  },
+  "ashby-Etched-29b303b2-f1a5-4799-a0b2-e86e28289a9b": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design, develop, and maintain accurate, high-performance simulations of custom transformer ASIC hardware to enable close hardware-software co-design. Work at the intersection of chip simulation, kernel development, and ML accelerator infrastructure with tight feedback loops between simulation and real hardware validation.",
+    "skills": [
+      "C/C++",
+      "Python",
+      "SystemC",
+      "QEMU",
+      "Linux kernel development",
+      "Hardware verification",
+      "Performance profiling",
+      "Multithreading"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5fc4ab9c"
+  },
+  "greenhouse-terrapowerllc-4247783009": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$138,685-$208,027",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "d3b0a729"
+  },
+  "greenhouse-grafanalabs-5850008004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and operate the data stack architecture and infrastructure (BigQuery, dbt, Fivetran) that ingests, transforms, tests, and connects data across Grafana Labs. Partner with stakeholders to design flexible, scalable data pipelines and establish best practices for data quality, version control, and documentation as the organization scales.",
+    "skills": [
+      "dbt",
+      "BigQuery",
+      "Fivetran",
+      "AWS",
+      "GCP",
+      "Data Modeling",
+      "Data Quality Testing",
+      "SQL"
+    ],
+    "level": "senior",
+    "comp": "$127,651-$153,180",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "43afe777"
+  },
+  "greenhouse-grafanalabs-5850010004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Own and operate the data stack architecture and infrastructure (BigQuery, dbt, Fivetran) that ingests, transforms, tests, and documents data across Grafana Labs. Build data pipelines and processes that scale with the business while enabling analysts and stakeholders to access accurate, accessible data.",
+    "skills": [
+      "dbt",
+      "BigQuery",
+      "Fivetran",
+      "AWS",
+      "GCP",
+      "Data Modeling",
+      "Data Quality Testing",
+      "SQL"
+    ],
+    "level": "senior",
+    "comp": "CAD 129,392 - CAD 155,272",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "2aa5f9e7"
+  },
+  "greenhouse-natera-5991157004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and ship AI agents and automation workflows across enterprise functions (Sales, Marketing, Finance, Legal, HR), owning the full deployment lifecycle from discovery through production with formal KPI tracking and observability. Lead a forward-deployed engineering team while spending roughly half your time as a hands-on technical contributor debugging systems, tuning prompts, and integrating with enterprise platforms.",
+    "skills": [
+      "Python",
+      "SQL",
+      "LLM agents",
+      "RAG",
+      "Prompt engineering",
+      "Enterprise APIs",
+      "Cloud platforms",
+      "Observability/monitoring"
+    ],
+    "level": "manager",
+    "comp": "$186,700\u2013$233,400",
+    "comp_extras": [],
+    "source_hash": "c432a86d"
+  },
+  "ashby-ramp-5dc7f421-20a8-4fd9-be60-04f836480428": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "46bde359"
+  },
+  "greenhouse-natera-5995733004": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e0318909"
+  },
+  "ashby-pinecone-f83ba7a6-da11-421a-ae9e-909d375e2e93": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e0d27b58"
+  },
+  "greenhouse-openspace-7733750003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$125k-$175k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e3027e3b"
+  },
+  "ashby-ramp-c63ba7d7-5290-4d9b-b002-40b2873b66f6": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "604d566c"
   }
 }
