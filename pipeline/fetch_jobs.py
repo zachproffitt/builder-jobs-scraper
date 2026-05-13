@@ -63,7 +63,7 @@ def main():
     today = datetime.now(timezone.utc).date().isoformat()
     now_ts = datetime.now(timezone.utc).isoformat(timespec="seconds")
     all_jobs: list[dict] = []
-    errors: list[str] = []
+    error_count = 0
     new_count = closed_count = archived_count = 0
 
     for company in companies:
@@ -106,8 +106,8 @@ def main():
             label = " [new company — archived]" if is_new_company else ""
             print(f"{len(jobs)} jobs{label}")
         except ScraperError as e:
+            error_count += 1
             print("ERROR")
-            errors.append(str(e))
             log_error(f"scraper error for {name} ({ats}/{slug}): {e}")
 
     closed_count = len(prev) - sum(1 for j in all_jobs if j["id"] in prev)
@@ -119,18 +119,14 @@ def main():
     aged_out = before - len(all_jobs)
 
     print(f"\nTotal: {len(all_jobs)} jobs from {len(companies)} companies")
-    print(f"New: {new_count}  |  Closed: {closed_count}  |  Aged out (>{WINDOW_DAYS}d): {aged_out}  |  Archived (new companies): {archived_count}")
+    print(f"New: {new_count}  |  Closed: {closed_count}  |  Aged out (>{WINDOW_DAYS}d): {aged_out}  |  Archived (new companies): {archived_count}  |  Errors: {error_count}")
 
     OUTPUT_FILE.write_text(json.dumps(all_jobs, indent=2))
     SEEN_FILE.write_text(json.dumps(seen, indent=2))
     SEEN_COMPANIES_FILE.write_text(json.dumps(seen_companies, indent=2))
     print(f"Written to {OUTPUT_FILE}")
-
-    if errors:
-        print(f"\nErrors ({len(errors)}):")
-        for e in errors:
-            print(f"  - {e}")
-        sys.exit(1)
+    if error_count:
+        print(f"  {error_count} scraper errors logged to {LOG_FILE.name}")
 
 
 if __name__ == "__main__":
