@@ -195,10 +195,19 @@ def parse_response(text: str) -> dict:
     return result
 
 
+LOG_FILE = Path(__file__).parent.parent / "data" / "pipeline.log"
+
+
+def log_error(message: str) -> None:
+    ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    with open(LOG_FILE, "a") as f:
+        f.write(f"[{ts}] classify_jobs: {message}\n")
+
+
 def call_claude(prompt: str) -> str:
     import anthropic
     client = anthropic.Anthropic()
-    for attempt in range(3):
+    for attempt in range(5):
         try:
             response = client.messages.create(
                 model=CLAUDE_MODEL,
@@ -206,9 +215,13 @@ def call_claude(prompt: str) -> str:
                 messages=[{"role": "user", "content": prompt}],
             )
             return response.content[0].text.strip()
-        except anthropic.RateLimitError:
-            time.sleep(2 ** attempt)
-    raise RuntimeError("Claude API rate limit exceeded after retries")
+        except (anthropic.RateLimitError, anthropic.APIStatusError) as e:
+            if isinstance(e, anthropic.APIStatusError) and e.status_code not in (429, 500, 502, 503, 529):
+                raise
+            delay = 2 ** attempt
+            log_error(f"transient API error (attempt {attempt+1}/5): {e} — retrying in {delay}s")
+            time.sleep(delay)
+    raise RuntimeError("Claude API unavailable after 5 retries")
 
 
 def call_ollama(prompt: str) -> str:
@@ -290,7 +303,9 @@ def main():
                 job = future_to_job[future]
                 with lock:
                     errors += 1
-                print(f"  [{n:>5}/{total}] ERROR {job['company']}: {job['title'][:50]} — {e}")
+                msg = f"{job['company']}: {job['title'][:50]} — {e}"
+                print(f"  [{n:>5}/{total}] ERROR {msg}")
+                log_error(f"job error: {msg}")
                 continue
 
             with lock:

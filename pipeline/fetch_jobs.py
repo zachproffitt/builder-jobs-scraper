@@ -16,8 +16,15 @@ COMPANIES_FILE = DATA_DIR / "companies.json"
 OUTPUT_FILE = DATA_DIR / "jobs_raw.json"
 SEEN_FILE = DATA_DIR / "seen_jobs.json"
 SEEN_COMPANIES_FILE = DATA_DIR / "seen_companies.json"
+LOG_FILE = DATA_DIR / "pipeline.log"
 ARCHIVE_DATE = "2020-01-01"  # first-fetch jobs for new companies get this date
 WINDOW_DAYS = 14
+
+
+def log_error(message: str) -> None:
+    ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    with open(LOG_FILE, "a") as f:
+        f.write(f"[{ts}] fetch_jobs: {message}\n")
 
 SCRAPERS = {
     "greenhouse": ats_greenhouse.scrape,
@@ -97,6 +104,7 @@ def main():
         except ScraperError as e:
             print("ERROR")
             errors.append(str(e))
+            log_error(f"scraper error for {name} ({ats}/{slug}): {e}")
 
     closed_count = len(prev) - sum(1 for j in all_jobs if j["id"] in prev)
 

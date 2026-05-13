@@ -3,33 +3,69 @@
 
 import json
 import os
+import re
 import sys
 import time
+from datetime import datetime, timezone
 from pathlib import Path
 
 COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies.json"
 JOBS_FILE = Path(__file__).parent.parent / "data" / "jobs_raw.json"
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "companies_classified.json"
+LOG_FILE = Path(__file__).parent.parent / "data" / "pipeline.log"
 
 BACKEND = os.environ.get("LLM_BACKEND", "claude")
 CLAUDE_MODEL = "claude-haiku-4-5-20251001"
 OLLAMA_MODEL = "qwen3:8b"
 
 PROMPT = """\
-Write 1-2 sentences describing what {name} builds and what domain they operate in. Use your training knowledge about this company.
+Write 1-2 sentences describing what {name} builds and what domain they operate in.
 Be specific and factual. Plain prose only — no markdown, no bullet points, no headers.
 Do not use "leading", "innovative", "cutting-edge", "pioneering". Do not say you lack web access.
-Start directly with the company name or what they build.{job_context}
+Start directly with the company name or what they build.{job_context}{homepage_context}
 
 Company: {name}
 Website: {website}
 """
 
+BAD_PHRASES = [
+    "don't have access", "cannot browse", "can't browse",
+    "can't verify", "cannot verify", "i don't have",
+    "could you provide", "please provide",
+]
+
+
+def log_error(message: str) -> None:
+    ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    with open(LOG_FILE, "a") as f:
+        f.write(f"[{ts}] classify_companies: {message}\n")
+
+
+def fetch_homepage(url: str) -> str:
+    """Fetch homepage and extract visible text (max 2000 chars)."""
+    import httpx
+    if not url:
+        return ""
+    try:
+        resp = httpx.get(url, timeout=10, follow_redirects=True,
+                         headers={"User-Agent": "Mozilla/5.0 (compatible; bot)"})
+        resp.raise_for_status()
+        text = resp.text
+        # Strip tags, collapse whitespace
+        text = re.sub(r"<style[^>]*>.*?</style>", " ", text, flags=re.S | re.I)
+        text = re.sub(r"<script[^>]*>.*?</script>", " ", text, flags=re.S | re.I)
+        text = re.sub(r"<[^>]+>", " ", text)
+        text = re.sub(r"\s+", " ", text).strip()
+        return text[:2000]
+    except Exception as e:
+        log_error(f"homepage fetch failed for {url}: {e}")
+        return ""
+
 
 def call_claude(prompt: str) -> str:
     import anthropic
     client = anthropic.Anthropic()
-    for attempt in range(3):
+    for attempt in range(5):
         try:
             response = client.messages.create(
                 model=CLAUDE_MODEL,
@@ -37,9 +73,13 @@ def call_claude(prompt: str) -> str:
                 messages=[{"role": "user", "content": prompt}],
             )
             return response.content[0].text.strip()
-        except anthropic.RateLimitError:
-            time.sleep(2 ** attempt)
-    raise RuntimeError("Rate limit exceeded after retries")
+        except (anthropic.RateLimitError, anthropic.APIStatusError) as e:
+            if isinstance(e, anthropic.APIStatusError) and e.status_code not in (429, 500, 502, 503, 529):
+                raise
+            delay = 2 ** attempt
+            log_error(f"transient API error (attempt {attempt+1}/5): {e} — retrying in {delay}s")
+            time.sleep(delay)
+    raise RuntimeError("Claude API unavailable after 5 retries")
 
 
 def call_ollama(prompt: str) -> str:
@@ -55,6 +95,10 @@ def call_ollama(prompt: str) -> str:
 
 def call_llm(prompt: str) -> str:
     return call_claude(prompt) if BACKEND == "claude" else call_ollama(prompt)
+
+
+def is_bad(summary: str) -> bool:
+    return any(phrase in summary.lower() for phrase in BAD_PHRASES)
 
 
 def main():
@@ -76,18 +120,14 @@ def main():
                 job_lookup.setdefault(slug, []).append(job)
 
     supported_ats = {"greenhouse", "lever", "ashby", "smartrecruiters"}
+
     def needs_classify(c: dict) -> bool:
         if classify_all:
             return True
         if c["slug"] not in existing:
             return True
         summary = existing[c["slug"]].get("summary", "")
-        bad = any(phrase in summary.lower() for phrase in [
-            "don't have access", "cannot browse", "can't browse",
-            "can't verify", "cannot verify", "i don't have",
-            "could you provide", "please provide",
-        ])
-        return bad or not summary
+        return is_bad(summary) or not summary
 
     to_process = [c for c in companies if c.get("ats") in supported_ats and needs_classify(c)]
 
@@ -104,40 +144,53 @@ def main():
         name = company["name"]
         website = company.get("website", "")
 
-        # Use a sample job title for extra context if available
+        # Sample job title for extra context
         jobs = job_lookup.get(slug, [])
         sample = next((j for j in jobs if j.get("raw_text")), None)
-        if sample:
-            job_context = f"\nSample job title: {sample['title']}"
-        else:
-            job_context = ""
+        job_context = f"\nSample job title: {sample['title']}" if sample else ""
 
-        prompt = PROMPT.format(name=name, website=website, job_context=job_context)
+        # First attempt: training knowledge only
+        prompt = PROMPT.format(
+            name=name, website=website,
+            job_context=job_context, homepage_context="",
+        )
 
         try:
             raw = call_llm(prompt)
-            # Strip markdown headers and leading whitespace
             lines = [l for l in raw.splitlines() if not l.startswith("#")]
             summary = " ".join(l.strip() for l in lines if l.strip())
-            # Discard responses where the model said it couldn't answer
-            bad = any(phrase in summary.lower() for phrase in [
-                "don't have access", "cannot browse", "can't browse",
-                "can't verify", "cannot verify", "i don't have",
-                "could you provide", "please provide",
-            ])
-            if bad:
+
+            # If model refused, scrape the homepage and retry once
+            if is_bad(summary) or not summary:
+                print(f"  [{i:>3}/{len(to_process)}] {name}: no training knowledge — scraping homepage...")
+                homepage_text = fetch_homepage(website)
+                if homepage_text:
+                    prompt2 = PROMPT.format(
+                        name=name, website=website,
+                        job_context=job_context,
+                        homepage_context=f"\n\nHomepage content:\n{homepage_text}",
+                    )
+                    raw = call_llm(prompt2)
+                    lines = [l for l in raw.splitlines() if not l.startswith("#")]
+                    summary = " ".join(l.strip() for l in lines if l.strip())
+
+            if is_bad(summary) or not summary:
+                log_error(f"model refused for {name} even after homepage scrape")
                 print(f"  [{i:>3}/{len(to_process)}] SKIP {name}: model refused (will retry with --all)")
                 continue
+
             existing[slug] = {"slug": slug, "name": name, "summary": summary}
             print(f"  [{i:>3}/{len(to_process)}] {name}: {summary[:80]}")
         except Exception as e:
             errors += 1
-            print(f"  [{i:>3}/{len(to_process)}] ERROR {name}: {e}")
+            msg = f"{name}: {e}"
+            print(f"  [{i:>3}/{len(to_process)}] ERROR {msg}")
+            log_error(f"company error: {msg}")
 
     OUTPUT_FILE.write_text(json.dumps(list(existing.values()), indent=2))
     print(f"\nDone. Written to {OUTPUT_FILE}")
     if errors:
-        print(f"{errors} errors — re-run to retry")
+        print(f"{errors} errors — check {LOG_FILE.name}")
 
 
 if __name__ == "__main__":

@@ -904,7 +904,7 @@
   {
     "slug": "katalyst",
     "name": "Katalyst",
-    "summary": "I don't have access to browse websites, so I cannot visit https://katalyst.com to verify current information about what Katalyst builds.\n\nTo provide you with an accurate, factual description, could you either:\n1. Share what you know about Katalyst's products/services, or\n2. Provide some text from their website that describes their business\n\nThis will help me write an accurate 1-2 sentence description without relying on potentially outdated information."
+    "summary": "Katalyst builds software infrastructure for clinical trials, helping life sciences companies manage patient recruitment, enrollment, and trial operations across distributed networks. The company operates in the clinical research and pharmaceutical development domain, providing cloud-based platforms that connect sponsors, contract research organizations, and trial sites."
   },
   {
     "slug": "netflix",
@@ -964,7 +964,7 @@
   {
     "slug": "cognition",
     "name": "Cognition",
-    "summary": "Cognition builds Claude, an AI assistant, and operates in the domain of large language models and generative AI. The company develops AI tools designed for reasoning and complex task completion across various professional and technical applications."
+    "summary": "Cognition builds Devin, an AI software engineer that can autonomously complete coding tasks end-to-end, from writing and debugging code to deploying changes."
   },
   {
     "slug": "descript",
@@ -1359,7 +1359,7 @@
   {
     "slug": "horizon3ai",
     "name": "Horizon3",
-    "summary": "I don't have access to browse websites, so I can't verify current information about Horizon3 from their site. Could you provide me with details about what they build and their domain, or would you like me to help you write the description once you share that information?"
+    "summary": "Horizon3 builds NodeZero, an autonomous pentesting platform that uses AI to simulate real-world attacks and validate security controls across internal networks, cloud infrastructure, Kubernetes environments, and Active Directory systems. The company operates in the cybersecurity domain, specifically focused on security validation, vulnerability management, and threat detection through automated penetration testing."
   },
   {
     "slug": "alchemy",
