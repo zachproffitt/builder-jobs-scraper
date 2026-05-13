@@ -160,9 +160,11 @@ def main():
             if ts:
                 try:
                     dt_obj = datetime.fromisoformat(ts)
-                    lines.append(f"<sub>{dt_obj.strftime('%H:%M UTC')}</sub>")
+                    lines.append(f"<sub>{dt_obj.strftime('%B %-d, %Y at %H:%M UTC')}</sub>")
                 except ValueError:
-                    pass
+                    lines.append(f"<sub>{label}</sub>")
+            else:
+                lines.append(f"<sub>{label}</sub>")
             lines.append("")
             lines.append("---")
             lines.append("")
