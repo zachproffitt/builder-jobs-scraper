@@ -111,7 +111,7 @@ def main():
         "Roles are scraped daily from company career pages and filtered by an LLM — curation keeps the signal",
         "high enough that browsing everything new takes a few minutes and gives you a broader picture of the market.",
         "For location, we clearly identify remote and hybrid support. For seniority, we tag every role but",
-        "recommend browsing a level above and below yourself.",
+        "recommend browsing a level above and below yourself. Listings older than 14 days are removed automatically.",
         "",
         f"### {total} open roles ({new_today} new today) &nbsp;·&nbsp; {company_count} companies searched",
         "",
