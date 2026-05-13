@@ -19545,5 +19545,534 @@
       "bonus"
     ],
     "source_hash": "cfeb47b6"
+  },
+  "greenhouse-rocketlab-7732206003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$28k-$35k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "6b7ac6db"
+  },
+  "greenhouse-planetlabs-7907733": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$144,500\u2014$180,600",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "4b5a67fd"
+  },
+  "greenhouse-planetlabs-7907773": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$128,400\u2014$160,500",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "95198e15"
+  },
+  "greenhouse-anthropic-5189008008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$185,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "ab65cf64"
+  },
+  "greenhouse-waymo-7435999": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$152k-$187k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "a9b71442"
+  },
+  "greenhouse-waymo-7890744": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": "\u00a3141k-\u00a3148k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "3a31b025"
+  },
+  "ashby-openai-e90a44a7-fc2e-49bf-aec4-d43b9e3d8e92": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build and evolve OpenAI's core experimentation platform, designing statistical methodologies and scalable analytical systems that power trustworthy decision-making across product and research teams. Work on hard problems in online experimentation including variance reduction, causal inference, and measurement systems at frontier AI scale.",
+    "skills": [
+      "Python",
+      "Spark",
+      "Statistics",
+      "Causal Inference",
+      "Sequential Testing",
+      "Variance Reduction (CUPED)",
+      "Sample Ratio Mismatch Detection",
+      "Metric Design"
+    ],
+    "level": "staff",
+    "comp": "$293k-$325k",
+    "comp_extras": [],
+    "source_hash": "7afc8fd6"
+  },
+  "greenhouse-scaleai-4693078005": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$300/hr",
+    "comp_extras": [],
+    "source_hash": "580af620"
+  },
+  "greenhouse-waymo-7891021": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build computational models of road user behavior and cognition for integration into Waymo's autonomous vehicle safety evaluation and simulation infrastructure. Work at the intersection of cognitive science and AI to develop novel modeling approaches that inform safety strategies for fully autonomous driving systems.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "Computational Modeling",
+      "Active Inference",
+      "Machine Learning",
+      "PhD Required",
+      "Traffic Safety Domain",
+      "Simulation Infrastructure"
+    ],
+    "level": "senior",
+    "comp": "\u00a3113k-\u00a3119k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "86e2d73e"
+  },
+  "greenhouse-trueanomalyinc-5136302007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$140k-$210k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "ccaaef08"
+  },
+  "greenhouse-andurilindustries-5089725007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$166k-$220k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "ac8b2131"
+  },
+  "greenhouse-waymo-7902131": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build infrastructure to manage pickup and drop-off locations for autonomous ride-hail services, integrating ML models and implementing demand control systems at scale. Work on geospatial and logistics systems for autonomous driving in a rapidly expanding operational environment.",
+    "skills": [
+      "C++",
+      "Machine Learning",
+      "Geospatial Systems",
+      "Backend Infrastructure",
+      "APIs",
+      "Performance Tuning",
+      "Autonomous Driving",
+      "Demand Control Systems"
+    ],
+    "level": "mid",
+    "comp": "$175k-$215k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "8b4ab72a"
+  },
+  "greenhouse-andurilindustries-5136918007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$146,000\u2014$194,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "bfeec8cf"
+  },
+  "greenhouse-andurilindustries-5093310007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$86,000\u2014$114,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "8373d3bc"
+  },
+  "greenhouse-epirus-5989901004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$174,700-$217,500",
+    "comp_extras": [],
+    "source_hash": "ceffe5f3"
+  },
+  "greenhouse-andurilindustries-5104521007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and build real-time, map-based interfaces and backend systems for autonomous maritime vehicles, integrating sensor data streams with mission autonomy software on Lattice OS. Requires ability to work across the full software stack in a defense domain requiring security clearance and up to 20% travel to support deployed systems.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "React Native",
+      "C++",
+      "Go",
+      "Android",
+      "Swift",
+      "Security Clearance"
+    ],
+    "level": "senior",
+    "comp": "$166k-$220k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "11c44399"
+  },
+  "greenhouse-andurilindustries-5125471007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": "$166,000\u2014$220,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "14418804"
+  },
+  "greenhouse-roblox-7913665": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$383,120-$439,280",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "2b9d7ad1"
+  },
+  "greenhouse-tenstorrent-5086977007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$100k-$500k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "9a4303cc"
+  },
+  "greenhouse-roblox-7911754": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4c0fe6d0"
+  },
+  "greenhouse-lightmatter-5208190008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": "$135k-$212k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "b6a92dbd"
+  },
+  "ashby-skydio-c9e40dab-ae7d-4034-a335-b3e05d419672": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$225k-$300k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "dea321cf"
+  },
+  "greenhouse-slingshotaerospace-5809580004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design, build, and maintain Kubernetes-based cloud infrastructure and CI/CD pipelines using Infrastructure as Code to support production systems and MLOps workflows. Work on space operations software where infrastructure decisions directly impact global security and disaster response capabilities.",
+    "skills": [
+      "Terraform",
+      "Kubernetes",
+      "AWS",
+      "Docker",
+      "CI/CD Pipelines",
+      "Linux System Administration",
+      "Infrastructure as Code",
+      "MLOps"
+    ],
+    "level": "senior",
+    "comp": "$136,000-$237,000",
+    "comp_extras": [],
+    "source_hash": "c33c1eb3"
+  },
+  "greenhouse-lightmatter-4971294008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": "$220k-$270k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "9b77da82"
+  },
+  "greenhouse-huntress-7728615003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$160k-$190k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "7deb60b8"
+  },
+  "greenhouse-epicgames-5986869004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "422d5f9b"
+  },
+  "lever-CesiumAstro-31bf9382-fe11-4b2e-9e60-d71bb3a3ba9e": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "10c77ba7"
+  },
+  "lever-CesiumAstro-97b9262a-0825-4d41-a743-1fe2e02fecf4": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "cf0004f5"
+  },
+  "greenhouse-keepersecurity-4247576009": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "652d17c7"
+  },
+  "lever-grailbio-30f09392-0816-4751-86e3-e99e1b2573ac": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "857d3c4a"
+  },
+  "lever-CesiumAstro-31208a09-086d-404d-8832-ed1d8fb81fec": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "21ba4fd6"
+  },
+  "ashby-ramp-a3afd259-ba6b-4eb0-a1b6-05d01dddacd8": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and ship AI agents, internal automation platforms, and evaluation systems that transform Ramp's customer experience operations and enable CX teams to operate at scale. Own the full stack from prototyping AI workflows to infrastructure for managing shared AI skills and reliability systems across internal and customer-facing products.",
+    "skills": [
+      "LLMs",
+      "Prompt Engineering",
+      "Fine-tuning",
+      "Retrieval-Augmented Generation",
+      "Claude",
+      "Python",
+      "Evaluation Frameworks",
+      "Agentic AI Systems"
+    ],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2246c5b1"
+  },
+  "ashby-coderabbit-3a0a0ed3-e945-4e9b-b76c-ca5239de183f": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$175k-$225k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "dd6fe4e5"
+  },
+  "ashby-langchain-ea70879f-98c9-4888-a259-39e68ec949fc": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$300k-$330k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "06b9e22c"
+  },
+  "lever-deepgenomics-ba904bda-e9e1-4cea-a6a4-a10867364aec": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e231b00f"
+  },
+  "greenhouse-epicgames-5986871004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$224,793\u2013$374,655",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "904356a8"
+  },
+  "greenhouse-scoutmotors-5135035007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$140,000-$170,000",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "4825994b"
+  },
+  "lever-sonatype-db50ce77-d7c2-4640-ab0e-371bbbf0e424": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f6b73752"
   }
 }
