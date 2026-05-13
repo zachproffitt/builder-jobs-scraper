@@ -14,7 +14,6 @@ import ollama
 
 JOBS_FILE = Path(__file__).parent.parent / "data" / "jobs_raw.json"
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "jobs_classified.json"
-LOG_FILE = Path(__file__).parent.parent / "logs" / "classify_jobs.log"
 MODEL = "qwen3:14b"
 WORKERS = 3  # concurrent Ollama requests
 SAVE_EVERY = 100
@@ -151,100 +150,93 @@ def classify_with_llm(job: dict) -> tuple[bool | None, str | None, list[str], st
 
 
 def main():
-    LOG_FILE.parent.mkdir(exist_ok=True)
+    jobs = json.loads(JOBS_FILE.read_text())
 
-    with open(LOG_FILE, "a", buffering=1) as log:
-        def emit(msg: str):
-            print(msg)
-            log.write(msg + "\n")
+    existing: dict[str, dict] = {}
+    if OUTPUT_FILE.exists():
+        existing = json.loads(OUTPUT_FILE.read_text())
 
-        jobs = json.loads(JOBS_FILE.read_text())
+    classify_all = "--all" in sys.argv
+    today = datetime.now(timezone.utc).date().isoformat()
 
-        existing: dict[str, dict] = {}
-        if OUTPUT_FILE.exists():
-            existing = json.loads(OUTPUT_FILE.read_text())
+    def needs_work(j: dict) -> bool:
+        ex = existing.get(j["id"])
+        if ex and ex.get("source_hash") == content_hash(j) and not classify_all:
+            return False
+        return (
+            classify_all
+            or j.get("first_seen") == today
+            or j["id"] in existing
+        )
 
-        classify_all = "--all" in sys.argv
-        today = datetime.now(timezone.utc).date().isoformat()
+    with_desc = [
+        j for j in jobs
+        if j.get("raw_text", "").strip() and needs_work(j)
+    ]
+    without_desc = sum(1 for j in jobs if not j.get("raw_text", "").strip())
 
-        def needs_work(j: dict) -> bool:
-            ex = existing.get(j["id"])
-            if ex and ex.get("source_hash") == content_hash(j) and not classify_all:
-                return False
-            return (
-                classify_all
-                or j.get("first_seen") == today
-                or j["id"] in existing
-            )
+    print(f"{len(with_desc)} jobs to classify today, {without_desc} skipped (no description)")
+    print(f"Workers: {WORKERS}, Model: {MODEL}\n")
 
-        with_desc = [
-            j for j in jobs
-            if j.get("raw_text", "").strip() and needs_work(j)
-        ]
-        without_desc = sum(1 for j in jobs if not j.get("raw_text", "").strip())
+    if not with_desc:
+        print("Nothing to classify. Run fetch_job_descriptions.py first if Greenhouse jobs are missing descriptions.")
+        return
 
-        emit(f"{len(with_desc)} jobs to classify today, {without_desc} skipped (no description)")
-        emit(f"Workers: {WORKERS}, Model: {MODEL}\n")
+    eng = not_eng = unclear = errors = 0
+    lock = threading.Lock()
+    completed = 0
+    total = len(with_desc)
 
-        if not with_desc:
-            emit("Nothing to classify. Run fetch_job_descriptions.py first if Greenhouse jobs are missing descriptions.")
-            return
+    def process(job: dict) -> tuple:
+        return job, classify_with_llm(job)
 
-        eng = not_eng = unclear = errors = 0
-        lock = threading.Lock()
-        completed = 0
-        total = len(with_desc)
+    with ThreadPoolExecutor(max_workers=WORKERS) as executor:
+        future_to_job = {executor.submit(process, job): job for job in with_desc}
 
-        def process(job: dict) -> tuple:
-            return job, classify_with_llm(job)
+        for future in as_completed(future_to_job):
+            with lock:
+                completed += 1
+                n = completed
 
-        with ThreadPoolExecutor(max_workers=WORKERS) as executor:
-            future_to_job = {executor.submit(process, job): job for job in with_desc}
-
-            for future in as_completed(future_to_job):
+            try:
+                job, (is_e, summary, skills, level) = future.result()
+            except Exception as e:
+                job = future_to_job[future]
                 with lock:
-                    completed += 1
-                    n = completed
+                    errors += 1
+                print(f"  [{n:>5}/{total}] ERROR {job['company']}: {job['title'][:50]} — {e}")
+                continue
 
-                try:
-                    job, (is_e, summary, skills, level) = future.result()
-                except Exception as e:
-                    job = future_to_job[future]
-                    with lock:
-                        errors += 1
-                    emit(f"  [{n:>5}/{total}] ERROR {job['company']}: {job['title'][:50]} — {e}")
-                    continue
+            with lock:
+                existing[job["id"]] = {
+                    "is_engineering": is_e,
+                    "job_summary": summary,
+                    "skills": skills,
+                    "level": level,
+                    "source_hash": content_hash(job),
+                }
+                if is_e is True:
+                    eng += 1
+                    line = f"  [{n:>5}/{total}] ✓ {job['company']}: {job['title'][:50]} — {(summary or 'no summary')[:60]}"
+                elif is_e is False:
+                    not_eng += 1
+                    line = f"  [{n:>5}/{total}] ✗ {job['company']}: {job['title'][:50]}"
+                else:
+                    unclear += 1
+                    line = f"  [{n:>5}/{total}] ? {job['company']}: {job['title'][:50]}"
 
-                with lock:
-                    existing[job["id"]] = {
-                        "is_engineering": is_e,
-                        "job_summary": summary,
-                        "skills": skills,
-                        "level": level,
-                        "source_hash": content_hash(job),
-                    }
-                    if is_e is True:
-                        eng += 1
-                        line = f"  [{n:>5}/{total}] ✓ {job['company']}: {job['title'][:50]} — {(summary or 'no summary')[:60]}"
-                    elif is_e is False:
-                        not_eng += 1
-                        line = f"  [{n:>5}/{total}] ✗ {job['company']}: {job['title'][:50]}"
-                    else:
-                        unclear += 1
-                        line = f"  [{n:>5}/{total}] ? {job['company']}: {job['title'][:50]}"
+                print(line)
 
-                    emit(line)
+                if n % SAVE_EVERY == 0:
+                    OUTPUT_FILE.write_text(json.dumps(existing, indent=2))
+                    print(f"  [checkpoint] saved {n}/{total}")
 
-                    if n % SAVE_EVERY == 0:
-                        OUTPUT_FILE.write_text(json.dumps(existing, indent=2))
-                        emit(f"  [checkpoint] saved {n}/{total}")
+    OUTPUT_FILE.write_text(json.dumps(existing, indent=2))
+    total_eng = sum(1 for v in existing.values() if v.get("is_engineering") is True)
 
-        OUTPUT_FILE.write_text(json.dumps(existing, indent=2))
-        total_eng = sum(1 for v in existing.values() if v.get("is_engineering") is True)
-
-        emit(f"\nThis run — builder: {eng}, not: {not_eng}, unclear: {unclear}, errors: {errors}")
-        emit(f"Written to {OUTPUT_FILE}")
-        emit(f"Total builder roles in cache: {total_eng}/{len(existing)}")
+    print(f"\nThis run — builder: {eng}, not: {not_eng}, unclear: {unclear}, errors: {errors}")
+    print(f"Written to {OUTPUT_FILE}")
+    print(f"Total builder roles in cache: {total_eng}/{len(existing)}")
 
 
 if __name__ == "__main__":

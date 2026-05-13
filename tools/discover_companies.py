@@ -20,8 +20,8 @@ Usage:
     python discover.py             # resolve new companies only
     python discover.py --recheck   # also re-verify and fix existing entries
 
-Results are written to data/companies.json.
-Errors and unresolved companies are logged to logs/discover.log.
+Results are written to data/companies.json. All output goes to stdout
+(captured by pipeline.sh into logs/pipeline.log).
 
 Note: If discover.py picks the wrong slug (e.g. for companies with ambiguous
 names), edit data/companies.json directly. That entry is skipped on future runs.
@@ -31,14 +31,12 @@ import json
 import re
 import sys
 import time
-from datetime import datetime
 from pathlib import Path
 
 import httpx
 
 NAMES_FILE = Path("data/company_names.txt")
 COMPANIES_FILE = Path("data/companies.json")
-LOG_FILE = Path("logs/discover.log")
 REQUEST_DELAY = 0.2
 
 CAREERS_PATHS = ["/careers", "/jobs", "/careers/", "/jobs/", "/work-with-us", "/join"]
@@ -215,7 +213,6 @@ def verify_entry(company: dict, client: httpx.Client) -> bool:
 
 def main():
     recheck = "--recheck" in sys.argv
-    LOG_FILE.parent.mkdir(exist_ok=True)
 
     entries = parse_names_file()  # [(name, domain), ...]
     name_domain = {name: domain for name, domain in entries}
@@ -226,7 +223,6 @@ def main():
             existing[c["name"].lower()] = c
 
     changed = False
-    log_lines = [f"=== discover.py {datetime.now().strftime('%Y-%m-%d %H:%M')} ==="]
     fixed = []
     still_broken = []
     newly_found = []
@@ -335,26 +331,6 @@ def main():
     if changed:
         COMPANIES_FILE.write_text(json.dumps(list(existing.values()), indent=2))
         print(f"\nWritten to {COMPANIES_FILE}")
-
-    # Write log
-    if recheck and fixed:
-        log_lines.append(f"\nFixed {len(fixed)} slugs:")
-        for name, old, new in fixed:
-            log_lines.append(f"  {name}: {old} -> {new}")
-
-    if still_broken:
-        log_lines.append(f"\nStill broken ({len(still_broken)}) — needs manual review:")
-        for name in still_broken:
-            log_lines.append(f"  - {name}")
-
-    if unresolved:
-        log_lines.append(f"\nCould not detect ATS ({len(unresolved)}):")
-        for name, domain in unresolved:
-            log_lines.append(f"  - {name} ({domain})")
-
-    log_lines.append("")
-    LOG_FILE.write_text("\n".join(log_lines))
-    print(f"Log written to {LOG_FILE}")
 
 
 if __name__ == "__main__":
