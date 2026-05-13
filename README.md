@@ -122,6 +122,3 @@ After that, `make run` handles everything daily.
 | `WORKERS` | `fetch_job_descriptions.py` | `10` | Concurrent description fetches |
 | `SAVE_EVERY` | `classify_jobs.py` | `100` | Checkpoint interval (jobs between saves) |
 
-## Known issues
-
-- Several companies in `companies.json` have incorrect slugs and return 404 errors on every run. Known bad entries: `trmlabs`, `paxos-technology-solutions`, `rain-ai-jobs`, `grammarly`, `spanio`, `Jasper`, `g2crowd`, `desktopmetal`. Edit `companies.json` directly to fix or remove them.
