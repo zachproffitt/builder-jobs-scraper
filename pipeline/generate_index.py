@@ -99,10 +99,15 @@ def main():
     print(f"Found {total} jobs across {len(by_date)} dates ({new_today} new today)")
 
     company_count = 0
+    company_logos: dict[str, str] = {}
     if COMPANIES_FILE.exists():
         import json
         companies = json.loads(COMPANIES_FILE.read_text())
         company_count = len([c for c in companies if c.get("ats") in {"greenhouse", "lever", "ashby", "smartrecruiters"}])
+        for c in companies:
+            if c.get("website") and c.get("name"):
+                domain = c["website"].removeprefix("https://").removeprefix("http://").split("/")[0]
+                company_logos[c["name"]] = domain
 
     lines = [
         "# Builder Jobs",
@@ -130,7 +135,9 @@ def main():
         lines.append("")
         for j in jobs:
             lines.append(f"### [{j['title']}]({j['path']})")
-            lines.append(j["meta"])
+            domain = company_logos.get(j["company"], "")
+            logo = f'<img src="https://logo.clearbit.com/{domain}" height="16" width="16"> ' if domain else ""
+            lines.append(f"{logo}{j['meta']}")
             if j["summary"]:
                 lines.append("")
                 lines.append(f"_{j['summary']}_")
