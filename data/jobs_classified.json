@@ -18726,7 +18726,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "995421d2"
+    "source_hash": "7bdf062b"
   },
   "ashby-coderabbit-186fcc99-8e71-4462-b9a2-71f1b4aa44ca": {
     "is_engineering": false,
@@ -19657,7 +19657,7 @@
     "level": "senior",
     "comp": "$300/hr",
     "comp_extras": [],
-    "source_hash": "580af620"
+    "source_hash": "2bda1536"
   },
   "greenhouse-waymo-7891021": {
     "is_engineering": true,
@@ -21017,5 +21017,226 @@
       "bonus"
     ],
     "source_hash": "e7018e43"
+  },
+  "greenhouse-scaleai-4695042005": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$300/hr",
+    "comp_extras": [],
+    "source_hash": "cf5c1cc8"
+  },
+  "greenhouse-planetlabs-7907785": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "5c18b08e"
+  },
+  "lever-zoox-e36cc53e-5bd5-43b9-9a90-ec9b7c6abda9": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build data pipelines, dashboards, and workflow automations to operationalize safety data reporting and compliance for autonomous vehicle fleets at scale. Work across internal safety, legal, and engineering teams to implement rigorous, repeatable processes for large-scale fleet data analysis and event triage.",
+    "skills": [
+      "Python",
+      "SQL",
+      "Data Pipeline",
+      "Dashboarding",
+      "ETL",
+      "Apache Spark",
+      "AWS",
+      "Workflow Automation"
+    ],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "62d436fc"
+  },
+  "greenhouse-astranis-4597559006": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": "$29/hour",
+    "comp_extras": [],
+    "source_hash": "f8d8b99c"
+  },
+  "greenhouse-scaleai-4695171005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$235,200\u2014$294,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "609dee2b"
+  },
+  "greenhouse-isaraerospace-4861863101": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "8b33f27d"
+  },
+  "ashby-openai-eeaf655b-9460-4e4e-b611-f0caf784c0b1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "db8cf7d3"
+  },
+  "greenhouse-terrapowerllc-4180817009": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$102,804-$154,206",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "6f5c929f"
+  },
+  "greenhouse-andurilindustries-5083595007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$22.60\u2014$30.29 (hourly)",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "b9907479"
+  },
+  "ashby-speak-59865014-2fe7-434e-b30f-72925f052991": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6844255b"
+  },
+  "greenhouse-sonyinteractiveentertainmentglobal-5995645004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build and maintain front-end applications for PlayStation social platform features across PS5 and supported platforms using React Native and modern web technologies. Develop UI frameworks and cross-platform components while collaborating with international design and product teams.",
+    "skills": [
+      "React Native",
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "State Management (Jotai)",
+      "Unit Testing",
+      "C++",
+      "CI/CD Pipelines"
+    ],
+    "level": "mid",
+    "comp": "$150.1k-$225.1k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "764a93ab"
+  },
+  "greenhouse-vardaspace-7733789003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$110k-$140k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "8596c05f"
+  },
+  "greenhouse-mercury-5812238004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$264.8k-$367.8k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "6a5be8a9"
+  },
+  "ashby-frontcareers-d4a4c46a-35a8-46c0-b09f-d96893be473a": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and maintain Front's cross-platform React Native mobile app, diving into native-level performance optimization and iOS/Android API integration. Work with a high-growth B2B platform handling complex customer operations at scale across 9,000+ companies.",
+    "skills": [
+      "React Native",
+      "C/C++",
+      "TypeScript",
+      "Kotlin",
+      "Android NDK",
+      "JNI",
+      "iOS",
+      "Android"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e633eb41"
+  },
+  "lever-grailbio-e2cc73a9-fef6-4813-a545-b97db682d9e6": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "cc77cfac"
+  },
+  "greenhouse-ursamajor-4695187005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$200k-$245k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "90f04870"
   }
 }
