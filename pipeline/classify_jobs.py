@@ -14,8 +14,8 @@ import ollama
 
 JOBS_FILE = Path(__file__).parent.parent / "data" / "jobs_raw.json"
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "jobs_classified.json"
-MODEL = "qwen3:14b"
-WORKERS = 3  # concurrent Ollama requests
+MODEL = "qwen3:8b"
+WORKERS = 2  # concurrent Ollama requests
 SAVE_EVERY = 100
 
 PROMPT = """/no_think
@@ -51,6 +51,9 @@ EXCLUDE — person is not primarily writing code:
 For borderline cases where the title doesn't resolve it, use the description:
 ask "Will this person primarily write code?" — if yes, BUILDER; if no or unclear, exclude.
 A firmware engineer writes code. A hardware engineer designs circuits or physical components — exclude them.
+An electrical engineer working on subsystems, power, or manufacturing is a hardware engineer — exclude them.
+A "Technical Mission Designer" or "Technical Designer" in game dev is a designer who uses scripts — exclude them.
+A "Technical Animator" is borderline — include only if the description is primarily about building animation systems in code.
 
 Job title: {title}
 Company: {company}
@@ -71,7 +74,9 @@ Answer both:
    If too vague to summarize honestly, write: vague
 
 3. SKILLS (only if BUILDER is yes): up to 5 specific technologies, languages, or tools mentioned in the description.
-   Comma-separated. Be specific — "PyTorch" not "ML", "Rust" not "systems programming".
+   Comma-separated. Be specific — "PyTorch" not "ML", "Rust" not "systems programming", "JavaScript" not "JS",
+   "Unreal Engine" not "UE" or "UR", "PostgreSQL" not "databases".
+   Avoid generic terms like "backend", "frontend", "cloud", "APIs" — name the actual technology.
    If none are clearly mentioned, write: n/a
 
 4. LEVEL: Seniority of this role. Use signals in this priority order:
@@ -116,7 +121,7 @@ def classify_with_llm(job: dict) -> tuple[bool | None, str | None, list[str], st
     response = ollama.chat(
         model=MODEL,
         messages=[{"role": "user", "content": prompt}],
-        options={"temperature": 0.1},
+        options={"temperature": 0.1, "num_ctx": 4096},
         keep_alive="10m",
     )
     text = response["message"]["content"].strip()
