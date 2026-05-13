@@ -15,12 +15,28 @@ COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies_classified.j
 COMPANIES_DOMAINS_FILE = Path(__file__).parent.parent / "data" / "companies.json"
 
 HASH_MARKER = "render_hash: "
-FORMAT_VERSION = "14"  # bump to force re-render of all files
+FORMAT_VERSION = "15"  # bump to force re-render of all files
 SKILL_COLOR = "3B82F6"
 
 
 def slugify(text: str) -> str:
     return re.sub(r"[^a-z0-9-]", "-", text.lower()).strip("-")
+
+
+def title_slug(title: str) -> str:
+    t = re.sub(r"\bC\+\+", "cpp", title, flags=re.I)
+    t = re.sub(r"\bC#", "csharp", t, flags=re.I)
+    t = re.sub(r"\bF#", "fsharp", t, flags=re.I)
+    t = re.sub(r"\bQ#", "qsharp", t, flags=re.I)
+    t = re.sub(r"\.NET\b", "dotnet", t, flags=re.I)
+    t = re.sub(r"[^a-z0-9]+", "-", t.lower())
+    return t.strip("-")
+
+
+def native_id(job_id: str) -> str:
+    """Strip '{ats}-{company}-' prefix, keeping the full ATS-native ID."""
+    parts = job_id.split("-", 2)
+    return parts[2] if len(parts) >= 3 else job_id
 
 
 def skill_badge(skill: str) -> str:
@@ -232,7 +248,7 @@ def main():
         company_dir = JOBS_DIR / slugify(job["company"])
         company_dir.mkdir(exist_ok=True)
 
-        path = company_dir / f"{job['id']}.md"
+        path = company_dir / f"{title_slug(job['title'])}-{native_id(job['id'])}.md"
         written_paths.add(path)
 
         if read_hash(path) == render_hash(job, cl):
