@@ -124,7 +124,7 @@ def main():
         "# Builder Jobs",
         "",
         "A job board for software engineers at companies building things.",
-        "Roles are scraped daily from company career pages and classified by Claude Haiku 4.5 — curation keeps the signal",
+        "Roles are scraped hourly from company career pages and classified by Claude Haiku 4.5 — curation keeps the signal",
         "high enough that browsing everything new takes a few minutes and gives you a broader picture of the market.",
         "Listings older than 14 days are removed automatically.",
         "",
