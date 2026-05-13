@@ -1125,14 +1125,6 @@
     "category": []
   },
   {
-    "name": "Codeium",
-    "ats": "ashby",
-    "slug": "cognition",
-    "website": "https://codeium.com",
-    "category": [],
-    "meta_description": "Windsurf is the world's most advanced AI coding assistant for developers and enterprises. Windsurf Editor \u2014 the first AI-native IDE that keeps developers in flow."
-  },
-  {
     "name": "Cognition",
     "ats": "ashby",
     "slug": "cognition",
@@ -2097,14 +2089,6 @@
     "website": "https://speechify.com",
     "category": [],
     "meta_description": "Speechify reads anything aloud to you. Listen to books, PDFs, or web pages anytime with natural voices. Try Speechify free."
-  },
-  {
-    "name": "Windsurf",
-    "ats": "ashby",
-    "slug": "cognition",
-    "website": "https://windsurf.com",
-    "category": [],
-    "meta_description": "Windsurf is the world's most advanced AI coding assistant for developers and enterprises. Windsurf Editor \u2014 the first AI-native IDE that keeps developers in flow."
   },
   {
     "name": "Rev",
