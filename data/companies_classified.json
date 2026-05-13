@@ -700,5 +700,890 @@
     "slug": "supercell",
     "summary": "Supercell develops mobile games like Clash of Clans and Clash Royale using the Titan engine.",
     "source_hash": "d628b1b8"
+  },
+  {
+    "slug": "fireflyaerospace",
+    "name": "Firefly Aerospace",
+    "summary": "Firefly Aerospace designs and manufactures launch vehicles and engines for space transportation. The company operates in the commercial spaceflight sector, offering orbital launch services and developing reusable rocket technology."
+  },
+  {
+    "slug": "spire",
+    "name": "Spire Global",
+    "summary": "Spire Global builds and operates a constellation of small satellites that collect weather data, maritime tracking information, and radio frequency signals from Earth's atmosphere and surface. The company processes this satellite-derived data and sells it to customers in weather forecasting, maritime intelligence, and other sectors that require real-time Earth observation."
+  },
+  {
+    "slug": "blueorigin",
+    "name": "Blue Origin",
+    "summary": "Blue Origin builds reusable rockets and spacecraft for commercial spaceflight and payload delivery. The company operates in the aerospace and space transportation sector, with vehicles including the New Shepard suborbital vehicle for crewed flights and the New Glenn orbital launch system under development."
+  },
+  {
+    "slug": "tae-technologies",
+    "name": "TAE Technologies",
+    "summary": "# TAE Technologies\n\nTAE Technologies develops fusion energy systems using field-reversed configuration (FRC) plasma technology, with the goal of generating electricity from controlled nuclear fusion reactions."
+  },
+  {
+    "slug": "oklo",
+    "name": "Oklo",
+    "summary": "# Oklo\n\nOklo designs and develops micro nuclear reactors intended for deployment in remote locations and industrial applications that require compact, modular power generation. The company operates in the advanced nuclear energy sector, focusing on reactor design, fuel recycling, and regulatory licensing to commercialize small modular reactor (SMR) technology."
+  },
+  {
+    "slug": "general-fusion",
+    "name": "General Fusion",
+    "summary": "General Fusion develops magnetized target fusion reactors, which use mechanical pistons to compress a liquid metal vortex containing plasma to achieve nuclear fusion conditions. The company operates in the nuclear fusion energy sector, working toward building a demonstration power plant to generate electricity from fusion reactions."
+  },
+  {
+    "slug": "apptronik",
+    "name": "Apptronik",
+    "summary": "# Apptronik\n\nApptronik builds Apollo, a general-purpose humanoid robot designed for commercial deployment in logistics, manufacturing, and other labor-intensive industries. The company focuses on developing robots that can perform physical tasks in human-centered environments."
+  },
+  {
+    "slug": "sanctuary",
+    "name": "Sanctuary AI",
+    "summary": "Sanctuary AI builds general-purpose humanoid robots designed to perform physical tasks in real-world environments, with a focus on manufacturing, logistics, and other industrial applications where labor is needed."
+  },
+  {
+    "slug": "openai",
+    "name": "OpenAI",
+    "summary": "OpenAI builds artificial intelligence systems, including large language models like GPT-4 and ChatGPT, which they offer through APIs and consumer applications. The company operates in the artificial intelligence software domain, providing tools for text generation, code generation, and other AI-powered capabilities to developers, businesses, and consumers."
+  },
+  {
+    "slug": "xai",
+    "name": "xAI",
+    "summary": "# xAI\n\nxAI builds large language models and AI systems, most notably Grok, a conversational AI assistant. The company operates in the artificial intelligence domain, focusing on developing AI models that can process and generate text."
+  },
+  {
+    "slug": "maymobility",
+    "name": "May Mobility",
+    "summary": "# May Mobility\n\nMay Mobility builds autonomous vehicle software and operates self-driving shuttle services in the public transportation domain, offering on-demand microtransit solutions in cities and communities."
+  },
+  {
+    "slug": "shield",
+    "name": "Shield AI",
+    "summary": "Shield AI builds autonomous flight software and AI systems for military drones and aircraft, enabling unmanned vehicles to operate independently in GPS-denied environments and complex indoor spaces. The company operates in the defense technology sector, developing solutions for both government and commercial applications."
+  },
+  {
+    "slug": "absci",
+    "name": "Absci",
+    "summary": "# Absci\n\nAbsci builds software and computational biology tools for antibody and protein drug discovery and development, helping pharmaceutical and biotech companies design and optimize therapeutic proteins. The company operates in the drug discovery and development domain, specifically focused on applications in biologics."
+  },
+  {
+    "slug": "generatebiomedicines",
+    "name": "Generate Biomedicines",
+    "summary": "Generate Biomedicines builds computational tools and platforms for designing novel proteins using machine learning and generative AI, operating in the therapeutic protein drug development domain. The company focuses on generating and optimizing protein sequences for potential therapeutic applications rather than relying on natural or traditionally engineered proteins."
+  },
+  {
+    "slug": "mythic",
+    "name": "Mythic",
+    "summary": "# Mythic\n\nMythic builds AI processor chips and software optimized for running large language models and other neural networks directly on edge devices, operating in the semiconductor and AI hardware domain."
+  },
+  {
+    "slug": "redwoodmaterials",
+    "name": "Redwood Materials",
+    "summary": "Redwood Materials processes spent lithium-ion battery packs to recover and refine battery materials like nickel, cobalt, and lithium for reuse in new batteries. The company operates in battery recycling and the supply chain for electric vehicle and energy storage batteries."
+  },
+  {
+    "slug": "rondoenergy",
+    "name": "Rondo Energy",
+    "summary": "# Rondo Energy\n\nRondo Energy builds thermal energy storage systems that use heated sand to store and release heat for industrial processes. The company operates in the industrial decarbonization sector, focusing on helping manufacturing facilities reduce emissions from high-temperature heating applications."
+  },
+  {
+    "slug": "epicgames",
+    "name": "Epic Games",
+    "summary": "Epic Games develops the Unreal Engine, a real-time 3D graphics engine used for video game development and visualization across industries, and operates the Epic Games Store, a digital distribution platform for PC games. The company also develops and publishes games, most notably Fortnite, a free-to-play battle royale game."
+  },
+  {
+    "slug": "bungie",
+    "name": "Bungie",
+    "summary": "Bungie is a video game developer that creates first-person shooter games, most notably the Destiny franchise, a multiplayer online game with persistent worlds where players complete missions and raids. The company operates in the commercial video game industry, developing games primarily for console and PC platforms."
+  },
+  {
+    "slug": "nuro",
+    "name": "Nuro",
+    "summary": "Nuro builds autonomous delivery robots designed to transport goods on public roads for last-mile delivery. The company operates in the autonomous vehicles and logistics technology domain, focusing on regulatory approval and commercial deployment of driverless delivery services."
+  },
+  {
+    "slug": "altoslabs",
+    "name": "Altos Labs",
+    "summary": "Altos Labs is a longevity biotechnology company that focuses on cellular reprogramming and rejuvenation to reverse aging and age-related diseases. The company develops techniques to reset cells to younger states, with the goal of treating conditions like cancer, heart disease, and neurodegeneration."
+  },
+  {
+    "slug": "beta",
+    "name": "Beta Technologies",
+    "summary": "Beta Technologies develops electric aircraft and associated charging infrastructure for regional aviation, focusing on building practical electric vertical takeoff and landing (eVTOL) aircraft and ground support systems for the emerging electric aviation industry."
+  },
+  {
+    "slug": "calicolabs",
+    "name": "Calico Labs",
+    "summary": "Calico Labs is a research organization founded by Google/Alphabet that focuses on understanding the biology of aging and developing therapeutics to extend human lifespan and healthspan. The company conducts basic research in aging biology and runs drug development programs targeting age-related diseases."
+  },
+  {
+    "slug": "capellaspace",
+    "name": "Capella Space",
+    "summary": "Capella Space builds and operates a constellation of synthetic aperture radar (SAR) satellites that provide high-resolution Earth observation imagery regardless of weather conditions or time of day. The company serves customers in defense, intelligence, disaster response, and commercial sectors who need persistent monitoring and detailed imaging of specific locations on Earth."
+  },
+  {
+    "slug": "ginkgobioworks",
+    "name": "Joyn Bio",
+    "summary": "# Joyn Bio\n\nJoyn Bio develops genetically modified crops that produce their own nitrogen fertilizer through engineered symbiotic relationships with soil microbes, reducing the need for synthetic fertilizer inputs. The company operates in agricultural biotechnology, focusing on sustainable crop production for commodity crops like corn."
+  },
+  {
+    "slug": "inariagriculture",
+    "name": "Inari Agriculture",
+    "summary": "# Inari Agriculture\n\nInari Agriculture develops crop varieties using computational biology and gene editing technologies, focusing on traits like yield, disease resistance, and climate resilience for crops such as soy, corn, and wheat. The company operates in the agricultural biotechnology and seed breeding sector, working with growers and seed companies to commercialize improved crop varieties."
+  },
+  {
+    "slug": "isaraerospace",
+    "name": "Isar Aerospace",
+    "summary": "# Isar Aerospace\n\nIsar Aerospace develops and manufactures Spectrum, a small-lift launch vehicle designed to deploy small satellites to orbit. The company operates in the commercial spaceflight sector, specifically targeting the small satellite launch market."
+  },
+  {
+    "slug": "lightmatter",
+    "name": "Lightmatter",
+    "summary": "# Lightmatter\n\nLightmatter builds optical processors that use photons instead of electrons to perform computations, targeting applications in artificial intelligence and machine learning workloads. The company operates in the semiconductor and specialized computing hardware domain, developing alternatives to traditional electronic processors for data-intensive tasks."
+  },
+  {
+    "slug": "primerai",
+    "name": "Primer AI",
+    "summary": "# Primer AI\n\nPrimer AI builds natural language processing software that extracts and summarizes information from large volumes of text and documents, primarily serving government and defense organizations that need to process intelligence reports and classified information at scale."
+  },
+  {
+    "slug": "quaise",
+    "name": "Quaise Energy",
+    "summary": "Quaise Energy develops millimeter-wave drilling technology to create geothermal wells at depths and temperatures significantly greater than conventional drilling allows, aiming to access geothermal resources for electricity generation and industrial heat applications."
+  },
+  {
+    "slug": "relaytherapeutics",
+    "name": "Relay Therapeutics",
+    "summary": "Relay Therapeutics develops small-molecule drugs that target protein conformational dynamics, focusing on oncology and other disease areas where protein motion plays a role in disease. The company uses computational modeling and biophysics to design molecules that modulate how proteins move and change shape, rather than simply blocking their active sites."
+  },
+  {
+    "slug": "seurat",
+    "name": "Seurat Technologies",
+    "summary": "Seurat Technologies develops additive manufacturing technology for metal 3D printing, specifically focusing on a proprietary process that uses photochemical techniques to enable faster production of metal parts at scale. The company operates in the advanced manufacturing and industrial 3D printing sector, targeting applications in aerospace, defense, and other industries requiring high-performance metal components."
+  },
+  {
+    "slug": "wayve",
+    "name": "Wayve",
+    "summary": "Wayve builds machine learning software for autonomous vehicle driving systems, specifically focusing on end-to-end neural network models trained from video and sensor data rather than traditional hand-coded rules. The company operates in the autonomous driving domain, working with vehicle manufacturers and fleet operators to develop self-driving capabilities."
+  },
+  {
+    "slug": "archer56",
+    "name": "Archer Aviation",
+    "summary": "Archer Aviation builds electric vertical takeoff and landing aircraft (eVTOL) designed for urban air mobility applications. The company is developing aircraft intended to transport passengers on short-distance routes in metropolitan areas."
+  },
+  {
+    "slug": "cajal-tx",
+    "name": "Cajal Therapeutics",
+    "summary": "# Cajal Therapeutics\n\nCajal Therapeutics develops therapies targeting neuroimmune diseases by modulating immune responses in the nervous system. The company focuses on conditions where immune dysfunction contributes to neurological dysfunction, including autoimmune and neuroinflammatory disorders."
+  },
+  {
+    "slug": "vardaspace",
+    "name": "Varda Space Industries",
+    "summary": "Varda Space Industries builds small spacecraft designed to conduct materials research and manufacturing experiments in microgravity orbits, then return the products to Earth for collection and analysis. The company operates in the commercial spaceflight and space-based manufacturing sectors."
+  },
+  {
+    "slug": "blacksky",
+    "name": "BlackSky",
+    "summary": "# BlackSky\n\nBlackSky operates a constellation of small satellites that capture high-resolution imagery and monitor activity on Earth's surface, providing geospatial intelligence data to government and commercial customers. The company focuses on real-time change detection and monitoring capabilities for applications including infrastructure assessment, disaster response, and supply chain visibility."
+  },
+  {
+    "slug": "clickhouse",
+    "name": "ClickHouse",
+    "summary": "ClickHouse builds a columnar database management system designed for fast analytical queries on large datasets. The company operates in the data infrastructure domain, providing an open-source database engine optimized for OLAP (online analytical processing) workloads."
+  },
+  {
+    "slug": "found",
+    "name": "Found",
+    "summary": "# Found\n\nFound builds software for fertility clinics and reproductive health providers to manage patient care, clinical workflows, and practice operations. They operate in the fertility and reproductive medicine technology domain."
+  },
+  {
+    "slug": "gitlab",
+    "name": "GitLab",
+    "summary": "GitLab builds a DevOps platform that provides version control, CI/CD pipelines, and project management tools for software development teams. The company operates in the software development tooling and application lifecycle management space, serving organizations that need to manage code repositories and automate their deployment workflows."
+  },
+  {
+    "slug": "katalyst",
+    "name": "Katalyst",
+    "summary": "I don't have access to browse websites, so I cannot visit https://katalyst.com to verify current information about what Katalyst builds.\n\nTo provide you with an accurate, factual description, could you either:\n1. Share what you know about Katalyst's products/services, or\n2. Provide some text from their website that describes their business\n\nThis will help me write an accurate 1-2 sentence description without relying on potentially outdated information."
+  },
+  {
+    "slug": "netflix",
+    "name": "Netflix",
+    "summary": "Netflix builds a streaming service that delivers films, television series, documentaries, and stand-up comedy specials to subscribers over the internet. The company operates in the video streaming and entertainment content distribution domain, generating revenue through monthly subscription fees."
+  },
+  {
+    "slug": "slingshotaerospace",
+    "name": "Slingshot Aerospace",
+    "summary": "# Slingshot Aerospace\n\nSlingshot Aerospace builds software and analytical tools for space situational awareness, focusing on tracking and predicting the trajectories of objects in orbit, including satellites and debris. The company operates in the commercial space domain, serving government agencies and private space operators."
+  },
+  {
+    "slug": "tailscale",
+    "name": "Tailscale",
+    "summary": "Tailscale builds a VPN service that creates secure, encrypted networks connecting devices and services across the internet using WireGuard protocol. The company operates in the networking and cybersecurity domain, focusing on making it easier for teams and organizations to establish private network access without traditional VPN infrastructure."
+  },
+  {
+    "slug": "temporal",
+    "name": "Temporal",
+    "summary": "Temporal builds an open-source workflow orchestration platform that executes long-running, stateful applications by managing task queues, retries, and state persistence across distributed systems. The platform operates in the enterprise software infrastructure domain, serving use cases like payment processing, order fulfillment, and data pipelines that require reliable execution guarantees."
+  },
+  {
+    "slug": "ursamajor",
+    "name": "Ursa Major",
+    "summary": "Ursa Major develops rocket engines and propulsion systems for commercial and government space launch vehicles. The company operates in the aerospace and launch services sector, focusing on liquid rocket engines for small-to-medium lift launch vehicles."
+  },
+  {
+    "slug": "crystaldynamics",
+    "name": "Crystal Dynamics",
+    "summary": "Crystal Dynamics is a video game developer that creates action-adventure games, most notably the Tomb Raider and Marvel's Avengers franchises. The company operates in the interactive entertainment industry, specifically focused on console and PC gaming."
+  },
+  {
+    "slug": "gearbox",
+    "name": "Gearbox Software",
+    "summary": "Gearbox Software develops video games, primarily in the first-person shooter and action-adventure genres, with notable franchises including Borderlands, Duke Nukem, and Tiny Tina's Wonderlands. The studio also provides publishing services for independent developers through its Gearbox Publishing division."
+  },
+  {
+    "slug": "insomniac",
+    "name": "Insomniac Games",
+    "summary": "Insomniac Games develops video games, primarily action and superhero titles for PlayStation platforms, including the Spider-Man and Ratchet & Clank franchises. The studio is owned by Sony Interactive Entertainment and operates in the video game development industry."
+  },
+  {
+    "slug": "naughtydog",
+    "name": "Naughty Dog",
+    "summary": "Naughty Dog is a video game developer that creates single-player and multiplayer action-adventure games for PlayStation consoles, including franchises like The Last of Us and Uncharted."
+  },
+  {
+    "slug": "sonyinteractiveentertainmentglobal",
+    "name": "Bend Studio",
+    "summary": "# Bend Studio\n\nBend Studio develops video games, primarily known for the Days Gone franchise, a post-apocalyptic action-adventure series for PlayStation platforms. The studio is based in Bend, Oregon, and operates in the video game development industry."
+  },
+  {
+    "slug": "character",
+    "name": "Character.ai",
+    "summary": "Character.ai builds a platform for creating and interacting with AI chatbots that simulate specific personalities and characters. The service operates in the conversational AI domain, allowing users to design custom bots and chat with AI characters based on real or fictional figures, fictional characters, or custom personas."
+  },
+  {
+    "slug": "cognition",
+    "name": "Cognition",
+    "summary": "Cognition builds Claude, an AI assistant, and operates in the domain of large language models and generative AI. The company develops AI tools designed for reasoning and complex task completion across various professional and technical applications."
+  },
+  {
+    "slug": "descript",
+    "name": "Descript",
+    "summary": "# Descript\n\nDescript builds a video and audio editing tool that uses automatic transcription to let users edit multimedia by editing text, similar to how you'd edit a document in a word processor. The company operates in the media editing and production software space."
+  },
+  {
+    "slug": "hebbia",
+    "name": "Hebbia",
+    "summary": "Hebbia builds Claude for Enterprise, a large language model designed specifically for processing and analyzing massive volumes of documents and data within organizations. The company operates in the enterprise AI software domain, focusing on document retrieval, analysis, and knowledge extraction for business use cases."
+  },
+  {
+    "slug": "inflectionai",
+    "name": "Inflection AI",
+    "summary": "Inflection AI builds large language models and conversational AI products, primarily operating in the consumer-facing chatbot space. Their main product is Pi, a conversational AI assistant designed for dialogue and reasoning tasks."
+  },
+  {
+    "slug": "magic.dev",
+    "name": "Magic",
+    "summary": "Magic builds an AI software engineer that writes code and handles pull requests to help development teams automate routine coding tasks and speed up software development. The company operates in the AI-assisted software development and developer tools domain, targeting engineering teams looking to increase productivity through AI-powered code generation and automation."
+  },
+  {
+    "slug": "pika",
+    "name": "Pika",
+    "summary": "Pika is an AI video generation platform that creates short videos from text and image prompts. The company operates in the generative AI space, specifically focused on making video creation tools accessible to creators and developers."
+  },
+  {
+    "slug": "Sierra",
+    "name": "Sierra",
+    "summary": "Sierra builds an AI customer service platform that uses large language models to handle customer support interactions across multiple channels like email, chat, and phone, operating in the customer service and enterprise software domain."
+  },
+  {
+    "slug": "speak",
+    "name": "Speak",
+    "summary": "# Speak\n\nSpeak builds an AI-powered English learning platform that uses conversational practice with AI tutors to help users improve speaking and listening skills. The company operates in the language learning software domain, focusing specifically on spoken English proficiency."
+  },
+  {
+    "slug": "stabilityai",
+    "name": "Stability AI",
+    "summary": "Stability AI builds open-source generative AI models, most notably Stable Diffusion for text-to-image generation, and operates in the domain of machine learning model development and deployment. The company provides these models and related tools for image generation, video generation, and language tasks, making them available to developers and businesses."
+  },
+  {
+    "slug": "suno",
+    "name": "Suno",
+    "summary": "Suno builds an AI music generation platform that creates original songs from text prompts, allowing users to generate music across various genres and styles without requiring musical production skills. The company operates in the AI-generated music domain, competing in the broader space of generative AI tools for creative content."
+  },
+  {
+    "slug": "writer",
+    "name": "Writer",
+    "summary": "Writer builds a generative AI platform that helps enterprises create, personalize, and distribute content at scale. The platform serves companies across sectors like financial services, healthcare, and retail that need to generate marketing copy, customer communications, and other business content."
+  },
+  {
+    "slug": "airbyte",
+    "name": "Airbyte",
+    "summary": "Airbyte builds an open-source data integration platform that extracts data from various source systems and loads it into data warehouses, lakes, and other destinations. The company operates in the data integration and ELT (extract, load, transform) space, serving organizations that need to consolidate data from multiple applications and databases for analytics and business intelligence purposes."
+  },
+  {
+    "slug": "amplitude",
+    "name": "Amplitude",
+    "summary": "Amplitude builds a product analytics platform that helps companies track, measure, and analyze how users interact with their digital products and applications. The platform operates in the business intelligence and analytics domain, serving product teams, marketers, and data analysts across various industries."
+  },
+  {
+    "slug": "astronomer",
+    "name": "Astronomer",
+    "summary": "Astronomer builds a managed platform for Apache Airflow, an open-source workflow orchestration tool, that handles scheduling, monitoring, and execution of data pipelines. The company operates in the data engineering and orchestration space, providing cloud-hosted infrastructure and tooling to help organizations manage complex data workflows."
+  },
+  {
+    "slug": "cockroachlabs",
+    "name": "CockroachLabs",
+    "summary": "CockroachLabs builds CockroachDB, a distributed SQL database that runs across multiple cloud regions and data centers while maintaining strong consistency guarantees. The company operates in the database infrastructure and cloud data management domain."
+  },
+  {
+    "slug": "dbtlabsinc",
+    "name": "dbt Labs",
+    "summary": "dbt Labs builds dbt (data build tool), an open-source command-line tool that enables data analysts and engineers to transform raw data into analytics-ready datasets using SQL and version control practices. The company operates in the data transformation and modern data stack domain, providing both open-source software and commercial cloud services for organizations managing data pipelines."
+  },
+  {
+    "slug": "eppo",
+    "name": "Eppo",
+    "summary": "# Eppo\n\nEppo builds a feature management and experimentation platform that helps engineering and product teams run A/B tests, control feature rollouts, and analyze experiment results. The company operates in the software development tools and analytics space, serving product-driven organizations that need to validate changes before full deployment."
+  },
+  {
+    "slug": "harnessinc",
+    "name": "Harness",
+    "summary": "# Harness\n\nHarness builds a continuous delivery platform that automates software deployment pipelines and release management across cloud infrastructure. The company operates in the DevOps and software delivery automation domain, helping engineering teams reduce manual deployment processes and improve deployment frequency and reliability."
+  },
+  {
+    "slug": "hightouch",
+    "name": "Hightouch",
+    "summary": "Hightouch builds a reverse ETL platform that syncs data from data warehouses and lakes back to business applications like CRMs, marketing automation tools, and ad platforms. The company operates in the data integration space, specifically addressing the workflow of moving processed data from analytical systems into operational tools where business teams use it."
+  },
+  {
+    "slug": "Influxdata",
+    "name": "InfluxData",
+    "summary": "InfluxData builds InfluxDB, a time-series database designed to store and query timestamped data at scale, along with related tools for data collection and visualization. The company operates in the time-series data infrastructure space, serving use cases in monitoring, observability, and IoT applications."
+  },
+  {
+    "slug": "launchdarkly",
+    "name": "LaunchDarkly",
+    "summary": "LaunchDarkly builds a feature management platform that allows software teams to control feature releases and perform experiments in production without requiring code deployments. The company operates in the software development tools and DevOps space, serving engineering teams that need to manage feature flags, conduct A/B testing, and perform gradual rollouts across their applications."
+  },
+  {
+    "slug": "mixpanel",
+    "name": "Mixpanel",
+    "summary": "Mixpanel builds analytics software that tracks user interactions and events within digital products, enabling companies to measure engagement, retention, and conversion metrics. The company operates in the product analytics domain, serving businesses that need to understand how users behave in their applications and websites."
+  },
+  {
+    "slug": "notion",
+    "name": "Notion",
+    "summary": "Notion builds a workspace application that combines note-taking, databases, wikis, and project management tools in a single platform. The product operates in the productivity software domain, targeting individuals, teams, and organizations that need to organize information and collaborate on work."
+  },
+  {
+    "slug": "planetscale",
+    "name": "PlanetScale",
+    "summary": "PlanetScale builds a MySQL-compatible serverless database platform that handles automatic scaling, branching, and deployment features. They operate in the cloud database infrastructure space, providing MySQL as a service with a focus on developer experience and operational simplicity."
+  },
+  {
+    "slug": "prefect",
+    "name": "Prefect",
+    "summary": "Prefect builds a workflow orchestration platform that manages, monitors, and schedules data pipelines and tasks. The company operates in the data infrastructure domain, serving data engineers and analytics teams who need to automate and observe complex data workflows."
+  },
+  {
+    "slug": "semgrep",
+    "name": "Semgrep",
+    "summary": "Semgrep builds a static analysis tool that scans source code to find bugs, security vulnerabilities, and code quality issues across multiple programming languages. The company operates in the application security and developer tooling domain, serving software development teams that want to automate code scanning in their CI/CD pipelines."
+  },
+  {
+    "slug": "sentry",
+    "name": "Sentry",
+    "summary": "# Sentry\n\nSentry builds error tracking and performance monitoring software that helps developers identify, diagnose, and fix issues in their applications. The platform integrates into web, mobile, and backend applications to capture crashes, exceptions, and performance problems in production environments."
+  },
+  {
+    "slug": "singlestore",
+    "name": "SingleStore",
+    "summary": "SingleStore builds a distributed SQL database designed to handle both transactional and analytical workloads at scale, operating in the enterprise data management and cloud database domain."
+  },
+  {
+    "slug": "socket",
+    "name": "Socket",
+    "summary": "Socket builds supply chain security tools that detect and prevent malicious open source packages and dependencies from being installed in software projects. They operate in the software security domain, specifically focused on protecting developers and organizations from compromised or malicious code in their dependency management and build processes."
+  },
+  {
+    "slug": "huntress",
+    "name": "Huntress",
+    "summary": "Huntress builds security software focused on endpoint detection and response (EDR) and threat hunting for small and mid-sized businesses. They operate in the cybersecurity domain, specifically targeting organizations that lack dedicated security teams."
+  },
+  {
+    "slug": "nightfall-ai",
+    "name": "Nightfall AI",
+    "summary": "# Nightfall AI\n\nNightfall AI builds data loss prevention (DLP) software that detects and classifies sensitive information like API keys, credentials, and personally identifiable data across cloud applications and SaaS platforms. The company operates in the cybersecurity domain, specifically focusing on preventing data exposure in enterprise cloud environments."
+  },
+  {
+    "slug": "marqeta",
+    "name": "Marqeta",
+    "summary": "Marqeta builds a card-issuing platform that enables companies to create and manage payment cards and digital wallets. They operate in the fintech infrastructure space, providing APIs and services for businesses to issue cards for various use cases including payroll, gig worker payments, and corporate expense management."
+  },
+  {
+    "slug": "mercury",
+    "name": "Mercury",
+    "summary": "Mercury builds banking and financial infrastructure for startups and growth-stage companies, offering services including business accounts, payments, treasury management, and financial operations tools. They operate in the fintech and business banking domain, serving as an alternative to traditional banks for venture-backed companies."
+  },
+  {
+    "slug": "ramp",
+    "name": "Ramp",
+    "summary": "Ramp builds a corporate expense management platform that handles employee spending, receipt tracking, and bill payments for mid-market companies. The platform integrates with accounting software and provides real-time visibility into business expenses across a company's spend."
+  },
+  {
+    "slug": "reddit",
+    "name": "Reddit",
+    "summary": "Reddit builds and operates an online discussion platform where users create communities (subreddits) centered around topics of interest, post content, and engage in threaded conversations. The platform generates revenue primarily through advertising and premium subscription services."
+  },
+  {
+    "slug": "zwift",
+    "name": "Zwift",
+    "summary": "Zwift builds a multiplayer fitness platform that lets users ride stationary bikes and run on treadmills while competing in virtual worlds. The company operates in the digital fitness and esports space, offering structured training programs and competitive events for cyclists and runners."
+  },
+  {
+    "slug": "akiliinteractive",
+    "name": "Akili Interactive",
+    "summary": "# Akili Interactive\n\nAkili Interactive develops digital therapeutics, primarily video game-based treatments designed to improve cognitive function in patients with conditions like ADHD and stroke-related cognitive impairment. Their main product, Endeavor, is a prescription digital therapeutic that has received FDA clearance and is distributed through the healthcare system."
+  },
+  {
+    "slug": "deepgenomics",
+    "name": "Deep Genomics",
+    "summary": "Deep Genomics builds machine learning software that analyzes genomic and clinical data to predict the effects of genetic variants and identify potential drug targets for genetic diseases. The company operates in the computational genomics and precision medicine domain, focusing on applications like RNA-targeting therapeutics."
+  },
+  {
+    "slug": "ro",
+    "name": "Ro",
+    "summary": "# Ro\n\nRo builds a telehealth platform that connects patients with licensed physicians and pharmacists to prescribe and deliver medications for chronic conditions like GLP-1 weight loss drugs, erectile dysfunction treatments, and dermatology products. The company operates in the direct-to-consumer telehealth and pharmaceutical delivery space."
+  },
+  {
+    "slug": "synthego",
+    "name": "Synthego",
+    "summary": "Synthego builds synthetic biology tools and services, primarily CRISPR gene-editing reagents and cell engineering platforms for research and therapeutic development. The company operates in the life sciences and biotechnology domain, serving academic researchers, pharmaceutical companies, and biotech firms developing gene therapies and cellular medicines."
+  },
+  {
+    "slug": "Viz.ai",
+    "name": "Viz.ai",
+    "summary": "Viz.ai builds AI software that analyzes medical imaging scans to detect acute neurological and cardiovascular conditions, such as strokes and pulmonary embolisms, and alerts clinicians to potential cases. The company operates in the healthcare AI domain, specifically focused on diagnostic imaging for emergency and critical care settings."
+  },
+  {
+    "slug": "plus-2",
+    "name": "Plus AI",
+    "summary": "Plus AI develops autonomous driving software and technology for commercial trucks, focusing on highway driving automation to enable safer and more efficient long-haul trucking operations. The company operates in the autonomous vehicle industry, specifically targeting the logistics and transportation sector with self-driving capabilities for heavy-duty vehicles."
+  },
+  {
+    "slug": "waabi",
+    "name": "Waabi",
+    "summary": "Waabi builds simulation and AI software for autonomous trucking. The company develops physics-based simulators and machine learning models to train and validate self-driving truck systems."
+  },
+  {
+    "slug": "skyryse",
+    "name": "Skyryse",
+    "summary": "# Skyryse\n\nSkyryse builds automated flight control systems for helicopters that simplify piloting through software that handles low-level flight dynamics and stabilization. The company operates in the aviation technology sector, specifically targeting helicopter operators and manufacturers."
+  },
+  {
+    "slug": "CesiumAstro",
+    "name": "CesiumAstro",
+    "summary": "CesiumAstro develops radio frequency and antenna technologies for satellite communications, focusing on phased array systems that enable improved connectivity and beam steering capabilities. The company operates in the space technology and satellite communications domain, serving both government and commercial customers requiring advanced satellite ground terminals and in-space antenna solutions."
+  },
+  {
+    "slug": "momentus",
+    "name": "Momentus",
+    "summary": "Momentus builds space tug vehicles designed to transport satellites from their initial orbital deployment point to their final operational orbits. The company operates in the commercial spaceflight and orbital transfer services sector."
+  },
+  {
+    "slug": "ChefRobotics",
+    "name": "Chef Robotics",
+    "summary": "# Chef Robotics\n\nChef Robotics builds robotic systems that perform food preparation tasks in commercial kitchens, such as chopping, plating, and cooking. The company operates in the food service automation domain, targeting restaurants and food production facilities."
+  },
+  {
+    "slug": "StandardBots",
+    "name": "Standard Bots",
+    "summary": "# Standard Bots\n\nStandard Bots builds robotic arms and control software for manufacturing and warehouse automation. The company develops collaborative industrial robots designed for tasks like machine tending, material handling, and assembly in factory and logistics environments."
+  },
+  {
+    "slug": "aircompany",
+    "name": "Air Company",
+    "summary": "Air Company captures carbon dioxide from the air and converts it into synthetic fuels and chemicals using renewable electricity and proprietary catalytic processes. The company operates in the industrial biotechnology and carbon utilization domain, producing products like sustainable aviation fuel and other hydrocarbons."
+  },
+  {
+    "slug": "charmindustrial",
+    "name": "Charm Industrial",
+    "summary": "Charm Industrial builds equipment that converts biomass and waste into biochar while capturing carbon dioxide, which is then compressed and stored permanently underground or in products. The company operates in the carbon removal and industrial decarbonization sector."
+  },
+  {
+    "slug": "twelve",
+    "name": "Twelve",
+    "summary": "Twelve builds electrochemical reactors and processes that convert carbon dioxide into useful chemicals and fuels, operating in the industrial decarbonization and chemical manufacturing domain. The company focuses on replacing conventional petrochemical production methods with CO2-based alternatives to reduce emissions across the chemical industry."
+  },
+  {
+    "slug": "sandboxaq",
+    "name": "SandboxAQ",
+    "summary": "SandboxAQ builds software tools and services for simulating and analyzing quantum computing systems, focusing on applications in drug discovery, materials science, and optimization problems. The company operates in the quantum computing and computational chemistry domain, helping organizations prepare for and evaluate quantum computing's practical applications."
+  },
+  {
+    "slug": "sourcegraph91",
+    "name": "Sourcegraph",
+    "summary": "Sourcegraph builds a code search and intelligence platform that helps developers navigate, understand, and fix code across large codebases and multiple repositories. The platform operates in the developer tools and software development productivity domain, serving teams that need to manage code comprehension and refactoring at scale."
+  },
+  {
+    "slug": "Coder",
+    "name": "Coder",
+    "summary": "# Coder\n\nCoder builds a platform that provisions remote development environments on cloud infrastructure, allowing developers to access standardized workspaces through a web browser or IDE. The company operates in the developer tools and infrastructure space, serving organizations that want to centralize and manage development environments."
+  },
+  {
+    "slug": "cursor",
+    "name": "Cursor",
+    "summary": "Cursor builds an AI-powered code editor that integrates large language models directly into the development environment to assist with writing, editing, and understanding code. The product operates in the software development tools domain, competing with traditional IDEs and text editors like VS Code."
+  },
+  {
+    "slug": "jetbrains",
+    "name": "JetBrains",
+    "summary": "JetBrains develops integrated development environments (IDEs) and code editing tools for software developers, including IntelliJ IDEA, PyCharm, WebStorm, and Kotlin. The company operates in the software development tools market, providing paid and free IDEs tailored to specific programming languages and frameworks."
+  },
+  {
+    "slug": "render",
+    "name": "Render",
+    "summary": "# Render\n\nRender is a cloud platform that provides infrastructure services for deploying and running web applications, APIs, databases, and background jobs. The company operates in the cloud computing and platform-as-a-service (PaaS) space, competing with services like Heroku and AWS."
+  },
+  {
+    "slug": "replit",
+    "name": "Replit",
+    "summary": "Replit builds a web-based integrated development environment (IDE) that allows users to write, run, and share code in dozens of programming languages without installing software locally. The platform operates in the online code editor and cloud computing space, serving individual developers, students, and teams who need quick access to a coding environment."
+  },
+  {
+    "slug": "chainalysis",
+    "name": "Chainalysis",
+    "summary": "Chainalysis builds blockchain analysis software that tracks cryptocurrency transactions across public blockchains to identify wallet addresses, transaction patterns, and fund flows. The company operates in the cryptocurrency compliance and investigation domain, serving financial institutions, law enforcement, and government agencies."
+  },
+  {
+    "slug": "keepersecurity",
+    "name": "Keeper Security",
+    "summary": "Keeper Security builds a password manager and identity and access management platform that stores encrypted passwords, credentials, and secrets for individuals and enterprises. The company operates in the cybersecurity software domain, specifically in credential management and secure authentication solutions."
+  },
+  {
+    "slug": "trmlabs",
+    "name": "TRM Labs",
+    "summary": "# TRM Labs\n\nTRM Labs builds blockchain intelligence software that analyzes cryptocurrency transactions to detect illicit activity, identify financial crime risks, and provide compliance tools for crypto businesses. The company operates in the cryptocurrency compliance and financial crime prevention domain, serving exchanges, banks, and other institutions that need to monitor blockchain activity for regulatory purposes."
+  },
+  {
+    "slug": "vectranetworks",
+    "name": "Vectra AI",
+    "summary": "# Vectra AI\n\nVectra AI builds network detection and response (NDR) software that uses machine learning to identify and investigate suspicious activity and threats on enterprise networks. The company operates in the cybersecurity domain, specifically focused on threat detection across cloud and on-premises infrastructure."
+  },
+  {
+    "slug": "anchorage",
+    "name": "Anchorage Digital",
+    "summary": "Anchorage Digital builds institutional-grade infrastructure and custody solutions for digital assets, serving primarily institutional clients, corporations, and fund managers that need to buy, sell, and store cryptocurrencies and blockchain tokens."
+  },
+  {
+    "slug": "bitgo",
+    "name": "BitGo",
+    "summary": "BitGo builds custody and security infrastructure for cryptocurrencies and digital assets, offering services like multi-signature wallet management, trading settlement, and staking for institutional clients and exchanges."
+  },
+  {
+    "slug": "kraken.com",
+    "name": "Kraken",
+    "summary": "Kraken is a cryptocurrency exchange that provides spot trading, futures trading, and staking services for digital assets. The platform operates in the cryptocurrency and blockchain finance domain."
+  },
+  {
+    "slug": "paxos-technology-solutions",
+    "name": "Paxos",
+    "summary": "# Paxos\n\nPaxos builds blockchain infrastructure and financial services products, including a stablecoin (PAX Dollar), custody solutions, and settlement systems for institutional clients. The company operates in the cryptocurrency and blockchain domain, serving banks, exchanges, and other financial institutions that need to integrate digital assets into their operations."
+  },
+  {
+    "slug": "wealthfront",
+    "name": "Wealthfront",
+    "summary": "Wealthfront builds a web and mobile platform that provides automated investment management and financial planning services. The company operates in the robo-advisor space, offering algorithm-driven portfolio management, tax-loss harvesting, and financial planning tools to individual investors."
+  },
+  {
+    "slug": "grailbio",
+    "name": "GRAIL",
+    "summary": "GRAIL builds blood tests designed to detect multiple cancer types in asymptomatic people before symptoms appear. The company operates in the oncology and early cancer detection domain, focusing on developing liquid biopsy technology that analyzes circulating tumor DNA in blood samples."
+  },
+  {
+    "slug": "natera",
+    "name": "Natera",
+    "summary": "# Natera\n\nNatera builds genetic testing and cell-free DNA analysis platforms used for prenatal screening, cancer monitoring, and organ transplant rejection detection. The company operates in the clinical diagnostics and laboratory testing domain, providing molecular tests that analyze DNA fragments in blood samples."
+  },
+  {
+    "slug": "2kearlycareers",
+    "name": "2K Games",
+    "summary": "2K Games publishes video games across multiple genres, including sports simulation franchises like NBA 2K and WWE 2K, narrative-driven games like the Borderlands series, and strategy titles like Civilization. The company operates in the commercial video game publishing and development sector, primarily for console, PC, and mobile platforms."
+  },
+  {
+    "slug": "rain-ai-jobs",
+    "name": "Rain Neuromorphics",
+    "summary": "Rain Neuromorphics builds neuromorphic processors and software that use event-driven computing principles to process data with lower latency and energy consumption than traditional AI chips, targeting applications in robotics, autonomous systems, and real-time inference."
+  },
+  {
+    "slug": "scoutmotors",
+    "name": "Scout Motors",
+    "summary": "Scout Motors builds electric sport utility vehicles (SUVs) and is developing manufacturing operations to produce them domestically in the United States. The company operates in the automotive industry, specifically focused on electric vehicle production."
+  },
+  {
+    "slug": "anyscale",
+    "name": "Anyscale",
+    "summary": "Anyscale builds Ray, an open-source distributed computing framework, and offers a managed cloud platform for running Ray workloads at scale. The company operates in the machine learning infrastructure and distributed computing domain, serving data scientists and engineers who need to parallelize Python workloads across clusters."
+  },
+  {
+    "slug": "langchain",
+    "name": "LangChain",
+    "summary": "LangChain builds open-source Python and JavaScript libraries that simplify building applications with large language models by providing abstractions for chaining together LLM calls, managing prompts, and integrating external data sources. The company operates in the developer tools space for AI/machine learning applications."
+  },
+  {
+    "slug": "pinecone",
+    "name": "Pinecone",
+    "summary": "Pinecone builds a vector database that stores and indexes high-dimensional vectors to enable fast similarity search and retrieval at scale. The company operates in the machine learning infrastructure space, focusing on vector search capabilities used for retrieval-augmented generation (RAG), semantic search, and recommendation systems."
+  },
+  {
+    "slug": "zilliz",
+    "name": "Zilliz",
+    "summary": "Zilliz builds Milvus, an open-source vector database designed to store and search high-dimensional vector embeddings at scale. The company operates in the domain of vector databases and AI infrastructure, serving use cases like semantic search, recommendation systems, and retrieval-augmented generation (RAG)."
+  },
+  {
+    "slug": "armorcode",
+    "name": "ArmorCode",
+    "summary": "ArmorCode builds a software security platform that helps enterprises manage application security risks and vulnerabilities across their development pipelines and cloud environments. The company operates in the application security and DevSecOps domain, providing tools for vulnerability management, risk prioritization, and security orchestration."
+  },
+  {
+    "slug": "cobaltio",
+    "name": "Cobalt",
+    "summary": "# Cobalt\n\nCobalt operates a platform that matches security researchers with organizations to conduct penetration testing and vulnerability assessments on software, web applications, and infrastructure. The company operates in the cybersecurity testing and bug bounty domain."
+  },
+  {
+    "slug": "endorlabs",
+    "name": "Endor Labs",
+    "summary": "Endor Labs builds software supply chain security tools that help organizations identify and manage vulnerabilities in open source dependencies and third-party software components. The company operates in the DevSecOps and software composition analysis domain, focusing on dependency risk assessment and remediation for development teams."
+  },
+  {
+    "slug": "horizon3ai",
+    "name": "Horizon3",
+    "summary": "I don't have access to browse websites, so I can't verify current information about Horizon3 from their site. Could you provide me with details about what they build and their domain, or would you like me to help you write the description once you share that information?"
+  },
+  {
+    "slug": "alchemy",
+    "name": "Alchemy",
+    "summary": "# Alchemy\n\nAlchemy builds blockchain infrastructure, primarily a node-as-a-service platform that provides APIs for developers to interact with blockchain networks like Ethereum, Polygon, and Solana. They operate in the Web3 and cryptocurrency development tools space."
+  },
+  {
+    "slug": "aptoslabs",
+    "name": "Aptos Labs",
+    "summary": "Aptos Labs builds the Aptos blockchain, a Layer 1 cryptocurrency network designed for high transaction throughput and low latency using the Move programming language. The company operates in the blockchain infrastructure and cryptocurrency space."
+  },
+  {
+    "slug": "mystenlabs",
+    "name": "Mysten Labs",
+    "summary": "Mysten Labs builds Sui, a blockchain platform that uses an object-oriented data model and horizontal scaling to process transactions in parallel. The company operates in the layer-1 blockchain infrastructure space, focusing on enabling fast and low-cost transaction settlement for decentralized applications."
+  },
+  {
+    "slug": "nearfoundation",
+    "name": "Near Protocol",
+    "summary": "Near Protocol builds a Layer 1 blockchain that uses sharding to increase transaction throughput and scalability. The network operates in the blockchain and cryptocurrency domain, enabling decentralized applications and smart contracts with a focus on developer accessibility and user experience."
+  },
+  {
+    "slug": "cultureamp",
+    "name": "Culture Amp",
+    "summary": "Culture Amp builds software that helps organizations collect, analyze, and act on employee feedback through surveys, pulse checks, and performance reviews. The platform operates in the human resources and employee experience management domain."
+  },
+  {
+    "slug": "lattice",
+    "name": "Lattice",
+    "summary": "# Lattice\n\nLattice builds people management software that helps organizations with performance management, goal tracking, engagement surveys, and compensation planning. The company operates in the HR tech/human capital management domain, serving mid-market and enterprise companies."
+  },
+  {
+    "slug": "Leapsome",
+    "name": "Leapsome",
+    "summary": "# Leapsome\n\nLeapsome builds an all-in-one people management platform that combines performance management, engagement surveys, and continuous feedback tools for employees and managers. The software operates in the human resources and talent management domain, serving mid-to-large organizations."
+  },
+  {
+    "slug": "disco",
+    "name": "Disco",
+    "summary": "Disco builds software for legal document review and discovery, helping law firms and corporate legal teams manage, analyze, and produce documents during litigation and investigations. The company operates in the legal technology domain, specifically in e-discovery and litigation support."
+  },
+  {
+    "slug": "frontcareers",
+    "name": "Front",
+    "summary": "Front builds a customer communication platform that centralizes email, chat, and messaging channels into a single inbox for teams. The platform operates in the business software domain, specifically serving customer support, sales, and operations teams that need to manage multi-channel communications."
+  },
+  {
+    "slug": "GitBook",
+    "name": "GitBook",
+    "summary": "GitBook builds a platform for creating, organizing, and publishing technical documentation and knowledge bases. The company operates in the documentation and knowledge management software space, serving development teams and technical organizations."
+  },
+  {
+    "slug": "grammarly",
+    "name": "Superhuman",
+    "summary": "Superhuman builds a Gmail client that adds features like keyboard shortcuts, read status tracking, and send-later functionality to speed up email management. The product operates in the email productivity software domain, targeting professionals who handle high email volumes."
+  },
+  {
+    "slug": "particlehealth",
+    "name": "Particle Health",
+    "summary": "Particle Health builds a health data exchange network that aggregates and standardizes electronic health information from healthcare providers and systems, enabling patients and authorized third parties to access medical records across fragmented healthcare organizations. The company operates in the healthcare interoperability and health information exchange domain."
+  },
+  {
+    "slug": "spanio",
+    "name": "Span",
+    "summary": "# Span\n\nSpan builds home energy management hardware and software that allows residential customers to optimize their solar, battery, and grid electricity usage. The company operates in the distributed energy resources and residential energy management domain."
+  },
+  {
+    "slug": "assemblyai",
+    "name": "AssemblyAI",
+    "summary": "AssemblyAI builds APIs and models for speech recognition and audio intelligence, enabling developers to convert audio and video files into text and extract insights like speaker identification, content moderation, and entity detection. The company operates in the speech-to-text and audio processing domain, serving use cases in transcription, content analysis, and accessibility applications."
+  },
+  {
+    "slug": "Deepgram",
+    "name": "Deepgram",
+    "summary": "Deepgram builds APIs and models for automatic speech recognition (ASR) and natural language understanding that convert audio into text and extract meaning from spoken content. The company operates in the speech AI domain, serving developers and enterprises that need to process voice data in applications like transcription, call analysis, and voice-enabled services."
+  },
+  {
+    "slug": "Jasper",
+    "name": "Jasper",
+    "summary": "# Jasper\n\nJasper builds a generative AI platform that helps marketing teams and agencies create written content like ad copy, social media posts, and website copy. The company operates in the marketing automation and AI-assisted content creation space."
+  },
+  {
+    "slug": "lovable",
+    "name": "Lovable",
+    "summary": "# Lovable\n\nLovable builds an AI-powered web development tool that generates, edits, and deploys full-stack web applications from natural language descriptions and screenshots. The platform operates in the low-code/AI development tools space, targeting developers and non-technical users who want to create functional web apps without writing code from scratch."
+  },
+  {
+    "slug": "speechify",
+    "name": "Speechify",
+    "summary": "Speechify builds a text-to-speech application that converts written content into spoken audio across documents, web pages, and emails. The company operates in the accessibility and productivity software space, primarily serving users with dyslexia, visual impairments, and those seeking alternative consumption methods for written material."
+  },
+  {
+    "slug": "rev",
+    "name": "Rev",
+    "summary": "Rev is an online platform that connects businesses and content creators with freelance transcribers, captioners, and translators to convert audio and video content into text and other languages. The company operates in the digital services marketplace space, offering both on-demand and API-based transcription and captioning services."
+  },
+  {
+    "slug": "coderabbit",
+    "name": "Coderabbit",
+    "summary": "# Coderabbit\n\nCoderabbit builds an AI-powered code review tool that analyzes pull requests and provides automated feedback on code quality, potential bugs, and best practices. The tool operates in the software development and DevOps domain, integrating with version control platforms like GitHub and GitLab to assist engineering teams in the code review process."
+  },
+  {
+    "slug": "Speakeasy",
+    "name": "Speakeasy",
+    "summary": "# Speakeasy\n\nSpeakeasy builds API documentation and SDK generation tools that automatically create developer-facing resources from API specifications. The company operates in the API infrastructure and developer tooling domain, helping companies document their APIs and generate client libraries across multiple programming languages."
+  },
+  {
+    "slug": "stainlessapi",
+    "name": "Stainless",
+    "summary": "Stainless builds developer tools and SDKs that help companies integrate with AI models and APIs, particularly focusing on code generation for API client libraries. The company operates in the developer infrastructure space, providing frameworks and tooling that streamline how organizations build and maintain API integrations."
+  },
+  {
+    "slug": "demandbase",
+    "name": "Demandbase",
+    "summary": "Demandbase builds account-based marketing (ABM) and sales intelligence software that helps B2B companies identify, target, and engage specific high-value accounts. The platform operates in the business intelligence and marketing technology domain, providing data on companies and decision-makers to support sales and marketing teams."
+  },
+  {
+    "slug": "g2crowd",
+    "name": "G2",
+    "summary": "G2 operates a software review and comparison platform where businesses can research, review, and compare enterprise software products across categories like CRM, marketing automation, and project management. The company generates revenue through vendor fees paid by software companies seeking visibility and customer reviews on their marketplace."
+  },
+  {
+    "slug": "intercom",
+    "name": "Intercom",
+    "summary": "Intercom builds customer communication software that combines live chat, chatbots, email, and help desk tools on a single platform. The company operates in the customer service and communication software domain, serving businesses that want to manage customer interactions across multiple channels."
+  },
+  {
+    "slug": "moderntreasury",
+    "name": "Modern Treasury",
+    "summary": "Modern Treasury builds a payments operations platform that helps finance teams manage, reconcile, and automate payment workflows across multiple banks and payment rails. The company operates in the financial infrastructure and treasury management domain, serving mid-market and enterprise organizations that need to coordinate complex, high-volume payment operations."
+  },
+  {
+    "slug": "spreedly",
+    "name": "Spreedly",
+    "summary": "Spreedly builds a payment orchestration platform that allows merchants to manage multiple payment processors and gateways through a single integration. The company operates in the payments infrastructure space, serving e-commerce and SaaS businesses that need flexibility in routing transactions across different payment providers."
+  },
+  {
+    "slug": "synctera",
+    "name": "Synctera",
+    "summary": "# Synctera\n\nSynctera builds cloud-based banking infrastructure and APIs that enable financial institutions and fintech companies to offer deposit and lending products without building these systems from scratch. The company operates in the financial services technology domain, providing core banking capabilities as a service."
+  },
+  {
+    "slug": "monzo",
+    "name": "Monzo",
+    "summary": "Monzo builds a mobile banking app that provides current accounts, debit cards, and financial management tools to consumers in the UK and Europe. They operate in the retail banking and fintech domain, offering services like spending tracking, budgeting, savings features, and international money transfers."
+  },
+  {
+    "slug": "hippo70",
+    "name": "Hippo",
+    "summary": "Hippo builds homeowners insurance products and related coverage solutions for the residential property insurance market. The company operates as a digital-first insurance provider offering policies with an emphasis on customer experience and modern underwriting practices for homeowners."
+  },
+  {
+    "slug": "foursquare",
+    "name": "Foursquare",
+    "summary": "Foursquare builds location intelligence platforms and APIs that provide data about places, including foot traffic patterns, visitor demographics, and business insights. The company operates in location data and analytics, serving customers in real estate, retail, restaurants, and advertising who need information about physical locations and consumer movement patterns."
+  },
+  {
+    "slug": "Mapbox",
+    "name": "Mapbox",
+    "summary": "Mapbox builds mapping and location APIs, SDKs, and developer tools that enable applications to display custom maps, perform geocoding and routing, and analyze geospatial data. They operate in the geospatial technology and mapping services domain, serving developers who need to integrate location features into mobile and web applications."
+  },
+  {
+    "slug": "radar",
+    "name": "Radar",
+    "summary": "# Radar\n\nRadar builds location APIs and SDKs that enable mobile applications to detect user location, geofencing, and movement patterns. They operate in the location intelligence domain, serving mobile app developers who need to integrate location-based features like geofences, trip tracking, and place detection."
+  },
+  {
+    "slug": "carbon",
+    "name": "Carbon",
+    "summary": "# Carbon\n\nCarbon builds 3D printing systems and materials that use a technology called CLIP (Continuous Liquid Interface Production) to manufacture parts from photopolymer resins. The company operates in industrial manufacturing, producing equipment and materials for applications in automotive, dental, consumer goods, and healthcare sectors."
+  },
+  {
+    "slug": "desktopmetal",
+    "name": "Desktop Metal",
+    "summary": "Desktop Metal manufactures 3D printing systems and materials for metal additive manufacturing, targeting applications in jewelry, dental, and industrial manufacturing. The company produces both production-scale and lab-based metal 3D printers that use technologies including bound metal deposition and sintering to produce metal parts."
+  },
+  {
+    "slug": "sonatype",
+    "name": "Sonatype",
+    "summary": "Sonatype builds software supply chain management tools, primarily focused on software composition analysis and vulnerability management for open source dependencies. The company operates in the DevSecOps and application security domain, helping organizations identify and remediate security risks in the software they build and deploy."
+  },
+  {
+    "slug": "openspace",
+    "name": "OpenSpace",
+    "summary": "# OpenSpace\n\nOpenSpace builds AI-powered visual documentation software that captures 360-degree photos and video on construction job sites, then uses computer vision to automatically track progress, identify defects, and document as-built conditions. The company operates in the construction technology sector, serving general contractors and project managers who need to monitor jobsite activity and create records for compliance and dispute resolution."
+  },
+  {
+    "slug": "EnergyVault",
+    "name": "Energy Vault",
+    "summary": "# Energy Vault\n\nEnergy Vault builds gravity-based energy storage systems that use stacked weights lifted by cranes to store energy, then release them to generate electricity when needed. The company operates in the long-duration energy storage sector, which helps balance electrical grids by storing excess power from renewable sources."
+  },
+  {
+    "slug": "arvinas",
+    "name": "Arvinas",
+    "summary": "Arvinas develops proteolysis-targeting chimera (PROTAC) drugs that bind to disease-causing proteins and tag them for destruction by the cell's natural protein degradation machinery. The company focuses on oncology and other therapeutic areas where selective protein degradation could address diseases currently difficult to treat with conventional drug approaches."
+  },
+  {
+    "slug": "tractable",
+    "name": "Tractable",
+    "summary": "Tractable builds AI software that assesses vehicle damage from photos for insurance claims processing. The company operates in the insurance and automotive sectors, helping insurers automate damage estimation and claims management."
+  },
+  {
+    "slug": "osano",
+    "name": "Osano",
+    "summary": "Osano builds privacy compliance software that helps organizations manage data protection requirements across multiple regulations including GDPR, CCPA, and other privacy laws. The company operates in the legal technology and data governance domain, providing tools for privacy impact assessments, consent management, and regulatory compliance tracking."
+  },
+  {
+    "slug": "transcendinc",
+    "name": "Transcend",
+    "summary": "# Transcend\n\nTranscend builds software that helps companies manage privacy compliance, particularly around data subject access requests, consent management, and regulatory requirements like GDPR and CCPA. They operate in the privacy operations and legal tech domain, providing tools for organizations to discover, catalog, and govern personal data across their systems."
+  },
+  {
+    "slug": "workleap",
+    "name": "Workleap",
+    "summary": "# Workleap\n\nWorkleap builds software for employee engagement and human resources management, including tools for surveys, recognition, and performance management. The company operates in the HR tech and workplace software domain."
+  },
+  {
+    "slug": "ironcladhq",
+    "name": "Ironclad",
+    "summary": "Ironclad builds a contract management platform that helps legal and business teams create, negotiate, and manage contracts. The software operates in the contract lifecycle management domain, serving enterprise customers who need to streamline their contracting processes."
+  },
+  {
+    "slug": "webflow",
+    "name": "Webflow",
+    "summary": "Webflow builds a visual web design and development platform that allows users to design, build, and launch websites without writing code. The platform operates in the no-code/low-code web development space, serving designers, freelancers, and small businesses who want to create responsive websites and manage hosting through a single application."
   }
 ]

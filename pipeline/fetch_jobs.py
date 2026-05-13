@@ -15,6 +15,8 @@ DATA_DIR = Path(__file__).parent.parent / "data"
 COMPANIES_FILE = DATA_DIR / "companies.json"
 OUTPUT_FILE = DATA_DIR / "jobs_raw.json"
 SEEN_FILE = DATA_DIR / "seen_jobs.json"
+SEEN_COMPANIES_FILE = DATA_DIR / "seen_companies.json"
+ARCHIVE_DATE = "2020-01-01"  # first-fetch jobs for new companies get this date
 WINDOW_DAYS = 14
 
 SCRAPERS = {
@@ -46,10 +48,15 @@ def main():
         for j in json.loads(OUTPUT_FILE.read_text()):
             prev[j["id"]] = j
 
+    # Companies seen before — new companies have all jobs archived on first fetch
+    seen_companies: dict[str, str] = {}
+    if SEEN_COMPANIES_FILE.exists():
+        seen_companies = json.loads(SEEN_COMPANIES_FILE.read_text())
+
     today = datetime.now(timezone.utc).date().isoformat()
     all_jobs: list[dict] = []
     errors: list[str] = []
-    new_count = closed_count = 0
+    new_count = closed_count = archived_count = 0
 
     for company in companies:
         ats = company["ats"]
@@ -61,6 +68,9 @@ def main():
             print(f"  [skip] {name}: unknown ATS '{ats}'")
             continue
 
+        company_key = f"{ats}:{slug}"
+        is_new_company = company_key not in seen_companies
+
         print(f"  Fetching {name} ({ats}/{slug})...", end=" ", flush=True)
         try:
             jobs = scraper(name, slug)
@@ -69,6 +79,11 @@ def main():
                 job_id = d["id"]
                 if job_id in seen:
                     d["first_seen"] = seen[job_id]
+                elif is_new_company:
+                    # Archive all first-fetch jobs for new companies
+                    d["first_seen"] = ARCHIVE_DATE
+                    seen[job_id] = ARCHIVE_DATE
+                    archived_count += 1
                 else:
                     d["first_seen"] = today
                     seen[job_id] = today
@@ -76,7 +91,9 @@ def main():
                 if prev.get(job_id, {}).get("raw_text"):
                     d["raw_text"] = prev[job_id]["raw_text"]
                 all_jobs.append(d)
-            print(f"{len(jobs)} jobs")
+            seen_companies[company_key] = today
+            label = " [new company — archived]" if is_new_company else ""
+            print(f"{len(jobs)} jobs{label}")
         except ScraperError as e:
             print("ERROR")
             errors.append(str(e))
@@ -90,10 +107,11 @@ def main():
     aged_out = before - len(all_jobs)
 
     print(f"\nTotal: {len(all_jobs)} jobs from {len(companies)} companies")
-    print(f"New: {new_count}  |  Closed: {closed_count}  |  Aged out (>{WINDOW_DAYS}d): {aged_out}")
+    print(f"New: {new_count}  |  Closed: {closed_count}  |  Aged out (>{WINDOW_DAYS}d): {aged_out}  |  Archived (new companies): {archived_count}")
 
     OUTPUT_FILE.write_text(json.dumps(all_jobs, indent=2))
     SEEN_FILE.write_text(json.dumps(seen, indent=2))
+    SEEN_COMPANIES_FILE.write_text(json.dumps(seen_companies, indent=2))
     print(f"Written to {OUTPUT_FILE}")
 
     if errors:

@@ -15,7 +15,7 @@ COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies_classified.j
 COMPANIES_DOMAINS_FILE = Path(__file__).parent.parent / "data" / "companies.json"
 
 HASH_MARKER = "render_hash: "
-FORMAT_VERSION = "9"  # bump to force re-render of all files
+FORMAT_VERSION = "12"  # bump to force re-render of all files
 SKILL_COLOR = "3B82F6"
 
 
@@ -35,7 +35,8 @@ def skill_badge(skill: str) -> str:
 def render_hash(job: dict, classification: dict) -> str:
     skills_str = ",".join(classification.get("skills") or [])
     level = classification.get("level") or ""
-    key = f"v{FORMAT_VERSION}:{job['id']}:{job['title']}:{job.get('raw_text', '')[:200]}:{classification.get('job_summary', '')}:{skills_str}:{level}"
+    comp = classification.get("comp") or ""
+    key = f"v{FORMAT_VERSION}:{job['id']}:{job['title']}:{job.get('raw_text', '')[:200]}:{classification.get('job_summary', '')}:{skills_str}:{level}:{comp}"
     return hashlib.md5(key.encode()).hexdigest()[:8]
 
 
@@ -65,6 +66,16 @@ def pretty_date(iso: str) -> str:
         return iso
 
 
+def format_description(text: str) -> str:
+    """Convert single newlines to paragraph breaks so markdown renders correctly."""
+    lines = [l.rstrip() for l in text.split("\n")]
+    paragraphs = []
+    for line in lines:
+        if line:
+            paragraphs.append(line)
+    return "\n\n".join(paragraphs)
+
+
 def render_job(job: dict, classification: dict, company_summary: str | None, domain: str = "") -> str:
     location = job.get("location") or "Not specified"
     remote_str = {True: "Remote", False: "On-site"}.get(job.get("remote"), "Not specified")
@@ -75,10 +86,15 @@ def render_job(job: dict, classification: dict, company_summary: str | None, dom
     job_summary = classification.get("job_summary") or ""
     skills = classification.get("skills") or []
     level = classification.get("level")
+    is_hybrid = classification.get("is_hybrid", False)
+    comp = classification.get("comp")
+    comp_extras = classification.get("comp_extras") or []
     rhash = render_hash(job, classification)
 
     is_remote = job.get("remote") is True
     display_location = clean_location(location, is_remote)
+    if is_hybrid:
+        display_location = clean_location(display_location, True)  # also strip "hybrid" mentions
 
     # HTML comment holds machine-readable metadata — not rendered by GitHub
     meta_lines = [
@@ -89,17 +105,19 @@ def render_job(job: dict, classification: dict, company_summary: str | None, dom
         f"source: {job['source']}",
         f"location: {location}",
         f"remote: {remote_str}",
+        f"hybrid: {'yes' if is_hybrid else 'no'}",
         f"posted_at: {posted or 'Unknown'}",
         f"first_seen: {first_seen}",
         f"url: {job['url']}",
         f"summary: {job_summary}",
         f"skills: {', '.join(skills)}",
         f"level: {level or ''}",
+        f"comp: {comp or ''}",
+        f"comp_extras: {', '.join(comp_extras)}",
         f"render_hash: {rhash}",
         "-->",
     ]
 
-    # Two-line meta: company name prominent, details below
     detail_parts = []
     if display_location and display_location != "Not specified":
         detail_parts.append(display_location)
@@ -107,8 +125,14 @@ def render_job(job: dict, classification: dict, company_summary: str | None, dom
         detail_parts.append(f"`{level.capitalize()}`")
     if remote_str == "Remote":
         detail_parts.append("`Remote`")
+    elif is_hybrid:
+        detail_parts.append("`Hybrid`")
     elif remote_str == "On-site":
         detail_parts.append("On-site")
+    if comp:
+        detail_parts.append(f"`{comp}`")
+    for extra in comp_extras:
+        detail_parts.append(f"`{extra.capitalize()}`")
 
     logo = f'<img src="https://www.google.com/s2/favicons?domain={domain}&sz=32" width="16" height="16" align="absmiddle">&ensp;' if domain else ""
     company_line = f"{logo}**{job['company']}**"
@@ -137,7 +161,7 @@ def render_job(job: dict, classification: dict, company_summary: str | None, dom
     lines += [f"**[→ Apply]({job['url']})**", ""]
 
     if raw_text:
-        lines += ["---", "", raw_text, "", "---", "", f"**[→ Apply]({job['url']})**", ""]
+        lines += ["---", "", format_description(raw_text), "", "---", "", f"**[→ Apply]({job['url']})**", ""]
 
     return "\n".join(lines)
 

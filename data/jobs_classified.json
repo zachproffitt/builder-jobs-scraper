@@ -7942,6 +7942,7 @@
       "Python",
       "LLMs",
       "RAG",
+      "APIs",
       "back-end",
       "front-end"
     ],
@@ -7958,6 +7959,7 @@
     "job_summary": "Deploy production AI solutions using LLMs and contribute to open-source codebases for inference and fine-tuning. Collaborate on complex customer projects involving fine-tuning and RAG systems.",
     "skills": [
       "Python",
+      "APIs",
       "back-end",
       "front-end",
       "LLMs"
@@ -8342,6 +8344,7 @@
     "job_summary": "Design and develop scalable backend features and APIs for authentication, billing, and AI tooling systems.",
     "skills": [
       "Golang",
+      "APIs",
       "databases",
       "caching"
     ],
@@ -8824,6 +8827,7 @@
       "Python",
       "TypeScript",
       "React",
+      "APIs",
       "dashboards"
     ],
     "source_hash": "f9193cf0"
@@ -10077,7 +10081,8 @@
       "TypeScript",
       "LangGraph",
       "MCP servers",
-      "SDKs"
+      "SDKs",
+      "APIs"
     ],
     "source_hash": "9c71d80a"
   },
@@ -10810,7 +10815,7 @@
     "source_hash": "d0dcf1bf"
   },
   "ashby-helion-b5659fa4-aadc-47d0-9746-f58cf8bc51e2": {
-    "is_engineering": false,
+    "is_engineering": true,
     "job_summary": "Define and lead the architecture of electrical subsystems for fusion machines, ensuring alignment with machine requirements and operational goals.",
     "skills": [],
     "source_hash": "f800f14f"
@@ -10990,7 +10995,8 @@
     "job_summary": "Build and maintain highly scalable core services for Waymo's user-facing booking system. Architect APIs and systems for internal and external partners.",
     "skills": [
       "C++",
-      "distributed systems"
+      "distributed systems",
+      "APIs"
     ],
     "source_hash": "d4f460a6"
   },
@@ -11167,7 +11173,7 @@
     "job_summary": "Develop and optimize robot programs for manufacturing automation systems, including motion planning, path planning, and vision-based guidance. Design and integrate industrial robots and cobots into production environments.",
     "skills": [
       "FANUC",
-      "Unreal Engine",
+      "UR",
       "RoboDK",
       "FANUC ROBOGUIDE",
       "Delmia"
@@ -11386,8 +11392,13 @@
   },
   "lever-loftorbital-f48e757b-27c8-4b8c-87b3-f56dd6954102": {
     "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
     "job_summary": null,
     "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
     "source_hash": "7e140e50"
   },
   "lever-palantir-2e193bdf-e668-49c1-ba32-66cc1aa131a4": {
@@ -11443,6 +11454,7 @@
       "Python",
       "data pipelines",
       "scripting",
+      "APIs",
       "data visualization tools"
     ],
     "source_hash": "1c5e6ceb"
@@ -11466,7 +11478,7 @@
     "source_hash": "ed2423d6"
   },
   "lever-velo3d-1ea950a1-9227-4102-92db-4b3d09713ad0": {
-    "is_engineering": false,
+    "is_engineering": true,
     "job_summary": "Design and develop electrical components, subsystems, and integration test systems for manufacturing processes.",
     "skills": [],
     "source_hash": "97031e86"
@@ -12042,20 +12054,46 @@
   },
   "greenhouse-thealleninstitute-7902196": {
     "is_engineering": true,
-    "job_summary": "Build and deploy Terraform configurations for GCP and AWS. Develop automated pipelines to manage user accounts, permissions, and security monitoring systems.",
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build infrastructure automation and deployment pipelines including Terraform configurations for GCP/AWS, security monitoring systems, and incident response automation. Support AI research operations at a nonprofit focused on AI for the common good.",
     "skills": [
       "Terraform",
       "GCP",
-      "AWS"
+      "AWS",
+      "Okta",
+      "Python",
+      "security automation",
+      "incident response automation",
+      "infrastructure-as-code"
     ],
     "level": "senior",
+    "comp": "$100k-$150k",
+    "comp_extras": [
+      "bonus plans"
+    ],
     "source_hash": "2979ee46"
   },
   "greenhouse-thealleninstitute-7909771": {
     "is_engineering": true,
-    "job_summary": "Build and maintain the OlmoEarth Platform, including distributed training and inference systems for geospatial feature detection. Develop full-stack products integrating state-of-the-art ML models for environmental applications.",
-    "skills": [],
-    "level": null,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build full-stack, scalable AI products that integrate state-of-the-art ML models for environmental impact (maritime conservation, food security, climate solutions). Work on systems like Skylight (real-time vessel detection) and OlmoEarth (foundation models platform for Earth observation), with infrastructure supporting thousands of parallel GPUs.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "distributed training",
+      "GPU infrastructure",
+      "computer vision",
+      "geospatial data",
+      "Sentinel imagery",
+      "full-stack product development"
+    ],
+    "level": "mid",
+    "comp": "$128.8k-$193.3k",
+    "comp_extras": [
+      "bonus plans"
+    ],
     "source_hash": "cd052a5a"
   },
   "greenhouse-xai-5136043007": {
@@ -12143,6 +12181,7 @@
     "is_engineering": true,
     "job_summary": "Implement and scale the dynamic pricing engine to balance supply and demand. Develop ML models and optimization algorithms for real-time pricing.",
     "skills": [
+      "backend",
       "C++",
       "distributed systems",
       "ML/optimization infrastructure",
@@ -12251,9 +12290,27 @@
   },
   "greenhouse-andurilindustries-5047082007": {
     "is_engineering": true,
-    "job_summary": "Implement high-performance software spanning tactical systems to web applications and prototype state-of-the-art algorithms in agile development environments.",
-    "skills": [],
-    "level": null,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build state-of-the-art algorithms and high-performance software for AI-powered autonomous systems, sensor fusion, and command-and-control platforms deployed in mission-critical defense applications. Work spans mathematical modeling, algorithm prototyping, and production implementation across tactical systems to web applications.",
+    "skills": [
+      "Applied mathematics",
+      "differential equations",
+      "linear algebra",
+      "numerical analysis",
+      "optimization",
+      "controls",
+      "estimation theory",
+      "digital signal processing",
+      "machine learning",
+      "scientific computing",
+      "Python",
+      "software design",
+      "algorithm implementation"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
     "source_hash": "e35c3d6f"
   },
   "greenhouse-andurilindustries-5135696007": {
@@ -12361,9 +12418,16 @@
   },
   "greenhouse-10xgenomics-7918929": {
     "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
     "job_summary": null,
     "skills": [],
     "level": "senior",
+    "comp": "$40-$65",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
     "source_hash": "7761ffad"
   },
   "ashby-Etched-afbc4f74-9f0a-48c6-b181-5fcedf194c4b": {
@@ -12440,15 +12504,22 @@
   },
   "greenhouse-epicgames-5994618004": {
     "is_engineering": true,
-    "job_summary": "Architect and implement low-level engine systems including Scene Graph, networking, analytics, and the language toolchain. Design stable APIs for Verse integration across Unreal Engine.",
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Architect and implement low-level engine systems for Unreal Engine's Verse Framework, including Scene Graph, networking, analytics, and language toolchain integration. You'll design stable APIs that expose engine capabilities to internal and external developers while driving technical excellence across multiple hardware platforms.",
     "skills": [
       "C++",
-      "AI-assisted development tools",
-      "language toolchain",
-      "networking",
-      "analytics"
+      "Unreal Engine",
+      "Game Systems Architecture",
+      "API Design",
+      "Networking",
+      "Scene Graph",
+      "Multiple Programming Languages",
+      "Game Consoles"
     ],
     "level": "senior",
+    "comp": null,
+    "comp_extras": [],
     "source_hash": "df3554a3"
   },
   "greenhouse-epicgames-5739430004": {
@@ -12500,9 +12571,12 @@
   },
   "greenhouse-neuralink-6594261003": {
     "is_engineering": true,
-    "job_summary": "Develop novel neural decoders for Brain-Computer Interface (BCI) systems",
+    "job_summary": "Develop and refine neural decoders for BCIs",
     "skills": [
+      "Python",
+      "PyTorch",
       "machine learning models",
+      "time series data analysis",
       "clean code development"
     ],
     "level": "intern",
@@ -12511,23 +12585,19 @@
   "greenhouse-isaraerospace-4861032101": {
     "is_engineering": false,
     "job_summary": null,
-    "skills": [
-      "Python",
-      "3D CAD (SolidWorks, Siemens NX)",
-      "PLM systems"
-    ],
+    "skills": [],
     "level": "intern",
     "source_hash": "bdaa508e"
   },
   "greenhouse-lightmatter-4971293008": {
     "is_engineering": true,
-    "job_summary": "Drive STA sign-off for Silicon photonics chips using Tempus/PrimeTime",
+    "job_summary": "Drive STA sign-off for Silicon photonics chips at advanced technology nodes.",
     "skills": [
-      "Cadence",
-      "Synopsys",
-      "Tempus/PrimeTime",
       "TCL",
-      "Python"
+      "Python",
+      "Tempus/PrimeTime",
+      "Cadence/Synopsys tools",
+      "scripting"
     ],
     "level": "staff",
     "source_hash": "e4899a31"
@@ -12562,16 +12632,20 @@
   },
   "greenhouse-archer56-7732669003": {
     "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
     "job_summary": null,
     "skills": [],
     "level": "manager",
+    "comp": null,
+    "comp_extras": [],
     "source_hash": "61b32b91"
   },
   "greenhouse-archer56-7723635003": {
-    "is_engineering": null,
+    "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "senior",
     "source_hash": "ecb0115f"
   },
   "greenhouse-archer56-7694354003": {
@@ -12585,12 +12659,12 @@
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": "staff",
+    "level": "senior",
     "source_hash": "24a5e750"
   },
   "greenhouse-vardaspace-7732511003": {
     "is_engineering": true,
-    "job_summary": "Develop and maintain data pipelines and internal tools for operational systems",
+    "job_summary": "Build and maintain data pipelines and internal tools to integrate enterprise systems.",
     "skills": [],
     "level": "intern",
     "source_hash": "d1f58648"
@@ -12617,19 +12691,25 @@
     "source_hash": "a7aef46e"
   },
   "greenhouse-blacksky-8542154002": {
-    "is_engineering": false,
-    "job_summary": null,
-    "skills": [],
+    "is_engineering": true,
+    "job_summary": "Build and maintain hybrid cloud infrastructure across AWS GovCloud and Azure.",
+    "skills": [
+      "AWS",
+      "Azure",
+      "Hyper-V",
+      "GPOs",
+      "PowerShell"
+    ],
     "level": "senior",
     "source_hash": "15fc8747"
   },
   "ashby-docker-4ed87069-a913-4dc8-8ee2-7f954ab3586f": {
     "is_engineering": true,
-    "job_summary": "Maintain and update security-hardened container image definitions and Helm charts for Docker's DHI catalog",
+    "job_summary": "Author and maintain image definition files and Helm charts for security-hardened container images.",
     "skills": [
       "Go",
       "YAML",
-      "Helm charts",
+      "Helm",
       "Kubernetes",
       "container security"
     ],
@@ -12666,7 +12746,10 @@
     "job_summary": "Build and maintain the content ingestion pipelines and metadata services for Scribd's content foundations.",
     "skills": [
       "Ruby on Rails",
-      "Python"
+      "Python",
+      "ML/LLM systems",
+      "data observability tools",
+      "asynchronous pipelines"
     ],
     "level": "senior",
     "source_hash": "2d33fb6c"
@@ -12682,12 +12765,12 @@
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "principal",
     "source_hash": "af7e00a7"
   },
   "greenhouse-zyngacareers-5600512004": {
     "is_engineering": true,
-    "job_summary": "Lead the architecture and development of advanced software systems for gaming platforms.",
+    "job_summary": "Lead the architecture and development of advanced software systems for gaming platforms",
     "skills": [
       "C#",
       "Unity",
@@ -12735,13 +12818,13 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5824107004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain audio tools and middleware for PlayStation Studios",
+    "job_summary": "Build and maintain audio tools and middleware for PlayStation Studios.",
     "skills": [
       "C++",
       "C#",
       "WPF",
-      "FMOD",
-      "Wwise"
+      "Pro Tools",
+      "Sound Forge"
     ],
     "level": "senior",
     "source_hash": "fdc1813d"
@@ -12757,7 +12840,7 @@
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "mid",
     "source_hash": "cc41c5f6"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5820760004": {
@@ -12769,11 +12852,13 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5984439004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain cloud security tools and infrastructure for PlayStation's distributed systems.",
+    "job_summary": "Build and maintain security tools for cloud environments, including service mesh, API gateways, and Kubernetes security.",
     "skills": [
       "Istio",
       "Kong",
       "Amazon API Gateway",
+      "OIDC",
+      "mTLS",
       "cert-manager",
       "Kubernetes"
     ],
@@ -12786,9 +12871,9 @@
     "skills": [
       "Istio",
       "Kong",
+      "Amazon API Gateway",
       "cert-manager",
-      "Kubernetes",
-      "mTLS"
+      "Kubernetes"
     ],
     "level": "senior",
     "source_hash": "697d5d22"
@@ -12823,13 +12908,13 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5823360004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain data pipelines and processing components for global business analytics",
+    "job_summary": "Build and maintain data pipelines for global business analytics",
     "skills": [
       "SQL",
       "Python",
       "Java",
       "C",
-      "Spark-based technologies (PySpark, Spark)"
+      "Spark-based technologies"
     ],
     "level": null,
     "source_hash": "003f9941"
@@ -12850,15 +12935,11 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5831515004": {
     "is_engineering": true,
-    "job_summary": "Develop and deploy ML models for game technology systems",
+    "job_summary": "Develop innovative ML solutions for facial performance capture systems and on-console inference in games.",
     "skills": [
-      "PyTorch",
-      "computer vision",
-      "GPU software stack",
-      "on-console inference",
-      "machine learning"
+      "PyTorch"
     ],
-    "level": "senior",
+    "level": null,
     "source_hash": "0688a8e5"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5792767004": {
@@ -12954,26 +13035,26 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5837065004": {
     "is_engineering": true,
-    "job_summary": "Design and implement high-quality rendering scenarios for graphics evaluation. Develop production-grade SDKs and tools for PlayStation.",
+    "job_summary": "Design and implement high-quality rendering scenarios for PlayStation SDKs",
     "skills": [
       "C/C++",
       "HLSL",
       "GPU architecture",
-      "real-time rendering",
-      "shader development"
+      "Shader Model 6",
+      "GitHub"
     ],
-    "level": "senior",
+    "level": null,
     "source_hash": "fb1b4b9c"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5980021004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain lightweight automation scripts for operational efficiency.",
+    "job_summary": "Build and maintain lightweight automation scripts and operational runbooks for Linux-based hardware systems.",
     "skills": [
-      "Linux terminal",
-      "scripting (shell/automation)",
-      "Jira/ServiceNow",
-      "runbooks",
-      "documentation"
+      "Linux",
+      "Jira",
+      "ServiceNow",
+      "scripting",
+      "runbooks"
     ],
     "level": "mid",
     "source_hash": "f1d939df"
@@ -13008,13 +13089,13 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5983598004": {
     "is_engineering": true,
-    "job_summary": "Design and maintain high-availability infrastructure platforms",
+    "job_summary": "Design and maintain high-availability infrastructure systems",
     "skills": [
       "Linux",
       "Windows",
       "Ceph",
-      "enterprise storage systems",
-      "enterprise server hardware"
+      "storage systems",
+      "virtualization"
     ],
     "level": "senior",
     "source_hash": "94f4ebfb"
@@ -13030,18 +13111,18 @@
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": "senior",
+    "level": "manager",
     "source_hash": "90d4665c"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5976946004": {
     "is_engineering": true,
-    "job_summary": "Develop and improve generative models for graphics and video processing systems.",
+    "job_summary": "Build and improve generative models for graphics and video processing systems",
     "skills": [
       "TensorFlow",
       "PyTorch",
       "Python",
-      "HDF5",
-      "sim"
+      "convolutional networks",
+      "transformer-based architectures"
     ],
     "level": "senior",
     "source_hash": "7a136727"
@@ -13068,41 +13149,37 @@
     "source_hash": "f81cb5ad"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5981439004": {
-    "is_engineering": false,
-    "job_summary": null,
+    "is_engineering": true,
+    "job_summary": "Lead the design and evolution of the Workday platform",
     "skills": [],
     "level": "manager",
     "source_hash": "6b59dc59"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5843866004": {
-    "is_engineering": true,
-    "job_summary": "Lead and manage the Service Reliability Engineering team to ensure 24/7/365 infrastructure stability and operational excellence.",
+    "is_engineering": false,
+    "job_summary": null,
     "skills": [],
     "level": "manager",
     "source_hash": "e767ce5e"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5831551004": {
-    "is_engineering": true,
-    "job_summary": "Lead the development of developer platforms and tools for PlayStation",
-    "skills": [
-      "JavaScript",
-      "React",
-      "React Native",
-      "backend/platform fundamentals",
-      "AI/ML"
-    ],
-    "level": "manager",
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
     "source_hash": "34a52831"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5798614004": {
     "is_engineering": true,
-    "job_summary": "Develop and implement DRM and security solutions for Android mobile platforms.",
+    "job_summary": "Develop and implement DRM and security solutions for mobile platforms",
     "skills": [
       "C++",
-      "Android",
+      "Android/AOSP",
       "Java",
       "Kotlin",
-      "Android Studio"
+      "TrustZone",
+      "WideVine",
+      "PlayReady"
     ],
     "level": "senior",
     "source_hash": "9ecea23e"
@@ -13111,7 +13188,7 @@
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "junior",
     "source_hash": "3fb9713f"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5979830004": {
@@ -13123,38 +13200,25 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5981762004": {
     "is_engineering": true,
-    "job_summary": "Design, build, and implement scalable integration solutions across Workday platform and connected systems",
+    "job_summary": "Build and maintain integration solutions across Workday platform and connected systems.",
     "skills": [
       "Workday Studio",
       "Core Connectors",
       "EIBs",
-      "REST",
-      "SOAP"
+      "REST/SOAP",
+      "API-based integrations"
     ],
-    "level": null,
+    "level": "senior",
     "source_hash": "65ec8dd2"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5981435004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain the Workday HR platform solutions",
+    "job_summary": "Build and maintain the Workday platform for HR domains",
     "skills": [],
     "level": null,
     "source_hash": "ee68b344"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5818262004": {
-    "is_engineering": true,
-    "job_summary": "Build and maintain application routing platforms using Kubernetes and Kong tools.",
-    "skills": [
-      "Kong API Gateway",
-      "Kong Ingress Controller",
-      "Kong Konnect",
-      "Kubernetes",
-      "service mesh technologies"
-    ],
-    "level": null,
-    "source_hash": "8e891ea1"
-  },
-  "greenhouse-sonyinteractiveentertainmentglobal-5812444004": {
     "is_engineering": true,
     "job_summary": "Build and maintain application routing frameworks for client-to-service and service-to-service communication.",
     "skills": [
@@ -13164,7 +13228,20 @@
       "Kubernetes",
       "service mesh"
     ],
-    "level": "senior",
+    "level": null,
+    "source_hash": "8e891ea1"
+  },
+  "greenhouse-sonyinteractiveentertainmentglobal-5812444004": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain application routing platforms using Kong and Kubernetes",
+    "skills": [
+      "Kong API Gateway",
+      "Kong Ingress Controller",
+      "Kong Konnect",
+      "Kubernetes",
+      "service mesh"
+    ],
+    "level": null,
     "source_hash": "5fcea2a9"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5792775004": {
@@ -13182,21 +13259,27 @@
     "source_hash": "6baaab32"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5799679004": {
-    "is_engineering": null,
+    "is_engineering": false,
     "job_summary": null,
     "skills": [],
     "level": "principal",
     "source_hash": "a4607534"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5792086004": {
-    "is_engineering": false,
-    "job_summary": null,
-    "skills": [],
+    "is_engineering": true,
+    "job_summary": "Shape and drive the Developer Experience strategy across PlayStation.",
+    "skills": [
+      "CI/CD",
+      "testing",
+      "lifecycle automation",
+      "platform-first practices",
+      "service operations"
+    ],
     "level": "principal",
     "source_hash": "1ed1237d"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5799681004": {
-    "is_engineering": null,
+    "is_engineering": false,
     "job_summary": null,
     "skills": [],
     "level": "principal",
@@ -13233,12 +13316,12 @@
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": "manager",
+    "level": null,
     "source_hash": "8339a551"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5832235004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain AI systems and functionalities for PlayStation games",
+    "job_summary": "Build and maintain AI systems and functionalities for high-quality technical implementation.",
     "skills": [],
     "level": "senior",
     "source_hash": "e6a0f155"
@@ -13247,14 +13330,14 @@
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "manager",
     "source_hash": "a04b0550"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5983339004": {
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": "manager",
+    "level": null,
     "source_hash": "893a7120"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5808168004": {
@@ -13279,7 +13362,7 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5910195004": {
     "is_engineering": true,
-    "job_summary": "Develop and maintain automated test scripts for Adobe Experience Manager sites.",
+    "job_summary": "Develop and execute automated testing scripts for Adobe Experience Manager sites.",
     "skills": [
       "Java",
       "Selenium WebDriver",
@@ -13287,7 +13370,7 @@
       "Cucumber",
       "Jenkins"
     ],
-    "level": "mid",
+    "level": "senior",
     "source_hash": "7ec129cc"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5980003004": {
@@ -13312,16 +13395,10 @@
     "source_hash": "5de208c5"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5980025004": {
-    "is_engineering": true,
-    "job_summary": "Build and maintain test automation frameworks and infrastructure.",
-    "skills": [
-      "Python",
-      "C++",
-      "JavaScript",
-      "Jenkins",
-      "automated testing"
-    ],
-    "level": "mid",
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
     "source_hash": "747be3b3"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5970671004": {
@@ -13340,20 +13417,19 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5985600004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain the analytics platform infrastructure",
+    "job_summary": "Build and maintain the analytics platform and data models",
     "skills": [
-      "dbt"
+      "dbt",
+      "dimensional modeling",
+      "facts and dimensions"
     ],
     "level": "senior",
     "source_hash": "ba530f36"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5687553004": {
     "is_engineering": true,
-    "job_summary": "Design and implement secure solutions for PlayStation applications and infrastructure.",
-    "skills": [
-      "cloud-native architectures",
-      "distributed systems"
-    ],
+    "job_summary": "Design and implement secure solutions for PlayStation products",
+    "skills": [],
     "level": "senior",
     "source_hash": "79f37e6f"
   },
@@ -13361,40 +13437,35 @@
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "senior",
     "source_hash": "0dc03bdd"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5972006004": {
     "is_engineering": true,
-    "job_summary": "Build and deliver advanced machine learning models to drive player value and engagement.",
-    "skills": [
-      "deep learning",
-      "sequence modelling"
-    ],
+    "job_summary": "Design and deliver advanced machine learning models to drive player value and engagement.",
+    "skills": [],
     "level": "senior",
     "source_hash": "bf0d4731"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5743956004": {
     "is_engineering": true,
-    "job_summary": "Design and execute A/B tests and causal analysis experiments for user migration and marketing strategies.",
+    "job_summary": "Design and execute A/B tests using SQL and Python to measure user migration impact.",
     "skills": [
       "SQL",
       "Python",
-      "causal inference methods",
-      "statistical analysis tools"
+      "causal inference",
+      "A/B testing",
+      "statistical analysis"
     ],
     "level": "senior",
     "source_hash": "28eadb4a"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5755168004": {
     "is_engineering": true,
-    "job_summary": "Design and implement experimentation frameworks for user migration and marketing initiatives",
+    "job_summary": "Design and analyze experiments using SQL and Python",
     "skills": [
       "SQL",
-      "Python",
-      "causal inference methods",
-      "A/B testing",
-      "statistical analysis tools"
+      "Python"
     ],
     "level": "senior",
     "source_hash": "ab799378"
@@ -13415,13 +13486,13 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5530503004": {
     "is_engineering": true,
-    "job_summary": "Develop and maintain embedded firmware for PlayStation products",
+    "job_summary": "Design and implement low-latency firmware frameworks for embedded devices",
     "skills": [
       "C/C++",
       "RF/wireless systems",
       "low-latency communication protocols",
-      "firmware frameworks",
-      "cross-platform firmware architecture"
+      "firmware architecture",
+      "hardware-in-the-loop testing"
     ],
     "level": "senior",
     "source_hash": "844d7b3d"
@@ -13442,24 +13513,22 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5970134004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain gameplay systems and technical infrastructure for PlayStation titles.",
+    "job_summary": "Build and maintain gameplay systems for PlayStation titles",
     "skills": [
-      "C++",
-      "object-oriented principles",
-      "debugging"
+      "C++"
     ],
     "level": "senior",
     "source_hash": "b0c5722e"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5837067004": {
     "is_engineering": true,
-    "job_summary": "Design and develop high-quality rendering scenarios for PlayStation SDK.",
+    "job_summary": "Design and develop high-quality rendering scenarios and production-grade SDK tools for PlayStation graphics technologies.",
     "skills": [
       "C/C++",
-      "game engine development",
-      "memory systems",
-      "job systems",
-      "GPU technologies"
+      "real-time rendering",
+      "GPU technologies",
+      "PlayStation 5 graphics APIs",
+      "machine learning technologies"
     ],
     "level": "senior",
     "source_hash": "04387da6"
@@ -13486,10 +13555,13 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5839102004": {
     "is_engineering": true,
-    "job_summary": "Design and implement large-scale optimization models using Gurobi",
+    "job_summary": "Build and maintain large-scale optimization systems using Gurobi and OR-Tools.",
     "skills": [
       "Gurobi",
-      "OR-Tools"
+      "OR-Tools",
+      "Python (implied via ML model integration)",
+      "optimization algorithms",
+      "predictive modeling"
     ],
     "level": "senior",
     "source_hash": "a3338c11"
@@ -13552,20 +13624,20 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5838749004": {
     "is_engineering": true,
-    "job_summary": "Design and implement Trusted Applications (TA) running in ARM TrustZone/TEE environments",
+    "job_summary": "Design and implement Trusted Applications in ARM TrustZone environments.",
     "skills": [
       "C/C++",
       "ARM TrustZone",
       "TEE",
-      "secure monitor calls (SMC)",
-      "OP-TEE"
+      "secure monitor calls",
+      "Linux/embedded OS"
     ],
     "level": "senior",
     "source_hash": "4d80c8f7"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5830744004": {
     "is_engineering": true,
-    "job_summary": "Design and implement Trusted Applications (TA) running in ARM TrustZone/TEE environments",
+    "job_summary": "Design and implement security-critical components in ARM TrustZone environments",
     "skills": [
       "C/C++",
       "ARM TrustZone",
@@ -13578,63 +13650,68 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5976661004": {
     "is_engineering": true,
-    "job_summary": "Lead improvements in service reliability and scalability for cloud gaming infrastructure",
+    "job_summary": "Own the scalability and reliability of the cloud gaming service infrastructure.",
     "skills": [
       "Linux",
-      "Web Services infrastructure",
-      "programming languages (specifics not listed)"
+      "Web Services",
+      "Production Systems",
+      "Platform-wide solutions",
+      "Development experience (specific languages not listed)"
     ],
     "level": "senior",
     "source_hash": "8caa0f34"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5969109004": {
     "is_engineering": true,
-    "job_summary": "Design and implement scalable cloud gaming infrastructure",
+    "job_summary": "Ensure the stability and scalability of the cloud gaming platform",
     "skills": [
       "Python",
-      "Bash",
       "Go",
-      "Java",
-      "C++"
+      "Bash",
+      "Linux",
+      "Web Services"
     ],
     "level": "senior",
     "source_hash": "bb3797f3"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5722668004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain CI/CD pipelines and automation tools for test orchestration and system validation.",
+    "job_summary": "Build and maintain CI/CD pipelines and automation tools for the SDK's test infrastructure",
     "skills": [
       "Python",
       "Jenkins/Groovy",
-      "pytest",
-      "GTest",
-      "Docker"
+      "Linux",
+      "Windows",
+      "pytest"
     ],
     "level": "senior",
     "source_hash": "24941845"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5679579004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain performance tooling suites for system optimization",
+    "job_summary": "Build and maintain performance tooling suites and automated testbeds for system optimization.",
     "skills": [
       "C",
       "C++",
       "Rust",
+      "Python",
+      "Bash",
       "perf",
-      "ftrace"
+      "ftrace",
+      "eBPF"
     ],
     "level": "senior",
     "source_hash": "37da4a0b"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5993591004": {
     "is_engineering": true,
-    "job_summary": "Design and implement telemetry, logging, and diagnostic systems for mobile applications",
+    "job_summary": "Build and maintain telemetry, logging, and diagnostic systems for mobile applications.",
     "skills": [
       "Java",
       "Kotlin",
       "React Native",
       "Android Studio",
-      "telemetry frameworks"
+      "Agile (Scrum)"
     ],
     "level": "senior",
     "source_hash": "51dc6b86"
@@ -13647,7 +13724,7 @@
       "Kotlin",
       "React Native",
       "Android Studio",
-      "Agile (Scrum)"
+      "Agile methodologies"
     ],
     "level": "senior",
     "source_hash": "c7ee745c"
@@ -13656,7 +13733,7 @@
     "is_engineering": true,
     "job_summary": "Build and maintain high-performance C/C++ services for PlayStation experiences",
     "skills": [
-      "C/C++",
+      "C++",
       "Linux",
       "CMake",
       "Git",
@@ -13667,7 +13744,7 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5982704004": {
     "is_engineering": true,
-    "job_summary": "Design, develop, and maintain CI/CD pipelines and cloud infrastructure for PlayStation platforms.",
+    "job_summary": "Build and maintain CI/CD pipelines for PlayStation platforms",
     "skills": [
       "Infrastructure-as-Code (IaC)",
       "CI/CD systems"
@@ -13680,11 +13757,11 @@
     "job_summary": "Build and maintain high-quality front-end applications for PlayStation features across multiple platforms.",
     "skills": [
       "React Native",
-      "unit tests",
-      "component tests",
       "MVC",
       "MVVM",
-      "MVP"
+      "MVP",
+      "unit tests",
+      "component tests"
     ],
     "level": "senior",
     "source_hash": "88d4cff2"
@@ -13700,14 +13777,8 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5837069004": {
     "is_engineering": true,
-    "job_summary": "Develop and maintain GPU Capture and Replay technology for PlayStation platforms.",
-    "skills": [
-      "GPU programming",
-      "shader development",
-      "profiling tools",
-      "debugging systems",
-      "graphics software stack"
-    ],
+    "job_summary": "Develop GPU Capture and Replay technology for PlayStation platforms.",
+    "skills": [],
     "level": "senior",
     "source_hash": "a10c6f1b"
   },
@@ -13720,7 +13791,7 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5837061004": {
     "is_engineering": true,
-    "job_summary": "Design and implement rendering APIs for PlayStation games",
+    "job_summary": "Design and implement rendering APIs and GPU programming features for PlayStation games",
     "skills": [],
     "level": "senior",
     "source_hash": "dfd0cbec"
@@ -13742,7 +13813,7 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5910187004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain the AEM platform and Adobe Marketing Cloud tools for PlayStation.com",
+    "job_summary": "Develop and maintain the AEM platform and Adobe Marketing Cloud tools",
     "skills": [
       "AEM",
       "Adobe Target",
@@ -13755,13 +13826,13 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5803140004": {
     "is_engineering": true,
-    "job_summary": "Manage and maintain large-scale Ceph storage solutions",
+    "job_summary": "Manage and optimize large-scale Ceph storage systems",
     "skills": [
       "Ceph",
       "Rook",
       "Kubernetes",
-      "Terraform",
-      "Ansible"
+      "Bash",
+      "Python"
     ],
     "level": "senior",
     "source_hash": "f7e7264e"
@@ -13795,7 +13866,7 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5804428004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain in-game animation systems and pipelines",
+    "job_summary": "Build and maintain the in-game animation systems and pipelines",
     "skills": [
       "Python",
       "C#",
@@ -13809,8 +13880,8 @@
     "source_hash": "d68a1b35"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5989156004": {
-    "is_engineering": false,
-    "job_summary": "Design and implement mission gameplay using scripting systems and state machines",
+    "is_engineering": true,
+    "job_summary": "Design and implement mission gameplay systems using scripting and state machines",
     "skills": [
       "C++",
       "visual scripting tools",
@@ -13822,10 +13893,10 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5848168004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain the research toolsets and infrastructure for PlayStation Studios User Research",
+    "job_summary": "Build and maintain the research toolset infrastructure",
     "skills": [
       "PHP",
-      "JavaScript",
+      "JS",
       "React",
       "relational databases",
       "AWS"
@@ -13834,7 +13905,7 @@
     "source_hash": "971f65e9"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5981431004": {
-    "is_engineering": false,
+    "is_engineering": null,
     "job_summary": null,
     "skills": [],
     "level": "senior",
@@ -13842,38 +13913,38 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5976696004": {
     "is_engineering": true,
-    "job_summary": "Contribute to code and implement automation for cloud gaming infrastructure reliability",
+    "job_summary": "Implement automation to improve cloud gaming service reliability",
     "skills": [
       "Python",
-      "Bash",
       "Go",
-      "Hadoop",
-      "MongoDB"
+      "MongoDB",
+      "Redis",
+      "Cassandra"
     ],
     "level": "senior",
     "source_hash": "ffdb10bf"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5843870004": {
     "is_engineering": true,
-    "job_summary": "Own and maintain production API gateway and service mesh infrastructure.",
+    "job_summary": "Own and improve the cloud gaming infrastructure reliability practices.",
     "skills": [
       "Kong API Gateway",
       "Istio",
       "Linkerd",
       "Kuma",
-      "mTLS"
+      "GitOps"
     ],
     "level": "senior",
     "source_hash": "8626eb80"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5817255004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain test automation systems for development tools",
+    "job_summary": "Build and maintain automated test frameworks for development tools",
     "skills": [
       "C#",
       "C++",
       "Selenium/Appium",
-      "Powershell",
+      "PowerShell",
       "Python"
     ],
     "level": "senior",
@@ -13881,13 +13952,13 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5838100004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain test automation frameworks for UI and API testing",
+    "job_summary": "Build and maintain test automation frameworks for PlayStation platforms",
     "skills": [
       "Python",
       "JavaScript",
-      "C++",
       "Selenium",
-      "Appium"
+      "Appium",
+      "React"
     ],
     "level": "senior",
     "source_hash": "d4b3d369"
@@ -13907,7 +13978,7 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5969889004": {
     "is_engineering": true,
-    "job_summary": "Develop and maintain automated tests for PlayStation\u00ae peripherals and firmware.",
+    "job_summary": "Develop and maintain automated tests for PlayStation\u00ae peripherals and firmware",
     "skills": [
       "C",
       "Python",
@@ -13915,7 +13986,7 @@
       "Appium",
       "Jenkins"
     ],
-    "level": null,
+    "level": "senior",
     "source_hash": "d5a97dea"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5985245004": {
@@ -13932,16 +14003,10 @@
     "source_hash": "5c67214a"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5748341004": {
-    "is_engineering": true,
-    "job_summary": "Build and maintain kernel security features for PlayStation systems",
-    "skills": [
-      "C/C++",
-      "Linux kernel",
-      "Git",
-      "GitHub",
-      "version control systems"
-    ],
-    "level": "mid",
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
     "source_hash": "f22193e6"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5822183004": {
@@ -13959,49 +14024,46 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5728840004": {
     "is_engineering": true,
-    "job_summary": "Develop and maintain RESTful API endpoints and dynamic web applications.",
+    "job_summary": "Build and maintain full-stack web applications and RESTful APIs for PlayStation in-house tools.",
     "skills": [
       "Java",
       "Go",
       "Python",
       "React",
-      "TypeScript",
-      "Docker",
-      "Kubernetes",
-      "CI/CD pipelines"
+      "Docker"
     ],
     "level": "senior",
     "source_hash": "90a190f4"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5891199004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain AEM assets and sites, integrate Adobe Marketing Cloud tools, and optimize web performance.",
+    "job_summary": "Build and maintain AEM assets and sites, integrate Adobe Marketing Cloud tools.",
     "skills": [
       "AEM",
       "Adobe Target",
       "Adobe Analytics",
-      "SEO",
-      "A/B testing"
+      "web best practices (SEO, A/B testing)",
+      "code reviews"
     ],
-    "level": "senior",
+    "level": null,
     "source_hash": "5424c2f6"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5841158004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain scalable CI/CD pipelines for PlayStation platforms",
+    "job_summary": "Design, develop, and maintain scalable CI/CD pipelines across platforms",
     "skills": [
       "Jenkins",
       "GitHub Actions",
       "Docker",
-      "Linux-based build environments",
-      "Kubernetes (preferred)"
+      "Linux",
+      "Kubernetes"
     ],
     "level": "senior",
     "source_hash": "acdca93c"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5969132004": {
     "is_engineering": true,
-    "job_summary": "Design and develop Windows desktop applications using C# and .NET framework for SDK integration tools.",
+    "job_summary": "Design, develop, and maintain Windows desktop applications using C# and .NET framework",
     "skills": [
       "C#",
       ".NET framework",
@@ -14014,20 +14076,20 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5840954004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain scalable telemetry applications",
+    "job_summary": "Build and maintain scalable telemetry applications for PlayStation",
     "skills": [
       "TypeScript",
       "JavaScript",
       "React/ReactNative",
       "Kubernetes",
-      "data management systems"
+      "C++"
     ],
     "level": "junior",
     "source_hash": "fc9486ef"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5840958004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain scalable telemetry solutions for PlayStation hardware and services.",
+    "job_summary": "Build and maintain scalable telemetry solutions for PlayStation experiences",
     "skills": [
       "TypeScript",
       "JavaScript",
@@ -14040,7 +14102,7 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5985241004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain test frameworks and infrastructure for PlayStation console software",
+    "job_summary": "Build and maintain test frameworks and infrastructure for PlayStation console software testing",
     "skills": [
       "Python",
       "C++",
@@ -14052,10 +14114,16 @@
     "source_hash": "f213a7cb"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5838328004": {
-    "is_engineering": null,
-    "job_summary": null,
-    "skills": [],
-    "level": null,
+    "is_engineering": true,
+    "job_summary": "Implement DSP algorithms and audio APIs for PlayStation platforms.",
+    "skills": [
+      "C/C++",
+      "SIMD vectorization",
+      "embedded systems",
+      "source control",
+      "issue tracking"
+    ],
+    "level": "senior",
     "source_hash": "4317f9f6"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5985217004": {
@@ -14068,12 +14136,12 @@
       "unit tests",
       "component tests"
     ],
-    "level": "mid",
+    "level": null,
     "source_hash": "27323ee8"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5722997004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain scalable backend services for PlayStation platforms.",
+    "job_summary": "Build and maintain scalable backend services for PlayStation platforms using Node.js and TypeScript.",
     "skills": [
       "Node.js",
       "TypeScript/JavaScript",
@@ -14141,7 +14209,7 @@
     "job_summary": "Build and maintain CI/CD pipelines and cloud infrastructure tools for PlayStation platforms.",
     "skills": [
       "Infrastructure-as-Code (IaC)",
-      "CI/CD systems",
+      "cloud infrastructure automation",
       "dashboard development"
     ],
     "level": "mid",
@@ -14149,11 +14217,11 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5969119004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain digital commerce solutions for PlayStation games and services",
+    "job_summary": "Build and maintain JavaScript-based applications for PlayStation gaming consoles and services",
     "skills": [
+      "JavaScript",
       "React",
       "React Native",
-      "JavaScript",
       "CI/CD pipelines",
       "unit testing"
     ],
@@ -14162,20 +14230,7 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5712556004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain high-quality front-end applications for PlayStation features across multiple platforms.",
-    "skills": [
-      "React Native",
-      "JavaScript",
-      "Agile methodologies",
-      "unit/integration tests",
-      "MVC/MVVM/MVP frameworks"
-    ],
-    "level": "mid",
-    "source_hash": "21f42229"
-  },
-  "greenhouse-sonyinteractiveentertainmentglobal-5712558004": {
-    "is_engineering": true,
-    "job_summary": "Build and maintain front-end applications for PlayStation features across mobile, console, and supported platforms.",
+    "job_summary": "Build and maintain high-quality front-end applications for PlayStation features across mobile, console, and supported platforms.",
     "skills": [
       "React Native",
       "React",
@@ -14184,17 +14239,30 @@
       "Android"
     ],
     "level": "mid",
+    "source_hash": "21f42229"
+  },
+  "greenhouse-sonyinteractiveentertainmentglobal-5712558004": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain high-quality front-end applications for PlayStation features across multiple platforms.",
+    "skills": [
+      "React Native",
+      "JavaScript",
+      "Agile methodologies",
+      "MVC/MVVM/MVP frameworks",
+      "unit/integration testing"
+    ],
+    "level": "mid",
     "source_hash": "5db106d1"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5889415004": {
-    "is_engineering": false,
+    "is_engineering": null,
     "job_summary": null,
     "skills": [],
     "level": "manager",
     "source_hash": "5a11e74d"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5993063004": {
-    "is_engineering": null,
+    "is_engineering": false,
     "job_summary": null,
     "skills": [],
     "level": null,
@@ -14202,13 +14270,13 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5799683004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain infrastructure pipelines, scripts, and deployment tools for PlayStation development.",
+    "job_summary": "Build and maintain the CI/CD pipeline and infrastructure",
     "skills": [
       "Python",
-      "Docker",
       "Git",
-      "Perforce",
-      "Jenkins"
+      "Docker",
+      "Jenkins",
+      "Perforce"
     ],
     "level": "senior",
     "source_hash": "ee987dd4"
@@ -14238,8 +14306,8 @@
     "is_engineering": true,
     "job_summary": "Develop and enhance generative models for graphics and video processing systems",
     "skills": [
-      "PyTorch",
       "TensorFlow",
+      "PyTorch",
       "Python",
       "computer vision libraries",
       "HDF5"
@@ -14288,29 +14356,27 @@
     "skills": [
       "C++",
       "Python",
-      "Groovy",
-      "C",
-      "embedded firmware"
+      "Groovy"
     ],
     "level": "senior",
     "source_hash": "a892fefa"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5841196004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain automated test frameworks for PlayStation SDK components",
+    "job_summary": "Build and maintain automated test infrastructure for PlayStation\u00ae SDK components.",
     "skills": [
-      "C++",
       "Python",
       "Groovy",
-      "C",
-      "embedded firmware"
+      "C++",
+      "CI systems",
+      "test frameworks"
     ],
     "level": "senior",
     "source_hash": "11b6e008"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5829872004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain automated test frameworks for PlayStation compilers and SDK components.",
+    "job_summary": "Build and maintain test infrastructure for PlayStation CPU compilers and SDK components",
     "skills": [
       "C++",
       "Python",
@@ -14323,7 +14389,7 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5985253004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain automated test frameworks for ML inference services and platform components.",
+    "job_summary": "Build and maintain automated test frameworks for ML inference services",
     "skills": [
       "Python",
       "Java",
@@ -14336,15 +14402,14 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5733736004": {
     "is_engineering": true,
-    "job_summary": "Design and implement video codecs for PlayStation SDKs and cloud gaming platforms.",
+    "job_summary": "Drive video codecs architecture design and development for PlayStation SDKs and cloud gaming platforms",
     "skills": [
       "HLSL",
       "Vulkan",
       "CUDA",
       "C",
       "C++",
-      "Git",
-      "SVN",
+      "Git/SVN",
       "JIRA"
     ],
     "level": "senior",
@@ -14352,24 +14417,20 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5820437004": {
     "is_engineering": true,
-    "job_summary": "Design and develop scalable distributed services for the accounts platform",
+    "job_summary": "Design and develop highly scalable, distributed services for the next-generation accounts platform.",
     "skills": [
-      "AWS services (EC2, EKS, S3, Kinesis, Glue, Lambda, SQS, SNS, DynamoDB)",
       "Java",
-      "J2EE",
-      "REST",
-      "JSON/XML",
-      "Spring",
-      "Tomcat",
-      "Reactor Netty",
-      "JAXRS"
+      "EC2",
+      "S3",
+      "Lambda",
+      "REST"
     ],
     "level": "senior",
     "source_hash": "b8a1d641"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5793636004": {
     "is_engineering": true,
-    "job_summary": "Develop and implement spatial audio algorithms for 3D audio and virtual reality systems.",
+    "job_summary": "Develop and implement spatial audio algorithms for 3D audio and virtual reality systems",
     "skills": [
       "C",
       "C++",
@@ -14410,12 +14471,12 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5850287004": {
     "is_engineering": true,
-    "job_summary": "Define and implement cloud security architecture for multi-cloud environments.",
+    "job_summary": "Architect and secure AI/ML workloads with cloud-native security controls",
     "skills": [
       "AWS",
       "Azure",
       "GCP",
-      "AI/ML",
+      "AI/ML security",
       "container security"
     ],
     "level": "staff",
@@ -14423,29 +14484,29 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5651552004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain experimentation infrastructure and tooling using statistical and machine learning methods.",
-    "skills": [],
+    "job_summary": "Build and advance experimentation infrastructure and tooling using statistical and machine learning methods",
+    "skills": [
+      "statistical methods",
+      "machine learning methods",
+      "causal inference"
+    ],
     "level": "staff",
     "source_hash": "f8147297"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5743955004": {
     "is_engineering": true,
-    "job_summary": "Design and implement A/B testing frameworks and causal inference tools for product experimentation",
+    "job_summary": "Design and execute A/B tests and causal inference experiments",
     "skills": [
       "SQL",
-      "Python",
-      "analytics tools"
+      "Python"
     ],
     "level": "staff",
     "source_hash": "357e73d2"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5778928004": {
-    "is_engineering": true,
-    "job_summary": "Build and maintain experimentation frameworks and causal inference tools.",
-    "skills": [
-      "SQL",
-      "Python"
-    ],
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
     "level": "staff",
     "source_hash": "ecc441bd"
   },
@@ -14479,20 +14540,20 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5979101004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain scalable infrastructure-as-code for cloud services",
+    "job_summary": "Improve operational reliability for PlayStation Store and Catalog platforms through code and automation.",
     "skills": [
       "AWS",
       "GCP",
-      "EKS",
       "Infrastructure-as-Code",
-      "automation"
+      "automation",
+      "cloud-native patterns (EKS, auto-scaling)"
     ],
     "level": "staff",
     "source_hash": "be5eede6"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5748537004": {
     "is_engineering": true,
-    "job_summary": "Refine low-level code for PlayStation kernel security systems",
+    "job_summary": "Refine low-level code for PlayStation kernel security",
     "skills": [
       "C",
       "C++"
@@ -14508,19 +14569,19 @@
       "Python",
       "Jenkins",
       "GitHub Actions",
-      "Linux"
+      "Docker"
     ],
     "level": "staff",
     "source_hash": "75f84718"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5727771004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain the PlayStation iOS app architecture and frameworks",
+    "job_summary": "Build and maintain iOS frameworks and SDKs for PlayStation apps",
     "skills": [
       "Swift",
       "C++",
-      "iOS APIs",
       "Objective-C",
+      "iOS APIs",
       "SDKs"
     ],
     "level": "staff",
@@ -14528,24 +14589,24 @@
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5655306004": {
     "is_engineering": true,
-    "job_summary": "Build and maintain AI-powered engine/editor plugins and SDKs for game development.",
+    "job_summary": "Build and maintain AI-powered tools and integrations for game engines and backend services",
     "skills": [
-      "C++ (C++17/20)",
-      "CI/CD",
+      "C++",
+      "C++17/20",
       "gRPC/HTTP",
-      "UBT",
-      "C++/C API"
+      "CI/CD",
+      "testing frameworks"
     ],
     "level": "staff",
     "source_hash": "5bead6bb"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5684638004": {
     "is_engineering": true,
-    "job_summary": "Implement and optimize DPDK-based PCIe communication systems for low-latency network devices.",
+    "job_summary": "Implement and optimize peer-to-peer PCIe communication using DPDK.",
     "skills": [
       "DPDK",
       "C/C++",
-      "PCIe peer-to-peer communication",
+      "PCIe",
       "TCP/IP",
       "UDP"
     ],
@@ -14570,8 +14631,10 @@
     "job_summary": "Define and evolve the frontend architecture for PlayStation client applications using React Native.",
     "skills": [
       "React Native",
-      "JavaScript/TypeScript",
-      "C++/Objective-C/Swift"
+      "JavaScript",
+      "TypeScript",
+      "C++/Objective-C/Swift",
+      "modern JavaScript/TypeScript"
     ],
     "level": "staff",
     "source_hash": "a8ab3bb5"
@@ -14605,28 +14668,34 @@
     "source_hash": "a4b2eb4f"
   },
   "ashby-character-13006848-6a69-4467-9274-5d54e80b965d": {
-    "is_engineering": null,
-    "job_summary": null,
-    "skills": [],
-    "level": null,
+    "is_engineering": true,
+    "job_summary": "Build and maintain ML training and serving infrastructure",
+    "skills": [
+      "Compute Engine",
+      "Kubernetes",
+      "Cloud Storage",
+      "PyTorch",
+      "TensorFlow"
+    ],
+    "level": "senior",
     "source_hash": "0713f791"
   },
   "ashby-character-449bf7c1-41d7-47a4-89a7-0ee0b31f5918": {
     "is_engineering": true,
-    "job_summary": "Develop and optimize data pipelines for model training and inference.",
+    "job_summary": "Build and maintain data pipelines for processing web data into model-ready formats.",
     "skills": [
       "PyTorch",
-      "GPUs",
-      "data pipelines",
       "Kubernetes",
-      "Docker"
+      "Docker",
+      "data pipelines",
+      "reinforcement learning"
     ],
     "level": null,
     "source_hash": "f9128d5e"
   },
   "ashby-character-65e263f7-5edf-4832-b134-c194f19ea848": {
     "is_engineering": true,
-    "job_summary": "Build and maintain Trust & Safety user experiences and tools.",
+    "job_summary": "Build and maintain the front-end tools for Trust & Safety systems",
     "skills": [
       "React",
       "React Native",
@@ -14638,10 +14707,16 @@
     "source_hash": "594a5721"
   },
   "ashby-character-3ab40c3d-63bd-4634-a126-5a3d25d3263b": {
-    "is_engineering": null,
-    "job_summary": null,
-    "skills": [],
-    "level": null,
+    "is_engineering": true,
+    "job_summary": "Build and optimize ML training and inference systems for GPU clusters.",
+    "skills": [
+      "PyTorch",
+      "Triton",
+      "CUDA",
+      "CUTLASS",
+      "Kubernetes"
+    ],
+    "level": "senior",
     "source_hash": "a1924528"
   },
   "ashby-character-140e81c9-c989-4e95-9768-f4f6e7f6759c": {
@@ -14659,12 +14734,11 @@
   },
   "ashby-character-b063d44b-e1fd-4777-8079-573706a589a0": {
     "is_engineering": true,
-    "job_summary": "Build and maintain scalable backend services for Character.AI's platform.",
+    "job_summary": "Build and maintain scalable backend systems for Character.AI's interactive entertainment platform.",
     "skills": [
       "Python",
-      "Java",
       "Go",
-      "PostgreSQL/MySQL/NoSQL",
+      "PostgreSQL",
       "Docker",
       "Kubernetes"
     ],
@@ -14673,49 +14747,51 @@
   },
   "ashby-character-902c3060-f41f-4bb0-b23d-988055e94f3c": {
     "is_engineering": true,
-    "job_summary": "Build and optimize monetization features for payments and subscriptions.",
+    "job_summary": "Build and optimize monetization features for payments, subscriptions, and in-app purchase systems.",
     "skills": [
+      "Typescript",
       "React",
       "React Native",
-      "Typescript",
       "Python",
       "Golang"
     ],
-    "level": "mid",
+    "level": null,
     "source_hash": "08b998db"
   },
   "ashby-character-690f5ec2-2d7b-4c28-9b4d-d710e7225851": {
     "is_engineering": true,
-    "job_summary": "Build and maintain backend systems for safety and integrity features using applied machine learning.",
+    "job_summary": "Build and maintain scalable backend systems for safety and integrity features",
     "skills": [
+      "Python",
       "machine learning models",
-      "distributed systems design",
-      "data engineering"
+      "distributed systems",
+      "data engineering",
+      "ML pipelines"
     ],
     "level": "senior",
     "source_hash": "469da083"
   },
   "ashby-character-a7ddb640-466f-4a1f-9a94-7465006aad05": {
     "is_engineering": true,
-    "job_summary": "Develop and implement safety evaluation methodologies for large language models",
+    "job_summary": "Develop and implement safety evaluation methodologies for AI models",
     "skills": [
+      "reinforcement learning",
       "PyTorch",
-      "Kubernetes",
-      "Docker",
-      "Python",
-      "reinforcement learning"
+      "data pipelines",
+      "GPUs",
+      "transformers"
     ],
     "level": "senior",
     "source_hash": "0e2cee99"
   },
   "ashby-character-3cfa1472-4f6d-46fa-bd08-f6de0833a53f": {
     "is_engineering": true,
-    "job_summary": "Build and maintain ML backend systems for discovery, recommendation, and search features",
+    "job_summary": "Build and maintain the ML backend systems for discovery, recommendation, and search infrastructure.",
     "skills": [
+      "RESTful",
+      "gRPC",
       "PyTorch",
       "TensorFlow",
-      "RESTful APIs",
-      "gRPC",
       "CI/CD pipelines"
     ],
     "level": "senior",
@@ -14723,20 +14799,26 @@
   },
   "ashby-character-df95a7a5-87ca-4f51-85fd-4bb595a47a55": {
     "is_engineering": true,
-    "job_summary": "Build and maintain data science foundations for monetization systems",
-    "skills": [],
+    "job_summary": "Build and maintain the monetization data pipeline and analytics infrastructure",
+    "skills": [
+      "data science practices",
+      "experimentation",
+      "metrics",
+      "analytics tooling",
+      "data-informed insights"
+    ],
     "level": "staff",
     "source_hash": "ba653cad"
   },
   "ashby-character-2673e467-097e-43c0-ba0d-83e54b3a9cb1": {
     "is_engineering": true,
-    "job_summary": "Build and maintain data pipelines and infrastructure for AI platforms.",
+    "job_summary": "Build and maintain data pipelines for AI model training and infrastructure.",
     "skills": [
       "Python",
       "SQL",
+      "Big Query",
       "Spark",
-      "Beam",
-      "Terraform"
+      "Golang"
     ],
     "level": "senior",
     "source_hash": "6e3ac18f"
@@ -14752,12 +14834,12 @@
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": "senior",
+    "level": null,
     "source_hash": "ea850283"
   },
   "ashby-character-d5a38f47-cd16-4e10-818d-45a4f845b529": {
     "is_engineering": true,
-    "job_summary": "Build and maintain large-scale data pipelines for video generation models.",
+    "job_summary": "Build and maintain large-scale data pipelines for video generation models",
     "skills": [
       "PyTorch",
       "diffusion models",
@@ -14765,7 +14847,7 @@
       "ControlNet",
       "FSDP"
     ],
-    "level": null,
+    "level": "senior",
     "source_hash": "5f8b7b66"
   },
   "ashby-character-5ae538da-6b75-4b10-9c3e-a2a500b63575": {
@@ -14786,26 +14868,20 @@
     "is_engineering": null,
     "job_summary": null,
     "skills": [],
-    "level": "mid",
+    "level": null,
     "source_hash": "c830ddb8"
   },
   "ashby-cognition-4841bda0-057a-4471-801f-70309c3c02d5": {
     "is_engineering": true,
-    "job_summary": "Build and maintain the AI software agents and AI-native IDE",
+    "job_summary": "Build and maintain AI software agents and the AI-native IDE",
     "skills": [],
     "level": null,
     "source_hash": "bc4c5081"
   },
   "ashby-cognition-72d3db28-07d3-4c28-b49f-1bdf6e8e0f10": {
     "is_engineering": true,
-    "job_summary": "Shape post-training recipes and alignment methods for AI software agents and IDEs",
-    "skills": [
-      "RLHF",
-      "RLAIF",
-      "preference modeling",
-      "reward learning",
-      "distributed training"
-    ],
+    "job_summary": "Shape post-training recipes and alignment methods for Devin and Windsurf",
+    "skills": [],
     "level": "senior",
     "source_hash": "1aef0269"
   },
@@ -14820,7 +14896,7 @@
     "is_engineering": true,
     "job_summary": "Deploy and integrate Devin/Windsurf into customer production environments",
     "skills": [],
-    "level": "senior",
+    "level": null,
     "source_hash": "afc12b1c"
   },
   "ashby-cognition-ca40e489-d1cb-4a8a-b761-ec3a67c8fda6": {
@@ -14856,22 +14932,22 @@
     "source_hash": "7793f774"
   },
   "ashby-cognition-02772183-104d-4cc6-92a4-8e928f51b862": {
-    "is_engineering": null,
-    "job_summary": null,
+    "is_engineering": true,
+    "job_summary": "Build and maintain support automation tools for customer issue resolution",
     "skills": [],
     "level": null,
     "source_hash": "a4941a87"
   },
   "ashby-cognition-ca087c5e-b6e8-4852-90f0-f820c8f5f7ed": {
-    "is_engineering": null,
-    "job_summary": null,
+    "is_engineering": true,
+    "job_summary": "Build internal tools and processes to improve operational efficiency of GTM and EPD",
     "skills": [],
-    "level": null,
+    "level": "senior",
     "source_hash": "e580caba"
   },
   "ashby-cognition-818e3c35-d25b-4aec-a9e1-23cc8328d19c": {
     "is_engineering": true,
-    "job_summary": "Deploy and integrate Devin/Windsurf into customer environments",
+    "job_summary": "Deploy and integrate Devin/Windsurf into production environments",
     "skills": [],
     "level": null,
     "source_hash": "51eaff7a"
@@ -14885,9 +14961,15 @@
   },
   "ashby-cognition-e8086415-62bc-4cc0-96a4-84bb56182d35": {
     "is_engineering": true,
-    "job_summary": "Build core agent infrastructure and improve Windsurf as an AI-native IDE",
-    "skills": [],
-    "level": null,
+    "job_summary": "Build core agent infrastructure for Devin's long-horizon task execution. Improve Windsurf as an AI-native IDE with editor intelligence and real-time code understanding.",
+    "skills": [
+      "AI/ML models",
+      "distributed systems",
+      "IDE tools",
+      "code execution environments",
+      "agent orchestration"
+    ],
+    "level": "senior",
     "source_hash": "31f0ed48"
   },
   "ashby-cognition-001a11ed-d7bb-4c78-a260-1d28c12bf61a": {
@@ -14899,12 +14981,13 @@
   },
   "ashby-cognition-811c3f5a-b26d-4162-b49b-93890a91794d": {
     "is_engineering": true,
-    "job_summary": "Enable teams to adopt Devin and integrate agentic workflows into their development processes",
+    "job_summary": "Enable and integrate Devin into enterprise workflows through pair programming and training",
     "skills": [
       "Python",
-      "Devin",
-      "DeepWiki",
-      "MCP integrations"
+      "DevOps tools",
+      "CI/CD pipelines",
+      "AI/ML frameworks",
+      "collaborative tools"
     ],
     "level": "senior",
     "source_hash": "73bde4bd"
@@ -14946,7 +15029,7 @@
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": "senior",
+    "level": null,
     "source_hash": "0dc72870"
   },
   "ashby-cognition-daf8accf-5799-4dba-a77d-66ace242fa88": {
@@ -14971,15 +15054,9 @@
     "source_hash": "99ee72b4"
   },
   "ashby-cognition-1e47fa81-bfe3-436c-a6f7-fccd66a98b1e": {
-    "is_engineering": true,
-    "job_summary": "Enable partners to build repeatable solutions and reference architectures using Devin/Windsurf",
-    "skills": [
-      "CI/CD environments",
-      "complex integrations",
-      "security reviews",
-      "enterprise workflows",
-      "technical trainings"
-    ],
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
     "level": null,
     "source_hash": "d70c67c4"
   },
@@ -14987,7 +15064,7 @@
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "manager",
     "source_hash": "3647c751"
   },
   "ashby-cognition-5081e3b3-e606-4299-bd26-34ac6cdc5f0a": {
@@ -15013,10 +15090,8 @@
   },
   "ashby-cognition-f1430967-f367-4afe-9107-e58da423633c": {
     "is_engineering": true,
-    "job_summary": "Build and maintain product extensions and integrations using Cognition\u2019s APIs and platform primitives",
-    "skills": [
-      "platform primitives"
-    ],
+    "job_summary": "Build and maintain enterprise deployments for federal clients using Cognition's platform",
+    "skills": [],
     "level": null,
     "source_hash": "e7ac7a19"
   },
@@ -15056,15 +15131,15 @@
     "source_hash": "fcf7efa4"
   },
   "ashby-cognition-88d8cbd5-7288-439f-bf0f-cc07d567775b": {
-    "is_engineering": false,
+    "is_engineering": null,
     "job_summary": null,
     "skills": [],
     "level": null,
     "source_hash": "be518bdf"
   },
   "ashby-cognition-6d539905-c75e-45e0-8c3e-db9831a5e6e6": {
-    "is_engineering": true,
-    "job_summary": "Build repeatable solutions and reference architectures for Devin/Windsurf",
+    "is_engineering": null,
+    "job_summary": null,
     "skills": [],
     "level": null,
     "source_hash": "2a16254e"
@@ -15073,12 +15148,12 @@
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": "mid",
+    "level": null,
     "source_hash": "7222ac85"
   },
   "ashby-cognition-589326d3-9dc0-447e-ae0c-972b808f831d": {
     "is_engineering": true,
-    "job_summary": "Own and maintain the core codebase for federal deployments",
+    "job_summary": "Build and maintain the core codebase for federal deployments",
     "skills": [],
     "level": null,
     "source_hash": "8b23e630"
@@ -15098,21 +15173,21 @@
     "source_hash": "3c692525"
   },
   "ashby-cognition-b73fd66a-f43b-4240-95c2-7a76b4ffb0c6": {
-    "is_engineering": true,
-    "job_summary": "Build and deploy Devin's integration solutions for customers",
+    "is_engineering": null,
+    "job_summary": null,
     "skills": [],
-    "level": "mid",
+    "level": null,
     "source_hash": "c26ee969"
   },
   "ashby-cognition-e6f55fdf-151d-4282-a600-b92e4124732f": {
     "is_engineering": true,
-    "job_summary": "Own end-to-end test strategies for AI workflows in Devin and Windsurf",
+    "job_summary": "Build and maintain scalable QA automation processes for AI workflows",
     "skills": [
       "Python",
       "TypeScript",
-      "CI/CD",
       "test automation frameworks",
-      "functional testing"
+      "CI/CD",
+      "bug tracking tools"
     ],
     "level": "senior",
     "source_hash": "a84f6c63"
@@ -15135,7 +15210,7 @@
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "senior",
     "source_hash": "37f66feb"
   },
   "ashby-cognition-b24559d8-c742-4da9-aa6c-581a00e56090": {
@@ -15156,7 +15231,7 @@
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "mid",
     "source_hash": "cfdf58a7"
   },
   "ashby-cognition-c42ae7ec-4636-48a0-b682-34ac1c0fb3c6": {
@@ -15182,22 +15257,16 @@
   },
   "ashby-cognition-b6f96827-ce14-44f4-98fa-b1b8640858b6": {
     "is_engineering": true,
-    "job_summary": "Build and maintain the distributed training infrastructure for large-scale GPU clusters",
-    "skills": [
-      "PyTorch",
-      "distributed systems",
-      "data pipelines",
-      "GPU optimization",
-      "experiment orchestration"
-    ],
-    "level": "senior",
+    "job_summary": "Build and maintain distributed training infrastructure for large-scale GPU clusters.",
+    "skills": [],
+    "level": null,
     "source_hash": "96eecb5b"
   },
   "ashby-cognition-b3e47b13-df84-4ed3-a70b-f4d20cec6f82": {
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "senior",
     "source_hash": "09aaf9df"
   },
   "ashby-cognition-6c1e8ec4-8ca4-460c-879a-d6d8a9f141f5": {
@@ -15209,7 +15278,7 @@
   },
   "ashby-cognition-3753ba3b-3792-4ca7-82ee-8e7949eadb2e": {
     "is_engineering": true,
-    "job_summary": "Build and maintain the data pipeline and integrations for the Finance and Accounting organization",
+    "job_summary": "Build and maintain the Finance and Accounting data stack, including ETL pipelines and reporting systems.",
     "skills": [
       "SQL",
       "Python",
@@ -15222,7 +15291,7 @@
   },
   "ashby-cognition-d50d94b0-60c8-4dae-9c36-234f072ee4e3": {
     "is_engineering": true,
-    "job_summary": "Build and maintain the CI/CD pipelines and deployment infrastructure for Devin and Windsurf",
+    "job_summary": "Own the deployment pipelines and infrastructure for Devin and Windsurf",
     "skills": [
       "cloud infrastructure",
       "CI/CD pipelines",
@@ -15235,15 +15304,9 @@
   },
   "ashby-cognition-57e1e2a1-e0a0-4448-a278-8eed035d7428": {
     "is_engineering": true,
-    "job_summary": "Design and implement late-stage training pipelines for AI models",
-    "skills": [
-      "synthetic data pipelines",
-      "data mixtures",
-      "annealing schedules",
-      "context length extension",
-      "evaluation systems"
-    ],
-    "level": "mid",
+    "job_summary": "Design and optimize synthetic data pipelines for model training",
+    "skills": [],
+    "level": null,
     "source_hash": "337bc937"
   },
   "ashby-cognition-93002b15-b30c-4c98-a7e0-2ef185e4b88f": {
@@ -15255,13 +15318,13 @@
   },
   "ashby-cognition-71165bb4-9bc8-49df-9eca-49c4232f72ff": {
     "is_engineering": true,
-    "job_summary": "Secure the agent execution surface by designing sandboxing and isolation controls.",
+    "job_summary": "Secure the agent execution surface and build security tooling for code sandboxing and infrastructure protection",
     "skills": [
       "Python",
       "Rust",
       "Go",
-      "AWS",
-      "Kubernetes"
+      "Kubernetes",
+      "AWS/GCP/Azure"
     ],
     "level": null,
     "source_hash": "5a2aa65b"
@@ -15340,7 +15403,7 @@
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": "senior",
+    "level": null,
     "source_hash": "2c75f82d"
   },
   "greenhouse-descript-6576153003": {
@@ -15358,7 +15421,7 @@
     "source_hash": "7b4dffc7"
   },
   "greenhouse-descript-7413750003": {
-    "is_engineering": false,
+    "is_engineering": null,
     "job_summary": null,
     "skills": [],
     "level": null,
@@ -15368,7 +15431,7 @@
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": "manager",
+    "level": "senior",
     "source_hash": "2a2e1d1c"
   },
   "greenhouse-descript-7666419003": {
@@ -15385,7 +15448,7 @@
       "Segment",
       "Census",
       "Python (implied via data analysis)",
-      "attribution models",
+      "CDPs",
       "reverse ETL"
     ],
     "level": "senior",
@@ -15393,13 +15456,13 @@
   },
   "greenhouse-descript-7716322003": {
     "is_engineering": true,
-    "job_summary": "Build and maintain the marketing website platform and reusable frontend components.",
+    "job_summary": "Own and maintain the marketing website and CMS platform",
     "skills": [
       "HTML",
       "CSS",
       "headless CMS (Contentful, Builder.io)",
-      "visual editor tools",
-      "A/B testing setup"
+      "JavaScript (implied by frontend work)",
+      "A/B testing tools"
     ],
     "level": "senior",
     "source_hash": "cc409af7"
@@ -15419,7 +15482,7 @@
   },
   "greenhouse-descript-7499700003": {
     "is_engineering": true,
-    "job_summary": "Build and maintain the agentic video editing platform infrastructure and product experiences",
+    "job_summary": "Build and maintain the agentic video editing infrastructure and product experience",
     "skills": [
       "Typescript",
       "React",
@@ -15432,25 +15495,25 @@
   },
   "greenhouse-descript-7580335003": {
     "is_engineering": true,
-    "job_summary": "Build and maintain AI infrastructure for model integration and deployment",
+    "job_summary": "Build and maintain AI infrastructure supporting machine learning pipelines and model deployments",
     "skills": [
-      "Python",
-      "PyTorch",
-      "TensorFlow",
+      "Spark",
       "Docker",
-      "Kubernetes"
+      "Kubernetes",
+      "PyTorch",
+      "TensorFlow"
     ],
     "level": "senior",
     "source_hash": "7c4c7cbc"
   },
   "greenhouse-descript-7668317003": {
     "is_engineering": true,
-    "job_summary": "Own the frontend platform and design systems for Descript's client platform",
+    "job_summary": "Own the React codebase and design systems for the client platform",
     "skills": [
       "React",
-      "React DevTools",
+      "JavaScript",
       "performance profiling tools",
-      "GitHub Actions",
+      "testing frameworks",
       "design systems"
     ],
     "level": "senior",
@@ -15458,9 +15521,10 @@
   },
   "greenhouse-descript-7683752003": {
     "is_engineering": true,
-    "job_summary": "Build and maintain the data pipelines and instrumentation for real-time analytics",
+    "job_summary": "Build and maintain the growth systems and data pipelines that drive user activation and experimentation.",
     "skills": [
-      "TypeScript/JavaScript",
+      "TypeScript",
+      "JavaScript",
       "React",
       "HTML",
       "CSS",
@@ -15471,7 +15535,7 @@
   },
   "greenhouse-descript-7449735003": {
     "is_engineering": true,
-    "job_summary": "Build and maintain the core video editing and streaming platform.",
+    "job_summary": "Build and maintain the core video editing platform and AI integration systems",
     "skills": [
       "TypeScript",
       "React",
@@ -15486,7 +15550,7 @@
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": "principal",
+    "level": "senior",
     "source_hash": "1e96c157"
   },
   "greenhouse-hebbia-4674818005": {
@@ -15514,7 +15578,7 @@
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "mid",
     "source_hash": "bbf5f18e"
   },
   "greenhouse-hebbia-4640379005": {
@@ -15528,18 +15592,20 @@
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "senior",
     "source_hash": "84976ffd"
   },
   "greenhouse-hebbia-4585152005": {
     "is_engineering": true,
-    "job_summary": "Build and maintain the custom multi-agent framework for agentic systems.",
+    "job_summary": "Build and maintain agentic systems and distributed infrastructure for Hebbia's AI platform.",
     "skills": [
       "distributed systems",
-      "asynchronous DAG orchestrator",
-      "LLM inference engine"
+      "LLM inference engines",
+      "asynchronous DAG orchestrators",
+      "private data retrieval systems",
+      "agentic frameworks"
     ],
-    "level": null,
+    "level": "senior",
     "source_hash": "d8dcfa76"
   },
   "greenhouse-hebbia-4656274005": {
@@ -15551,18 +15617,22 @@
   },
   "greenhouse-hebbia-4584764005": {
     "is_engineering": true,
-    "job_summary": "Build and optimize the high-scale document build system for O(1) universal indexing.",
-    "skills": [],
-    "level": null,
+    "job_summary": "Build and optimize the high-scale document build system for O(1) indexing.",
+    "skills": [
+      "distributed systems",
+      "LLM execution engine",
+      "performance tuning"
+    ],
+    "level": "senior",
     "source_hash": "d38958cd"
   },
   "greenhouse-hebbia-4584766005": {
     "is_engineering": true,
-    "job_summary": "Build and maintain the custom multi-agent framework and distributed systems infrastructure for agentic tasks.",
+    "job_summary": "Build and maintain the custom multi-agent framework and distributed systems infrastructure.",
     "skills": [
       "distributed systems",
-      "LLM inference engines",
-      "data pipelines"
+      "DAG orchestrator",
+      "agentic frameworks"
     ],
     "level": null,
     "source_hash": "fe46a474"
@@ -15574,9 +15644,10 @@
       "Snowflake",
       "S3",
       "SharePoint",
-      "Dropbox"
+      "Dropbox",
+      "APIs"
     ],
-    "level": null,
+    "level": "senior",
     "source_hash": "f35788f2"
   },
   "greenhouse-hebbia-4605886005": {
@@ -15595,7 +15666,7 @@
   },
   "greenhouse-hebbia-4564848005": {
     "is_engineering": true,
-    "job_summary": "Build and maintain ETL pipelines and data lakes for the AI platform",
+    "job_summary": "Build and maintain ETL pipelines and data lake infrastructure",
     "skills": [
       "Python",
       "SQL",
@@ -15608,7 +15679,7 @@
   },
   "greenhouse-hebbia-4679299005": {
     "is_engineering": true,
-    "job_summary": "Own and maintain the AI platform's codebase and technical direction",
+    "job_summary": "Own the technical direction and codebase for your team's systems",
     "skills": [],
     "level": "manager",
     "source_hash": "84f104eb"
@@ -15636,7 +15707,7 @@
   },
   "greenhouse-hebbia-4679666005": {
     "is_engineering": true,
-    "job_summary": "Build and maintain the GTM tech stack including Salesforce, Outreach, Gong, Apollo, Clay, and Claude",
+    "job_summary": "Own and improve the GTM tech stack including Salesforce, Outreach, and AI tools",
     "skills": [
       "Salesforce",
       "Outreach",
@@ -15657,20 +15728,21 @@
   },
   "greenhouse-hebbia-4679879005": {
     "is_engineering": true,
-    "job_summary": "Own and improve the GTM tech stack including Salesforce, Outreach, Gong, and AI workflows.",
+    "job_summary": "Own and improve the GTM tech stack including Salesforce, Outreach, and AI tools",
     "skills": [
       "Salesforce",
       "Outreach",
       "Gong",
+      "Apollo",
       "Clay",
       "Claude"
     ],
-    "level": "senior",
+    "level": null,
     "source_hash": "776300ee"
   },
   "greenhouse-hebbia-4675784005": {
     "is_engineering": true,
-    "job_summary": "Build and maintain data pipelines for Hebbia's AI platform",
+    "job_summary": "Build and maintain data pipelines connecting enterprise systems to Hebbia's AI platform.",
     "skills": [
       "Snowflake",
       "S3",
@@ -15697,13 +15769,9 @@
   },
   "greenhouse-hebbia-4584750005": {
     "is_engineering": true,
-    "job_summary": "Build and maintain the core distributed systems for high-scale document indexing and processing.",
-    "skills": [
-      "distributed systems",
-      "performance optimization",
-      "state-of-the-art infrastructure"
-    ],
-    "level": "senior",
+    "job_summary": "Build and maintain the core distributed systems powering billions of tokens and millions of documents.",
+    "skills": [],
+    "level": null,
     "source_hash": "8faa9d55"
   },
   "greenhouse-hebbia-4670491005": {
@@ -15715,7 +15783,7 @@
   },
   "greenhouse-hebbia-4666955005": {
     "is_engineering": true,
-    "job_summary": "Design and build observability frameworks",
+    "job_summary": "Build and maintain observability frameworks for production systems",
     "skills": [],
     "level": null,
     "source_hash": "85ef4b53"
@@ -15772,43 +15840,38 @@
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": "mid",
+    "level": null,
     "source_hash": "3f7e48c1"
   },
   "greenhouse-inflectionai-4646528006": {
     "is_engineering": true,
-    "job_summary": "Design and operate secure IT infrastructure for distributed workforce",
-    "skills": [
-      "zero-trust identity management",
-      "workflow automation",
-      "data integrations",
-      "secure systems"
-    ],
+    "job_summary": "Design and operate secure IT infrastructure for a distributed workforce",
+    "skills": [],
     "level": "manager",
     "source_hash": "4dcd38c0"
   },
   "greenhouse-inflectionai-4578240006": {
     "is_engineering": true,
-    "job_summary": "Build and maintain post-training pipelines for large transformer models.",
+    "job_summary": "Build and maintain the model training pipelines using PyTorch and DeepSpeed",
     "skills": [
       "PyTorch",
       "Torchtune",
-      "FSDP/DeepSpeed",
-      "internal orchestration stack",
-      "RLHF/DPO/GRPO/RLAIF"
+      "FSDP",
+      "DeepSpeed",
+      "internal orchestration stack"
     ],
-    "level": null,
+    "level": "staff",
     "source_hash": "4d3689a8"
   },
   "greenhouse-inflectionai-4681124006": {
     "is_engineering": true,
-    "job_summary": "Develop and maintain neural models for voice and audio pipelines integrated into Pi's conversational stack",
+    "job_summary": "Build and maintain production-grade voice models and inference pipelines for Pi's conversational stack.",
     "skills": [
       "PyTorch",
+      "CUDA",
       "diffusion models",
       "autoregressive codecs",
-      "CUDA",
-      "GPU/accelerator clusters"
+      "flow-matching"
     ],
     "level": "senior",
     "source_hash": "ef5285ef"
@@ -15830,9 +15893,7 @@
       "Python",
       "Postgres",
       "Redis",
-      "AWS",
-      "GCP",
-      "Azure",
+      "AWS/GCP/Azure",
       "Kubernetes"
     ],
     "level": "senior",
@@ -15849,22 +15910,24 @@
     "is_engineering": true,
     "job_summary": "Build and maintain internet-scale data pipelines and research frameworks",
     "skills": [
+      "PyTorch",
+      "Python",
       "large GPU clusters",
       "distributed systems",
-      "ETL workloads"
+      "ETL workflows"
     ],
     "level": "senior",
     "source_hash": "21948284"
   },
   "ashby-magic.dev-45d25f90-3be6-417d-810f-0d95f7704961": {
     "is_engineering": true,
-    "job_summary": "Build and maintain the supercomputing platform's GPU infrastructure using Terraform and Kubernetes",
+    "job_summary": "Build and maintain the supercomputing platform's GPU infrastructure using Terraform and Kubernetes.",
     "skills": [
       "Terraform",
       "Kubernetes",
-      "GCP",
-      "AWS",
-      "Azure"
+      "cloud platforms (GCP, AWS, Azure, OCI)",
+      "networking",
+      "storage systems"
     ],
     "level": "senior",
     "source_hash": "f6943f50"
@@ -15891,14 +15954,8 @@
   },
   "ashby-magic.dev-b8d6a107-3f98-4341-b114-311c7070e59f": {
     "is_engineering": true,
-    "job_summary": "Design and build post-training datasets and evaluation frameworks for long-context models.",
-    "skills": [
-      "Python",
-      "ML frameworks",
-      "data systems",
-      "infrastructure tools",
-      "evaluation pipelines"
-    ],
+    "job_summary": "Build and maintain post-training data pipelines and evaluation frameworks for RL systems",
+    "skills": [],
     "level": "senior",
     "source_hash": "d13da013"
   },
@@ -15911,38 +15968,40 @@
   },
   "ashby-magic.dev-e69c401c-aeca-4a0b-9dcd-8f37220b7fe4": {
     "is_engineering": true,
-    "job_summary": "Build and maintain internal data tooling and infrastructure systems",
-    "skills": [],
+    "job_summary": "Build and maintain internal data tooling including dashboards, CLIs, and data exploration UIs",
+    "skills": [
+      "build systems",
+      "CI pipelines",
+      "CLI tools",
+      "web UIs",
+      "data infrastructure"
+    ],
     "level": null,
     "source_hash": "480c1df6"
   },
   "ashby-magic.dev-4123c573-3de0-41be-bcb8-8201539d1787": {
     "is_engineering": true,
-    "job_summary": "Build and scale large distributed data pipelines for pre-training",
+    "job_summary": "Build and scale large distributed data pipelines for pre-training, design filtering systems, and develop post-training datasets.",
     "skills": [],
     "level": null,
     "source_hash": "2b31ef68"
   },
   "ashby-magic.dev-427ffdee-d4d1-4a39-a730-4a96435daa67": {
     "is_engineering": true,
-    "job_summary": "Build and maintain distributed inference and RL systems for large-scale model execution.",
-    "skills": [
-      "distributed systems",
-      "GPU execution constraints",
-      "production ML systems"
-    ],
-    "level": "senior",
+    "job_summary": "Design and scale high-performance inference serving systems for long-context models.",
+    "skills": [],
+    "level": null,
     "source_hash": "caee65d2"
   },
   "ashby-magic.dev-f1d3988f-f93c-42b7-ad1a-f9fb3d07ff26": {
     "is_engineering": true,
-    "job_summary": "Scale distributed training infrastructure for long-context models",
+    "job_summary": "Design and optimize distributed training systems for large-scale GPU clusters.",
     "skills": [
       "distributed systems",
       "GPU clusters",
-      "parallelism",
-      "ML systems",
-      "fault tolerance"
+      "fault tolerance",
+      "checkpointing",
+      "performance optimization"
     ],
     "level": "senior",
     "source_hash": "60982e61"
@@ -15962,7 +16021,7 @@
   },
   "ashby-pika-d70aebf3-9798-43f9-aa83-1056c714ecf9": {
     "is_engineering": true,
-    "job_summary": "Design and develop the AI agent runtime systems for personality, memory, and autonomous behavior",
+    "job_summary": "Design and build the AI agent runtime systems for personality, memory, and autonomous behavior",
     "skills": [
       "TypeScript",
       "Python",
@@ -15975,7 +16034,7 @@
   },
   "ashby-pika-5dfeab0a-6928-4aa5-8eb3-09dca4d0f707": {
     "is_engineering": true,
-    "job_summary": "Build and maintain iOS applications integrating AI and agentic infrastructure",
+    "job_summary": "Lead the design and implementation of iOS applications integrating advanced AI and agentic infrastructure",
     "skills": [
       "Swift",
       "SwiftUI",
@@ -15988,7 +16047,7 @@
   },
   "ashby-pika-e6ef5efb-98c0-404d-afcd-a100b8f9f774": {
     "is_engineering": true,
-    "job_summary": "Design and prototype novel algorithms for real-time video synthesis",
+    "job_summary": "Design and prototype real-time video synthesis algorithms and diffusion-based world models.",
     "skills": [
       "Python",
       "PyTorch",
@@ -16008,13 +16067,8 @@
   },
   "ashby-Sierra-b16462e4-ce32-4ce9-b788-0a8f0f096361": {
     "is_engineering": true,
-    "job_summary": "Build and maintain AI agent architectures and retrieval systems for customer interactions.",
-    "skills": [
-      "LLMs",
-      "generative tools (Cursor, Claude Code)",
-      "simulation platforms (\ud835\udf0f-Bench)",
-      "content management systems"
-    ],
+    "job_summary": "Build and maintain AI agent systems and infrastructure",
+    "skills": [],
     "level": null,
     "source_hash": "6199f6f5"
   },
@@ -16028,11 +16082,7 @@
   "ashby-Sierra-d77487f9-bab3-44c6-be18-744e7125c8b3": {
     "is_engineering": true,
     "job_summary": "Build and maintain the platform's agent development infrastructure",
-    "skills": [
-      "distributed systems",
-      "AI-powered products",
-      "developer platforms"
-    ],
+    "skills": [],
     "level": "senior",
     "source_hash": "8a5f554c"
   },
@@ -16066,7 +16116,7 @@
   },
   "ashby-Sierra-b7d1dbcd-ca72-472f-b15e-5b4b0f886be0": {
     "is_engineering": true,
-    "job_summary": "Build and maintain production-grade AI agents for enterprise clients",
+    "job_summary": "Design and build AI agents for production environments across industries",
     "skills": [],
     "level": null,
     "source_hash": "14c030ba"
@@ -16082,12 +16132,12 @@
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": "senior",
+    "level": "manager",
     "source_hash": "27b7870f"
   },
   "ashby-Sierra-e9f5fdb6-91ee-4c55-9230-41ec8865650e": {
     "is_engineering": true,
-    "job_summary": "Build and maintain production-grade AI agents for enterprise and startup clients.",
+    "job_summary": "Build and maintain production-grade AI agents for enterprise and startup clients",
     "skills": [],
     "level": null,
     "source_hash": "196b6b79"
@@ -16096,29 +16146,31 @@
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": "senior",
+    "level": "manager",
     "source_hash": "12b7757c"
   },
   "ashby-Sierra-b3829801-8e0b-4047-8cd8-8a51c87028fd": {
     "is_engineering": true,
-    "job_summary": "Build the core systems for agent architecture including the SDK, orchestration engine, and evaluation frameworks.",
+    "job_summary": "Build and maintain the Agent SDK orchestration engine and runtime systems",
     "skills": [
       "Go",
       "Typescript",
       "LLM-based applications",
       "retrieval systems",
-      "evaluation systems"
+      "evaluation frameworks"
     ],
     "level": "senior",
     "source_hash": "d781ae2b"
   },
   "ashby-Sierra-bbef339c-3365-40df-804b-ece245386b43": {
     "is_engineering": true,
-    "job_summary": "Implement security automation and tooling for CI/CD pipelines and AI-based solutions",
+    "job_summary": "Build and maintain security automation tools and integrate them into CI/CD pipelines.",
     "skills": [
       "DevOps tools",
-      "scripting languages",
-      "CI/CD pipelines"
+      "scripting",
+      "secure coding practices",
+      "cloud security platforms (AWS, Azure, GCP)",
+      "threat modeling"
     ],
     "level": null,
     "source_hash": "4a54e5d1"
@@ -16134,26 +16186,20 @@
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": "senior",
+    "level": null,
     "source_hash": "e1d18a61"
   },
   "ashby-Sierra-7053ca02-ee36-48cc-b331-9d795a966c4c": {
     "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": "senior",
+    "level": "mid",
     "source_hash": "51fe116e"
   },
   "ashby-Sierra-f391b10c-7a4a-42b4-9887-dd32b31d6e4e": {
     "is_engineering": true,
-    "job_summary": "Own and maintain the frontend of the product and marketing surfaces",
-    "skills": [
-      "design systems",
-      "UI components",
-      "performance optimization",
-      "accessibility",
-      "internationalization"
-    ],
+    "job_summary": "Own and maintain the frontend design system and user interfaces for the platform",
+    "skills": [],
     "level": "senior",
     "source_hash": "2230bd4f"
   },
@@ -16166,29 +16212,29 @@
   },
   "ashby-Sierra-f4319197-e898-4756-a7f2-af884fe1e0c7": {
     "is_engineering": true,
-    "job_summary": "Build the Intelligence layer for analyzing conversational data and developing learning systems for AI-powered agents.",
+    "job_summary": "Build the Intelligence layer for analyzing agent interactions and generating insights. Develop learning systems for retrieval, ranking, and personalization.",
     "skills": [
       "data systems",
       "analytics",
       "machine learning-driven products",
       "retrieval systems",
-      "ranking systems"
+      "recommendation systems"
     ],
     "level": "senior",
     "source_hash": "c3ecccbe"
   },
   "ashby-Sierra-548eccd8-85c7-4cfa-a145-1c6ba5c17dc2": {
-    "is_engineering": false,
-    "job_summary": null,
+    "is_engineering": true,
+    "job_summary": "Build and refine conversational AI agents for customer interactions",
     "skills": [],
     "level": null,
     "source_hash": "c357be2c"
   },
   "ashby-Sierra-38f06024-4ee9-47d6-a36f-f2791ac1e412": {
-    "is_engineering": null,
+    "is_engineering": false,
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "senior",
     "source_hash": "2727fa8b"
   },
   "ashby-Sierra-5b2b078a-748b-492c-b07c-5aba8cb72b27": {
@@ -16211,5 +16257,2132 @@
     "skills": [],
     "level": null,
     "source_hash": "72384ca0"
+  },
+  "ashby-Sierra-55e76105-7f8d-42e8-b1d1-120b7b83922e": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain the cloud infrastructure platform using Terraform and distributed systems",
+    "skills": [
+      "Terraform",
+      "AWS",
+      "GCP",
+      "Azure",
+      "CI/CD pipelines"
+    ],
+    "level": "senior",
+    "source_hash": "4f462921"
+  },
+  "ashby-Sierra-39c1ed90-786b-41c6-943e-7c2427f90043": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "source_hash": "242d853d"
+  },
+  "ashby-Sierra-9738d0f0-13be-4e89-9fba-505e7cac288f": {
+    "is_engineering": true,
+    "job_summary": "Build and ship AI agents with top global brands",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Python",
+      "Go",
+      "modern programming languages"
+    ],
+    "level": "intern",
+    "source_hash": "81193809"
+  },
+  "ashby-Sierra-9ebc3a79-82bf-478d-bd98-d473d41bdeaf": {
+    "is_engineering": true,
+    "job_summary": "Build and ship highly performant AI agents for enterprise clients",
+    "skills": [],
+    "level": null,
+    "source_hash": "97bf963b"
+  },
+  "ashby-Sierra-9d9e7d4a-2a27-4f64-9b1f-d79c5d3f129a": {
+    "is_engineering": true,
+    "job_summary": "Build and ship highly performant AI agents for industries like finance and healthcare",
+    "skills": [],
+    "level": null,
+    "source_hash": "900a34d9"
+  },
+  "ashby-Sierra-aadfc0a0-93f6-454b-9767-c24793fa3eff": {
+    "is_engineering": true,
+    "job_summary": "Build and ship highly performant AI agents for enterprise clients",
+    "skills": [],
+    "level": null,
+    "source_hash": "9d397c02"
+  },
+  "ashby-Sierra-9f5b273f-1604-4b5b-bbbb-13cf0af35150": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "ad0f0ae4"
+  },
+  "ashby-Sierra-ef109d91-43de-4f96-94e5-fac6f1d8c8e1": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "source_hash": "bf5ec07b"
+  },
+  "ashby-Sierra-684fe45e-e8ab-40bc-8faa-c291646a48bb": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "source_hash": "c7238ff8"
+  },
+  "ashby-Sierra-48fb4d34-8622-45fc-9fca-f8f20b6d034a": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "source_hash": "1c436af9"
+  },
+  "ashby-Sierra-e3781010-1f68-484a-b624-9000b1681a57": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "8fba8649"
+  },
+  "ashby-Sierra-0ff928f7-cca0-4d2b-ae64-c07277ff5252": {
+    "is_engineering": true,
+    "job_summary": "Build and ship highly performant AI agents for enterprise clients",
+    "skills": [],
+    "level": "junior",
+    "source_hash": "911bfb2b"
+  },
+  "ashby-Sierra-53a8fd83-3e58-41a4-b014-2da447db820b": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "source_hash": "30d5dbd6"
+  },
+  "ashby-Sierra-980b339c-60b6-4473-bf4c-1d69557da9f2": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "16d5f488"
+  },
+  "ashby-Sierra-c7e3f330-6649-4c42-920d-eb267ebd6d16": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "79595fac"
+  },
+  "ashby-Sierra-43e6eda7-6e46-43e8-82a5-6e5035f063bb": {
+    "is_engineering": true,
+    "job_summary": "Build and ship highly performant, reliable AI agents for production environments",
+    "skills": [],
+    "level": null,
+    "source_hash": "a7d74fda"
+  },
+  "ashby-Sierra-0c892d11-9f19-4b8d-9c2b-409346c52b7a": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain real-time data pipelines and data lakehouse infrastructure",
+    "skills": [
+      "Spark",
+      "Flink",
+      "Trino/Presto",
+      "Iceberg",
+      "Hudi",
+      "Go",
+      "Scala",
+      "Python"
+    ],
+    "level": "senior",
+    "source_hash": "91654b4f"
+  },
+  "ashby-Sierra-3914e14a-2339-4d49-97e8-3a0de793cfb1": {
+    "is_engineering": true,
+    "job_summary": "Own and build the observability stack and cloud infrastructure for AI-driven systems",
+    "skills": [
+      "Terraform",
+      "AWS services",
+      "container orchestration",
+      "cloud networking (IAM, VPC)",
+      "observability systems (Prometheus, Grafana, Datadog)"
+    ],
+    "level": "senior",
+    "source_hash": "c6c2d916"
+  },
+  "ashby-Sierra-2dee25a0-a0c1-425e-b67a-9d49fc821369": {
+    "is_engineering": true,
+    "job_summary": "Lead the design and delivery of production-grade AI agents",
+    "skills": [],
+    "level": null,
+    "source_hash": "42e6786f"
+  },
+  "ashby-Sierra-8d46d44c-8294-4807-a6b1-5087f0506a38": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "ebc68bf1"
+  },
+  "ashby-Sierra-b1fc320b-d0d2-4ca5-9ce3-2ce8f51cf70e": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "0b4bc15b"
+  },
+  "ashby-Sierra-3437596e-e545-42a9-af82-9947fabf828c": {
+    "is_engineering": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "55fcb6b3"
+  },
+  "ashby-Sierra-ed38b1c1-2862-4e40-9894-3c6f20f7a785": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "79ea9055"
+  },
+  "ashby-Sierra-dc443fd1-14bd-493c-9397-c3713c78321c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "source_hash": "c7a59cb5"
+  },
+  "ashby-Sierra-df431e56-56f5-42ed-bc62-7d6f7041bd27": {
+    "is_engineering": true,
+    "job_summary": "Build and ship production-grade AI agents that drive revenue and transform enterprise operations.",
+    "skills": [],
+    "level": null,
+    "source_hash": "23c390a4"
+  },
+  "ashby-Sierra-198cd5cd-aa18-4541-abc9-b1f1ec0e5084": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "18550f3c"
+  },
+  "ashby-Sierra-e9f85c28-882b-4fc6-b7e1-b24b17b54599": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "acaa4a99"
+  },
+  "ashby-Sierra-fa2c5897-99d3-406d-9842-bf4c209e1095": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "4d17cf02"
+  },
+  "ashby-Sierra-1bd9c1e7-a2aa-428d-9a31-1a4eed26391f": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain real-time speech processing infrastructure for telephony systems",
+    "skills": [
+      "Go",
+      "TypeScript",
+      "developer tooling"
+    ],
+    "level": "senior",
+    "source_hash": "3198e519"
+  },
+  "ashby-Sierra-2fdb200f-c5cf-420c-9997-5e5cea6e1e20": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain the simulation platform for testing AI agents",
+    "skills": [
+      "Go",
+      "Typescript",
+      "developer tooling"
+    ],
+    "level": "senior",
+    "source_hash": "e571e2d9"
+  },
+  "ashby-Sierra-6207b02d-d334-4000-b84e-2af779171838": {
+    "is_engineering": true,
+    "job_summary": "Design and build production-grade AI agents for enterprise clients",
+    "skills": [],
+    "level": "senior",
+    "source_hash": "b0c23905"
+  },
+  "ashby-Sierra-d4a8ec61-f97d-4010-9505-0fc2d8b00167": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "3335654d"
+  },
+  "ashby-Sierra-b89816c1-80b2-449b-b69e-2c261b8e9e23": {
+    "is_engineering": true,
+    "job_summary": "Build and ship highly performant, reliable AI agents for production environments",
+    "skills": [],
+    "level": null,
+    "source_hash": "3092d515"
+  },
+  "ashby-Sierra-9dc1651d-43e9-4970-a757-a5223cef1c4d": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "source_hash": "6907186e"
+  },
+  "ashby-Sierra-1045b1db-228b-40df-97d8-a8f9371d35bd": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c000c517"
+  },
+  "ashby-Sierra-034c2c56-357f-4ed2-9da7-f4d36a999385": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "fcd8de1d"
+  },
+  "ashby-Sierra-edf44ab4-538b-4e65-b93c-392c950b9fe6": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "source_hash": "d84d88f2"
+  },
+  "ashby-Sierra-2e07f536-bbaa-4cc0-957a-774ddf99de64": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "source_hash": "4e238f6c"
+  },
+  "ashby-Sierra-ce463311-0c6c-43d9-ab79-dd751743104f": {
+    "is_engineering": true,
+    "job_summary": "Design and deliver production-grade AI agents that drive revenue and scale across industries",
+    "skills": [],
+    "level": null,
+    "source_hash": "ebdf4cb7"
+  },
+  "ashby-Sierra-fe103c28-bc7e-433e-ad82-90a1655cba32": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "d5b3320a"
+  },
+  "ashby-Sierra-0e73be8d-e05f-4c47-aa74-416b2984334c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "7309a25e"
+  },
+  "ashby-Sierra-5ed4bbfa-1c27-4242-be7f-b8dc4ce8c25f": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain the data analysis system and Explorer tool",
+    "skills": [
+      "Go",
+      "TypeScript"
+    ],
+    "level": "senior",
+    "source_hash": "2f58b393"
+  },
+  "ashby-Sierra-8f9d2381-aa28-4ad8-bdbd-8b6a7585b56c": {
+    "is_engineering": true,
+    "job_summary": "Build and ship highly performant, reliable AI agents for production environments",
+    "skills": [],
+    "level": null,
+    "source_hash": "9b763c02"
+  },
+  "ashby-Sierra-f1d6b8d6-570a-4d19-8cf5-8145fc93c1ae": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "40a29c2e"
+  },
+  "ashby-Sierra-8646493c-93a6-482e-a810-4a0aa6e3438f": {
+    "is_engineering": true,
+    "job_summary": "Build and ship highly performant AI agents for enterprise clients",
+    "skills": [],
+    "level": null,
+    "source_hash": "64a415a8"
+  },
+  "ashby-Sierra-44120ba5-4cf7-48a1-86af-7981c41c179e": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "8dd39a44"
+  },
+  "ashby-Sierra-a9e0b5c2-3b06-4dba-94eb-ca8fb057d70c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "source_hash": "0560baca"
+  },
+  "ashby-Sierra-a0b9444b-2354-4db3-8fe8-87892e2e282e": {
+    "is_engineering": true,
+    "job_summary": "Own and evolve the mobile Experience SDKs for iOS and Android.",
+    "skills": [
+      "iOS",
+      "Android",
+      "OS-level integrations",
+      "SDK development",
+      "native mobile frameworks"
+    ],
+    "level": "senior",
+    "source_hash": "d9773a63"
+  },
+  "ashby-Sierra-f673561e-aece-4df9-ae46-55779dc6a9d8": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "2d08babf"
+  },
+  "ashby-Sierra-08d96098-7213-44af-98da-f62366189f3b": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "67cc3e41"
+  },
+  "ashby-Sierra-9a630c65-af8c-461b-8fd4-b52ccb431f6f": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "e35c457e"
+  },
+  "ashby-Sierra-201c6046-acb5-4fd4-a685-e993f34ec0d1": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain security systems for Sierra\u2019s platform, focusing on privacy, identity, and data protection.",
+    "skills": [
+      "Python",
+      "Go",
+      "TypeScript",
+      "API design",
+      "authentication frameworks"
+    ],
+    "level": null,
+    "source_hash": "16efcc67"
+  },
+  "ashby-Sierra-39e15cc4-a16e-4ddb-b609-a345e2dd67c8": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "source_hash": "9e1d9af2"
+  },
+  "ashby-Sierra-876920df-7c3a-4e20-a9fe-52df474e6c47": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "source_hash": "63e5e2df"
+  },
+  "ashby-Sierra-1a0a0334-41f8-4c15-9ed8-615336855e5e": {
+    "is_engineering": true,
+    "job_summary": "Own the Agent Development Life Cycle (ADLC) and shape the future of Sierra\u2019s AI agent platform",
+    "skills": [],
+    "level": "senior",
+    "source_hash": "d3d1a2ba"
+  },
+  "ashby-Sierra-a4376f1f-10bd-4804-899e-4b98b8245198": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "source_hash": "38db56d9"
+  },
+  "ashby-Sierra-8d30e19d-73fd-4ebc-9cb2-83fc25f6a76e": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "source_hash": "29248650"
+  },
+  "ashby-Sierra-2da4e2ef-2cf3-4df5-9dcd-972bc2a0fb1c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "source_hash": "e10ac4ba"
+  },
+  "ashby-Sierra-1c991675-099f-49dd-9b9b-bd3c9111e65c": {
+    "is_engineering": true,
+    "job_summary": "Design and implement Go-to-Market software for marketing, sales, and agent development teams",
+    "skills": [
+      "Salesforce",
+      "SQL",
+      "ETL platforms",
+      "APIs",
+      "Go-to-Market tools"
+    ],
+    "level": "senior",
+    "source_hash": "af4957c7"
+  },
+  "ashby-Sierra-fc6eaada-479c-4ff6-be79-7e267b9ed2b4": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain the enterprise identity and access management systems for Sierra\u2019s platform.",
+    "skills": [],
+    "level": "senior",
+    "source_hash": "358a6541"
+  },
+  "ashby-Sierra-409c7bae-fdfc-4d36-a427-297683063d43": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "source_hash": "6f6b349d"
+  },
+  "ashby-Sierra-06453dd1-a29f-4aea-bb06-2d49862860e8": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "source_hash": "7ca8d9bd"
+  },
+  "ashby-Sierra-23efd6e0-a64d-4421-b684-bbd44e5c752e": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "source_hash": "127a3567"
+  },
+  "ashby-Sierra-10d2e2f1-6657-40c9-b6fb-6999c76df6cf": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "dc429c1b"
+  },
+  "ashby-Sierra-1a0e307f-7f02-4971-820c-a244ad909617": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "beada13b"
+  },
+  "ashby-Sierra-757f6d53-8849-46b5-b23e-184753c05e62": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "b129a201"
+  },
+  "ashby-Sierra-687a56db-9f2a-42f9-94a0-fa06730c1e10": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "source_hash": "bfb60fa3"
+  },
+  "ashby-Sierra-c6d2a0ee-2401-4751-bafb-e1468876e568": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "source_hash": "46efdb94"
+  },
+  "ashby-Sierra-e296cc07-99ca-4ec0-a826-8bdcd168fa15": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "547e19e8"
+  },
+  "ashby-Sierra-43765060-50c1-4574-8134-428facdb388b": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "source_hash": "afd77c1e"
+  },
+  "ashby-Sierra-2a76bb97-2719-413c-94ad-775553e63abd": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "132a8b2b"
+  },
+  "ashby-Sierra-ebe951fb-8e8d-4bff-a499-e19010018f3b": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "b2a01dfc"
+  },
+  "ashby-Sierra-eb3ee157-3d2a-412a-88a2-e2cfc5647a66": {
+    "is_engineering": true,
+    "job_summary": "Build and deploy AI agents for healthcare applications",
+    "skills": [],
+    "level": null,
+    "source_hash": "319e68e4"
+  },
+  "ashby-Sierra-631848ec-1a74-4067-8b9f-cd04a71aab6d": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain production-grade AI agents for enterprise and startup clients",
+    "skills": [
+      "AI agents",
+      "production systems",
+      "scalable infrastructure"
+    ],
+    "level": "senior",
+    "source_hash": "7ad99f4f"
+  },
+  "ashby-Sierra-d3e957bc-b1d8-4006-be41-064d8fe4097f": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "source_hash": "18b7d7da"
+  },
+  "ashby-Sierra-21a4df49-1b95-4fe9-b375-af6cf69c0812": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "source_hash": "962207f5"
+  },
+  "ashby-Sierra-85e1d0f9-e0d5-4a82-9b30-fa4372e32872": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "887679ae"
+  },
+  "ashby-Sierra-65eb2c63-c936-4e8e-87e7-ea080dcdca73": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "ecad4396"
+  },
+  "ashby-Sierra-569ba29b-de35-4bce-a16c-e27cb9b683ea": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "f4034d50"
+  },
+  "ashby-Sierra-2bba25d3-f5c1-4d84-b3fb-846b40597ff5": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "source_hash": "668bd288"
+  },
+  "ashby-Sierra-a696c4aa-9477-4d67-8f58-cc0d466a49b4": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "b3ae1ef4"
+  },
+  "ashby-Sierra-c6378c64-afc9-4751-a79b-a888fe6ceb70": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain the support function using Agent OS and AI tools",
+    "skills": [
+      "Agent OS",
+      "Codex/Claude",
+      "internal tooling"
+    ],
+    "level": null,
+    "source_hash": "44faabcc"
+  },
+  "ashby-Sierra-39355227-d7a2-4066-b930-2bf2eeebc20c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "source_hash": "abfbc912"
+  },
+  "ashby-Sierra-c74d600c-235c-4d42-8546-b178b7adefc2": {
+    "is_engineering": true,
+    "job_summary": "Develop and deploy AI agents for Sierra's customers",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Go",
+      "RAG pipelines",
+      "prompt engineering"
+    ],
+    "level": "intern",
+    "source_hash": "51d70d5a"
+  },
+  "ashby-Sierra-2c5520b7-5914-480c-8706-d800fbe42935": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "source_hash": "774f29fd"
+  },
+  "ashby-Sierra-8e477331-3525-4e87-b311-e500f0fa61e9": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "source_hash": "16020a5c"
+  },
+  "ashby-Sierra-a84c4ee1-1534-4bfa-960b-25f104a2bde6": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "source_hash": "b7fa895c"
+  },
+  "ashby-Sierra-99e82c10-977f-4b42-a737-2d9812ce614d": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "455e3966"
+  },
+  "ashby-Sierra-0c66e8ed-1c18-4b64-ad27-a522a866b6e1": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "03f549ec"
+  },
+  "ashby-Sierra-5aaa2eeb-92bc-4b0a-901e-8e091eff819e": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "be2e9309"
+  },
+  "ashby-Sierra-38262b5f-65ec-4563-922f-ea3d3d8f78b8": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "source_hash": "ff1bb9e1"
+  },
+  "ashby-Sierra-22ba107d-de01-4aa3-98fc-838cccad760c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "57066fe7"
+  },
+  "ashby-Sierra-787c1efd-2327-46e7-9335-59a20ad4be18": {
+    "is_engineering": true,
+    "job_summary": "Build and ship production-grade AI agents for enterprise and startup clients.",
+    "skills": [],
+    "level": null,
+    "source_hash": "8a5b1aaa"
+  },
+  "ashby-Sierra-b8a89b9a-70a1-4e47-874c-41542d1bc60a": {
+    "is_engineering": true,
+    "job_summary": "Build and deploy AI agents for enterprise clients",
+    "skills": [],
+    "level": null,
+    "source_hash": "c9371a28"
+  },
+  "ashby-Sierra-1162dcd2-b181-49d5-9316-342cd68acbed": {
+    "is_engineering": true,
+    "job_summary": "Build and ship highly performant AI agents for production environments across industries.",
+    "skills": [],
+    "level": null,
+    "source_hash": "15f2d070"
+  },
+  "ashby-Sierra-a4541730-ae7f-4771-b3e9-7f9da6cc5d23": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain production-grade AI agents for enterprise and startup clients",
+    "skills": [],
+    "level": null,
+    "source_hash": "a2398bdc"
+  },
+  "ashby-Sierra-d9c0aa93-e35d-4752-9cef-4c39dcad5365": {
+    "is_engineering": true,
+    "job_summary": "Own and optimize customer deployment infrastructure across enterprise environments.",
+    "skills": [
+      "infrastructure provisioning",
+      "automation tooling",
+      "deployment runbooks",
+      "VPC configuration",
+      "networking"
+    ],
+    "level": "senior",
+    "source_hash": "f4f3d4a4"
+  },
+  "ashby-Sierra-5ea8d56f-09b5-4113-9929-a3ef42d010ef": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "31b0fe6a"
+  },
+  "ashby-Sierra-1e052261-0c89-4ccb-abfa-3820a1596a6e": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "914fa28e"
+  },
+  "ashby-Sierra-9ec424f1-9013-41d1-bc4d-d36ddb9c98c1": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain the corporate security enforcement systems",
+    "skills": [],
+    "level": "senior",
+    "source_hash": "7cf52605"
+  },
+  "ashby-Sierra-8023c5e9-5622-4f50-b3ba-0690a60e4cb2": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "source_hash": "4d6a87f8"
+  },
+  "ashby-speak-9fe4ab05-3871-4f3f-bed2-3b97bf9b077c": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "source_hash": "4d74b522"
+  },
+  "ashby-speak-e91eb4bc-93bf-4e3a-b7c9-4a2f506df43f": {
+    "is_engineering": true,
+    "job_summary": "Build and deploy LLM-powered language learning products across the full stack",
+    "skills": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "Python",
+      "vector databases"
+    ],
+    "level": "senior",
+    "source_hash": "14fa9d2a"
+  },
+  "ashby-speak-e78edff4-5135-4c68-932d-e449ee460ea3": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain data infrastructure for training/evaluation datasets and labeling pipelines",
+    "skills": [
+      "Python",
+      "PyTorch"
+    ],
+    "level": "senior",
+    "source_hash": "cc49d4a6"
+  },
+  "ashby-speak-29bdc4b4-de67-4463-a288-dd78db99bda4": {
+    "is_engineering": true,
+    "job_summary": "Build and maintain scalable backend systems for AI-powered language learning products",
+    "skills": [],
+    "level": "senior",
+    "source_hash": "6a499a4c"
+  },
+  "ashby-speak-71c1242a-721f-42ba-886f-57656def633a": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "057cb341"
+  },
+  "ashby-speak-ec0e325c-53fc-46f0-b75a-dd0a64d77a06": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "9e2ee60f"
+  },
+  "ashby-speak-4debae4e-a4d1-43e1-86e6-dfac0f11f780": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "7611e377"
+  },
+  "ashby-speak-ad176425-d814-4723-a7de-4cbfc13158f1": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "887dd71d"
+  },
+  "ashby-speak-d8b45399-e3bc-42d9-8dfe-9b56cc1ba3cd": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "source_hash": "8ff4646f"
+  },
+  "ashby-speak-5905c113-489f-4358-8093-f1972908e5e2": {
+    "is_engineering": true,
+    "job_summary": "Own the reliability of Speak\u2019s infrastructure across GCP, Kubernetes, and Node.js/Postgres stack",
+    "skills": [
+      "Kubernetes",
+      "GCP",
+      "Node.js",
+      "Postgres",
+      "Redis"
+    ],
+    "level": "staff",
+    "source_hash": "35ff8b67"
+  },
+  "ashby-speak-38332afc-aaf8-423d-8848-f5aa5eff3c61": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "source_hash": "e8c2038b"
+  },
+  "ashby-speak-93a345f7-0805-438b-920b-2a659c2d97f3": {
+    "is_engineering": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "source_hash": "81b36414"
+  },
+  "lever-CesiumAstro-e32be311-5bc5-4ea5-b787-b563e377f485": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6cbcb6ee"
+  },
+  "ashby-writer-4a21fb4a-62d1-4a29-8056-cfda611ab57e": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b695699a"
+  },
+  "greenhouse-monzo-7343996": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build and evolve Monzo's native Android banking app serving 11+ million users. Balance polished user experiences with well-tested, resilient code while working in small, autonomous product squads across personal banking, customer support tools, and mobile platform infrastructure.",
+    "skills": [
+      "Android",
+      "Kotlin",
+      "Java",
+      "Mobile UI/UX",
+      "REST APIs"
+    ],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "75d3d51e"
+  },
+  "ashby-ramp-2e47b59f-f68f-4266-80ff-eb92c8116f1a": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5274d084"
+  },
+  "greenhouse-harnessinc-4919402007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a8891701"
+  },
+  "greenhouse-reddit-7746311": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ca48ca8f"
+  },
+  "lever-spreedly-2f711486-abc0-431c-9fb4-404a753853ea": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ce09d80b"
+  },
+  "greenhouse-speechify-5974411004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and develop robust backend APIs and services for a text-to-speech platform serving 50M+ users, including payment systems, subscriptions, authentication, and consumption tracking. Scale high-availability applications across GCP infrastructure while collaborating with cross-functional teams on B2B solutions and enterprise integrations.",
+    "skills": [
+      "TypeScript",
+      "Node.js",
+      "GCP",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "PostgreSQL",
+      "Redis"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e6dc2ade"
+  },
+  "ashby-suno-8a5c628e-0b44-492d-8ed4-39efae717b18": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build Suno's Android app for music creation, exploring, and listening. Create foundational abstractions and libraries for performant, highly interactive media experiences with audio streaming and real-time interaction at scale.",
+    "skills": [
+      "Kotlin",
+      "Android",
+      "ExoPlayer",
+      "Media3",
+      "REST APIs",
+      "Material Design"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c293bfd6"
+  },
+  "greenhouse-intercom-7271914": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and productize machine learning models and systems for Intercom's AI customer service platform, from research through offline evaluation to production deployment. Lead the ML team in hiring, mentorship, and raising technical standards while partnering with Product and Design to identify high-impact ML applications.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "Transformer Neural Networks",
+      "Machine Learning",
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Data Analysis",
+      "MSc in ML or Related Field"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "cee8ecaa"
+  },
+  "greenhouse-speechify-5976309004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and own major features for Speechify's Android app, the most-used text-to-speech app on the Play Store, while shaping the Android team's technical direction. Drive reliability, performance, and user experience across millions of users.",
+    "skills": [
+      "Kotlin",
+      "Kotlin Coroutines",
+      "Kotlin Flow",
+      "Dagger 2",
+      "MVVM",
+      "Android",
+      "Jetpack Navigation"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b10da818"
+  },
+  "greenhouse-speechify-5975019004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build native Windows desktop applications using Windows App SDK and WinUI, with emphasis on accessibility APIs, performance optimization, and cross-version Windows compatibility. The role requires deep expertise in managed-to-native code interop and shipping production-quality, accessible software at scale.",
+    "skills": [
+      "C#",
+      "XAML",
+      "Windows App SDK",
+      "WinUI",
+      "C++",
+      "Win32/WinRT/COM",
+      "Microsoft UI Automation",
+      ".NET"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "157d2597"
+  },
+  "greenhouse-speechify-5981146004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and maintain the iOS app for Speechify's text-to-speech platform, shipping production code and leading key engineering decisions for a product with millions of users. Drive product architecture decisions and participate in roadmap planning for a #18 productivity app on the App Store.",
+    "skills": [
+      "Swift",
+      "SwiftUI",
+      "iOS Development"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "339e3585"
+  },
+  "greenhouse-mercury-5922062004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "1f408928"
+  },
+  "greenhouse-scoutmotors-5058179007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e56946a1"
+  },
+  "greenhouse-speechify-5981027004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and ship production code for the Speechify iOS app, maintaining and enhancing its complex architecture to support millions of users. Lead engineering and product decisions on a high-growth consumer product recognized by Apple.",
+    "skills": [
+      "Swift",
+      "SwiftUI"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "020f6d0c"
+  },
+  "greenhouse-speechify-5974664004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and maintain foundational services and SDKs that power Speechify's cross-platform product experience, optimizing for speed and user experience. Design efficient abstractions and ship cloud functions, backend services, and jobs serving millions of users with accessibility-focused audio products.",
+    "skills": [
+      "Kotlin",
+      "Kotlin Multiplatform",
+      "Java",
+      "GCP",
+      "Cloud Functions",
+      "Backend Services"
+    ],
+    "level": "senior",
+    "comp": "$140k-$200k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "abcbfde0"
+  },
+  "ashby-ramp-b599c5a9-9c9d-4826-b67a-ca5e012faaad": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "db042938"
+  },
+  "greenhouse-speechify-5975224004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and operate cloud-based data ingestion pipelines on GCP that collect and process petabyte-scale audio datasets to power model training. Integrate infrastructure, engineering, and research to optimize the cost/throughput/quality frontier for next-generation AI models.",
+    "skills": [
+      "Python",
+      "Bash",
+      "Docker",
+      "Terraform",
+      "GCP",
+      "Web Crawlers",
+      "Large-Scale Data Processing",
+      "Infrastructure-as-Code"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "eddadd41"
+  },
+  "greenhouse-singlestore-7790334": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and implement cloud managed service capabilities for a distributed database, handling networking, control plane, and scaling challenges on Kubernetes. Work at the intersection of high-performance distributed systems, Kubernetes orchestration, and multi-cloud infrastructure.",
+    "skills": [
+      "Go",
+      "Kubernetes",
+      "AWS",
+      "Azure",
+      "GCP",
+      "Distributed Systems",
+      "SaaS"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "80596b17"
+  },
+  "ashby-demandbase-544aaca7-cef4-4e82-9be1-7207a056b296": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and build self-service database platforms and infrastructure-as-code solutions that enable teams to provision, operate, and scale databases across AWS environments. Lead modernization of database systems in a global organization while establishing architectural standards for microservices and analytical workloads at scale.",
+    "skills": [
+      "Terraform",
+      "Kubernetes",
+      "PostgreSQL",
+      "MySQL",
+      "DynamoDB",
+      "AWS",
+      "GitLab CI/CD",
+      "Prometheus"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "baac10d2"
+  },
+  "greenhouse-speechify-5975007004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead the design, architecture, and development of native Windows desktop applications using Windows App SDK, WinUI, C#, and C++. Drive accessibility integration and maintain production-quality standards across Windows 10/11+ platforms.",
+    "skills": [
+      "Windows App SDK",
+      "WinUI",
+      "C#",
+      "XAML",
+      "C++",
+      "Win32/WinRT/COM",
+      "Microsoft UI Automation",
+      ".NET"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d5c698e0"
+  },
+  "greenhouse-speechify-5975587004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and maintain high-quality features for Speechify's Android app, the most-used text-to-speech app on Google Play Store. Lead the Android team's technical direction while owning major features end-to-end and improving reliability metrics.",
+    "skills": [
+      "Kotlin",
+      "Kotlin Coroutines",
+      "Kotlin Flow",
+      "Dagger 2",
+      "MVVM",
+      "Clean Architecture",
+      "Android",
+      "JUnit"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "23a46c73"
+  },
+  "greenhouse-speechify-5975937004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and ship production code for Speechify's web products, including the React-based web app and Chrome extension serving millions of users. Lead technical decisions for the web core platform while collaborating closely with product and design teams to shape roadmap and deliver high-impact features.",
+    "skills": [
+      "JavaScript",
+      "React",
+      "Redux",
+      "TypeScript",
+      "Firebase"
+    ],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "cfee4dcb"
+  },
+  "greenhouse-planetlabs-7603831": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "883f9063"
+  },
+  "lever-mistral-eb6a8a44-19f6-4b84-bce8-8a818542d2c4": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "02759984"
+  },
+  "greenhouse-stripe-7524533": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "633454ae"
+  },
+  "greenhouse-planetlabs-7856568": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d904dc9b"
+  },
+  "ashby-Supabase-b7206c22-979f-444a-809b-e70d9ee23c7f": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Own the Go codebase and architecture of Supabase's Terraform provider, shipping reliable infrastructure-as-code tooling for developers at scale. Drive schema design, resource lifecycle correctness, and migration paths while partnering with product leadership on roadmap and technical strategy.",
+    "skills": [
+      "Go",
+      "Terraform",
+      "PostgreSQL",
+      "TypeScript",
+      "CI/CD",
+      "Distributed Systems",
+      "Infrastructure as Code"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "12e0bad1"
+  },
+  "greenhouse-axiom-8547085002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9cefebbd"
+  },
+  "ashby-openai-d9696b77-5b11-49c5-8d0b-b1826bb6115c": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4af06e3c"
+  },
+  "ashby-Supabase-3ab0b926-c9b5-4197-aff2-88d5bf009e13": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and evolve Supabase Edge Runtime, a Rust-based host for distributed TypeScript functions that executes code globally at the edge. Optimize for latency and reliability at scale while integrating tightly with Postgres, Auth, Storage, and Realtime services.",
+    "skills": [
+      "Rust",
+      "TypeScript",
+      "Deno",
+      "V8 Isolates",
+      "Kubernetes",
+      "AWS",
+      "PostgreSQL",
+      "OpenTelemetry"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "182795d0"
+  },
+  "greenhouse-stripe-7546284": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bd167426"
+  },
+  "greenhouse-astranis-4681219006": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Develop automated test systems and software to validate custom spacecraft electronics across environmental conditions. Work on flight-critical power and communications hardware for satellites in orbit.",
+    "skills": [
+      "Python",
+      "Altium Designer",
+      "Power Electronics",
+      "Environmental Testing (Thermal/Vibration/TVAC)",
+      "Oscilloscope/Test Equipment",
+      "PCBA Design",
+      "Embedded Systems",
+      "Electrical Harness Design"
+    ],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e548dbbe"
+  },
+  "ashby-cohere-64c12340-0f1d-4320-9b5a-9bcb44150a1d": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "80405200"
+  },
+  "greenhouse-astranis-4681218006": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build automated hardware test systems and PCBAs to validate flight electronics for satellite systems. Write Python control software for bench equipment and test infrastructure supporting qualification of avionics hardware in space environments.",
+    "skills": [
+      "Python",
+      "PCB design",
+      "Altium Designer",
+      "Oscilloscope",
+      "Test automation",
+      "Embedded systems debugging",
+      "Signal integrity",
+      "Electrical test equipment"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "f798447c"
+  },
+  "greenhouse-stripe-7903814": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d5a1415a"
+  },
+  "greenhouse-andurilindustries-5131037007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3d850356"
+  },
+  "ashby-openai-14994645-e453-478c-be65-511dc156a961": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e258ec3b"
+  },
+  "greenhouse-airbnb-7535063": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5db9d043"
+  },
+  "ashby-openai-9f17b453-8ac8-418b-aa55-763ad5c7038d": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d2ef52b4"
+  },
+  "greenhouse-waymo-7905678": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and implement Waymo's core trip platform backend services, including partner-facing APIs for ride-hailing and delivery use cases across 1st and 3rd party platforms. Build low-latency, large-scale distributed systems in an autonomous vehicle domain requiring deep expertise in Google infrastructure technologies.",
+    "skills": [
+      "C++",
+      "Backend API Development",
+      "Distributed Systems",
+      "Google Cloud Platform (Borg, Spanner, Flume)",
+      "Low-Latency Systems",
+      "Large-Scale Systems Design"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4da59c58"
+  },
+  "greenhouse-xai-5136112007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4fb1affc"
+  },
+  "ashby-d-matrix-98660912-0314-4227-9b95-d48a39c431aa": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "05ad13d3"
+  },
+  "greenhouse-stripe-7919325": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "64dafe03"
+  },
+  "greenhouse-andurilindustries-5136534007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and implement test automation frameworks, custom scripts, and validation strategies for advanced networking devices and systems. Requires active security clearance and will involve Hardware-In-The-Loop testing of embedded networking systems in a defense/intelligence community context.",
+    "skills": [
+      "Python",
+      "Wireshark",
+      "Hardware-In-The-Loop Testing",
+      "Embedded Systems",
+      "Network Protocols",
+      "Security Clearance"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6cb06eac"
+  },
+  "greenhouse-andurilindustries-5038708007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and operate developer productivity and DevSecOps infrastructure serving software engineering teams across sovereign UK and Australian defense programs. Requires UK security clearance and experience in highly regulated defense or government environments.",
+    "skills": [
+      "Terraform",
+      "AWS",
+      "Infrastructure as Code",
+      "DevSecOps",
+      "Linux",
+      "Network Security",
+      "Kubernetes",
+      "Security Clearance (SC level)"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "00632c04"
+  },
+  "greenhouse-appliedintuition-4091510005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "43ec8f6f"
+  },
+  "greenhouse-riotgames-7892751": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and operate scalable microservices and core backend services for League of Legends, ensuring high quality of service and reliability at massive scale (100M+ monthly players). Work with China-specific requirements and Riot's standard tech stack across multiple languages and cloud platforms.",
+    "skills": [
+      "C++",
+      "Java",
+      "Go",
+      "C#",
+      "AWS",
+      "Azure",
+      "Tencent Cloud",
+      "Microservices"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9177ada0"
+  },
+  "greenhouse-waymo-7896584": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "734482e0"
+  },
+  "greenhouse-vardaspace-7732699003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$100k-$140k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "7a84c4c0"
+  },
+  "greenhouse-wayve-8547464002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c833ae11"
+  },
+  "greenhouse-found-4694726005": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "efbee229"
+  },
+  "greenhouse-found-4694720005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "abbed292"
+  },
+  "greenhouse-isaraerospace-4860238101": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a522d985"
+  },
+  "greenhouse-riotgames-7915320": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d6f069d6"
+  },
+  "greenhouse-gitlab-8520248002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ad4bc475"
+  },
+  "greenhouse-grafanalabs-5994761004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build intuitive, guided exploration UIs and workflows for the Grafana Drilldown plugin that enable users to navigate telemetry data without writing queries. Optimize for responsiveness and performance in a system serving millions of users across observability use cases.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Frontend Performance Optimization",
+      "Grafana Plugin Development",
+      "User Experience Design",
+      "Query Building",
+      "Observability",
+      "JavaScript"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "48340895"
+  },
+  "greenhouse-grafanalabs-5994757004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build intuitive frontend workflows for the Drilldown observability plugin that enable users to explore telemetry data through point-and-click interactions without writing queries. Performance and responsiveness are non-negotiable requirements for this user-facing system integrated with the Grafana ecosystem.",
+    "skills": [
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "Grafana",
+      "observability",
+      "UI/UX development",
+      "plugin architecture",
+      "performance optimization"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "46aa03e2"
+  },
+  "greenhouse-grafanalabs-5994759004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build intuitive frontend interfaces and guided workflows for the Drilldown observability plugin, enabling users to explore telemetry data through point-and-click interactions. Performance is critical \u2014 the plugin must feel responsive and interactive across Grafana's ecosystem serving millions of users.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Frontend Performance Optimization",
+      "Grafana",
+      "Observability/Telemetry",
+      "Plugin Architecture"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "35932bf0"
+  },
+  "greenhouse-reddit-7921134": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bb358021"
+  },
+  "greenhouse-cockroachlabs-7422578": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and build specialized indexing systems for CockroachDB, including vector, full-text, and geospatial indexes to support AI-native and search-driven applications. Work on distributed systems challenges integrating high-performance indexing into a production SQL query engine at scale.",
+    "skills": [
+      "Go",
+      "C++",
+      "Rust",
+      "Vector Indexing",
+      "Query Execution",
+      "Distributed Systems",
+      "SQL",
+      "PostgreSQL"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f2b1ecd3"
+  },
+  "greenhouse-sonyinteractiveentertainmentglobal-5994701004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Operate and evolve a global, high-capacity backbone network connecting PlayStation data centers, studios, and cloud platforms through incident response, troubleshooting, and automation. Work on production infrastructure at scale across distributed regions in a 24/7 follow-the-sun operational model.",
+    "skills": [
+      "BGP",
+      "OSPF",
+      "IS-IS",
+      "Python",
+      "Git",
+      "Linux",
+      "sFlow",
+      "IPFIX"
+    ],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1f9ed72e"
+  },
+  "greenhouse-scoutmotors-5098959007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f1c70be8"
+  },
+  "greenhouse-momentus-5980206004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$75k-$90k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "31e99f0f"
+  },
+  "ashby-Mapbox-36355d3d-4b6c-4c18-b692-4a522e348328": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and maintain the Android Maps SDK, designing expressive APIs and implementing features that integrate multiple Mapbox SDKs (Navigation, Maps, Search) across diverse devices from phones to embedded boards. Lead architectural direction, mentor teams, and optimize performance for a platform used by millions of developers building navigation and AR experiences.",
+    "skills": [
+      "Kotlin",
+      "Java",
+      "Android",
+      "SDKs",
+      "APIs",
+      "Mobile Development",
+      "Performance Optimization",
+      "Cross-platform Development"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8238080b"
+  },
+  "lever-waabi-be8ea356-b380-4274-bbb2-ce273b68625d": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "dc8fdfa0"
+  },
+  "greenhouse-monzo-7912647": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Lead a security engineering organization building secure-by-design platform primitives (compute, storage, networking, identity) and infrastructure that embed security properties at the architectural level. Direct high-performing security engineers and engineering leaders across a fintech platform handling sensitive financial data at scale, protecting against sophisticated adversaries.",
+    "skills": [
+      "Secure by Design",
+      "Platform Architecture",
+      "Distributed Systems",
+      "Cloud Infrastructure",
+      "Identity Systems",
+      "Threat Modeling",
+      "Security Tools",
+      "Kubernetes"
+    ],
+    "level": "manager",
+    "comp": "$170k-$200k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "989d1c55"
+  },
+  "ashby-Mapbox-4002a267-2f04-4062-824d-bd73c03c2247": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and maintain the Android Maps SDK, designing expressive APIs and implementing cross-platform features that power navigation and location experiences across mobile devices, wearables, and embedded systems. Lead large-scale architectural initiatives and mentor engineers on a team shipping SDKs used by millions of developers.",
+    "skills": [
+      "Kotlin",
+      "Java",
+      "Android",
+      "Maps SDK",
+      "Navigation SDK",
+      "Cross-platform Development",
+      "Performance Optimization",
+      "API Design"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f3b13caa"
+  },
+  "ashby-Mapbox-ed5ea787-aa68-4968-9c93-eb4d2bd5ac45": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build the Android Maps SDK \u2014 a public library powering mobile maps across Flutter, Android, iOS, and embedded devices. Design scalable APIs and cross-platform implementations that integrate Navigation, Maps, and Search SDKs for high-traffic consumer and enterprise applications.",
+    "skills": [
+      "Kotlin",
+      "Java",
+      "Android",
+      "SDK design",
+      "C++",
+      "Cross-platform development",
+      "Performance optimization",
+      "API design"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2c9d392b"
+  },
+  "greenhouse-natera-5993187004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "31744010"
+  },
+  "greenhouse-riotgames-7915309": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c24df8f4"
+  },
+  "greenhouse-riotgames-7875327": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and maintain tools, pipelines, and systems for character asset development in League of Legends. Work at scale across multiple partner studios to develop processes and enforce data pipelines for live-service content delivery.",
+    "skills": [
+      "Python",
+      "3D tools (Maya/Blender)",
+      "Character pipeline development",
+      "VFX",
+      "Rendering",
+      "Substance",
+      "ZBrush",
+      "DCC applications"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a30fea7c"
+  },
+  "greenhouse-riotgames-7902515": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "677f6916"
+  },
+  "ashby-elevenlabs-15eb4b53-fdd8-49e6-8c7c-0951f6e40b99": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ac258b85"
+  },
+  "greenhouse-clickhouse-5993847004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and evolve a high-performance internal data warehouse platform using ClickHouse, dbt, and Airflow, delivering optimized data pipelines and models to support company-wide analytics and decision-making. Optimize and maintain data infrastructure processing 2.5 PB of data with sub-hour latency requirements across 30+ external data sources.",
+    "skills": [
+      "Python",
+      "Airflow",
+      "dbt",
+      "ClickHouse",
+      "SQL",
+      "AWS",
+      "CI/CD",
+      "GitHub Actions"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ecd834b5"
+  },
+  "greenhouse-grafanalabs-5994758004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build intuitive, guided UI workflows for the Drilldown plugin that help users explore complex telemetry data through point-and-click interactions without writing queries. Optimize for responsive performance while integrating seamlessly across the Grafana observability ecosystem serving 20M+ users.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "Plugin Architecture",
+      "Frontend Performance",
+      "Grafana",
+      "Telemetry/Observability Platforms",
+      "User Experience Design"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "63d05035"
+  },
+  "greenhouse-scopely-5182672008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "665fd432"
+  },
+  "greenhouse-grafanalabs-5994760004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build intuitive frontend workflows and plugins for the Drilldown observability product that enable users to explore telemetry data through guided, queryless interfaces. Optimize for responsiveness and performance while integrating across the Grafana ecosystem (Mimir, Loki, Tempo).",
+    "skills": [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "Grafana",
+      "Plugin Development",
+      "Frontend Performance Optimization",
+      "User Interface Design"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fd36cea5"
+  },
+  "ashby-cognition-99ac30db-26d9-4cae-8b50-5a509dfb10a9": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9e7eba84"
+  },
+  "greenhouse-reddit-7917342": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a4a21a94"
+  },
+  "greenhouse-scopely-5165860008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f52750aa"
+  },
+  "greenhouse-cockroachlabs-7349702": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and build cloud platform infrastructure and cluster management systems for CockroachDB Cloud across multiple cloud providers. Operate mission-critical production services at global scale with complex distributed systems challenges.",
+    "skills": [
+      "Kubernetes",
+      "AWS",
+      "Azure",
+      "GCP",
+      "Go",
+      "Distributed Systems",
+      "Infrastructure Automation",
+      "Production Operations"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "54f64abb"
   }
 }

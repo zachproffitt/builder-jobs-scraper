@@ -3,22 +3,27 @@
 
 import hashlib
 import json
+import os
 import re
 import sys
 import threading
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 
-import ollama
-
 JOBS_FILE = Path(__file__).parent.parent / "data" / "jobs_raw.json"
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "jobs_classified.json"
-MODEL = "qwen3:8b"
-WORKERS = 2  # concurrent Ollama requests
+
+# Set LLM_BACKEND=ollama to use local Ollama instead of Claude API
+BACKEND = os.environ.get("LLM_BACKEND", "claude")
+
+CLAUDE_MODEL = "claude-haiku-4-5-20251001"
+OLLAMA_MODEL = "qwen3:8b"
+WORKERS = 5 if BACKEND == "claude" else 2
 SAVE_EVERY = 100
 
-PROMPT = """/no_think
+PROMPT = """\
 You are filtering a job board for software engineers — people who primarily write code.
 
 INCLUDE — person primarily writes code:
@@ -42,6 +47,7 @@ EXCLUDE — person is not primarily writing code:
 - Developer advocates and developer relations
 - Product managers and product designers
 - Hardware engineers (electrical, mechanical, PCB design, RF, optical, systems integration of physical components)
+- Electrical engineers working on subsystems, power, or manufacturing
 - Manufacturing, process, and production engineers
 - Any title containing "analyst" without also containing "engineer" — data analyst,
   business analyst, product analyst, operations analyst, marketing analyst, etc.
@@ -61,7 +67,7 @@ Company: {company}
 Description:
 {description}
 
-Answer both:
+Extract the following. Use judgment — if the description gives strong signals, use them even if indirect.
 
 1. BUILDER: yes / no / unclear
    yes = will primarily write code or build systems
@@ -69,40 +75,54 @@ Answer both:
    unclear = description doesn't make it possible to determine
 
 2. SUMMARY (only if BUILDER is yes): 1-2 sentences in imperative active voice starting with a verb.
-   E.g. "Build and maintain the data pipeline..." or "Own the compiler backend..."
-   Name the specific system, product, or infrastructure. No perks, no culture.
-   If too vague to summarize honestly, write: vague
+   Sentence 1: What you'll build — name the specific system, product, or infrastructure.
+   Sentence 2 (optional): Add only if it gives meaningful signal — key technical challenge, scale, unique domain (e.g. defense, climate), or access requirement (e.g. clearance, must be on-site). Do NOT restate years of experience or generic requirements. Skip if nothing meaningful to add.
+   No perks, no culture. If too vague to summarize honestly, write: vague
 
-3. SKILLS (only if BUILDER is yes): up to 5 specific technologies, languages, or tools mentioned in the description.
-   Comma-separated. Be specific — "PyTorch" not "ML", "Rust" not "systems programming", "JavaScript" not "JS",
-   "Unreal Engine" not "UE" or "UR", "PostgreSQL" not "databases".
-   Avoid generic terms like "backend", "frontend", "cloud", "APIs" — name the actual technology.
-   If none are clearly mentioned, write: n/a
+3. SKILLS (only if BUILDER is yes): up to 8 specific technologies, languages, tools, frameworks, or notable requirements.
+   - Extract regardless of phrasing: "experience with tools such as Python" → Python; "familiarity with Go preferred" → Go
+   - Include specific tech: PyTorch, Rust, PostgreSQL, Kubernetes, React, AWS, Terraform, CUDA, ROS2
+   - Include education if notable: "PhD Required", "PhD Preferred"
+   - Include clearance if required: "TS/SCI Clearance", "Security Clearance"
+   - Skip pure generics: "backend", "APIs", "the cloud" — but "AWS", "GCP", "Azure" are fine
+   - Domain terms only when specific: "Distributed Systems" alone is too vague; "Kafka", "Raft Consensus" are fine
+   - After listing, remove skills that are obvious for any software engineer ("Software Design", "Coding", "Problem Solving") or that are multiple subcategories of the same concept (e.g. if the role is in security, pick at most 2 specific security technologies — not "Security Architecture", "Threat Modeling", "Secure by Design", "Platform Security" all at once; if it's an ML role, pick specific frameworks not 5 types of learning).
+   - Prefer breadth: if skills cluster in one domain, pick the 1-2 most specific and use remaining slots for other aspects of the role.
+   - Use proper capitalization: official casing for tech names (Python, PyTorch, PostgreSQL, JavaScript, AWS, GCP), Title Case for other terms (Distributed Systems, Machine Learning, Computer Vision).
+   If none remain after filtering, write: n/a
 
-4. LEVEL: Seniority of this role. Use signals in this priority order:
-   a. Title keyword (most reliable):
-      "Intern"/"Co-op" → intern
-      "Junior"/"Associate"/"Entry" → junior
-      "Senior" → senior
-      "Staff" → staff
-      "Principal" → principal
-      "Manager"/"Director" → manager
-      No keyword → use years of experience from description
-   b. Years of experience in description:
-      0-1 → junior, 1-3 → mid, 3-6 → senior, 6-10 → staff, 10+ → principal
-   c. If title has a level keyword, use it even if description says fewer years.
-   d. If no signal at all, write: unclear
+4. LEVEL: Seniority of this role. Title keyword takes priority:
+   "Intern"/"Co-op" → intern
+   "Junior"/"Associate"/"Entry" → junior
+   "Senior" → senior
+   "Staff" → staff
+   "Principal" → principal
+   "Manager"/"Director" → manager
+   No title keyword → use years of experience from description:
+   0-2 → junior, 2-5 → mid, 5-10 → senior, 10+ → staff
+   If no signal at all → unclear
 
    Respond with exactly one of: intern / junior / mid / senior / staff / principal / manager / unclear
 
 5. CONTRACT: Is this a contract, temporary, or fixed-term position rather than permanent full-time employment?
    yes = contract, contractor, freelance, fixed-term, temporary, limited-term engagement
    no = permanent full-time employment (default if not stated)
-   Look for signals in the title (e.g. "CONTRACT", "Contractor") and description (e.g. "12-month contract",
-   "fixed-term", "temporary position"). Ignore uses of "contract" that refer to the domain or work content
-   (e.g. "smart contracts", "government contracts", "contract negotiation").
-
+   Ignore domain uses of "contract" (e.g. "smart contracts", "government contracts").
    Respond with exactly one of: yes / no
+
+6. HYBRID: Does this role require some in-office days while also allowing some remote work?
+   yes = explicitly mentions hybrid, flexible schedule, or "X days in office per week/month"
+   no = fully remote, fully on-site, or not mentioned
+   Respond with exactly one of: yes / no
+
+7. COMP: Base salary range stated in the posting.
+   Format as "$Xk-$Yk" (e.g. "$120k-$160k") or "$X-$Y" if stated in full.
+   If multiple ranges by location, use the overall min to overall max.
+   If only a single figure, use that. If not stated, write: n/a
+
+8. COMP_EXTRAS: Non-salary compensation worth calling out — equity or bonus only.
+   Use exactly "equity" for any equity/stock/RSU/options, and exactly "bonus" for any bonus type.
+   Do not include standard benefits (401k, health insurance, PTO). If none, write: n/a
 
 Respond in exactly this format:
 BUILDER: <yes/no/unclear>
@@ -110,7 +130,12 @@ SUMMARY: <summary or vague or n/a>
 SKILLS: <skill1, skill2, ... or n/a>
 LEVEL: <intern/junior/mid/senior/staff/principal/manager/unclear>
 CONTRACT: <yes/no>
+HYBRID: <yes/no>
+COMP: <$Xk-$Yk or n/a>
+COMP_EXTRAS: <extras or n/a>
 """
+
+OLLAMA_PROMPT = "/no_think\n" + PROMPT
 
 
 def content_hash(job: dict) -> str:
@@ -121,51 +146,92 @@ def content_hash(job: dict) -> str:
 VALID_LEVELS = {"intern", "junior", "mid", "senior", "staff", "principal", "manager"}
 
 
-def classify_with_llm(job: dict) -> tuple[bool | None, str | None, list[str], str | None, bool]:
-    description = job.get("raw_text", "").strip()[:3000]
-    prompt = PROMPT.format(
-        title=job["title"],
-        company=job["company"],
-        description=description,
-    )
-    response = ollama.chat(
-        model=MODEL,
-        messages=[{"role": "user", "content": prompt}],
-        options={"temperature": 0.1, "num_ctx": 4096},
-        keep_alive="10m",
-    )
-    text = response["message"]["content"].strip()
-
-    is_engineering = None
-    job_summary = None
-    skills = []
-    level = None
-    is_contract = False
+def parse_response(text: str) -> dict:
+    result = {
+        "is_engineering": None,
+        "is_contract": False,
+        "is_hybrid": False,
+        "job_summary": None,
+        "skills": [],
+        "level": None,
+        "comp": None,
+        "comp_extras": [],
+    }
 
     for line in text.splitlines():
         if line.startswith("BUILDER:"):
             val = line.removeprefix("BUILDER:").strip().lower()
             if val == "yes":
-                is_engineering = True
+                result["is_engineering"] = True
             elif val == "no":
-                is_engineering = False
+                result["is_engineering"] = False
         elif line.startswith("SUMMARY:"):
             val = line.removeprefix("SUMMARY:").strip()
             if val.lower() not in ("n/a", "vague", ""):
-                job_summary = val
+                result["job_summary"] = val
         elif line.startswith("SKILLS:"):
             val = line.removeprefix("SKILLS:").strip()
             if val.lower() != "n/a":
-                skills = [s.strip() for s in re.split(r",\s*(?![^(]*\))", val) if s.strip()]
+                result["skills"] = [s.strip() for s in re.split(r",\s*(?![^(]*\))", val) if s.strip()][:8]
         elif line.startswith("LEVEL:"):
             val = line.removeprefix("LEVEL:").strip().lower()
             if val in VALID_LEVELS:
-                level = val
+                result["level"] = val
         elif line.startswith("CONTRACT:"):
             val = line.removeprefix("CONTRACT:").strip().lower()
-            is_contract = val == "yes"
+            result["is_contract"] = val == "yes"
+        elif line.startswith("HYBRID:"):
+            val = line.removeprefix("HYBRID:").strip().lower()
+            result["is_hybrid"] = val == "yes"
+        elif line.startswith("COMP:"):
+            val = line.removeprefix("COMP:").strip()
+            if val.lower() != "n/a":
+                result["comp"] = val
+        elif line.startswith("COMP_EXTRAS:"):
+            val = line.removeprefix("COMP_EXTRAS:").strip()
+            if val.lower() != "n/a":
+                result["comp_extras"] = [s.strip() for s in val.split(",") if s.strip()]
 
-    return is_engineering, job_summary, skills, level, is_contract
+    return result
+
+
+def call_claude(prompt: str) -> str:
+    import anthropic
+    client = anthropic.Anthropic()
+    for attempt in range(3):
+        try:
+            response = client.messages.create(
+                model=CLAUDE_MODEL,
+                max_tokens=512,
+                messages=[{"role": "user", "content": prompt}],
+            )
+            return response.content[0].text.strip()
+        except anthropic.RateLimitError:
+            time.sleep(2 ** attempt)
+    raise RuntimeError("Claude API rate limit exceeded after retries")
+
+
+def call_ollama(prompt: str) -> str:
+    import ollama
+    response = ollama.chat(
+        model=OLLAMA_MODEL,
+        messages=[{"role": "user", "content": prompt}],
+        options={"temperature": 0.1, "num_ctx": 4096},
+        keep_alive="10m",
+    )
+    return response["message"]["content"].strip()
+
+
+def classify_with_llm(job: dict) -> dict:
+    description = job.get("raw_text", "").strip()[:3000]
+    template = OLLAMA_PROMPT if BACKEND == "ollama" else PROMPT
+    prompt = template.format(
+        title=job["title"],
+        company=job["company"],
+        description=description,
+    )
+    text = call_claude(prompt) if BACKEND == "claude" else call_ollama(prompt)
+    return parse_response(text)
 
 
 def main():
@@ -194,11 +260,12 @@ def main():
     ]
     without_desc = sum(1 for j in jobs if not j.get("raw_text", "").strip())
 
+    print(f"Backend: {BACKEND} ({'Claude ' + CLAUDE_MODEL if BACKEND == 'claude' else 'Ollama ' + OLLAMA_MODEL})")
     print(f"{len(with_desc)} jobs to classify today, {without_desc} skipped (no description)")
-    print(f"Workers: {WORKERS}, Model: {MODEL}\n")
+    print(f"Workers: {WORKERS}\n")
 
     if not with_desc:
-        print("Nothing to classify. Run fetch_job_descriptions.py first if Greenhouse jobs are missing descriptions.")
+        print("Nothing to classify. Run fetch_job_descriptions.py first if jobs are missing descriptions.")
         return
 
     eng = not_eng = unclear = errors = 0
@@ -218,7 +285,7 @@ def main():
                 n = completed
 
             try:
-                job, (is_e, summary, skills, level, is_contract) = future.result()
+                job, cl = future.result()
             except Exception as e:
                 job = future_to_job[future]
                 with lock:
@@ -228,17 +295,22 @@ def main():
 
             with lock:
                 existing[job["id"]] = {
-                    "is_engineering": is_e,
-                    "is_contract": is_contract,
-                    "job_summary": summary,
-                    "skills": skills,
-                    "level": level,
+                    "is_engineering": cl["is_engineering"],
+                    "is_contract": cl["is_contract"],
+                    "is_hybrid": cl["is_hybrid"],
+                    "job_summary": cl["job_summary"],
+                    "skills": cl["skills"],
+                    "level": cl["level"],
+                    "comp": cl["comp"],
+                    "comp_extras": cl["comp_extras"],
                     "source_hash": content_hash(job),
                 }
+                is_e = cl["is_engineering"]
                 if is_e is True:
                     eng += 1
-                    contract_tag = " [contract]" if is_contract else ""
-                    line = f"  [{n:>5}/{total}] ✓ {job['company']}: {job['title'][:50]}{contract_tag} — {(summary or 'no summary')[:60]}"
+                    contract_tag = " [contract]" if cl["is_contract"] else ""
+                    summary = cl["job_summary"] or "no summary"
+                    line = f"  [{n:>5}/{total}] ✓ {job['company']}: {job['title'][:50]}{contract_tag} — {summary[:60]}"
                 elif is_e is False:
                     not_eng += 1
                     line = f"  [{n:>5}/{total}] ✗ {job['company']}: {job['title'][:50]}"

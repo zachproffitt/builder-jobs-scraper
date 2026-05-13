@@ -43,14 +43,17 @@ def format_meta(fm: dict) -> str:
     company = fm.get("company", "")
     location = fm.get("location", "").strip()
     remote = fm.get("remote", "").strip()
+    hybrid = fm.get("hybrid", "").strip()
     level = fm.get("level", "").strip()
+    comp = fm.get("comp", "").strip()
+    comp_extras_raw = fm.get("comp_extras", "").strip()
+    comp_extras = [s.strip() for s in comp_extras_raw.split(",") if s.strip()] if comp_extras_raw else []
 
     if " | " in location:
         location = location.split(" | ")[0].strip()
     if location in ("Not specified", ""):
         location = ""
 
-    # Strip "remote" from location string when the Remote tag is already shown
     if remote == "Remote" and location:
         location = re.sub(r"\s*[-–,]\s*remote\b", "", location, flags=re.I)
         location = re.sub(r"\bremote\s*[-–,]\s*", "", location, flags=re.I)
@@ -64,6 +67,12 @@ def format_meta(fm: dict) -> str:
         parts.append(f"`{level.capitalize()}`")
     if remote == "Remote":
         parts.append("`Remote`")
+    elif hybrid == "yes":
+        parts.append("`Hybrid`")
+    if comp:
+        parts.append(f"`{comp}`")
+    for extra in comp_extras:
+        parts.append(f"`{extra.capitalize()}`")
 
     return " · ".join(parts)
 
