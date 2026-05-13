@@ -94,7 +94,9 @@ def main():
         })
 
     total = sum(len(v) for v in by_date.values())
-    print(f"Found {total} jobs across {len(by_date)} dates")
+    today = datetime.now().strftime("%Y-%m-%d")
+    new_today = len(by_date.get(today, []))
+    print(f"Found {total} jobs across {len(by_date)} dates ({new_today} new today)")
 
     company_count = 0
     if COMPANIES_FILE.exists():
@@ -111,7 +113,7 @@ def main():
         "For location, we clearly identify remote and hybrid support. For seniority, we tag every role but",
         "recommend browsing a level above and below yourself.",
         "",
-        f"### {total} open roles &nbsp;·&nbsp; {company_count} companies &nbsp;·&nbsp; updated daily",
+        f"### {total} open roles ({new_today} new today) &nbsp;·&nbsp; {company_count} companies searched",
         "",
     ]
 
