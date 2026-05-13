@@ -157,6 +157,14 @@ def main():
                 lines.append("")
                 lines.append(" ".join(skill_badge(s) for s in j["skills"]))
             lines.append("")
+            ts = j.get("first_seen_at", "")
+            if ts:
+                try:
+                    dt_obj = datetime.fromisoformat(ts)
+                    lines.append(f"<sub>{dt_obj.strftime('%H:%M UTC')}</sub>")
+                except ValueError:
+                    pass
+            lines.append("")
             lines.append("---")
             lines.append("")
 
