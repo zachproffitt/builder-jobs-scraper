@@ -75,6 +75,7 @@ jobs:
             echo "No changes in jobs repo"
           else
             git commit -m "$(date -u '+%b %-d at %H:%M UTC')"
+            git pull --rebase
             git push
           fi
 
@@ -86,5 +87,6 @@ jobs:
             echo "No changes in scraper data"
           else
             git commit -m "Pipeline data — $(date -u '+%b %-d at %H:%M UTC')"
+            git pull --rebase
             git push
           fi
