@@ -20625,5 +20625,397 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "604d566c"
+  },
+  "greenhouse-astranis-4681433006": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$85,000\u2014$120,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "04151182"
+  },
+  "greenhouse-relativity-8546587002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$112,000\u2013$143,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "af98640d"
+  },
+  "greenhouse-astranis-4681478006": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": "$29/hour",
+    "comp_extras": [],
+    "source_hash": "022c834b"
+  },
+  "greenhouse-stripe-7913545": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9587a2e9"
+  },
+  "greenhouse-relativity-8548777002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$90,000\u2013$124,300",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "4c6c7a0f"
+  },
+  "greenhouse-astranis-4681415006": {
+    "is_engineering": true,
+    "is_contract": true,
+    "is_hybrid": false,
+    "job_summary": "Write code to evaluate performance and automate testing of satellite hardware while performing reliability analyses on flight systems. Work on hard problems with equal importance to full-time engineer projects, with code and hardware designs potentially launching to space.",
+    "skills": [
+      "Python",
+      "SPICE simulators (LTSpice, PSPICE, ADS)",
+      "Electrical Engineering",
+      "DFMEA",
+      "Agentic AI systems"
+    ],
+    "level": "junior",
+    "comp": "$100k-$100k",
+    "comp_extras": [],
+    "source_hash": "2785eb06"
+  },
+  "greenhouse-astranis-4681436006": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$110,000\u2014$155,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "431281f3"
+  },
+  "ashby-cohere-5cf3bd63-cf1d-441a-9db5-2032ca8449b8": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8e081a00"
+  },
+  "greenhouse-relativity-8548622002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$136,000\u2014$187,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "1d64d02a"
+  },
+  "greenhouse-trueanomalyinc-5136303007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$150k-$230k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "3943810f"
+  },
+  "greenhouse-astranis-4681471006": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": "$29/hour",
+    "comp_extras": [],
+    "source_hash": "200da199"
+  },
+  "greenhouse-thealleninstitute-7899565": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build infrastructure and AI tools to enable agentic scientific discovery systems, including machine learning pipelines, model training workflows, and agent frameworks for domains like biology and neuroscience. Bridge cutting-edge research with production systems at scale while maintaining open-source contributions.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "Jax",
+      "TensorFlow",
+      "GCP",
+      "AWS",
+      "Docker",
+      "NLP"
+    ],
+    "level": "mid",
+    "comp": "$118,800-$178,200",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "af5fd05a"
+  },
+  "greenhouse-waymo-7599912": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Design and implement test automation infrastructure and metrics for autonomous vehicle perception systems, including simulation scenarios and data analysis pipelines. Work on safety-critical systems at scale across multiple vehicle platforms with an emphasis on edge cases and fault scenarios.",
+    "skills": [
+      "Python",
+      "SQL",
+      "C++",
+      "Machine Learning",
+      "Autonomous Vehicles",
+      "Robotics",
+      "Data Analysis",
+      "Software Verification and Validation"
+    ],
+    "level": "senior",
+    "comp": "$196k-$242k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "b79f008c"
+  },
+  "greenhouse-andurilindustries-5137179007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Develop and maintain test automation software, data analytics systems, and report generation tools for infrared camera systems in defense manufacturing. Requires U.S. Secret security clearance and hands-on work with complex opto-mechanical and firmware systems in production environments.",
+    "skills": [
+      "Python",
+      "MATLAB",
+      "Test Automation",
+      "Data Acquisition",
+      "Root Cause Analysis",
+      "Infrared Systems",
+      "Security Clearance"
+    ],
+    "level": "mid",
+    "comp": "$98k-$130k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "5e6cac09"
+  },
+  "greenhouse-andurilindustries-5092442007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$166,000\u2014$220,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "ee2ebd7d"
+  },
+  "greenhouse-andurilindustries-5134709007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$166,000\u2014$220,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "25b8d10c"
+  },
+  "greenhouse-andurilindustries-5137239007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$113k-$155k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "b1520d78"
+  },
+  "greenhouse-andurilindustries-5137237007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$113k-$155k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "ef8efb26"
+  },
+  "greenhouse-andurilindustries-5137244007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$113k-$155k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "7202ebc6"
+  },
+  "greenhouse-roblox-7922649": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build and maintain internal software products and automated systems that identify, prioritize, and remediate security vulnerabilities at scale across Roblox's platform and tech stack. Design tools that make vulnerability management accessible and actionable for engineers across the organization.",
+    "skills": [
+      "Python",
+      "Go",
+      "Java",
+      "C#",
+      "Security Tools",
+      "Vulnerability Management",
+      "Automated Systems"
+    ],
+    "level": "senior",
+    "comp": "$216,680-$269,170",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "693baa9a"
+  },
+  "greenhouse-roblox-7875734": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build and operate scalable age estimation ML models and fraud detection systems serving billions of users globally on Roblox. Lead distributed systems architecture handling identity verification, behavioral analysis, and adversarial protection (deepfakes, presentation attacks) across regulatory jurisdictions.",
+    "skills": [
+      "Machine Learning",
+      "Distributed Systems",
+      "Fraud Detection",
+      "Facial Recognition",
+      "Privacy-Preserving Infrastructure",
+      "Scala or Python",
+      "Kubernetes",
+      "AWS"
+    ],
+    "level": "manager",
+    "comp": "$345,040-$399,420",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "9784edeb"
+  },
+  "lever-grailbio-3ad4a8a8-910c-4ebd-8091-7f85999b8109": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4c242e91"
+  },
+  "ashby-synctera-a7596dea-acda-492e-bc41-60f54b674d25": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8da0acb8"
+  },
+  "ashby-Etched-248ac4e9-5059-449a-a2f0-35d7fdfd08fb": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "82224239"
+  },
+  "greenhouse-grafanalabs-5990671004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and operate reconciliation systems and control-plane services for Grafana Cloud stack lifecycle management, ensuring state consistency across distributed components (grafana.com, Hosted Grafana, cloud regions). Build systems handling stateful workflows, eventual consistency, and multi-region infrastructure where correctness and operational clarity are critical at scale.",
+    "skills": [
+      "Go",
+      "Kubernetes",
+      "Terraform",
+      "TypeScript/Node.js",
+      "AWS",
+      "GCP",
+      "Azure",
+      "Distributed Systems"
+    ],
+    "level": "senior",
+    "comp": "CAD 164,490 - CAD 197,389",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "d9340731"
+  },
+  "greenhouse-grafanalabs-5990670004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and operate reconciliation systems and control-plane services that manage Grafana Cloud stack lifecycle, state alignment, and configuration across distributed infrastructure. You will work on stateful systems involving eventual consistency, multi-region operations, and incident recovery at scale across a SaaS platform serving thousands of customers.",
+    "skills": [
+      "Go",
+      "Kubernetes",
+      "Terraform",
+      "TypeScript",
+      "AWS",
+      "GCP",
+      "Azure",
+      "Helm"
+    ],
+    "level": "senior",
+    "comp": "$154,445-$185,334",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "e7018e43"
   }
 }
