@@ -1,5 +1,5 @@
 #!/bin/bash
-# Daily pipeline: fetch → classify new → render → publish
+# Daily pipeline: discover → fetch → describe → classify → render → publish
 set -e
 
 SCRAPER_DIR="$(cd "$(dirname "$0")" && pwd)"
@@ -8,43 +8,53 @@ export PYTHONPATH="$SCRAPER_DIR"
 
 cd "$SCRAPER_DIR"
 
-echo "========================================"
-echo " Builder Jobs Pipeline — $(date '+%B %-d, %Y')"
-echo "========================================"
+mkdir -p logs
+
+LOG_FILE="$SCRAPER_DIR/logs/pipeline.log"
+
+# Tee everything (stdout + stderr) to the log file for the rest of the script
+exec > >(tee -a "$LOG_FILE") 2>&1
+
+step() {
+    echo ""
+    echo "========================================"
+    echo " $1"
+    echo " $(date '+%Y-%m-%d %H:%M:%S')"
+    echo "========================================"
+}
+
+step "Builder Jobs Pipeline starting"
 
 # 1. Discover ATS for any new companies added to company_names.txt
-echo ""
-echo "=== [1/6] Discovering companies ==="
+step "[1/6] Discovering companies"
 python3 tools/discover_companies.py
 
 # 2. Fetch current listings from all companies
-echo ""
-echo "=== [2/6] Fetching jobs ==="
-python3 pipeline/fetch_jobs.py || echo "  [warn] Some companies failed to fetch — continuing with successful results"
+step "[2/6] Fetching jobs"
+python3 pipeline/fetch_jobs.py || echo "  [warn] Some companies failed — continuing"
 
 # 3. Fetch Greenhouse descriptions for today's new jobs
-echo ""
-echo "=== [3/6] Fetching Greenhouse descriptions ==="
+step "[3/6] Fetching descriptions"
 python3 pipeline/fetch_job_descriptions.py
 
 # 4. Classify only today's new jobs
-echo ""
-echo "=== [4/6] Classifying new jobs ==="
+step "[4/6] Classifying"
+if ! pgrep -x ollama > /dev/null; then
+    echo "  ERROR: Ollama is not running. Start it with: ollama serve"
+    exit 1
+fi
 python3 pipeline/classify_jobs.py
 
 # 5. Render builder jobs to the builder-jobs repo
-echo ""
-echo "=== [5/6] Rendering ==="
+step "[5/6] Rendering"
 python3 pipeline/render_jobs.py
 
 # 6. Regenerate README index
-echo ""
-echo "=== [6/6] Generating index ==="
+step "[6/6] Generating index"
 python3 pipeline/generate_index.py "$JOBS_REPO"
 
-# 6. Commit and push builder-jobs repo
-echo ""
-echo "=== Committing builder-jobs ==="
+# Commit and push builder-jobs repo
+step "Committing builder-jobs"
 cd "$JOBS_REPO"
 if git diff --quiet && git diff --cached --quiet; then
     echo "  No changes to commit in builder-jobs"
@@ -54,9 +64,8 @@ else
     git push
 fi
 
-# 7. Commit and push scraper repo data
-echo ""
-echo "=== Committing builder-jobs-scraper ==="
+# Commit and push scraper repo data
+step "Committing builder-jobs-scraper"
 cd "$SCRAPER_DIR"
 if git diff --quiet data/ && git diff --cached --quiet data/; then
     echo "  No changes to commit in scraper data"
@@ -66,7 +75,5 @@ else
     git push
 fi
 
-echo ""
-echo "========================================"
-echo " Done — $(date '+%H:%M:%S')"
-echo "========================================"
+step "Done"
+echo "  Log: $LOG_FILE"
