@@ -1,4 +1,4 @@
-# builder-jobs-scraper
+# Builder Jobs — Scraper
 
 Pipeline that fetches engineering job listings directly from company career pages, classifies them with a local LLM, and publishes rendered markdown to **[zachproffitt/builder-jobs](https://github.com/zachproffitt/builder-jobs)**.
 
