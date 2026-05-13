@@ -30,17 +30,18 @@ names), edit data/companies.json directly. That entry is skipped on future runs.
 import json
 import re
 import sys
-import time
 from pathlib import Path
 
 import httpx
 
 NAMES_FILE = Path("data/company_names.txt")
 COMPANIES_FILE = Path("data/companies.json")
-REQUEST_DELAY = 0.2
 
-CAREERS_PATHS = ["/careers", "/jobs", "/careers/", "/jobs/", "/work-with-us", "/join"]
-ABOUT_PATHS = ["/about", "/about-us", "/company", "/who-we-are"]
+CAREERS_LINK_RE = re.compile(
+    r'href=["\']([^"\']*(?:career|jobs|hiring|work-with-us|join-us|join-our-team|work-here|open-roles)[^"\']*)["\']',
+    re.I,
+)
+CAREERS_FALLBACK_PATHS = ["/careers", "/jobs", "/work-with-us", "/join"]
 
 # Greenhouse embed URLs: boards.greenhouse.io/embed/job_board?for=slug
 #   or the JS variant:   boards.greenhouse.io/embed/job_board/js?for=slug
@@ -103,71 +104,94 @@ def extract_ats(text: str) -> "tuple[str, str] | None":
     return None
 
 
-def scrape_careers(domain: str, client: httpx.Client) -> "tuple[str, str] | None":
-    """
-    Try to find ATS info by fetching the company's careers page.
-    Returns (ats, slug) or None.
-    """
-    base = f"https://{domain}"
+def extract_meta_description(html: str) -> str:
+    """Extract og:description or meta description from HTML. Returns empty string if not found."""
+    patterns = [
+        r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\']([^"\']{20,})',
+        r'<meta[^>]+content=["\']([^"\']{20,})["\'][^>]+property=["\']og:description',
+        r'<meta[^>]+name=["\']description["\'][^>]+content=["\']([^"\']{20,})',
+        r'<meta[^>]+content=["\']([^"\']{20,})["\'][^>]+name=["\']description',
+    ]
+    for pattern in patterns:
+        m = re.search(pattern, html, re.I)
+        if m:
+            text = m.group(m.lastindex).strip()
+            text = text.replace("&#x27;", "'").replace("&amp;", "&").replace("&quot;", '"')
+            return text[:500]
+    return ""
 
-    for path in CAREERS_PATHS:
-        time.sleep(REQUEST_DELAY)
-        try:
-            r = client.get(base + path, timeout=10, follow_redirects=True)
-        except Exception:
-            continue
 
-        # Check each URL in the redirect chain (Workday often redirects to its own domain)
-        for hist in r.history:
-            result = extract_ats(str(hist.url))
-            if result:
-                return result
-
-        # Check the final URL (after redirects)
-        result = extract_ats(str(r.url))
+def check_response(r: httpx.Response) -> "tuple[str, str] | None":
+    """Check redirect chain, final URL, and HTML of a response for ATS patterns."""
+    for hist in r.history:
+        result = extract_ats(str(hist.url))
         if result:
             return result
-
-        # Check page HTML
-        if r.status_code == 200:
-            result = extract_ats(r.text)
-            if result:
-                return result
-
+    result = extract_ats(str(r.url))
+    if result:
+        return result
+    if r.status_code == 200:
+        return extract_ats(r.text)
     return None
 
 
-def scrape_meta_description(domain: str, client: httpx.Client) -> str:
+def scrape_company(domain: str, client: httpx.Client) -> "tuple[tuple[str, str] | None, str]":
     """
-    Fetch og:description or meta description from the homepage.
-    These live in the HTML <head> so they work even on JS-rendered pages.
-    Returns empty string on failure.
-    """
-    try:
-        time.sleep(REQUEST_DELAY)
-        r = client.get(f"https://{domain}", timeout=10, follow_redirects=True)
-        if r.status_code != 200:
-            return ""
+    Fetch the homepage once, extract ATS info and meta description in a single pass.
 
-        # Try og:description first (usually higher quality), then meta description.
-        # Require at least 20 chars to skip placeholder values.
-        patterns = [
-            r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\']([^"\']{20,})',
-            r'<meta[^>]+content=["\']([^"\']{20,})["\'][^>]+property=["\']og:description',
-            r'<meta[^>]+name=["\']description["\'][^>]+content=["\']([^"\']{20,})',
-            r'<meta[^>]+content=["\']([^"\']{20,})["\'][^>]+name=["\']description',
-        ]
-        for pattern in patterns:
-            m = re.search(pattern, r.text, re.I)
-            if m:
-                text = m.group(m.lastindex).strip()
-                # Decode common HTML entities
-                text = text.replace("&#x27;", "'").replace("&amp;", "&").replace("&quot;", '"')
-                return text[:500]
+    Strategy:
+    1. Fetch homepage — check for ATS directly, extract meta description, find careers link.
+    2. Follow the careers link found on the homepage.
+    3. Fall back to guessing common paths (/careers, /jobs, etc.).
+
+    Returns ((ats, slug) | None, meta_description).
+    """
+    base = f"https://{domain}"
+    meta = ""
+
+    try:
+        r = client.get(base, timeout=8, follow_redirects=True)
+
+        if r.status_code == 200:
+            meta = extract_meta_description(r.text)
+
+        result = check_response(r)
+        if result:
+            return result, meta
+
+        if r.status_code == 200:
+            careers_url = None
+            for href in CAREERS_LINK_RE.findall(r.text):
+                if href.startswith("http"):
+                    careers_url = href
+                elif href.startswith("/"):
+                    careers_url = base + href
+                else:
+                    careers_url = base + "/" + href
+                break
+
+            if careers_url:
+                try:
+                    rc = client.get(careers_url, timeout=8, follow_redirects=True)
+                    result = check_response(rc)
+                    if result:
+                        return result, meta
+                except Exception:
+                    pass
     except Exception:
         pass
 
-    return ""
+    # Fall back to common path guessing
+    for path in CAREERS_FALLBACK_PATHS:
+        try:
+            r = client.get(base + path, timeout=8, follow_redirects=True)
+            result = check_response(r)
+            if result:
+                return result, meta
+        except Exception:
+            continue
+
+    return None, meta
 
 
 def verify_entry(company: dict, client: httpx.Client) -> bool:
@@ -181,7 +205,6 @@ def verify_entry(company: dict, client: httpx.Client) -> bool:
     if ats not in SUPPORTED_ATS:
         return True
 
-    time.sleep(REQUEST_DELAY)
     try:
         if ats == "greenhouse":
             r = client.get(
@@ -251,7 +274,7 @@ def main():
                     still_broken.append(company["name"])
                     continue
 
-                result = scrape_careers(domain, client)
+                result, _ = scrape_company(domain, client)
                 if result:
                     ats, slug = result
                     old = f"{company.get('ats')}/{company.get('slug')}"
@@ -282,10 +305,9 @@ def main():
             for i, (name, domain) in enumerate(new_entries, 1):
                 print(f"  [{i:>3}/{len(new_entries)}] {name} ({domain})...", end=" ", flush=True)
 
-                result = scrape_careers(domain, client)
+                result, meta = scrape_company(domain, client)
                 if result:
                     ats, slug = result
-                    meta = scrape_meta_description(domain, client)
                     entry = {
                         "name": name,
                         "ats": ats,
