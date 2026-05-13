@@ -5,6 +5,7 @@ Pipeline that fetches engineering job listings directly from company career page
 ## How it works
 
 ```
+tools/discover_companies.py         detect ATS and slug for any new companies in company_names.txt
 pipeline/fetch_jobs.py              fetch current listings from all companies
 pipeline/fetch_job_descriptions.py  fetch full description text (where not included in listing)
 pipeline/classify_jobs.py           LLM: is this a builder role? summarize, extract skills
@@ -123,4 +124,4 @@ After that, `make run` handles everything daily.
 
 ## Known issues
 
-- ~27 companies in `companies.json` have incorrect slugs and return 404 errors on every run. These need to be corrected or removed.
+- Several companies in `companies.json` have incorrect slugs and return 404 errors on every run. Known bad entries: `trmlabs`, `paxos-technology-solutions`, `rain-ai-jobs`, `grammarly`, `spanio`, `Jasper`, `g2crowd`, `desktopmetal`. Edit `companies.json` directly to fix or remove them.
