@@ -20074,5 +20074,191 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "f6b73752"
+  },
+  "greenhouse-anthropic-5113785008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$245k-$310k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "f8fb0a33"
+  },
+  "greenhouse-andurilindustries-4962385007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$170,000\u2014$226,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "db0766b4"
+  },
+  "greenhouse-apptronik-5995710004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and own dexterous hand simulation systems for humanoid robots, modeling contact dynamics, physics fidelity, and sim-to-real validation workflows. You will be the authoritative technical voice across mechanical design, controls, and hardware teams, ensuring simulation reliably predicts physical hand behavior end-to-end in a contact-rich embodied AI context.",
+    "skills": [
+      "Python",
+      "C++",
+      "Isaac Sim",
+      "MuJoCo",
+      "Physics Simulation",
+      "Rigid Body Dynamics",
+      "Sim-to-Real Validation",
+      "Contact Mechanics"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2adf117b"
+  },
+  "greenhouse-rocketlab-7731436003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$20k-$40k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "59207f43"
+  },
+  "greenhouse-apptronik-5995708004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "91634d2d"
+  },
+  "greenhouse-andurilindustries-4929515007": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$55k-$70k",
+    "comp_extras": [],
+    "source_hash": "69ef8202"
+  },
+  "greenhouse-andurilindustries-5136913007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$86,000\u2014$114,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "643ed2c3"
+  },
+  "ashby-openai-f0885aed-a422-4237-8e98-9c5311ed7ae0": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ee7506b6"
+  },
+  "ashby-astronomer-eb1c8e1a-3990-4078-8d53-d7c22dbf9281": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$310k-$350k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "518c8e5d"
+  },
+  "greenhouse-andurilindustries-5137048007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and build real-time, map-based interfaces and full-stack software systems for autonomous surface vessels and maritime command-and-control platforms. Requires Secret security clearance and involvement across the complete software lifecycle from ConOps through deployment to military customers.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "React Native",
+      "C++",
+      "Go",
+      "Haskell",
+      "Kubernetes",
+      "Python"
+    ],
+    "level": "senior",
+    "comp": "$191,000\u2014$253,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "7babdfff"
+  },
+  "greenhouse-reddit-7922403": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$190,800-$267,100 USD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "23c27c67"
+  },
+  "greenhouse-natera-5844504004": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$26.63\u2014$30",
+    "comp_extras": [],
+    "source_hash": "c07cf5b0"
+  },
+  "greenhouse-natera-5993794004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead a distributed engineering team building genomics tertiary analysis software that processes thousands of clinical samples monthly across Natera's product portfolio. Work in a regulated biotech environment requiring FDA, HIPAA, and CLIA compliance with deep technical ownership of architecture, design, and implementation.",
+    "skills": [
+      "Java",
+      "Python",
+      "Distributed Systems",
+      "Genomics Analysis",
+      "Regulated Software Development",
+      "AWS",
+      "Kubernetes",
+      "Machine Learning"
+    ],
+    "level": "manager",
+    "comp": "$156,000\u2013$195,000",
+    "comp_extras": [],
+    "source_hash": "44b7cb2f"
   }
 }
