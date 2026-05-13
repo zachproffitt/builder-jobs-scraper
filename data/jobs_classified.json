@@ -21238,5 +21238,115 @@
       "equity"
     ],
     "source_hash": "90f04870"
+  },
+  "greenhouse-epicgames-5995916004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "03145305"
+  },
+  "greenhouse-epicgames-5995925004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7255c880"
+  },
+  "greenhouse-trueanomalyinc-5136120007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$90k-$135k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "317c2348"
+  },
+  "greenhouse-airbnb-7923023": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": "$168,000\u2013$210,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "9c97dc79"
+  },
+  "ashby-helion-7e2b8df0-70ca-48c7-9238-ef5dfd1c5833": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9cf51074"
+  },
+  "ashby-coderabbit-fef77e49-90e8-444b-8b0a-33d74db976fe": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "ad5703f3"
+  },
+  "greenhouse-natera-5989218004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$165k-$190k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "f869317b"
+  },
+  "ashby-langchain-d3f8de08-2e2b-4c3f-be1f-e63ca51f1d93": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build and architect LangSmith's observability and evaluation platform across full-stack Go, Python, and TypeScript, driving tracing, monitoring, and AI system reliability at production scale. Lead technical direction for high-throughput data systems handling millions of developer interactions across Fortune 500 companies.",
+    "skills": [
+      "Python",
+      "Go",
+      "TypeScript",
+      "React",
+      "PostgreSQL",
+      "Redis",
+      "AWS",
+      "Distributed Systems"
+    ],
+    "level": "principal",
+    "comp": "$230k-$270k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "d7d4220c"
   }
 }
