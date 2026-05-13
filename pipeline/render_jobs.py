@@ -15,7 +15,7 @@ COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies_classified.j
 COMPANIES_DOMAINS_FILE = Path(__file__).parent.parent / "data" / "companies.json"
 
 HASH_MARKER = "render_hash: "
-FORMAT_VERSION = "13"  # bump to force re-render of all files
+FORMAT_VERSION = "14"  # bump to force re-render of all files
 SKILL_COLOR = "3B82F6"
 
 
@@ -67,6 +67,17 @@ def pretty_date(iso: str) -> str:
         return iso
 
 
+def pretty_first_seen(date_iso: str, ts_iso: str | None) -> str:
+    label = pretty_date(date_iso)
+    if ts_iso:
+        try:
+            dt = datetime.fromisoformat(ts_iso)
+            label += f" at {dt.strftime('%H:%M')} UTC"
+        except ValueError:
+            pass
+    return label
+
+
 def format_description(text: str) -> str:
     """Convert single newlines to paragraph breaks so markdown renders correctly."""
     lines = [l.rstrip() for l in text.split("\n")]
@@ -83,6 +94,7 @@ def render_job(job: dict, classification: dict, company_summary: str | None, dom
 
     posted = format_date(job.get("posted_at"))
     first_seen = job.get("first_seen") or datetime.now(timezone.utc).date().isoformat()
+    first_seen_at = job.get("first_seen_at")
     raw_text = (job.get("raw_text") or "").strip()
     job_summary = classification.get("job_summary") or ""
     skills = classification.get("skills") or []
@@ -109,6 +121,7 @@ def render_job(job: dict, classification: dict, company_summary: str | None, dom
         f"hybrid: {'yes' if is_hybrid else 'no'}",
         f"posted_at: {posted or 'Unknown'}",
         f"first_seen: {first_seen}",
+        f"first_seen_at: {first_seen_at or ''}",
         f"url: {job['url']}",
         f"summary: {job_summary}",
         f"skills: {', '.join(skills)}",
@@ -156,7 +169,7 @@ def render_job(job: dict, classification: dict, company_summary: str | None, dom
     if skills:
         lines += [" ".join(skill_badge(s) for s in skills), ""]
 
-    date_label = f"Posted {pretty_date(posted)}" if posted else f"First seen {pretty_date(first_seen)}"
+    date_label = f"Posted {pretty_date(posted)}" if posted else f"First seen {pretty_first_seen(first_seen, first_seen_at)}"
     lines += [f"<sub>{date_label}</sub>", ""]
 
     lines += [f"**[→ Apply]({job['url']})**", ""]

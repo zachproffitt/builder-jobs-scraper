@@ -100,6 +100,7 @@ def main():
             "summary": fm.get("summary", ""),
             "skills": skills,
             "posted_at": fm.get("posted_at", ""),
+            "first_seen_at": fm.get("first_seen_at", ""),
             "path": str(md.relative_to(JOBS_REPO)),
         })
 
@@ -134,7 +135,8 @@ def main():
 
     for dt in sorted(by_date.keys(), reverse=True):
         jobs = by_date[dt]
-        jobs.sort(key=lambda j: j["company"].lower())
+        # Sort by first_seen_at descending (newest first); fall back to company name
+        jobs.sort(key=lambda j: (j["first_seen_at"] or ""), reverse=True)
         try:
             label = datetime.strptime(dt, "%Y-%m-%d").strftime("%B %-d, %Y")
         except ValueError:

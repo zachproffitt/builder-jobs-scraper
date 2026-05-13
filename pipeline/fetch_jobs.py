@@ -61,6 +61,7 @@ def main():
         seen_companies = json.loads(SEEN_COMPANIES_FILE.read_text())
 
     today = datetime.now(timezone.utc).date().isoformat()
+    now_ts = datetime.now(timezone.utc).isoformat(timespec="seconds")
     all_jobs: list[dict] = []
     errors: list[str] = []
     new_count = closed_count = archived_count = 0
@@ -86,6 +87,8 @@ def main():
                 job_id = d["id"]
                 if job_id in seen:
                     d["first_seen"] = seen[job_id]
+                    if prev.get(job_id, {}).get("first_seen_at"):
+                        d["first_seen_at"] = prev[job_id]["first_seen_at"]
                 elif is_new_company:
                     # Archive all first-fetch jobs for new companies
                     d["first_seen"] = ARCHIVE_DATE
@@ -93,6 +96,7 @@ def main():
                     archived_count += 1
                 else:
                     d["first_seen"] = today
+                    d["first_seen_at"] = now_ts
                     seen[job_id] = today
                     new_count += 1
                 if prev.get(job_id, {}).get("raw_text"):
