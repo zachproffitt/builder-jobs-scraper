@@ -60,6 +60,11 @@ A firmware engineer writes code. A hardware engineer designs circuits or physica
 An electrical engineer working on subsystems, power, or manufacturing is a hardware engineer — exclude them.
 A "Technical Mission Designer" or "Technical Designer" in game dev is a designer who uses scripts — exclude them.
 A "Technical Animator" is borderline — include only if the description is primarily about building animation systems in code.
+"Applied Scientist" and "Research Scientist" at tech or AI companies are borderline — include if the description involves training models, building systems, or writing production code; exclude if primarily publishing research or doing data analysis without building.
+"Solutions Architect" is borderline — include only if the description clearly involves writing code or building systems; exclude if primarily designing solutions for customers without implementation responsibility.
+"Technical Lead" and "Tech Lead" — include; they write code and lead a team.
+"Systems Engineer" is ambiguous by domain — include for software systems, platform, or embedded firmware; exclude for aerospace, defense hardware, mechanical, or RF/optical systems.
+"Site Reliability Engineer" and "SRE" — always include.
 
 For each job posting provided, extract the following fields. Use judgment — if the description gives strong signals, use them even if indirect.
 
