@@ -18,14 +18,12 @@ BACKEND = os.environ.get("LLM_BACKEND", "claude")
 CLAUDE_MODEL = "claude-haiku-4-5-20251001"
 OLLAMA_MODEL = "qwen3:8b"
 
-PROMPT = """\
-Write 1-2 sentences describing what {name} builds and what domain they operate in.
+SYSTEM_PROMPT = """\
+Write 1-2 sentences describing what the company builds and what domain they operate in.
 Be specific and factual. Plain prose only — no markdown, no bullet points, no headers.
 Do not use "leading", "innovative", "cutting-edge", "pioneering". Do not say you lack web access.
-Start directly with the company name or what they build.{job_context}{homepage_context}
-
-Company: {name}
-Website: {website}
+Start directly with the company name or what they build.
+Respond with only the description — no intro, no headers, no labels.
 """
 
 BAD_PHRASES = [
@@ -62,7 +60,7 @@ def fetch_homepage(url: str) -> str:
         return ""
 
 
-def call_claude(prompt: str) -> str:
+def call_claude(system: str, user_message: str) -> str:
     import anthropic
     client = anthropic.Anthropic()
     for attempt in range(5):
@@ -70,7 +68,8 @@ def call_claude(prompt: str) -> str:
             response = client.messages.create(
                 model=CLAUDE_MODEL,
                 max_tokens=150,
-                messages=[{"role": "user", "content": prompt}],
+                system=[{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}],
+                messages=[{"role": "user", "content": user_message}],
             )
             return response.content[0].text.strip()
         except (anthropic.RateLimitError, anthropic.APIStatusError) as e:
@@ -93,8 +92,10 @@ def call_ollama(prompt: str) -> str:
     return response["message"]["content"].strip()
 
 
-def call_llm(prompt: str) -> str:
-    return call_claude(prompt) if BACKEND == "claude" else call_ollama(prompt)
+def call_llm(system: str, user_message: str) -> str:
+    if BACKEND == "claude":
+        return call_claude(system, user_message)
+    return call_ollama(system + "\n\n" + user_message)
 
 
 def is_bad(summary: str) -> bool:
@@ -150,13 +151,10 @@ def main():
         job_context = f"\nSample job title: {sample['title']}" if sample else ""
 
         # First attempt: training knowledge only
-        prompt = PROMPT.format(
-            name=name, website=website,
-            job_context=job_context, homepage_context="",
-        )
+        user_message = f"Company: {name}\nWebsite: {website}{job_context}"
 
         try:
-            raw = call_llm(prompt)
+            raw = call_llm(SYSTEM_PROMPT, user_message)
             lines = [l for l in raw.splitlines() if not l.startswith("#")]
             summary = " ".join(l.strip() for l in lines if l.strip())
 
@@ -165,12 +163,9 @@ def main():
                 print(f"  [{i:>3}/{len(to_process)}] {name}: no training knowledge — scraping homepage...")
                 homepage_text = fetch_homepage(website)
                 if homepage_text:
-                    prompt2 = PROMPT.format(
-                        name=name, website=website,
-                        job_context=job_context,
-                        homepage_context=f"\n\nHomepage content:\n{homepage_text}",
-                    )
-                    raw = call_llm(prompt2)
+                    # Homepage content (long document) precedes the company identifier
+                    user_message2 = f"<homepage>\n{homepage_text}\n</homepage>\n\nCompany: {name}\nWebsite: {website}{job_context}"
+                    raw = call_llm(SYSTEM_PROMPT, user_message2)
                     lines = [l for l in raw.splitlines() if not l.startswith("#")]
                     summary = " ".join(l.strip() for l in lines if l.strip())
 

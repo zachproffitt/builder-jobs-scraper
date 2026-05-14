@@ -23,7 +23,7 @@ OLLAMA_MODEL = "qwen3:8b"
 WORKERS = 5 if BACKEND == "claude" else 2
 SAVE_EVERY = 100
 
-PROMPT = """\
+SYSTEM_PROMPT = """\
 You are filtering a job board for software engineers — people who primarily write code.
 
 INCLUDE — person primarily writes code:
@@ -61,13 +61,7 @@ An electrical engineer working on subsystems, power, or manufacturing is a hardw
 A "Technical Mission Designer" or "Technical Designer" in game dev is a designer who uses scripts — exclude them.
 A "Technical Animator" is borderline — include only if the description is primarily about building animation systems in code.
 
-Job title: {title}
-Company: {company}
-
-Description:
-{description}
-
-Extract the following. Use judgment — if the description gives strong signals, use them even if indirect.
+For each job posting provided, extract the following fields. Use judgment — if the description gives strong signals, use them even if indirect.
 
 1. BUILDER: yes / no / unclear
    yes = will primarily write code or build systems
@@ -140,7 +134,17 @@ COMP: <$Xk-$Yk or n/a>
 COMP_EXTRAS: <extras or n/a>
 """
 
-OLLAMA_PROMPT = "/no_think\n" + PROMPT
+# Description first (long content before query improves accuracy), then identifiers
+USER_TEMPLATE = """\
+<job>
+<description>
+{description}
+</description>
+<title>{title}</title>
+<company>{company}</company>
+</job>"""
+
+OLLAMA_TEMPLATE = "/no_think\n" + SYSTEM_PROMPT + "\n" + USER_TEMPLATE
 
 
 def content_hash(job: dict) -> str:
@@ -209,7 +213,7 @@ def log_error(message: str) -> None:
         f.write(f"[{ts}] classify_jobs: {message}\n")
 
 
-def call_claude(prompt: str) -> str:
+def call_claude(system: str, user_message: str) -> str:
     import anthropic
     client = anthropic.Anthropic()
     for attempt in range(5):
@@ -217,7 +221,8 @@ def call_claude(prompt: str) -> str:
             response = client.messages.create(
                 model=CLAUDE_MODEL,
                 max_tokens=512,
-                messages=[{"role": "user", "content": prompt}],
+                system=[{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}],
+                messages=[{"role": "user", "content": user_message}],
             )
             return response.content[0].text.strip()
         except (anthropic.RateLimitError, anthropic.APIStatusError) as e:
@@ -243,13 +248,20 @@ def call_ollama(prompt: str) -> str:
 def classify_with_llm(job: dict) -> dict:
     import html
     description = html.unescape(job.get("raw_text", "")).strip()
-    template = OLLAMA_PROMPT if BACKEND == "ollama" else PROMPT
-    prompt = template.format(
-        title=job["title"],
-        company=job["company"],
-        description=description,
-    )
-    text = call_claude(prompt) if BACKEND == "claude" else call_ollama(prompt)
+    if BACKEND == "ollama":
+        prompt = OLLAMA_TEMPLATE.format(
+            title=job["title"],
+            company=job["company"],
+            description=description,
+        )
+        text = call_ollama(prompt)
+    else:
+        user_message = USER_TEMPLATE.format(
+            title=job["title"],
+            company=job["company"],
+            description=description,
+        )
+        text = call_claude(SYSTEM_PROMPT, user_message)
     return parse_response(text)
 
 
