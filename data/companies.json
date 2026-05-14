@@ -6191,5 +6191,117 @@
     "slug": "apply.careers.microsoft.com|microsoft.com",
     "website": "https://microsoft.com",
     "category": []
+  },
+  {
+    "name": "Intel",
+    "ats": "workday",
+    "slug": "intel/wd1/External",
+    "website": "https://intel.com",
+    "category": []
+  },
+  {
+    "name": "Nvidia",
+    "ats": "workday",
+    "slug": "nvidia/wd5/NVIDIAExternalCareerSite",
+    "website": "https://nvidia.com",
+    "category": []
+  },
+  {
+    "name": "Adobe",
+    "ats": "workday",
+    "slug": "adobe/wd5/external_experienced",
+    "website": "https://adobe.com",
+    "category": []
+  },
+  {
+    "name": "Qualcomm",
+    "ats": "eightfold",
+    "slug": "careers.qualcomm.com|qualcomm.com",
+    "website": "https://qualcomm.com",
+    "category": []
+  },
+  {
+    "name": "Lyft",
+    "ats": "greenhouse",
+    "slug": "lyft",
+    "website": "https://lyft.com",
+    "category": []
+  },
+  {
+    "name": "Databricks",
+    "ats": "greenhouse",
+    "slug": "databricks",
+    "website": "https://databricks.com",
+    "category": []
+  },
+  {
+    "name": "Cloudflare",
+    "ats": "greenhouse",
+    "slug": "cloudflare",
+    "website": "https://cloudflare.com",
+    "category": []
+  },
+  {
+    "name": "Pinterest",
+    "ats": "greenhouse",
+    "slug": "pinterest",
+    "website": "https://pinterest.com",
+    "category": []
+  },
+  {
+    "name": "Block",
+    "ats": "greenhouse",
+    "slug": "block",
+    "website": "https://block.xyz",
+    "category": []
+  },
+  {
+    "name": "Robinhood",
+    "ats": "greenhouse",
+    "slug": "robinhood",
+    "website": "https://robinhood.com",
+    "category": []
+  },
+  {
+    "name": "Twilio",
+    "ats": "greenhouse",
+    "slug": "twilio",
+    "website": "https://twilio.com",
+    "category": []
+  },
+  {
+    "name": "Instacart",
+    "ats": "greenhouse",
+    "slug": "instacart",
+    "website": "https://instacart.com",
+    "category": []
+  },
+  {
+    "name": "Okta",
+    "ats": "greenhouse",
+    "slug": "okta",
+    "website": "https://okta.com",
+    "category": []
+  },
+  {
+    "name": "Spotify",
+    "ats": "lever",
+    "slug": "spotify",
+    "website": "https://spotify.com",
+    "category": []
+  },
+  {
+    "name": "Snowflake",
+    "ats": "ashby",
+    "slug": "snowflake",
+    "website": "https://snowflake.com",
+    "category": []
+  },
+  {
+    "name": "Samsung Research America",
+    "ats": "greenhouse",
+    "slug": "samsungresearchamerica",
+    "website": "https://sra.samsung.com",
+    "category": []
   }
 ]

@@ -21,6 +21,7 @@ def scrape(company: str, slug: str) -> list[Job]:
     url = API_URL.format(tenant=tenant, partition=partition, board=board)
     offset = 0
     limit = 20
+    total = None  # only populated on first response
     all_postings = []
 
     try:
@@ -37,7 +38,9 @@ def scrape(company: str, slug: str) -> list[Job]:
             if not postings:
                 break
             all_postings.extend(postings)
-            if len(all_postings) >= data.get("total", 0):
+            if total is None:
+                total = data.get("total", 0)
+            if len(all_postings) >= total:
                 break
             offset += limit
     except httpx.HTTPError as e:

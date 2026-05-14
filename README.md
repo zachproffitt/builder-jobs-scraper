@@ -41,15 +41,15 @@ Non-engineering and contract roles are filtered out.
 
 | ATS | Companies | Scraper |
 |---|---|---|
-| Ashby | 390 | `scrapers/ats_ashby.py` |
-| Greenhouse | 257 | `scrapers/ats_greenhouse.py` |
-| Lever | 82 | `scrapers/ats_lever.py` |
-| BambooHR | 28 | `scrapers/ats_bamboo.py` |
-| Breezy | 22 | `scrapers/ats_breezy.py` |
-| Workday | 29 | `scrapers/ats_workday.py` |
-| Workable | 17 | `scrapers/ats_workable.py` |
-| SmartRecruiters | 2 | `scrapers/ats_smartrecruiters.py` |
-| Eightfold | 1+ | `scrapers/ats_eightfold.py` |
+| Ashby | 391 | `scrapers/ats_ashby.py` |
+| Greenhouse | 242 | `scrapers/ats_greenhouse.py` |
+| Lever | 81 | `scrapers/ats_lever.py` |
+| Workday | 33 | `scrapers/ats_workday.py` |
+| BambooHR | 26 | `scrapers/ats_bamboo.py` |
+| Breezy | 21 | `scrapers/ats_breezy.py` |
+| Workable | 18 | `scrapers/ats_workable.py` |
+| SmartRecruiters | 3 | `scrapers/ats_smartrecruiters.py` |
+| Eightfold | 2 | `scrapers/ats_eightfold.py` |
 
 ## Company sources
 
