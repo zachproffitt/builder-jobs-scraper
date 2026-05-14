@@ -1,47 +1,60 @@
 # Builder Jobs — Scraper
 
-Hourly pipeline that scrapes engineering job listings directly from company career pages, runs Claude Haiku 4.5 inference to classify and summarize each role, and publishes the results as rendered markdown to **[zachproffitt/builder-jobs](https://github.com/zachproffitt/builder-jobs)**.
+Hourly pipeline that scrapes engineering jobs from company career pages, classifies each role with Claude, and publishes rendered markdown to **[zachproffitt/builder-jobs](https://github.com/zachproffitt/builder-jobs)**.
 
-## How it works
+## Pipeline
 
 ```
-pipeline/fetch_jobs.py              fetch current listings from 328 companies
-pipeline/fetch_job_descriptions.py  fetch full description text for new jobs
-pipeline/classify_companies.py      generate company summaries via Claude Haiku 4.5
-pipeline/classify_jobs.py           classify roles, summarize, extract skills and comp
-pipeline/render_jobs.py             write one .md per engineering job → builder-jobs/jobs/
-pipeline/generate_index.py          regenerate README.md in builder-jobs
+fetch_jobs.py              fetch current listings from all companies
+fetch_job_descriptions.py  fetch full description text for new jobs
+classify_companies.py      generate company summaries via Claude
+classify_jobs.py           classify roles, summarize, extract skills and comp
+render_jobs.py             write one .md per engineering role → builder-jobs/jobs/
+generate_index.py          regenerate README.md in builder-jobs
 ```
 
-The pipeline runs hourly via GitHub Actions and commits changes to both repos automatically.
+Runs hourly via GitHub Actions. Commits to both repos automatically.
 
 ## Classification
 
-Each job is sent to Claude Haiku 4.5 with a structured prompt that extracts:
+Each job is sent to Claude with a structured prompt that extracts:
 
-- **BUILDER** — is this a role where the person primarily writes code?
-- **SUMMARY** — 1–2 sentence description in imperative voice
+- **BUILDER** — does this role primarily write code?
+- **SUMMARY** — 1–2 sentence description
 - **SKILLS** — up to 8 specific technologies, languages, or tools
 - **LEVEL** — intern / junior / mid / senior / staff / principal / manager
 - **COMP** — base salary range with original currency symbol
 - **HYBRID / CONTRACT** — work arrangement flags
 
-Only roles classified as builder engineering are rendered to the board. Contract roles are filtered out.
+Non-engineering and contract roles are filtered out.
 
 ## Supported ATS
 
-| ATS | Scraper |
-|---|---|
-| Greenhouse | `scrapers/ats_greenhouse.py` |
-| Lever | `scrapers/ats_lever.py` |
-| Ashby | `scrapers/ats_ashby.py` |
-| SmartRecruiters | `scrapers/ats_smartrecruiters.py` |
+| ATS | Companies | Scraper |
+|---|---|---|
+| Ashby | 390 | `scrapers/ats_ashby.py` |
+| Greenhouse | 257 | `scrapers/ats_greenhouse.py` |
+| Lever | 82 | `scrapers/ats_lever.py` |
+| BambooHR | 28 | `scrapers/ats_bamboo.py` |
+| Breezy | 22 | `scrapers/ats_breezy.py` |
+| Workable | 17 | `scrapers/ats_workable.py` |
+| SmartRecruiters | 2 | `scrapers/ats_smartrecruiters.py` |
+
+## Company sources
+
+~5,000 candidates in `data/company_names.txt`, sourced from:
+
+- **Y Combinator** — all active batches via Algolia (`tools/discover_yc_companies.py`)
+- **VC portfolios** — Founders Fund, Khosla Ventures (`tools/discover_vc_companies.py`)
+- **Industry curation** — Claude-enumerated top companies across 20+ sectors (`tools/discover_industry_companies.py`)
+
+ATS detection (`tools/discover_companies.py`) runs over the candidate list and populates `data/companies.json` with confirmed companies and their slugs.
 
 ## Rolling window
 
-Jobs first seen more than **14 days** ago are dropped from the board and their `.md` files deleted. `seen_jobs.json` is a permanent registry of every job ID ever seen with its original `first_seen` timestamp — this prevents a long-running posting that ages out from being re-classified as new when it reappears.
+Jobs older than **14 days** are dropped and their `.md` files deleted. `seen_jobs.json` is a permanent ID registry — prevents re-surfacing long-running postings that age out and reappear.
 
-New companies are archived on first fetch to avoid flooding the board with a large initial batch. Only postings that appear on subsequent runs are surfaced as new.
+New companies are archived on first fetch so their existing backlog doesn't flood the board. Only jobs that appear on subsequent runs are treated as new.
 
 ## Setup
 
@@ -52,25 +65,12 @@ git clone https://github.com/zachproffitt/builder-jobs-scraper
 git clone https://github.com/zachproffitt/builder-jobs
 ```
 
-Install dependencies:
-
 ```bash
 pip install -r requirements.txt
-```
-
-Set your Anthropic API key:
-
-```bash
 export ANTHROPIC_API_KEY=...
 ```
 
 Run the full pipeline:
-
-```bash
-./pipeline.sh
-```
-
-Or individual steps from the repo root:
 
 ```bash
 PYTHONPATH=. python pipeline/fetch_jobs.py
@@ -85,18 +85,11 @@ PYTHONPATH=. python pipeline/generate_index.py ../jobs
 
 | File | Description |
 |---|---|
-| `data/companies.json` | 328 companies: name, ATS, slug, website |
+| `data/company_names.txt` | ~5,000 candidate companies: name \| domain |
+| `data/companies.json` | Confirmed companies with detected ATS and slug |
 | `data/seen_jobs.json` | Permanent ID registry: `{job_id: first_seen_date}` |
 | `data/seen_companies.json` | First-fetch registry per company |
-| `data/jobs_raw.json` | Rolling 14-day window of listings with descriptions |
+| `data/jobs_raw.json` | Rolling 14-day window of listings with descriptions (not committed) |
 | `data/jobs_classified.json` | Claude inference results per job ID |
 | `data/companies_classified.json` | Company summaries used in rendered output |
 | `data/pipeline.log` | Error log across all pipeline steps |
-
-## Configuration
-
-| Variable | Default | Description |
-|---|---|---|
-| `LLM_BACKEND` | `claude` | `claude` or `ollama` for local inference |
-| `WINDOW_DAYS` | `14` | Rolling window in days |
-| `WORKERS` | `5` | Concurrent Claude API requests during classification |
