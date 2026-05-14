@@ -22674,5 +22674,18 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "65e1ec7f"
+  },
+  "ashby-oneleet-0c5d6703-90da-4f41-9778-f3f8bfb79ea8": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "de92bb19"
   }
 }
