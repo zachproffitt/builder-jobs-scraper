@@ -22050,5 +22050,151 @@
       "equity"
     ],
     "source_hash": "1044ffff"
+  },
+  "lever-form-80d823e3-03f5-4a3e-a772-3a47f786f526": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f8433fb7"
+  },
+  "greenhouse-wayve-8549413002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$82,000-$102,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "bd22a4fb"
+  },
+  "greenhouse-scopely-5070430008": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build robust test automation frameworks for mobile, web, and game platforms, automating gameplay features and user engagement flows at scale. Work on top-grossing casino games with a focus on converting manual tests into scalable automated test suites integrated into CI/CD pipelines.",
+    "skills": [
+      "Python",
+      "Appium",
+      "CI/CD",
+      "Unity"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c8868c33"
+  },
+  "greenhouse-wayve-8545371002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Optimize ML inference performance for large transformer models running on edge accelerators and GPUs in autonomous vehicles. Profile and implement optimizations across the full inference stack\u2014from model graph to kernel execution\u2014ensuring production-grade reliability on low-power, cost-constrained in-vehicle hardware.",
+    "skills": [
+      "CUDA",
+      "TensorRT",
+      "C++",
+      "Python",
+      "NVIDIA Orin",
+      "Qualcomm QNN",
+      "Kernel optimization",
+      "Quantization-aware performance"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "47acc11e"
+  },
+  "greenhouse-scopely-5215955008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6d02fa7b"
+  },
+  "greenhouse-scopely-5216135008": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and deploy advanced AI systems for conversational analytics, knowledge bases, QA automation, and in-game intelligent experiences. Lead AI infrastructure including model deployment workflows, performance tuning, and production observability for a major mobile games platform at scale.",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "AWS",
+      "Docker",
+      "Agentic AI",
+      "LLMs",
+      "Distributed Systems",
+      "MLOps"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c8d81cc1"
+  },
+  "ashby-meticulous-dd1a8b2d-1087-46cd-af64-999fdaacfec6": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7e63dda5"
+  },
+  "greenhouse-tenableinc-5219551008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "948c2ee5"
+  },
+  "greenhouse-intercom-7925313": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Design and build distributed systems for pricing configuration, packaging, trial mechanics, paywalls, and billing integrations that directly impact revenue. Work across a fast-changing environment where pricing correctness and data integrity are critical, with direct revenue impact from every deployment.",
+    "skills": [
+      "backend engineering",
+      "distributed systems",
+      "Stripe",
+      "Salesforce CPQ",
+      "React",
+      "PostgreSQL",
+      "AI-assisted development",
+      "system design"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "0407c5be"
+  },
+  "greenhouse-vectranetworks-7895100": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8da14d97"
   }
 }
