@@ -13,6 +13,15 @@ render_jobs.py             write one .md per engineering role → builder-jobs/j
 generate_index.py          regenerate README.md in builder-jobs
 ```
 
+## Actions
+
+| Workflow | Schedule | What it does |
+|---|---|---|
+| **Jobs** | Hourly | Fetch listings → classify → render → publish to builder-jobs |
+| **Companies** | Sundays | Discover new companies from YC, VC portfolios, and industry curation → detect ATS |
+
+Both workflows write a step summary visible in the Actions dashboard. Logs are committed with each run (`data/pipeline.log`, `data/discovery.log`).
+
 Runs hourly via GitHub Actions. Commits to both repos automatically.
 
 ## Classification
@@ -95,4 +104,5 @@ PYTHONPATH=. python pipeline/generate_index.py ../jobs
 | `data/jobs_raw.json` | Rolling 14-day window of listings with descriptions (not committed) |
 | `data/jobs_classified.json` | Claude inference results per job ID |
 | `data/companies_classified.json` | Company summaries used in rendered output |
-| `data/pipeline.log` | Error log across all pipeline steps |
+| `data/pipeline.log` | Log for the Jobs workflow (cleared each run) |
+| `data/discovery.log` | Log for the Companies workflow (cleared each run) |

@@ -42,6 +42,8 @@ def scrape(company: str, slug: str) -> list[Job]:
             offset += limit
     except httpx.HTTPError as e:
         raise ScraperError(f"Workday request failed for {slug}: {e}") from e
+    except Exception as e:
+        raise ScraperError(f"Workday unexpected error for {slug}: {e}") from e
 
     jobs = []
     for item in all_postings:

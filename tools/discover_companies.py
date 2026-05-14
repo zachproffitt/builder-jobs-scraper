@@ -30,9 +30,20 @@ names), edit data/companies.json directly. That entry is skipped on future runs.
 import json
 import re
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 import httpx
+
+LOG_FILE = Path("data/discovery.log")
+
+
+def log(msg: str) -> None:
+    ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+    line = f"[{ts}] [ats] {msg}"
+    print(line)
+    with LOG_FILE.open("a") as f:
+        f.write(line + "\n")
 
 NAMES_FILE = Path("data/company_names.txt")
 COMPANIES_FILE = Path("data/companies.json")
@@ -48,7 +59,7 @@ CAREERS_FALLBACK_PATHS = ["/careers", "/jobs", "/work-with-us", "/join"]
 _GH_EMBED = re.compile(r"greenhouse\.io/embed[^?]*\?for=([A-Za-z0-9_-]+)", re.I)
 _GH_BOARD = re.compile(r"(?:boards|job-boards(?:\.eu)?)\.greenhouse\.io/([A-Za-z0-9_-]+)", re.I)
 # Slugs that are generic page names, not real ATS board IDs
-_SLUG_BLACKLIST = {"embed", "job_board", "jobs", "careers", "apply", "boards"}
+_SLUG_BLACKLIST = {"embed", "job_board", "jobs", "careers", "apply", "boards", "assets-cdn", "assets", "cdn", "static"}
 
 # ATS patterns: (regex, ats_name, group_for_slug)
 # Supported = scraper exists; detected = saves to companies.json but fetch skips with [skip]
@@ -348,28 +359,22 @@ def main():
 
         supported_count = len(newly_found)
         unsupported_count = len(detected_unsupported) if "detected_unsupported" in dir() else 0
-        print(f"\nResolved: {supported_count} supported, {unsupported_count} detected (no scraper yet).")
+        log(f"Resolved: {supported_count} supported, {unsupported_count} detected (no scraper), {len(unresolved)} not found")
 
         if "detected_unsupported" in dir() and detected_unsupported:
-            print(f"\nDetected ATS with no scraper — will be skipped in fetch ({len(detected_unsupported)}):")
             by_ats: dict[str, list[str]] = {}
             for name, ats, slug in detected_unsupported:
                 by_ats.setdefault(ats, []).append(name)
             for ats in sorted(by_ats):
-                print(f"  [{ats}] {', '.join(by_ats[ats])}")
-            ats_list = "/".join(sorted(by_ats))
-            print(f"\n  → Build scrapers/ats_<name>.py for: {ats_list}")
+                log(f"No scraper for [{ats}]: {', '.join(by_ats[ats])}")
 
-        if unresolved:
-            print(f"\nCould not detect ATS ({len(unresolved)}) — check careers page manually:")
-            for name, domain in unresolved:
-                print(f"  - {name} ({domain})")
-            print("\nAdd resolved entries directly to data/companies.json.")
+        for name, domain in unresolved:
+            log(f"ATS not detected: {name} ({domain})")
 
     # Write updated companies.json
     if changed:
         COMPANIES_FILE.write_text(json.dumps(list(existing.values()), indent=2))
-        print(f"\nWritten to {COMPANIES_FILE}")
+        log(f"Written to {COMPANIES_FILE}")
 
 
 if __name__ == "__main__":

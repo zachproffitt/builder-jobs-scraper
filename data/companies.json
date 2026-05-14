@@ -5962,14 +5962,6 @@
     "meta_description": "An API to issue multi-currency virtual and physical cards without a sponsor bank or third-party processor. Our easy to integrate API technology is developer-first, making the integration process quick and straightforward"
   },
   {
-    "name": "Unlayer",
-    "ats": "breezy",
-    "slug": "assets-cdn",
-    "website": "https://unlayer.com",
-    "category": [],
-    "meta_description": "Unlayer is the best embeddable, white-label email, page & document builder for SaaS. Integrate via API to give users powerful, no-code design tools."
-  },
-  {
     "name": "UpEquity",
     "ats": "bamboo",
     "slug": "upequity",

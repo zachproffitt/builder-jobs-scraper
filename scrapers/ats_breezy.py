@@ -14,8 +14,16 @@ def scrape(company: str, slug: str) -> list[Job]:
     except httpx.HTTPError as e:
         raise ScraperError(f"Breezy request failed for {slug}: {e}") from e
 
+    try:
+        data = r.json()
+    except Exception as e:
+        raise ScraperError(f"Breezy JSON parse failed for {slug}: {e}") from e
+
+    if not isinstance(data, list):
+        raise ScraperError(f"Breezy unexpected response shape for {slug}: {type(data).__name__}")
+
     jobs = []
-    for item in r.json():
+    for item in data:
         pub = item.get("published_date", "")
         try:
             posted_at = datetime.fromisoformat(pub.replace("Z", "+00:00")).date() if pub else None

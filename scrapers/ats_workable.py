@@ -18,8 +18,13 @@ def scrape(company: str, slug: str) -> list[Job]:
     except httpx.HTTPError as e:
         raise ScraperError(f"Workable request failed for {slug}: {e}") from e
 
+    try:
+        data = r.json()
+    except Exception as e:
+        raise ScraperError(f"Workable JSON parse failed for {slug}: {e}") from e
+
     jobs = []
-    for item in r.json().get("results", []):
+    for item in data.get("results", []):
         pub = item.get("published", "")
         try:
             posted_at = datetime.fromisoformat(pub.replace("Z", "+00:00")).date() if pub else None

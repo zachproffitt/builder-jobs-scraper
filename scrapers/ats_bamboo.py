@@ -23,8 +23,13 @@ def scrape(company: str, slug: str) -> list[Job]:
     except httpx.HTTPError as e:
         raise ScraperError(f"BambooHR request failed for {slug}: {e}") from e
 
+    try:
+        data = r.json()
+    except Exception as e:
+        raise ScraperError(f"BambooHR JSON parse failed for {slug}: {e}") from e
+
     jobs = []
-    for item in r.json().get("result", []):
+    for item in data.get("result", []):
         job_id = str(item["id"])
         loc = item.get("location", {})
         city = loc.get("city") or ""

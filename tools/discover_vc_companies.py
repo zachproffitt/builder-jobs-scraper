@@ -21,12 +21,22 @@ TODO (needs better name extraction — og:title returns marketing slogans):
 
 import re
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 import httpx
 
 COMPANY_NAMES_FILE = Path("data/company_names.txt")
+LOG_FILE = Path("data/discovery.log")
 HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"}
+
+
+def log(msg: str) -> None:
+    ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+    line = f"[{ts}] [vc] {msg}"
+    print(line)
+    with LOG_FILE.open("a") as f:
+        f.write(line + "\n")
 
 NOISE_DOMAINS = {
     "cdn", "fonts", "google", "twitter", "linkedin", "facebook",
@@ -75,7 +85,7 @@ def scrape_founders_fund(client: httpx.Client) -> list[tuple[str, str]]:
         page += 1
         if len(results) >= (total or 999):
             break
-    print(f"  Founders Fund: {len(results)} companies")
+    log(f"Founders Fund: {len(results)} companies")
     return results
 
 
@@ -95,7 +105,7 @@ def scrape_khosla(client: httpx.Client) -> list[tuple[str, str]]:
         domain = clean_domain(url)
         if name and domain and name.lower() != "icon link":
             results.append((name, domain))
-    print(f"  Khosla Ventures: {len(results)} companies")
+    log(f"Khosla Ventures: {len(results)} companies")
     return results
 
 
@@ -130,13 +140,14 @@ def main():
 
     with httpx.Client(headers=HEADERS, follow_redirects=True) as client:
         for vc_name, scraper in VC_SCRAPERS:
-            print(f"\nScraping {vc_name}...")
+            log(f"Scraping {vc_name}...")
             try:
                 companies = scraper(client)
             except Exception as e:
-                print(f"  ERROR: {e}")
+                log(f"ERROR: {vc_name} scraper failed: {e}")
                 continue
 
+            new_from_vc = 0
             for name, domain in companies:
                 domain_bare = domain.lower().lstrip("www.")
                 if name.lower() in existing_names or domain_bare in existing_domains:
@@ -144,12 +155,14 @@ def main():
                 all_new.append((name, domain))
                 existing_names.add(name.lower())
                 existing_domains.add(domain_bare)
+                new_from_vc += 1
+            log(f"{vc_name}: {new_from_vc} new companies")
 
     all_new.sort(key=lambda x: x[0].lower())
-    print(f"\nTotal new companies across all VCs: {len(all_new)}")
+    log(f"Total new companies across all VCs: {len(all_new)}")
 
     if not all_new:
-        print("Nothing to add.")
+        log("Nothing to add.")
         return
 
     if dry_run:
@@ -163,8 +176,7 @@ def main():
         existing_text += "\n"
     additions = "\n".join(f"{name} | {domain}" for name, domain in all_new)
     COMPANY_NAMES_FILE.write_text(existing_text + additions + "\n")
-    print(f"Added {len(all_new)} companies to {COMPANY_NAMES_FILE}")
-    print("Run: PYTHONPATH=. python tools/discover_companies.py")
+    log(f"Added {len(all_new)} companies to {COMPANY_NAMES_FILE}")
 
 
 if __name__ == "__main__":

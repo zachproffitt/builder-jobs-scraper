@@ -12,12 +12,22 @@ Usage:
 import json
 import sys
 import time
+from datetime import datetime, timezone
 from pathlib import Path
 
 import anthropic
 
 COMPANY_NAMES_FILE = Path("data/company_names.txt")
+LOG_FILE = Path("data/discovery.log")
 MODEL = "claude-haiku-4-5-20251001"
+
+
+def log(msg: str) -> None:
+    ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+    line = f"[{ts}] [industry] {msg}"
+    print(line)
+    with LOG_FILE.open("a") as f:
+        f.write(line + "\n")
 
 INDUSTRIES_PROMPT = """List comprehensive industry categories for tech and software engineering companies.
 Cover the major sectors where software engineers actively work and that have notable hiring activity.
@@ -57,7 +67,7 @@ def fetch_industries(client: anthropic.Anthropic) -> list[str]:
         if isinstance(industries, list) and all(isinstance(i, str) for i in industries):
             return industries
     except Exception as e:
-        print(f"Failed to fetch industry list: {e}")
+        log(f"ERROR: Failed to fetch industry list: {e}")
     return []
 
 
@@ -99,7 +109,7 @@ def query_haiku(client: anthropic.Anthropic, industry: str) -> list[tuple[str, s
                 continue
         return results
     except Exception as e:
-        print(f"  API error: {e}")
+        log(f"ERROR: API error for '{industry}': {e}")
         return []
 
 
@@ -108,21 +118,18 @@ def main():
     client = anthropic.Anthropic()
     existing_names, existing_domains = load_existing(COMPANY_NAMES_FILE)
 
-    print("Fetching industry categories from Claude...")
+    log("Fetching industry categories from Claude...")
     industries = fetch_industries(client)
     if not industries:
-        print("Could not fetch industry list. Exiting.")
+        log("ERROR: Could not fetch industry list — aborting")
         sys.exit(1)
-    print(f"Got {len(industries)} industries")
+    log(f"Got {len(industries)} industries")
 
     all_new: list[tuple[str, str]] = []
-    industry_gaps: dict[str, list[tuple[str, str]]] = {}
 
     for industry in industries:
         label = industry.split("(")[0].strip()
-        print(f"\n{label}...")
         companies = query_haiku(client, industry)
-        print(f"  Haiku returned {len(companies)} companies")
 
         new_here = []
         for name, domain in companies:
@@ -134,20 +141,13 @@ def main():
             existing_domains.add(domain_bare)
             all_new.append((name, domain))
 
-        if new_here:
-            industry_gaps[label] = new_here
-            for name, domain in new_here:
-                print(f"  + {name} | {domain}")
-        else:
-            print("  (all already in list)")
-
+        log(f"{label}: {len(companies)} returned, {len(new_here)} new")
         time.sleep(0.5)
 
-    print(f"\n{'='*50}")
-    print(f"Total new companies: {len(all_new)}")
+    log(f"Total new companies: {len(all_new)}")
 
     if not all_new:
-        print("Nothing to add.")
+        log("Nothing to add.")
         return
 
     all_new.sort(key=lambda x: x[0].lower())
@@ -163,8 +163,7 @@ def main():
         existing_text += "\n"
     additions = "\n".join(f"{name} | {domain}" for name, domain in all_new)
     COMPANY_NAMES_FILE.write_text(existing_text + additions + "\n")
-    print(f"\nAdded {len(all_new)} companies to {COMPANY_NAMES_FILE}")
-    print("Run: PYTHONPATH=. python tools/discover_companies.py")
+    log(f"Added {len(all_new)} companies to {COMPANY_NAMES_FILE}")
 
 
 if __name__ == "__main__":
