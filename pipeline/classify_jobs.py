@@ -104,6 +104,8 @@ Extract the following. Use judgment — if the description gives strong signals,
    0-2 → junior, 2-5 → mid, 5-10 → senior, 10+ → staff
    If no signal at all → unclear
 
+   Important: "Member of Technical Staff" and "Member of the Technical Staff" are job title conventions at some companies, not seniority indicators — ignore "Staff" in that phrase. Look for a seniority keyword elsewhere in the title (e.g. "Member of Technical Staff, Senior" → senior) or fall back to experience years.
+
    Respond with exactly one of: intern / junior / mid / senior / staff / principal / manager / unclear
 
 5. CONTRACT: Is this a contract, temporary, or fixed-term position rather than permanent full-time employment?
