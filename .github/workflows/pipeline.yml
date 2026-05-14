@@ -1,4 +1,4 @@
-name: Hourly pipeline
+name: Jobs
 
 on:
   schedule:
