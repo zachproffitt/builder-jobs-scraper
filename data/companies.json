@@ -6183,5 +6183,218 @@
     "website": "https://www.getzuma.com",
     "category": [],
     "meta_description": "Every team needs a Kelsey. The only AI in multifamily for leasing and collections assistant that comes with human back-up.  Boost your NOI with Kelsey!"
+  },
+  {
+    "name": "DeepMind",
+    "ats": "greenhouse",
+    "slug": "deepmind",
+    "website": "https://deepmind.com",
+    "category": []
+  },
+  {
+    "name": "Honey Homes",
+    "ats": "ashby",
+    "slug": "Honey",
+    "website": "https://honeyhomes.com",
+    "category": [],
+    "meta_description": "One trusted handyman for all your home projects, managed in a simple app."
+  },
+  {
+    "name": "Outsmart College",
+    "ats": "ashby",
+    "slug": "Outsmart",
+    "website": "https://outsmartcollege.com",
+    "category": [],
+    "meta_description": "Join the waitlist and see why higher education will never again be the same."
+  },
+  {
+    "name": "Proclaim",
+    "ats": "lever",
+    "slug": "freshhealth",
+    "website": "https://proclaimhealth.com",
+    "category": [],
+    "meta_description": "Proclaim is a revolutionary, at-home, custom-jet oral irrigator that provides patients with the easiest, fastest, most effective at-home oral care."
+  },
+  {
+    "name": "AeroVironment",
+    "ats": "workday",
+    "slug": "avav",
+    "website": "https://avinc.com",
+    "category": [],
+    "meta_description": "AV is a leading manufacturer of Unmanned Aircraft Systems, Unmanned Aerial Vehicles, Loitering Munition Systems, Unmanned Ground Vehicles used for surveillance and reconnaissance by the United States Military, U.S. allies and Commercial Industries. AV also manufactures High-Altitude Pseudo-Satellites."
+  },
+  {
+    "name": "Anthem Health",
+    "ats": "workday",
+    "slug": "elevancehealth",
+    "website": "https://anthem.com",
+    "category": [],
+    "meta_description": "Official Site of Anthem Blue Cross Blue Shield, a trusted health insurance plan provider. Shop plans for Medicare, Medical, Dental, Vision & Employers."
+  },
+  {
+    "name": "Arm",
+    "ats": "icims",
+    "slug": "earlycareers-arm",
+    "website": "https://arm.com",
+    "category": [],
+    "meta_description": "From cloud to edge, Arm provides the compute platforms behind today\u2019s most advanced AI, trusted by innovators worldwide."
+  },
+  {
+    "name": "Aurora Innovation",
+    "ats": "lever",
+    "slug": "aurora-dev",
+    "website": "https://aurora.dev",
+    "category": [],
+    "meta_description": "Virtual Chains are fully customizable, EVM-compatible chains that run as smart contracts on NEAR. Virtual Chains offer developers the scalability and speed they need, without the high costs and complexity of setting up a traditional L2 infrastructure."
+  },
+  {
+    "name": "Boeing Defense, Space & Security",
+    "ats": "workday",
+    "slug": "boeing",
+    "website": "https://boeing.com",
+    "category": [],
+    "meta_description": "Discover news and information about The Boeing Company, a leading global aerospace company that develops, manufactures and services commercial airplanes, defense products and space systems."
+  },
+  {
+    "name": "Clearpath Robotics",
+    "ats": "workday",
+    "slug": "rockwellautomation",
+    "website": "https://clearpathrobotics.com",
+    "category": [],
+    "meta_description": "Clearpath Robotics&#039; fleet of mobile robotic platforms enable researchers and corporations to accelerate their robotics research and development."
+  },
+  {
+    "name": "Galaxy Digital",
+    "ats": "greenhouse",
+    "slug": "galaxydigitalservices",
+    "website": "https://galaxydigital.io",
+    "category": [],
+    "meta_description": "Galaxy, a global leader in digital assets and AI infrastructure, serves institutions, startups, protocols, and investors. Gain access to the crypto economy."
+  },
+  {
+    "name": "Inari Medical",
+    "ats": "workday",
+    "slug": "inarimedical",
+    "website": "https://inarimedical.com",
+    "category": []
+  },
+  {
+    "name": "Interactive Brokers",
+    "ats": "greenhouse",
+    "slug": "ibkr",
+    "website": "https://interactivebrokers.com",
+    "category": [],
+    "meta_description": "Leading online trading solutions for traders, investors and advisors, with direct global access to stocks, options, futures, currencies, bonds and funds. Transparent, low commissions and financing rates and support for best execution."
+  },
+  {
+    "name": "Keboola",
+    "ats": "lever",
+    "slug": "keboola",
+    "website": "https://keboola.com",
+    "category": [],
+    "meta_description": "Your board wants AI. Your data isn't ready. Keboola is the governed data foundation CFOs deploy before AI \u2014 live in eight weeks."
+  },
+  {
+    "name": "Lambda Labs",
+    "ats": "ashby",
+    "slug": "lambda",
+    "website": "https://lambdalabs.com",
+    "category": [],
+    "meta_description": "Cloud GPUs, on-demand clusters, private cloud, and hardware for AI training and inference. Run B200 and H100, deploy fast, and scale cost effectively."
+  },
+  {
+    "name": "Meltano",
+    "ats": "greenhouse",
+    "slug": "meltano",
+    "website": "https://meltano.com",
+    "category": [],
+    "meta_description": "Meltano is the ETL platform analytics engineers rely on. 500+ connectors, flat predictable pricing, and full control of your pipelines."
+  },
+  {
+    "name": "Omada Health",
+    "ats": "greenhouse",
+    "slug": "omadahealth",
+    "website": "https://omadahealth.com",
+    "category": [],
+    "meta_description": "Omada is a virtual care solution with personalized chronic disease management programs designed to adapt to every member. Check your eligibility today!"
+  },
+  {
+    "name": "Qualys",
+    "ats": "workday",
+    "slug": "qualys",
+    "website": "https://qualys.com",
+    "category": [],
+    "meta_description": "Discover how Qualys helps your business measure & eliminate cyber threats through a host of cybersecurity detection & remediation tools. Try it today!"
+  },
+  {
+    "name": "Quantropi",
+    "ats": "bamboo",
+    "slug": "quantropi",
+    "website": "https://quantropi.com",
+    "category": [],
+    "meta_description": "Protect your data today and tomorrow from quantum security threats with Quantropi! We provide data security powered by quantum mechanics."
+  },
+  {
+    "name": "Remitly",
+    "ats": "workday",
+    "slug": "remitly",
+    "website": "https://remitly.com",
+    "category": [],
+    "meta_description": "Send money online faster and more securely with Remitly, and discover our great exchange rates and low money transfer fees."
+  },
+  {
+    "name": "Rockwell Automation",
+    "ats": "workday",
+    "slug": "rockwellautomation",
+    "website": "https://rockwellautomation.com",
+    "category": []
+  },
+  {
+    "name": "Sailpoint",
+    "ats": "workday",
+    "slug": "sailpoint",
+    "website": "https://sailpoint.com",
+    "category": [],
+    "meta_description": "One platform to secure every identity! See how to dynamically adjust access, automate decisions, and enforce least privilege as threats evolve."
+  },
+  {
+    "name": "Sisense",
+    "ats": "greenhouse",
+    "slug": "sisense",
+    "website": "https://sisense.com",
+    "category": [],
+    "meta_description": "Sisense delivers AI-powered embedded analytics to unlock insights and convert data into revenue with pro-code, low-code, and no-code flexibility"
+  },
+  {
+    "name": "SunPower",
+    "ats": "breezy",
+    "slug": "sunpower",
+    "website": "https://sunpower.com",
+    "category": [],
+    "meta_description": "We provide residential solar, battery storage, and custom solutions for homes, built to last with quality and backed by decades of solar expertise."
+  },
+  {
+    "name": "Teladoc Health",
+    "ats": "workday",
+    "slug": "teladoc",
+    "website": "https://teladoc.com",
+    "category": [],
+    "meta_description": "Get 24/7 access to doctors, mental health support and specialty care with virtual healthcare and telehealth solutions for individuals and organizations from Teladoc Health."
+  },
+  {
+    "name": "Tenable",
+    "ats": "greenhouse",
+    "slug": "tenableinc",
+    "website": "https://tenable.com",
+    "category": [],
+    "meta_description": "The leader in exposure management and AI security, Tenable cybersecurity solutions reduce cyber risk across IT, OT, cloud, identity & hybrid attack surfaces."
+  },
+  {
+    "name": "Veradigm",
+    "ats": "workday",
+    "slug": "veradigm",
+    "website": "https://veradigm.com",
+    "category": [],
+    "meta_description": "Based on validated and trusted data sources, technologies, and methodologies, our broad spectrum of healthcare solutions meet critical needs at every level o..."
   }
 ]
