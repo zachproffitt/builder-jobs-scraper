@@ -62,7 +62,7 @@ def scrape(company: str, slug: str) -> list[Job]:
             id=f"workday-{tenant}-{native_id}",
             company=company,
             company_slug=slug,
-            title=item["title"],
+            title=item.get("title") or item.get("jobTitle", ""),
             url=job_url,
             source="workday",
             location=location,
