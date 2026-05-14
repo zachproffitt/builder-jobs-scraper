@@ -21447,23 +21447,23 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": true,
-    "job_summary": "Build and operate production networking infrastructure across multiple data centers, including physical network design, routing protocols, and security. Develop network automation and tooling while scaling infrastructure for AI workloads at massive scale.",
+    "job_summary": "Design, deploy, and maintain high-performance networks across multiple data center sites powering Claude, writing software automation and tooling for network provisioning, configuration management, and operational workflows. Scale networks to new facilities while optimizing performance for large-scale AI training clusters and troubleshooting complex distributed systems spanning network, compute, and application layers.",
     "skills": [
       "Python",
       "Go",
-      "Linux",
       "BGP",
-      "OSPF",
       "Kubernetes",
       "AWS",
-      "Terraform"
+      "GCP",
+      "Azure",
+      "Linux"
     ],
-    "level": "senior",
-    "comp": "$320k-$405k",
+    "level": "staff",
+    "comp": "$320,000\u2014$405,000",
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "c25246ba"
+    "source_hash": "de760130"
   },
   "ashby-openai-4f7ccd3c-0f85-4384-a310-d751993ed431": {
     "is_engineering": false,
@@ -23073,5 +23073,366 @@
       "bonus"
     ],
     "source_hash": "1cd425e1"
+  },
+  "greenhouse-stripe-7923653": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "38857c83"
+  },
+  "greenhouse-ionq-5986072004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Design and execute experiments on trapped-ion quantum processors, prototyping coherent control schemes and calibrating quantum systems to achieve ultra-low gate errors. Work hands-on with current hardware while validating emerging trap technologies and analyzing complex hardware/software interactions to push quantum computing performance at scale.",
+    "skills": [
+      "Trapped ion physics",
+      "Quantum control",
+      "Python",
+      "Atomic/molecular/optical physics",
+      "Gate fidelity benchmarking",
+      "Spectroscopy",
+      "Data analysis",
+      "PhD Required"
+    ],
+    "level": "senior",
+    "comp": "$126,887-$166,127",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "1e277716"
+  },
+  "greenhouse-anthropic-5219454008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": "$320,000\u2014$405,000 USD",
+    "comp_extras": [],
+    "source_hash": "158ad6a7"
+  },
+  "greenhouse-stripe-7896519": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "55a2fb78"
+  },
+  "ashby-openai-57b9ce42-b17f-4b43-96b3-a67d9d705d5d": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Lead the measurement and performance intelligence function for OpenAI's compute platforms, defining metrics, benchmarking methodologies, and acceptance criteria across hardware and software systems. Partner with training, inference, and infrastructure teams to translate performance data into architectural and capacity decisions at scale.",
+    "skills": [
+      "Distributed Systems",
+      "HPC",
+      "Performance Engineering",
+      "Benchmarking",
+      "AI/ML Infrastructure",
+      "Systems Architecture"
+    ],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d4938ddc"
+  },
+  "greenhouse-rocketlab-7730782003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7d248a7f"
+  },
+  "greenhouse-maymobility-8550013002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$84k-$105k",
+    "comp_extras": [],
+    "source_hash": "3158ed25"
+  },
+  "greenhouse-andurilindustries-5137718007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead a team of threat intelligence analysts and security engineers to conduct cyber threat research, vulnerability analysis, and adversary tracking for Anduril's defense systems and infrastructure. Build and maintain threat intelligence platforms, signature systems, and data integration pipelines while managing complex investigations into nation-state and supply chain threats targeting the defense industrial base.",
+    "skills": [
+      "Python",
+      "Go",
+      "Rust",
+      "YARA",
+      "Snort",
+      "Threat Intelligence",
+      "TS/SCI Clearance"
+    ],
+    "level": "manager",
+    "comp": "$129,000\u2014$220,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "bf244a83"
+  },
+  "greenhouse-andurilindustries-5137806007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and implement test strategies, validation approaches, and reliability safeguards for AI-enabled software, automation, and agentic workflows in fast-moving development pods. Build confidence in production systems through automated testing, observability, and operational standards while balancing speed with engineering rigor in an AI-first development model.",
+    "skills": [
+      "Python",
+      "CI/CD",
+      "Kubernetes",
+      "LLM applications",
+      "Distributed Systems",
+      "Infrastructure as Code",
+      "Observability",
+      "TS/SCI Clearance"
+    ],
+    "level": "senior",
+    "comp": "$191k-$253k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "2be9f2df"
+  },
+  "greenhouse-andurilindustries-5137803007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and implement test strategies, validation approaches, and operational safeguards for AI-enabled software, automation, and agentic workflows in a defense technology environment. Partner with software and AI engineers to identify failure modes across code, prompts, models, and infrastructure while building confidence in fast-moving solutions through automated testing and observability.",
+    "skills": [
+      "Python",
+      "CI/CD",
+      "Kubernetes",
+      "LLM applications",
+      "Distributed Systems",
+      "Infrastructure as Code",
+      "AWS",
+      "TS/SCI Clearance"
+    ],
+    "level": "senior",
+    "comp": "$191k-$253k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "99daddc9"
+  },
+  "greenhouse-scopely-5152236008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4afdb3f8"
+  },
+  "greenhouse-andurilindustries-5135784007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$111k-$147k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "231e05d9"
+  },
+  "greenhouse-scopely-5215597008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "34c74793"
+  },
+  "greenhouse-terrapowerllc-4248572009": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$138,685-$208,027",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "78db1774"
+  },
+  "greenhouse-natera-5817094004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$90k-$110k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "dc3ada22"
+  },
+  "greenhouse-natera-5822758004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$195,000\u2013$225,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "7a739377"
+  },
+  "workable-hokali-7A1D23BB64": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a1647aed"
+  },
+  "ashby-lambda-4803c790-6e11-4e82-ad5e-f07c79290760": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "85b58cfd"
+  },
+  "greenhouse-omadahealth-7859674": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$154,880-$202,400",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "5ca2457f"
+  },
+  "greenhouse-databricks-8463179002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$163.3k-$264.1k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "2e2a2744"
+  },
+  "greenhouse-mongodb-7831454": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7ca2409a"
+  },
+  "greenhouse-natera-5989216004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4f5f2087"
+  },
+  "greenhouse-observeai-5220793008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "375e706a"
+  },
+  "ashby-lambda-0663f04c-097d-414f-b0a0-414a7cf153d6": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build production security detections against Lambda's real log data, shipping code that fires on real events and routes to an on-call team. Work with LLM-based classifiers and rule-based systems to detect sensitive data exposure and identity/access pattern anomalies across AI cloud infrastructure.",
+    "skills": [
+      "Python",
+      "Go",
+      "LLMs",
+      "AWS",
+      "GCP",
+      "Log Analysis",
+      "Machine Learning",
+      "Security"
+    ],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "26ca0a2b"
+  },
+  "greenhouse-robinhood-7456663": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$86k-$130k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "1bc8aeb5"
   }
 }
