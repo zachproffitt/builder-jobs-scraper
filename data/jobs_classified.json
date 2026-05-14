@@ -21810,5 +21810,38 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "fd9ba163"
+  },
+  "greenhouse-scaleai-4618065005": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build production data processing pipelines, ML training infrastructure, and evaluation systems for robotics and autonomous vehicle datasets. Work across full-stack (Python, C++, React, TypeScript) to own critical robotics platform components serving cutting-edge AV and embodied AI customers at scale.",
+    "skills": [
+      "Python",
+      "TypeScript",
+      "React",
+      "C++",
+      "ROS2",
+      "Kubernetes",
+      "AWS",
+      "PostgreSQL"
+    ],
+    "level": "mid",
+    "comp": "$180k-$225k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "953f5032"
+  },
+  "ashby-supercell-0b27839f-b7a6-4a82-b1c4-0b7bd465317e": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "21be14db"
   }
 }
