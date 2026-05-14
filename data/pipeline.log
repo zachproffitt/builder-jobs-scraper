@@ -1,115 +1,590 @@
-[2026-05-14T13:45:50Z] fetch_jobs: scraper error for Eppo (ashby/eppo): Ashby request failed for eppo: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/eppo'
+[2026-05-13T14:59:20Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmQgVJNTeJAtBNYNQoq'} — retrying in 1s
+[2026-05-13T14:59:21Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmQj55QPrqyzbLxJttV'} — retrying in 1s
+[2026-05-13T14:59:21Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmQmLFpra6CuH8Ah3bN'} — retrying in 1s
+[2026-05-13T14:59:24Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmQxqoZXVVyR6vr6ynm'} — retrying in 1s
+[2026-05-13T14:59:28Z] classify_jobs: transient API error (attempt 2/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmREn1A8725tuw1YH2W'} — retrying in 2s
+[2026-05-13T14:59:28Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmRGaQ7gSap2PwzDW7U'} — retrying in 1s
+[2026-05-13T14:59:32Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmRYMBEsqYNvVvHR5Qe'} — retrying in 1s
+[2026-05-13T14:59:33Z] classify_jobs: transient API error (attempt 2/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmRbAMJXmCAeEptAhXg'} — retrying in 2s
+[2026-05-13T14:59:40Z] classify_jobs: transient API error (attempt 3/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmS9WHBy2mqEKeXkaX6'} — retrying in 4s
+[2026-05-13T14:59:45Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmSX4KboVAE1ikQutPK'} — retrying in 1s
+[2026-05-13T14:59:48Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmSm8f6J16a4hYBWBNV'} — retrying in 1s
+[2026-05-13T14:59:52Z] classify_jobs: transient API error (attempt 4/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmT4pGxmyJzbfBk6qLU'} — retrying in 8s
+[2026-05-13T14:59:53Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmT4rkpV4Hgwx2YvHmX'} — retrying in 1s
+[2026-05-13T14:59:55Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmTHCR2zv9BtMzannUq'} — retrying in 1s
+[2026-05-13T14:59:56Z] classify_jobs: transient API error (attempt 2/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmTJv6rpee8tw5fHAcd'} — retrying in 2s
+[2026-05-13T14:59:59Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmTXSv6JCHCC2LWGMJx'} — retrying in 1s
+[2026-05-13T15:00:06Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmU5xWifBtXJmcumtjZ'} — retrying in 1s
+[2026-05-13T15:00:14Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmUdHvTprDiFqttTTGA'} — retrying in 1s
+[2026-05-13T15:00:17Z] classify_jobs: transient API error (attempt 2/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmUs9cQCDtPHZqpGwGY'} — retrying in 2s
+[2026-05-13T15:00:17Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmUuYE1i4SvPZ5PCBqE'} — retrying in 1s
+[2026-05-13T15:00:22Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmVDeQ8AHveeDJSCxvE'} — retrying in 1s
+[2026-05-13T15:00:25Z] classify_jobs: transient API error (attempt 2/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmVVn1RZRoXBZcyfC6s'} — retrying in 2s
+[2026-05-13T15:00:26Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmVVxgAafY5Dd7LZQQu'} — retrying in 1s
+[2026-05-13T15:00:29Z] classify_jobs: transient API error (attempt 3/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmVnnTZ5drYYo7EP6wB'} — retrying in 4s
+[2026-05-13T15:00:30Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmVqvDgf3HH6C7Hn1GR'} — retrying in 1s
+[2026-05-13T15:00:34Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmW715H7V2nNVx25pN7'} — retrying in 1s
+[2026-05-13T15:00:36Z] classify_jobs: transient API error (attempt 3/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmWGzqyHc2MXS5J9oa1'} — retrying in 4s
+[2026-05-13T15:00:37Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmWNh95sKUthSFR8kwv'} — retrying in 1s
+[2026-05-13T15:00:39Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50 requests per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmWU7KzEfwmc9zBiyZG'} — retrying in 1s
+[2026-05-13T15:00:41Z] classify_jobs: transient API error (attempt 4/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmWeGmKYrEV8Vcvyiuo'} — retrying in 8s
+[2026-05-13T15:00:44Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmWtrMz3scj6ndGspEW'} — retrying in 1s
+[2026-05-13T15:00:46Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmX3NKyhdLiD3HKT7uY'} — retrying in 1s
+[2026-05-13T15:00:46Z] classify_jobs: transient API error (attempt 4/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmX3dT76xyz1qadoJVC'} — retrying in 8s
+[2026-05-13T15:00:53Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmXVXBsiBf6S12ZRPZ7'} — retrying in 1s
+[2026-05-13T15:00:53Z] classify_jobs: transient API error (attempt 2/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmXXAAFAwAbH9izHeRo'} — retrying in 2s
+[2026-05-13T15:00:58Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmXt32Kc3aKE3wwnoZz'} — retrying in 1s
+[2026-05-13T15:01:01Z] classify_jobs: transient API error (attempt 2/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmY7jY5vVXbgHe1gNTB'} — retrying in 2s
+[2026-05-13T15:01:01Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmY8f6T6NmQxzMoP57z'} — retrying in 1s
+[2026-05-13T15:01:06Z] classify_jobs: transient API error (attempt 2/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmYSPhUch1PcP8kRaCf'} — retrying in 2s
+[2026-05-13T15:01:06Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmYUDagd8jVS2RXFyEL'} — retrying in 1s
+[2026-05-13T15:01:09Z] classify_jobs: transient API error (attempt 2/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmYgRYnsuPmtW8BV1vW'} — retrying in 2s
+[2026-05-13T15:01:12Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmYxDaA8d2Kunm7Q9xD'} — retrying in 1s
+[2026-05-13T15:01:14Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmZ72twK3qAahs7wc1m'} — retrying in 1s
+[2026-05-13T15:01:17Z] classify_jobs: transient API error (attempt 3/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmZDgk4VmdnZYBZAZCF'} — retrying in 4s
+[2026-05-13T15:01:21Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmZYNtkmXnY7ZZw4QRN'} — retrying in 1s
+[2026-05-13T15:01:26Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazmZvxhFMHVdpjV7Au97'} — retrying in 1s
+[2026-05-13T15:17:31Z] fetch_jobs: scraper error for Firefly Aerospace (greenhouse/fireflyaerospace): Greenhouse request failed for fireflyaerospace: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/fireflyaerospace/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:45:54Z] fetch_jobs: scraper error for Akili Interactive (greenhouse/akiliinteractive): Greenhouse request failed for akiliinteractive: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/akiliinteractive/jobs'
+[2026-05-13T15:17:31Z] fetch_jobs: scraper error for Astrobotic (greenhouse/astrobotic): Greenhouse request failed for astrobotic: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/astrobotic/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:46:08Z] fetch_jobs: scraper error for SandboxAQ (greenhouse/sandboxaq): Greenhouse request failed for sandboxaq: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/sandboxaq/jobs'
+[2026-05-13T15:17:32Z] fetch_jobs: scraper error for Umbra (greenhouse/umbra): Greenhouse request failed for umbra: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/umbra/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:46:45Z] fetch_jobs: scraper error for Chainalysis (greenhouse/chainalysis): Greenhouse request failed for chainalysis: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/chainalysis/jobs'
+[2026-05-13T15:17:33Z] fetch_jobs: scraper error for Redwire (greenhouse/redwire): Greenhouse request failed for redwire: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/redwire/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:46:47Z] fetch_jobs: scraper error for TRM Labs (greenhouse/trmlabs): Greenhouse request failed for trmlabs: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/trmlabs/jobs'
+[2026-05-13T15:17:35Z] fetch_jobs: scraper error for QuEra Computing (greenhouse/quera): Greenhouse request failed for quera: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/quera/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:46:49Z] fetch_jobs: scraper error for Paxos (ashby/paxos-technology-solutions): Ashby request failed for paxos-technology-solutions: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/paxos-technology-solutions'
+[2026-05-13T15:17:36Z] fetch_jobs: scraper error for Xanadu (greenhouse/xanadu): Greenhouse request failed for xanadu: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/xanadu/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:46:52Z] fetch_jobs: scraper error for Rain Neuromorphics (ashby/rain-ai-jobs): Ashby request failed for rain-ai-jobs: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/rain-ai-jobs'
+[2026-05-13T15:17:36Z] fetch_jobs: scraper error for Quantinuum (lever/quantinuum): Lever request failed for quantinuum: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/quantinuum?mode=json'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:46:56Z] fetch_jobs: scraper error for Superhuman (greenhouse/grammarly): Greenhouse request failed for grammarly: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/grammarly/jobs'
+[2026-05-13T15:17:36Z] fetch_jobs: scraper error for Classiq (greenhouse/classiq): Greenhouse request failed for classiq: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/classiq/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:46:56Z] fetch_jobs: scraper error for Span (greenhouse/spanio): Greenhouse request failed for spanio: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/spanio/jobs'
+[2026-05-13T15:17:42Z] fetch_jobs: scraper error for TAE Technologies (greenhouse/tae-technologies): Greenhouse request failed for tae-technologies: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/tae-technologies/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:46:59Z] fetch_jobs: scraper error for Jasper (ashby/Jasper): Ashby request failed for Jasper: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Jasper'
+[2026-05-13T15:17:43Z] fetch_jobs: scraper error for General Fusion (greenhouse/general-fusion): Greenhouse request failed for general-fusion: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/general-fusion/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:47:01Z] fetch_jobs: scraper error for G2 (greenhouse/g2crowd): Greenhouse request failed for g2crowd: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/g2crowd/jobs'
+[2026-05-13T15:17:43Z] fetch_jobs: scraper error for Tokamak Energy (greenhouse/tokamak-energy): Greenhouse request failed for tokamak-energy: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/tokamak-energy/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:47:16Z] fetch_jobs: scraper error for Bumble (workday/bumble/wd3/Bumble_Careers): Workday request failed for bumble/wd3/Bumble_Careers: Client error '403 Forbidden' for url 'https://bumble.wd3.myworkdayjobs.com/wday/cxs/bumble/Bumble_Careers/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-05-14T13:47:18Z] fetch_jobs: scraper error for Buildxact (greenhouse/buildxact): Greenhouse request failed for buildxact: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/buildxact/jobs'
+[2026-05-13T15:17:44Z] fetch_jobs: scraper error for Covariant (greenhouse/covariant): Greenhouse request failed for covariant: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/covariant/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:47:18Z] fetch_jobs: scraper error for Copy.ai (lever/CopyAI): Lever request failed for CopyAI: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/CopyAI?mode=json'
+[2026-05-13T15:17:45Z] fetch_jobs: scraper error for Machina Labs (greenhouse/machina-labs): Greenhouse request failed for machina-labs: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/machina-labs/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:47:27Z] fetch_jobs: scraper error for Airweave (ashby/Airweave): Ashby request failed for Airweave: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Airweave'
+[2026-05-13T15:17:53Z] fetch_jobs: scraper error for Hugging Face (lever/hugging-face): Lever request failed for hugging-face: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/hugging-face?mode=json'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:47:32Z] fetch_jobs: scraper error for Athelas (ashby/Commure-Athelas): Ashby request failed for Commure-Athelas: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Commure-Athelas'
+[2026-05-13T15:17:53Z] fetch_jobs: scraper error for Aurora (greenhouse/aurora-innovation): Greenhouse request failed for aurora-innovation: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/aurora-innovation/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:47:36Z] fetch_jobs: scraper error for Blue Onion (ashby/Blue): Ashby request failed for Blue: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Blue'
+[2026-05-13T15:18:12Z] fetch_jobs: scraper error for Schrodinger (greenhouse/schrodinger): Greenhouse request failed for schrodinger: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/schrodinger/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:47:37Z] fetch_jobs: scraper error for BuildZoom (lever/buildzoom): Lever request failed for buildzoom: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/buildzoom?mode=json'
+[2026-05-13T15:18:13Z] fetch_jobs: scraper error for Groq (greenhouse/groq): Greenhouse request failed for groq: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/groq/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:47:41Z] fetch_jobs: scraper error for Cargo (greenhouse/airbyte): Greenhouse request failed for airbyte: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/airbyte/jobs'
+[2026-05-13T15:18:21Z] fetch_jobs: scraper error for Mythic (greenhouse/mythic): Greenhouse request failed for mythic: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/mythic/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:47:43Z] fetch_jobs: scraper error for Circular (greenhouse/nowcircular): Greenhouse request failed for nowcircular: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/nowcircular/jobs'
+[2026-05-13T15:18:21Z] fetch_jobs: scraper error for QuantumScape (greenhouse/quantumscape): Greenhouse request failed for quantumscape: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/quantumscape/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:47:45Z] fetch_jobs: scraper error for Common Paper (greenhouse/commonpaper): Greenhouse request failed for commonpaper: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/commonpaper/jobs'
+[2026-05-13T15:18:22Z] fetch_jobs: scraper error for Northvolt (greenhouse/northvolt): Greenhouse request failed for northvolt: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/northvolt/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:47:46Z] fetch_jobs: scraper error for Coris (ashby/coris): Ashby request failed for coris: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/coris'
+[2026-05-13T15:18:25Z] fetch_jobs: scraper error for CD Projekt Red (greenhouse/cdprojektred): Greenhouse request failed for cdprojektred: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/cdprojektred/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:47:50Z] fetch_jobs: scraper error for Demodesk (greenhouse/demodesk): Greenhouse request failed for demodesk: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/demodesk/jobs'
+[2026-05-13T15:18:25Z] fetch_jobs: scraper error for Remedy Entertainment (greenhouse/remedy): Greenhouse request failed for remedy: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/remedy/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:47:50Z] fetch_jobs: scraper error for DirectShifts (greenhouse/directshifts): Greenhouse request failed for directshifts: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/directshifts/jobs'
+[2026-05-13T15:18:25Z] fetch_jobs: scraper error for Unity Technologies (greenhouse/unity-technologies): Greenhouse request failed for unity-technologies: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/unity-technologies/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:48:01Z] fetch_jobs: scraper error for Gerald Technologies, Inc (lever/joingerald): Lever request failed for joingerald: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/joingerald?mode=json'
+[2026-05-13T15:18:25Z] fetch_jobs: scraper error for Synchron (greenhouse/synchron): Greenhouse request failed for synchron: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/synchron/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:48:01Z] fetch_jobs: scraper error for Goldbelly (greenhouse/goldbelly): Greenhouse request failed for goldbelly: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/goldbelly/jobs'
+[2026-05-13T15:18:25Z] fetch_jobs: scraper error for Precision Neuroscience (greenhouse/precision-neuroscience): Greenhouse request failed for precision-neuroscience: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/precision-neuroscience/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:48:02Z] fetch_jobs: scraper error for Gordian Software (ashby/Gordian): Ashby request failed for Gordian: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Gordian'
+[2026-05-13T15:18:26Z] fetch_jobs: scraper error for Saildrone (greenhouse/saildrone): Greenhouse request failed for saildrone: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/saildrone/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:48:03Z] fetch_jobs: scraper error for Gradia Health (ashby/Gradia): Ashby request failed for Gradia: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Gradia'
+[2026-05-13T15:18:26Z] fetch_jobs: scraper error for Terradepth (greenhouse/terradepth): Greenhouse request failed for terradepth: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/terradepth/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:48:12Z] fetch_jobs: scraper error for Green Canopy NODE (greenhouse/greencanopy): Greenhouse request failed for greencanopy: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/greencanopy/jobs'
+[2026-05-13T15:19:18Z] fetch_jobs: scraper error for Eppo (ashby/eppo): Ashby request failed for eppo: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/eppo'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:48:14Z] fetch_jobs: scraper error for Hamming AI (ashby/Hamming): Ashby request failed for Hamming: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Hamming'
+[2026-05-13T15:19:39Z] fetch_jobs: scraper error for Akili Interactive (greenhouse/akiliinteractive): Greenhouse request failed for akiliinteractive: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/akiliinteractive/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:48:16Z] fetch_jobs: scraper error for HitPay (ashby/hitpayapp.com): Ashby request failed for hitpayapp.com: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/hitpayapp.com'
+[2026-05-13T15:19:48Z] fetch_jobs: scraper error for SandboxAQ (greenhouse/sandboxaq): Greenhouse request failed for sandboxaq: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/sandboxaq/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:48:21Z] fetch_jobs: scraper error for Jasper.ai (ashby/Jasper): Ashby request failed for Jasper: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Jasper'
+[2026-05-13T15:19:51Z] fetch_jobs: scraper error for Chainalysis (greenhouse/chainalysis): Greenhouse request failed for chainalysis: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/chainalysis/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:48:24Z] fetch_jobs: scraper error for LineLeap (greenhouse/lineleap): Greenhouse request failed for lineleap: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/lineleap/jobs'
+[2026-05-13T15:19:51Z] fetch_jobs: scraper error for TRM Labs (greenhouse/trmlabs): Greenhouse request failed for trmlabs: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/trmlabs/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:48:29Z] fetch_jobs: scraper error for Markaz Technologies (bamboo/markaztechnologies): BambooHR request failed for markaztechnologies: Client error '403 Forbidden' for url 'https://www.bamboohr.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-05-14T13:48:33Z] fetch_jobs: scraper error for Mezmo (greenhouse/logdna): Greenhouse request failed for logdna: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/logdna/jobs'
+[2026-05-13T15:20:00Z] fetch_jobs: scraper error for Paxos (ashby/paxos-technology-solutions): Ashby request failed for paxos-technology-solutions: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/paxos-technology-solutions'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:48:33Z] fetch_jobs: scraper error for Minicor (ashby/Laminar): Ashby request failed for Laminar: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Laminar'
+[2026-05-13T15:20:01Z] fetch_jobs: scraper error for Rain Neuromorphics (ashby/rain-ai-jobs): Ashby request failed for rain-ai-jobs: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/rain-ai-jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:48:33Z] fetch_jobs: scraper error for ModernLoop (greenhouse/modernloop): Greenhouse request failed for modernloop: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/modernloop/jobs'
+[2026-05-13T15:20:13Z] fetch_jobs: scraper error for Superhuman (greenhouse/grammarly): Greenhouse request failed for grammarly: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/grammarly/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:48:34Z] fetch_jobs: scraper error for Motion (ashby/motion): Ashby request failed for motion: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/motion'
+[2026-05-13T15:20:13Z] fetch_jobs: scraper error for Span (greenhouse/spanio): Greenhouse request failed for spanio: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/spanio/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:48:40Z] fetch_jobs: scraper error for Optery (ashby/optery): Ashby request failed for optery: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/optery'
+[2026-05-13T15:20:18Z] fetch_jobs: scraper error for Jasper (ashby/Jasper): Ashby request failed for Jasper: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Jasper'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:48:47Z] fetch_jobs: scraper error for Protex AI (ashby/Protex): Ashby request failed for Protex: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Protex'
+[2026-05-13T15:20:26Z] fetch_jobs: scraper error for G2 (greenhouse/g2crowd): Greenhouse request failed for g2crowd: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/g2crowd/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:48:49Z] fetch_jobs: scraper error for Rainforest (lever/rainforest): Lever request failed for rainforest: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/rainforest?mode=json'
+[2026-05-13T15:20:30Z] fetch_jobs: scraper error for Desktop Metal (greenhouse/desktopmetal): Greenhouse request failed for desktopmetal: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/desktopmetal/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:48:52Z] fetch_jobs: scraper error for Rescale (lever/rescale): Lever request failed for rescale: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/rescale?mode=json'
+[2026-05-13T16:15:20Z] pipeline: === pipeline start ===
+  Fetching Stripe (greenhouse/stripe)... 487 jobs
+  Fetching Airbnb (greenhouse/airbnb)... 237 jobs
+  Fetching Figma (greenhouse/figma)... 157 jobs
+  Fetching Vercel (greenhouse/vercel)... 80 jobs
+  Fetching Netlify (greenhouse/netlify)... 1 jobs
+  Fetching Scale AI (greenhouse/scaleai)... 178 jobs
+  Fetching Anthropic (greenhouse/anthropic)... 420 jobs
+  Fetching Mistral (lever/mistral)... 162 jobs
+  Fetching Linear (ashby/Linear)... 23 jobs
+  Fetching Clerk (ashby/Clerk)... 1 jobs
+  Fetching Supabase (ashby/Supabase)... 47 jobs
+  Fetching Rocket Lab (greenhouse/rocketlab)... 278 jobs
+  Fetching Planet Labs (greenhouse/planetlabs)... 78 jobs
+  Fetching Relativity Space (greenhouse/relativity)... 288 jobs
+  Fetching Firefly Aerospace (greenhouse/fireflyaerospace)... [2026-05-13T16:15:30Z] fetch_jobs: scraper error for Firefly Aerospace (greenhouse/fireflyaerospace): Greenhouse request failed for fireflyaerospace: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/fireflyaerospace/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:48:54Z] fetch_jobs: scraper error for Scope AR (lever/scopear): Lever request failed for scopear: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/scopear?mode=json'
+ERROR
+  Fetching Astranis (greenhouse/astranis)... 148 jobs
+  Fetching Astrobotic (greenhouse/astrobotic)... [2026-05-13T16:15:30Z] fetch_jobs: scraper error for Astrobotic (greenhouse/astrobotic): Greenhouse request failed for astrobotic: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/astrobotic/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:48:54Z] fetch_jobs: scraper error for Seam (greenhouse/seam): Greenhouse request failed for seam: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/seam/jobs'
+ERROR
+  Fetching Spire Global (greenhouse/spire)... 47 jobs
+  Fetching Umbra (greenhouse/umbra)... [2026-05-13T16:15:30Z] fetch_jobs: scraper error for Umbra (greenhouse/umbra): Greenhouse request failed for umbra: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/umbra/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:48:54Z] fetch_jobs: scraper error for Secoda (ashby/Secoda): Ashby request failed for Secoda: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Secoda'
+ERROR
+  Fetching True Anomaly (greenhouse/trueanomalyinc)... 169 jobs
+  Fetching Sierra Space (ashby/sierra)... 128 jobs
+  Fetching Blue Origin (lever/blueorigin)... 0 jobs
+  Fetching Vast (greenhouse/vast)... 145 jobs
+  Fetching Redwire (greenhouse/redwire)... [2026-05-13T16:15:37Z] fetch_jobs: scraper error for Redwire (greenhouse/redwire): Greenhouse request failed for redwire: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/redwire/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:49:06Z] fetch_jobs: scraper error for SwiftSku (greenhouse/swiftsku): Greenhouse request failed for swiftsku: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/swiftsku/jobs'
+ERROR
+  Fetching Axiom Space (greenhouse/axiom)... 20 jobs
+  Fetching Apex (greenhouse/apex)... 1 jobs
+  Fetching Turion Space (ashby/turion-space)... 16 jobs
+  Fetching IonQ (greenhouse/ionq)... 105 jobs
+  Fetching Rigetti Computing (lever/rigetti)... 16 jobs
+  Fetching PsiQuantum (greenhouse/psiquantum)... 87 jobs
+  Fetching QuEra Computing (greenhouse/quera)... [2026-05-13T16:15:39Z] fetch_jobs: scraper error for QuEra Computing (greenhouse/quera): Greenhouse request failed for quera: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/quera/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:49:06Z] fetch_jobs: scraper error for sync. (ashby/sync.so): Ashby request failed for sync.so: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/sync.so'
+ERROR
+  Fetching Atom Computing (lever/atomcomputing)... 18 jobs
+  Fetching Xanadu (greenhouse/xanadu)... [2026-05-13T16:15:39Z] fetch_jobs: scraper error for Xanadu (greenhouse/xanadu): Greenhouse request failed for xanadu: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/xanadu/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:49:08Z] fetch_jobs: scraper error for Terapify (bamboo/terapify): BambooHR request failed for terapify: Client error '403 Forbidden' for url 'https://www.bamboohr.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-05-14T13:49:12Z] fetch_jobs: scraper error for TrueNorth (greenhouse/truenorth): Greenhouse request failed for truenorth: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/truenorth/jobs'
+ERROR
+  Fetching Q-CTRL (lever/q-ctrl)... 14 jobs
+  Fetching Quantinuum (lever/quantinuum)... [2026-05-13T16:15:40Z] fetch_jobs: scraper error for Quantinuum (lever/quantinuum): Lever request failed for quantinuum: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/quantinuum?mode=json'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:49:12Z] fetch_jobs: scraper error for Truss (ashby/truss): Ashby request failed for truss: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/truss'
+ERROR
+  Fetching Classiq (greenhouse/classiq)... [2026-05-13T16:15:40Z] fetch_jobs: scraper error for Classiq (greenhouse/classiq): Greenhouse request failed for classiq: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/classiq/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:49:19Z] fetch_jobs: scraper error for Willow (ashby/willowvoice): Ashby request failed for willowvoice: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/willowvoice'
+ERROR
+  Fetching Helion Energy (ashby/helion)... 107 jobs
+  Fetching Commonwealth Fusion (lever/cfsenergy)... 79 jobs
+  Fetching TAE Technologies (greenhouse/tae-technologies)... [2026-05-13T16:15:46Z] fetch_jobs: scraper error for TAE Technologies (greenhouse/tae-technologies): Greenhouse request failed for tae-technologies: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/tae-technologies/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:49:19Z] fetch_jobs: scraper error for Wordware (ashby/wordware.ai): Ashby request failed for wordware.ai: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/wordware.ai'
+ERROR
+  Fetching Oklo (greenhouse/oklo)... 57 jobs
+  Fetching Kairos Power (greenhouse/kairospower)... 26 jobs
+  Fetching General Fusion (greenhouse/general-fusion)... [2026-05-13T16:15:46Z] fetch_jobs: scraper error for General Fusion (greenhouse/general-fusion): Greenhouse request failed for general-fusion: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/general-fusion/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:49:19Z] fetch_jobs: scraper error for Yummy (lever/yummysuperapp): Lever request failed for yummysuperapp: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/yummysuperapp?mode=json'
+ERROR
+  Fetching Tokamak Energy (greenhouse/tokamak-energy)... [2026-05-13T16:15:46Z] fetch_jobs: scraper error for Tokamak Energy (greenhouse/tokamak-energy): Greenhouse request failed for tokamak-energy: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/tokamak-energy/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:49:21Z] fetch_jobs: scraper error for Honey Homes (ashby/Honey): Ashby request failed for Honey: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Honey'
+ERROR
+  Fetching Figure AI (ashby/Figure)... 0 jobs
+  Fetching 1X Technologies (ashby/1x)... 0 jobs
+  Fetching Apptronik (greenhouse/apptronik)... 70 jobs
+  Fetching Agility Robotics (greenhouse/agilityrobotics)... 48 jobs
+  Fetching Covariant (greenhouse/covariant)... [2026-05-13T16:15:48Z] fetch_jobs: scraper error for Covariant (greenhouse/covariant): Greenhouse request failed for covariant: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/covariant/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:49:38Z] fetch_jobs: scraper error for Meltano (greenhouse/meltano): Greenhouse request failed for meltano: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/meltano/jobs'
+ERROR
+  Fetching Sanctuary AI (lever/sanctuary)... 0 jobs
+  Fetching Viam (greenhouse/viamrobotics)... 6 jobs
+  Fetching Physical Intelligence (ashby/physicalintelligence)... 20 jobs
+  Fetching Machina Labs (greenhouse/machina-labs)... [2026-05-13T16:15:48Z] fetch_jobs: scraper error for Machina Labs (greenhouse/machina-labs): Greenhouse request failed for machina-labs: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/machina-labs/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-14T13:49:39Z] fetch_jobs: scraper error for Quantropi (bamboo/quantropi): BambooHR request failed for quantropi: Client error '403 Forbidden' for url 'https://www.bamboohr.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-05-14T13:49:49Z] classify_companies: homepage fetch failed for https://skydropx.com: Client error '403 Forbidden' for url 'https://www.skydropx.com/'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-05-14T13:49:49Z] classify_companies: model refused for SkydropX even after homepage scrape
+ERROR
+  Fetching OpenAI (ashby/openai)... 665 jobs
+  Fetching Cohere (ashby/cohere)... 125 jobs
+  Fetching Runway (ashby/runway)... 4 jobs
+  Fetching Imbue (greenhouse/imbue)... 4 jobs
+  Fetching Allen Institute for AI (greenhouse/thealleninstitute)... 19 jobs
+  Fetching xAI (greenhouse/xai)... 262 jobs
+  Fetching Hugging Face (lever/hugging-face)... [2026-05-13T16:15:50Z] fetch_jobs: scraper error for Hugging Face (lever/hugging-face): Lever request failed for hugging-face: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/hugging-face?mode=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  Fetching Waymo (greenhouse/waymo)... 416 jobs
+  Fetching Aurora (greenhouse/aurora-innovation)... [2026-05-13T16:15:50Z] fetch_jobs: scraper error for Aurora (greenhouse/aurora-innovation): Greenhouse request failed for aurora-innovation: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/aurora-innovation/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  Fetching Zoox (lever/zoox)... 222 jobs
+  Fetching Motional (greenhouse/motional)... 116 jobs
+  Fetching May Mobility (greenhouse/maymobility)... 44 jobs
+  Fetching Applied Intuition (greenhouse/appliedintuition)... 218 jobs
+  Fetching Kodiak Robotics (greenhouse/kodiak)... 66 jobs
+  Fetching Anduril Industries (greenhouse/andurilindustries)... [2026-05-13T16:16:06Z] fetch_jobs: scraper error for Anduril Industries (greenhouse/andurilindustries): Greenhouse request failed for andurilindustries: The read operation timed out
+ERROR
+  Fetching Shield AI (greenhouse/shield)... 1 jobs
+  Fetching Rebellion Defense (greenhouse/rebelliondefense)... 0 jobs
+  Fetching Epirus (greenhouse/epirus)... 31 jobs
+  Fetching Vannevar Labs (greenhouse/vannevarlabs)... 29 jobs
+  Fetching Insitro (ashby/insitro)... 12 jobs
+  Fetching Schrodinger (greenhouse/schrodinger)... [2026-05-13T16:16:07Z] fetch_jobs: scraper error for Schrodinger (greenhouse/schrodinger): Greenhouse request failed for schrodinger: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/schrodinger/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  Fetching Absci (greenhouse/absci)... 1 jobs
+  Fetching 10x Genomics (greenhouse/10xgenomics)... 43 jobs
+  Fetching Generate Biomedicines (greenhouse/generatebiomedicines)... 19 jobs
+  Fetching Isomorphic Labs (greenhouse/isomorphiclabs)... 27 jobs
+  Fetching Cerebras Systems (greenhouse/cerebrassystems)... 93 jobs
+  Fetching Tenstorrent (greenhouse/tenstorrent)... 117 jobs
+  Fetching Groq (greenhouse/groq)... [2026-05-13T16:16:19Z] fetch_jobs: scraper error for Groq (greenhouse/groq): Greenhouse request failed for groq: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/groq/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  Fetching Etched (ashby/Etched)... 94 jobs
+  Fetching d-Matrix (ashby/d-matrix)... 48 jobs
+  Fetching Mythic (greenhouse/mythic)... [2026-05-13T16:16:24Z] fetch_jobs: scraper error for Mythic (greenhouse/mythic): Greenhouse request failed for mythic: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/mythic/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  Fetching Form Energy (lever/form)... 2 jobs
+  Fetching QuantumScape (greenhouse/quantumscape)... [2026-05-13T16:16:25Z] fetch_jobs: scraper error for QuantumScape (greenhouse/quantumscape): Greenhouse request failed for quantumscape: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/quantumscape/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  Fetching Redwood Materials (greenhouse/redwoodmaterials)... 67 jobs
+  Fetching Northvolt (greenhouse/northvolt)... [2026-05-13T16:16:25Z] fetch_jobs: scraper error for Northvolt (greenhouse/northvolt): Greenhouse request failed for northvolt: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/northvolt/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  Fetching Heirloom Carbon (ashby/heirloomcarbon)... 0 jobs
+  Fetching Rondo Energy (greenhouse/rondoenergy)... 12 jobs
+  Fetching Antora Energy (greenhouse/antora)... 27 jobs
+  Fetching Epic Games (greenhouse/epicgames)... 81 jobs
+  Fetching Riot Games (greenhouse/riotgames)... 180 jobs
+  Fetching Roblox (greenhouse/roblox)... 286 jobs
+  Fetching Bungie (greenhouse/bungie)... 1 jobs
+  Fetching Niantic (ashby/niantic)... 0 jobs
+  Fetching CD Projekt Red (greenhouse/cdprojektred)... [2026-05-13T16:16:27Z] fetch_jobs: scraper error for CD Projekt Red (greenhouse/cdprojektred): Greenhouse request failed for cdprojektred: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/cdprojektred/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  Fetching Remedy Entertainment (greenhouse/remedy)... [2026-05-13T16:16:28Z] fetch_jobs: scraper error for Remedy Entertainment (greenhouse/remedy): Greenhouse request failed for remedy: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/remedy/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  Fetching Unity Technologies (greenhouse/unity-technologies)... [2026-05-13T16:16:28Z] fetch_jobs: scraper error for Unity Technologies (greenhouse/unity-technologies): Greenhouse request failed for unity-technologies: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/unity-technologies/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  Fetching Neuralink (greenhouse/neuralink)... 70 jobs
+  Fetching Synchron (greenhouse/synchron)... [2026-05-13T16:16:28Z] fetch_jobs: scraper error for Synchron (greenhouse/synchron): Greenhouse request failed for synchron: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/synchron/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  Fetching Precision Neuroscience (greenhouse/precision-neuroscience)... [2026-05-13T16:16:28Z] fetch_jobs: scraper error for Precision Neuroscience (greenhouse/precision-neuroscience): Greenhouse request failed for precision-neuroscience: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/precision-neuroscience/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  Fetching Saildrone (greenhouse/saildrone)... [2026-05-13T16:16:28Z] fetch_jobs: scraper error for Saildrone (greenhouse/saildrone): Greenhouse request failed for saildrone: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/saildrone/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  Fetching Terradepth (greenhouse/terradepth)... [2026-05-13T16:16:28Z] fetch_jobs: scraper error for Terradepth (greenhouse/terradepth): Greenhouse request failed for terradepth: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/terradepth/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  Fetching Nuro (greenhouse/nuro)... 104 jobs
+  Fetching Altos Labs (greenhouse/altoslabs)... 24 jobs
+  Fetching Bedrock Ocean (ashby/bedrockocean)... 2 jobs
+  Fetching Beta Technologies (lever/beta)... 0 jobs
+  Fetching Calico Labs (greenhouse/calicolabs)... 26 jobs
+  Fetching Capella Space (greenhouse/capellaspace)... 3 jobs
+  Fetching ElevenLabs (ashby/elevenlabs)... 142 jobs
+  Fetching Ginkgo Bioworks (greenhouse/ginkgobioworks)... 10 jobs
+  Fetching Inari Agriculture (greenhouse/inariagriculture)... 0 jobs
+  Fetching Isar Aerospace (greenhouse/isaraerospace)... 96 jobs
+  Fetching Lightmatter (greenhouse/lightmatter)... 45 jobs
+  Fetching Loft Orbital (lever/loftorbital)... 68 jobs
+  Fetching Orbital Sidekick (lever/orbitalsidekick)... 2 jobs
+  Fetching Palantir (lever/palantir)... 224 jobs
+  Fetching Primer AI (greenhouse/primerai)... 3 jobs
+  Fetching Quaise Energy (greenhouse/quaise)... 2 jobs
+  Fetching Relay Therapeutics (greenhouse/relaytherapeutics)... 6 jobs
+  Fetching Seurat Technologies (greenhouse/seurat)... 1 jobs
+  Fetching Skydio (ashby/skydio)... 112 jobs
+  Fetching Sofar Ocean (ashby/sofarocean)... 9 jobs
+  Fetching Velo3D (lever/velo3d)... 27 jobs
+  Fetching Wayve (greenhouse/wayve)... 81 jobs
+  Fetching Weaviate (ashby/weaviate)... 6 jobs
+  Fetching Archer Aviation (greenhouse/archer56)... 223 jobs
+  Fetching Cajal Therapeutics (greenhouse/cajal-tx)... 0 jobs
+  Fetching Larian Studios (lever/larian)... 74 jobs
+  Fetching Qdrant (ashby/qdrant.tech)... 17 jobs
+  Fetching Retro Biosciences (lever/retro)... 5 jobs
+  Fetching Varda Space Industries (greenhouse/vardaspace)... 75 jobs
+  Fetching BlackSky (greenhouse/blacksky)... 22 jobs
+  Fetching ClickHouse (greenhouse/clickhouse)... 163 jobs
+  Fetching Docker (ashby/docker)... 42 jobs
+  Fetching EightSleep (ashby/eightsleep)... 43 jobs
+  Fetching Finch (lever/finch)... 6 jobs
+  Fetching Found (greenhouse/found)... 7 jobs
+  Fetching GitLab (greenhouse/gitlab)... 184 jobs
+  Fetching Havoc AI (ashby/havocai)... 20 jobs
+  Fetching Katalyst (greenhouse/katalyst)... 17 jobs
+  Fetching LiveKit (ashby/livekit)... 16 jobs
+  Fetching Netflix (lever/netflix)... 0 jobs
+  Fetching OneBrief (ashby/onebrief)... 23 jobs
+  Fetching Rula (ashby/rula)... 26 jobs
+  Fetching Slingshot Aerospace (greenhouse/slingshotaerospace)... 18 jobs
+  Fetching Strava (ashby/strava)... 23 jobs
+  Fetching Tailscale (greenhouse/tailscale)... 44 jobs
+  Fetching Temporal (greenhouse/temporal)... 0 jobs
+  Fetching Ursa Major (greenhouse/ursamajor)... 34 jobs
+  Fetching Grafana (greenhouse/grafanalabs)... 149 jobs
+  Fetching Headspace (greenhouse/hs)... 36 jobs
+  Fetching Scribd (ashby/ScribdInc)... 24 jobs
+  Fetching Recursion (greenhouse/recursionpharmaceuticals)... 32 jobs
+  Fetching TerraPower (greenhouse/terrapowerllc)... 103 jobs
+  Fetching Second Dinner (ashby/SecondDinner)... 3 jobs
+  Fetching Undead Labs (greenhouse/undeadlabsllc)... 2 jobs
+  Fetching Zynga (greenhouse/zyngacareers)... 52 jobs
+  Fetching Crystal Dynamics (greenhouse/crystaldynamics)... 1 jobs
+  Fetching Firaxis Games (greenhouse/firaxis)... 3 jobs
+  Fetching Frontier Developments (ashby/frontier)... 0 jobs
+  Fetching Gearbox Software (greenhouse/gearbox)... 1 jobs
+  Fetching Insomniac Games (greenhouse/insomniac)... 4 jobs
+  Fetching Naughty Dog (greenhouse/naughtydog)... 14 jobs
+  Fetching Rockstar Games (greenhouse/rockstargames)... 71 jobs
+  Fetching Scopely (greenhouse/scopely)... 185 jobs
+  Fetching Supercell (ashby/supercell)... 48 jobs
+  [skip] GitHub: unknown ATS 'icims'
+  [skip] Tempus AI: unknown ATS 'workday'
+  Fetching Bend Studio (greenhouse/sonyinteractiveentertainmentglobal)... 197 jobs
+  Fetching Character.ai (ashby/character)... 17 jobs
+  Fetching Cognition (ashby/cognition)... 60 jobs
+  Fetching Descript (greenhouse/descript)... 24 jobs
+  Fetching Hebbia (greenhouse/hebbia)... 34 jobs
+  Fetching Inflection AI (greenhouse/inflectionai)... 6 jobs
+  Fetching Magic (ashby/magic.dev)... 10 jobs
+  Fetching Pika (ashby/pika)... 4 jobs
+  Fetching Sierra (ashby/Sierra)... 128 jobs
+  Fetching Speak (ashby/speak)... 44 jobs
+  Fetching Stability AI (greenhouse/stabilityai)... 12 jobs
+  Fetching Suno (ashby/suno)... 43 jobs
+  Fetching Writer (ashby/writer)... 51 jobs
+  Fetching Airbyte (ashby/airbyte)... 9 jobs
+  Fetching Amplitude (greenhouse/amplitude)... 69 jobs
+  Fetching Astronomer (ashby/astronomer)... 26 jobs
+  Fetching CockroachLabs (greenhouse/cockroachlabs)... 25 jobs
+  Fetching dbt Labs (greenhouse/dbtlabsinc)... 48 jobs
+  Fetching Eppo (ashby/eppo)... [2026-05-13T16:17:14Z] fetch_jobs: scraper error for Eppo (ashby/eppo): Ashby request failed for eppo: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/eppo'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  Fetching Harness (greenhouse/harnessinc)... 114 jobs
+  Fetching Hightouch (greenhouse/hightouch)... 60 jobs
+  Fetching InfluxData (ashby/Influxdata)... 3 jobs
+  Fetching LaunchDarkly (greenhouse/launchdarkly)... 46 jobs
+  Fetching Mixpanel (greenhouse/mixpanel)... 38 jobs
+  Fetching Notion (ashby/notion)... 140 jobs
+  Fetching PlanetScale (greenhouse/planetscale)... 6 jobs
+  Fetching Prefect (ashby/prefect)... 4 jobs
+  Fetching Semgrep (ashby/semgrep)... 39 jobs
+  Fetching Sentry (ashby/sentry)... 41 jobs
+  Fetching SingleStore (greenhouse/singlestore)... 45 jobs
+  Fetching Socket (ashby/socket)... 19 jobs
+  [skip] CrowdStrike: unknown ATS 'workday'
+  Fetching Huntress (greenhouse/huntress)... 28 jobs
+  Fetching Nightfall AI (ashby/nightfall-ai)... 21 jobs
+  Fetching Marqeta (greenhouse/marqeta)... 38 jobs
+  Fetching Mercury (greenhouse/mercury)... 55 jobs
+  Fetching Ramp (ashby/ramp)... 110 jobs
+  [skip] Duolingo: unknown ATS 'breezy'
+  Fetching Reddit (greenhouse/reddit)... 156 jobs
+  Fetching Zwift (greenhouse/zwift)... 12 jobs
+  Fetching Akili Interactive (greenhouse/akiliinteractive)... [2026-05-13T16:17:27Z] fetch_jobs: scraper error for Akili Interactive (greenhouse/akiliinteractive): Greenhouse request failed for akiliinteractive: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/akiliinteractive/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  [skip] Cityblock Health: unknown ATS 'workday'
+  Fetching Deep Genomics (lever/deepgenomics)... 1 jobs
+  [skip] Devoted Health: unknown ATS 'workday'
+  Fetching Exscientia (greenhouse/recursionpharmaceuticals)... 32 jobs
+  Fetching Ro (lever/ro)... 50 jobs
+  Fetching Synthego (lever/synthego)... 2 jobs
+  Fetching Viz.ai (ashby/Viz.ai)... 11 jobs
+  Fetching Plus AI (lever/plus-2)... 21 jobs
+  [skip] Pony.ai: unknown ATS 'workable'
+  Fetching Waabi (lever/waabi)... 65 jobs
+  [skip] Joby Aviation: unknown ATS 'icims'
+  Fetching Skyryse (greenhouse/skyryse)... 10 jobs
+  [skip] Wisk Aero: unknown ATS 'workday'
+  [skip] Astroscale: unknown ATS 'bamboo'
+  Fetching CesiumAstro (lever/CesiumAstro)... 196 jobs
+  [skip] Maxar Technologies: unknown ATS 'workday'
+  Fetching Momentus (greenhouse/momentus)... 9 jobs
+  [skip] Satellogic: unknown ATS 'bamboo'
+  [skip] Bear Robotics: unknown ATS 'breezy'
+  [skip] Boston Dynamics: unknown ATS 'workday'
+  Fetching Chef Robotics (lever/ChefRobotics)... 12 jobs
+  Fetching Standard Bots (ashby/StandardBots)... 34 jobs
+  Fetching Air Company (greenhouse/aircompany)... 1 jobs
+  Fetching Charm Industrial (lever/charmindustrial)... 5 jobs
+  Fetching Twelve (ashby/twelve)... 9 jobs
+  Fetching SandboxAQ (greenhouse/sandboxaq)... [2026-05-13T16:17:42Z] fetch_jobs: scraper error for SandboxAQ (greenhouse/sandboxaq): Greenhouse request failed for sandboxaq: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/sandboxaq/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  Fetching Joyn Bio (greenhouse/ginkgobioworks)... 10 jobs
+  [skip] Palo Alto Networks: unknown ATS 'workday'
+  [skip] Samsung R&D: unknown ATS 'workday'
+  [skip] Workday: unknown ATS 'workday'
+  Fetching Sourcegraph (greenhouse/sourcegraph91)... 6 jobs
+  Fetching Coder (ashby/Coder)... 8 jobs
+  Fetching Cursor (ashby/cursor)... 84 jobs
+  Fetching JetBrains (greenhouse/jetbrains)... 118 jobs
+  Fetching Render (ashby/render)... 20 jobs
+  Fetching Replit (ashby/replit)... 82 jobs
+  Fetching Chainalysis (greenhouse/chainalysis)... [2026-05-13T16:17:44Z] fetch_jobs: scraper error for Chainalysis (greenhouse/chainalysis): Greenhouse request failed for chainalysis: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/chainalysis/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  [skip] Darktrace: unknown ATS 'workday'
+  Fetching Keeper Security (greenhouse/keepersecurity)... 101 jobs
+  Fetching TRM Labs (greenhouse/trmlabs)... [2026-05-13T16:17:44Z] fetch_jobs: scraper error for TRM Labs (greenhouse/trmlabs): Greenhouse request failed for trmlabs: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/trmlabs/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  Fetching Vectra AI (greenhouse/vectranetworks)... 19 jobs
+  Fetching Anchorage Digital (lever/anchorage)... 73 jobs
+  Fetching BitGo (greenhouse/bitgo)... 52 jobs
+  Fetching Kraken (ashby/kraken.com)... 115 jobs
+  Fetching Paxos (ashby/paxos-technology-solutions)... [2026-05-13T16:17:53Z] fetch_jobs: scraper error for Paxos (ashby/paxos-technology-solutions): Ashby request failed for paxos-technology-solutions: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/paxos-technology-solutions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  Fetching Wealthfront (lever/wealthfront)... 15 jobs
+  Fetching GRAIL (lever/grailbio)... 44 jobs
+  Fetching Natera (greenhouse/natera)... 169 jobs
+  [skip] Berkshire Grey: unknown ATS 'bamboo'
+  Fetching 2K Games (greenhouse/2kearlycareers)... 0 jobs
+  [skip] Playdead: unknown ATS 'breezy'
+  [skip] Square Enix: unknown ATS 'workable'
+  [skip] BigCommerce: unknown ATS 'workday'
+  Fetching Rain Neuromorphics (ashby/rain-ai-jobs)... [2026-05-13T16:17:57Z] fetch_jobs: scraper error for Rain Neuromorphics (ashby/rain-ai-jobs): Ashby request failed for rain-ai-jobs: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/rain-ai-jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  [skip] Rivian: unknown ATS 'icims'
+  Fetching Scout Motors (greenhouse/scoutmotors)... 133 jobs
+  Fetching Anyscale (ashby/anyscale)... 7 jobs
+  Fetching LangChain (ashby/langchain)... 92 jobs
+  Fetching Pinecone (ashby/pinecone)... 6 jobs
+  Fetching Zilliz (lever/zilliz)... 9 jobs
+  Fetching ArmorCode (greenhouse/armorcode)... 1 jobs
+  Fetching Cobalt (greenhouse/cobaltio)... 12 jobs
+  Fetching Endor Labs (greenhouse/endorlabs)... 15 jobs
+  Fetching Horizon3 (ashby/horizon3ai)... 59 jobs
+  Fetching Alchemy (ashby/alchemy)... 28 jobs
+  Fetching Aptos Labs (greenhouse/aptoslabs)... 4 jobs
+  Fetching Mysten Labs (ashby/mystenlabs)... 11 jobs
+  Fetching Near Protocol (greenhouse/nearfoundation)... 1 jobs
+  Fetching Culture Amp (greenhouse/cultureamp)... 20 jobs
+  Fetching Lattice (greenhouse/lattice)... 10 jobs
+  Fetching Leapsome (ashby/Leapsome)... 16 jobs
+  Fetching Disco (greenhouse/disco)... 35 jobs
+  Fetching Front (ashby/frontcareers)... 34 jobs
+  Fetching GitBook (ashby/GitBook)... 5 jobs
+  Fetching Superhuman (greenhouse/grammarly)... [2026-05-13T16:18:11Z] fetch_jobs: scraper error for Superhuman (greenhouse/grammarly): Greenhouse request failed for grammarly: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/grammarly/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  Fetching Particle Health (greenhouse/particlehealth)... 0 jobs
+  Fetching Span (greenhouse/spanio)... [2026-05-13T16:18:11Z] fetch_jobs: scraper error for Span (greenhouse/spanio): Greenhouse request failed for spanio: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/spanio/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  [skip] Sunrun: unknown ATS 'workday'
+  Fetching AssemblyAI (greenhouse/assemblyai)... 7 jobs
+  Fetching Deepgram (ashby/Deepgram)... 64 jobs
+  Fetching Jasper (ashby/Jasper)... [2026-05-13T16:18:18Z] fetch_jobs: scraper error for Jasper (ashby/Jasper): Ashby request failed for Jasper: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Jasper'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  Fetching Lovable (ashby/lovable)... 78 jobs
+  Fetching Speechify (greenhouse/speechify)... 1717 jobs
+  Fetching Rev (ashby/rev)... 4 jobs
+  Fetching Coderabbit (ashby/coderabbit)... 55 jobs
+  Fetching Speakeasy (ashby/Speakeasy)... 5 jobs
+  Fetching Stainless (ashby/stainlessapi)... 16 jobs
+  Fetching Demandbase (ashby/demandbase)... 17 jobs
+  Fetching G2 (greenhouse/g2crowd)... [2026-05-13T16:18:21Z] fetch_jobs: scraper error for G2 (greenhouse/g2crowd): Greenhouse request failed for g2crowd: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/g2crowd/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  Fetching Intercom (greenhouse/intercom)... 170 jobs
+  Fetching Modern Treasury (ashby/moderntreasury)... 5 jobs
+  Fetching Spreedly (lever/spreedly)... 11 jobs
+  Fetching Synctera (ashby/synctera)... 2 jobs
+  Fetching Monzo (greenhouse/monzo)... 70 jobs
+  Fetching Hippo (greenhouse/hippo70)... 22 jobs
+  Fetching Foursquare (ashby/foursquare)... 4 jobs
+  Fetching Mapbox (ashby/Mapbox)... 87 jobs
+  Fetching Radar (ashby/radar)... 17 jobs
+  [skip] F5 Networks: unknown ATS 'workday'
+  [skip] Juniper Networks: unknown ATS 'workday'
+  [skip] Booz Allen Hamilton: unknown ATS 'workday'
+  [skip] ServiceTitan: unknown ATS 'workday'
+  Fetching Carbon (greenhouse/carbon)... 9 jobs
+  Fetching Desktop Metal (greenhouse/desktopmetal)... [2026-05-13T16:18:27Z] fetch_jobs: scraper error for Desktop Metal (greenhouse/desktopmetal): Greenhouse request failed for desktopmetal: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/desktopmetal/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+ERROR
+  Fetching Sonatype (lever/sonatype)... 14 jobs
+  Fetching OpenSpace (greenhouse/openspace)... 8 jobs
+  Fetching Energy Vault (lever/EnergyVault)... 11 jobs
+  Fetching Arvinas (greenhouse/arvinas)... 8 jobs
+  [skip] Moderna: unknown ATS 'workday'
+  [skip] Verily: unknown ATS 'workday'
+  Fetching Tractable (ashby/tractable)... 2 jobs
+  Fetching Osano (greenhouse/osano)... 4 jobs
+  Fetching Transcend (greenhouse/transcendinc)... 9 jobs
+  [skip] Shortcut: unknown ATS 'bamboo'
+  Fetching Workleap (greenhouse/workleap)... 15 jobs
+  [skip] Bumble: unknown ATS 'workday'
+  Fetching Ironclad (ashby/ironcladhq)... 50 jobs
+  Fetching Webflow (greenhouse/webflow)... 34 jobs
+
+Total: 83 jobs from 328 companies
+New: 27  |  Closed: 3  |  Aged out (>14d): 16055  |  Archived (new companies): 0  |  Errors: 40
+Written to /Users/zach/Library/Mobile Documents/com~apple~CloudDocs/Code/GitHubJobBoard/data/jobs_raw.json
+  40 scraper errors logged to pipeline.log
+Fetching descriptions for 18 today's new Greenhouse jobs...
+Fetched: 18, Failed: 0
+Backend: claude
+0 companies to classify (294 already done)
+
+All companies already classified. Use --all to reclassify.
+[2026-05-13T16:18:55Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazsUgikGcLWnWpW1kFUr'} — retrying in 1s
+[2026-05-13T16:18:55Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazsUgqCEorD43opX48Ag'} — retrying in 1s
+[2026-05-13T16:18:56Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazsUjpXtZzuApjLDrgDE'} — retrying in 1s
+[2026-05-13T16:19:11Z] classify_jobs: transient API error (attempt 1/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazsVomghN8ZHijNTgjSq'} — retrying in 1s
+[2026-05-13T16:19:11Z] classify_jobs: transient API error (attempt 2/5): Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: fcfa50b7-cba3-4d51-b031-ed19a966bfc4, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CazsVp7mexPHHnDiP9sir'} — retrying in 2s
+Backend: claude (Claude claude-haiku-4-5-20251001)
+27 jobs to classify today, 0 skipped (no description)
+Workers: 5
+
+  [    1/27] ✗ Sierra Space: Marketing Manager, Events (Europe) 
+  [    2/27] ✗ Axiom Space:  Talent Acquisition Manager (Legal)
+  [    3/27] ✗ Rocket Lab: Lead, Planning & Fulfillment
+  [    4/27] ✗ Epic Games: Principal Narrative Designer
+  [    5/27] ✗ Epic Games: Principal Narrative Designer
+  [    6/27] ✓ Anthropic: Software Engineer, Systems - Claude Code — Optimize the performance and reliability of Claude Code and 
+  [    7/27] ✗ Epic Games: Principal Narrative Designer
+  [    8/27] ✗ Loft Orbital: Senior Mechanical Engineer
+  [    9/27] ✓ Scopely: Platform Engineer (Automation) - Unannounced Proje — Build and evolve CI/CD pipelines, automation frameworks, and
+  [   10/27] ✓ Scopely: Engineer, Server — Build backend services and APIs in Python running on AWS for
+  [   11/27] ✓ Scopely: Platform Engineer (Reliability) - Unannounced Proj — Build and operate reliability and observability infrastructu
+  [   12/27] ✗ Sierra: Marketing Manager, Events (Europe) 
+  [   13/27] ✗ Bend Studio: Product Development Manager, Hardlines, Global Lic
+  [   14/27] ✗ Rockstar Games: Strategy Operations Associate
+  [   15/27] ✗ Mercury: Staff Brand Designer
+  [   16/27] ✓ Scopely: Senior Engineer, Server — Build and maintain the backend server infrastructure for a c
+  [   17/27] ✗ Ramp: Enterprise Account Executive, Juno
+  [   18/27] ✗ Natera: PRN-Phlebotomist (1099) Lewes, DE
+  [   19/27] ✓ Notion: Software Engineer, AI Dev Velocity — Build scalable evaluation infrastructure and tooling that en
+  [   20/27] ✗ Horizon3: Director, Systems, Data, & Process Ops
+  [   21/27] ✗ Coderabbit: Senior Talent Sourcer
+  [   22/27] ✗ Intercom: Staff AI Product Designer
+  [   23/27] ✗ Horizon3: Senior Sales Engineer, DACH
+  [   24/27] ✗ Horizon3: Senior Sales Engineer, France
+  [   25/27] ✓ Workleap: Software Developer II - ShareGate Migrate [Web Exp — Build a brand-new web application for ShareGate Migrate from
+  [   26/27] ✗ Intercom: Staff AI Product Designer
+  [   27/27] ✗ Intercom: Staff AI Product Designer
+
+This run — builder: 7, not: 20, unclear: 0, errors: 0
+Written to /Users/zach/Library/Mobile Documents/com~apple~CloudDocs/Code/GitHubJobBoard/data/jobs_classified.json
+Total builder roles in cache: 975/2804
+Engineering jobs to render: 27 / 83 total
+Written: 7, Skipped (unchanged): 20, Removed (stale): 2
+Found 27 jobs across 1 dates (27 new today)
+Written /Users/zach/Library/Mobile Documents/com~apple~CloudDocs/Code/jobs/README.md
+[2026-05-13T16:15:20Z] pipeline: jobs repo pushed
+[2026-05-13T16:15:20Z] pipeline: scraper repo pushed
+[2026-05-13T16:15:20Z] pipeline: === pipeline done ===

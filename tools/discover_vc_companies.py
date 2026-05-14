@@ -171,11 +171,10 @@ def main():
             print(f"  {name} | {domain}")
         return
 
-    existing_text = COMPANY_NAMES_FILE.read_text()
-    if existing_text and not existing_text.endswith("\n"):
-        existing_text += "\n"
-    additions = "\n".join(f"{name} | {domain}" for name, domain in all_new)
-    COMPANY_NAMES_FILE.write_text(existing_text + additions + "\n")
+    existing_lines = [l for l in COMPANY_NAMES_FILE.read_text().splitlines() if l.strip()]
+    new_lines = [f"{name} | {domain}" for name, domain in all_new]
+    all_lines = sorted(set(existing_lines + new_lines), key=str.lower)
+    COMPANY_NAMES_FILE.write_text("\n".join(all_lines) + "\n")
     log(f"Added {len(all_new)} companies to {COMPANY_NAMES_FILE}")
 
 
