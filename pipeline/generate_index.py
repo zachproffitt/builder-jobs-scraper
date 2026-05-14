@@ -70,12 +70,12 @@ def format_meta(fm: dict) -> str:
     parts = [f"**{company}**"]
     if location:
         parts.append(location)
-    if level and level not in ("unclear", ""):
-        parts.append(f"`{level.capitalize()}`")
     if remote == "Remote":
         parts.append(REMOTE_BADGE)
     elif hybrid == "yes":
         parts.append(HYBRID_BADGE)
+    if level and level not in ("unclear", ""):
+        parts.append(f"`{level.capitalize()}`")
     if comp:
         parts.append(f"`{abbrev_comp(comp)}`")
     for extra in comp_extras:
