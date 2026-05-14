@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate README.md for the jobs repo by scanning all rendered job files."""
 
+import json
 import re
 import sys
 from collections import defaultdict
@@ -11,7 +12,9 @@ from render_jobs import clean_location
 
 JOBS_REPO = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).parent.parent.parent / "jobs"
 README = JOBS_REPO / "README.md"
+REMOTE_README = JOBS_REPO / "REMOTE.md"
 COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies.json"
+SUPPORTED_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters", "bamboo", "breezy", "workable", "workday"}
 SKILL_COLOR = "3B82F6"
 REMOTE_BADGE = '<img src="https://img.shields.io/badge/Remote-22C55E?style=flat-square" align="absmiddle">'
 HYBRID_BADGE = '<img src="https://img.shields.io/badge/Hybrid-F59E0B?style=flat-square" align="absmiddle">'
@@ -84,71 +87,78 @@ def format_meta(fm: dict) -> str:
     return " · ".join(parts)
 
 
-def main():
-    if not JOBS_REPO.exists():
-        print(f"Jobs repo not found: {JOBS_REPO}")
-        sys.exit(1)
+def collect_jobs(jobs_repo: Path) -> tuple[list[dict], dict[str, str]]:
+    """Scan all job .md files and return (jobs, company_logos)."""
+    company_logos: dict[str, str] = {}
+    if COMPANIES_FILE.exists():
+        for c in json.loads(COMPANIES_FILE.read_text()):
+            if c.get("website") and c.get("name"):
+                domain = c["website"].removeprefix("https://").removeprefix("http://").split("/")[0]
+                company_logos[c["name"]] = domain
 
-    by_date: dict[str, list[dict]] = defaultdict(list)
-
-    for md in sorted(JOBS_REPO.rglob("*.md")):
-        if md.name == "README.md":
+    jobs = []
+    for md in sorted(jobs_repo.rglob("*.md")):
+        if md.name in ("README.md", "REMOTE.md"):
             continue
         fm = parse_frontmatter(md)
         if not fm.get("id"):
             continue
         skills_raw = fm.get("skills", "")
         skills = [s.strip() for s in skills_raw.split(",") if s.strip()] if skills_raw else []
-        by_date[fm.get("first_seen", "unknown")].append({
+        jobs.append({
             "title": fm.get("title", ""),
             "company": fm.get("company", ""),
             "meta": format_meta(fm),
             "summary": fm.get("summary", ""),
             "skills": skills,
+            "first_seen": fm.get("first_seen", "unknown"),
             "posted_at": fm.get("posted_at", ""),
             "first_seen_at": fm.get("first_seen_at", ""),
-            "path": str(md.relative_to(JOBS_REPO)),
+            "path": str(md.relative_to(jobs_repo)),
+            "remote": fm.get("remote", "").strip() == "Remote",
         })
+    return jobs, company_logos
+
+
+def render_index(jobs: list[dict], company_logos: dict[str, str], company_count: int,
+                 out_path: Path, title: str, subtitle: str, remote_only: bool = False) -> None:
+    today = datetime.now().strftime("%Y-%m-%d")
+
+    if remote_only:
+        jobs = [j for j in jobs if j["remote"]]
+
+    by_date: dict[str, list[dict]] = defaultdict(list)
+    for j in jobs:
+        by_date[j["first_seen"]].append(j)
 
     total = sum(len(v) for v in by_date.values())
-    today = datetime.now().strftime("%Y-%m-%d")
     new_today = len(by_date.get(today, []))
-    print(f"Found {total} jobs across {len(by_date)} dates ({new_today} new today)")
 
-    all_timestamps = [j["first_seen_at"] for v in by_date.values() for j in v if j.get("first_seen_at")]
+    all_timestamps = [j["first_seen_at"] for j in jobs if j.get("first_seen_at")]
     last_run_str = ""
     if all_timestamps:
         last_run_dt = datetime.fromisoformat(max(all_timestamps))
         last_run_str = last_run_dt.strftime("%B %-d, %Y at %H:%M UTC")
 
-    company_count = 0
-    company_logos: dict[str, str] = {}
-    if COMPANIES_FILE.exists():
-        import json
-        companies = json.loads(COMPANIES_FILE.read_text())
-        company_count = len([c for c in companies if c.get("ats") in {"greenhouse", "lever", "ashby", "smartrecruiters"}])
-        for c in companies:
-            if c.get("website") and c.get("name"):
-                domain = c["website"].removeprefix("https://").removeprefix("http://").split("/")[0]
-                company_logos[c["name"]] = domain
+    stats = f"**{total} open roles** ({new_today} new today)"
+    if not remote_only:
+        stats += f" &nbsp;·&nbsp; {company_count} companies searched"
 
     lines = [
-        "# Builder Jobs",
+        f"# {title}",
         "",
-        "For engineers who build. Roles are scraped hourly from company ATS and classified by Claude — curation keeps the signal high enough that browsing everything new takes a few minutes. Listings older than 14 days are removed automatically.",
+        subtitle,
         "",
-        "> *Companies sourced from Y Combinator, top VC portfolios, and industry curation across 20+ sectors. [How it works →](https://github.com/zachproffitt/builder-jobs-scraper)*",
+        f"### {stats}",
         "",
-        f"### {total} open roles ({new_today} new today) &nbsp;·&nbsp; {company_count} companies searched",
-        "",
+        *(["[Remote only →](REMOTE.md)", ""] if not remote_only else []),
         f"<sub>Last updated {last_run_str}</sub>" if last_run_str else "",
         "",
     ]
 
     for dt in sorted(by_date.keys(), reverse=True):
-        jobs = by_date[dt]
-        # Sort by first_seen_at descending (newest first); fall back to company name
-        jobs.sort(key=lambda j: (j["first_seen_at"] or ""), reverse=True)
+        date_jobs = by_date[dt]
+        date_jobs.sort(key=lambda j: (j["first_seen_at"] or ""), reverse=True)
         try:
             label = datetime.strptime(dt, "%Y-%m-%d").strftime("%B %-d, %Y")
         except ValueError:
@@ -157,7 +167,7 @@ def main():
         lines.append("")
         lines.append(f"## {label}")
         lines.append("")
-        for j in jobs:
+        for j in date_jobs:
             lines.append(f"### [{j['title']}]({j['path']})")
             domain = company_logos.get(j["company"], "")
             logo = f'<img src="https://www.google.com/s2/favicons?domain={domain}&sz=32" width="16" height="16" align="absmiddle">&ensp;' if domain else ""
@@ -182,8 +192,46 @@ def main():
             lines.append("---")
             lines.append("")
 
-    README.write_text("\n".join(lines))
-    print(f"Written {README}")
+    out_path.write_text("\n".join(lines))
+    print(f"Written {out_path} ({total} jobs, {new_today} new today)")
+
+
+def main():
+    if not JOBS_REPO.exists():
+        print(f"Jobs repo not found: {JOBS_REPO}")
+        sys.exit(1)
+
+    jobs, company_logos = collect_jobs(JOBS_REPO)
+
+    company_count = 0
+    if COMPANIES_FILE.exists():
+        companies = json.loads(COMPANIES_FILE.read_text())
+        company_count = len([c for c in companies if c.get("ats") in SUPPORTED_ATS])
+
+    render_index(
+        jobs, company_logos, company_count,
+        out_path=README,
+        title="Builder Jobs",
+        subtitle=(
+            "For engineers who build. Roles are scraped hourly from company ATS and classified by Claude"
+            " — curation keeps the signal high enough that browsing everything new takes a few minutes."
+            " Listings older than 14 days are removed automatically.\n\n"
+            "> *Companies sourced from Y Combinator, top VC portfolios, and industry curation across 20+ sectors."
+            " [How it works →](https://github.com/zachproffitt/builder-jobs-scraper)*"
+        ),
+    )
+
+    render_index(
+        jobs, company_logos, company_count,
+        out_path=REMOTE_README,
+        title="Builder Jobs — Remote",
+        subtitle=(
+            "Remote engineering roles only, scraped hourly and classified by Claude."
+            " Listings older than 14 days are removed automatically.\n\n"
+            "> *[← All roles](README.md) &nbsp;·&nbsp; [How it works →](https://github.com/zachproffitt/builder-jobs-scraper)*"
+        ),
+        remote_only=True,
+    )
 
 
 if __name__ == "__main__":

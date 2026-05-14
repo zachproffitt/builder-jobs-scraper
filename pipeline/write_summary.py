@@ -27,8 +27,12 @@ def main():
             by_ats[ats] = by_ats.get(ats, 0) + 1
 
     total_companies = sum(by_ats.values())
-    engineering = [v for v in classified.values() if v.get("is_engineering")]
-    new_today = [v for v in engineering if v.get("first_seen") == today]
+
+    # Count from the live rolling window, not the full classification cache
+    raw_jobs_path = DATA_DIR / "jobs_raw.json"
+    raw_jobs = json.loads(raw_jobs_path.read_text()) if raw_jobs_path.exists() else []
+    engineering = [j for j in raw_jobs if classified.get(j["id"], {}).get("is_engineering")]
+    new_today = [j for j in engineering if j.get("first_seen") == today]
 
     log_path = DATA_DIR / "pipeline.log"
     log_lines = []

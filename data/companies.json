@@ -98,12 +98,6 @@
     "meta_description": "Relativity Space builds reusable rockets that make access to space more reliable and routine\u2014empowering science, exploration, and innovation beyond our planet."
   },
   {
-    "name": "Firefly Aerospace",
-    "ats": "greenhouse",
-    "slug": "fireflyaerospace",
-    "website": "https://firefly.com"
-  },
-  {
     "name": "Astranis",
     "ats": "greenhouse",
     "slug": "astranis",
@@ -111,24 +105,10 @@
     "meta_description": "Astranis designs, builds, and operates the world\u2019s most advanced high-orbit satellites."
   },
   {
-    "name": "Astrobotic",
-    "ats": "greenhouse",
-    "slug": "astrobotic",
-    "website": "https://astrobotic.com",
-    "meta_description": "Deliver your technology to space! Astrobotic is contracting payloads for lunar missions. Configure your mission, reserve your flight, and learn about our technology."
-  },
-  {
     "name": "Spire Global",
     "ats": "greenhouse",
     "slug": "spire",
     "website": "https://spire.com"
-  },
-  {
-    "name": "Umbra",
-    "ats": "greenhouse",
-    "slug": "umbra",
-    "website": "https://umbra.space",
-    "meta_description": "Highest quality SAR data delivered at the highest volumes revolutionizing remote sensing on a global scale. Refined mission solutions and best-in-class SAR data"
   },
   {
     "name": "True Anomaly",
@@ -155,13 +135,6 @@
     "slug": "vast",
     "website": "https://www.vast.space",
     "meta_description": "Vast's mission is to build next-generation habitats that allow humanity to live and thrive long-term in space, ensuring America\u2019s continuous human presence in low-Earth orbit."
-  },
-  {
-    "name": "Redwire",
-    "ats": "greenhouse",
-    "slug": "redwire",
-    "website": "https://redwirespace.com",
-    "meta_description": "Redwire is the Mission Partner of Choice for Civil, Commercial, and National Security Space."
   },
   {
     "name": "Axiom Space",
@@ -205,24 +178,10 @@
     "meta_description": "PsiQuantum is on a mission to build the first commercially useful quantum computer to solve humanity"
   },
   {
-    "name": "QuEra Computing",
-    "ats": "greenhouse",
-    "slug": "quera",
-    "website": "https://quera.com",
-    "meta_description": "QuEra Computing is the leading provider of quantum computers based on neutral-atoms. Our mission is to build the most scalable quantum computers."
-  },
-  {
     "name": "Atom Computing",
     "ats": "lever",
     "slug": "atomcomputing",
     "website": "https://atom-computing.com"
-  },
-  {
-    "name": "Xanadu",
-    "ats": "greenhouse",
-    "slug": "xanadu",
-    "website": "https://xanadu.ai",
-    "meta_description": "Xanadu is a Canadian quantum computing company with the mission to build quantum computers that are useful and available to people everywhere."
   },
   {
     "name": "Q-CTRL",
@@ -230,20 +189,6 @@
     "slug": "q-ctrl",
     "website": "https://q-ctrl.com",
     "meta_description": "Infrastructure software to power the quantum future. We expand the utility of quantum computers and deliver new quantum sensing capabilities through software."
-  },
-  {
-    "name": "Quantinuum",
-    "ats": "lever",
-    "slug": "quantinuum",
-    "website": "https://quantinuum.com",
-    "meta_description": "Our trapped ion quantum computers and software solutions are the highest performing in the industry, enabling our users to solve industry's most complex problems."
-  },
-  {
-    "name": "Classiq",
-    "ats": "greenhouse",
-    "slug": "classiq",
-    "website": "https://classiq.io",
-    "meta_description": "Discover how Classiq's Quantum Computing Software is revolutionizing quantum development, enabling circuits beyond imagination. Unlock the future today"
   },
   {
     "name": "Helion Energy",
@@ -260,12 +205,6 @@
     "meta_description": "The world's largest and leading commercial fusion energy company"
   },
   {
-    "name": "TAE Technologies",
-    "ats": "greenhouse",
-    "slug": "tae-technologies",
-    "website": "https://tae.com"
-  },
-  {
     "name": "Oklo",
     "ats": "greenhouse",
     "slug": "oklo",
@@ -277,19 +216,6 @@
     "slug": "kairospower",
     "website": "https://kairospower.com",
     "meta_description": "Building the future of clean energy through iterative development and vertical integration. Kairos Power's advanced reactors deliver reliable, safe nuclear power at scale."
-  },
-  {
-    "name": "General Fusion",
-    "ats": "greenhouse",
-    "slug": "general-fusion",
-    "website": "https://generalfusion.com"
-  },
-  {
-    "name": "Tokamak Energy",
-    "ats": "greenhouse",
-    "slug": "tokamak-energy",
-    "website": "https://tokamakenergy.co.uk",
-    "meta_description": "Delivering transformative superconducting and fusion energy technologies"
   },
   {
     "name": "Figure AI",
@@ -319,13 +245,6 @@
     "meta_description": "Agility's humanoid robots are deployed today in manufacturing, distribution, and logistics. Proven automation for industrial environments."
   },
   {
-    "name": "Covariant",
-    "ats": "greenhouse",
-    "slug": "covariant",
-    "website": "https://covariant.ai",
-    "meta_description": "Covariant builds and delivers Robotics Foundation Models into the real world, meeting the reliability and flexibility required by the world\u2019s leading retailers and logistics providers."
-  },
-  {
     "name": "Sanctuary AI",
     "ats": "lever",
     "slug": "sanctuary",
@@ -344,13 +263,6 @@
     "slug": "physicalintelligence",
     "website": "https://physicalintelligence.company",
     "meta_description": "Physical Intelligence is bringing general-purpose AI into the physical world."
-  },
-  {
-    "name": "Machina Labs",
-    "ats": "greenhouse",
-    "slug": "machina-labs",
-    "website": "https://machinalabs.ai",
-    "meta_description": "Machina builds intelligent, software-defined factories that deliver complex metal structures for aerospace, defense, and advanced mobility programs"
   },
   {
     "name": "OpenAI",
@@ -394,8 +306,8 @@
   },
   {
     "name": "Hugging Face",
-    "ats": "lever",
-    "slug": "hugging-face",
+    "ats": "workable",
+    "slug": "huggingface",
     "website": "https://huggingface.co",
     "meta_description": "We\u2019re on a journey to advance and democratize artificial intelligence through open source and open science."
   },
@@ -405,13 +317,6 @@
     "slug": "waymo",
     "website": "https://waymo.com",
     "meta_description": "Waymo\u2014formerly the Google self-driving car project\u2014makes it safe and easy for people & things to get around with autonomous vehicles. Take a ride now."
-  },
-  {
-    "name": "Aurora",
-    "ats": "greenhouse",
-    "slug": "aurora-innovation",
-    "website": "https://aurora.tech",
-    "meta_description": "Step inside the world of self-driving freight, powered by the Aurora Driver. Delivering the benefits of self-driving technology safely, quickly, and broadly."
   },
   {
     "name": "Zoox",
@@ -488,13 +393,6 @@
     "website": "https://insitro.com"
   },
   {
-    "name": "Schrodinger",
-    "ats": "greenhouse",
-    "slug": "schrodinger",
-    "website": "https://schrodinger.com",
-    "meta_description": "Schr\u00f6dinger is the scientific leader in developing state-of-the-art chemical simulation software for use in pharmaceutical, biotechnology, and materials research."
-  },
-  {
     "name": "Absci",
     "ats": "greenhouse",
     "slug": "absci",
@@ -535,13 +433,6 @@
     "meta_description": "Tenstorrent is a next-generation computing company that builds computers for AI.  Headquartered in the U.S. with offices in Austin, Texas, and Silicon Valley, and global offices in Toronto, Belgrade, Seoul, Tokyo, and Bangalore, Tenstorrent brings together experts in the field of computer architecture, ASIC design, RISC-V technology, advanced systems, and neural network compilers."
   },
   {
-    "name": "Groq",
-    "ats": "greenhouse",
-    "slug": "groq",
-    "website": "https://groq.com",
-    "meta_description": "The Groq LPU delivers inference with the speed and cost developers need."
-  },
-  {
     "name": "Etched",
     "ats": "ashby",
     "slug": "Etched",
@@ -555,12 +446,6 @@
     "website": "https://d-matrix.ai"
   },
   {
-    "name": "Mythic",
-    "ats": "greenhouse",
-    "slug": "mythic",
-    "website": "https://mythic-ai.com"
-  },
-  {
     "name": "Form Energy",
     "ats": "lever",
     "slug": "form",
@@ -568,24 +453,10 @@
     "meta_description": "Form Energy is an American company driving innovation in energy manufacturing and technology to ensure a clean, secure, and reliable electric grid."
   },
   {
-    "name": "QuantumScape",
-    "ats": "greenhouse",
-    "slug": "quantumscape",
-    "website": "https://quantumscape.com",
-    "meta_description": "QuantumScape is on a mission to transform energy storage with revolutionary solid state battery technology that will charge faster, go farther and last longer."
-  },
-  {
     "name": "Redwood Materials",
     "ats": "greenhouse",
     "slug": "redwoodmaterials",
     "website": "https://redwoodmaterials.com"
-  },
-  {
-    "name": "Northvolt",
-    "ats": "greenhouse",
-    "slug": "northvolt",
-    "website": "https://northvolt.com",
-    "meta_description": "Pioneering\u00a0a\u00a0sustainable battery industry to enable the future of energy."
   },
   {
     "name": "Heirloom Carbon",
@@ -642,24 +513,10 @@
   },
   {
     "name": "CD Projekt Red",
-    "ats": "greenhouse",
-    "slug": "cdprojektred",
+    "ats": "smartrecruiters",
+    "slug": "CDPROJEKTRED",
     "website": "https://cdprojektred.com",
     "meta_description": "As the team behind The Witcher 4, Cyberpunk 2077, and The Witcher 3: Wild Hunt, we create revolutionary RPGs with memorable stories that inspire gamers."
-  },
-  {
-    "name": "Remedy Entertainment",
-    "ats": "greenhouse",
-    "slug": "remedy",
-    "website": "https://remedygames.com",
-    "meta_description": "Known for story-driven and visually stunning action games, Remedy have created blockbuster games such as Control, Alan Wake, and Max Payne."
-  },
-  {
-    "name": "Unity Technologies",
-    "ats": "greenhouse",
-    "slug": "unity-technologies",
-    "website": "https://unity.com",
-    "meta_description": "Develop, deploy, and grow with Unity, the world\u2019s leading 3D game engine. Build for all major platforms from mobile, to PC and console as well as XR, acquire players, monetize your game, and power industrial applications."
   },
   {
     "name": "Neuralink",
@@ -667,34 +524,6 @@
     "slug": "neuralink",
     "website": "https://neuralink.com",
     "meta_description": "Creating a generalized brain interface to restore autonomy to those with unmet medical needs today and unlock human potential tomorrow."
-  },
-  {
-    "name": "Synchron",
-    "ats": "greenhouse",
-    "slug": "synchron",
-    "website": "https://synchron.com",
-    "meta_description": "Our vision is to transform medicine with unprecedented access to brain data. A breakthrough platform launching a new field of medicine."
-  },
-  {
-    "name": "Precision Neuroscience",
-    "ats": "greenhouse",
-    "slug": "precision-neuroscience",
-    "website": "https://precisionneuro.io",
-    "meta_description": "Unlocking the full potential of the brain."
-  },
-  {
-    "name": "Saildrone",
-    "ats": "greenhouse",
-    "slug": "saildrone",
-    "website": "https://saildrone.com",
-    "meta_description": "Saildrone is a maritime defense company that builds autonomous systems to give decision-makers and warfighters the enduring advantage to outpace adversaries."
-  },
-  {
-    "name": "Terradepth",
-    "ats": "greenhouse",
-    "slug": "terradepth",
-    "website": "https://terradepth.com",
-    "meta_description": "Terradepth delivers seabed-to-cloud ocean data solutions through autonomous vehicles and Absolute Ocean\u2014enabling faster, smarter maritime decisions."
   },
   {
     "name": "Nuro",
@@ -2250,14 +2079,6 @@
     "meta_description": "From rapid prototyping to end-use parts, the Carbon Digital Light Synthesis Process is the dream of Additive Manufacturing realized."
   },
   {
-    "name": "Desktop Metal",
-    "ats": "greenhouse",
-    "slug": "desktopmetal",
-    "website": "https://desktopmetal.com",
-    "category": [],
-    "meta_description": "Desktop Metal\u2122 exists to make metal 3D printing and carbon fiber 3D printing accessible to all engineers, designers, and manufacturers."
-  },
-  {
     "name": "Sonatype",
     "ats": "lever",
     "slug": "sonatype",
@@ -2348,7 +2169,7 @@
   {
     "name": "Bumble",
     "ats": "workday",
-    "slug": "bumble",
+    "slug": "bumble/wd3/Bumble_Careers",
     "website": "https://bumble.com",
     "category": [],
     "meta_description": "Bumble has changed the way people date, create meaningful relationships & network with women making the first move. Meet new people & download Bumble."
@@ -2550,14 +2371,6 @@
     "website": "https://inaccord.com",
     "category": [],
     "meta_description": "Transform sales best practices into unavoidable playbooks. Empower reps to win like top sellers with AI-powered revenue execution. Increase deal size by +40%."
-  },
-  {
-    "name": "Activepieces",
-    "ats": "bamboo",
-    "slug": "documentation",
-    "website": "https://www.activepieces.com",
-    "category": [],
-    "meta_description": "Activepieces is the best way to build a self-driven AI culture across HR, finance, marketing, sales and more \u2014 under the supervision of your IT ninjas"
   },
   {
     "name": "Adaptyv",
@@ -4689,14 +4502,6 @@
     "meta_description": "Discover Omni 1000, the revolutionary proteomics platform offering 1000 high-fidelity proteins for cost-effective and rapid analysis in any study."
   },
   {
-    "name": "Noora Health",
-    "ats": "bamboo",
-    "slug": "images7",
-    "website": "https://noorahealth.org",
-    "category": [],
-    "meta_description": "Noora Health collaborates with local hospitals, healthcare experts, and families to improve health outcomes and save lives. Discover family caregiving!"
-  },
-  {
     "name": "Notabene",
     "ats": "ashby",
     "slug": "notabene",
@@ -6218,7 +6023,7 @@
   {
     "name": "Anthem Health",
     "ats": "workday",
-    "slug": "elevancehealth",
+    "slug": "elevancehealth/wd1/ANT",
     "website": "https://anthem.com",
     "category": [],
     "meta_description": "Official Site of Anthem Blue Cross Blue Shield, a trusted health insurance plan provider. Shop plans for Medicare, Medical, Dental, Vision & Employers."
@@ -6311,28 +6116,12 @@
     "meta_description": "Omada is a virtual care solution with personalized chronic disease management programs designed to adapt to every member. Check your eligibility today!"
   },
   {
-    "name": "Qualys",
-    "ats": "workday",
-    "slug": "qualys/wd5/Careers",
-    "website": "https://qualys.com",
-    "category": [],
-    "meta_description": "Discover how Qualys helps your business measure & eliminate cyber threats through a host of cybersecurity detection & remediation tools. Try it today!"
-  },
-  {
     "name": "Quantropi",
     "ats": "bamboo",
     "slug": "quantropi",
     "website": "https://quantropi.com",
     "category": [],
     "meta_description": "Protect your data today and tomorrow from quantum security threats with Quantropi! We provide data security powered by quantum mechanics."
-  },
-  {
-    "name": "Remitly",
-    "ats": "workday",
-    "slug": "remitly",
-    "website": "https://remitly.com",
-    "category": [],
-    "meta_description": "Send money online faster and more securely with Remitly, and discover our great exchange rates and low money transfer fees."
   },
   {
     "name": "Rockwell Automation",
