@@ -5,6 +5,10 @@ on:
     - cron: "0 0 * * 0"  # Sundays at midnight UTC
   workflow_dispatch:
 
+concurrency:
+  group: companies-pipeline
+  cancel-in-progress: false
+
 jobs:
   run:
     runs-on: ubuntu-latest
