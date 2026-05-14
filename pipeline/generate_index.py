@@ -12,6 +12,25 @@ JOBS_REPO = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).parent.pa
 README = JOBS_REPO / "README.md"
 COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies.json"
 SKILL_COLOR = "3B82F6"
+REMOTE_BADGE = "![Remote](https://img.shields.io/badge/Remote-22C55E?style=flat-square&logoColor=white)"
+HYBRID_BADGE = "![Hybrid](https://img.shields.io/badge/Hybrid-F59E0B?style=flat-square&logoColor=white)"
+
+GENERIC_SKILLS = {
+    "multiple programming languages",
+    "programming languages",
+    "software development",
+    "software engineering",
+    "coding",
+    "problem solving",
+}
+
+
+def abbrev_comp(comp: str) -> str:
+    """Normalize $100,000 → $100k for any currency with large numbers."""
+    def shorten(m):
+        n = int(m.group(0).replace(",", ""))
+        return f"{n // 1000}k"
+    return re.sub(r"\d{1,3}(?:,\d{3})+", shorten, comp)
 
 
 def parse_frontmatter(path: Path) -> dict:
@@ -55,6 +74,7 @@ def format_meta(fm: dict) -> str:
         location = ""
 
     if remote == "Remote" and location:
+        location = re.sub(r"\bremote[\s-]friendly\b", "", location, flags=re.I)
         location = re.sub(r"\s*\(\s*(?:remote|hybrid)\s*\)", "", location, flags=re.I)
         location = re.sub(r"\s*[-–,|]\s*(?:remote|hybrid)\b", "", location, flags=re.I)
         location = re.sub(r"\b(?:remote|hybrid)\s*[-–,|]\s*", "", location, flags=re.I)
@@ -67,11 +87,11 @@ def format_meta(fm: dict) -> str:
     if level and level not in ("unclear", ""):
         parts.append(f"`{level.capitalize()}`")
     if remote == "Remote":
-        parts.append("`Remote`")
+        parts.append(REMOTE_BADGE)
     elif hybrid == "yes":
-        parts.append("`Hybrid`")
+        parts.append(HYBRID_BADGE)
     if comp:
-        parts.append(f"`{comp}`")
+        parts.append(f"`{abbrev_comp(comp)}`")
     for extra in comp_extras:
         parts.append(f"`{extra.capitalize()}`")
 
@@ -92,7 +112,7 @@ def main():
         if not fm.get("id"):
             continue
         skills_raw = fm.get("skills", "")
-        skills = [s.strip() for s in skills_raw.split(",") if s.strip()] if skills_raw else []
+        skills = [s.strip() for s in skills_raw.split(",") if s.strip() and s.strip().lower() not in GENERIC_SKILLS] if skills_raw else []
         by_date[fm.get("first_seen", "unknown")].append({
             "title": fm.get("title", ""),
             "company": fm.get("company", ""),
