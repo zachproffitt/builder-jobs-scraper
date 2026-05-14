@@ -21394,5 +21394,172 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "45b42bdf"
+  },
+  "greenhouse-rocketlab-7732204003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "788a59ff"
+  },
+  "greenhouse-kairospower-5899508004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1791913d"
+  },
+  "greenhouse-planetlabs-7785112": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "05d10a0e"
+  },
+  "greenhouse-andurilindustries-4679704007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$154,000\u2014$231,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "d7ca5b87"
+  },
+  "greenhouse-anthropic-5170073008": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build and operate production networking infrastructure across multiple data centers, including physical network design, routing protocols, and security. Develop network automation and tooling while scaling infrastructure for AI workloads at massive scale.",
+    "skills": [
+      "Python",
+      "Go",
+      "Linux",
+      "BGP",
+      "OSPF",
+      "Kubernetes",
+      "AWS",
+      "Terraform"
+    ],
+    "level": "senior",
+    "comp": "$320k-$405k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c25246ba"
+  },
+  "ashby-openai-4f7ccd3c-0f85-4384-a310-d751993ed431": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "721d5687"
+  },
+  "greenhouse-andurilindustries-4679700007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$154k-$231k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "4afb3739"
+  },
+  "greenhouse-epicgames-5995948004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and implement low-level engine systems across Scene Graph, networking, analytics, and the language toolchain for Unreal Engine's Verse Framework. Shape stable APIs that expose engine capabilities while navigating cross-team integration challenges at scale across multiple platforms including game consoles.",
+    "skills": [
+      "C++",
+      "Unreal Engine",
+      "Verse",
+      "API Design",
+      "Networking",
+      "Scene Graph",
+      "Game Console Development",
+      "Performance Optimization"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5366a26b"
+  },
+  "ashby-cursor-57d24d12-ba83-460a-868b-362ffd653253": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4ae39c69"
+  },
+  "greenhouse-epicgames-5994995004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and implement low-level engine systems for Unreal Engine's Verse Framework, including Scene Graph, networking, analytics, and language toolchain integration. Build stable, forward-thinking APIs that expose engine capabilities while maintaining robustness, performance, and cross-platform reliability across game consoles and multiple hardware platforms.",
+    "skills": [
+      "C++",
+      "Unreal Engine",
+      "API Design",
+      "Networking",
+      "Scene Graph",
+      "Game Console Development",
+      "Multiple Programming Languages",
+      "Performance Optimization"
+    ],
+    "level": "senior",
+    "comp": "$182,815\u2013$268,128 CAD",
+    "comp_extras": [],
+    "source_hash": "c7ed8ef2"
+  },
+  "greenhouse-roblox-7919050": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build the Open Cloud platform and HTTP API infrastructure that enables Roblox creators and AI agents to automate community management, CI/CD, and in-game economy tasks. Own projects end-to-end across the full stack while serving millions of developers on a platform handling massive scale.",
+    "skills": [
+      "HTTP APIs",
+      "OAuth 2.0",
+      "Backend Systems",
+      "Authentication/Authorization",
+      "API Design",
+      "Developer Platforms",
+      "Distributed Systems",
+      "Monitoring"
+    ],
+    "level": "senior",
+    "comp": "$196,750-$243,290",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "fe16a559"
   }
 }
