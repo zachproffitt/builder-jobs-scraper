@@ -22251,5 +22251,297 @@
       "equity"
     ],
     "source_hash": "2d08cbdf"
+  },
+  "greenhouse-stripe-7925790": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bfe43ee0"
+  },
+  "greenhouse-stripe-7893203": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c55ffe8f"
+  },
+  "greenhouse-tailscale-4695255005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$143,000\u2014$179,000 USD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "a4e95a96"
+  },
+  "greenhouse-stripe-7925821": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2e9042fc"
+  },
+  "greenhouse-isomorphiclabs-5996132004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ba577919"
+  },
+  "greenhouse-grafanalabs-5996124004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and operate Grafana Cloud k6, a distributed performance testing platform that runs load tests at scale from 15+ regions worldwide, ingesting and analyzing millions of requests per second. Establish and scale DevOps/SRE practices across teams while guiding architectural decisions for large-scale distributed cloud systems.",
+    "skills": [
+      "Python",
+      "Go",
+      "Kubernetes",
+      "Docker",
+      "AWS",
+      "SRE/DevOps Practices",
+      "Observability",
+      "Distributed Systems"
+    ],
+    "level": "staff",
+    "comp": "\u00a3103,958-\u00a3124,750",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "dcd99e34"
+  },
+  "greenhouse-tailscale-4694079005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$191,620\u2014$239,860 CAD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "a3e388fb"
+  },
+  "greenhouse-grafanalabs-5996123004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and operate Grafana Cloud k6, a distributed performance testing platform that scales to hundreds of thousands of virtual users across 15+ regions worldwide. Design and implement DevOps/SRE practices, reliability frameworks, and large-scale cloud infrastructure while establishing engineering excellence standards across teams.",
+    "skills": [
+      "Python",
+      "Go",
+      "Kubernetes",
+      "Docker",
+      "AWS",
+      "Observability",
+      "SLIs/SLOs",
+      "Performance Testing"
+    ],
+    "level": "staff",
+    "comp": "\u20ac109,709-\u20ac131,651",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "dfc05a86"
+  },
+  "greenhouse-rockstargames-7734376003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and implement backend software tools for game development studios, including task management systems, defect trackers with console integration, distributed video recording, and analytics applications. Work at scale supporting worldwide game development teams across multiple large-scale creative projects.",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "JPA/Hibernate",
+      "MySQL",
+      "Apache Kafka",
+      "RESTful APIs",
+      "Linux",
+      "Git"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3b1f7fa6"
+  },
+  "greenhouse-grafanalabs-5996121004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and operate Grafana Cloud k6, a distributed performance testing platform that scales to hundreds of thousands of virtual users across 15+ regions worldwide. Establish SRE/DevOps practices, reliability frameworks, and operational excellence standards across teams managing large-scale cloud infrastructure.",
+    "skills": [
+      "Python",
+      "Go",
+      "Kubernetes",
+      "Docker",
+      "AWS",
+      "Incident Management",
+      "SLOs/SLIs",
+      "JavaScript"
+    ],
+    "level": "staff",
+    "comp": "\u20ac94,025-\u20ac112,830",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "12f76439"
+  },
+  "greenhouse-scopely-5220481008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a5d47a49"
+  },
+  "greenhouse-grafanalabs-5996122004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and operate Grafana Cloud k6, a distributed performance testing platform handling millions of requests per second across 15+ regions, while establishing DevOps/SRE practices and reliability engineering standards across engineering teams. Scale large distributed cloud systems and drive architectural decisions for a product used by thousands of enterprises including Bloomberg, JPMorgan Chase, and eBay.",
+    "skills": [
+      "Python",
+      "Go",
+      "JavaScript",
+      "Kubernetes",
+      "Docker",
+      "AWS",
+      "SRE/DevOps practices",
+      "Distributed Systems"
+    ],
+    "level": "staff",
+    "comp": "\u20ac117,600-\u20ac141,120",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "cfb5efb8"
+  },
+  "ashby-Viz.ai-ac8e6a65-87dc-4d71-8858-7b939127597a": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$31.00-$41.00",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "37ab0a69"
+  },
+  "ashby-lovable-45db5790-4305-4fad-b96b-1fbdf42b88f2": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and scale the core systems powering Lovable's AI-driven software creation platform, handling full-stack development across frontend, backend, and infrastructure serving millions of users. You'll own systems end-to-end from architecture through production, collaborating with ML and design teams to translate capabilities into user-facing features.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Golang",
+      "Rust",
+      "GCP",
+      "AWS",
+      "Terraform",
+      "Cloudflare"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "16a6e2c6"
+  },
+  "ashby-notion-9fdc08a2-49b8-4da0-8e20-e657f505e9a8": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "efea0279"
+  },
+  "ashby-lovable-dc19c01d-a6d5-4fbd-bba6-47efa01a8dce": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and build core platform infrastructure including gVisor-based runtime systems, sandbox schedulers, and observability stacks that power Lovable's AI product. Operate at scale across multiple cloud providers with responsibility for hardening systems against failure and eliminating infrastructure bottlenecks for a rapidly growing engineering organization.",
+    "skills": [
+      "Go",
+      "Rust",
+      "Kubernetes",
+      "Docker",
+      "gVisor",
+      "Terraform",
+      "Clickhouse",
+      "Grafana"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "71c0d588"
+  },
+  "greenhouse-givedirectly-4695154005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$77.5k-$109.2k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "fcda4fa6"
+  },
+  "ashby-lovable-0cafed78-f2d9-4f75-9f3b-6cd6f190312c": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build end-to-end security product features including audit flows, compliance tooling, and static analysis systems integrated with AI/LLM capabilities. Ship across the full stack (React/TypeScript frontend, Golang backend) as part of a small self-sufficient team, with influence over technical direction and security strategy for an AI-powered software platform used hundreds of millions of times monthly.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Golang",
+      "Static Analysis (SAST)",
+      "Audit & Compliance Systems",
+      "AI/LLM Integration",
+      "GCP",
+      "AWS"
+    ],
+    "level": "principal",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9ff53c5d"
   }
 }
