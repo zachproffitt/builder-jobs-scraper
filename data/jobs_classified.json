@@ -21766,5 +21766,49 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "7e5b9ece"
+  },
+  "greenhouse-roblox-7911884": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "51756ec9"
+  },
+  "greenhouse-relativity-8548054002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design, develop, and maintain fully automated test systems for avionics electronics in production, supporting acceptance and qualification testing for Terran R rocket hardware. Lead a team of test engineers while managing complex test architectures for high-voltage DC systems, motor drives, and power electronics in a rapid-iteration aerospace environment.",
+    "skills": [
+      "Python",
+      "MATLAB",
+      "Altium Designer",
+      "NX",
+      "Embedded Systems",
+      "High-Voltage Electronics Testing",
+      "Environmental/Qualification Testing",
+      "Data Acquisition Systems"
+    ],
+    "level": "manager",
+    "comp": "$151,000\u2014$208,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "a915224e"
+  },
+  "greenhouse-roblox-7920864": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fd9ba163"
   }
 }

@@ -3650,5 +3650,10 @@
     "slug": "getzuma",
     "name": "Zuma",
     "summary": "Zuma builds software and services that help restaurants manage their back-of-house operations, including kitchen display systems, inventory management, and labor scheduling. They operate in the restaurant technology domain, serving independent and multi-location food service establishments."
+  },
+  {
+    "slug": "tuesday-labs",
+    "name": "Tuesday Lab",
+    "summary": "Tuesday Lab engineers robots, focusing on creating delightful robotic systems and experiences. The company operates in the robotics and engineering domain, developing hardware and software for robotic applications."
   }
 ]
