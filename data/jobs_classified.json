@@ -22543,5 +22543,125 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "9ff53c5d"
+  },
+  "lever-cfsenergy-61a96e61-24c5-46a3-b535-8f682cecd52a": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f18475e0"
+  },
+  "ashby-docker-dd69e9f1-c364-4616-af6b-5b8c6b7c06eb": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "b3f06aee"
+  },
+  "ashby-Pear-VC-61f8a7b8-349d-4eb8-8b91-59084ae7654f": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "fdb3ed7f"
+  },
+  "greenhouse-grafanalabs-5995397004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Contribute to OpenTelemetry components and related observability infrastructure across the open source ecosystem, while defining and executing Grafana Labs' technical strategy for OpenTelemetry adoption. Work with upstream maintainers and customers to build production-quality telemetry pipelines and instrumentation tooling.",
+    "skills": [
+      "Go",
+      "Rust",
+      "Java",
+      "OpenTelemetry",
+      "Prometheus",
+      "Distributed Systems",
+      "Microservices",
+      "Cloud Infrastructure"
+    ],
+    "level": "senior",
+    "comp": "$154k-$193k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "7fd40d5d"
+  },
+  "greenhouse-grafanalabs-5995398004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Contribute to OpenTelemetry projects and Grafana Labs' observability infrastructure, working across upstream open source communities and customer needs. Lead technical strategy around instrumentation, telemetry pipelines, and distributed tracing systems at scale.",
+    "skills": [
+      "Go",
+      "Rust",
+      "Java",
+      "OpenTelemetry",
+      "Prometheus",
+      "Grafana",
+      "Distributed Systems",
+      "Kubernetes"
+    ],
+    "level": "senior",
+    "comp": "CAD 164,000 - CAD 205,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "829a3aa1"
+  },
+  "greenhouse-galaxydigitalservices-5991916004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$180,000\u2013$240,000 USD",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "bfbc2ba1"
+  },
+  "greenhouse-sonyinteractiveentertainmentglobal-5996147004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build video codec architecture and encoder/decoder systems for PlayStation SDKs and cloud gaming platforms. Own feature delivery from design through validation, with GPU optimization and ML-based video quality enhancement across CPU and GPU pipelines at scale.",
+    "skills": [
+      "C++",
+      "CUDA",
+      "Vulkan",
+      "H.264",
+      "H.265",
+      "AV1",
+      "GPU programming",
+      "Multi-threaded programming"
+    ],
+    "level": "senior",
+    "comp": "$193,300-$289,900",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "7c89641e"
   }
 }
