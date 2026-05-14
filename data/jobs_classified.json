@@ -22025,5 +22025,30 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "2e86b1c2"
+  },
+  "greenhouse-rockstargames-7703917003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "64fb02d0"
+  },
+  "greenhouse-nanonets-5219252008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$130k-$150k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "1044ffff"
   }
 }

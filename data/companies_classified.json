@@ -3655,5 +3655,75 @@
     "slug": "tuesday-labs",
     "name": "Tuesday Lab",
     "summary": "Tuesday Lab engineers robots, focusing on creating delightful robotic systems and experiences. The company operates in the robotics and engineering domain, developing hardware and software for robotic applications."
+  },
+  {
+    "slug": "spellbrush",
+    "name": "Spellbrush",
+    "summary": "Spellbrush builds AI-powered tools for generating anime and manga-style artwork, allowing users to create custom character portraits and illustrations through text prompts and interactive customization. The company operates in the generative AI and digital art software space, serving artists, content creators, and anime enthusiasts."
+  },
+  {
+    "slug": "deepmind",
+    "name": "DeepMind",
+    "summary": "DeepMind is an artificial intelligence research laboratory owned by Google/Alphabet that develops machine learning systems and algorithms, with a focus on creating AI agents capable of solving complex problems across domains like games, protein folding, and scientific discovery. The company operates primarily in foundational AI research, publishing their findings and developing AI systems that tackle challenges in biology, physics, mathematics, and other scientific fields."
+  },
+  {
+    "slug": "Honey",
+    "name": "Honey Homes",
+    "summary": "Honey Homes connects homeowners with a dedicated, fully-vetted handyman who handles ongoing home repairs, maintenance, and upgrades through a flexible partnership model where customers purchase visit packages to use throughout the year. The company operates in the on-demand home services space, focusing on providing consistent, quality handyman work for tasks ranging from minor repairs and fixture replacements to preventive maintenance and home improvements."
+  },
+  {
+    "slug": "Outsmart",
+    "name": "Outsmart College",
+    "summary": "Outsmart College is building an AI-powered university platform designed to reimagine higher education by offering scalable, personalized learning experiences for undergraduate students. Founded by former Duolingo executives and backed by $38 million in funding, the company operates in the higher education technology sector, focusing on course design, content generation, and student engagement through mobile-first learning applications."
+  },
+  {
+    "slug": "freshhealth",
+    "name": "Proclaim",
+    "summary": "Proclaim builds practice management and electronic health record (EHR) software specifically designed for small to mid-sized pain management and interventional practices. The platform helps these clinics manage patient scheduling, billing, clinical documentation, and compliance requirements within the healthcare domain."
+  },
+  {
+    "slug": "aurora-dev",
+    "name": "Aurora Innovation",
+    "summary": "Aurora Innovation develops autonomous driving software and technology for commercial trucking applications. The company operates in the autonomous vehicle industry, focusing specifically on long-haul freight transportation."
+  },
+  {
+    "slug": "galaxydigitalservices",
+    "name": "Galaxy Digital",
+    "summary": "Galaxy Digital is a merchant bank and investment firm that builds financial products and infrastructure for the digital assets and cryptocurrency ecosystem. The company operates across multiple domains including asset management, trading, lending, and venture capital investing, primarily serving institutional and professional clients in the blockchain and cryptocurrency space."
+  },
+  {
+    "slug": "ibkr",
+    "name": "Interactive Brokers",
+    "summary": "Interactive Brokers is a financial services company that provides electronic brokerage services, allowing retail and institutional investors to trade stocks, options, futures, forex, bonds, and other securities across multiple global markets. The company operates as a broker-dealer offering trading platforms, clearing services, and custodial accounts for self-directed investors."
+  },
+  {
+    "slug": "keboola",
+    "name": "Keboola",
+    "summary": "Keboola builds a cloud-based data integration and orchestration platform that helps organizations connect, transform, and prepare data from multiple sources for analytics and business intelligence. The company operates in the data management and ETL (extract, transform, load) software domain, serving mid-market and enterprise customers who need to consolidate fragmented data systems into unified pipelines."
+  },
+  {
+    "slug": "lambda",
+    "name": "Lambda Labs",
+    "summary": "Lambda Labs builds GPU cloud computing infrastructure and hardware systems designed for machine learning, AI, and deep learning workloads. They operate in the cloud computing and AI infrastructure domain, offering on-demand GPU instances, pre-configured deep learning environments, and physical AI workstations for researchers and enterprises."
+  },
+  {
+    "slug": "meltano",
+    "name": "Meltano",
+    "summary": "Meltano builds an open-source platform for data integration and transformation that helps organizations extract data from various sources, load it into data warehouses, and transform it for analytics. The platform operates in the data engineering and analytics domain, providing tools for building and managing data pipelines using a declarative configuration approach."
+  },
+  {
+    "slug": "omadahealth",
+    "name": "Omada Health",
+    "summary": "Omada Health builds digital health platforms and software tools designed to help manage chronic diseases like diabetes, hypertension, and behavioral health through remote patient monitoring, coaching, and personalized interventions. The company operates in the digital therapeutics and preventive care space, serving health plans, employers, and healthcare providers."
+  },
+  {
+    "slug": "sisense",
+    "name": "Sisense",
+    "summary": "Sisense builds business intelligence and analytics software that enables organizations to connect, process, and visualize data from multiple sources to support data-driven decision-making. The company operates in the enterprise analytics and data visualization domain, serving customers across various industries who need to transform raw data into actionable insights."
+  },
+  {
+    "slug": "tenableinc",
+    "name": "Tenable",
+    "summary": "Tenable builds vulnerability management and cyber risk quantification software that helps organizations identify, prioritize, and remediate security weaknesses across their IT infrastructure, cloud environments, and operational technology systems. The company operates in the cybersecurity domain, providing platforms and tools that enable enterprises to understand and manage their exposure to cyber threats."
   }
 ]
