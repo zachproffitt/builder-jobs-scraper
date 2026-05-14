@@ -21843,5 +21843,72 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "21be14db"
+  },
+  "greenhouse-airbnb-7759457": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build ML/AI infrastructure, data foundations, and feature platforms that power Airbnb's machine learning models and applications at scale. Work on generative AI infrastructure, model serving systems, and governance frameworks across both batch and real-time production use cases.",
+    "skills": [
+      "Python",
+      "Scala",
+      "PyTorch",
+      "TensorFlow",
+      "Kubernetes",
+      "Spark",
+      "Airflow",
+      "Kafka"
+    ],
+    "level": "staff",
+    "comp": "$248,000-$310,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "6ac87013"
+  },
+  "ashby-sieve-d294868e-1b94-425c-934b-b1cf806e05aa": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build custom algorithms, models, and data pipelines to process and transform video datasets at scale for frontier AI labs. Work forward-deployed at customer sites translating ambiguous requirements into production systems spanning computer vision, audio processing, and multimodal data handling.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "Computer Vision",
+      "Data Pipelines",
+      "Video Processing",
+      "Audio Processing",
+      "Model Fine-tuning",
+      "Inference Optimization"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5e7ab9b2"
+  },
+  "greenhouse-scopely-5214067008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0ccc2059"
+  },
+  "greenhouse-andurilindustries-5136570007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$98,000\u2014$130,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "3d58098b"
   }
 }
