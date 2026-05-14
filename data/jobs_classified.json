@@ -21561,5 +21561,61 @@
       "equity"
     ],
     "source_hash": "fe16a559"
+  },
+  "greenhouse-marqeta-7892053": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead design and development of an identity verification and KYC/KYB platform handling the full customer lifecycle from account opening through continuous risk monitoring. Drive AI-first automation to reduce manual review rates and scale identity verification across multiple jurisdictions and regulatory frameworks.",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Python",
+      "Airflow",
+      "Backend Systems",
+      "Event-Driven Architectures",
+      "AI/ML Automation",
+      "KYC/AML Compliance"
+    ],
+    "level": "manager",
+    "comp": "$156,800-$196,000 CAD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "5648fae7"
+  },
+  "lever-ChefRobotics-596482bc-0284-4244-8527-f56345f85b59": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a8125360"
+  },
+  "ashby-elevenlabs-1285b935-1398-4116-8576-70a58896faa8": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "dc146be9"
+  },
+  "ashby-elevenlabs-86db28df-173c-4407-b016-3dee1ec6197b": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "626e67cd"
   }
 }
