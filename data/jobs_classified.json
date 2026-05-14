@@ -21842,7 +21842,7 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "21be14db"
+    "source_hash": "40c7968d"
   },
   "greenhouse-airbnb-7759457": {
     "is_engineering": true,
@@ -21910,5 +21910,38 @@
       "equity"
     ],
     "source_hash": "3d58098b"
+  },
+  "greenhouse-stripe-7923895": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "37a95096"
+  },
+  "greenhouse-motional-7700401003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ca9af1e0"
+  },
+  "ashby-openai-b6844d14-83a3-4993-aec9-9725ac1ac4c3": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "50dc764c"
   }
 }
