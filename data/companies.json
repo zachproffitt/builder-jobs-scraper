@@ -6184,5 +6184,12 @@
     "slug": "mongodb",
     "website": "https://mongodb.com",
     "category": []
+  },
+  {
+    "name": "Microsoft",
+    "ats": "eightfold",
+    "slug": "apply.careers.microsoft.com|microsoft.com",
+    "website": "https://microsoft.com",
+    "category": []
   }
 ]

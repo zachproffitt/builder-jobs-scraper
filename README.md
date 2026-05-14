@@ -49,6 +49,7 @@ Non-engineering and contract roles are filtered out.
 | Workday | 29 | `scrapers/ats_workday.py` |
 | Workable | 17 | `scrapers/ats_workable.py` |
 | SmartRecruiters | 2 | `scrapers/ats_smartrecruiters.py` |
+| Eightfold | 1+ | `scrapers/ats_eightfold.py` |
 
 ## Company sources
 

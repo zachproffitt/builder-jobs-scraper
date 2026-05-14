@@ -10,7 +10,7 @@ from pathlib import Path
 DATA_DIR = Path(__file__).parent.parent / "data"
 SUMMARY_FILE = os.environ.get("GITHUB_STEP_SUMMARY")
 
-SUPPORTED_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters", "bamboo", "breezy", "workable", "workday"}
+SUPPORTED_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters", "bamboo", "breezy", "workable", "workday", "eightfold"}
 
 
 def main():

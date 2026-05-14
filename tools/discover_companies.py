@@ -80,7 +80,7 @@ ATS_PATTERNS = [
     (re.compile(r"([A-Za-z0-9-]+)\.breezy\.hr", re.I), "breezy"),
 ]
 
-SUPPORTED_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters", "bamboo", "breezy", "workable", "workday"}
+SUPPORTED_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters", "bamboo", "breezy", "workable", "workday", "eightfold"}
 
 
 def parse_names_file() -> list[tuple[str, str]]:
@@ -203,6 +203,10 @@ def scrape_company(domain: str, client: httpx.Client) -> "tuple[tuple[str, str] 
             result = check_response(r)
             if result:
                 return result, meta
+            # Eightfold: both markers must be present to avoid false positives
+            if r.status_code == 200 and "eightfold.ai" in r.text and "vscdn.net" in r.text:
+                host = str(r.url).split("://", 1)[-1].split("/")[0]
+                return ("eightfold", f"{host}|{domain}"), meta
         except Exception:
             continue
 

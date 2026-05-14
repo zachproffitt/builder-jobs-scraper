@@ -14,7 +14,7 @@ JOBS_REPO = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).parent.pa
 README = JOBS_REPO / "README.md"
 REMOTE_README = JOBS_REPO / "REMOTE.md"
 COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies.json"
-SUPPORTED_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters", "bamboo", "breezy", "workable", "workday"}
+SUPPORTED_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters", "bamboo", "breezy", "workable", "workday", "eightfold"}
 SKILL_COLOR = "3B82F6"
 REMOTE_BADGE = '<img src="https://img.shields.io/badge/Remote-22C55E?style=flat-square" align="absmiddle">'
 HYBRID_BADGE = '<img src="https://img.shields.io/badge/Hybrid-F59E0B?style=flat-square" align="absmiddle">'
