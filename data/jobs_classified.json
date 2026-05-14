@@ -22196,5 +22196,60 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "8da14d97"
+  },
+  "greenhouse-prolific-4866652101": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f6be0cfb"
+  },
+  "greenhouse-scopely-5128789008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "eeb87310"
+  },
+  "greenhouse-prolific-4866625101": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "15e2f478"
+  },
+  "greenhouse-spire-7317124": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Design, implement, and maintain embedded firmware for satellite systems operating in a fast-paced, weeks-to-months development cycle. Work on real-time systems requiring debugging and optimization for remote on-orbit resolution without standard debugging access.",
+    "skills": [
+      "C",
+      "Python",
+      "FreeRTOS",
+      "Embedded Linux",
+      "Rust",
+      "ARM Cortex",
+      "Git",
+      "GDB"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "2d08cbdf"
   }
 }
