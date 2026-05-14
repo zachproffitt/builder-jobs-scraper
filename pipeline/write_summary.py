@@ -1,0 +1,73 @@
+#!/usr/bin/env python3
+"""Write a GitHub Actions step summary for the pipeline run."""
+
+import json
+import os
+import sys
+from datetime import datetime, timezone
+from pathlib import Path
+
+DATA_DIR = Path(__file__).parent.parent / "data"
+SUMMARY_FILE = os.environ.get("GITHUB_STEP_SUMMARY")
+
+SUPPORTED_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters", "bamboo", "breezy", "workable", "workday"}
+
+
+def main():
+    today = datetime.now(timezone.utc).date().isoformat()
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+
+    companies = json.loads((DATA_DIR / "companies.json").read_text())
+    classified = json.loads((DATA_DIR / "jobs_classified.json").read_text())
+
+    by_ats: dict[str, int] = {}
+    for c in companies:
+        ats = c.get("ats", "")
+        if ats in SUPPORTED_ATS:
+            by_ats[ats] = by_ats.get(ats, 0) + 1
+
+    total_companies = sum(by_ats.values())
+    engineering = [v for v in classified.values() if v.get("is_engineering")]
+    new_today = [v for v in engineering if v.get("first_seen") == today]
+
+    log_path = DATA_DIR / "pipeline.log"
+    log_lines = []
+    if log_path.exists():
+        for line in log_path.read_text().splitlines():
+            if today in line:
+                log_lines.append(line)
+
+    lines = [
+        f"## Pipeline run — {now}",
+        "",
+        f"**{len(engineering)}** engineering roles live &nbsp;·&nbsp; **{len(new_today)}** new today &nbsp;·&nbsp; **{total_companies}** companies searched",
+        "",
+        "### Companies by ATS",
+        "| ATS | Companies |",
+        "|---|---|",
+    ]
+    for ats, count in sorted(by_ats.items(), key=lambda x: -x[1]):
+        lines.append(f"| {ats} | {count} |")
+
+    if log_lines:
+        lines += [
+            "",
+            f"### Errors ({len(log_lines)})",
+            "```",
+            *log_lines[-50:],  # cap at 50 lines
+            "```",
+        ]
+    else:
+        lines += ["", "No errors."]
+
+    output = "\n".join(lines) + "\n"
+
+    if SUMMARY_FILE:
+        with open(SUMMARY_FILE, "a") as f:
+            f.write(output)
+    else:
+        print(output)
+
+
+if __name__ == "__main__":
+    main()

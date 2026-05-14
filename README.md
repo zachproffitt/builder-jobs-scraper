@@ -37,6 +37,7 @@ Non-engineering and contract roles are filtered out.
 | Lever | 82 | `scrapers/ats_lever.py` |
 | BambooHR | 28 | `scrapers/ats_bamboo.py` |
 | Breezy | 22 | `scrapers/ats_breezy.py` |
+| Workday | 29 | `scrapers/ats_workday.py` |
 | Workable | 17 | `scrapers/ats_workable.py` |
 | SmartRecruiters | 2 | `scrapers/ats_smartrecruiters.py` |
 
