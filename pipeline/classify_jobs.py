@@ -86,7 +86,9 @@ Extract the following. Use judgment — if the description gives strong signals,
    - Include clearance if required: "TS/SCI Clearance", "Security Clearance"
    - Skip pure generics: "backend", "APIs", "the cloud" — but "AWS", "GCP", "Azure" are fine
    - Domain terms only when specific: "Distributed Systems" alone is too vague; "Kafka", "Raft Consensus" are fine
-   - After listing, remove skills that are obvious for any software engineer ("Software Design", "Coding", "Problem Solving") or that are multiple subcategories of the same concept (e.g. if the role is in security, pick at most 2 specific security technologies — not "Security Architecture", "Threat Modeling", "Secure by Design", "Platform Security" all at once; if it's an ML role, pick specific frameworks not 5 types of learning).
+   - Never include skills that apply to every software engineer: "Coding", "Problem Solving", "Software Development", "Software Engineering", "Programming", "Multiple Programming Languages", or any phrasing that just means "writes code".
+   - Never name a category instead of a skill: "Multiple Programming Languages" is not a skill — pick the actual languages. "Various frameworks" is not a skill — pick the framework.
+   - After listing, remove skills that are multiple subcategories of the same concept (e.g. if the role is in security, pick at most 2 specific security technologies — not "Security Architecture", "Threat Modeling", "Secure by Design", "Platform Security" all at once; if it's an ML role, pick specific frameworks not 5 types of learning).
    - Prefer breadth: if skills cluster in one domain, pick the 1-2 most specific and use remaining slots for other aspects of the role.
    - Use proper capitalization: official casing for tech names (Python, PyTorch, PostgreSQL, JavaScript, AWS, GCP), Title Case for other terms (Distributed Systems, Machine Learning, Computer Vision).
    If none remain after filtering, write: n/a

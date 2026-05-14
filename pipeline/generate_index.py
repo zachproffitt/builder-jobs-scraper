@@ -7,6 +7,7 @@ from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 
+from render_jobs import clean_location
 
 JOBS_REPO = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).parent.parent.parent / "jobs"
 README = JOBS_REPO / "README.md"
@@ -14,15 +15,6 @@ COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies.json"
 SKILL_COLOR = "3B82F6"
 REMOTE_BADGE = "![Remote](https://img.shields.io/badge/Remote-22C55E?style=flat-square&logoColor=white)"
 HYBRID_BADGE = "![Hybrid](https://img.shields.io/badge/Hybrid-F59E0B?style=flat-square&logoColor=white)"
-
-GENERIC_SKILLS = {
-    "multiple programming languages",
-    "programming languages",
-    "software development",
-    "software engineering",
-    "coding",
-    "problem solving",
-}
 
 
 def abbrev_comp(comp: str) -> str:
@@ -73,13 +65,7 @@ def format_meta(fm: dict) -> str:
     if location in ("Not specified", ""):
         location = ""
 
-    if remote == "Remote" and location:
-        location = re.sub(r"\bremote[\s-]friendly\b", "", location, flags=re.I)
-        location = re.sub(r"\s*\(\s*(?:remote|hybrid)\s*\)", "", location, flags=re.I)
-        location = re.sub(r"\s*[-–,|]\s*(?:remote|hybrid)\b", "", location, flags=re.I)
-        location = re.sub(r"\b(?:remote|hybrid)\s*[-–,|]\s*", "", location, flags=re.I)
-        location = re.sub(r"^\s*(?:remote|hybrid)\s*$", "", location, flags=re.I)
-        location = location.strip().strip("-").strip(",").strip("|").strip()
+    location = clean_location(location, is_remote=(remote == "Remote"))
 
     parts = [f"**{company}**"]
     if location:
@@ -112,7 +98,7 @@ def main():
         if not fm.get("id"):
             continue
         skills_raw = fm.get("skills", "")
-        skills = [s.strip() for s in skills_raw.split(",") if s.strip() and s.strip().lower() not in GENERIC_SKILLS] if skills_raw else []
+        skills = [s.strip() for s in skills_raw.split(",") if s.strip()] if skills_raw else []
         by_date[fm.get("first_seen", "unknown")].append({
             "title": fm.get("title", ""),
             "company": fm.get("company", ""),

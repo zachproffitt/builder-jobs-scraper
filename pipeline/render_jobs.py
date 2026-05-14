@@ -60,7 +60,8 @@ def clean_location(location: str, is_remote: bool) -> str:
     """Strip 'remote'/'hybrid' from location string when the tag is already shown."""
     if not is_remote or not location:
         return location
-    cleaned = re.sub(r"\s*\(\s*(?:remote|hybrid)\s*\)", "", location, flags=re.I)
+    cleaned = re.sub(r"\bremote[\s-]friendly\b", "", location, flags=re.I)
+    cleaned = re.sub(r"\s*\(\s*(?:remote|hybrid)\s*\)", "", cleaned, flags=re.I)
     cleaned = re.sub(r"\s*[-–,|]\s*(?:remote|hybrid)\b", "", cleaned, flags=re.I)
     cleaned = re.sub(r"\b(?:remote|hybrid)\s*[-–,|]\s*", "", cleaned, flags=re.I)
     cleaned = re.sub(r"^\s*(?:remote|hybrid)\s*$", "", cleaned, flags=re.I)
