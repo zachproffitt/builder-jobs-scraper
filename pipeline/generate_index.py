@@ -213,11 +213,9 @@ def main():
         out_path=README,
         title="Builder Jobs",
         subtitle=(
-            "For engineers who build. Roles are scraped hourly from company ATS and classified by Claude"
-            " — curation keeps the signal high enough that browsing everything new takes a few minutes."
-            " Listings older than 14 days are removed automatically.\n\n"
-            "> *Companies sourced from Y Combinator, top VC portfolios, and industry curation across 20+ sectors."
-            " [How it works →](https://github.com/zachproffitt/builder-jobs-scraper)*"
+            "For engineers who build. Roles are scraped hourly from YC startups, VC-backed companies,"
+            " and major tech curated across 20+ industries — classified by Claude, and removed after 14 days.\n\n"
+            "[How it works →](https://github.com/zachproffitt/builder-jobs-scraper)"
         ),
     )
 
