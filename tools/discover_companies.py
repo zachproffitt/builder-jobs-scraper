@@ -30,10 +30,14 @@ names), edit data/companies.json directly. That entry is skipped on future runs.
 import json
 import re
 import sys
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 
 import httpx
+
+WORKERS = 20
 
 LOG_FILE = Path("data/discovery.log")
 
@@ -333,33 +337,53 @@ def main():
             print()
 
             detected_unsupported = []  # (name, ats, slug)
+            lock = threading.Lock()
+            completed = 0
 
-            for i, (name, domain) in enumerate(new_entries, 1):
-                print(f"  [{i:>3}/{len(new_entries)}] {name} ({domain})...", end=" ", flush=True)
+            with ThreadPoolExecutor(max_workers=WORKERS) as executor:
+                futures = {
+                    executor.submit(scrape_company, domain, client): (name, domain)
+                    for name, domain in new_entries
+                }
+                for future in as_completed(futures):
+                    name, domain = futures[future]
+                    with lock:
+                        completed += 1
+                        n = completed
 
-                result, meta = scrape_company(domain, client)
-                if result:
-                    ats, slug = result
-                    entry = {
-                        "name": name,
-                        "ats": ats,
-                        "slug": slug,
-                        "website": f"https://{domain}",
-                        "category": [],
-                    }
-                    if meta:
-                        entry["meta_description"] = meta
-                    existing[name.lower()] = entry
-                    changed = True
-                    if ats in SUPPORTED_ATS:
-                        newly_found.append(name)
-                        print(f"{ats}/{slug}")
+                    try:
+                        result, meta = future.result()
+                    except Exception as e:
+                        print(f"  [{n:>3}/{len(new_entries)}] {name} ({domain})... error: {e}")
+                        with lock:
+                            unresolved.append((name, domain))
+                        continue
+
+                    if result:
+                        ats, slug = result
+                        entry = {
+                            "name": name,
+                            "ats": ats,
+                            "slug": slug,
+                            "website": f"https://{domain}",
+                            "category": [],
+                        }
+                        if meta:
+                            entry["meta_description"] = meta
+                        with lock:
+                            existing[name.lower()] = entry
+                            changed = True
+                            if ats in SUPPORTED_ATS:
+                                newly_found.append(name)
+                            else:
+                                detected_unsupported.append((name, ats, slug))
+                        label = f"{ats}/{slug}" if ats in SUPPORTED_ATS else f"{ats}/{slug} [no scraper]"
                     else:
-                        detected_unsupported.append((name, ats, slug))
-                        print(f"{ats}/{slug} [no scraper]")
-                else:
-                    unresolved.append((name, domain))
-                    print("not found")
+                        with lock:
+                            unresolved.append((name, domain))
+                        label = "not found"
+
+                    print(f"  [{n:>3}/{len(new_entries)}] {name} ({domain})... {label}")
 
         supported_count = len(newly_found)
         unsupported_count = len(detected_unsupported) if "detected_unsupported" in dir() else 0
