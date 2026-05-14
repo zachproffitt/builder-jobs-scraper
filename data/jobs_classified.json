@@ -19478,23 +19478,23 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Engineer a distributed database storage layer for AI observability, optimized for ingesting and querying trillions of traces at scale. Design and optimize execution engines, storage layout, and cloud integration while profiling performance across memory, CPU, and async runtimes.",
+    "job_summary": "Engineer a distributed, high-performance storage layer for AI observability built in Rust, optimized for ingestion, querying, and scaling to trillions of traces. Scale and harden a multi-tenant system running on Kubernetes with tight integration to cloud object stores.",
     "skills": [
       "Rust",
-      "Database internals",
+      "Database Systems",
       "Kubernetes",
-      "S3/GCS/Azure Blob",
-      "Query engines",
-      "Distributed systems",
-      "Performance profiling",
-      "Systems programming"
+      "Cloud Object Storage (S3/GCS/Azure)",
+      "Query Execution Engines",
+      "Systems Performance Analysis",
+      "Distributed Systems",
+      "Memory and CPU Profiling"
     ],
     "level": "senior",
     "comp": "$175k-$240k",
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "20602028"
+    "source_hash": "d8594f7e"
   },
   "greenhouse-scoutmotors-5128323007": {
     "is_engineering": true,
@@ -21617,5 +21617,154 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "626e67cd"
+  },
+  "ashby-openai-f4467078-033c-4638-ac7e-69a532276d85": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$290k",
+    "comp_extras": [],
+    "source_hash": "5c8ef010"
+  },
+  "greenhouse-anthropic-5186811008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$210,000\u2014$250,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "0109df1f"
+  },
+  "greenhouse-vast-4681035006": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$50,840\u2014$72,168",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "9274aadf"
+  },
+  "greenhouse-wayve-8549040002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$123k-$175k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "37160557"
+  },
+  "greenhouse-riotgames-7915310": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and maintain shared libraries, plugins, and tools that power Unreal Engine development across multiple game teams at Riot. Build developer infrastructure including build systems, editor tooling, and CI/CD pipelines that serve as foundational platform capabilities.",
+    "skills": [
+      "C++",
+      "Unreal Engine",
+      "Build Systems",
+      "CI/CD",
+      "Plugin Development",
+      "Developer Tools",
+      "Game Development"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "293375c4"
+  },
+  "greenhouse-andurilindustries-5101367007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$146k-$194k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "ce53a858"
+  },
+  "greenhouse-andurilindustries-5137241007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$129k-$171k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "9a97c3fe"
+  },
+  "greenhouse-recursionpharmaceuticals-7923391": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Lead statistical programming infrastructure and quality assurance for clinical drug development programs, overseeing analysis datasets, tables, figures, and exploratory analyses. Build and maintain analytics tools and open-source R packages for clinical data monitoring, cleaning, and knowledge discovery in a regulated pharmaceutical environment.",
+    "skills": [
+      "SAS",
+      "R",
+      "R-Shiny",
+      "CDISC",
+      "SDTM",
+      "ADaM",
+      "Python",
+      "Regulatory Compliance"
+    ],
+    "level": "manager",
+    "comp": "$200,600-$260,200",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "f91d982f"
+  },
+  "ashby-Coder-b608ce17-2f96-46cb-8a40-90463c5f1ad7": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build secure-by-default patterns, tooling, and CI/CD workflows to embed security into the software development lifecycle. Partner with engineering teams to turn security findings into fixes and make threat modeling and secure design reviews repeatable for developers.",
+    "skills": [
+      "Go",
+      "Python",
+      "GitHub Actions",
+      "GitLab CI",
+      "SAST",
+      "SCA",
+      "Dependency Scanning",
+      "Secret Scanning"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7a63b367"
+  },
+  "greenhouse-riotgames-7922947": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7e5b9ece"
   }
 }
