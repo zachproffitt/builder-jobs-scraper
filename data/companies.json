@@ -1104,7 +1104,7 @@
   {
     "name": "Tempus AI",
     "ats": "workday",
-    "slug": "tempus",
+    "slug": "tempus/wd5/Tempus_Careers",
     "website": "https://tempus.com",
     "category": [],
     "meta_description": "Tempus has built the world\u2019s largest library of clinical & molecular data and an operating system to make that data accessible and useful, starting with cancer."
@@ -1357,7 +1357,7 @@
   {
     "name": "CrowdStrike",
     "ats": "workday",
-    "slug": "crowdstrike",
+    "slug": "crowdstrike/wd5/crowdstrikecareers",
     "website": "https://crowdstrike.com",
     "category": [],
     "meta_description": "CrowdStrike is a global cybersecurity leader with an advanced cloud-native platform for protecting endpoints, cloud workloads, identities and data."
@@ -1435,7 +1435,7 @@
   {
     "name": "Cityblock Health",
     "ats": "workday",
-    "slug": "cityblockhealth",
+    "slug": "cityblockhealth/wd1/CityblockExternalCareerSite",
     "website": "https://cityblock.com",
     "category": [],
     "meta_description": "Cityblock Health delivers compassionate care that\u2019s built around you\u2014because your time, feelings, and story matter."
@@ -1451,7 +1451,7 @@
   {
     "name": "Devoted Health",
     "ats": "workday",
-    "slug": "devoted",
+    "slug": "devoted/wd1/Devoted",
     "website": "https://devoted.com",
     "category": []
   },
@@ -1530,7 +1530,7 @@
   {
     "name": "Wisk Aero",
     "ats": "workday",
-    "slug": "wisk",
+    "slug": "wisk/wd108/Wisk_Careers",
     "website": "https://wisk.aero",
     "category": [],
     "meta_description": "Wisk is building the world\u2019s first autonomous, all-electric air taxi. Backed by Boeing, with six generations of aircraft and 1,750+ test flights."
@@ -1554,7 +1554,7 @@
   {
     "name": "Maxar Technologies",
     "ats": "workday",
-    "slug": "maxar",
+    "slug": "maxar/wd1/Vantor",
     "website": "https://maxar.com",
     "category": [],
     "meta_description": "Vantor is driving a more autonomous, interoperable world across the defense, intelligence, and commercial sectors. Our spatial intelligence products combine spatial data, AI, and software to deliver total clarity from space to ground."
@@ -1585,7 +1585,7 @@
   {
     "name": "Boston Dynamics",
     "ats": "workday",
-    "slug": "bostondynamics",
+    "slug": "bostondynamics/wd1/Boston_Dynamics",
     "website": "https://bostondynamics.com",
     "category": [],
     "meta_description": "A leading global robotics company, Boston Dynamics builds practical robotics to tackle your toughest automation challenges and change your idea of what robots can do."
@@ -1649,7 +1649,7 @@
   {
     "name": "Palo Alto Networks",
     "ats": "workday",
-    "slug": "paloaltonetworks",
+    "slug": "paloaltonetworks/wd5/panwexternalcareers",
     "website": "https://paloaltonetworks.com",
     "category": [],
     "meta_description": "Implement Zero Trust, Secure your Network, Cloud workloads, Hybrid Workforce, Leverage Threat Intelligence & Security Consulting. Cybersecurity Services & Education for CISO&rsquo;s, Head of Infrastructure, Network Security Engineers, Cloud Architects & SOC Managers"
@@ -1657,7 +1657,7 @@
   {
     "name": "Samsung R&D",
     "ats": "workday",
-    "slug": "sec",
+    "slug": "sec/wd3/Samsung_Careers",
     "website": "https://samsung.com",
     "category": [],
     "meta_description": "Discover the latest in electronic & smart appliance technology with Samsung. Find the next big thing from smartphones & tablets to laptops & tvs & more."
@@ -1665,7 +1665,7 @@
   {
     "name": "Workday",
     "ats": "workday",
-    "slug": "workday",
+    "slug": "workday/wd5/Workday",
     "website": "https://workday.com",
     "category": [],
     "meta_description": "Superintelligence for work is here. Empower your people with agentic AI."
@@ -1729,7 +1729,7 @@
   {
     "name": "Darktrace",
     "ats": "workday",
-    "slug": "darktrace",
+    "slug": "darktrace/wd3/DarktaceExternal",
     "website": "https://darktrace.com",
     "category": [],
     "meta_description": "Darktrace AI interrupts in-progress cyber-attacks in seconds, including ransomware, email phishing, and threats to cloud environments and critical infrastructure."
@@ -1846,7 +1846,7 @@
   {
     "name": "BigCommerce",
     "ats": "workday",
-    "slug": "bigcommerce",
+    "slug": "bigcommerce/wd12/Commerce",
     "website": "https://bigcommerce.com",
     "category": [],
     "meta_description": "Power modern buying experiences across brands, regions, and channels \u2014 all from a single, scalable foundation. Learn more."
@@ -2045,7 +2045,7 @@
   {
     "name": "Sunrun",
     "ats": "workday",
-    "slug": "sunrun",
+    "slug": "sunrun/wd5/Sunrun_Careers",
     "website": "https://sunrun.com",
     "category": [],
     "meta_description": "Sunrun is the leading home solar panel and battery storage company. Go solar for little to $0 down, lock in low energy rates. Get a quote today."
@@ -2212,7 +2212,7 @@
   {
     "name": "F5 Networks",
     "ats": "workday",
-    "slug": "ffive",
+    "slug": "ffive/wd5/f5jobs",
     "website": "https://f5.com",
     "category": [],
     "meta_description": "F5 application services ensure that applications are always secure and perform the way they should\u2014in any environment and on any device."
@@ -2220,7 +2220,7 @@
   {
     "name": "Juniper Networks",
     "ats": "workday",
-    "slug": "hpe",
+    "slug": "hpe/wd5/Jobsathpe",
     "website": "https://juniper.net",
     "category": [],
     "meta_description": "Proven AI for your network. Mist, the AI-native networking platform makes every connection more reliable, measurable, and secure for businesses."
@@ -2228,7 +2228,7 @@
   {
     "name": "Booz Allen Hamilton",
     "ats": "workday",
-    "slug": "bah",
+    "slug": "bah/wd1/BAH_Jobs",
     "website": "https://boozallen.com",
     "category": [],
     "meta_description": "We transform missions with tomorrow\u2019s technologies to advance the country\u2019s most critical civil, defense, and national security priorities."
@@ -2236,7 +2236,7 @@
   {
     "name": "ServiceTitan",
     "ats": "workday",
-    "slug": "servicetitan",
+    "slug": "servicetitan/wd1/ServiceTitan",
     "website": "https://servicetitan.com",
     "category": [],
     "meta_description": "Our all-in-one software is built for home and commercial contractors to keep all their service visits and construction projects running smoothly."
@@ -2292,7 +2292,7 @@
   {
     "name": "Moderna",
     "ats": "workday",
-    "slug": "modernatx",
+    "slug": "modernatx/wd1/M_tx",
     "website": "https://modernatx.com",
     "category": [],
     "meta_description": "Learn how we\u2019re changing the world of medicine. Discover career opportunities, our product pipeline, and browse media resources. Meet Moderna."
@@ -2300,7 +2300,7 @@
   {
     "name": "Verily",
     "ats": "workday",
-    "slug": "verily",
+    "slug": "verily/wd1/Verily_Careers",
     "website": "https://verily.com",
     "category": [],
     "meta_description": "Verily is building the future of precision health. Our AI-native platform transforms complex health data for research, care, and better patient outcomes."
@@ -5184,7 +5184,7 @@
   {
     "name": "Rappi",
     "ats": "workday",
-    "slug": "rappi",
+    "slug": "rappi/wd12/Rappi_jobs",
     "website": "https://www.rappi.com",
     "category": [],
     "meta_description": "Pide en l\u00ednea domicilio de restaurantes, supermercado, medicamentos y \u00a1mucho m\u00e1s! Tus tiendas favoritas est\u00e1n en Rappi. Entregamos con amor en todo M\u00e9xico \u2665\u2665"
@@ -6218,7 +6218,7 @@
   {
     "name": "AeroVironment",
     "ats": "workday",
-    "slug": "avav",
+    "slug": "avav/wd1/AVAV",
     "website": "https://avinc.com",
     "category": [],
     "meta_description": "AV is a leading manufacturer of Unmanned Aircraft Systems, Unmanned Aerial Vehicles, Loitering Munition Systems, Unmanned Ground Vehicles used for surveillance and reconnaissance by the United States Military, U.S. allies and Commercial Industries. AV also manufactures High-Altitude Pseudo-Satellites."
@@ -6250,7 +6250,7 @@
   {
     "name": "Boeing Defense, Space & Security",
     "ats": "workday",
-    "slug": "boeing",
+    "slug": "boeing/wd1/EXTERNAL_CAREERS",
     "website": "https://boeing.com",
     "category": [],
     "meta_description": "Discover news and information about The Boeing Company, a leading global aerospace company that develops, manufactures and services commercial airplanes, defense products and space systems."
@@ -6258,7 +6258,7 @@
   {
     "name": "Clearpath Robotics",
     "ats": "workday",
-    "slug": "rockwellautomation",
+    "slug": "rockwellautomation/wd1/External_Rockwell_Automation",
     "website": "https://clearpathrobotics.com",
     "category": [],
     "meta_description": "Clearpath Robotics&#039; fleet of mobile robotic platforms enable researchers and corporations to accelerate their robotics research and development."
@@ -6274,7 +6274,7 @@
   {
     "name": "Inari Medical",
     "ats": "workday",
-    "slug": "inarimedical",
+    "slug": "inarimedical/wd5/inarimedical",
     "website": "https://inarimedical.com",
     "category": []
   },
@@ -6321,7 +6321,7 @@
   {
     "name": "Qualys",
     "ats": "workday",
-    "slug": "qualys",
+    "slug": "qualys/wd5/Careers",
     "website": "https://qualys.com",
     "category": [],
     "meta_description": "Discover how Qualys helps your business measure & eliminate cyber threats through a host of cybersecurity detection & remediation tools. Try it today!"
@@ -6345,14 +6345,14 @@
   {
     "name": "Rockwell Automation",
     "ats": "workday",
-    "slug": "rockwellautomation",
+    "slug": "rockwellautomation/wd1/External_Rockwell_Automation",
     "website": "https://rockwellautomation.com",
     "category": []
   },
   {
     "name": "Sailpoint",
     "ats": "workday",
-    "slug": "sailpoint",
+    "slug": "sailpoint/wd1/SailPoint",
     "website": "https://sailpoint.com",
     "category": [],
     "meta_description": "One platform to secure every identity! See how to dynamically adjust access, automate decisions, and enforce least privilege as threats evolve."
@@ -6376,7 +6376,7 @@
   {
     "name": "Teladoc Health",
     "ats": "workday",
-    "slug": "teladoc",
+    "slug": "teladoc/wd503/teladochealth_is_hiring",
     "website": "https://teladoc.com",
     "category": [],
     "meta_description": "Get 24/7 access to doctors, mental health support and specialty care with virtual healthcare and telehealth solutions for individuals and organizations from Teladoc Health."
@@ -6392,7 +6392,7 @@
   {
     "name": "Veradigm",
     "ats": "workday",
-    "slug": "veradigm",
+    "slug": "veradigm/wd12/VR",
     "website": "https://veradigm.com",
     "category": [],
     "meta_description": "Based on validated and trusted data sources, technologies, and methodologies, our broad spectrum of healthcare solutions meet critical needs at every level o..."

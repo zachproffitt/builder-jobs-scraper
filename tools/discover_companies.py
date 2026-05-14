@@ -59,9 +59,8 @@ ATS_PATTERNS = [
     (re.compile(r"jobs\.lever\.co/([A-Za-z0-9_.+-]+)", re.I), "lever"),
     (re.compile(r"jobs\.ashbyhq\.com/([A-Za-z0-9_.+-]+)", re.I), "ashby"),
     (re.compile(r"jobs\.smartrecruiters\.com/([A-Za-z0-9_.+-]+)", re.I), "smartrecruiters"),
-    # Detected only — no scraper yet
-    (re.compile(r"([A-Za-z0-9-]+)\.wd\d+\.myworkdayjobs\.com", re.I), "workday"),
-    (re.compile(r"myworkdayjobs\.com/(?:[a-z]{2}-[A-Z]{2}/site/)?([A-Za-z0-9_-]+)", re.I), "workday"),
+    # Workday: capture tenant/partition/board as composite slug
+    (re.compile(r"([A-Za-z0-9-]+)\.(wd\d+)\.myworkdayjobs\.com/(?:[a-z]{2}[_-][A-Z]{2}/)?([A-Za-z0-9_-]+)", re.I), "workday"),
     (re.compile(r"([A-Za-z0-9-]+)\.icims\.com", re.I), "icims"),
     (re.compile(r"([A-Za-z0-9-]+)\.taleo\.net", re.I), "taleo"),
     (re.compile(r"([A-Za-z0-9-]+)\.bamboohr\.com", re.I), "bamboo"),
@@ -70,7 +69,7 @@ ATS_PATTERNS = [
     (re.compile(r"([A-Za-z0-9-]+)\.breezy\.hr", re.I), "breezy"),
 ]
 
-SUPPORTED_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters", "bamboo", "breezy", "workable"}
+SUPPORTED_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters", "bamboo", "breezy", "workable", "workday"}
 
 
 def parse_names_file() -> list[tuple[str, str]]:
@@ -98,6 +97,11 @@ def extract_ats(text: str) -> "tuple[str, str] | None":
     for pattern, ats in ATS_PATTERNS:
         m = pattern.search(text)
         if m:
+            if ats == "workday" and len(m.groups()) >= 3:
+                tenant, partition, board = m.group(1), m.group(2), m.group(3)
+                if tenant.lower() in _SLUG_BLACKLIST or board.lower() in _SLUG_BLACKLIST:
+                    continue
+                return ats, f"{tenant}/{partition}/{board}"
             slug = m.group(1)
             if slug.lower() not in _SLUG_BLACKLIST:
                 return ats, slug

@@ -7,7 +7,7 @@ from dataclasses import asdict
 from datetime import date, timedelta, timezone, datetime
 from pathlib import Path
 
-from scrapers import ats_greenhouse, ats_lever, ats_ashby, ats_smartrecruiters, ats_bamboo, ats_breezy, ats_workable
+from scrapers import ats_greenhouse, ats_lever, ats_ashby, ats_smartrecruiters, ats_bamboo, ats_breezy, ats_workable, ats_workday
 from scrapers._base import Job, ScraperError
 
 
@@ -34,6 +34,7 @@ SCRAPERS = {
     "bamboo": ats_bamboo.scrape,
     "breezy": ats_breezy.scrape,
     "workable": ats_workable.scrape,
+    "workday": ats_workday.scrape,
 }
 
 
