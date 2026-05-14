@@ -1,0 +1,43 @@
+from datetime import datetime, timezone
+
+import httpx
+
+from ._base import Job, ScraperError
+
+LIST_URL = "https://{slug}.breezy.hr/json"
+
+
+def scrape(company: str, slug: str) -> list[Job]:
+    try:
+        r = httpx.get(LIST_URL.format(slug=slug), follow_redirects=True, timeout=15)
+        r.raise_for_status()
+    except httpx.HTTPError as e:
+        raise ScraperError(f"Breezy request failed for {slug}: {e}") from e
+
+    jobs = []
+    for item in r.json():
+        pub = item.get("published_date", "")
+        try:
+            posted_at = datetime.fromisoformat(pub.replace("Z", "+00:00")).date() if pub else None
+        except (ValueError, AttributeError):
+            posted_at = None
+
+        locations = item.get("locations") or [item.get("location", {})]
+        primary = next((l for l in locations if l.get("primary")), locations[0] if locations else {})
+        is_remote = bool(primary.get("is_remote"))
+        location = primary.get("name") or None
+
+        jobs.append(Job(
+            id=f"breezy-{slug}-{item['id']}",
+            company=company,
+            company_slug=slug,
+            title=item["name"],
+            url=item["url"],
+            source="breezy",
+            location=location,
+            remote=is_remote,
+            posted_at=posted_at,
+            raw_text="",
+        ))
+
+    return jobs

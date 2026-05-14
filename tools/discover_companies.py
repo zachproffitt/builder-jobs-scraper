@@ -70,7 +70,7 @@ ATS_PATTERNS = [
     (re.compile(r"([A-Za-z0-9-]+)\.breezy\.hr", re.I), "breezy"),
 ]
 
-SUPPORTED_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters"}
+SUPPORTED_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters", "bamboo", "breezy", "workable"}
 
 
 def parse_names_file() -> list[tuple[str, str]]:
