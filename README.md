@@ -50,6 +50,8 @@ Non-engineering and contract roles are filtered out.
 
 ATS detection (`tools/discover_companies.py`) runs over the candidate list and populates `data/companies.json` with confirmed companies and their slugs.
 
+> *More ATS scrapers and company sources are actively being added.*
+
 ## Rolling window
 
 Jobs older than **14 days** are dropped and their `.md` files deleted. `seen_jobs.json` is a permanent ID registry — prevents re-surfacing long-running postings that age out and reappear.
