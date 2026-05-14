@@ -21943,5 +21943,87 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "50dc764c"
+  },
+  "greenhouse-andurilindustries-5120051007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "\u20ac53k-\u20ac70k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "f11b7ce3"
+  },
+  "greenhouse-intercom-7916762": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "570004e4"
+  },
+  "greenhouse-tenstorrent-4780808007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build and maintain Linux infrastructure for silicon design and EDA workflows, including schedulers, tool environments, and observability systems. Support large-scale shared environments serving design and emulation teams at a cutting-edge AI chip company.",
+    "skills": [
+      "Linux",
+      "Python",
+      "Bash",
+      "LSF",
+      "SLURM",
+      "Environment Modules",
+      "Lmod",
+      "Monitoring and Alerting"
+    ],
+    "level": "junior",
+    "comp": "$100k-$500k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "b0eebbf3"
+  },
+  "greenhouse-monzo-7916595": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "\u00a380k-\u00a395k",
+    "comp_extras": [],
+    "source_hash": "08f9973e"
+  },
+  "ashby-cohere-f00dbf81-17ff-4584-b015-67dfae1dc59c": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c7fab7cb"
+  },
+  "lever-CordTechnologies-93745902-dbfd-494a-b0ed-c7468ae1ec57": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2e86b1c2"
   }
 }
