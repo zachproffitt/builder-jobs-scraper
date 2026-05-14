@@ -3725,5 +3725,10 @@
     "slug": "tenableinc",
     "name": "Tenable",
     "summary": "Tenable builds vulnerability management and cyber risk quantification software that helps organizations identify, prioritize, and remediate security weaknesses across their IT infrastructure, cloud environments, and operational technology systems. The company operates in the cybersecurity domain, providing platforms and tools that enable enterprises to understand and manage their exposure to cyber threats."
+  },
+  {
+    "slug": "CDPROJEKTRED",
+    "name": "CD Projekt Red",
+    "summary": "CD Projekt Red is a Polish video game developer that creates role-playing games and action games for PC and console platforms, most notably the Witcher series and Cyberpunk franchise. The studio is known for developing narrative-driven, open-world games with extensive storytelling and player choice mechanics."
   }
 ]

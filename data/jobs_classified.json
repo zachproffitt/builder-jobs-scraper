@@ -22663,5 +22663,16 @@
       "equity"
     ],
     "source_hash": "7c89641e"
+  },
+  "ashby-fieldguide-c754226f-0953-4641-a8c5-387ce2767748": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "65e1ec7f"
   }
 }
