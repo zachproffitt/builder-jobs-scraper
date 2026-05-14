@@ -3730,5 +3730,70 @@
     "slug": "CDPROJEKTRED",
     "name": "CD Projekt Red",
     "summary": "CD Projekt Red is a Polish video game developer that creates role-playing games and action games for PC and console platforms, most notably the Witcher series and Cyberpunk franchise. The studio is known for developing narrative-driven, open-world games with extensive storytelling and player choice mechanics."
+  },
+  {
+    "slug": "mongodb",
+    "name": "MongoDB",
+    "summary": "MongoDB develops a NoSQL document database platform that stores data in flexible JSON-like documents rather than traditional relational tables, serving developers and enterprises across industries including financial services, healthcare, retail, and technology who need scalable database solutions with flexible schemas."
+  },
+  {
+    "slug": "lyft",
+    "name": "Lyft",
+    "summary": "Lyft operates a ride-hailing platform that connects passengers with drivers using mobile applications to request on-demand transportation services in cities across North America. The company operates primarily in the United States and Canada, competing in the urban mobility and transportation services sector."
+  },
+  {
+    "slug": "databricks",
+    "name": "Databricks",
+    "summary": "Databricks builds a unified analytics platform that combines data warehousing, data engineering, and machine learning capabilities on top of an open lakehouse architecture. The company operates in the data and analytics infrastructure domain, serving enterprises that need to manage, process, and derive insights from large-scale data workloads."
+  },
+  {
+    "slug": "cloudflare",
+    "name": "Cloudflare",
+    "summary": "Cloudflare builds a global network platform that provides content delivery, security, and performance services for websites and internet applications. The company operates in the web infrastructure and cybersecurity domains, offering services such as DDoS protection, Web Application Firewalls, DNS management, and SSL/TLS encryption to businesses of all sizes."
+  },
+  {
+    "slug": "pinterest",
+    "name": "Pinterest",
+    "summary": "Pinterest is a visual discovery and bookmarking platform where users collect, organize, and share images, videos, and ideas through digital pinboards, primarily serving as a content curation tool for fashion, home d\u00e9cor, recipes, DIY projects, and lifestyle inspiration. The company operates in the social media and digital advertising space, generating revenue through promoted pins and sponsored content while helping brands reach users actively planning purchases and seeking creative ideas."
+  },
+  {
+    "slug": "block",
+    "name": "Block",
+    "summary": "Block builds a blockchain infrastructure platform that enables developers to create and deploy decentralized applications on the Ethereum network through its Rollups-as-a-Service offering. The company operates in the Web3 and blockchain technology domain, providing tools and services to simplify blockchain development and scaling."
+  },
+  {
+    "slug": "robinhood",
+    "name": "Robinhood",
+    "summary": "Robinhood operates a financial services platform that offers commission-free trading of stocks, exchange-traded funds, options, and cryptocurrencies to retail investors through a mobile app and web interface. The company operates in the retail investment and brokerage domain, primarily serving individual traders and investors in the United States."
+  },
+  {
+    "slug": "twilio",
+    "name": "Twilio",
+    "summary": "Twilio builds cloud-based communication APIs and platforms that enable developers to integrate voice, video, messaging, and authentication capabilities into applications and business processes. The company operates in the telecommunications and cloud communications software domain, serving enterprises, startups, and developers who need to programmatically send SMS messages, make phone calls, conduct video conferences, and verify user identities."
+  },
+  {
+    "slug": "instacart",
+    "name": "Instacart",
+    "summary": "Instacart operates an e-commerce platform that enables customers to order groceries and household items from local supermarkets and specialty retailers for same-day or scheduled delivery. The company partners with grocery chains and independent stores to fulfill orders through a network of shoppers who pick and deliver items to customers' homes."
+  },
+  {
+    "slug": "okta",
+    "name": "Okta",
+    "summary": "Okta builds identity and access management (IAM) software that enables organizations to securely connect their users to applications and systems across cloud and on-premises environments. The company operates in the cybersecurity and enterprise software domain, providing authentication, authorization, and user lifecycle management solutions for businesses of all sizes."
+  },
+  {
+    "slug": "spotify",
+    "name": "Spotify",
+    "summary": "Spotify operates a music and podcast streaming platform that allows users to access millions of songs, albums, and audio content on demand across devices. The company generates revenue through both ad-supported free tiers and premium subscription services, while also operating a marketplace connecting artists and creators with listeners worldwide."
+  },
+  {
+    "slug": "snowflake",
+    "name": "Snowflake",
+    "summary": "Snowflake is a cloud-based data platform that provides data warehousing, data lakes, and data sharing capabilities across major cloud providers including AWS, Azure, and Google Cloud. The company operates in the enterprise data and analytics domain, enabling organizations to store, process, and analyze large volumes of structured and semi-structured data."
+  },
+  {
+    "slug": "samsungresearchamerica",
+    "name": "Samsung Research America",
+    "summary": "Samsung Research America conducts research and development across semiconductor technology, artificial intelligence, display technology, and consumer electronics to create products and solutions for Samsung's global business units. The organization operates primarily in the advanced technology and applied research domain, focusing on areas such as chip design, machine learning systems, and next-generation display materials."
   }
 ]

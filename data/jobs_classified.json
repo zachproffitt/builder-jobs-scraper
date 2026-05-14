@@ -22687,5 +22687,391 @@
       "equity"
     ],
     "source_hash": "de92bb19"
+  },
+  "greenhouse-planetlabs-7916929": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "fd835419"
+  },
+  "greenhouse-stripe-7925073": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and build production systems for Stripe's Paid Support Experience platform, including AI-driven support automation and internal tooling for support staff. Set technical strategy for the team and mentor senior engineers while maintaining high standards for reliability and extensibility.",
+    "skills": [
+      "Ruby",
+      "React",
+      "Backend Development",
+      "Full-Stack Development"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e55b023f"
+  },
+  "greenhouse-planetlabs-7916937": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Design and build core infrastructure-as-code solutions and manage Kubernetes clusters to enable Planet's engineering teams to deploy and scale services reliably. Lead platform modernization initiatives including migration from legacy tooling and enhance observability across cloud-native systems at scale.",
+    "skills": [
+      "Kubernetes",
+      "Terraform",
+      "Go",
+      "Python",
+      "Google Cloud Platform",
+      "Amazon Web Services",
+      "GitLab",
+      "ArgoCD"
+    ],
+    "level": "senior",
+    "comp": "$142,800-$203,200",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "4bded6b2"
+  },
+  "greenhouse-planetlabs-7921074": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Design and build core Infrastructure-as-Code solutions and manage Kubernetes clusters to enable Planet's engineering teams to deploy and scale services reliably. Work on platform modernization initiatives across a global cloud-native infrastructure serving a constellation of imaging satellites.",
+    "skills": [
+      "Kubernetes",
+      "Terraform",
+      "Go",
+      "Python",
+      "Google Cloud Platform (GCP)",
+      "AWS",
+      "GitLab",
+      "ArgoCD"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "2dacaa22"
+  },
+  "greenhouse-axiom-8549699002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$200k-$230k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "b8969b0f"
+  },
+  "ashby-Supabase-85606cff-df9a-462e-a6b9-5c7d0892eaa8": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "23d5a20e"
+  },
+  "greenhouse-appliedintuition-4677114005": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and integrate autonomy software onto robotic platforms (drones, vehicles) across simulation, hardware-in-the-loop, and live test environments. Work in defense robotics requiring security clearance and frequent on-site integration with customer hardware.",
+    "skills": [
+      "C++",
+      "Linux",
+      "Docker",
+      "Git",
+      "Pixhawk/ArduPilot",
+      "UART/RS232/I2C/Ethernet",
+      "embedded systems",
+      "Security Clearance"
+    ],
+    "level": "mid",
+    "comp": "$135k-$175k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "bc85b861"
+  },
+  "greenhouse-apptronik-5996199004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9b76754a"
+  },
+  "greenhouse-andurilindustries-4824364007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build software solutions for Lattice OS, Anduril's AI-powered military command and control system, shipping autonomy, computer vision, and sensor fusion capabilities to defense customers. Requires U.S. Person status and security clearance eligibility for access to export-controlled defense technology.",
+    "skills": [
+      "C++",
+      "Go",
+      "Rust",
+      "Java",
+      "Python",
+      "Cloud Infrastructure",
+      "Computer Vision",
+      "Sensor Fusion"
+    ],
+    "level": "junior",
+    "comp": "$130k-$135k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "30f79f01"
+  },
+  "greenhouse-apptronik-5996176004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f64eb826"
+  },
+  "greenhouse-redwoodmaterials-5996188004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c4e1aa9b"
+  },
+  "greenhouse-apptronik-5995527004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "48d15ff3"
+  },
+  "greenhouse-10xgenomics-7922933": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and deploy production ML pipelines for sales forecasting, churn prediction, and account expansion signals, replacing rule-based spreadsheet systems with ML models across Snowflake and AWS. Work within a complex B2B enterprise sales domain with global distribution networks and long sales cycles where predictive accuracy directly impacts commercial strategy.",
+    "skills": [
+      "Python",
+      "SQL",
+      "Snowflake",
+      "AWS",
+      "Salesforce",
+      "Machine Learning",
+      "MLOps",
+      "Tableau"
+    ],
+    "level": "senior",
+    "comp": "$198,500\u2013$268,500",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "f5728acd"
+  },
+  "ashby-notion-a711f964-014a-4c5c-bfa4-a300ef7d96fd": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5cab10e5"
+  },
+  "greenhouse-grafanalabs-5807984004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and maintain the internal engineering platform's CI/CD systems, release automation, and deployment tooling that enables Grafana's application teams to ship software securely and reliably. Operate production infrastructure on-call and work across cloud, Kubernetes, and Infrastructure as Code to support diverse internal engineering teams.",
+    "skills": [
+      "Go",
+      "Kubernetes",
+      "Terraform",
+      "Docker",
+      "CI/CD",
+      "Infrastructure as Code",
+      "Backstage",
+      "Git"
+    ],
+    "level": "mid",
+    "comp": "$127,651-$153,180",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "83d73810"
+  },
+  "greenhouse-grafanalabs-5807986004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and maintain Grafana's Internal Engineering Platform (IEP), including CI/CD systems, deployment automation, and developer productivity tooling that serves internal engineering teams. Own the full lifecycle from design through production operation, including on-call support for platform reliability.",
+    "skills": [
+      "Go",
+      "Kubernetes",
+      "Docker",
+      "Terraform",
+      "CI/CD",
+      "Infrastructure as Code",
+      "Git",
+      "Backstage"
+    ],
+    "level": "mid",
+    "comp": "CAD 129,392-CAD 155,272",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "5e42b96c"
+  },
+  "greenhouse-intercom-7918715": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Design and build automation and integration systems for corporate IT infrastructure, identity & access management, and compliance using infrastructure-as-code and low-code platforms. Drive high-impact cross-organizational projects in cloud environments with emphasis on eliminating toil and scaling IT operations.",
+    "skills": [
+      "Python",
+      "Ruby",
+      "AWS",
+      "Okta",
+      "Tines",
+      "Workato",
+      "Infrastructure-as-Code",
+      "Jamf Pro"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "0393b79a"
+  },
+  "greenhouse-rockstargames-7734497003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and maintain production software tools and systems supporting game development across Rockstar's worldwide studios, including task management, defect tracking, distributed video recording, and analytics applications. Design and scale distributed backend systems handling large-scale creative production workflows.",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Hibernate/JPA",
+      "REST APIs",
+      "MySQL",
+      "Apache Kafka",
+      "Linux",
+      "FFmpeg"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d2de5c8c"
+  },
+  "lever-sonatype-07b26984-74e1-4c95-b032-12ca0713c7b9": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3dcd873f"
+  },
+  "ashby-finni-health-8689664d-9ca3-40b4-8814-e1defbb199bc": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$21-$23/hour",
+    "comp_extras": [],
+    "source_hash": "9106ee83"
+  },
+  "ashby-lago-9aca194c-df12-4252-9a5c-03f70dca7a8a": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Own and scale Lago's cloud infrastructure, designing automated provisioning, database optimization, and observability systems using Kubernetes and infrastructure-as-code. This role requires managing production infrastructure for a high-scale billing platform serving companies like PayPal and Mistral.ai.",
+    "skills": [
+      "Kubernetes",
+      "Pulumi",
+      "PostgreSQL",
+      "AWS",
+      "GCP",
+      "Ruby",
+      "Go",
+      "TypeScript"
+    ],
+    "level": "senior",
+    "comp": "$80,000-$120,000",
+    "comp_extras": [],
+    "source_hash": "e04daba1"
+  },
+  "ashby-phoenix-af0d6e1b-06ab-4f7e-bfac-5f7a2e890f31": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "51eef581"
+  },
+  "greenhouse-intercom-7918638": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Design and build infrastructure automation and integrations across identity management, endpoint management, compliance, and email deliverability using infrastructure-as-code and no-code platforms. Drive IT infrastructure evolution in a cloud-native environment with emphasis on enterprise automation and AI tooling adoption.",
+    "skills": [
+      "Python",
+      "Ruby",
+      "AWS",
+      "Okta",
+      "Google Workspace",
+      "Jamf Pro",
+      "Intune",
+      "Tines"
+    ],
+    "level": "mid",
+    "comp": "$142,000-$237,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "1cd425e1"
   }
 }
