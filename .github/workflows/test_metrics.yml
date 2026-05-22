@@ -1,0 +1,73 @@
+name: Test Metrics Push
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests python-snappy
+
+      - name: Push test metric
+        env:
+          GRAFANA_REMOTE_WRITE_URL: ${{ secrets.GRAFANA_REMOTE_WRITE_URL }}
+          GRAFANA_STACK_ID: ${{ secrets.GRAFANA_STACK_ID }}
+          GRAFANA_API_KEY: ${{ secrets.GRAFANA_API_KEY }}
+        run: |
+          python3 - << 'PYEOF'
+          import os, struct, time, requests, snappy
+
+          def varint(n):
+              out = b''
+              while True:
+                  b = n & 0x7F; n >>= 7
+                  out += bytes([b | 0x80 if n else b])
+                  if not n: break
+              return out
+
+          def f_varint(num, val): return varint((num << 3) | 0) + varint(val)
+          def f_64bit(num, val):  return varint((num << 3) | 1) + val
+          def f_bytes(num, data): return varint((num << 3) | 2) + varint(len(data)) + data
+          def f_str(num, s):      return f_bytes(num, s.encode())
+
+          def label(k, v):        return f_str(1, k) + f_str(2, v)
+          def sample(val, ts):    return f_64bit(1, struct.pack('<d', val)) + f_varint(2, ts)
+
+          def timeseries(labels, val, ts):
+              data = b''.join(f_bytes(1, label(k, v)) for k, v in sorted(labels.items()))
+              return data + f_bytes(2, sample(val, ts))
+
+          def write_request(series):
+              return b''.join(f_bytes(1, s) for s in series)
+
+          ts_ms = int(time.time() * 1000)
+          series = [timeseries(
+              {"__name__": "builder_jobs_test", "job": "builder-jobs-pipeline", "env": "test"},
+              42.0, ts_ms
+          )]
+
+          body = write_request(series)
+          compressed = snappy.compress(body)
+
+          resp = requests.post(
+              os.environ["GRAFANA_REMOTE_WRITE_URL"],
+              data=compressed,
+              headers={
+                  "Content-Type": "application/x-protobuf",
+                  "Content-Encoding": "snappy",
+                  "X-Prometheus-Remote-Write-Version": "0.1.0",
+              },
+              auth=(os.environ["GRAFANA_STACK_ID"], os.environ["GRAFANA_API_KEY"]),
+              timeout=10,
+          )
+          print(f"HTTP {resp.status_code}: {resp.text[:300] or 'OK'}")
+          resp.raise_for_status()
+          print("Success — builder_jobs_test{env='test'} = 42.0")
+          PYEOF
