@@ -198,7 +198,7 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
     ]
 
     if scope_note:
-        lines += [f"#### {scope_note}", ""]
+        lines += [f"{scope_note}", ""]
 
     lines += [nav_links, ""]
 
