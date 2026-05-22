@@ -26,7 +26,7 @@ ARCHIVE_README = JOBS_REPO / "ARCHIVE.md"
 REMOTE_README = JOBS_REPO / "REMOTE.md"
 COMPANIES_README = JOBS_REPO / "COMPANIES.md"
 
-README_WINDOW_DAYS = 1  # 24 hours
+README_WINDOW_HOURS = 24
 
 
 def collect_jobs() -> tuple[list[dict], dict[str, str]]:
@@ -343,15 +343,21 @@ def main():
         companies = json.loads(COMPANIES_FILE.read_text())
         company_count = len([c for c in companies if c.get("ats") in SUPPORTED_ATS])
 
-    today = datetime.now(timezone.utc).date()
-    readme_cutoff = (today - timedelta(days=README_WINDOW_DAYS - 1)).isoformat()
-
-    recent_jobs = [j for j in jobs if (j.get("first_seen") or "") >= readme_cutoff]
-    archive_jobs = [j for j in jobs if (j.get("first_seen") or "") < readme_cutoff]
-
-    cutoff_24h = datetime.now(timezone.utc) - timedelta(hours=24)
+    cutoff_24h = datetime.now(timezone.utc) - timedelta(hours=README_WINDOW_HOURS)
     board_total = len(jobs)
     board_new = sum(1 for j in jobs if is_new_within(j, cutoff_24h))
+
+    def is_recent(job: dict) -> bool:
+        ts = job.get("first_seen_at")
+        if ts:
+            try:
+                return datetime.fromisoformat(ts) >= cutoff_24h
+            except ValueError:
+                pass
+        return False
+
+    recent_jobs = [j for j in jobs if is_recent(j)]
+    archive_jobs = [j for j in jobs if not is_recent(j)]
 
     render_index(
         recent_jobs, company_logos, company_count,
@@ -373,7 +379,7 @@ def main():
         out_path=ARCHIVE_README,
         title="Builder Jobs — Archive",
         subtitle=(
-            "Engineering roles posted more than 72 hours ago."
+            "Engineering roles posted more than 24 hours ago."
             " Listings are removed after 14 days."
             " Each listing links directly to the company's job board."
         ),
