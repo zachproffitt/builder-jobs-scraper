@@ -1906,10 +1906,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "ambient.ai",
     "name": "Ambient.ai",
-    "summary": "Ambient.ai builds AI-powered computer vision software that analyzes video feeds from hospital cameras and monitors to provide real-time clinical insights and alerts to healthcare workers. The company operates in the healthcare technology domain, specifically focusing on improving patient safety and clinical workflow efficiency in acute care settings like intensive care units and emergency departments.",
-    "ats": "ashby"
+    "summary": "Ambient.ai provides computer vision software that detects threats automatically and enables security teams to verify incidents visually.",
+    "source": "meta_description"
   },
   {
     "slug": "Ambral",
