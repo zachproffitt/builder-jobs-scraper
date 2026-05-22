@@ -208924,5 +208924,1171 @@
     "comp": "$58k-$79k",
     "comp_extras": [],
     "source_hash": "2cd0f4bb"
+  },
+  "workday-bakerhughes-Service-Delivery-Coordinator_R162448-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b522528c"
+  },
+  "workday-rockwellautomation-Manufacturing-Engineer_R26-3826-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9a062a1f"
+  },
+  "workday-boeing-Entry-Level-F-15-Flight-Test-Data-Engineer_JR2026506850-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9709dcbe"
+  },
+  "workday-crowdstrike-Social-Media-Coordinator--Remote-_R28860": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "db0f0128"
+  },
+  "greenhouse-extrahopnetworks-6004419004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "463a8cfa"
+  },
+  "workday-ag-Sr-Material-Handler--Warehouse-Lead-_JR10416286": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b4d468ff"
+  },
+  "workday-hubinternational-Account-Manager--Personal-Lines_R0036613": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "be2238d9"
+  },
+  "workday-hubinternational-Client-Care-Representative---Auto-Insurance-Trainee_R0036619": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e3910688"
+  },
+  "workday-hubinternational-Client-Service-Representative--Employee-Benefits_R0036616": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "858769bc"
+  },
+  "ashby-openai-b8a1293b-bf5b-488d-8257-869584db6496": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a22e3ea2"
+  },
+  "workday-pax8inc-Hardware-Lifecycle-Coordinator_R-101940": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e2e56934"
+  },
+  "workday-pax8inc-Senior-Channel-Account-Manager_R-101663": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "edf3086a"
+  },
+  "greenhouse-spacex-8562361002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d9e6786a"
+  },
+  "workday-sunrun-Certified-Electrician-3_R65287": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "eb11422f"
+  },
+  "greenhouse-vardaspace-7747305003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0516821d"
+  },
+  "ashby-weekend-aff3af03-ac82-447f-928c-dd4d922e8b55": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "46eda6a9"
+  },
+  "workday-tapestry-Sales-Associate-III_JR5731": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "10984103"
+  },
+  "workday-tapestry-Temporary-Sales-Associate_JR5729": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fd18e73e"
+  },
+  "lever-zoox-519a337e-ad08-4244-ada7-747f38fcb415": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7ba388b2"
+  },
+  "workday-jci-Manufacturing-Supervisor_WD30270121": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "786c30d0"
+  },
+  "workday-abbott-Gerente-de-Planejamento-e-Anlise-Financeira---Diviso-de-Doenas-Estruturais-do-Corao--SH----So-Paulo-SP_31150961": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9c7f2545"
+  },
+  "workday-otis-TCNICO-A--DE-SERVIOS-II---VESPERTINO---CURITIBA_20160294-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c0665e19"
+  },
+  "workday-jci-IT-and-Development-Engineer_WD30268891": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "294baf66"
+  },
+  "workday-jci-Industrial-Engineer_WD30269219": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1af9728d"
+  },
+  "workday-jci-Ingeniero-de-Nuevos-Productos_WD30268387": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3e1c3665"
+  },
+  "ashby-1password-f9d5a90c-5778-40a6-9f2b-4847ae70ef4d": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build backend systems and services for 1Password's Confidential Computing platform and Public Key Verification infrastructure. Work on security-focused platforms handling enterprise identity authentication and access management at scale across 180,000+ businesses.",
+    "skills": [
+      "Rust",
+      "Go",
+      "cryptography",
+      "testing methodologies",
+      "debugging techniques"
+    ],
+    "level": "junior",
+    "comp": "$100k-$130k (US) / $85k-$110.5k (CAD)",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "bde92e75"
+  },
+  "ashby-1password-5c42ec98-c227-4f49-8357-5babf51ec1c7": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Design and operate a streaming-first data platform built on Apache Kafka, Protobuf, and Apache Iceberg, enabling near real-time data availability across the organization. Build and maintain a hybrid Databricks and Snowflake architecture with unified governance and security for analytics, AI/ML, and business reporting at scale.",
+    "skills": [
+      "Apache Kafka",
+      "Databricks",
+      "Snowflake",
+      "Terraform",
+      "Python",
+      "AWS",
+      "Apache Iceberg",
+      "Datadog"
+    ],
+    "level": "senior",
+    "comp": "$152k-$197.5k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "dade1627"
+  },
+  "workday-digitalturbine-Audience-Growth---Engagement-Lead_JR100969": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "48c146ea"
+  },
+  "greenhouse-thealleninstitute-7955021": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Seattle, WA",
+    "job_summary": "Lead foundational research on open language models (Olmo, Tulu, Molmo) and build software systems for generative AI; implement novel methodologies in pre-training, post-training, and multimodal AI while mentoring early-career researchers and publishing high-impact technical reports.",
+    "skills": [
+      "PyTorch",
+      "TensorFlow",
+      "Python",
+      "Reinforcement Learning",
+      "NLP",
+      "CUDA",
+      "JAX",
+      "Distributed Systems"
+    ],
+    "level": "senior",
+    "comp": "$167,030-$260,570",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "4dbba92d"
+  },
+  "greenhouse-anthropic-5223093008": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY",
+    "job_summary": "Lead a team of ML and distributed systems engineers building infrastructure for large-scale model finetuning and research productivity tools at Anthropic. Manage work prioritization across research, product, and infrastructure teams in a fast-moving AI safety organization.",
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "6e752c4d"
+  },
+  "ashby-arketa-75812e23-3bda-4df5-8fdd-96c6b6893568": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$240k-$280k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "ff039521"
+  },
+  "greenhouse-astranis-4683946006": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Lead the Vehicle Test team building and operating HITL testbeds and test frameworks that verify Astranis spacecraft are launch-ready across integration phases from panel-level through full spacecraft testing. Spacecraft test experience and US Government programs require US citizenship or permanent residency.",
+    "skills": [
+      "Python",
+      "HITL Systems",
+      "Test Framework Design",
+      "Hardware Testing",
+      "Embedded Systems",
+      "Spacecraft Testing"
+    ],
+    "level": "manager",
+    "comp": "$150k-$230k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "3c9891e2"
+  },
+  "lever-atomcomputing-6d58cd9f-c90b-4262-a48a-8112333071af": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Boulder, CO",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "01aad758"
+  },
+  "greenhouse-sonyinteractiveentertainmentglobal-5859292004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Diego, CA",
+    "job_summary": "Build scalable Trust & Safety platforms, moderation systems, and operational tooling that protect players across PlayStation's multiplayer and live-service gaming ecosystems. Work across frontend, backend, cloud infrastructure, and analytics to create safer online gaming experiences for 100+ million players.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Python",
+      "Go",
+      "GCP",
+      "AWS",
+      "Kubernetes"
+    ],
+    "level": "junior",
+    "comp": "$137,300\u2014$205,900",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "b9ec54c4"
+  },
+  "greenhouse-sonyinteractiveentertainmentglobal-5859293004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Diego, CA / San Mateo, CA",
+    "job_summary": "Build scalable Trust & Safety platforms and moderation systems for PlayStation's multiplayer and live-service ecosystems, including backend services, internal tooling, and operational infrastructure. Work across modern cloud infrastructure (Kubernetes, GCP, AWS) and partner with cross-functional teams to improve player safety and developer productivity at scale.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Python",
+      "Go",
+      "Kubernetes",
+      "GCP",
+      "AWS"
+    ],
+    "level": "junior",
+    "comp": "$137,300\u2013$205,900",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "4504d086"
+  },
+  "greenhouse-sonyinteractiveentertainmentglobal-6004783004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Los Angeles, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$159,070-$232,200",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "46fce2d3"
+  },
+  "workday-bigcommerce-HR-Policy-and-Compliance-Specialist_JR102678": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$55k-$93k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "8427fbed"
+  },
+  "greenhouse-andurilindustries-5144384007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Costa Mesa, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$129k-$171k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "55dc7a52"
+  },
+  "greenhouse-block-5229661008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "St. Louis, MO",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$304k-$456k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "f06a2f6d"
+  },
+  "greenhouse-block-5229669008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$304k-$456k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "d379c800"
+  },
+  "greenhouse-block-5229663008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Pittsburgh, PA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$304k-$456k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "50859b2e"
+  },
+  "greenhouse-block-5229662008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Detroit, MI",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$304k-$456k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "a22f1395"
+  },
+  "greenhouse-block-5229655008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Milwaukee, WI",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$304k-$456k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "71a0957b"
+  },
+  "greenhouse-block-5229653008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Indianapolis, IN",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$304k-$456k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "924372c5"
+  },
+  "greenhouse-block-5229650008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Minneapolis, MN",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$304k-$456k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "edcfb299"
+  },
+  "greenhouse-block-5229648008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Cincinnati, OH",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$304k-$456k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "dd1fddcf"
+  },
+  "workday-rockwellautomation-Component-Engineer---Wiring-and-Connection-Systems_R26-3702": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Mayfield Heights, OH / Milwaukee, WI",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "463bb34c"
+  },
+  "workday-thomsonreuters-Data-Analyst--Product-analytics_JREQ200677": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "canada",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$70k-$120k CAD",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "207e7934"
+  },
+  "workday-boeing-C-17-Mechanical-System-Design---Analysis-Engineer--Mid-Level---Senior-_JR2026498268-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Long Beach, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$111,350-$150,650 (mid-level); $135,150-$182,850 (senior)",
+    "comp_extras": [],
+    "source_hash": "c7f5cb86"
+  },
+  "workday-boeing-Support-Engineering-Data-Specialist_JR2026510653-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hazelwood, MO / Berkeley, MO",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$131,750\u2013$178,250",
+    "comp_extras": [],
+    "source_hash": "6cdc4669"
+  },
+  "workday-boeing-C-17-Mission-Systems-Engineer--SME-or-Senior-_JR2026509763-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Long Beach, CA",
+    "job_summary": "Lead design and structural analysis of cargo handling and mission systems for the C-17 Globemaster III aircraft using FEA and CAD tools. Requires 5+ years aerospace payload/structural design experience and U.S. Person status for export control compliance.",
+    "skills": [
+      "FEA",
+      "CATIA",
+      "Solidworks",
+      "Siemens NX",
+      "TeamCenter",
+      "ENOVIA",
+      "Aerospace Engineering",
+      "Structural Analysis"
+    ],
+    "level": "senior",
+    "comp": "$135,150-$224,250",
+    "comp_extras": [],
+    "source_hash": "f9faee72"
+  },
+  "workday-boeing-Retrofit-Technical-Specialist--Retrofit---Repair-_JR2026497995-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Tukwila, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$102,850\u2013$139,150",
+    "comp_extras": [],
+    "source_hash": "2189e1c9"
+  },
+  "greenhouse-motus-7842483": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$90k-$120k",
+    "comp_extras": [],
+    "source_hash": "74628c85"
+  },
+  "lever-filevine-0046ee28-49d3-4c3b-aec7-fbd4abbb3b1b": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Salt Lake City, UT",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bf820c55"
+  },
+  "workday-abbott-Software-Design-Quality-Engineer_31150102-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Westford, MA",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$61.3k-$122.7k",
+    "comp_extras": [],
+    "source_hash": "5214e355"
+  },
+  "workday-abbott-Controls-Technician---Nutrition-Manufacturing---Casa-Grande--AZ_31151241-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Casa Grande, AZ",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$43k-$87k",
+    "comp_extras": [],
+    "source_hash": "0086b657"
+  },
+  "workday-abbott-Team-Member-I_31150272": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Alajuela, Costa Rica",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9ece5f2e"
+  },
+  "workday-abbott-Team-Member-I_31150305": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Alajuela, Costa Rica",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2d0aa6da"
+  },
+  "workday-abbott-Becario-Optimizacin-de-Sistemas-de-Calidad_31147001": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Mexico City, Mexico",
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fe62a529"
+  },
+  "workday-firstam-Title-Assistant-Customer-Service_R056741": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Yakima, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$18.46-$24.63/hr",
+    "comp_extras": [],
+    "source_hash": "740eaac5"
+  },
+  "greenhouse-harnessinc-4845176007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Atlanta, GA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$220,000-$290,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "53de6244"
+  },
+  "ashby-hockeystack-26c4220e-a4db-48d7-b5a6-14c47b633bc8": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$350k-$400k",
+    "comp_extras": [],
+    "source_hash": "7bd18929"
+  },
+  "workday-kcura-Revenue-Manager_26-0249": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$90k-$136k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "2ba6f041"
+  },
+  "greenhouse-impact-8457297002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Barbara, CA / New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$110k-$130k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "00481c8a"
+  },
+  "ashby-insitro-ebcc4ec8-13e4-4c6e-8d19-afc2ded16000": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "South San Francisco, CA",
+    "job_summary": "Design, optimize, and execute high-throughput cell-based and biochemical screening assays in 96- and 384-well plate formats to generate machine-learning-ready biological datasets for drug discovery. Partner with automation teams to scale assays and collaborate with ML/data science teams to ensure reproducible, well-annotated datasets powering predictive disease models.",
+    "skills": [
+      "GraphPad Prism",
+      "Spotfire",
+      "Benchling",
+      "Python",
+      "R",
+      "CRISPR",
+      "Flow Cytometry"
+    ],
+    "level": "mid",
+    "comp": "$136k-$145k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "0f3bb38e"
+  },
+  "workday-iheartmedia-Producer-Anchor_Req38636-3": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Phoenix, AZ",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "098e6fa0"
+  },
+  "workday-gdit-Technical-Support---User-Engagement-Contract-Lead_RQ220701": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$124,093-$132,250",
+    "comp_extras": [],
+    "source_hash": "1f062d2b"
+  },
+  "workday-iqvia-Research-Associate-II_R1544274": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Fe, NM",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$51,800-$108,000",
+    "comp_extras": [],
+    "source_hash": "36620ba5"
+  },
+  "ashby-openai-3c5ebd43-1f83-422b-9e44-94b96bc8e4e0": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$266k-$295k",
+    "comp_extras": [],
+    "source_hash": "8ea0e5f8"
+  },
+  "ashby-ramp-6c3cbaf3-33ad-453f-8b91-0d0b2c4f897d": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "67110671"
+  },
+  "ashby-ramp-e542c73a-332e-457b-aed6-29f3d1a0ac75": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "04db21f1"
+  },
+  "greenhouse-roblox-7947913": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Nevada (on-site) / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$150,060\u2013$204,390",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "aa0d476c"
+  },
+  "ashby-saronic-81507e03-531b-4ef1-90c1-3b33bfa05329": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "fe019643"
+  },
+  "workday-smithnephew-Maintenance-Tech-III--2nd-shift-_R90697": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Memphis, TN",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "94063297"
+  },
+  "workday-nvidia-Field-Application-Engineer---New-College-Graduate-2026_JR2018580": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$92k-$178.25k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "58c14590"
+  },
+  "workday-nvidia-Senior-High-Performance-AI-Engineer_JR2013607": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Design and build GPU-accelerated agentic AI systems and runtimes for the CUDA ecosystem, optimizing multi-agent planning, tool-use, and code generation workloads. Collaborate across NVIDIA's hardware, compiler, and framework teams to integrate agent abstractions into production software stack.",
+    "skills": [
+      "CUDA",
+      "C++",
+      "Python",
+      "GPU performance optimization",
+      "Deep learning frameworks",
+      "Inference serving",
+      "Compiler design",
+      "Distributed systems"
+    ],
+    "level": "senior",
+    "comp": "$184k-$287.5k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "8ef86a28"
+  },
+  "workday-nvidia-Verification-and-Validation-Engineer---New-College-Grad-2026_JR2018584-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": "Build test generators and verification infrastructure for NVIDIA GPUs, CPUs, and SoCs, validating memory coherency, cache interactions, and architectural correctness across pre- and post-silicon environments. Entry-level role focused on mastering advanced verification methodologies (VCS, emulation, FPGA) for high-complexity semiconductor products.",
+    "skills": [
+      "C++",
+      "Python",
+      "Perl",
+      "VCS",
+      "FPGA",
+      "Computer Architecture",
+      "Memory Models",
+      "Emulation"
+    ],
+    "level": "junior",
+    "comp": "$100k-$166.75k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "6cc2c704"
+  },
+  "greenhouse-zyngacareers-6000475004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Austin, TX / Bay Area, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$108,900-$161,160",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "df7e9ad4"
   }
 }
