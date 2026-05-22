@@ -1165,10 +1165,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "huntress",
     "name": "Huntress",
-    "summary": "Huntress builds security software focused on endpoint detection and response (EDR) and threat hunting for small and mid-sized businesses. They operate in the cybersecurity domain, specifically targeting organizations that lack dedicated security teams.",
-    "ats": "greenhouse"
+    "summary": "Huntress provides a managed security platform that offers 24/7 security operations center-backed endpoint detection and response, identity threat detection and response, security information and event management, and security awareness training.",
+    "source": "meta_description"
   },
   {
     "slug": "nightfall-ai",
@@ -8757,10 +8758,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "orchard",
     "name": "Orchard",
-    "summary": "Orchard builds a software platform that helps financial institutions originate, service, and manage residential mortgages through cloud-based tools and integrations.",
-    "ats": "greenhouse"
+    "summary": "Orchard provides a home buying service that allows customers to purchase a new home before selling their current home.",
+    "source": "meta_description"
   },
   {
     "slug": "orionadvisor/wd1/Orion_Careers",
