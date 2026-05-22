@@ -206356,5 +206356,664 @@
       "equity"
     ],
     "source_hash": "0c9d98d4"
+  },
+  "greenhouse-andurilindustries-5137133007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1513cbb0"
+  },
+  "workday-merit-XMLNAME-6065H---Logistics-Clerk-I--Hourly-_JR116212-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c3f0b9c1"
+  },
+  "workday-merit-Coordinator--Shipping_JR116213": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3c9ced77"
+  },
+  "workday-paloaltonetworks-Solutions-Consultant-2---SLED_JR-017767": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a1d2e75b"
+  },
+  "greenhouse-spacex-8561494002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9dec8a11"
+  },
+  "workday-smithnephew-Inventory-Specialist--San-Antonio--TX-_R88624": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "638ad8e1"
+  },
+  "workday-jci-HVAC-Controls-Lead-Systems-Specialist_WD30270263": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bbd21931"
+  },
+  "workday-jci-Supervisor-Stiva-1_WD30270247": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "58105017"
+  },
+  "workday-jci-Supervisor-Stiva-1_WD30270220": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "824739ad"
+  },
+  "workday-jci-IT-Analyst_WD30270371": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "86140b80"
+  },
+  "greenhouse-agero-8555583002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$107k-$130k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "9d7bbfd4"
+  },
+  "ashby-ambient.ai-16078dde-74dc-4fd9-a16f-d6d96b87eb4f": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Redwood City, CA",
+    "job_summary": "Design and ship backend APIs and services powering enterprise physical security monitoring and incident response, handling 200M+ video hours daily across tens of thousands of cameras. Own a core product area end-to-end from 0-to-1 prototypes through scaled production at Fortune 500 deployments; requires 6+ years backend engineering experience and strong Python expertise.",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "REST",
+      "GraphQL",
+      "gRPC",
+      "PostgreSQL",
+      "AWS",
+      "Real-time Systems"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "dc093d19"
+  },
+  "workday-elevancehealth-Cust-Care-Rep-I_JR193049": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Aguadilla, Puerto Rico",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "09b8c040"
+  },
+  "workday-bonterra-EA-Client-Support-Specialist-I_R2026-0229": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$58,700",
+    "comp_extras": [],
+    "source_hash": "74489371"
+  },
+  "workday-capitalone-Sr-Business-Manager---US-Card_R238981-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "McLean, VA / Richmond, VA / New York, NY / Anytown, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$182,500-$249,900",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "734f796e"
+  },
+  "workday-capitalone-Senior-Business-Manager--Product-Analytics_R242774-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "McLean, VA / New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$200,700-$249,900",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "8f20c18f"
+  },
+  "workday-capitalone-Manager--Security-Platform-Engineering--DLP-Control-Platform_R243193-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "McLean, VA / New York, NY / Plano, TX / Richmond, VA",
+    "job_summary": "Lead the technical delivery of a centralized Data Loss Prevention (DLP) platform that standardizes policy authoring, findings routing, and enforcement orchestration across Capital One's cloud infrastructure. Build detection logic, enforcement automation, and control validation systems serving the entire DLP program at enterprise scale using Python, AWS serverless, and infrastructure as code.",
+    "skills": [
+      "Python",
+      "AWS",
+      "Go",
+      "PostgreSQL",
+      "CDK",
+      "Schema Validation",
+      "API Design",
+      "Data Protection Systems"
+    ],
+    "level": "manager",
+    "comp": "$179,400-$245,600",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "594fc13b"
+  },
+  "ashby-coderabbit-b4e53d7d-75dc-4015-950e-cbcaed493dbd": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA / Boston, MA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "4225f666"
+  },
+  "workday-boeing-Quality-Production-Specialist_JR2026511793-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Salt Lake City, UT",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$71,400-$96,600",
+    "comp_extras": [],
+    "source_hash": "8fa7d13e"
+  },
+  "workday-boeing-Computing-Architect--Manhattan-Warehouse-MS-_JR2026510877-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hialeah, FL",
+    "job_summary": "Design, develop, and implement configuration solutions for Manhattan Warehouse Management Systems (WMOS) supporting Boeing's internal logistics and supply chain operations. Requires hands-on experience with end-to-end WMS implementations, integration testing, and ERP/middleware connectivity in a defense contractor environment subject to U.S. export control compliance.",
+    "skills": [
+      "Manhattan WMOS",
+      "SQL",
+      "Integration Testing",
+      "ERP Systems",
+      "MIF",
+      "Systems Design",
+      "Supply Chain Software"
+    ],
+    "level": "senior",
+    "comp": "$118k-$168k",
+    "comp_extras": [],
+    "source_hash": "56da8717"
+  },
+  "workday-boeing-Mid-Level-or-Senior-System-Safety-Engineer_JR2026511780-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Ridley Park, PA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$114,750-$190,900",
+    "comp_extras": [],
+    "source_hash": "838b1851"
+  },
+  "workday-boeing-Entry-level-Digital-Electronics-Circuit---Unit-Hardware-Design-Engineer_JR2026511020-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "El Segundo, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$76,500\u2013$103,500",
+    "comp_extras": [],
+    "source_hash": "9ac66a70"
+  },
+  "workday-bah-Email-Security-Engineer--Senior_R0240786": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Fort Meade, MD",
+    "job_summary": "Configure and manage F5 load balancing infrastructure, design network architectures supporting BGP and IPv6, and implement email security components for DoD operations. Requires Secret clearance and work in classified defense networks.",
+    "skills": [
+      "F5 LTM",
+      "BGP",
+      "IPv6",
+      "Azure",
+      "Cisco",
+      "Juniper",
+      "SMTP",
+      "Security+"
+    ],
+    "level": "senior",
+    "comp": "$86,900-$198,000",
+    "comp_extras": [],
+    "source_hash": "87e98ee4"
+  },
+  "workday-bah-Full-Stack-Software-Engineer_R0240781": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Build full-stack software systems for government clients using modern containerization, cloud, and streaming technologies. Requires TS/SCI clearance with polygraph.",
+    "skills": [
+      "Python",
+      "Go",
+      "TypeScript",
+      "Angular",
+      "Docker",
+      "Kubernetes",
+      "Kafka",
+      "AWS"
+    ],
+    "level": "senior",
+    "comp": "$86,900-$198,000",
+    "comp_extras": [],
+    "source_hash": "bdacd594"
+  },
+  "lever-fintual-f5d2608f-ee96-4348-be92-d6d2aaee6d6e": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Santiago, Chile",
+    "job_summary": "Build and maintain the backend infrastructure and core systems powering Fintual's investment platform, serving hundreds of thousands of users managing real financial assets. Role requires expertise in scalable, reliable systems handling financial transactions and data at scale.",
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "abdf5f97"
+  },
+  "workday-abbott-Technician-II-Dispensing_31151192-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Abbott Park, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$42k-$84k",
+    "comp_extras": [],
+    "source_hash": "07ab6bee"
+  },
+  "workday-abbott-Director--Demand-and-Supply-Planning_31150887": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Sylmar, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$197,300\u2013$394,700",
+    "comp_extras": [],
+    "source_hash": "b802606a"
+  },
+  "ashby-glia-e54db95b-30d6-4c95-aaf4-4299fcb673e5": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": "$52k",
+    "comp_extras": [],
+    "source_hash": "d3f9e753"
+  },
+  "greenhouse-ionq-6001768004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$83,430-$109,232",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "7e1398cc"
+  },
+  "greenhouse-ionq-6001723004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$110,336-$144,459",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "9b90538f"
+  },
+  "workday-hubinternational-VP--Marketing-for-HUB-Digital_R0036573": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Chicago, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$185k-$225k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "25a002f6"
+  },
+  "workday-modernatx-Associate-Director--Global-Regulatory--CMC_R19256": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$142,500-$256,500",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "a1559d19"
+  },
+  "greenhouse-okta-7904652": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Lead a team of SREs building and operating cloud-native infrastructure platforms supporting millions of daily authentications across AWS multi-region deployments at 99.999% availability. Requires 2 days/week in-office in San Francisco and U.S. Person status for federal environment access.",
+    "skills": [
+      "AWS",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "Grafana",
+      "Splunk",
+      "Observability",
+      "DevOps"
+    ],
+    "level": "manager",
+    "comp": "$204k-$281k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "6a6aa7a5"
+  },
+  "lever-pattern-ea0cfbae-8914-4f81-a948-accfe2938b2a": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Lehi, UT",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b39955a7"
+  },
+  "greenhouse-planetlabs-7926536": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$101,400-$126,800",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "97125802"
+  },
+  "greenhouse-spacex-8561432002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Starbase, TX",
+    "job_summary": "Develop guidance, navigation, and control systems for Starship, including 6-DOF dynamics simulation models, flight control algorithms, and trajectory analysis for the world's most advanced reusable spacecraft. ITAR work requires US citizenship or permanent residency.",
+    "skills": [
+      "Python",
+      "C++",
+      "Control Systems",
+      "Orbital Mechanics",
+      "6-DOF Dynamics Simulation",
+      "Monte Carlo Analysis",
+      "Hardware-in-the-Loop Testing"
+    ],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "66159bd5"
+  },
+  "greenhouse-spacex-8562385002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Starbase, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "730a8cbd"
+  },
+  "greenhouse-spacex-8562427002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Starbase, TX",
+    "job_summary": "Design and build automation control systems for Starship spacecraft and Super Heavy rocket production lines, including PLC programming, robot systems integration, electrical panel design, and HMI/SCADA development. Requires ITAR eligibility and hands-on work at SpaceX's Starbase facility in Texas.",
+    "skills": [
+      "PLC Programming",
+      "Siemens TIA Portal",
+      "Beckhoff TwinCat 3",
+      "Python",
+      "C#",
+      "SCADA",
+      "HMI",
+      "Kuka"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "83089e68"
+  },
+  "greenhouse-spacex-8562829002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Redmond, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$160k-$210k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "837ff9c9"
+  },
+  "ashby-talkiatry-5b8db474-a43d-4dd1-a80d-768650838865": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2f8d6584"
+  },
+  "workday-nvidia-PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": "Prototype and develop GPU-accelerated parallel algorithms for decision optimization problems, focusing on performance tuning and benchmarking of large-scale numerical software. Requires PhD-level knowledge of operations research, mathematical programming, and CUDA optimization for a decision intelligence platform.",
+    "skills": [
+      "CUDA",
+      "C++",
+      "Python",
+      "Operations Research",
+      "Mathematical Programming",
+      "GPU Performance Optimization",
+      "Parallel Algorithms"
+    ],
+    "level": "intern",
+    "comp": "$30-$94/hr (intern rate; ~$62k-$195k annualized)",
+    "comp_extras": [],
+    "source_hash": "620e4cb0"
+  },
+  "workday-visa-Product-Analyst_REF081020W": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Miami, FL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$104.6k-$162.3k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "0ac7073d"
   }
 }
