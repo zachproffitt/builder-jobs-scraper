@@ -8092,10 +8092,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "invoca",
     "name": "Invoca",
-    "summary": "Invoca provides an intelligent call intelligence platform that records, transcribes, and analyzes phone conversations for enterprises across sales, marketing, and customer service. The company helps organizations understand customer interactions, measure marketing campaign effectiveness, and improve team performance through call data and analytics.",
-    "ats": "greenhouse"
+    "summary": "Invoca provides AI-powered analytics software that analyzes phone conversations to generate insights for marketing, sales, and contact center teams.",
+    "source": "meta_description"
   },
   {
     "slug": "isometric",
@@ -8843,10 +8844,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "workday",
     "slug": "pax8inc/wd12/Pax8Careers",
     "name": "Pax8",
-    "summary": "Pax8 is a cloud marketplace and distributor that enables managed service providers and resellers to discover, sell, and manage cloud-based software and services to their customers. The platform aggregates offerings from thousands of cloud vendors and provides billing, provisioning, and support tools to simplify the resale of cloud solutions.",
-    "ats": "workday"
+    "summary": "Pax8 is a marketplace that helps small businesses access AI-driven technology, community resources, and education.",
+    "source": "meta_description"
   },
   {
     "slug": "Payscale",
