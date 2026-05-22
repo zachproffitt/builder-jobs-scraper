@@ -4277,10 +4277,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "zip",
     "name": "Zip",
-    "summary": "Zip builds buy now, pay later (BNPL) software that enables businesses to offer point-of-sale installment payment options to their customers. The company operates in the fintech and payment processing domain, serving merchants across e-commerce, retail, and B2B sectors.",
-    "ats": "ashby"
+    "summary": "Zip provides an AI procurement platform that automates the intake-to-pay process, including global sourcing, compliance, and spend management.",
+    "source": "meta_description"
   },
   {
     "slug": "getzuma",
