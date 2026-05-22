@@ -49,12 +49,16 @@ jobs:
 
       - name: Fetch jobs
         working-directory: scraper
+        env:
+          GRAFANA_REMOTE_WRITE_URL: ${{ secrets.GRAFANA_REMOTE_WRITE_URL }}
+          GRAFANA_STACK_ID: ${{ secrets.GRAFANA_STACK_ID }}
+          GRAFANA_API_KEY: ${{ secrets.GRAFANA_API_KEY }}
         run: PYTHONPATH=. python pipeline/fetch_jobs.py
 
       - name: Checkpoint seen jobs
         working-directory: scraper
         run: |
-          git add data/jobs_seen.json data/companies_seen.json data/companies.json data/jobs.log
+          git add data/jobs_seen.json data/companies_seen.json data/companies.json data/jobs.log data/jobs_fetch_stats.json
           if git diff --cached --quiet; then
             echo "No new jobs seen"
           else
@@ -71,6 +75,9 @@ jobs:
         working-directory: scraper
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GRAFANA_REMOTE_WRITE_URL: ${{ secrets.GRAFANA_REMOTE_WRITE_URL }}
+          GRAFANA_STACK_ID: ${{ secrets.GRAFANA_STACK_ID }}
+          GRAFANA_API_KEY: ${{ secrets.GRAFANA_API_KEY }}
         run: PYTHONPATH=. python pipeline/classify_jobs.py
 
       - name: Checkpoint classify results

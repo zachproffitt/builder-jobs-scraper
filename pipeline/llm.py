@@ -16,6 +16,7 @@ import threading
 import time
 from typing import Callable, Protocol
 
+
 LogError = Callable[[str], None]
 
 CLAUDE_MODEL = "claude-haiku-4-5-20251001"
@@ -28,6 +29,15 @@ CLAUDE_PRICE_INPUT = 1.00
 CLAUDE_PRICE_OUTPUT = 5.00
 CLAUDE_PRICE_CACHE_WRITE = 1.25
 CLAUDE_PRICE_CACHE_READ = 0.10
+
+
+def _call_cost(inp: int, out: int, cw: int, cr: int) -> float:
+    return (
+        inp * CLAUDE_PRICE_INPUT
+        + out * CLAUDE_PRICE_OUTPUT
+        + cw * CLAUDE_PRICE_CACHE_WRITE
+        + cr * CLAUDE_PRICE_CACHE_READ
+    ) / 1_000_000
 
 
 # --- Helpers -----------------------------------------------------------------
@@ -56,7 +66,14 @@ class Usage:
 
     def snapshot(self) -> dict:
         with self._lock:
-            return dict(self._counts)
+            d = dict(self._counts)
+        d["cost_usd"] = _call_cost(
+            d["input_tokens"],
+            d["output_tokens"],
+            d["cache_creation_input_tokens"],
+            d["cache_read_input_tokens"],
+        )
+        return d
 
 
 class RateLimiter:
@@ -97,14 +114,16 @@ class LLMBackend(Protocol):
     """Any backend that can run a single-turn chat completion.
 
     Structural typing — implementations don't need to inherit from this. As long
-    as a class has `chat()` and `get_usage()` with matching signatures, it
-    satisfies the Protocol.
+    as a class has `chat()`, `get_usage()`, and `get_last_call_usage()` with
+    matching signatures, it satisfies the Protocol.
     """
 
     def chat(self, system: str, user_message: str, max_tokens: int,
              log_error: LogError | None = None) -> str: ...
 
     def get_usage(self) -> dict: ...
+
+    def get_last_call_usage(self) -> dict | None: ...
 
 
 class ClaudeBackend:
@@ -114,6 +133,7 @@ class ClaudeBackend:
 
     def __init__(self) -> None:
         self._usage = Usage()
+        self._thread_local = threading.local()
         # Anthropic org limit is 50k input tokens/minute; throttle at 40k for
         # headroom. ~4,000 tokens per request (2,545 system + ~1,100 user + buffer)
         # gives ~10 requests/minute.
@@ -122,6 +142,7 @@ class ClaudeBackend:
     def chat(self, system: str, user_message: str, max_tokens: int,
              log_error: LogError | None = None) -> str:
         import anthropic
+        self._thread_local.last_call = None
         self._rate_limiter.acquire()
         client = anthropic.Anthropic()
         kwargs: dict = {
@@ -136,6 +157,16 @@ class ClaudeBackend:
             try:
                 response = client.messages.create(**kwargs)
                 self._usage.add(response.usage)
+                u = response.usage
+                cw = getattr(u, "cache_creation_input_tokens", 0) or 0
+                cr = getattr(u, "cache_read_input_tokens", 0) or 0
+                self._thread_local.last_call = {
+                    "input_tokens": u.input_tokens,
+                    "output_tokens": u.output_tokens,
+                    "cache_creation_input_tokens": cw,
+                    "cache_read_input_tokens": cr,
+                    "cost_usd": _call_cost(u.input_tokens, u.output_tokens, cw, cr),
+                }
                 return response.content[0].text.strip()
             except (anthropic.RateLimitError, anthropic.APIStatusError) as e:
                 if isinstance(e, anthropic.APIStatusError) and e.status_code not in self._TRANSIENT_STATUS_CODES:
@@ -148,6 +179,9 @@ class ClaudeBackend:
 
     def get_usage(self) -> dict:
         return self._usage.snapshot()
+
+    def get_last_call_usage(self) -> dict | None:
+        return getattr(self._thread_local, "last_call", None)
 
 
 class OllamaBackend:
@@ -178,6 +212,9 @@ class OllamaBackend:
         with self._lock:
             return {"requests": self._requests}
 
+    def get_last_call_usage(self) -> dict | None:
+        return None
+
 
 # --- Module-level singleton --------------------------------------------------
 
@@ -205,11 +242,6 @@ def get_usage() -> dict:
     return _backend.get_usage()
 
 
-def estimate_cost(usage: dict) -> float:
-    """Estimated USD cost for a usage dict from get_usage(). Returns 0 for Ollama."""
-    return (
-        usage.get("input_tokens", 0) * CLAUDE_PRICE_INPUT / 1_000_000
-        + usage.get("output_tokens", 0) * CLAUDE_PRICE_OUTPUT / 1_000_000
-        + usage.get("cache_creation_input_tokens", 0) * CLAUDE_PRICE_CACHE_WRITE / 1_000_000
-        + usage.get("cache_read_input_tokens", 0) * CLAUDE_PRICE_CACHE_READ / 1_000_000
-    )
+def get_last_call_usage() -> dict | None:
+    """Per-call token usage for the most recent chat() call in the current thread. None for Ollama."""
+    return _backend.get_last_call_usage()

@@ -12,7 +12,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from log import log_error as _log_error
-from llm import BACKEND, CLAUDE_MODEL, OLLAMA_MODEL, chat, get_usage, estimate_cost
+from llm import BACKEND, CLAUDE_MODEL, OLLAMA_MODEL, chat, get_usage, get_last_call_usage
+from metrics import push as push_metrics, board_metrics
 
 JOBS_FILE = Path(__file__).parent.parent / "data" / "jobs_raw.json"
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "jobs_classified.json"
@@ -447,7 +448,17 @@ def main():
     total = len(with_desc)
 
     def process(job: dict) -> tuple:
-        return job, classify_with_llm(job)
+        cl = classify_with_llm(job)
+        call_usage = get_last_call_usage()
+        if call_usage:
+            push_metrics([
+                {"name": "builder_pipeline_llm_call_cost_usd",          "value": call_usage["cost_usd"]},
+                {"name": "builder_pipeline_llm_call_input_tokens",      "value": call_usage["input_tokens"]},
+                {"name": "builder_pipeline_llm_call_output_tokens",     "value": call_usage["output_tokens"]},
+                {"name": "builder_pipeline_llm_call_cache_read_tokens", "value": call_usage["cache_read_input_tokens"]},
+                {"name": "builder_pipeline_llm_call_cache_write_tokens","value": call_usage["cache_creation_input_tokens"]},
+            ], log_error=log_error)
+        return job, cl
 
     with ThreadPoolExecutor(max_workers=WORKERS) as executor:
         future_to_job = {executor.submit(process, job): job for job in with_desc}
@@ -538,12 +549,25 @@ def main():
         "builder_rate": round(builder_rate, 4),
         "title_skipped": len(title_skipped),
         "location_skipped": len(location_skipped),
+        "cost_usd": usage.get("cost_usd", 0.0),
     })
     HISTORY_FILE.write_text(json.dumps(history, indent=2))
 
-    if usage["requests"]:
-        cost = estimate_cost(usage)
-        print(f"Tokens — input: {usage['input_tokens']:,}  cache_read: {usage['cache_read_input_tokens']:,}  output: {usage['output_tokens']:,}  est. cost: ${cost:.3f}")
+    if usage.get("requests"):
+        cost = usage.get("cost_usd", 0.0)
+        print(f"Tokens — input: {usage['input_tokens']:,}  cache_read: {usage['cache_read_input_tokens']:,}  output: {usage['output_tokens']:,}  cost: ${cost:.4f}")
+
+    push_metrics([
+        {"name": "builder_pipeline_classified",         "value": classified},
+        {"name": "builder_pipeline_title_skipped",      "value": len(title_skipped)},
+        {"name": "builder_pipeline_location_skipped",   "value": len(location_skipped)},
+        {"name": "builder_pipeline_no_desc",            "value": without_desc},
+        {"name": "builder_pipeline_result_builder",     "value": eng},
+        {"name": "builder_pipeline_result_not_builder", "value": not_eng},
+        {"name": "builder_pipeline_result_unclear",     "value": unclear},
+        {"name": "builder_pipeline_classify_errors",    "value": errors},
+        *board_metrics(),
+    ], log_error=log_error)
 
 
 if __name__ == "__main__":

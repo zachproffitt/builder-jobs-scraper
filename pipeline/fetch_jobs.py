@@ -12,6 +12,7 @@ from pathlib import Path
 from scrapers import ats_greenhouse, ats_lever, ats_ashby, ats_smartrecruiters, ats_bamboo, ats_breezy, ats_workable, ats_workday, ats_eightfold
 from scrapers._base import Job, ScraperError
 from log import log_error as _log_error
+from metrics import push as push_metrics
 
 WORKERS = 10
 
@@ -161,10 +162,30 @@ def main():
     OUTPUT_FILE.write_text(json.dumps(all_jobs, indent=2))
     JOBS_SEEN_FILE.write_text(json.dumps(seen, indent=2))
     COMPANIES_SEEN_FILE.write_text(json.dumps(seen_companies, indent=2))
+    (DATA_DIR / "jobs_fetch_stats.json").write_text(json.dumps({
+        "total": len(all_jobs),
+        "new": new_count,
+        "closed": closed_count,
+        "aged_out": aged_out,
+        "archived": archived_count,
+        "carried": carried_count,
+        "errors": error_count,
+    }, indent=2))
 
     print(f"Written to {OUTPUT_FILE}")
     if error_count:
         print(f"  {error_count} scraper errors logged to {LOG_FILE.name}")
+
+    push_metrics([
+        {"name": "builder_pipeline_jobs_fetched",     "value": len(all_jobs)},
+        {"name": "builder_pipeline_jobs_new",          "value": new_count},
+        {"name": "builder_pipeline_jobs_closed",       "value": closed_count},
+        {"name": "builder_pipeline_jobs_aged_out",     "value": aged_out},
+        {"name": "builder_pipeline_jobs_archived",     "value": archived_count},
+        {"name": "builder_pipeline_jobs_carried",      "value": carried_count},
+        {"name": "builder_pipeline_scraper_errors",    "value": error_count},
+        {"name": "builder_pipeline_companies_fetched", "value": len(to_fetch)},
+    ], log_error=log_error)
 
 
 if __name__ == "__main__":

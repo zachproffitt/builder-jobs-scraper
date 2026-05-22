@@ -9,7 +9,6 @@ from render_common import SUPPORTED_ATS, strip_location_from_title, is_new_withi
 from llm import (
     CLAUDE_PRICE_INPUT, CLAUDE_PRICE_OUTPUT,
     CLAUDE_PRICE_CACHE_WRITE, CLAUDE_PRICE_CACHE_READ,
-    estimate_cost,
 )
 
 DATA_DIR = Path(__file__).parent.parent / "data"
@@ -90,7 +89,7 @@ def main():
         cache_write = classify_stats.get("cache_creation_input_tokens", 0)
         cache_read = classify_stats.get("cache_read_input_tokens", 0)
 
-        cost = estimate_cost(classify_stats)
+        cost = classify_stats.get("cost_usd", 0.0)
 
         status_parts = [f"**{classified}** classified"]
         if errors:
