@@ -1060,10 +1060,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "astronomer",
     "name": "Astronomer",
-    "summary": "Astronomer builds a managed platform for Apache Airflow, an open-source workflow orchestration tool, that handles scheduling, monitoring, and execution of data pipelines. The company operates in the data engineering and orchestration space, providing cloud-hosted infrastructure and tooling to help organizations manage complex data workflows.",
-    "ats": "ashby"
+    "summary": "Astronomer provides Astro, a platform for building, running, and observing Apache Airflow data, ML, and AI pipelines at scale.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
