@@ -405,3 +405,5 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 [2026-05-22T07:43:19Z] classify_jobs: transient API error (attempt 1/5): Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbHESL9h53tVs2PvSZVBq'} — retrying in 1s
 [2026-05-22T07:43:19Z] classify_jobs: transient API error (attempt 2/5): Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbHESRUfb3rPE9vk6Qky6'} — retrying in 2s
 [2026-05-22T07:43:37Z] classify_jobs: transient API error (attempt 1/5): Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbHETdTGkKsNw39fRTKA4'} — retrying in 1s
+[2026-05-22T07:46:05Z] classify_companies: homepage fetch failed for https://spire.com: Client error '403 Forbidden' for url 'https://spire.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
