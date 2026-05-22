@@ -207015,5 +207015,1914 @@
       "equity"
     ],
     "source_hash": "0ac7073d"
+  },
+  "workday-thomsonreuters-Senior-Sales-Executive--Small-Law--San-Francisco-_JREQ200844": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7b80b3f8"
+  },
+  "workday-adobe-Executive-Assistant_R169141": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3223b2d1"
+  },
+  "ashby-d-matrix-ecaed567-a49f-49ad-86b1-c9d3e66cd16e": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3c04772a"
+  },
+  "greenhouse-dragos-5208029008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "31f8ada5"
+  },
+  "ashby-elevenlabs-59640734-782f-4d70-807d-5d268ea1bd81": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "522e3acc"
+  },
+  "workday-ffive-Business-Development-Representative-III--AI-BDR-_RP1037569": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "aab94d4f"
+  },
+  "workday-bah-Procurement-Manager_R0240795": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1b8ba42f"
+  },
+  "workday-bah-All-Source-Intelligence-Analyst_R0240783": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "cde38db7"
+  },
+  "workday-gdit-Network-Administrator-Associate_RQ220678": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "71b86e20"
+  },
+  "greenhouse-launchdarkly-7747213003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "355b82ed"
+  },
+  "workday-logitech-Communications-Specialist_145177": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d700c039"
+  },
+  "greenhouse-stackadapt-4257553009": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1f8ec56f"
+  },
+  "greenhouse-spacex-8559982002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "70452498"
+  },
+  "greenhouse-spacex-8562740002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "90803809"
+  },
+  "greenhouse-spacex-8561572002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8d0843c7"
+  },
+  "greenhouse-talkdesk2-7951337": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9316c673"
+  },
+  "greenhouse-terrapowerllc-4257258009": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "872885b4"
+  },
+  "workday-jll-Senior-Accountant-II_REQ509722": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6a7c9db9"
+  },
+  "workday-jll-Data-Center-Technical-Writer_REQ510032": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "880eb26c"
+  },
+  "workday-jll-Facilities-Coordinator_REQ510048": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d5008a28"
+  },
+  "ashby-vanta-d5892780-397b-48d6-90de-60e335ec8b87": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2568eddf"
+  },
+  "workday-nvidia-Senior-Technical-Program-Manager--DGX-Cloud-Software-Products-and-Service_JR2017899": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "33f46e50"
+  },
+  "greenhouse-waymo-7942537": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e71d64e8"
+  },
+  "workday-tapestry-Sales-Associate-III_JR5728": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a451c00b"
+  },
+  "workday-tmobile-Major-Account-Executive---SMB---SoCal---San-Diego--_REQ355744-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4d0abf2f"
+  },
+  "workday-iqvia-Reg---Start--Up-Specialist-I_R1545615": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ecb7d25a"
+  },
+  "workday-otis-ENGENHEIRO-A--DE-VENDAS-SNIOR---SO-BERNARDO-DO-CAMPO-SP_20160039-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c2a69403"
+  },
+  "greenhouse-waymo-7954299": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "15bed3ff"
+  },
+  "workday-jci-Vendedor_WD30265736-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "00db6fd9"
+  },
+  "workday-visa-Sr-SW-Engineer--Credit-Cycle_REF082321W": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9434e3d9"
+  },
+  "greenhouse-thealleninstitute-7954968": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Seattle, WA",
+    "job_summary": "Conduct NLP and language model research with the AllenNLP team, contributing to open-source tools and the Open Language Model (Olmo) project; co-author papers at top venues as preparation for PhD studies.",
+    "skills": [
+      "NLP",
+      "PyTorch",
+      "Transformers",
+      "Python",
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "level": "junior",
+    "comp": "$113,300",
+    "comp_extras": [],
+    "source_hash": "b802b610"
+  },
+  "greenhouse-andurilindustries-5131261007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Irvine, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$113k-$149k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "9a2073d9"
+  },
+  "greenhouse-andurilindustries-5145334007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Costa Mesa, CA",
+    "job_summary": "Lead test and evaluation strategy for autonomous military systems from concept through production, coordinating cross-functional integration, safety reviews, and DoD compliance across hardware and software testing. Requires Top Secret clearance and extensive DoD test range experience.",
+    "skills": [
+      "DoD Acquisitions",
+      "Test Range Regulations",
+      "Autonomous Systems Testing",
+      "Jira",
+      "Confluence",
+      "Linux/Unix",
+      "TS/SCI Clearance"
+    ],
+    "level": "senior",
+    "comp": "$113k-$149k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "89507be8"
+  },
+  "greenhouse-archer56-7741005003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": "Lead the mechanical design, integration, and validation of flight-critical electromechanical actuators for an all-electric vertical takeoff and landing aircraft. Requires deep expertise in actuator system architecture, aerospace qualification processes, and hands-on technical leadership in a safety-critical aerospace environment.",
+    "skills": [
+      "Siemens NX",
+      "ANSYS",
+      "Structural Analysis",
+      "GD&T",
+      "Materials Selection",
+      "Kinematic Analysis",
+      "MATLAB",
+      "Python"
+    ],
+    "level": "manager",
+    "comp": "$172k-$230k",
+    "comp_extras": [],
+    "source_hash": "f9db2b83"
+  },
+  "ashby-betterup-5744ee46-3747-4f94-b849-7170bb75e891": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0b7b74ec"
+  },
+  "ashby-claylabs-0a88196b-f7ab-4340-84fa-ecf80b45705b": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "42f60434"
+  },
+  "workday-bakerhughes-AMO-Mechanic-General_R161535": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Ciudad del Carmen, Mexico",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d5efdd22"
+  },
+  "workday-capitalone-Senior-Associate--Talent-Brand-Strategist---Talent-Marketing_R243212-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Richmond, VA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$87,700-$100,100",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "bfcdd45a"
+  },
+  "workday-capitalone-Distinguished-Engineer---Bank-Tech--Remote--Eligible-_R243024-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote / McLean, VA / New York, NY",
+    "job_summary": "Lead architectural modernization of Capital One's customer acquisition platform toward server-driven UI and backend-for-frontend patterns, while integrating AI across the software development lifecycle. Distinguished Engineer role requiring 7+ years distributed systems experience and deep expertise in cloud architecture, system design, and technical leadership across a large engineering organization.",
+    "skills": [
+      "Java",
+      "Python",
+      "Go",
+      "JavaScript/TypeScript",
+      "AWS",
+      "Kubernetes",
+      "Microservices",
+      "OpenTelemetry"
+    ],
+    "level": "principal",
+    "comp": "$244,700-$335,100",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "15c14dfa"
+  },
+  "workday-adobe-Machine-Learning-Engineer_R168882": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": "Develop machine learning models and algorithms for attribution, measurement, forecasting, and planning that help organizations optimize strategies and drive growth. Work on advanced ML solutions at scale with emphasis on generative and agentic AI capabilities.",
+    "skills": [
+      "Python",
+      "R",
+      "TensorFlow",
+      "PyTorch",
+      "Scikit-learn",
+      "Probability & Statistics",
+      "Mathematical Modeling"
+    ],
+    "level": "senior",
+    "comp": "$125,600-$234,150",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "4fd0cc1a"
+  },
+  "workday-adobe-Principal-Revenue-Marketing-Manager_R168737-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$112k-$215.1k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "f72c4b47"
+  },
+  "workday-adobe-Senior-Product-Engineer----iOS_R169116": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": "Own end-to-end iOS features for video creation and editing experiences, from interaction design through production, partnering with product and design to shape requirements. Use AI-assisted coding tools and strong UX instincts to ship high-quality, performant features for creative professionals; requires deep mobile video editing domain knowledge and ability to influence product decisions.",
+    "skills": [
+      "Swift",
+      "SwiftUI",
+      "UIKit",
+      "AVFoundation",
+      "AI-Assisted Development",
+      "Performance Profiling",
+      "Figma"
+    ],
+    "level": "senior",
+    "comp": "$173.5k-$331.05k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "5ad627cc"
+  },
+  "workday-adobe-Senior-Software-Quality-Engineer_R168402-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Own quality strategy and test automation for Premiere Pro's high-performance video rendering pipeline, validating functionality and performance across complex editing workflows, media formats, codecs, and hardware configurations. Requires expertise in video rendering architecture, performance testing, and CI automation.",
+    "skills": [
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "Jenkins",
+      "video codecs",
+      "performance testing",
+      "test automation"
+    ],
+    "level": "senior",
+    "comp": "$113,400-$221,750",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "18706f75"
+  },
+  "workday-rockwellautomation-SR-Windchill-engineer_R26-3295": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ad0f7b84"
+  },
+  "workday-rockwellautomation-Digital-Twin-Technical-Consultant_R26-1660": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$102,960-$154,440",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "c0dfbaa7"
+  },
+  "workday-colliers-Research-Manager_JR17294": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Seattle, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$96,876-$109,470",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "babef558"
+  },
+  "workday-boeing-Software-Engineer-Systems--Associate-Experienced-_JR2026511797-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Chantilly, VA / Mesa, AZ / Aurora, CO",
+    "job_summary": "Develop advanced software systems for space intelligence and mission command & control applications on cloud infrastructure, supporting analytics, planning, scheduling, and orchestration capabilities for the national intelligence community. Requires active Top Secret security clearance and U.S. citizenship; contingent on security approval for program access.",
+    "skills": [
+      "Agile",
+      "SAFe",
+      "Jira",
+      "Confluence",
+      "Cloud Infrastructure",
+      "Systems Architecture",
+      "Distributed Systems"
+    ],
+    "level": "mid",
+    "comp": "$94,350-$171,350",
+    "comp_extras": [],
+    "source_hash": "b76a6b77"
+  },
+  "workday-boeing-Senior-Corporate-Investigator_JR2026510782-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Oklahoma City, OK",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$105,400-$142,600",
+    "comp_extras": [],
+    "source_hash": "b0018ec1"
+  },
+  "workday-boeing-Instrumentation-Engineer--Experienced-or-Lead-_JR2026502705-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Patuxent River, MD",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$111,350\u2013$150,650 (Level 3) / $135,150\u2013$182,850 (Level 4)",
+    "comp_extras": [],
+    "source_hash": "5c9f25d6"
+  },
+  "workday-boeing-Mid-Level-Mechanical-Systems-Test-Engineer_JR2026508460-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Seattle, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$111k-$151k",
+    "comp_extras": [],
+    "source_hash": "ea0638dd"
+  },
+  "workday-boeing-Senior-Product-Review-Engineer--Liaison-Engineering-_JR2026510449-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Fairfield, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$135,150-$182,850",
+    "comp_extras": [],
+    "source_hash": "0059e4de"
+  },
+  "workday-boeing-Associate-Quality-Engineer_JR2026511467-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "O Fallon, MO",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$69k-$98k",
+    "comp_extras": [],
+    "source_hash": "72ca50b2"
+  },
+  "ashby-elevenlabs-09d54604-b5eb-498e-9868-e52b25967a66": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "de08c6d6"
+  },
+  "greenhouse-epicgames-6001641004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Cary, NC",
+    "job_summary": "Build core gameplay AI systems and features for Fortnite, including behavior trees, pathfinding, and animation systems that power live-service experiences across all platforms. Ship AAA game AI that scales across millions of concurrent players in a fast-paced, iterative environment.",
+    "skills": [
+      "C++",
+      "Unreal Engine",
+      "Behavior Trees",
+      "Finite State Machines",
+      "Pathfinding",
+      "Game AI",
+      "Animation Systems"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2a11a593"
+  },
+  "greenhouse-epicgames-6001643004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Multiple Locations, US (excluding CA, NY, WA)",
+    "job_summary": "Build core AI gameplay systems and features for Fortnite and other Unreal projects, including behavior trees, pathfinding, and character AI. Ship systems across live service games at scale.",
+    "skills": [
+      "C++",
+      "Unreal Engine",
+      "Behavior Trees",
+      "Finite State Machines",
+      "Pathfinding",
+      "Game AI"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "95d589f1"
+  },
+  "greenhouse-epicgames-6004763004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Vancouver, Canada",
+    "job_summary": "Build and maintain core gameplay AI systems for Fortnite, including behavior trees, pathfinding, and animation systems across all supported platforms. Ship features for a live service game with millions of concurrent players; requires expertise in AAA game AI and C++.",
+    "skills": [
+      "C++",
+      "Unreal Engine",
+      "Behavior Trees",
+      "Pathfinding",
+      "Finite State Machines",
+      "Animation Systems"
+    ],
+    "level": "senior",
+    "comp": "$166,195\u2013$243,752 CAD",
+    "comp_extras": [],
+    "source_hash": "8da08b82"
+  },
+  "greenhouse-epicgames-6002996004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Cary, NC",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "51d9e205"
+  },
+  "greenhouse-epicgames-6004769004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Vancouver, British Columbia, Canada",
+    "job_summary": "Build UI systems for Fortnite and Unreal Engine games\u2014HUD widgets, menus, minimaps, and player-facing features across multiplayer platforms. Work on a small, focused team shipping real-time interactive experiences at scale.",
+    "skills": [
+      "C++",
+      "Unreal Engine",
+      "Multiplayer Systems",
+      "UI/UX Implementation"
+    ],
+    "level": "senior",
+    "comp": "$159,412-$233,804 CAD",
+    "comp_extras": [],
+    "source_hash": "de74fc62"
+  },
+  "greenhouse-epicgames-6004774004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Montreal, Quebec, Canada",
+    "job_summary": "Build UI systems for Fortnite and the Unreal Engine ecosystem, including HUD widgets, minimaps, mission flows, and player interaction menus. Work on real-time multiplayer game experiences with a focus on frontend architecture, performance optimization, and cross-platform compatibility.",
+    "skills": [
+      "C++",
+      "Unreal Engine",
+      "Game Development",
+      "Multiplayer Systems",
+      "UI/UX Implementation"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "523e469d"
+  },
+  "greenhouse-epicgames-6004767004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Multiple Locations, US (excluding CA, NY, WA)",
+    "job_summary": "Build core UI systems for Unreal Engine games, including HUD widgets, minimaps, mission flows, and interaction menus. Work on the Fortnite ecosystem with optimization and backend integration responsibilities; Unreal Engine experience preferred.",
+    "skills": [
+      "C++",
+      "Unreal Engine",
+      "Game Development",
+      "Multiplayer Networking"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f2a73272"
+  },
+  "greenhouse-epicgames-6001649004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Cary, NC",
+    "job_summary": "Build UI systems and features for Fortnite and Unreal Engine games, including HUD widgets, minimaps, mission flows, and interaction menus across multiple platforms. Requires significant shipped experience with online multiplayer games and strong C++ expertise.",
+    "skills": [
+      "C++",
+      "Unreal Engine",
+      "Game UI Development",
+      "Multiplayer Systems",
+      "Real-time Rendering"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a39d6f4a"
+  },
+  "ashby-Etched-38eac11e-2970-40d1-a477-4e08311371f0": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "beec772c"
+  },
+  "workday-bah-Information-Systems-Security-Engineer_R0231842": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Warner Robins, GA",
+    "job_summary": "Engineer security architecture, configuration, and compliance for DoD and military systems, guiding clients through Risk Management Framework (RMF) and Authority to Operate (ATO) processes. Implement and harden firewalls, IDS/IPS, and SIEM tools to defend critical AI/ML networks; requires TS/SCI clearance.",
+    "skills": [
+      "DoD 8140 IAT Level II",
+      "TS/SCI Clearance",
+      "ACAS",
+      "SIEM",
+      "IDS/IPS",
+      "AWS",
+      "Linux",
+      "DevSecOps"
+    ],
+    "level": "mid",
+    "comp": "$77,500-$176,000",
+    "comp_extras": [],
+    "source_hash": "5e54e1a5"
+  },
+  "workday-bah-Information-Security-Risk-Specialist_R0240794": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Honolulu, HI",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$99k-$225k",
+    "comp_extras": [],
+    "source_hash": "dc40e4e7"
+  },
+  "workday-bah-Laser-Weapon-System-Test-Engineer-and-Scientist_R0240584": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "King George, VA",
+    "job_summary": "Design, develop, and test directed energy laser weapon systems and electro-optic sensors for U.S. Navy platforms, including beam diagnostics, tracking algorithms, and system integration. Requires active Secret clearance and 10+ years of laser weapon testing experience in defense environments.",
+    "skills": [
+      "MATLAB",
+      "Zemax",
+      "FRED",
+      "SolidWorks",
+      "WaveTrain",
+      "Signal Processing",
+      "Computer Vision",
+      "Secret Clearance"
+    ],
+    "level": "senior",
+    "comp": "$86,800-$198,000",
+    "comp_extras": [],
+    "source_hash": "ba45ff9e"
+  },
+  "workday-bah-Digital-Transformation-Specialist_R0240947": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Arlington, VA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$69,400-$158,000",
+    "comp_extras": [],
+    "source_hash": "83146c73"
+  },
+  "workday-bah-Technology-Insertion-Engineer--Lead_R0240788-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Aberdeen Proving Ground, MD",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$86,900-$198,000",
+    "comp_extras": [],
+    "source_hash": "5e6f251b"
+  },
+  "workday-abbott-Team-Member-I_31149565": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Alajuela, Costa Rica",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c2e56c12"
+  },
+  "workday-abbott-Team-Member-I_31145031": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Alajuela, Costa Rica",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "85e4f5f6"
+  },
+  "workday-abbott-Team-Member-I_31144351": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Alajuela, Costa Rica",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a914aeda"
+  },
+  "workday-abbott-Team-Member-I_31150304": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Alajuela, Costa Rica",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2df5aec6"
+  },
+  "workday-abbott-Handyman_31151180": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Arecibo, Puerto Rico",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$23.96k-$36.16k",
+    "comp_extras": [],
+    "source_hash": "00616600"
+  },
+  "workday-dxctechnology-Senior-Software-Test-Manager_51577273": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Toronto, Canada",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fad72898"
+  },
+  "greenhouse-invoca-8563012002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Own the productionization layer of Invoca's ML stack\u2014model serving, inference optimization, fine-tuning infrastructure, and deployment pipelines for LLM/SLM-based conversation intelligence and agentic AI workflows. Build and maintain MLOps infrastructure for transformer-based NLP models at scale, with a focus on low-latency inference and robust production APIs.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "HuggingFace Transformers",
+      "Triton Inference Server",
+      "Kubernetes",
+      "LoRA",
+      "vLLM",
+      "MLflow"
+    ],
+    "level": "senior",
+    "comp": "$152k-$228k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "adfad88a"
+  },
+  "workday-gdit-Senior-Operations-Subject-Matter-Expert--SME---Msn-Cmd-Exercises----Secret-clearance-required_RQ220633-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Fort Bragg, NC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$76.5k-$88k",
+    "comp_extras": [],
+    "source_hash": "f05c107c"
+  },
+  "workday-gdit-Senior-Operations-Subject-Matter-Expert--SME---Msn-Cmd-Exercises----Secret-clearance-required_RQ220632-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Fort Bragg, NC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$76,565-$88,050",
+    "comp_extras": [],
+    "source_hash": "8426883c"
+  },
+  "workday-gdit-DevOps-OpenShift-Systems-Engineer_RQ220692": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and maintain Red Hat OpenShift container orchestration infrastructure across NASA's enterprise platform, supporting deployment, scaling, and compliance across hybrid cloud and datacenter environments. Requires US citizenship and NACI clearance eligibility.",
+    "skills": [
+      "Kubernetes",
+      "Python",
+      "Red Hat OpenShift",
+      "Docker",
+      "PostgreSQL",
+      "GitLab",
+      "GitHub",
+      "Terraform"
+    ],
+    "level": "senior",
+    "comp": "$97,750-$132,250",
+    "comp_extras": [],
+    "source_hash": "083d3bdd"
+  },
+  "workday-hubinternational-Senior-Underwriter--CL---Commercial-Aviation_R0036612": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Burlington, ON",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$75k+",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "fc2acb08"
+  },
+  "greenhouse-motional-7747278003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Las Vegas, NV / Pittsburgh, PA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$125,000\u2014$167,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "94d7e936"
+  },
+  "greenhouse-motional-7747274003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Pittsburgh, PA / Las Vegas, NV",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$125k-$167k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "f2b87142"
+  },
+  "workday-relx-Customer-Onboarding-Specialist_R113904": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Dayton, OH",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$44,500-$74,100",
+    "comp_extras": [],
+    "source_hash": "7719cc82"
+  },
+  "lever-olo-e267ce4e-edc5-43f4-a7f3-b944d0ca26cb": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c14c8866"
+  },
+  "workday-taylor-Senior-Industrial-Engineer_R28324": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$70k-$82k",
+    "comp_extras": [],
+    "source_hash": "5d9efac0"
+  },
+  "workday-taylor-Planning-and-Materials-Manager_R28769": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hutchins, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1b6df24f"
+  },
+  "ashby-openai-9117987a-7a59-449e-a702-89e8d0e8cb60": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Build and maintain the ML training framework and infrastructure for OpenAI's robotics team, ensuring reliability and enabling researchers to move from idea to working training job efficiently. Debug failures across distributed training systems, GPUs, and clusters while improving code quality and infrastructure usability at scale.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "Distributed Systems",
+      "GPU Computing",
+      "Kubernetes",
+      "CUDA",
+      "JAX",
+      "TensorFlow"
+    ],
+    "level": "senior",
+    "comp": "$295k-$380k",
+    "comp_extras": [],
+    "source_hash": "732e171f"
+  },
+  "workday-pax8inc-Senior-Cloud-Security-Engineer_R-101979": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and enforce cloud security standards across AWS, Kubernetes, CI/CD, and SaaS platforms for a rapidly scaling AI-driven marketplace. Establish hardening baselines, least-privilege access models, and reference architectures that enable engineers to move fast while protecting customer and partner data at global scale.",
+    "skills": [
+      "AWS",
+      "Kubernetes",
+      "Terraform",
+      "Helm",
+      "CI/CD Security",
+      "Infrastructure-as-Code",
+      "Cloud-Native Security",
+      "Identity and Access Management"
+    ],
+    "level": "senior",
+    "comp": "$115k-$150k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "fc75e555"
+  },
+  "workday-rappi-AI-Engineer-II_JR121361": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Mexico City, Mexico",
+    "job_summary": "Build production ML solutions combining RAG, agents, and fine-tuning with large language models to solve business problems at scale. Deploy and maintain LLM-based systems in production environments serving Rappi's operational platform.",
+    "skills": [
+      "Python",
+      "LangChain",
+      "PyTorch",
+      "LLMs",
+      "RAG",
+      "MLOps",
+      "Cloud (AWS/GCP/Azure)"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "88f6487e"
+  },
+  "greenhouse-reddit-7758581": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$167,500\u2013$234,500",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "852bce32"
+  },
+  "greenhouse-reddit-7954950": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Los Angeles, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$167,500\u2013$234,500",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "f0315bbe"
+  },
+  "greenhouse-reddit-7954949": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$167,500\u2013$234,500",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "b9cbd365"
+  },
+  "greenhouse-reddit-7954945": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Chicago, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$167,500\u2013$234,500",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "53f19cb4"
+  },
+  "greenhouse-relativity-8563052002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Long Beach, CA",
+    "job_summary": "Build the 6DOF simulation for Terran R rocket flight dynamics, GNC algorithm development, and hardware-in-the-loop testing. Model physics-based subsystem behavior and implement numerical solvers for trajectory analysis and Monte Carlo mission simulations.",
+    "skills": [
+      "C++",
+      "Python",
+      "Rust",
+      "Physics Simulation",
+      "6DOF Dynamics",
+      "Aerospace Vehicle Modeling",
+      "HPC",
+      "Docker"
+    ],
+    "level": "senior",
+    "comp": "$148,000\u2014$203,500",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "02a9e4ef"
+  },
+  "greenhouse-relativity-8563044002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Long Beach, CA",
+    "job_summary": "Build the 6DOF simulation system for Terran R launch vehicle guidance, navigation, and control algorithm development, Monte Carlo analysis, and hardware-in-the-loop testing. Requires hands-on physics modeling, numerical solvers, and aerospace vehicle simulation experience in a fast-paced rocket development environment.",
+    "skills": [
+      "C++",
+      "Python",
+      "Rust",
+      "Physics Simulation",
+      "Aerospace",
+      "Monte Carlo",
+      "6DOF",
+      "HPC"
+    ],
+    "level": "senior",
+    "comp": "$148k-$203.5k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "3635fe15"
+  },
+  "greenhouse-rocketlab-7747279003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Long Beach, CA",
+    "job_summary": "Perform hands-on payload integration for Electron and Neutron launch vehicles, including fit checks, dispenser integration, and interface control documentation; requires active US security clearance and spacecraft/launch vehicle integration experience.",
+    "skills": [
+      "Systems Engineering",
+      "Spacecraft Integration",
+      "Mechanical Design",
+      "Electrical Systems",
+      "Launch Vehicle Integration",
+      "Interface Control Documentation (ICD)"
+    ],
+    "level": "mid",
+    "comp": "$100k-$130k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "0eb79877"
+  },
+  "greenhouse-spacex-8563022002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Bastrop, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2b4f8146"
+  },
+  "greenhouse-spacex-8563034002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Bastrop, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8ee4b639"
+  },
+  "greenhouse-spacex-8563038002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Bastrop, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "95d8d5d5"
+  },
+  "greenhouse-spacex-8563043002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Bastrop, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ec12f1de"
+  },
+  "greenhouse-spacex-8562284002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Starbase, TX",
+    "job_summary": "Design, develop, and test autonomous flight control software for Starship spacecraft and Super Heavy rocket across the full stack\u2014application, OS, networking, firmware, and simulation. ITAR-eligible applicants only; on-site in Starbase, TX.",
+    "skills": [
+      "C++",
+      "Rust",
+      "Real-Time Systems",
+      "Embedded Systems",
+      "Distributed Systems"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2d2fc3ce"
+  },
+  "greenhouse-spacex-8562450002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hawthorne, CA",
+    "job_summary": "Design, develop, and test autonomous flight control software and simulations for SpaceX's Starship spacecraft and Super Heavy rocket across all software layers\u2014application, OS, networking, and firmware. Requires US citizenship or permanent residency (ITAR compliance for aerospace export control).",
+    "skills": [
+      "C++",
+      "Rust",
+      "Real-time Systems",
+      "Embedded Systems",
+      "Distributed Systems"
+    ],
+    "level": "junior",
+    "comp": "$125k-$175k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "857c5f3a"
+  },
+  "greenhouse-spacex-8562437002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Starbase, TX",
+    "job_summary": "Develop software tools and automation infrastructure for thermal and fluid systems analysis on Starship, enabling faster design iteration and mission-critical decision-making. Requires modeling and simulation expertise in aerospace thermal/fluids systems.",
+    "skills": [
+      "Python",
+      "C/C++",
+      "MATLAB",
+      "Git",
+      "Thermal Desktop",
+      "ANSYS Workbench",
+      "STAR-CCM+",
+      "HPC"
+    ],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f9151f98"
+  },
+  "greenhouse-spacex-8562255002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Starbase, TX",
+    "job_summary": "Build CFD analysis tools and workflows for predicting aerodynamic and aerothermal environments across all flight regimes (subsonic through hypersonic) for Starship booster and ship vehicles. Requires ITAR compliance (US citizen or permanent resident).",
+    "skills": [
+      "CFD",
+      "STAR-CCM+",
+      "Python",
+      "MATLAB",
+      "Java",
+      "FUN3D",
+      "Siemens NX",
+      "ITAR Compliance"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "56748133"
+  },
+  "greenhouse-spacex-8563021002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Bastrop, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b44c9c17"
+  },
+  "greenhouse-spacex-8559003002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Starbase, TX",
+    "job_summary": "Develop guidance, navigation, and control systems and 6-DOF dynamics simulation models for Starship, SpaceX's next-generation fully reusable spacecraft. Requires US citizenship or permanent residency due to ITAR export control regulations.",
+    "skills": [
+      "Python",
+      "C++",
+      "Control Systems",
+      "Orbital Mechanics",
+      "6-DOF Dynamics Simulation",
+      "Monte Carlo Analysis"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d42490d4"
+  },
+  "greenhouse-spacex-8562073002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Starbase, TX",
+    "job_summary": "Design and develop highly reliable autonomous flight control software for Starship and Super Heavy launch vehicles. Mission-critical aerospace systems requiring fault-tolerant design, control systems integration, and real-time performance optimization; US citizenship or permanent residency required (ITAR).",
+    "skills": [
+      "C++",
+      "Python",
+      "Rust",
+      "Control Systems",
+      "Fault Tolerance",
+      "Real-time Systems",
+      "Computer Architecture",
+      "Physics"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "56f2ffd0"
+  },
+  "greenhouse-spacex-8562412002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hawthorne, CA",
+    "job_summary": "Design, develop, and test highly reliable autonomous flight control software and simulations for Starship spacecraft and Super Heavy rocket across all software stack layers. Work on mission-critical systems for the world's most powerful reusable launch vehicle.",
+    "skills": [
+      "C++",
+      "Python",
+      "Rust",
+      "Real-time Embedded Systems",
+      "Distributed Systems",
+      "Fault-tolerant Design",
+      "Performance Optimization",
+      "ITAR Eligible"
+    ],
+    "level": "senior",
+    "comp": "$160,000-$225,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "6670f5bf"
+  },
+  "greenhouse-spacex-8562402002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hawthorne, CA",
+    "job_summary": "Design and build security infrastructure for Starship vehicles, including authentication protocols, encryption systems, secure boot solutions, and hardware security module integration. Mission-critical aerospace systems requiring ITAR compliance and ability to work at varying levels of abstraction from cryptographic primitives to vehicle-level security.",
+    "skills": [
+      "C++",
+      "Rust",
+      "Python",
+      "Applied Cryptography",
+      "Secure Boot",
+      "Hardware Security Modules",
+      "Embedded Systems",
+      "Real-Time Systems"
+    ],
+    "level": "senior",
+    "comp": "$160k-$225k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "18a00ba4"
+  },
+  "greenhouse-talkdesk2-7950799": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$136k-$204k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "798c02a0"
+  },
+  "greenhouse-talkdesk2-7950401": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$136k-$204k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "48019e0f"
+  },
+  "greenhouse-tenstorrent-5145549007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Lead complex SoC programs from architecture definition through RTL, verification, physical implementation, tapeout, and post-silicon deployment for AI processors. Requires proven track record shipping at least one chip and ability to drive cross-functional teams across design, verification, physical implementation, and external vendors.",
+    "skills": [
+      "RTL Design",
+      "Chip Architecture",
+      "SoC Design",
+      "Verification",
+      "Physical Implementation",
+      "RISC-V"
+    ],
+    "level": "senior",
+    "comp": "$100k-$500k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "eb74d9ab"
+  },
+  "greenhouse-toast-7180229": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Design and develop complex Salesforce solutions integrating agentic AI workflows and Einstein GPT to automate intelligent business processes like customer routing and proactive service. Lead a team of Salesforce developers on enterprise-scale implementations across Sales Cloud, Service Cloud, and Experience Cloud.",
+    "skills": [
+      "Salesforce",
+      "Apex",
+      "Lightning Web Components",
+      "SOQL/SOSL",
+      "REST/SOAP APIs",
+      "Einstein GPT",
+      "Mulesoft",
+      "Azure DevOps"
+    ],
+    "level": "senior",
+    "comp": "$88,000\u2014$181,000 USD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "a19a48dc"
+  },
+  "workday-jll-Data-Center-Training-Manager_REQ510031": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Spartanburg, SC",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "17b8cbe3"
+  },
+  "ashby-vanta-cc1cbee0-06cf-4b63-b49c-945b1c12f657": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c9ae2b69"
+  },
+  "greenhouse-waymo-7884982": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Mountain View, CA / San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$241k-$297k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "81840bc4"
+  },
+  "greenhouse-xai-5136287007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY / Palo Alto, CA",
+    "job_summary": "Build production solutions, sample apps, and developer experience tools (SDKs, CLIs, MCP integrations) for enterprise customers using X's real-time and historical data APIs, with emphasis on AI/agent workflows. 5+ years customer-facing technical experience required; strong focus on removing friction in developer onboarding and API accessibility.",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "REST APIs",
+      "Real-time Streaming Systems",
+      "AI/Agent Frameworks",
+      "LLM Integrations",
+      "Rust"
+    ],
+    "level": "senior",
+    "comp": "$180k-$440k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "4ac2e914"
+  },
+  "workday-jci-Global-Director--Lean-Transformation_WD30269388": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Antonio, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$158k-$222k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "cd92e5a8"
+  },
+  "workday-jci-Design-Specialist-Contract_WD30269755-1": {
+    "is_engineering": true,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Albany, MO",
+    "job_summary": "Design and prepare engineering bills of materials, CAD drawings, and production releases for large commercial air handling units. Build Excel macros to improve CAD productivity; requires sheet metal design experience and occasional hands-on construction/testing support.",
+    "skills": [
+      "Inventor",
+      "Excel",
+      "CAD",
+      "Sheet Metal Design",
+      "Microsoft Office"
+    ],
+    "level": "senior",
+    "comp": "$70k-$99k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "d0c6551c"
+  },
+  "workday-jci-Controls-Service-Technician-2_WD30270267": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Richmond Hill, Canada",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$58k-$79k",
+    "comp_extras": [],
+    "source_hash": "2cd0f4bb"
   }
 }
