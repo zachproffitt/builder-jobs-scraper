@@ -5593,10 +5593,11 @@
     "ats": "eightfold"
   },
   {
+    "ats": "workday",
     "slug": "rackspace/wd1/External",
     "name": "Rackspace",
-    "summary": "Rackspace provides managed cloud services, including hosting, infrastructure management, and professional services for organizations running applications on public and private cloud platforms. The company helps businesses migrate to, manage, and optimize their cloud environments across AWS, Microsoft Azure, Google Cloud, and other platforms.",
-    "ats": "workday"
+    "summary": "Rackspace delivers multicloud solutions for applications, data, and security across cloud computing services.",
+    "source": "meta_description"
   },
   {
     "slug": "suse/wd3/Jobsatsuse",
@@ -5916,10 +5917,11 @@
     "ats": "bamboo"
   },
   {
+    "ats": "workday",
     "slug": "ag/wd3/Airbus",
     "name": "Airbus Helicopters",
-    "summary": "Airbus Helicopters designs and manufactures civil and military helicopters for commercial, government, and emergency services customers worldwide. The company produces a range of models including light, medium, and heavy-lift helicopters used for passenger transport, search and rescue, law enforcement, and military operations.",
-    "ats": "workday"
+    "summary": "Airbus Helicopters designs, produces, and integrates major components and systems for the NH90, a modern multirole military helicopter developed to NATO standards in two versions\u2014a tactical transport helicopter and a NATO frigate helicopter\u2014that operates in demanding conditions on land and sea. The company is part of NHIndustries, an industrial joint venture with Leonardo Helicopters and GKN.",
+    "source": "job_posting"
   },
   {
     "ats": "workday",
@@ -6208,10 +6210,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "workday",
     "slug": "firstam/wd1/firstamericancareers",
     "name": "First American",
-    "summary": "First American Financial Corporation provides title insurance, settlement services, and property and casualty insurance products for real estate transactions and property ownership in the United States and internationally.",
-    "ats": "workday"
+    "summary": "First American Financial Corporation provides title insurance and settlement services for real estate transactions including home purchases, refinances, equity loans, and commercial property deals.",
+    "source": "meta_description"
   },
   {
     "ats": "workday",
