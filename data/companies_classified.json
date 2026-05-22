@@ -1621,10 +1621,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "Speakeasy",
     "name": "Speakeasy",
-    "summary": "# Speakeasy\n\nSpeakeasy builds API documentation and SDK generation tools that automatically create developer-facing resources from API specifications. The company operates in the API infrastructure and developer tooling domain, helping companies document their APIs and generate client libraries across multiple programming languages.",
-    "ats": "ashby"
+    "summary": "Speakeasy provides software to connect, secure, control, and observe AI systems in real time, governing MCP, skill, and agent sessions.",
+    "source": "meta_description"
   },
   {
     "slug": "stainlessapi",
@@ -9016,10 +9017,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "workday",
     "slug": "phreesia/wd1/Phreesia",
     "name": "QueueDr",
-    "summary": "QueueDr provides queue management and virtual waiting room software for high-traffic websites and ticketing platforms, helping businesses handle traffic spikes and distribute customer flow during peak demand periods.",
-    "ats": "workday"
+    "summary": "QueueDr, now called Phreesia Appointment Accelerator, provides software that automatically fills unexpected cancellations, rebooks no-shows, and balances schedules to help patients access care sooner.",
+    "source": "meta_description"
   },
   {
     "slug": "qwilr",
@@ -9855,6 +9857,13 @@
     "slug": "samsara",
     "name": "Samsara",
     "summary": "Samsara builds a platform called the Connected Operations Cloud that collects Internet of Things data from organizations in industries including agriculture, construction, field services, transportation, and manufacturing to provide actionable insights and improve their operations. The platform includes products for video-based safety, vehicle telematics, driver workflows, and equipment monitoring.",
+    "source": "job_posting"
+  },
+  {
+    "ats": "ashby",
+    "slug": "bastion",
+    "name": "Bastion",
+    "summary": "Bastion builds regulated financial infrastructure for modern businesses, providing a full stack product suite that covers stablecoin issuance, custodial wallet infrastructure, and global asset conversion rails. Bastion holds appropriate licenses for its operations and can also act as a service provider offering compliance and financial operations support under customers' licenses.",
     "source": "job_posting"
   }
 ]
