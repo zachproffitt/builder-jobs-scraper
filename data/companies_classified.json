@@ -5656,10 +5656,11 @@
     "ats": "bamboo"
   },
   {
+    "ats": "workday",
     "slug": "servicetitan/wd1/ServiceTitan",
     "name": "ServiceTitan",
-    "summary": "ServiceTitan is a cloud-based software platform that provides business management solutions for service businesses including HVAC, plumbing, electrical, and landscaping contractors. The platform helps these businesses manage scheduling, dispatching, invoicing, customer communications, and financial operations.",
-    "ats": "workday"
+    "summary": "ServiceTitan builds all-in-one software for home and commercial contractors to manage their service visits and construction projects.",
+    "source": "meta_description"
   },
   {
     "slug": "shortcut",
