@@ -573,11 +573,11 @@
     "source": "job_posting"
   },
   {
-    "name": "Strava",
+    "ats": "ashby",
     "slug": "strava",
-    "summary": "Strava builds a social fitness app used by athletes to track workouts and connect with others.",
-    "source_hash": "6840a839",
-    "ats": "ashby"
+    "name": "Strava",
+    "summary": "Strava is an app that tracks workouts and connects athletes, with over 180 million users in more than 185 countries, allowing people to share their fitness activities, find communities, and monitor their progress toward personal goals.",
+    "source": "job_posting"
   },
   {
     "ats": "greenhouse",
@@ -1206,10 +1206,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "greenhouse",
     "slug": "zwift",
     "name": "Zwift",
-    "summary": "Zwift builds a multiplayer fitness platform that lets users ride stationary bikes and run on treadmills while competing in virtual worlds. The company operates in the digital fitness and esports space, offering structured training programs and competitive events for cyclists and runners.",
-    "ats": "greenhouse"
+    "summary": "Zwift is a virtual cycling app that enables users to complete training plans, ride with others globally, and exercise indoors at any time.",
+    "source": "meta_description"
   },
   {
     "slug": "akiliinteractive",
@@ -9158,10 +9159,11 @@
     "ats": "bamboo"
   },
   {
+    "ats": "greenhouse",
     "slug": "runpod",
     "name": "RunPod",
-    "summary": "RunPod provides a cloud platform for renting GPU computing resources on demand, enabling developers and businesses to train machine learning models, run inference workloads, and execute compute-intensive applications without owning expensive hardware. The company operates in the cloud infrastructure and machine learning services sector, offering both serverless GPU compute and dedicated pod instances with flexible pricing models.",
-    "ats": "greenhouse"
+    "summary": "RunPod provides AI infrastructure that offers on-demand GPUs and serverless compute for running training, inference, and batch workloads on the cloud.",
+    "source": "meta_description"
   },
   {
     "slug": "runwise",
@@ -9648,10 +9650,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "telnyx54",
     "name": "Telnyx LLC",
-    "summary": "Telnyx provides a cloud-based communications platform that enables businesses to build, integrate, and scale voice, messaging, and connectivity services through APIs and a global telecommunications network. The company operates as a telecom infrastructure provider, offering services like VoIP, SMS, WhatsApp messaging, and SIP trunking to enterprises and developers worldwide.",
-    "ats": "greenhouse"
+    "summary": "Telnyx LLC operates a global communications platform that provides voice AI agents, SIP trunking, programmable voice, SMS/MMS, and AI inference services across a Tier-1 network in over 40 countries.",
+    "source": "meta_description"
   },
   {
     "slug": "teragonia",
