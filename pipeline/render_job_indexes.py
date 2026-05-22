@@ -22,8 +22,11 @@ COMPANIES_CLASSIFIED_FILE = DATA_DIR / "companies_classified.json"
 
 JOBS_REPO = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).parent.parent.parent / "jobs"
 README = JOBS_REPO / "README.md"
+ARCHIVE_README = JOBS_REPO / "ARCHIVE.md"
 REMOTE_README = JOBS_REPO / "REMOTE.md"
 COMPANIES_README = JOBS_REPO / "COMPANIES.md"
+
+README_WINDOW_DAYS = 3  # 72 hours
 
 
 def collect_jobs() -> tuple[list[dict], dict[str, str]]:
@@ -154,7 +157,8 @@ def format_job_meta(j: dict) -> str:
 
 
 def render_index(jobs: list[dict], company_logos: dict[str, str], company_count: int,
-                 out_path: Path, title: str, subtitle: str, remote_only: bool = False) -> None:
+                 out_path: Path, title: str, subtitle: str, remote_only: bool = False,
+                 is_archive: bool = False, footer: str = "") -> None:
     cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
 
     if remote_only:
@@ -168,13 +172,15 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
     new_recent = sum(1 for j in jobs if is_new_within(j, cutoff))
 
     stats = f"**{total} open roles** ({new_recent} new)"
-    if not remote_only:
+    if not remote_only and not is_archive:
         stats += f" &nbsp;·&nbsp; {company_count} companies searched"
 
     if remote_only:
         nav_links = "[← All roles](README.md) &nbsp;·&nbsp; [By company →](COMPANIES.md) &nbsp;·&nbsp; [How it works →](https://github.com/zachproffitt/builder-jobs-scraper)"
+    elif is_archive:
+        nav_links = "[← Recent jobs](README.md) &nbsp;·&nbsp; [By company →](COMPANIES.md) &nbsp;·&nbsp; [How it works →](https://github.com/zachproffitt/builder-jobs-scraper)"
     else:
-        nav_links = "[By company →](COMPANIES.md) &nbsp;·&nbsp; [Remote only →](REMOTE.md) &nbsp;·&nbsp; [How it works →](https://github.com/zachproffitt/builder-jobs-scraper)"
+        nav_links = "[By company →](COMPANIES.md) &nbsp;·&nbsp; [Remote only →](REMOTE.md) &nbsp;·&nbsp; [Older jobs →](ARCHIVE.md) &nbsp;·&nbsp; [How it works →](https://github.com/zachproffitt/builder-jobs-scraper)"
 
     lines = [
         f"# {title}",
@@ -224,6 +230,9 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
             lines.append("")
             lines.append("---")
             lines.append("")
+
+    if footer:
+        lines += ["", "---", "", footer, ""]
 
     out_path.write_text("\n".join(lines))
     print(f"Written {out_path} ({total} jobs, {new_recent} new)")
@@ -327,8 +336,14 @@ def main():
         companies = json.loads(COMPANIES_FILE.read_text())
         company_count = len([c for c in companies if c.get("ats") in SUPPORTED_ATS])
 
+    today = datetime.now(timezone.utc).date()
+    readme_cutoff = (today - timedelta(days=README_WINDOW_DAYS - 1)).isoformat()
+
+    recent_jobs = [j for j in jobs if (j.get("first_seen") or "") >= readme_cutoff]
+    archive_jobs = [j for j in jobs if (j.get("first_seen") or "") < readme_cutoff]
+
     render_index(
-        jobs, company_logos, company_count,
+        recent_jobs, company_logos, company_count,
         out_path=README,
         title="Builder Jobs",
         subtitle=(
@@ -336,6 +351,20 @@ def main():
             " and major tech — classified by Claude, updated hourly, and removed after 14 days."
             " Each listing links directly to the company's job board."
         ),
+        footer="[Jobs older than 72 hours →](ARCHIVE.md)",
+    )
+
+    render_index(
+        archive_jobs, company_logos, company_count,
+        out_path=ARCHIVE_README,
+        title="Builder Jobs — Archive",
+        subtitle=(
+            "Engineering roles posted more than 72 hours ago."
+            " Listings are removed after 14 days."
+            " Each listing links directly to the company's job board."
+        ),
+        is_archive=True,
+        footer="[← Recent jobs (last 72 hours)](README.md)",
     )
 
     render_index(
