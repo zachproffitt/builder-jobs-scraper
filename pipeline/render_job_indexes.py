@@ -158,7 +158,8 @@ def format_job_meta(j: dict) -> str:
 
 def render_index(jobs: list[dict], company_logos: dict[str, str], company_count: int,
                  out_path: Path, title: str, subtitle: str, remote_only: bool = False,
-                 is_archive: bool = False, footer: str = "") -> None:
+                 is_archive: bool = False, footer: str = "",
+                 board_total: int = 0, board_new: int = 0, scope_note: str = "") -> None:
     cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
 
     if remote_only:
@@ -171,8 +172,11 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
     total = sum(len(v) for v in by_date.values())
     new_recent = sum(1 for j in jobs if is_new_within(j, cutoff))
 
-    stats = f"**{total} open roles** ({new_recent} new)"
-    if not remote_only and not is_archive:
+    display_total = board_total if board_total else total
+    display_new = board_new if board_total else new_recent
+
+    stats = f"**{display_total} open roles** ({display_new} new)"
+    if not remote_only:
         stats += f" &nbsp;·&nbsp; {company_count} companies searched"
 
     if remote_only:
@@ -180,7 +184,7 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
     elif is_archive:
         nav_links = "[← Recent jobs](README.md) &nbsp;·&nbsp; [By company →](COMPANIES.md) &nbsp;·&nbsp; [How it works →](https://github.com/zachproffitt/builder-jobs-scraper)"
     else:
-        nav_links = "[By company →](COMPANIES.md) &nbsp;·&nbsp; [Remote only →](REMOTE.md) &nbsp;·&nbsp; [Older jobs →](ARCHIVE.md) &nbsp;·&nbsp; [How it works →](https://github.com/zachproffitt/builder-jobs-scraper)"
+        nav_links = "[By company →](COMPANIES.md) &nbsp;·&nbsp; [Remote only →](REMOTE.md) &nbsp;·&nbsp; [Archive →](ARCHIVE.md) &nbsp;·&nbsp; [How it works →](https://github.com/zachproffitt/builder-jobs-scraper)"
 
     lines = [
         f"# {title}",
@@ -189,9 +193,12 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
         "",
         f"### {stats}",
         "",
-        nav_links,
-        "",
     ]
+
+    if scope_note:
+        lines += [f"#### {scope_note}", ""]
+
+    lines += [nav_links, ""]
 
     for dt in sorted(by_date.keys(), reverse=True):
         date_jobs = by_date[dt]
@@ -342,6 +349,10 @@ def main():
     recent_jobs = [j for j in jobs if (j.get("first_seen") or "") >= readme_cutoff]
     archive_jobs = [j for j in jobs if (j.get("first_seen") or "") < readme_cutoff]
 
+    cutoff_24h = datetime.now(timezone.utc) - timedelta(hours=24)
+    board_total = len(jobs)
+    board_new = sum(1 for j in jobs if is_new_within(j, cutoff_24h))
+
     render_index(
         recent_jobs, company_logos, company_count,
         out_path=README,
@@ -352,6 +363,9 @@ def main():
             " Each listing links directly to the company's job board."
         ),
         footer="[Jobs older than 72 hours →](ARCHIVE.md)",
+        board_total=board_total,
+        board_new=board_new,
+        scope_note="Showing last 72 hours — [Archive →](ARCHIVE.md) for older listings",
     )
 
     render_index(
@@ -365,6 +379,8 @@ def main():
         ),
         is_archive=True,
         footer="[← Recent jobs (last 72 hours)](README.md)",
+        board_total=board_total,
+        board_new=board_new,
     )
 
     render_index(
