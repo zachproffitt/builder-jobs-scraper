@@ -188,5 +188,15 @@
     "builder_rate": 0.2727,
     "title_skipped": 10,
     "location_skipped": 1
+  },
+  {
+    "ts": "2026-05-22T15:42:53Z",
+    "classified": 18,
+    "builder": 5,
+    "not_builder": 13,
+    "unclear": 0,
+    "builder_rate": 0.2778,
+    "title_skipped": 12,
+    "location_skipped": 4
   }
 ]
