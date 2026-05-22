@@ -26,7 +26,7 @@ ARCHIVE_README = JOBS_REPO / "ARCHIVE.md"
 REMOTE_README = JOBS_REPO / "REMOTE.md"
 COMPANIES_README = JOBS_REPO / "COMPANIES.md"
 
-README_WINDOW_DAYS = 3  # 72 hours
+README_WINDOW_DAYS = 1  # 24 hours
 
 
 def collect_jobs() -> tuple[list[dict], dict[str, str]]:
@@ -184,7 +184,7 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
     elif is_archive:
         nav_links = "[← Recent jobs](README.md) &nbsp;·&nbsp; [By company →](COMPANIES.md) &nbsp;·&nbsp; [How it works →](https://github.com/zachproffitt/builder-jobs-scraper)"
     else:
-        nav_links = "[By company →](COMPANIES.md) &nbsp;·&nbsp; [Remote only →](REMOTE.md) &nbsp;·&nbsp; [Archive →](ARCHIVE.md) &nbsp;·&nbsp; [How it works →](https://github.com/zachproffitt/builder-jobs-scraper)"
+        nav_links = "[By company →](COMPANIES.md) &nbsp;·&nbsp; [Remote only →](REMOTE.md) &nbsp;·&nbsp; [How it works →](https://github.com/zachproffitt/builder-jobs-scraper)"
 
     lines = [
         f"# {title}",
@@ -362,10 +362,10 @@ def main():
             " and major tech — classified by Claude, updated hourly, and removed after 14 days."
             " Each listing links directly to the company's job board."
         ),
-        footer="[Jobs older than 72 hours →](ARCHIVE.md)",
+        footer="[Jobs older than 24 hours →](ARCHIVE.md)",
         board_total=board_total,
         board_new=board_new,
-        scope_note="Showing last 72 hours — [Archive →](ARCHIVE.md) for older listings",
+        scope_note="Showing last 24 hours — [Archive →](ARCHIVE.md) for older listings",
     )
 
     render_index(
@@ -378,7 +378,7 @@ def main():
             " Each listing links directly to the company's job board."
         ),
         is_archive=True,
-        footer="[← Recent jobs (last 72 hours)](README.md)",
+        footer="[← Recent jobs (last 24 hours)](README.md)",
         board_total=board_total,
         board_new=board_new,
     )
