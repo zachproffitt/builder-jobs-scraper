@@ -335,11 +335,11 @@
     "ats": "greenhouse"
   },
   {
-    "name": "Insitro",
+    "ats": "ashby",
     "slug": "insitro",
-    "summary": "Insitro builds machine learning platforms integrating cell models and genomic screening for drug discovery in complex diseases.",
-    "source_hash": "de4b8136",
-    "ats": "ashby"
+    "name": "Insitro",
+    "summary": "Insitro develops high-throughput arrayed screening workflows and assays that generate biological datasets for drug discovery by combining multi-modal data with machine learning. The company works with cell-based and biochemical screening across therapeutic programs to support small-molecule, genetic, and perturbational screening efforts.",
+    "source": "job_posting"
   },
   {
     "ats": "greenhouse",
