@@ -167,7 +167,9 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
 
     by_date: dict[str, list[dict]] = defaultdict(list)
     for j in jobs:
-        by_date[j["first_seen"]].append(j)
+        ts = j.get("first_seen_at", "")
+        date_key = ts[:10] if ts else (j.get("first_seen") or "")
+        by_date[date_key].append(j)
 
     total = sum(len(v) for v in by_date.values())
     new_recent = sum(1 for j in jobs if is_new_within(j, cutoff))
