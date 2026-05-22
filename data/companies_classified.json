@@ -671,10 +671,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "spire",
     "name": "Spire Global",
-    "summary": "Spire Global builds and operates a constellation of small satellites that collect weather data, maritime tracking information, and radio frequency signals from Earth's atmosphere and surface. The company processes this satellite-derived data and sells it to customers in weather forecasting, maritime intelligence, and other sectors that require real-time Earth observation.",
-    "ats": "greenhouse"
+    "summary": "Spire Global builds a space-powered data and analytics platform that uses a proprietary satellite constellation to provide insights about Earth, and is developing advanced satellite communication and navigation systems along with RF monitoring constellations.",
+    "source": "job_posting"
   },
   {
     "slug": "blueorigin",
