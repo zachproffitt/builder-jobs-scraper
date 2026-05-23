@@ -1114,10 +1114,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "mixpanel",
     "name": "Mixpanel",
-    "summary": "Mixpanel builds analytics software that tracks user interactions and events within digital products, enabling companies to measure engagement, retention, and conversion metrics. The company operates in the product analytics domain, serving businesses that need to understand how users behave in their applications and websites.",
-    "ats": "greenhouse"
+    "summary": "Mixpanel is a product analytics platform that helps teams track user behavior, measure conversions, and improve retention.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
