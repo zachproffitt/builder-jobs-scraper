@@ -214450,5 +214450,163 @@
     "comp": "$15.00-$19.50",
     "comp_extras": [],
     "source_hash": "7a4f7040"
+  },
+  "workday-abbott-Director--Human-Resources---US---CALA--Canada---Latin-America--Commercial---Onsite-_31151392": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7a6c3d77"
+  },
+  "workday-ag-A220-Supply-Chain-Quality-Manager---Propulsion--Hartford--CT-_JR10371441": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "785a519e"
+  },
+  "workday-tapestry-Supervisor-I_JR5772": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8ecb8f1e"
+  },
+  "workday-bakerhughes-Well-Systems-Project-Engineer_R164023-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Florence, Italy",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "27d2d7a6"
+  },
+  "workday-bakerhughes-Well-Systems-Subsea-Project-Engineer_R164021-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Florence, Italy",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0f61dfc3"
+  },
+  "greenhouse-spacex-8553649002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Starbase, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ff21ab62"
+  },
+  "greenhouse-spacex-8553662002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Starbase, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a216b395"
+  },
+  "greenhouse-spacex-8553652002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Starbase, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "eb93f998"
+  },
+  "greenhouse-spacex-8553647002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Starbase, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "59d749ee"
+  },
+  "workday-smithnephew-Software-Development-Engineer_R90731": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Pittsburgh, PA",
+    "job_summary": "Design and implement software systems for robotic and computer-assisted surgical applications, including real-time control algorithms, UI/graphics development, and safety-critical testing. Medical device software requires FDA compliance and operates in a highly regulated environment with direct patient safety impact.",
+    "skills": [
+      "C++",
+      "Linux",
+      "Git",
+      "CMake",
+      "JIRA",
+      "MATLAB",
+      "Linear Algebra",
+      "UI/Graphics Development"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "daa649fe"
+  },
+  "greenhouse-zyngacareers-6000442004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Austin, TX / Chicago, IL / Toronto, Canada",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$87,100-$128,920",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "75d83bf8"
   }
 }
