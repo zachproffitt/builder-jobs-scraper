@@ -213943,5 +213943,160 @@
       "bonus"
     ],
     "source_hash": "0a9f7176"
+  },
+  "workday-ag-Executive-Operations-Manager_JR10415216": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "10d36e21"
+  },
+  "workday-hpe-Systems-Software-Engineer-I-in-Routing-Infrastructure-Solutions_1198340-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "28dc5c6b"
+  },
+  "workday-otis---_20138044": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "91790d1a"
+  },
+  "greenhouse-inkind-5230006008": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": "Build and maintain AI-ready data pipelines, feature stores, embedding pipelines, and vector databases that power LLM applications, ML training, and RAG systems. Design data architectures for AI/LLM integration with security and governance controls around third-party provider APIs.",
+    "skills": [
+      "Python",
+      "SQL",
+      "Snowflake",
+      "dbt",
+      "AWS",
+      "ETL/ELT",
+      "PostgreSQL",
+      "Vector Databases"
+    ],
+    "level": "senior",
+    "comp": "$135k-$155k",
+    "comp_extras": [],
+    "source_hash": "e18c5b4a"
+  },
+  "greenhouse-inkind-5230007008": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Design and build distributed systems powering real-time financial transactions and operational workflows for restaurants at scale. Build secure, highly available infrastructure for payments and financial operations with strong data integrity; requires 8+ years production systems experience and distributed systems expertise.",
+    "skills": [
+      "Distributed Systems",
+      "Rails",
+      "Django",
+      "Express",
+      "or Fastapi",
+      "PostgreSQL",
+      "Event-Driven Architecture",
+      "Authentication & Authorization"
+    ],
+    "level": "senior",
+    "comp": "$160k-$185k",
+    "comp_extras": [],
+    "source_hash": "410e34e5"
+  },
+  "workday-ag-Flight-Hours-Services-Repair-Manager_JR10400471": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Miami, FL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "68830e6f"
+  },
+  "greenhouse-mixpanel-7941944": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Build scalable backend infrastructure, APIs, and agent orchestration frameworks that enable AI product development across Mixpanel's platform. Design and operate high-performance serving infrastructure with strict latency, throughput, and cost guarantees while building evaluation systems to measure reasoning quality and task success in production AI agents.",
+    "skills": [
+      "Python",
+      "LLMs",
+      "Agent Orchestration",
+      "Microservices",
+      "Distributed Systems",
+      "Observability",
+      "MLOps",
+      "Kubernetes"
+    ],
+    "level": "senior",
+    "comp": "$226k-$306k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "19067463"
+  },
+  "workday-jll-Operations-Assistant_REQ510114": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Croydon, UK",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "748955d3"
+  },
+  "workday-nvidia-Senior-System-Software-Engineer_JR1997492": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Design and develop GPU kernel drivers, firmware, and system software for new SoC platforms, working across hardware and software teams to bring products from early development through to customer deployment. Complex SOC architecture, power management, and performance tuning at scale in AI and GPU computing systems.",
+    "skills": [
+      "C",
+      "C++",
+      "Linux",
+      "Kernel Development",
+      "Power Management",
+      "Firmware",
+      "GPU Architecture"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1d08adc6"
   }
 }
