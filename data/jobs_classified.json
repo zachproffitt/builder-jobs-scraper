@@ -212190,5 +212190,537 @@
       "equity"
     ],
     "source_hash": "c4f9106e"
+  },
+  "smartrecruiters-Eurofins-744000127979719": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f04aac08"
+  },
+  "ashby-finni-health-abde2e9e-5352-49ed-9f91-c9ea0c5a6f85": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1c7dd9e9"
+  },
+  "workday-dxctechnology-Client-Partner--AE--Retail-and-Consumer-Goods_51581132": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7706ae6b"
+  },
+  "greenhouse-relativity-8563217002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "15bce18a"
+  },
+  "ashby-retell-ai-36ad52a2-c9e5-4de8-9659-fc916d3f1709": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "edc582eb"
+  },
+  "workday-teladoc-Financial-Analyst_JR20615": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c629d54c"
+  },
+  "breezy-thirdchannel-inc-4f8526686cf1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d9a68ff7"
+  },
+  "workday-tapestry-Sales-Associate-III_JR5744": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d94f172f"
+  },
+  "workday-tmobile-Mobile-Associate--Store-in-Store---Retail-Sales_REQ354912-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "28d6776d"
+  },
+  "workday-tmobile-Mobile-Associate--Bilingual---Retail-Sales_REQ355613-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "99363586"
+  },
+  "greenhouse-block-5225436008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6bf6dab8"
+  },
+  "workday-intel-Manufacturing-Operators_JR0279990": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b11ae00b"
+  },
+  "greenhouse-andurilindustries-5083521007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Costa Mesa, CA",
+    "job_summary": "Own verification and validation infrastructure for autonomous drone mission software, building Software-in-the-Loop and Hardware-in-the-Loop test environments that exercise autonomy, hardware interfaces, and full-system behavior. Requires US security clearance and travel up to 25% for operational testing and field validation.",
+    "skills": [
+      "C++",
+      "Python",
+      "Go",
+      "SITL/HITL",
+      "CANbus",
+      "UART",
+      "Robotics",
+      "ROS2"
+    ],
+    "level": "mid",
+    "comp": "$191k-$253k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "198468b3"
+  },
+  "greenhouse-andurilindustries-5089767007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Costa Mesa, CA",
+    "job_summary": "Design and implement software APIs, data transport layers, and hardware interfaces that integrate autonomous platforms with mission payloads, stores management systems, and ground control stations in defense applications. Requires on-site in Costa Mesa, CA and up to 25% travel for operational deployment and testing; US security clearance required.",
+    "skills": [
+      "C++",
+      "Rust",
+      "gRPC",
+      "UDP/TCP",
+      "REST",
+      "Python",
+      "Embedded Linux",
+      "MIL-STD-1553"
+    ],
+    "level": "senior",
+    "comp": "$220k-$292k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "3990eae6"
+  },
+  "greenhouse-andurilindustries-5145750007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Colorado Springs, CO",
+    "job_summary": "Develop web and desktop applications for military wargaming, simulation, and training environments, including game engine work on 3D graphics pipelines and real-time scenario rendering. Requires active TS clearance and on-site presence in Colorado Springs for defense contracting role.",
+    "skills": [
+      "Python",
+      "C++",
+      "OpenGL",
+      "JavaScript",
+      "WebGL",
+      "Three.js",
+      "Docker",
+      "TS/SCI Clearance"
+    ],
+    "level": "mid",
+    "comp": "$143k-$191k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c530e02d"
+  },
+  "workday-boeing-Senior-ConOps---Architecture-Engineer---Experimental-Space-Programs_JR2026511172-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Seal Beach, CA / El Segundo, CA / Aurora, CO",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$176.8k-$239.2k",
+    "comp_extras": [],
+    "source_hash": "2afd553e"
+  },
+  "smartrecruiters-Eurofins-744000127979604": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Columbia, SC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d980c7f9"
+  },
+  "ashby-ScribdInc-f9c1adf4-e0f5-4229-b369-3a44e925c5e4": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$60k-$107k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "8dd58210"
+  },
+  "lever-fireworkhq-2b55763f-24be-4def-8ad8-690071e3c5ad": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Los Angeles, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "adbb2e02"
+  },
+  "workday-abbott-Director--Project-Leadership_31151400-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Alameda, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$172k-$344k",
+    "comp_extras": [],
+    "source_hash": "a2bec146"
+  },
+  "workday-abbott-Remote-Care--Technician-I_31150668": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Pleasanton, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$46.8k-$93.6k",
+    "comp_extras": [],
+    "source_hash": "981695e1"
+  },
+  "workday-abbott-Remote-Care--Technician-I_31150667-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Pleasanton, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$46.8k-$93.6k",
+    "comp_extras": [],
+    "source_hash": "4b129f4b"
+  },
+  "workday-abbott-Remote-Care--Technician-I_31150665-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Pleasanton, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$47k-$94k",
+    "comp_extras": [],
+    "source_hash": "38672bee"
+  },
+  "workday-dxctechnology-Data---AI-GTM-Executive_51581131": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2bcd21b3"
+  },
+  "ashby-livekit-463e2769-bb85-4429-96a3-3a175eb228cd": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and ship end-to-end web dashboards and CLI tooling that developers use to deploy, observe, and debug AI agents on LiveKit's platform. Requires shipping production TypeScript and Go code with strong product sense for developer experience.",
+    "skills": [
+      "TypeScript",
+      "Go",
+      "Web Frameworks",
+      "Developer Tools",
+      "CLI",
+      "Distributed Systems",
+      "Kubernetes",
+      "Realtime Systems"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "91271683"
+  },
+  "workday-logitech-Senior-Solutions-Engineer_146741": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Atlanta, GA / Tampa, FL / Washington, DC / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$140k-$272k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "944195b7"
+  },
+  "greenhouse-relativity-8557551002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Long Beach, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$98k-$134k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "af9b823c"
+  },
+  "greenhouse-stabilityai-4874202101": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Design and build scalable internal tools and shared infrastructure to improve engineering team productivity. Experience in generative AI space is a strong plus.",
+    "skills": [
+      "Python"
+    ],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c0aa3e8b"
+  },
+  "greenhouse-talkdesk2-7859225": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Porto, Portugal",
+    "job_summary": "Build AI-powered internal tools, workflows, and automations that improve go-to-market execution\u2014forecasting, pipeline management, territory planning, and operational reporting. Use LLMs, prompt engineering, and agentic workflows to deploy production-grade applications that increase operational leverage across the GTM organization.",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "SQL",
+      "Snowflake",
+      "Claude",
+      "Prompt Engineering",
+      "RAG"
+    ],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "86a71a0b"
+  },
+  "greenhouse-trueanomalyinc-5145893007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Denver, CO",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$55k-$90k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "60947ce5"
+  },
+  "greenhouse-vardaspace-7747360003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "El Segundo, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$135k-$183k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "458ae941"
+  },
+  "greenhouse-vast-4682556006": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Long Beach, CA",
+    "job_summary": "Lead multidisciplinary engineering teams designing, integrating, and delivering spacecraft hardware and systems for next-generation commercial space stations. Drive technical decisions, risk management, and execution across the full product lifecycle from concept through manufacturing, qualification, and operations.",
+    "skills": [
+      "Aerospace Engineering",
+      "Systems Integration",
+      "CAD",
+      "GD&T",
+      "Structural Analysis",
+      "Thermal Analysis",
+      "Hardware Verification"
+    ],
+    "level": "manager",
+    "comp": "$150k-$215k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "11a8a9f1"
+  },
+  "workday-tapestry-Associate-III_JR4619": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Las Vegas, NV",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$15.00-$19.50",
+    "comp_extras": [],
+    "source_hash": "cb272996"
+  },
+  "workday-jci-Major-Projects-Application-Engineer-II--Controls-_WD30269933": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "San Jose, Costa Rica",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "af188c92"
+  },
+  "workday-tmobile-Mobile-Expert_REQ355614": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$20.50/hr + $18k incentive (annualized ~$59k)",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "10fad0d8"
   }
 }
