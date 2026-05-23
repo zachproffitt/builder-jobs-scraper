@@ -212722,5 +212722,252 @@
       "equity"
     ],
     "source_hash": "10fad0d8"
+  },
+  "workday-hubinternational-Business-Development-Specialist_R0036622": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "60048ed8"
+  },
+  "greenhouse-lattice-8550097002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5077fa1d"
+  },
+  "ashby-openai-c58aa58d-0fda-464d-88bc-d6c4d343b404": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "75d3d3f0"
+  },
+  "ashby-replit-19df35e7-c272-4c89-8d57-54bc8ebb52a0": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f9f70753"
+  },
+  "greenhouse-spacex-8563284002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b0e094aa"
+  },
+  "workday-tapestry-Sales-Support-Associate-III_JR5754": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "64d94795"
+  },
+  "ashby-opengov-83a16c6c-f6c1-4c05-93fc-1b1c2d48df1e": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "44bf6314"
+  },
+  "greenhouse-andurilindustries-5145906007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Costa Mesa, CA / Atlanta, GA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$146,000\u2013$194,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "d62008fc"
+  },
+  "ashby-Etched-999e9c18-5c0b-45c1-9921-2cbe19082772": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5709c902"
+  },
+  "ashby-livekit-c4a4b4ac-ee45-4eda-800a-6dfb5a573e6e": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Design and build the media pipeline and services that ingest from heterogeneous sources into LiveKit sessions and export to arbitrary destinations, handling recordings, format conversion, and codec management across H.264, VP9, AV1, and CMAF. You'll own distributed media processing systems serving billions of calls annually for voice AI applications.",
+    "skills": [
+      "Go",
+      "GStreamer",
+      "FFmpeg",
+      "WebRTC",
+      "Distributed Systems",
+      "RTMP",
+      "HLS",
+      "H.264"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "72b1b79d"
+  },
+  "greenhouse-maintainx-5145912007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "8bd6cc63"
+  },
+  "ashby-openai-13995549-e8cc-498f-9eaa-1869067ac35b": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Build and maintain the infrastructure for large-scale reinforcement learning training runs powering frontier models (o1 to o5.5). Debug and optimize across training systems, inference, orchestration, and distributed infrastructure while supporting horizontal integrations like multi-agent capabilities and memory.",
+    "skills": [
+      "Python",
+      "Distributed Systems",
+      "Kubernetes",
+      "CUDA",
+      "PyTorch",
+      "Performance Optimization",
+      "Debugging",
+      "Machine Learning Infrastructure"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5ed019fd"
+  },
+  "ashby-retell-ai-6c83c736-75f4-4e5f-b620-2721ffadd2c4": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Own telephony integrations and provide advanced technical support for voice AI infrastructure, debugging SIP/RTP call failures via PCAP analysis and carrier logs across enterprise CPaaS platforms like Twilio, Five9, Genesys, and Amazon Connect.",
+    "skills": [
+      "SIP Protocol",
+      "PCAP Analysis",
+      "Wireshark",
+      "Python",
+      "Bash",
+      "Twilio",
+      "VoIP",
+      "TCP/IP"
+    ],
+    "level": "senior",
+    "comp": "$52k-$94k",
+    "comp_extras": [],
+    "source_hash": "55fe3119"
+  },
+  "ashby-sentilink-53a2bb88-9e90-4512-b0a9-db7ef1323c1f": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$350k-$400k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "a4720a6f"
+  },
+  "workday-smithnephew-Senior-Regulatory-Affairs-Specialist_R90704": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$101,500-$152,250",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "9c0a1b21"
+  },
+  "workday-smithnephew-Regulatory-Affairs-Manager---Orthopedics_R90545-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$96,500-$167,500",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "35268df0"
   }
 }
