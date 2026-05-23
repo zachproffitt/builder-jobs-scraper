@@ -9386,10 +9386,11 @@
     "ats": "bamboo"
   },
   {
+    "ats": "workday",
     "slug": "smithnephew/wd5/External",
     "name": "Smith & Nephew",
-    "summary": "Smith & Nephew is a global medical devices company that manufactures and sells orthopedic reconstruction products, advanced wound management solutions, sports medicine devices, and trauma care equipment. The company serves hospitals, surgical centers, and healthcare systems across multiple countries in the medical device and healthcare services sector.",
-    "ats": "workday"
+    "summary": "Smith & Nephew is a global medical technology company that designs and manufactures medical devices and technology products.",
+    "source": "meta_description"
   },
   {
     "slug": "softheon",
