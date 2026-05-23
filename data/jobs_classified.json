@@ -213647,5 +213647,84 @@
       "equity"
     ],
     "source_hash": "028c04c0"
+  },
+  "workday-jll-Senior-Facilities-Coordinator_REQ507895": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3812fbf3"
+  },
+  "workday-fis-QA-Automation_JR0306577": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Pune, India",
+    "job_summary": "Design and develop automated test scripts using Selenium and Java for FIS Capital Markets products, working across requirement analysis, test planning, and execution in a continuous integration environment.",
+    "skills": [
+      "Selenium WebDriver",
+      "Java",
+      "TestNG",
+      "JUnit",
+      "Git",
+      "Jenkins",
+      "GitLab CI",
+      "SQL"
+    ],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5369460a"
+  },
+  "workday-fis-QA-Automation-Selenium_JR0306579": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Pune, India",
+    "job_summary": "Develop and maintain automated test scripts using Selenium and Java for Capital Markets financial software products. Collaborate with cross-functional teams on test planning, execution, and defect resolution in an Agile environment.",
+    "skills": [
+      "Selenium",
+      "Java",
+      "TestNG",
+      "JUnit",
+      "Git",
+      "Jenkins",
+      "GitLab CI",
+      "SQL"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0ad1e6a5"
+  },
+  "workday-fis-QA-Automation-Selenium-JAVA_JR0306198": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Bangalore, India",
+    "job_summary": "Build and enhance test automation frameworks for financial services applications using Selenium and Java, automating client UAT scenarios and managing regression testing across global client environments. Domain expertise in capital markets, lending, and lease applications preferred; role includes mentoring junior QA engineers and root cause analysis on automation suite failures.",
+    "skills": [
+      "Selenium",
+      "Java",
+      ".NET Framework",
+      "JIRA",
+      "ALM",
+      "SQL",
+      "Git",
+      "JMeter"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1a2695ef"
   }
 }
