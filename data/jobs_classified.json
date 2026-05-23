@@ -213765,5 +213765,106 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "563b296a"
+  },
+  "workable-weekday-1-B334AFA1ED": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2980456f"
+  },
+  "workable-weekday-1-EF8608F40D": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1661b44e"
+  },
+  "workday-aristocrat-HR-Associate_R0021319": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Noida, India",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7034c09b"
+  },
+  "workday-hubinternational-Operations-Consultant--Insurance_R0036623": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Berkeley Heights, NJ",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$80k-$90k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "1d529578"
+  },
+  "workday-intel-Load-Balancer-Network-Engineer_JR0284296": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA / Phoenix, AZ",
+    "job_summary": "Design, architect, and deploy secure network security products for US Government classified operations within secured enclaves. Requires active TS/SCI clearance and on-site presence at Santa Clara or Phoenix locations.",
+    "skills": [
+      "F5",
+      "Firewall Infrastructure",
+      "Network Security",
+      "Software Defined Networks",
+      "STIG",
+      "Wireshark",
+      "Ansible",
+      "TS/SCI Clearance"
+    ],
+    "level": "mid",
+    "comp": "$105,300-$175,210",
+    "comp_extras": [
+      "stock bonuses"
+    ],
+    "source_hash": "f73c9512"
+  },
+  "workday-intel-Identity-Security---PKI-Engineer_JR0284294": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA / Phoenix, AZ",
+    "job_summary": "Design, deploy, and manage enterprise-grade PKI infrastructure for US Government classified networks, including certificate lifecycle management, automation, and integration with Active Directory and identity platforms. Requires US Government Top Secret/SCI clearance and on-site presence in Santa Clara, CA or Phoenix, AZ.",
+    "skills": [
+      "Public Key Infrastructure (PKI)",
+      "X.509 Certificates",
+      "Active Directory",
+      "Certificate Lifecycle Management",
+      "OCSP",
+      "Key Management",
+      "TS/SCI Clearance"
+    ],
+    "level": "mid",
+    "comp": "$105,300-$175,210",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e43df6b3"
   }
 }
