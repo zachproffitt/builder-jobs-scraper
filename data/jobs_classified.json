@@ -214859,5 +214859,95 @@
     "comp": "$15.00-$19.25",
     "comp_extras": [],
     "source_hash": "b9d284b2"
+  },
+  "workday-boeing-Procurement-Agent_JR2026511321-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d880f71f"
+  },
+  "workday-boeing-Procurement-Agent_JR2026509908-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f797bb35"
+  },
+  "greenhouse-webflow-7951428": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d6811dcd"
+  },
+  "workday-tapestry-Temporary-Sales-Associate_JR5793": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6e1df846"
+  },
+  "workday-boeing-Experienced-Supplier-Program-Management_JR2026511520-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ebcba313"
+  },
+  "greenhouse-galaxydigitalservices-5843597004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": "Design and operate Galaxy's production data platform supporting trading, custody, and asset management systems at institutional scale. Lead technical direction for batch and streaming pipelines across the Databricks/Spark ecosystem; mentor engineers and drive reliability for crypto and financial infrastructure.",
+    "skills": [
+      "Python",
+      "Java",
+      "AWS",
+      "Databricks",
+      "Spark",
+      "dbt",
+      "Airflow",
+      "PostgreSQL"
+    ],
+    "level": "senior",
+    "comp": "$100,000\u2014$200,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "84498534"
   }
 }
