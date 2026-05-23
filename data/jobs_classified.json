@@ -215069,5 +215069,44 @@
     "comp": "$15.00-$19.50",
     "comp_extras": [],
     "source_hash": "f3005735"
+  },
+  "workday-tapestry-Sales-Associate-III_JR_00001077-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "cd5a9d27"
+  },
+  "workday-tapestry-Sales-Associate-III_JR2597": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7ea8ac3a"
+  },
+  "workday-tapestry-Temporary-Associate_JR_00001083": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Daytona Beach, FL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$15.00-$19.25",
+    "comp_extras": [],
+    "source_hash": "c8cdfc8c"
   }
 }
