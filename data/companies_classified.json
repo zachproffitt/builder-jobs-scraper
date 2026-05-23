@@ -552,11 +552,11 @@
     "ats": "ashby"
   },
   {
-    "name": "LiveKit",
+    "ats": "ashby",
     "slug": "livekit",
-    "summary": "LiveKit builds open-source infrastructure for voice-driven computing, enabling developers to build, test, deploy, and scale voice AI applications.",
-    "source_hash": "b83d0d75",
-    "ats": "ashby"
+    "name": "LiveKit",
+    "summary": "LiveKit builds infrastructure for voice-driven computing that enables developers to build, test, deploy, scale, and observe voice AI agents in production. The platform powers voice AI applications for companies including OpenAI, xAI, Salesforce, Coursera, and Spotify, facilitating billions of calls annually.",
+    "source": "job_posting"
   },
   {
     "ats": "ashby",
@@ -1029,10 +1029,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "stabilityai",
     "name": "Stability AI",
-    "summary": "Stability AI builds open-source generative AI models, most notably Stable Diffusion for text-to-image generation, and operates in the domain of machine learning model development and deployment. The company provides these models and related tools for image generation, video generation, and language tasks, making them available to developers and businesses.",
-    "ats": "greenhouse"
+    "summary": "Stability AI delivers generative AI tools and solutions for content production.",
+    "source": "meta_description"
   },
   {
     "slug": "suno",
