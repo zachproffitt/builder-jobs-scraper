@@ -215145,5 +215145,1500 @@
       "equity"
     ],
     "source_hash": "6d833752"
+  },
+  "workday-tapestry-Lead-Supervisor-I_JR5748": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1278d57d"
+  },
+  "workday-tapestry-Sales-Support-Associate-I_JR5805": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "05c14545"
+  },
+  "workday-abbott-Mecanico-Electricista_31142712": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Mexico City, Mexico",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "79832490"
+  },
+  "greenhouse-speechify-6003809004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Albuquerque, NM",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "5d3daadb"
+  },
+  "greenhouse-speechify-6003719004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Alexandria, VA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "b1460ad6"
+  },
+  "greenhouse-speechify-6003652004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Anaheim, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "434757af"
+  },
+  "greenhouse-speechify-6003791004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Bakersfield, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105,000\u2013$140,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "d547189a"
+  },
+  "greenhouse-speechify-6003726004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Baltimore, MD",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "ba0fc316"
+  },
+  "greenhouse-speechify-6003833004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Birmingham, AL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k\u2013$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "42e56967"
+  },
+  "greenhouse-speechify-6003823004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Bloomington, IN",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "824e1632"
+  },
+  "greenhouse-speechify-6003628004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Boston, MA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "620dd57e"
+  },
+  "greenhouse-speechify-6003683004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Boulder, CO",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "41be8474"
+  },
+  "greenhouse-speechify-6003829004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Buffalo, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "aa5a14e9"
+  },
+  "greenhouse-speechify-6003840004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Burlington, VT",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "f78c2d3a"
+  },
+  "greenhouse-speechify-6003710004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Cary, NC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105,000\u2013$140,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "7fec8ac4"
+  },
+  "greenhouse-speechify-6003708004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Chapel Hill, NC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "a3022640"
+  },
+  "greenhouse-speechify-6003852004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Charleston, SC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "f915f219"
+  },
+  "greenhouse-speechify-6003702004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Charlotte, NC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "3938b7c1"
+  },
+  "greenhouse-speechify-6003629004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Chicago, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105,000\u2013$140,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "23d97394"
+  },
+  "greenhouse-speechify-6003691004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Cincinnati, OH",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "5edea57c"
+  },
+  "greenhouse-speechify-6003692004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Cleveland, OH",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "ceafc377"
+  },
+  "greenhouse-speechify-6003698004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "College Park, MD",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "f625e164"
+  },
+  "greenhouse-speechify-6003815004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "College Station, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "0a7332ee"
+  },
+  "greenhouse-speechify-6003805004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Colorado Springs, CO",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k\u2013$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "1f011c62"
+  },
+  "greenhouse-speechify-6003854004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Columbia, SC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "b75d3afe"
+  },
+  "greenhouse-speechify-6003690004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Columbus, OH",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "2d4dacc0"
+  },
+  "greenhouse-speechify-6003679004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Culver City, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "4f5d0dc9"
+  },
+  "greenhouse-speechify-6003661004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Cupertino, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "b7c7ea40"
+  },
+  "greenhouse-speechify-6003625004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Dallas, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "6f0a58e9"
+  },
+  "greenhouse-speechify-6003822004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Dayton, OH",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "c9a23e9e"
+  },
+  "greenhouse-speechify-6003826004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Des Moines, IA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "68ab88bd"
+  },
+  "greenhouse-speechify-6003689004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Detroit, MI",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "e8122590"
+  },
+  "greenhouse-speechify-6003797004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Eugene, OR",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "9897a6f4"
+  },
+  "greenhouse-speechify-6003697004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Evanston, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "f9e4e1e3"
+  },
+  "greenhouse-speechify-6003803004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Fort Collins, CO",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "81223944"
+  },
+  "greenhouse-speechify-6003722004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Fort Lauderdale, FL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "27cadcc1"
+  },
+  "greenhouse-speechify-6003671004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Fort Worth, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "4d629a1d"
+  },
+  "greenhouse-speechify-6003674004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Fremont, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "5733ce39"
+  },
+  "greenhouse-speechify-6003821004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Grand Rapids, MI",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "bc46d98a"
+  },
+  "greenhouse-speechify-6003838004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hartford, CT",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "a4b02d19"
+  },
+  "greenhouse-speechify-6003817004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Honolulu, HI",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "d02929ef"
+  },
+  "greenhouse-speechify-6003678004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Houston, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "d3a49099"
+  },
+  "greenhouse-speechify-6003714004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Huntsville, AL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "d325ef97"
+  },
+  "greenhouse-speechify-6003827004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Iowa City, IA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "c9a5a4d3"
+  },
+  "greenhouse-speechify-6003832004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Ithaca, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "7dc500d5"
+  },
+  "greenhouse-speechify-6003701004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Jersey City, NJ",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "125dedbd"
+  },
+  "greenhouse-speechify-6003858004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Knoxville, TN",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "e1306b42"
+  },
+  "greenhouse-speechify-6003864004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Lexington, KY",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "a0ae7b2e"
+  },
+  "greenhouse-speechify-6003626004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Los Angeles, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "762d5fa7"
+  },
+  "greenhouse-speechify-6003856004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Memphis, TN",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "719c8eaa"
+  },
+  "greenhouse-speechify-6003659004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Menlo Park, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "70e1d810"
+  },
+  "greenhouse-speechify-6003716004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Miami, FL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "264474b7"
+  },
+  "greenhouse-speechify-6003820004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Milwaukee, WI",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "38dacf11"
+  },
+  "greenhouse-speechify-6003685004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Minneapolis, MN",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "c1280bd1"
+  },
+  "greenhouse-speechify-6003696004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Naperville, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "9faf016a"
+  },
+  "greenhouse-speechify-6003703004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Newark, NJ",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "7e457d5f"
+  },
+  "greenhouse-speechify-6003713004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New Haven, CT",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "5666024b"
+  },
+  "greenhouse-speechify-6003834004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New Orleans, LA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "459d20d5"
+  },
+  "greenhouse-speechify-6003667004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Oakland, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "21fdeb9c"
+  },
+  "greenhouse-speechify-6003845004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Oklahoma City, OK",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "aafda0b4"
+  },
+  "greenhouse-speechify-6003684004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Pasadena, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "5e7e22f9"
+  },
+  "greenhouse-speechify-6003707004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Philadelphia, PA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "36afd2bd"
+  },
+  "greenhouse-speechify-6003666004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Phoenix, AZ",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "1987fc71"
+  },
+  "greenhouse-speechify-6003709004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Pittsburgh, PA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "a2c0041a"
+  },
+  "greenhouse-speechify-6003673004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Plano, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "42a85e28"
+  },
+  "greenhouse-speechify-6003660004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Portland, OR",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "9c7da6fc"
+  },
+  "greenhouse-speechify-6003715004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Providence, RI",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "8559af3b"
+  },
+  "greenhouse-speechify-6003704004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Raleigh, NC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "02f0da76"
+  },
+  "greenhouse-speechify-6003656004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Redmond, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "3711653e"
+  },
+  "greenhouse-speechify-6003807004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Reno, NV",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "e00c82a2"
+  },
+  "greenhouse-speechify-6003721004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Reston, VA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "83121b25"
+  },
+  "greenhouse-speechify-6003816004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Riverside, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "81e9334c"
+  },
+  "greenhouse-speechify-6003686004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Saint Paul, MN",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "2f48f431"
+  },
+  "greenhouse-speechify-6003662004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Salt Lake City, UT",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "cdf2149c"
+  },
+  "greenhouse-speechify-6003680004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Antonio, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105,000\u2013$140,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "386dcf73"
+  },
+  "greenhouse-speechify-6003654004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Diego, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "7e87d487"
+  },
+  "greenhouse-speechify-6003655004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "cefc76d6"
+  },
+  "greenhouse-speechify-6003672004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Mateo, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "06678b55"
+  },
+  "greenhouse-speechify-6003665004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "ea548ba3"
+  },
+  "greenhouse-speechify-6003814004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Cruz, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "34d0ffe9"
+  },
+  "greenhouse-speechify-6003677004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Monica, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "46f58647"
+  },
+  "greenhouse-speechify-6003846004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Savannah, GA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "89e68002"
+  },
+  "greenhouse-speechify-6003668004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Scottsdale, AZ",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "73c86d33"
+  },
+  "greenhouse-speechify-6003795004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Spokane, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "16ce802d"
+  },
+  "greenhouse-speechify-6003828004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "State College, PA",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "459c6544"
+  },
+  "greenhouse-speechify-6003695004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "St. Louis, MO",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "c17aac41"
+  },
+  "greenhouse-speechify-6003835004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Stony Brook, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "c770e345"
+  },
+  "greenhouse-speechify-6003793004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Tacoma, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "e8d27dcb"
+  },
+  "greenhouse-speechify-6003844004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Tallahassee, FL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "330e6264"
+  },
+  "greenhouse-speechify-6003720004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Tampa, FL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "ec31be91"
+  },
+  "greenhouse-speechify-6003847004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Tulsa, OK",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "67dbc77b"
+  },
+  "greenhouse-speechify-6003841004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Virginia Beach, VA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "40964c9b"
+  },
+  "greenhouse-speechify-6003632004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Washington, DC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "b38e098b"
+  },
+  "greenhouse-speechify-6003839004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "West Palm Beach, FL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "bc4adc94"
   }
 }
