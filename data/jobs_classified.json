@@ -216640,5 +216640,2959 @@
       "bonus"
     ],
     "source_hash": "bc4adc94"
+  },
+  "workday-gdit-Accountant--Fixed-Assets_RQ220226-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5f1b4a22"
+  },
+  "workday-gdit-Network-Administrator-Senior_RQ220673-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "004fe7a4"
+  },
+  "lever-superannotate-a3b66219-d37e-4104-8e40-d92ae8693693": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "077766c7"
+  },
+  "workday-jll-Assistant-Facilities-Manager_REQ509265": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c9fd01c0"
+  },
+  "workday-jll-Facilities-Coordinator_REQ509257": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d50808b4"
+  },
+  "workday-flir-Field-Service-Engineer_REQ34806": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bf11c5ae"
+  },
+  "greenhouse-speechify-6004229004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fc8fbd87"
+  },
+  "greenhouse-speechify-6004288004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "de8f0747"
+  },
+  "greenhouse-speechify-6004248004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "21586db0"
+  },
+  "greenhouse-speechify-6004235004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4c43464d"
+  },
+  "greenhouse-speechify-6004291004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3b70f5e7"
+  },
+  "greenhouse-speechify-6004258004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c43143dc"
+  },
+  "greenhouse-speechify-6004222004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5618b024"
+  },
+  "greenhouse-speechify-6004290004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c0b28850"
+  },
+  "greenhouse-speechify-6004255004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c0965157"
+  },
+  "greenhouse-speechify-6004221004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9f19148a"
+  },
+  "greenhouse-speechify-6004277004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6fbaec2a"
+  },
+  "greenhouse-speechify-6004264004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4f1ecf41"
+  },
+  "greenhouse-speechify-6004267004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3f61ca39"
+  },
+  "greenhouse-speechify-6004253004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a85c30f4"
+  },
+  "greenhouse-speechify-6004273004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a989258a"
+  },
+  "greenhouse-speechify-6004246004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9fbaabd6"
+  },
+  "greenhouse-speechify-6004238004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d6ed22fb"
+  },
+  "greenhouse-speechify-6004239004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fd988077"
+  },
+  "greenhouse-speechify-6004249004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7d4be6fe"
+  },
+  "greenhouse-speechify-6004285004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c6e7225a"
+  },
+  "greenhouse-speechify-6004214004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b058f453"
+  },
+  "greenhouse-speechify-6004217004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f3c2ca69"
+  },
+  "greenhouse-speechify-6004227004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5456131c"
+  },
+  "greenhouse-speechify-6004252004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c9b7d746"
+  },
+  "greenhouse-speechify-6004234004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "84ee26c7"
+  },
+  "greenhouse-speechify-6004271004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f598c250"
+  },
+  "greenhouse-speechify-6004216004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "edfdd75f"
+  },
+  "greenhouse-speechify-6004220004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "74b0e02c"
+  },
+  "greenhouse-speechify-6004228004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "aacb1e2e"
+  },
+  "greenhouse-speechify-6004223004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ce8a63c9"
+  },
+  "greenhouse-speechify-6004215004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5b43122b"
+  },
+  "greenhouse-speechify-6004260004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a5ef56d5"
+  },
+  "workday-jll-Building-Technician_REQ508924": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f9a27ff4"
+  },
+  "workday-dxctechnology-XMLNAME--Security-Presales-Solution-Architect---Digital-Identity-Service_51581136": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Tokyo, Japan",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8603ad7f"
+  },
+  "workday-dxctechnology-XMLNAME--Security-Presales-Solution-Architect---SOC-Service_51581135": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Tokyo, Japan",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f8644239"
+  },
+  "workday-dxctechnology-XMLNAME--Security-Cyber-Security-Consultant-AI-Governance_51581134": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Tokyo, Japan",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d0907da7"
+  },
+  "workday-gdit-Information-Security-Analyst-Senior_RQ220556-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Pearl Harbor, HI",
+    "job_summary": "Conduct cybersecurity risk assessments and security authorization activities for DoD classified intelligence systems, including vulnerability scanning, RMF compliance, and security control validation. Requires active TS/SCI clearance and IAM Level II certification.",
+    "skills": [
+      "DISA STIG",
+      "eMASS",
+      "NIST 800-53",
+      "Risk Assessments",
+      "RMF",
+      "ACAS",
+      "SCAP",
+      "TS/SCI Clearance"
+    ],
+    "level": "senior",
+    "comp": "$93,662-$112,700",
+    "comp_extras": [],
+    "source_hash": "bd3a18a5"
+  },
+  "workday-gdit-Cloud-Software-Architect--Nodejs-and-Reactjs----Remote_RQ220623-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Architect and build cloud solutions for mission-critical federal government platforms, designing modernization of enterprise-class applications across multi-tenant AWS infrastructure. Requires AWS Certified Solutions Architect - Professional and BI Full 6C (T4) public trust clearance.",
+    "skills": [
+      "AWS",
+      "Terraform",
+      "CloudFormation",
+      "Python",
+      "Bash",
+      "Node.js",
+      "React.js",
+      "Infrastructure as Code"
+    ],
+    "level": "senior",
+    "comp": "$170,144-$207,000",
+    "comp_extras": [],
+    "source_hash": "0d5898e4"
+  },
+  "workday-gdit-Contracts-Director_RQ219875-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Falls Church, VA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$164,382-$200,100",
+    "comp_extras": [],
+    "source_hash": "3f8b8aaf"
+  },
+  "workday-gdit-Python-Developer_RQ220573": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build backend services and microservices for the Veterans Benefits Administration using Python and AWS, improving claims processing and delivery of benefits to veterans. Requires Public Trust clearance (MBI T2) and no visa sponsorship.",
+    "skills": [
+      "Python",
+      "AWS",
+      "FastAPI",
+      "Flask",
+      "PostgreSQL",
+      "Docker",
+      "Kubernetes",
+      "GitLab"
+    ],
+    "level": "mid",
+    "comp": "$107,744-$143,750",
+    "comp_extras": [],
+    "source_hash": "fe6311a9"
+  },
+  "workday-gdit-Senior-Network-Engineer---Secret-Clearance-Required_RQ220557-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Falls Church, VA",
+    "job_summary": "Configure, manage, and maintain enterprise network infrastructure including Cisco routers, switches, firewalls, and Palo Alto IDS/IPS systems for the Army National Guard's global IT operations. Requires active Secret clearance (eligible for Top Secret) and on-site presence in Falls Church, VA; DoD 8570.01-M IAT Level II certification required at start.",
+    "skills": [
+      "Cisco",
+      "Palo Alto",
+      "BGP/OSPF",
+      "MPLS",
+      "DISA STIG",
+      "CompTIA Security+",
+      "Secret Clearance"
+    ],
+    "level": "senior",
+    "comp": "$123,250-$166,750",
+    "comp_extras": [],
+    "source_hash": "8d91b1ca"
+  },
+  "workday-gdit-Service-Desk-and-Contact-Center-Modernization-Architect_RQ220374-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$170,144-$230,000",
+    "comp_extras": [],
+    "source_hash": "421f017f"
+  },
+  "greenhouse-speechify-6004147004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Albuquerque, NM",
+    "job_summary": "Build and own SIMBA's end-to-end outbound infrastructure\u2014lead enrichment pipelines, CRM architecture, scoring models, and sequencing workflows that power GTM at scale. Deploy AI agents for automated prospect research and personalized outreach, integrating across Clay, Apollo, HubSpot/Salesforce, and emerging AI tooling.",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "REST APIs",
+      "Zapier",
+      "Make",
+      "Clay",
+      "Apollo"
+    ],
+    "level": "mid",
+    "comp": "$105k\u2013$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "be496bd5"
+  },
+  "greenhouse-speechify-6004066004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Alexandria, VA",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that integrate Clay, Apollo, HubSpot/Salesforce, and Outreach at scale. Deploy AI agents for automated prospect research and personalized outreach generation while instrumenting the full top-of-funnel for continuous optimization.",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Zapier",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k\u2013$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "bc9d9400"
+  },
+  "greenhouse-speechify-6003993004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Anaheim, CA",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, sequencing workflows, and GTM tech stack integrations that power prospect research and personalized outreach at scale. This is a founding GTM engineering role at a fast-growing AI voice agent company with direct impact on sales pipeline and revenue.",
+    "skills": [
+      "Python",
+      "SQL",
+      "REST APIs",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Zapier"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "543b4a03"
+  },
+  "greenhouse-speechify-6004064004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Arlington, VA",
+    "job_summary": "Build and own SIMBA's outbound infrastructure\u2014lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that run at scale. Own the GTM tech stack end-to-end (CRM, enrichment, sequencing tools) and deploy AI agents for automated prospect research and personalized outreach generation.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "Instantly",
+      "Zapier",
+      "REST APIs"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "b6e82cf4"
+  },
+  "greenhouse-speechify-6004128004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Bakersfield, CA",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, lead scoring models, and sequencing workflows that power the go-to-market motion at scale. Deploy AI agents for automated prospect research and personalized outreach, integrate the full GTM tech stack (HubSpot, Salesforce, Clay, Apollo, Outreach), and instrument the funnel to optimize for pipeline generation.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "REST APIs",
+      "Webhooks",
+      "Python",
+      "Zapier"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "41c515f6"
+  },
+  "greenhouse-speechify-6004073004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Baltimore, MD",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, and sequencing workflows that orchestrate AI voice agents at scale. You'll instrument the full GTM stack (CRM, enrichment, sequencing tools) and deploy AI agents for automated prospect research and personalized outreach.",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Zapier",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "8d49a945"
+  },
+  "greenhouse-speechify-6004179004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, sequencing workflows, and GTM tech stack integrations that power AI voice agent sales at scale. Ship fast in a 100% distributed company where your systems directly influence pipeline and revenue.",
+    "skills": [
+      "Python",
+      "REST APIs",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "Zapier"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "3e9a08dd"
+  },
+  "greenhouse-speechify-6004175004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Birmingham, AL",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, and sequencing workflows that power the GTM motion. Own the full GTM tech stack integration (HubSpot/Salesforce, Clay, Apollo, Outreach) and deploy AI agents for automated prospect research and personalized outreach at scale.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "REST APIs",
+      "Python",
+      "Zapier"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "bebd8803"
+  },
+  "greenhouse-speechify-6004283004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Bishkek, Kyrgyzstan",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that connect prospects to AI voice agents at scale. Deploy integrations across the modern GTM stack (Clay, Apollo, HubSpot, Outreach) and AI-powered automation to reduce manual sales work and optimize for pipeline creation.",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "REST APIs",
+      "Zapier",
+      "Make",
+      "Clay",
+      "Apollo"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "536246dc"
+  },
+  "greenhouse-speechify-6004164004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Bloomington, IN",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, sequencing workflows, and CRM integrations that power GTM at scale. Requires hands-on experience building outbound systems from scratch and deep proficiency with the modern GTM stack (Clay, Apollo, HubSpot/Salesforce, Outreach/Instantly).",
+    "skills": [
+      "Clay",
+      "Apollo",
+      "HubSpot",
+      "Salesforce",
+      "Outreach",
+      "REST APIs",
+      "Zapier",
+      "Make"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "ce4e167b"
+  },
+  "greenhouse-speechify-6003970004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Boston, MA",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that integrate the GTM tech stack (Clay, Apollo, HubSpot, Outreach) and deploy AI agents for automated prospect research and personalized outreach at scale.",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "REST APIs",
+      "Webhooks",
+      "Zapier",
+      "Make",
+      "SQL"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "be909ff5"
+  },
+  "greenhouse-speechify-6004025004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Boulder, CO",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, and sequencing workflows that power GTM at scale. Own the full GTM tech stack (HubSpot/Salesforce, Clay, Apollo, Outreach/Instantly) and deploy AI agents for automated prospect research and personalized outreach.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "Zapier",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "38771bd7"
+  },
+  "greenhouse-speechify-6004170004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Buffalo, NY",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that integrate Clay, Apollo, HubSpot/Salesforce, and AI agents to automate prospect research and personalized outreach at scale.",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Zapier",
+      "Make",
+      "REST APIs"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "9238f66e"
+  },
+  "greenhouse-speechify-6004045004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Cambridge, MA",
+    "job_summary": "Build and own SIMBA's end-to-end outbound infrastructure\u2014lead enrichment pipelines, CRM architecture, scoring models, and sequencing workflows that power GTM at scale. Deploy AI agents for automated prospect research and personalized outreach while instrumenting the full funnel to optimize for pipeline creation.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "Instantly",
+      "REST APIs",
+      "Zapier"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "a7b38c00"
+  },
+  "greenhouse-speechify-6004289004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Casablanca, Morocco",
+    "job_summary": "Build and own SIMBA's outbound infrastructure end-to-end \u2014 lead enrichment pipelines, scoring models, sequencing workflows, and GTM tech stack integrations that power AI-driven prospect outreach at scale.",
+    "skills": [
+      "Clay",
+      "Apollo",
+      "HubSpot",
+      "Salesforce",
+      "Outreach",
+      "Instantly",
+      "Zapier",
+      "REST APIs"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6f1190ba"
+  },
+  "greenhouse-speechify-6004044004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Chapel Hill, NC",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, CRM architecture, AI-powered sequencing workflows, and integrations across Clay, Apollo, HubSpot, and Outreach to power GTM at scale. Deep hands-on work instrumenting the full top-of-funnel with APIs, webhooks, and AI agents for prospect research and personalized outreach automation.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "Zapier",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "28b968b2"
+  },
+  "greenhouse-speechify-6004032004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Cincinnati, OH",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, sequencing workflows, and GTM integrations that power prospect sourcing and sales automation at scale. Deploy AI agents for automated prospect research and personalized outreach generation.",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Zapier",
+      "Make",
+      "REST APIs"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "0c4ef6d8"
+  },
+  "greenhouse-speechify-6004033004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Cleveland, OH",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, lead scoring models, and sequencing workflows that integrate Clay, Apollo, HubSpot/Salesforce, and AI-powered personalization to drive pipeline at scale. Deploy AI agents for automated prospect research and follow-up workflows that reduce manual sales work.",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Zapier",
+      "Make",
+      "REST APIs"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "117dc018"
+  },
+  "greenhouse-speechify-6004155004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "College Station, TX",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows at scale. Deploy AI agents for automated prospect research and personalized outreach generation; instrument the full top-of-funnel to optimize for pipeline creation.",
+    "skills": [
+      "Clay",
+      "Apollo",
+      "HubSpot",
+      "Salesforce",
+      "Outreach",
+      "Instantly",
+      "Zapier",
+      "REST APIs"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "34a0143e"
+  },
+  "greenhouse-speechify-6004276004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Colombo, Sri Lanka",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows at scale. Deploy AI agents for automated prospect research and personalized outreach, integrating Clay, Apollo, HubSpot, and Outreach into a cohesive GTM tech stack.",
+    "skills": [
+      "Python",
+      "REST APIs",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "Zapier"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d054eda1"
+  },
+  "greenhouse-speechify-6004144004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Colorado Springs, CO",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that integrate Clay, Apollo, HubSpot, Outreach, and AI agents to automate prospect research and personalized outreach at scale. Deploy AI voice agents and automations that reduce manual sales work while instrumenting the full funnel for continuous optimization.",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "Instantly",
+      "Zapier"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "09ef32b1"
+  },
+  "greenhouse-speechify-6004192004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Columbia, SC",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, and sequencing workflows that connect the GTM tech stack (HubSpot, Clay, Apollo, Outreach) end-to-end. Deploy AI agents for automated prospect research and personalized outreach generation, then instrument and optimize the full top-of-funnel for pipeline creation.",
+    "skills": [
+      "Clay",
+      "Apollo",
+      "HubSpot",
+      "Salesforce",
+      "Outreach",
+      "Instantly",
+      "REST APIs",
+      "Zapier"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "39f48c81"
+  },
+  "greenhouse-speechify-6004031004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Columbus, OH",
+    "job_summary": "Build and own Speechify SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, and sequencing workflows that power the GTM motion. Design the end-to-end CRM architecture, deploy AI agents for prospect research and personalized outreach, and instrument the full top-of-funnel to optimize for pipeline creation.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Python",
+      "REST APIs",
+      "Zapier",
+      "Make"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "2df26aaf"
+  },
+  "greenhouse-speechify-6004020004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Culver City, CA",
+    "job_summary": "Build and own Speechify's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that power the SIMBA voice agent GTM motion. Deploy AI agents for automated prospect research and personalized outreach generation while instrumenting the full top-of-funnel to track pipeline creation and continuously optimize.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "Instantly",
+      "Zapier",
+      "REST APIs"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "78eb3e7f"
+  },
+  "greenhouse-speechify-6004002004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Cupertino, CA",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, sequencing workflows, and GTM tech stack integrations that power prospect research and personalized outreach at scale. Ship fast in a 100% distributed team with direct input on GTM strategy and outsized impact on pipeline creation.",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Zapier",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "f2b1c9f7"
+  },
+  "greenhouse-speechify-6003968004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Dallas, TX",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that integrate Clay, Apollo, HubSpot/Salesforce, and Outreach to automate prospect research and personalized outreach at scale. Requires hands-on GTM systems experience and deep expertise in the modern sales tech stack.",
+    "skills": [
+      "Clay",
+      "Apollo",
+      "HubSpot",
+      "Salesforce",
+      "Outreach",
+      "Zapier",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "0596dbb2"
+  },
+  "greenhouse-speechify-6004163004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Dayton, OH",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, sequencing workflows, and integrations across the GTM tech stack (HubSpot, Clay, Apollo, Outreach) at scale. Deploy AI agents for automated prospect research and personalized outreach to reduce manual work and optimize pipeline generation.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Python",
+      "REST APIs",
+      "Zapier",
+      "Make",
+      "PostgreSQL",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "1b506da3"
+  },
+  "greenhouse-speechify-6004167004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Des Moines, IA",
+    "job_summary": "Build and own SIMBA's outbound sales infrastructure \u2014 lead enrichment pipelines, scoring models, and sequencing workflows that integrate Clay, Apollo, HubSpot/Salesforce, and AI agents to automate prospect research and personalized outreach at scale.",
+    "skills": [
+      "Python",
+      "REST APIs",
+      "Webhooks",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Zapier"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "fda0c765"
+  },
+  "greenhouse-speechify-6004030004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Detroit, MI",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, sequencing workflows, and GTM tech stack integrations that power AI voice agent sales motion. Requires hands-on experience building outbound systems from scratch and deep familiarity with the modern GTM stack (Clay, Apollo, HubSpot, Outreach).",
+    "skills": [
+      "Clay",
+      "Apollo",
+      "HubSpot",
+      "Salesforce",
+      "Outreach",
+      "Zapier",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "0dd7b6b0"
+  },
+  "greenhouse-speechify-6004272004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Dhaka, Bangladesh",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, and sequencing workflows that connect prospects to AI voice agents at scale. Deploy AI agents for automated prospect research and personalized outreach generation, with direct impact on pipeline creation and sales velocity.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "Instantly",
+      "Zapier",
+      "Make"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c1e46ac6"
+  },
+  "greenhouse-speechify-6004042004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Durham, NC",
+    "job_summary": "Build and own SIMBA's outbound infrastructure\u2014lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that power GTM motion at scale. Integrate and automate the modern GTM stack (Clay, Apollo, HubSpot, Outreach) and deploy AI agents to reduce manual sales work while tracking pipeline influenced metrics end-to-end.",
+    "skills": [
+      "Clay",
+      "Apollo",
+      "HubSpot",
+      "Salesforce",
+      "Outreach",
+      "Instantly",
+      "Zapier",
+      "REST APIs"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "bbbef92d"
+  },
+  "greenhouse-speechify-6004135004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Eugene, OR",
+    "job_summary": "Build and own SIMBA's outbound infrastructure\u2014lead enrichment pipelines, scoring models, sequencing workflows, and GTM tech stack integrations (CRM, enrichment tools, sequencing platforms) that power AI-driven prospect research and personalized outreach at scale. Requires hands-on experience building outbound systems from scratch and deep familiarity with the modern GTM stack (Clay, Apollo, HubSpot/Salesforce, Outreach/Instantly).",
+    "skills": [
+      "Python",
+      "REST APIs",
+      "Webhooks",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Zapier"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "f5d3f93f"
+  },
+  "greenhouse-speechify-6004043004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Evanston, IL",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, and sequencing workflows that connect Clay, Apollo, HubSpot, and Outreach to automate prospect research and personalized outreach at scale. Ship GTM systems with direct input on strategy in a 100% distributed, fast-moving environment.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "REST APIs",
+      "Zapier",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "c7e77f81"
+  },
+  "greenhouse-speechify-6004142004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Fort Collins, CO",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that power GTM. Own the full GTM tech stack (HubSpot, Clay, Apollo, Outreach) and deploy AI agents for automated prospect research and personalized outreach at scale.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Python",
+      "REST APIs",
+      "Zapier",
+      "SQL"
+    ],
+    "level": "mid",
+    "comp": "$105k\u2013$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "7730fcb1"
+  },
+  "greenhouse-speechify-6004057004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Fort Lauderdale, FL",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, and sequencing workflows that connect the GTM tech stack end-to-end. Deploy AI agents for automated prospect research and personalized outreach, then instrument and optimize the full top-of-funnel for pipeline creation.",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Zapier",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "45cb575b"
+  },
+  "greenhouse-speechify-6004013004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Fort Worth, TX",
+    "job_summary": "Build and own SIMBA's end-to-end outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that power GTM at scale. Integrate and automate the modern GTM stack (Clay, Apollo, HubSpot, Outreach) with AI-powered personalization and prospect research agents.",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "REST APIs",
+      "Zapier",
+      "Make"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "22dc1022"
+  },
+  "greenhouse-speechify-6004014004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Fremont, CA",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, sequencing workflows, and the full GTM tech stack (CRM, enrichment, sequencing tools) that powers sales motion at scale. Deploy AI agents for automated prospect research and personalized outreach generation.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "REST APIs",
+      "Zapier",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "16cb4d5c"
+  },
+  "greenhouse-speechify-6004017004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Frisco, TX",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, sequencing workflows, and CRM integrations that power the GTM motion at scale. Deploy AI agents for automated prospect research and personalized outreach generation, instrumenting the full top-of-funnel to optimize for pipeline creation.",
+    "skills": [
+      "Python",
+      "SQL",
+      "REST APIs",
+      "Webhooks",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "65683842"
+  },
+  "greenhouse-speechify-6004185004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Gainesville, FL",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that integrate the full GTM tech stack (CRM, enrichment tools, sequencing platforms, and AI agents). Deploy automations via APIs, webhooks, and tools like Zapier/Make to keep prospect data clean and sales operations moving at scale.",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Zapier",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "ef662f06"
+  },
+  "greenhouse-speechify-6004162004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Grand Rapids, MI",
+    "job_summary": "Build and own Speechify SIMBA's outbound sales infrastructure \u2014 lead enrichment pipelines, CRM architecture, scoring models, and AI-powered sequencing workflows that power GTM motion at scale. Requires hands-on experience building outbound systems from scratch with modern GTM tools (Clay, Apollo, HubSpot, Outreach).",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Zapier",
+      "REST APIs",
+      "Webhook Integration"
+    ],
+    "level": "mid",
+    "comp": "$105k\u2013$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "ca2d18b4"
+  },
+  "greenhouse-speechify-6004186004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Greensboro, NC",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that power GTM at scale. Instrument and optimize the full top-of-funnel using AI agents, CRM integrations, and modern sales stack tooling to drive pipeline and meetings booked.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Zapier",
+      "REST APIs",
+      "Webhooks",
+      "Python"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "6c5a419f"
+  },
+  "greenhouse-speechify-6004176004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hartford, CT",
+    "job_summary": "Build and own Speechify SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, sequencing workflows, and GTM tech stack integrations that power sales automation at scale. Work directly with sales to deploy AI agents for prospect research and personalization, instrumenting the full top-of-funnel to optimize for pipeline creation.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Python",
+      "REST APIs",
+      "Zapier",
+      "PostgreSQL"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "0e1ff994"
+  },
+  "greenhouse-speechify-6004157004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Honolulu, HI",
+    "job_summary": "Build and own SIMBA's outbound infrastructure end-to-end\u2014lead enrichment pipelines, CRM architecture, scoring models, and sequencing workflows\u2014integrating Clay, Apollo, HubSpot, Outreach, and AI agents to automate prospect research and personalized outreach at scale.",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "REST APIs",
+      "Zapier",
+      "Make",
+      "Clay",
+      "Apollo"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "b9409b85"
+  },
+  "greenhouse-speechify-6004019004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Houston, TX",
+    "job_summary": "Build and own Speechify SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, sequencing workflows, and GTM tech stack integrations that power AI voice agent deployment at scale. Ship fast in a startup moving rapidly to scale enterprise sales motion.",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Zapier",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "352bf99c"
+  },
+  "greenhouse-speechify-6004050004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Huntsville, AL",
+    "job_summary": "Build and own Speechify SIMBA's end-to-end outbound infrastructure \u2014 lead enrichment pipelines, CRM architecture, scoring models, and sequencing workflows that power the GTM motion. Requires hands-on experience building outbound systems from scratch and deep familiarity with the modern GTM stack (Clay, Apollo, HubSpot/Salesforce, Outreach/Instantly).",
+    "skills": [
+      "Clay",
+      "Apollo",
+      "HubSpot",
+      "Salesforce",
+      "Outreach",
+      "Instantly",
+      "REST APIs",
+      "Zapier"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "2bcc88b4"
+  },
+  "greenhouse-speechify-6004168004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Iowa City, IA",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, sequencing workflows, and CRM integrations that power GTM at scale. Deploy AI agents for automated prospect research and personalized outreach, instrumenting the full top-of-funnel to optimize for pipeline and meetings booked.",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "REST APIs",
+      "Zapier",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "7d1f15a2"
+  },
+  "greenhouse-speechify-6004270004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Islamabad, Pakistan",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, sequencing workflows, and CRM architecture that powers GTM automation at scale. Reduce manual Sales work through AI-driven prospect research and personalized outreach generation.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "REST APIs",
+      "Zapier",
+      "Make"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7d8422bb"
+  },
+  "greenhouse-speechify-6004173004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Ithaca, NY",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that power GTM at scale. Deploy AI agents for automated prospect research and personalized outreach, integrating Clay, Apollo, HubSpot/Salesforce, and emerging GTM tooling via APIs and webhooks.",
+    "skills": [
+      "Python",
+      "REST APIs",
+      "Zapier",
+      "Make",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "9db7f50c"
+  },
+  "greenhouse-speechify-6004278004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Kathmandu, Nepal",
+    "job_summary": "Build and own SIMBA's outbound infrastructure\u2014lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that power sales motion at scale. Design and integrate the GTM tech stack (HubSpot/Salesforce, Clay, Apollo, Outreach) with AI agents for prospect research and personalized outreach automation.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "REST APIs",
+      "Webhooks",
+      "Python",
+      "Zapier"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "038239f4"
+  },
+  "greenhouse-speechify-6003999004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Kirkland, WA",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that integrate Clay, Apollo, HubSpot, and AI agents at scale. Deploy AI-powered prospect research and personalized outreach automation to reduce manual sales work and optimize top-of-funnel metrics.",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "REST APIs",
+      "Zapier",
+      "Make"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "2fb61d0e"
+  },
+  "greenhouse-speechify-6004196004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Knoxville, TN",
+    "job_summary": "Build SIMBA's end-to-end outbound infrastructure \u2014 lead enrichment pipelines, CRM architecture, sequencing workflows, and AI-powered personalization systems that fill and move sales pipeline at scale. Deploy integrations across the modern GTM stack (Clay, Apollo, HubSpot, Outreach) and AI agents for automated prospect research and follow-up.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Zapier",
+      "Make",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "11a7e137"
+  },
+  "greenhouse-speechify-6004024004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Las Vegas, NV",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, lead scoring, and sequencing workflows that power the GTM motion. Own the GTM tech stack end-to-end (HubSpot/Salesforce, Clay, Apollo, Outreach) and deploy AI agents for automated prospect research and personalized outreach generation.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "REST APIs",
+      "Zapier",
+      "Python"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "ca8c19d7"
+  },
+  "greenhouse-speechify-6004204004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Lexington, KY",
+    "job_summary": "Build and own SIMBA's outbound infrastructure end-to-end \u2014 lead enrichment pipelines, scoring models, sequencing workflows, and CRM architecture that powers sales operations at scale. Deploy AI agents for automated prospect research and personalized outreach, integrating a modern GTM stack (Clay, Apollo, HubSpot, Outreach) via APIs and automation.",
+    "skills": [
+      "Clay",
+      "Apollo",
+      "HubSpot",
+      "Salesforce",
+      "Outreach",
+      "Zapier",
+      "REST APIs",
+      "Python"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "38847cb0"
+  },
+  "greenhouse-speechify-6003991004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Long Beach, CA",
+    "job_summary": "Build and own the outbound infrastructure powering SIMBA's GTM motion \u2014 lead enrichment pipelines, scoring models, sequencing workflows, and CRM architecture that fill and move pipeline at scale. Deploy AI agents for automated prospect research and personalized outreach generation across 71+ languages.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "Instantly",
+      "Zapier",
+      "REST APIs"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "eaa5fcc9"
+  },
+  "greenhouse-speechify-6004194004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Memphis, TN",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, and sequencing workflows that connect prospect data across Clay, Apollo, HubSpot, and Outreach at scale. Deploy AI agents for automated prospect research and personalized outreach, instrument the top-of-funnel for optimization, and maintain integrations across the GTM tech stack.",
+    "skills": [
+      "Clay",
+      "Apollo",
+      "HubSpot",
+      "Salesforce",
+      "Outreach",
+      "Instantly",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "ff8f39a3"
+  },
+  "greenhouse-speechify-6004000004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Menlo Park, CA",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, and sequencing workflows that power prospect targeting and sales automation at scale. You'll instrument the full GTM tech stack (HubSpot, Clay, Apollo, Outreach) and deploy AI agents for automated prospect research and personalized outreach generation.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "REST APIs",
+      "Webhooks",
+      "Python"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "04246308"
+  },
+  "greenhouse-speechify-6004051004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Miami, FL",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that power AI voice agent GTM. Own the full GTM tech stack end-to-end (HubSpot/Salesforce, Clay, Apollo, Outreach) and deploy AI agents for automated prospect research and personalized outreach at scale.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "REST APIs",
+      "Webhooks",
+      "Python"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "09396409"
+  },
+  "greenhouse-speechify-6004161004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Milwaukee, WI",
+    "job_summary": "Build and own SIMBA's outbound infrastructure\u2014lead enrichment pipelines, scoring models, and sequencing workflows at scale, integrating the GTM tech stack (HubSpot, Clay, Apollo, Outreach) with AI-powered automation. Deploy AI agents for prospect research and personalized outreach, instrument the full funnel, and ship rapidly in a fast-moving environment with high ownership over GTM systems.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "Zapier",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "064d8f21"
+  },
+  "greenhouse-speechify-6004026004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Minneapolis, MN",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that run at scale. Deploy AI agents for automated prospect research and personalized outreach generation to reduce manual sales work and measure impact on pipeline created.",
+    "skills": [
+      "Clay",
+      "Apollo",
+      "HubSpot",
+      "Salesforce",
+      "Outreach",
+      "REST APIs",
+      "Zapier",
+      "Make"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "2942fe1e"
+  },
+  "greenhouse-speechify-6004048004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Nashville, TN",
+    "job_summary": "Build and own the outbound infrastructure for SIMBA's GTM motion\u2014lead enrichment pipelines, CRM architecture, scoring models, and sequencing workflows that power sales at scale. Instrument the full top-of-funnel with AI-powered automations and integrations across the modern GTM stack (Clay, Apollo, HubSpot, Outreach).",
+    "skills": [
+      "Clay",
+      "Apollo",
+      "HubSpot",
+      "Salesforce",
+      "Outreach",
+      "Zapier",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "d0287be2"
+  },
+  "greenhouse-speechify-6004049004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Newark, NJ",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, sequencing workflows, and integrations across the GTM stack (HubSpot, Clay, Apollo, Outreach) at scale. Deploy AI agents for automated prospect research and personalized outreach generation.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "REST APIs",
+      "Zapier",
+      "Python"
+    ],
+    "level": "mid",
+    "comp": "$105k\u2013$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "fd4b8a47"
+  },
+  "greenhouse-speechify-6004060004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New Haven, CT",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that integrate Clay, Apollo, HubSpot/Salesforce, and AI agents to automate prospect research and personalized outreach at scale.",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "REST APIs",
+      "Zapier",
+      "Make"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "37fd7ced"
+  },
+  "greenhouse-speechify-6003964004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, and sequencing workflows that power AI-driven prospecting at scale. Own the full GTM tech stack integration (HubSpot/Salesforce, Clay, Apollo, Outreach) and deploy AI agents for automated prospect research and personalized outreach.",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "REST APIs",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Zapier"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "12057638"
+  },
+  "greenhouse-speechify-6004182004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Norfolk, VA",
+    "job_summary": "Build and own SIMBA's outbound infrastructure\u2014lead enrichment pipelines, scoring models, and sequencing workflows that power the GTM motion. Own the full GTM tech stack integration (HubSpot/Salesforce, Clay, Apollo, Outreach/Instantly) and deploy AI agents for automated prospect research and personalized outreach generation.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "Zapier",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "b12670eb"
+  },
+  "greenhouse-speechify-6003963004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Palo Alto, CA",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, CRM architecture, scoring models, and sequencing workflows that power the sales motion. Deploy AI agents for automated prospect research and personalized outreach generation at scale.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "Instantly",
+      "REST APIs",
+      "Zapier"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "7e402e11"
+  },
+  "greenhouse-speechify-6004023004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Pasadena, CA",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, and sequencing workflows that power GTM motion. Instrument and optimize the full top-of-funnel stack across HubSpot/Salesforce, Clay, Apollo, and AI-powered personalization systems to drive pipeline at scale.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "REST APIs",
+      "Webhooks",
+      "Python",
+      "SQL"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "0985fb83"
+  },
+  "greenhouse-speechify-6004054004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Philadelphia, PA",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, sequencing workflows, and CRM integrations that power sales motion at scale. Deploy AI agents for automated prospect research and personalized outreach generation; requires hands-on experience building outbound systems from scratch, not just managing existing tools.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "Instantly",
+      "Zapier",
+      "REST APIs"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "d04d15f2"
+  },
+  "greenhouse-speechify-6004007004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Phoenix, AZ",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that integrate Clay, Apollo, HubSpot/Salesforce, and AI agents to power GTM at scale. Deploy automations via APIs, webhooks, and tools like Zapier/Make to optimize pipeline generation and reduce manual Sales work.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "Zapier",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "c09c1784"
+  },
+  "greenhouse-speechify-6004056004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Pittsburgh, PA",
+    "job_summary": "Build and own SIMBA's end-to-end outbound infrastructure\u2014lead enrichment pipelines, CRM architecture, AI-powered sequencing, and integrations that drive pipeline at scale. This is a greenfield GTM systems role requiring hands-on expertise in the modern sales stack (Clay, Apollo, HubSpot, Outreach) and API automation.",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "Zapier",
+      "Make",
+      "REST APIs",
+      "Webhooks",
+      "SQL"
+    ],
+    "level": "mid",
+    "comp": "$105k\u2013$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "8a25a770"
+  },
+  "greenhouse-speechify-6004001004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Portland, OR",
+    "job_summary": "Build and own SIMBA's outbound infrastructure end-to-end \u2014 lead sourcing, enrichment pipelines, scoring models, sequencing workflows, and GTM tech stack integrations (HubSpot, Clay, Apollo, Outreach) that power sales pipeline generation at scale. Deploy AI agents for automated prospect research and personalized outreach to reduce manual sales work.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Python",
+      "REST APIs",
+      "Zapier",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "dae8ae6c"
+  },
+  "greenhouse-speechify-6004062004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Providence, RI",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that power GTM at scale. Own the full tech stack (HubSpot/Salesforce, Clay, Apollo, Outreach/Instantly) and deploy AI agents for automated prospect research and personalized outreach.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "Zapier",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "326e20f6"
+  },
+  "greenhouse-speechify-6004005004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Provo, UT",
+    "job_summary": "Build and own SIMBA's end-to-end outbound infrastructure \u2014 lead enrichment pipelines, scoring models, CRM architecture, and sequencing workflows that power GTM at scale. Deploy AI agents for automated prospect research and personalized outreach generation across 71+ languages.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "REST APIs",
+      "Zapier",
+      "Make",
+      "Python"
+    ],
+    "level": "mid",
+    "comp": "$105k\u2013$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "ba6a453f"
+  },
+  "greenhouse-speechify-6004146004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Reno, NV",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, lead scoring, and sequencing workflows that power AI-driven sales automation at scale. Own the GTM tech stack end-to-end (HubSpot/Salesforce, Clay, Apollo, Outreach/Instantly) and deploy AI agents for automated prospect research and personalized outreach.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Python",
+      "APIs",
+      "Zapier",
+      "Make",
+      "PostgreSQL",
+      "Webhook Integration"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "e5635892"
+  },
+  "greenhouse-speechify-6004261004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Rio de Janeiro, Brazil",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that power the GTM motion at scale. Deploy AI agents for automated prospect research and personalized outreach, instrumenting the full top-of-funnel to optimize for pipeline creation.",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "REST APIs",
+      "Webhooks",
+      "Zapier"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fd611714"
+  },
+  "greenhouse-speechify-6004158004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Riverside, CA",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, and sequencing workflows that connect prospects to AI voice agents at scale. Deploy AI agents for automated prospect research and personalized outreach, instrument the full top-of-funnel funnel, and operate the GTM tech stack end-to-end (HubSpot, Clay, Apollo, Outreach).",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "REST APIs",
+      "Webhooks",
+      "Python"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "afa824a8"
+  },
+  "greenhouse-speechify-6003962004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows at scale. Deploy AI agents for automated prospect research and personalized outreach generation, and instrument the full top-of-funnel to optimize for pipeline creation.",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Zapier",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "9e99fb9c"
+  },
+  "greenhouse-speechify-6004282004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "San Jos\u00e9, Costa Rica",
+    "job_summary": "Build and own SIMBA's outbound infrastructure\u2014lead enrichment pipelines, scoring models, and sequencing workflows that feed the sales engine at scale. Deploy AI agents for automated prospect research and personalized outreach, integrating Clay, Apollo, HubSpot/Salesforce, and emerging GTM tooling via APIs and webhooks.",
+    "skills": [
+      "Clay",
+      "Apollo",
+      "HubSpot",
+      "Salesforce",
+      "Outreach",
+      "Zapier",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fe42e0a6"
+  },
+  "greenhouse-speechify-6004156004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Cruz, CA",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that power GTM at scale. Instrument the full top-of-funnel with AI agents for automated prospect research and personalized outreach generation.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "REST APIs",
+      "Webhooks",
+      "Python"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "2d90bd8f"
+  },
+  "greenhouse-speechify-6004018004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Monica, CA",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that power prospect research, personalized outreach generation, and follow-up automation at scale. Ship GTM systems end-to-end across CRM, enrichment, sequencing, and AI tooling integration with direct impact on pipeline influenced and sales efficiency.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "REST APIs",
+      "Zapier",
+      "Python"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "91fb0e9a"
+  },
+  "greenhouse-speechify-6004232004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Sarajevo, Bosnia and Herzegovina",
+    "job_summary": "Build and own the outbound infrastructure powering SIMBA's GTM motion \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that run at scale. Deploy AI agents for automated prospect research and personalized outreach generation, integrating across the modern GTM stack (Clay, Apollo, HubSpot, Outreach).",
+    "skills": [
+      "Clay",
+      "Apollo",
+      "HubSpot",
+      "Salesforce",
+      "Outreach",
+      "Zapier",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f5d18bb3"
+  },
+  "greenhouse-speechify-6003965004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Seattle, WA",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that power sales at scale. Deploy AI agents for automated prospect research and personalized outreach, integrating Clay, Apollo, HubSpot, Outreach, and custom APIs to instrument the full top-of-funnel.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "Zapier",
+      "REST APIs",
+      "Python"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "d7db91b8"
+  },
+  "greenhouse-speechify-6004036004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Silver Spring, MD",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that power AI-driven prospecting at scale. Own the GTM tech stack end-to-end (HubSpot/Salesforce, Clay, Apollo, Outreach) and deploy AI agents for automated prospect research and personalized outreach generation.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "Zapier",
+      "REST APIs",
+      "Python"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "89e0f043"
+  },
+  "greenhouse-speechify-6004133004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Spokane, WA",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that power GTM motion. Design the full tech stack integrations (CRM, enrichment tools, sequencing platforms) and deploy AI agents for automated prospect research and personalized outreach.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "Zapier",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "da4259e8"
+  },
+  "greenhouse-speechify-6004169004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "State College, PA",
+    "job_summary": "Build and own Speechify SIMBA's outbound sales infrastructure \u2014 lead enrichment pipelines, CRM architecture, AI-powered personalization, and sequencing workflows that power the GTM motion at scale. You'll instrument the full funnel, deploy AI agents for automated prospect research and outbound generation, and evaluate emerging AI/GTM tooling.",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Zapier",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k\u2013$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "57dc6dd5"
+  },
+  "greenhouse-speechify-6004174004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Stony Brook, NY",
+    "job_summary": "Build and own SIMBA's outbound sales infrastructure \u2014 lead enrichment pipelines, scoring models, sequencing workflows, and CRM integrations that power the GTM motion at scale. Design systems that orchestrate AI agents for automated prospect research and personalized outreach, optimizing for pipeline creation and sales efficiency.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "REST APIs",
+      "Zapier",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "e7eeca11"
+  },
+  "greenhouse-speechify-6004181004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "St. Petersburg, FL",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, and sequencing workflows that power GTM motion at scale. Design and maintain the GTM tech stack integrations (HubSpot/Salesforce, Clay, Apollo, Outreach) with AI-powered automation for prospect research and personalized outreach.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "REST APIs",
+      "Webhooks",
+      "Zapier",
+      "Python"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "08103025"
+  },
+  "greenhouse-speechify-6004130004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Tacoma, WA",
+    "job_summary": "Build and own Speechify SIMBA's outbound GTM infrastructure, including lead enrichment pipelines, CRM architecture, scoring models, and multi-channel sequencing workflows. Deploy AI agents for automated prospect research and personalization at scale across 71+ languages.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "Instantly",
+      "Zapier",
+      "REST APIs"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "95caf03c"
+  },
+  "greenhouse-speechify-6004187004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Tallahassee, FL",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that power GTM motion at scale. Deploy AI agents for automated prospect research and personalized outreach; integrate the modern GTM stack (Clay, Apollo, HubSpot, Outreach) to keep data clean and systems in sync.",
+    "skills": [
+      "Python",
+      "REST APIs",
+      "Webhooks",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Zapier"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "4d32beee"
+  },
+  "greenhouse-speechify-6004055004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Tampa, FL",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, sequencing workflows, and GTM tech stack integrations that power the sales motion at scale. Deploy AI agents for automated prospect research and personalized outreach generation.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "Instantly",
+      "Zapier",
+      "Make"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "8b6ace83"
+  },
+  "greenhouse-speechify-6004191004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Tulsa, OK",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, and sequencing workflows that connect prospects to AI voice agents at scale. Own the GTM tech stack end-to-end and deploy AI agents for automated prospect research and personalized outreach.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Clearbit",
+      "Outreach",
+      "Instantly",
+      "Zapier"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "c9ba8489"
+  },
+  "greenhouse-speechify-6004180004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Virginia Beach, VA",
+    "job_summary": "Build and own Speechify SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that power GTM at scale. Own the full GTM tech stack integration across CRM, enrichment, and sequencing tools while deploying AI agents for automated prospect research and personalized outreach.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Zapier",
+      "Make",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "34dfecd9"
+  },
+  "greenhouse-speechify-6003975004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Washington, DC, USA",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead sourcing, enrichment pipelines, scoring models, and sequencing workflows that integrate Clay, Apollo, HubSpot, and AI-powered personalization systems at scale. Deploy AI agents for automated prospect research and personalized outreach generation while instrumenting the full top-of-funnel to optimize for pipeline creation.",
+    "skills": [
+      "Python",
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Zapier",
+      "REST APIs",
+      "Webhook integration"
+    ],
+    "level": "mid",
+    "comp": "$105k\u2013$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "d218e8ab"
+  },
+  "greenhouse-speechify-6004188004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Winston-Salem, NC",
+    "job_summary": "Build and own SIMBA's outbound infrastructure \u2014 lead enrichment pipelines, scoring models, sequencing workflows, and GTM tech stack integrations (CRM, enrichment tools, sequencing platforms) that power AI-driven prospecting at scale. Deploy AI agents for automated prospect research and personalized outreach, instrument the full top-of-funnel funnel, and rapidly evaluate emerging GTM and AI tooling.",
+    "skills": [
+      "HubSpot",
+      "Salesforce",
+      "Clay",
+      "Apollo",
+      "Outreach",
+      "Instantly",
+      "REST APIs",
+      "Zapier"
+    ],
+    "level": "mid",
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "9ed5e13e"
+  },
+  "greenhouse-speechify-6004247004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Yerevan, Armenia",
+    "job_summary": "Build SIMBA's outbound infrastructure and GTM tech stack end-to-end \u2014 lead enrichment pipelines, scoring models, sequencing workflows, and AI-powered automations that drive pipeline and revenue. Own integrations across Clay, Apollo, HubSpot/Salesforce, Outreach, and custom APIs; measure impact in pipeline influenced and meeting conversion.",
+    "skills": [
+      "Clay",
+      "Apollo",
+      "HubSpot",
+      "Salesforce",
+      "Outreach",
+      "Zapier",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f8f90814"
+  },
+  "greenhouse-speechify-6003621004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "c392eec5"
+  },
+  "greenhouse-speechify-6003620004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Palo Alto, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "43044a88"
+  },
+  "greenhouse-speechify-6003619004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "904b1beb"
+  },
+  "greenhouse-speechify-6003622004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Seattle, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$105k-$140k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "da7b323d"
   }
 }
