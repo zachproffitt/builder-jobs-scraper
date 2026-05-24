@@ -458,7 +458,7 @@ def main():
                 {"name": "builder_pipeline_llm_call_output_tokens",     "value": call_usage["output_tokens"]},
                 {"name": "builder_pipeline_llm_call_cache_read_tokens", "value": call_usage["cache_read_input_tokens"]},
                 {"name": "builder_pipeline_llm_call_cache_write_tokens","value": call_usage["cache_creation_input_tokens"]},
-            ], log_error=log_error, labels={"run_id": run_id})
+            ], log_error=log_error, labels={"run_id": run_id, "action": "jobs", "pipeline": "classify"})
         return job, cl
 
     with ThreadPoolExecutor(max_workers=WORKERS) as executor:
@@ -567,7 +567,7 @@ def main():
         {"name": "builder_pipeline_result_not_builder", "value": not_eng},
         {"name": "builder_pipeline_result_unclear",     "value": unclear},
         {"name": "builder_pipeline_classify_errors",    "value": errors},
-    ], log_error=log_error, labels={"run_id": run_id})
+    ], log_error=log_error, labels={"run_id": run_id, "action": "jobs", "pipeline": "classify"})
 
     push_metrics(board_metrics(), log_error=log_error)
 

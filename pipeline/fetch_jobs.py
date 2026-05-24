@@ -186,7 +186,7 @@ def main():
         {"name": "builder_pipeline_jobs_carried",      "value": carried_count},
         {"name": "builder_pipeline_scraper_errors",    "value": error_count},
         {"name": "builder_pipeline_companies_fetched", "value": len(to_fetch)},
-    ], log_error=log_error, labels={"run_id": run_id})
+    ], log_error=log_error, labels={"run_id": run_id, "action": "jobs", "pipeline": "fetch"})
 
 
 if __name__ == "__main__":
