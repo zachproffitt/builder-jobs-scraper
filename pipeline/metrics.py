@@ -50,9 +50,11 @@ def _write_request(series: list[bytes]) -> bytes:
 
 # --- Push --------------------------------------------------------------------
 
-def push(metrics: list[dict], log_error=None) -> None:
+def push(metrics: list[dict], log_error=None, labels: dict | None = None) -> None:
     """Push a list of {name, value, labels?} metrics to Grafana Cloud.
 
+    labels: base labels merged into every metric (e.g. {"run_id": "..."}).
+    Per-metric labels take precedence over base labels.
     Silently skips if GRAFANA_REMOTE_WRITE_URL is unset.
     Errors are logged but never raise — metrics push must not break the pipeline.
     """
@@ -69,10 +71,11 @@ def push(metrics: list[dict], log_error=None) -> None:
         _warn("python-snappy not installed — skipping metrics push", log_error)
         return
 
+    base = labels or {}
     ts_ms = int(time.time() * 1000)
     series = [
         _timeseries(
-            {"__name__": m["name"], "job": "builder-jobs-pipeline", **m.get("labels", {})},
+            {"__name__": m["name"], "job": "builder-jobs-pipeline", **base, **m.get("labels", {})},
             float(m["value"]),
             ts_ms,
         )

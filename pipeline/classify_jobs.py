@@ -385,6 +385,7 @@ def main():
 
     classify_all = "--all" in sys.argv
     today = datetime.now(timezone.utc).date().isoformat()
+    run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 
     def needs_work(j: dict) -> bool:
         if classify_all:
@@ -457,7 +458,7 @@ def main():
                 {"name": "builder_pipeline_llm_call_output_tokens",     "value": call_usage["output_tokens"]},
                 {"name": "builder_pipeline_llm_call_cache_read_tokens", "value": call_usage["cache_read_input_tokens"]},
                 {"name": "builder_pipeline_llm_call_cache_write_tokens","value": call_usage["cache_creation_input_tokens"]},
-            ], log_error=log_error)
+            ], log_error=log_error, labels={"run_id": run_id})
         return job, cl
 
     with ThreadPoolExecutor(max_workers=WORKERS) as executor:
@@ -566,8 +567,9 @@ def main():
         {"name": "builder_pipeline_result_not_builder", "value": not_eng},
         {"name": "builder_pipeline_result_unclear",     "value": unclear},
         {"name": "builder_pipeline_classify_errors",    "value": errors},
-        *board_metrics(),
-    ], log_error=log_error)
+    ], log_error=log_error, labels={"run_id": run_id})
+
+    push_metrics(board_metrics(), log_error=log_error)
 
 
 if __name__ == "__main__":

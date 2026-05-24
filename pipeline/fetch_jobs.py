@@ -73,6 +73,7 @@ def main():
 
     today = datetime.now(timezone.utc).date().isoformat()
     now_ts = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     all_jobs: list[dict] = []
     error_count = 0
     new_count = closed_count = archived_count = carried_count = 0
@@ -185,7 +186,7 @@ def main():
         {"name": "builder_pipeline_jobs_carried",      "value": carried_count},
         {"name": "builder_pipeline_scraper_errors",    "value": error_count},
         {"name": "builder_pipeline_companies_fetched", "value": len(to_fetch)},
-    ], log_error=log_error)
+    ], log_error=log_error, labels={"run_id": run_id})
 
 
 if __name__ == "__main__":
