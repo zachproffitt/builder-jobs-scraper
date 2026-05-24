@@ -223076,5 +223076,70 @@
       "bonus"
     ],
     "source_hash": "854c3558"
+  },
+  "workday-otis-Field-Supervisor-Construction_20153682": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "676b5c9d"
+  },
+  "workday-tapestry-Assistant-Store-Manager-I_JR5823": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "84cc71c2"
+  },
+  "workday-trimble-Test-Engineer---Intern_R55916": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b845705e"
+  },
+  "workday-jci-Customer-Service-Representative_WD30269657": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5ac7b115"
+  },
+  "workday-ag-Calculateur-en-ingnierie---Stress-engineer_JR10416642": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Montreal Area",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0f4959bf"
   }
 }
