@@ -220149,5 +220149,83 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "a4df542d"
+  },
+  "workday-paloaltonetworks-Sr-Technical-Program-Manager_JR-017319": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ac83aa26"
+  },
+  "workday-abbott-Sales-Manager_31149897": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fbab32b4"
+  },
+  "workday-logitech-Sr-Mechanical-Engineer---Audio_146754": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e276c16f"
+  },
+  "workday-crowdstrike-Sr-Data-Engineer--Cloud-Security--Hybrid--ISR-_R27234": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b2681286"
+  },
+  "workday-sec-Legal-Graduate_R117413": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "858f391d"
+  },
+  "workday-dxctechnology-RR-0366681-Associate-Manager-Software-Engineering_51580213": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Noida, India",
+    "job_summary": "Lead a team of software engineers in developing software products and solutions, providing code reviews, mentorship, and technical guidance. Requires 6+ years of software engineering experience with 2+ years in a leadership or mentoring role.",
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "981ac232"
   }
 }
