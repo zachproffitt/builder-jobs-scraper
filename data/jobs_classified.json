@@ -220032,5 +220032,83 @@
       "bonus"
     ],
     "source_hash": "bab8c12b"
+  },
+  "greenhouse-similarweb-7953633": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5bb01e5a"
+  },
+  "workday-nvidia-Senior-Project-Manager--PE_JR2012608": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f34fef29"
+  },
+  "workday-paloaltonetworks-Technical-Marketing-Engineer_JR-015799-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fcbcd02a"
+  },
+  "ashby-vanta-0d8925dc-e6ad-47da-9458-a8dac56a6b15": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bbf57db7"
+  },
+  "workday-nvidia-Solutions-Architect---Semiconductor-Simulation_JR2010144": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Seoul, Korea",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "243d6d70"
+  },
+  "greenhouse-wizinc-4676471006": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Tel Aviv, Israel",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "44ae87cc"
   }
 }
