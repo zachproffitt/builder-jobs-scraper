@@ -215108,5 +215108,42 @@
     "comp": "$15.00-$19.25",
     "comp_extras": [],
     "source_hash": "c8cdfc8c"
+  },
+  "workday-boeing-Procurement-Agent_JR2026511813-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5ad2621f"
+  },
+  "greenhouse-vardaspace-7747493003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "El Segundo, CA",
+    "job_summary": "Lead the propulsion systems discipline for orbital spacecraft, owning subsystem architecture, fluid system design, testing, and flight operations. Requires deep expertise in spacecraft propulsion hardware and hands-on management of a growing engineering team at a fully funded space startup developing commercial LEO infrastructure.",
+    "skills": [
+      "Spacecraft Propulsion Systems",
+      "CAD",
+      "PLM Software",
+      "Fluid Systems Analysis",
+      "P&IDs",
+      "Pressurized Hardware",
+      "Propellant Handling",
+      "Systems Engineering"
+    ],
+    "level": "manager",
+    "comp": "$175k-$200k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "6d833752"
   }
 }
