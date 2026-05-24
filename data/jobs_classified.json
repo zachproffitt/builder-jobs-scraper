@@ -222685,5 +222685,73 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "075c5ccf"
+  },
+  "workday-abbott-Medical-Science-Liaison_31144128": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c535d716"
+  },
+  "workday-tapestry-Sales-Associate-III_JR5094": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b7219559"
+  },
+  "ashby-Pear-VC-489d22ab-558f-4702-975b-e44c4d413205": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": "Design and own AI workflows, prompt chains, and structured-output schemas that automate prior authorization and appeals for healthcare reimbursement. Translate complex payer rules and clinical evidence requirements into reliable, tested AI systems deployed with enterprise medtech and diagnostics customers.",
+    "skills": [
+      "LLMs",
+      "Prompt Engineering",
+      "Structured Outputs",
+      "JSON",
+      "Evals",
+      "Workflow Automation",
+      "Healthcare Reimbursement"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ebf7a3c4"
+  },
+  "ashby-Pear-VC-2a4a4733-3471-4718-b11e-dea1e70a27bd": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "canada",
+    "location": "Toronto, Canada",
+    "job_summary": "Design and own AI workflows and prompt chains that transform complex healthcare reimbursement documentation and payer rules into reliable prior authorization and appeals systems. Work directly with medtech customers to translate operational requirements into testable workflow logic, structured-output schemas, and evals that ensure AI quality in a regulated healthcare domain.",
+    "skills": [
+      "LLMs",
+      "Prompt Engineering",
+      "JSON",
+      "Structured Outputs",
+      "Workflow Automation",
+      "AI Evaluation",
+      "Healthcare Domain Knowledge"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5ac3c19c"
   }
 }
