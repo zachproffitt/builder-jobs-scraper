@@ -17131,7 +17131,9 @@
   {
     "name": "Honeycomb",
     "website": "https://honeycomb.io",
-    "status": "no_ats"
+    "status": "active",
+    "ats": "greenhouse",
+    "slug": "honeycomb"
   },
   {
     "name": "Honeydew",
@@ -43413,5 +43415,17 @@
     "name": "\u00d8rsted",
     "website": "https://orsted.com",
     "status": "no_ats"
+  },
+  {
+    "name": "ZoomInfo",
+    "ats": "greenhouse",
+    "slug": "zoominfo",
+    "status": "active"
+  },
+  {
+    "name": "Agiloft",
+    "ats": "lever",
+    "slug": "agiloft",
+    "status": "active"
   }
 ]
