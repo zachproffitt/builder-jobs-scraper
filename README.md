@@ -25,6 +25,10 @@ Both workflows write a step summary visible in the Actions dashboard. Logs are c
 
 Runs hourly via GitHub Actions. Commits to both repos automatically.
 
+## Monitoring
+
+Pipeline metrics are pushed to Grafana Cloud via Prometheus. [Dashboard →](https://zachproffitt.grafana.net/public-dashboards/72012ff58fc04ad7bade3cd5b6c40316)
+
 ## Classification
 
 Each job is sent to Claude with a structured prompt that extracts:
