@@ -3307,10 +3307,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "nox-metals",
     "name": "Nox Metals",
-    "summary": "Nox Metals supplies cut-to-size aluminum plates to American manufacturers from its Detroit facility, using AI-powered software to optimize cutting patterns, inventory forecasting, and instant quoting. The company operates an on-demand metal supply business where customers upload material specifications and receive quotes and lead times within seconds through its Gondor platform.",
-    "ats": "ashby"
+    "summary": "Nox Metals cuts aluminum plate in 6061, 7075, 7050, and 5000-series alloys to size from its Detroit, Michigan location, offering instant quotes and next-day delivery with DFARS compliance and mill certificates included and no minimum orders.",
+    "source": "meta_description"
   },
   {
     "slug": "numeral",
