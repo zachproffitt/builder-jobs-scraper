@@ -5747,10 +5747,11 @@
     "ats": "bamboo"
   },
   {
+    "ats": "workday",
     "slug": "teladoc/wd503/teladochealth_is_hiring",
     "name": "Teladoc Health",
-    "summary": "Teladoc Health operates a virtual healthcare platform that connects patients with doctors, therapists, and other healthcare providers for remote consultations across telehealth, behavioral health, and chronic disease management services. The company serves employers, health plans, hospitals, and individual consumers across multiple countries through its integrated digital health ecosystem.",
-    "ats": "workday"
+    "summary": "Teladoc Health provides virtual healthcare and telehealth solutions that offer 24/7 access to doctors, mental health support, and specialty care for individuals and organizations.",
+    "source": "meta_description"
   },
   {
     "slug": "tempus/wd5/Tempus_Careers",
