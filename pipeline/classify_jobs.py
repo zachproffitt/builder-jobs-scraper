@@ -567,6 +567,7 @@ def main():
         {"name": "builder_pipeline_result_not_builder", "value": not_eng},
         {"name": "builder_pipeline_result_unclear",     "value": unclear},
         {"name": "builder_pipeline_classify_errors",    "value": errors},
+        {"name": "builder_pipeline_classify_cost_usd",  "value": usage.get("cost_usd", 0.0)},
     ], log_error=log_error, labels={"run_id": run_id, "action": "jobs", "pipeline": "classify"})
 
     push_metrics(board_metrics(), log_error=log_error)
