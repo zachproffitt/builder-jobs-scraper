@@ -223247,5 +223247,231 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "44e0b1b5"
+  },
+  "lever-fresha-31b5ecd1-6798-46c6-a8b0-7552dcefbb28": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2ce86259"
+  },
+  "workday-hpe-Enterprise-Account-Manager--Expansion---DOE_1207144-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "af5cb9b7"
+  },
+  "workday-hpe-Engineering-Technical-Program-Manager_1206118": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b2eeea86"
+  },
+  "ashby-snowflake-f6a295e5-4651-4d60-81be-0b98adae30f0": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ac919933"
+  },
+  "greenhouse-stripe-7717676": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6730a194"
+  },
+  "workday-jll-Site-Facilities-Coordinator_REQ510118": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4379fe49"
+  },
+  "workday-jci-HVAC-Service-Engineer_WD30270393-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "006207f2"
+  },
+  "workday-paloaltonetworks-Country-Director--Indonesia_JR-017789-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "75f286ea"
+  },
+  "workday-trimble-Mixed-Reality-Testing-Intern_R55870": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8825baca"
+  },
+  "workday-jci-BMS-Technician_WD30268668": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2a7f85f1"
+  },
+  "greenhouse-airbnb-7955573": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Design and operationalize post-training intelligence frameworks integrating Large Reasoning Models, Knowledge Graphs, and reinforcement learning to power reasoning, planning, and multi-agent decision-making systems across Airbnb's marketplace. Requires deep expertise in hybrid symbolic-connectionist architectures, distributed RL, and production-scale reasoning at the foundational platform level.",
+    "skills": [
+      "PyTorch",
+      "JAX",
+      "Ray",
+      "RLlib",
+      "Python",
+      "Reinforcement Learning",
+      "Knowledge Graphs",
+      "Large Language Models"
+    ],
+    "level": "principal",
+    "comp": "$296,000\u2013$370,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "71bdeb75"
+  },
+  "greenhouse-airbnb-7955579": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and optimize large language models for customer support AI applications, including fine-tuning, alignment, RAG systems, and real-time inference serving at scale across Airbnb's platform. Requires PhD in ML/CS and 10+ years developing production ML systems; you'll drive multi-year ML infrastructure strategy and architectural decisions.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "LLM Fine-tuning",
+      "Transformer Models",
+      "CUDA",
+      "GPU Optimization",
+      "Model Quantization",
+      "Reinforcement Learning"
+    ],
+    "level": "principal",
+    "comp": "$292,000\u2014$365,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "abd51e3a"
+  },
+  "workday-hpe-Cloud-developer-Intern---Stagiaire-dveloppeur-infonuagique_1193428": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "canada",
+    "location": "St-Laurent, Quebec, Canada",
+    "job_summary": "Develop and maintain wireless drivers for networking hardware, focusing on Wi-Fi protocol implementation and driver functionality improvements. Summer internship requiring on-site presence in Quebec.",
+    "skills": [
+      "C",
+      "Wi-Fi Protocols"
+    ],
+    "level": "intern",
+    "comp": "CAD$17.40-$31.00/hour",
+    "comp_extras": [],
+    "source_hash": "42e6406c"
+  },
+  "workday-jci-Responsable-des-services-CVAC_WD30270378": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Montreal, Canada",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$87,700-$132,000",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "8458a9f0"
+  },
+  "workday-jci-Spcialiste-en-dveloppement-de-solutions-nergtiques_WD30268204": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Montreal, Canada",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$87,700-$132,000 CAD",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "521d0418"
   }
 }
