@@ -5944,10 +5944,11 @@
     "ats": "bamboo"
   },
   {
+    "ats": "workday",
     "slug": "bb/wd3/BlackBerry",
     "name": "BlackBerry QNX",
-    "summary": "BlackBerry QNX develops embedded operating systems and real-time software platforms for automotive, industrial, and medical devices. The company specializes in safety-critical and mission-critical applications where reliability and deterministic performance are essential requirements.",
-    "ats": "workday"
+    "summary": "BlackBerry operates through two divisions: BlackBerry Secure Communications, which delivers mission-critical security, and QNX, which delivers embedded software.",
+    "source": "meta_description"
   },
   {
     "slug": "brilliant",
