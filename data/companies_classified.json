@@ -899,10 +899,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "gitlab",
     "name": "GitLab",
-    "summary": "GitLab builds a DevOps platform that provides version control, CI/CD pipelines, and project management tools for software development teams. The company operates in the software development tooling and application lifecycle management space, serving organizations that need to manage code repositories and automate their deployment workflows.",
-    "ats": "greenhouse"
+    "summary": "GitLab is a DevOps platform delivered as a single application that covers the full software development lifecycle.",
+    "source": "one_liner"
   },
   {
     "slug": "katalyst",
