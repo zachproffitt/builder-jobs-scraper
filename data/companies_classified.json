@@ -7286,10 +7286,11 @@
     "ats": "bamboo"
   },
   {
+    "ats": "greenhouse",
     "slug": "dataiku",
     "name": "Dataiku",
-    "summary": "Dataiku builds a platform that enables organizations to design, build, and operate data pipelines and machine learning models at scale. The company serves enterprises across various industries who need to democratize data science and analytics work across technical and non-technical teams.",
-    "ats": "greenhouse"
+    "summary": "Dataiku builds a platform that combines people, orchestration, and governance to help organizations deliver measurable business outcomes from their AI investments.",
+    "source": "meta_description"
   },
   {
     "slug": "tuxera",
