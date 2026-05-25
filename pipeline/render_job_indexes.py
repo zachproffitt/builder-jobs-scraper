@@ -29,7 +29,7 @@ COMPANIES_README = JOBS_REPO / "COMPANIES.md"
 README_WINDOW_HOURS = 24
 
 
-def collect_jobs() -> tuple[list[dict], dict[str, str]]:
+def collect_jobs() -> tuple[list[dict], dict[str, str], int]:
     """Read from data files, filter to renderable engineering jobs, deduplicate multi-city roles."""
     company_logos: dict[str, str] = {}
     if COMPANIES_FILE.exists():
@@ -49,6 +49,7 @@ def collect_jobs() -> tuple[list[dict], dict[str, str]]:
         and not classified.get(j["id"], {}).get("is_contract", False)
         and classified.get(j["id"], {}).get("region") in ("us", "canada")
     ]
+    raw_total = len(eng_jobs)
 
     # Deduplicate multi-city roles — same company + normalized title → one index entry
     groups: dict[tuple[str, str], list[dict]] = defaultdict(list)
@@ -85,7 +86,7 @@ def collect_jobs() -> tuple[list[dict], dict[str, str]]:
             "comp_extras": cl.get("comp_extras") or [],
         })
 
-    return result, company_logos
+    return result, company_logos, raw_total
 
 
 def format_meta(j: dict) -> str:
@@ -247,7 +248,7 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
     print(f"Written {out_path} ({total} jobs, {new_recent} new)")
 
 
-def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: Path) -> None:
+def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: Path, raw_total: int = 0) -> None:
     cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
 
     company_summaries: dict[str, str] = {}
@@ -262,7 +263,7 @@ def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: 
         by_company[j["company"]].append(j)
 
     companies_sorted = sorted(by_company.keys(), key=str.casefold)
-    total_jobs = len(jobs)
+    total_jobs = raw_total if raw_total else len(jobs)
     new_recent = sum(1 for j in jobs if is_new_within(j, cutoff))
 
     lines = [
@@ -338,7 +339,7 @@ def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: 
 
 
 def main():
-    jobs, company_logos = collect_jobs()
+    jobs, company_logos, raw_total = collect_jobs()
 
     company_count = 0
     if COMPANIES_FILE.exists():
@@ -346,7 +347,7 @@ def main():
         company_count = len([c for c in companies if c.get("ats") in SUPPORTED_ATS])
 
     cutoff_24h = datetime.now(timezone.utc) - timedelta(hours=README_WINDOW_HOURS)
-    board_total = len(jobs)
+    board_total = raw_total
     board_new = sum(1 for j in jobs if is_new_within(j, cutoff_24h))
 
     def is_recent(job: dict) -> bool:
@@ -402,7 +403,7 @@ def main():
         remote_only=True,
     )
 
-    render_companies(jobs, company_logos, out_path=COMPANIES_README)
+    render_companies(jobs, company_logos, out_path=COMPANIES_README, raw_total=raw_total)
 
 
 if __name__ == "__main__":
