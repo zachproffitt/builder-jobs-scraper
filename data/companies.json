@@ -30347,6 +30347,13 @@
     "one_liner": "Building persistent, high-performance infrastructure in the sky"
   },
   {
+    "name": "Raft",
+    "ats": "greenhouse",
+    "slug": "raft",
+    "website": "https://teamraft.com",
+    "status": "active"
+  },
+  {
     "name": "Railway",
     "website": "https://railway.app",
     "status": "no_ats"
@@ -38713,7 +38720,9 @@
   {
     "name": "Torc Robotics",
     "website": "https://torc.ai",
-    "status": "no_ats"
+    "status": "active",
+    "ats": "greenhouse",
+    "slug": "torcrobotics"
   },
   {
     "name": "Torch",
