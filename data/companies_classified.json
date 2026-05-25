@@ -3737,10 +3737,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "SalesPatriot",
     "name": "SalesPatriot",
-    "summary": "SalesPatriot builds operational AI software that aggregates data from fragmented enterprise systems like ERPs, CRMs, and supplier portals to automate supply chain workflows for distributors and OEMs. The platform helps these companies accelerate quoting, sourcing, and order management by consolidating scattered data sources and reducing manual tasks that consume employee time.",
-    "ats": "ashby"
+    "summary": "SalesPatriot builds an AI-powered operating system for distributors and original equipment manufacturers (OEMs).",
+    "source": "one_liner"
   },
   {
     "slug": "saltsecurity",
