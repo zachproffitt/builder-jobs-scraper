@@ -7413,10 +7413,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "workday",
     "slug": "draper/wd5/Draper_Careers",
     "name": "Draper",
-    "summary": "Draper builds cloud infrastructure and networking solutions for enterprises, providing services like virtual private clouds, load balancing, and distributed computing resources to help organizations manage their IT operations.",
-    "ats": "workday"
+    "summary": "Draper is an independent, nonprofit research and development company headquartered in Cambridge, MA that employs over 2,000 engineers and scientists working on solutions in military defense, space exploration, and biomedical engineering. The company's multidisciplinary teams apply systems engineering and technical expertise to develop complex technology solutions for national priorities.",
+    "source": "job_posting"
   },
   {
     "slug": "MastReforestation",
@@ -9888,5 +9889,12 @@
     "name": "Bastion",
     "summary": "Bastion builds regulated financial infrastructure for modern businesses, providing a full stack product suite that covers stablecoin issuance, custodial wallet infrastructure, and global asset conversion rails. Bastion holds appropriate licenses for its operations and can also act as a service provider offering compliance and financial operations support under customers' licenses.",
     "source": "job_posting"
+  },
+  {
+    "ats": "workday",
+    "slug": "xylem/wd5/xylem-careers",
+    "name": "Xylem",
+    "summary": "Xylem develops water, wastewater, and energy solutions using smart technology.",
+    "source": "meta_description"
   }
 ]
