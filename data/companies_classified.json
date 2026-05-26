@@ -1807,10 +1807,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "havenenglish",
     "name": "Haven Studios",
-    "summary": "Haven Studios is a video game developer that creates original games and interactive experiences, operating primarily in the action-adventure and sci-fi genres. The studio focuses on developing both single-player and multiplayer titles for console and PC platforms.",
-    "ats": "greenhouse"
+    "summary": "Haven Studios builds games for PlayStation, including a new multiplayer IP designed as a systemic and evolving world focused on freedom, thrill, and playfulness. The studio, which joined PlayStation Studios in 2022, is the first Sony game development team in Canada.",
+    "source": "job_posting"
   },
   {
     "slug": "housemarque",
