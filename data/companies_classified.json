@@ -1583,10 +1583,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "assemblyai",
     "name": "AssemblyAI",
-    "summary": "AssemblyAI builds APIs and models for speech recognition and audio intelligence, enabling developers to convert audio and video files into text and extract insights like speaker identification, content moderation, and entity detection. The company operates in the speech-to-text and audio processing domain, serving use cases in transcription, content analysis, and accessibility applications.",
-    "ats": "greenhouse"
+    "summary": "AssemblyAI builds APIs and tools for developers to build voice AI applications.",
+    "source": "one_liner"
   },
   {
     "slug": "Deepgram",
@@ -2395,10 +2396,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "datafold",
     "name": "Datafold",
-    "summary": "Datafold builds data quality and testing automation tools designed to catch bugs in data pipelines and SQL transformations before they reach production. The company operates in the data engineering and analytics domain, providing version control and CI/CD capabilities specifically for data warehouse and data lake environments.",
-    "ats": "ashby"
+    "summary": "Datafold builds software that automates manual and repetitive data engineering tasks using artificial intelligence.",
+    "source": "one_liner"
   },
   {
     "ats": "ashby",
@@ -3660,10 +3662,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "ready",
     "name": "Ready",
-    "summary": "Ready builds cloud infrastructure and deployment tools that help developers and teams manage containerized applications and microservices across distributed environments. The company operates in the DevOps and cloud computing domain, providing platforms for application deployment, scaling, and orchestration.",
-    "ats": "ashby"
+    "summary": "Ready builds an intelligence platform for government-regulated utilities that provides reporting and compliance automation, geospatial AI, and related services.",
+    "source": "meta_description"
   },
   {
     "slug": "Recall",
@@ -3973,10 +3976,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "sygaldry-technologies",
     "name": "Sygaldry Technologies",
-    "summary": "Sygaldry Technologies builds quantum-accelerated AI servers that combine multiple qubit modalities to speed up training and inference for artificial intelligence models. The company operates in the quantum computing and AI infrastructure domain, developing hardware and tools to integrate quantum capabilities into AI systems for applications in materials science, drug discovery, and other computationally intensive fields.",
-    "ats": "ashby"
+    "summary": "Sygaldry Technologies builds quantum-accelerated AI servers.",
+    "source": "one_liner"
   },
   {
     "slug": "synapticure",
@@ -9917,5 +9921,12 @@
     "name": "ZoomInfo",
     "summary": "ZoomInfo provides go-to-market intelligence and sales acceleration software that helps sales, marketing, operations, and recruiting teams identify and engage potential customers.",
     "source": "job_posting"
+  },
+  {
+    "ats": "workday",
+    "slug": "proofpoint/wd5/proofpointcareers",
+    "name": "Proofpoint",
+    "summary": "Proofpoint offers compliance and cybersecurity solutions that protect against cyber attacks across email, web, cloud, and other platforms.",
+    "source": "meta_description"
   }
 ]
