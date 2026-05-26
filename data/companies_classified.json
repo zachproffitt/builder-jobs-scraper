@@ -2146,10 +2146,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "cambio",
     "name": "Cambio",
-    "summary": "Cambio builds an AI-powered software platform that helps commercial real estate asset managers manage retrofitting, compliance, and sustainability reporting across their building portfolios. The platform automates data collection from building records and utilities, identifies retrofit opportunities ranked by ROI, and generates standardized sustainability reports for frameworks like GRESB, TCFD, and SFDR.",
-    "ats": "ashby"
+    "summary": "Cambio provides software for commercial real estate operations using AI technology.",
+    "source": "one_liner"
   },
   {
     "slug": "Cambly",
@@ -8836,10 +8837,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "parachutehealth",
     "name": "Parachute Health",
-    "summary": "Parachute Health provides cloud-based software and services for managing patient safety incidents and quality improvements in healthcare organizations, helping hospitals and health systems track, investigate, and learn from adverse events and near-misses.",
-    "ats": "greenhouse"
+    "summary": "Parachute Health operates a digital platform that allows users to order and ePrescribe durable medical equipment supplies.",
+    "source": "meta_description"
   },
   {
     "slug": "passthrough",
