@@ -4553,10 +4553,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "anterior",
     "name": "Anterior",
-    "summary": "Anterior provides cloud-based software for managing clinical trials, including electronic data capture, patient engagement, and regulatory compliance tools that help sponsors and contract research organizations streamline trial operations.",
-    "ats": "ashby"
+    "summary": "Anterior builds an AI-powered platform designed to simplify healthcare administrative workflows by transforming clinical policies into structured reasoning representations. The platform aims to make healthcare administration seamless so clinicians can focus on delivering care and improving patient outcomes.",
+    "source": "job_posting"
   },
   {
     "ats": "ashby",
@@ -4716,10 +4717,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "lever",
     "slug": "dollskill",
     "name": "Dolls Kill",
-    "summary": "Dolls Kill is an e-commerce fashion retailer that sells alternative and edgy clothing, accessories, and footwear targeted at youth and young adults who prefer gothic, punk, grunge, and experimental aesthetic styles. The company operates in the direct-to-consumer fashion retail space, offering its own branded products alongside curated selections from independent designers.",
-    "ats": "lever"
+    "summary": "Dolls Kill is an online boutique that sells punk rock, goth, glam, and festival fashion with free shipping worldwide.",
+    "source": "meta_description"
   },
   {
     "slug": "dust",
