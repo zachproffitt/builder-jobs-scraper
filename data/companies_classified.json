@@ -4845,10 +4845,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "myome",
     "name": "MyOme",
-    "summary": "MyOme develops personalized nutrition and wellness plans based on individual genetic and metabolic data, helping users optimize their diet and health outcomes through DNA testing and microbiome analysis.",
-    "ats": "greenhouse"
+    "summary": "MyOme is a clinical whole genome analysis platform that helps families understand their risk for inherited diseases using polygenic modeling.",
+    "source": "meta_description"
   },
   {
     "slug": "nauto",
