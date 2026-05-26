@@ -6975,10 +6975,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "cayuse",
     "name": "Cayuse",
-    "summary": "Cayuse develops cloud-based research administration software that helps universities and research institutions manage grants, compliance, and institutional data throughout the research lifecycle.",
-    "ats": "greenhouse"
+    "summary": "Cayuse provides a cloud-based platform for research and grant administration that helps organizations manage compliance and streamline their processes.",
+    "source": "meta_description"
   },
   {
     "slug": "j",
