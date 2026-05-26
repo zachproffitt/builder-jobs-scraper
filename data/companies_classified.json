@@ -1867,10 +1867,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "AfterQuery",
     "name": "AfterQuery",
-    "summary": "AfterQuery is an applied research lab that curates high-quality training datasets for frontier foundation model development by capturing how domain experts actually think and solve problems. They work with professional experts to structure their reasoning, decisions, and step-by-step problem-solving approaches into supervised fine-tuning data and reinforcement learning rubrics that help AI models move beyond pattern matching to genuine reasoning.",
-    "ats": "ashby"
+    "summary": "AfterQuery curates data solutions to accelerate foundation model development.",
+    "source": "meta_description"
   },
   {
     "slug": "AgentMail",
