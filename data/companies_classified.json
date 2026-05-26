@@ -538,11 +538,11 @@
     "source": "job_posting"
   },
   {
-    "name": "Finch",
+    "ats": "lever",
     "slug": "finch",
-    "summary": "Finch builds infrastructure software to power employment systems used by companies.",
-    "source_hash": "b4488958",
-    "ats": "lever"
+    "name": "Finch",
+    "summary": "Finch provides an employment data platform that aggregates payroll and HR information from various sources.",
+    "source": "one_liner"
   },
   {
     "name": "Havoc AI",
@@ -6770,10 +6770,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "workday",
     "slug": "biibhr/wd3/external",
     "name": "Biogen",
-    "summary": "Biogen is a biotechnology company that discovers, develops, and delivers medicines for neurological and immunological diseases. The company focuses on areas including multiple sclerosis, spinal muscular atrophy, Alzheimer's disease, and hemophilia, with a portfolio of both approved therapies and clinical-stage programs.",
-    "ats": "workday"
+    "summary": "Biogen is a biotechnology company that develops medicines for patients.",
+    "source": "meta_description"
   },
   {
     "slug": "bitbean",
@@ -7125,10 +7126,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "cognite",
     "name": "Cognite LLC",
-    "summary": "Cognite builds a data platform that helps industrial companies extract, organize, and analyze operational data from their physical assets and production systems. The platform serves sectors including oil and gas, power generation, manufacturing, and mining by enabling customers to contextualize raw sensor data and historical records into actionable insights for optimization and predictive maintenance.",
-    "ats": "greenhouse"
+    "summary": "Cognite LLC builds AI and data solutions, including its Cognite Data Fusion platform, that help industrial companies make operational data available at scale to drive digital transformation and operational improvements.",
+    "source": "job_posting"
   },
   {
     "slug": "coinme",
@@ -7472,10 +7474,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "echodynecorp",
     "name": "Echodyne",
-    "summary": "Echodyne builds electronically scanned radar systems for defense, aerospace, and commercial applications, offering compact and affordable radar solutions that replace traditional mechanical scanning radars with software-controlled beam steering technology.",
-    "ats": "greenhouse"
+    "summary": "Echodyne makes compact radar technology for defense, security, and autonomous applications.",
+    "source": "meta_description"
   },
   {
     "slug": "echomark",
@@ -7583,10 +7586,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "smartrecruiters",
     "slug": "Eurofins",
     "name": "Eurofins",
-    "summary": "Eurofins is a laboratory testing and scientific analysis company that provides testing services across pharmaceuticals, food, environmental, cosmetics, and other sectors globally. The company operates thousands of laboratories worldwide and offers analytical testing, bioanalysis, forensics, and quality assurance services to help clients ensure product safety and regulatory compliance.",
-    "ats": "smartrecruiters"
+    "summary": "Eurofins provides testing and contract research organization services for food, environment, and pharmaceutical products, as well as agroscience services, operating through a network of more than 950 laboratories in 59 countries with over 65,000 staff and offering more than 200,000 analytical methods.",
+    "source": "meta_description"
   },
   {
     "slug": "everbridge",
@@ -9898,5 +9902,19 @@
     "name": "Xylem",
     "summary": "Xylem develops water, wastewater, and energy solutions using smart technology.",
     "source": "meta_description"
+  },
+  {
+    "ats": "greenhouse",
+    "slug": "torcrobotics",
+    "name": "Torc Robotics",
+    "summary": "Torc Robotics develops software for automated trucks that integrates with test vehicles to transform freight transportation. Now part of the Daimler family, the company focuses on commercializing autonomous driving solutions through direct partnerships with truck manufacturers.",
+    "source": "job_posting"
+  },
+  {
+    "ats": "greenhouse",
+    "slug": "zoominfo",
+    "name": "ZoomInfo",
+    "summary": "ZoomInfo provides go-to-market intelligence and sales acceleration software that helps sales, marketing, operations, and recruiting teams identify and engage potential customers.",
+    "source": "job_posting"
   }
 ]
