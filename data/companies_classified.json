@@ -3933,10 +3933,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "Stepful",
     "name": "Stepful",
-    "summary": "Stepful is an online education platform that offers flexible, competency-based training programs in skilled trades such as electrical work, plumbing, HVAC, and welding, designed to help students earn certifications and enter the workforce without traditional four-year degrees. The company operates in the vocational and technical education sector, partnering with employers and trade unions to provide affordable alternatives to conventional apprenticeships.",
-    "ats": "ashby"
+    "summary": "Stepful provides online training programs for healthcare jobs.",
+    "source": "one_liner"
   },
   {
     "slug": "stradahq",
@@ -4759,10 +4760,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "gofundme",
     "name": "GoFundMe",
-    "summary": "GoFundMe is a crowdfunding platform that allows individuals to create fundraising campaigns for personal causes such as medical emergencies, education, disaster relief, and other life events. The platform connects people seeking financial support with donors who can contribute to campaigns they choose to support.",
-    "ats": "greenhouse"
+    "summary": "GoFundMe is a crowdfunding platform that allows people to start fundraisers and receive financial contributions from others.",
+    "source": "meta_description"
   },
   {
     "slug": "houzz",
@@ -5776,10 +5778,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "workday",
     "slug": "tempus/wd5/Tempus_Careers",
     "name": "Tempus AI",
-    "summary": "Tempus AI builds a clinical intelligence platform that integrates molecular, imaging, and clinical data to help oncologists make treatment decisions for cancer patients. The company operates in the healthcare and precision medicine domain, providing data analytics tools that identify optimal therapies based on individual patient tumor characteristics.",
-    "ats": "workday"
+    "summary": "Tempus builds an operating system that combines clinical and molecular data to make information accessible for cancer treatment and research.",
+    "source": "meta_description"
   },
   {
     "slug": "testrigor",
@@ -9680,10 +9683,11 @@
     "ats": "lever"
   },
   {
+    "ats": "ashby",
     "slug": "teamworks",
     "name": "Teamworks",
-    "summary": "Teamworks builds a mobile-first team management platform that helps sports teams, fitness facilities, and organizations coordinate schedules, communicate with players and staff, and manage operations through a centralized app and web interface.",
-    "ats": "ashby"
+    "summary": "Teamworks builds an integrated technology platform designed for elite sports teams to digitize the athlete lifecycle and consolidate their technology systems.",
+    "source": "meta_description"
   },
   {
     "ats": "workday",
