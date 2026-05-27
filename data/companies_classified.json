@@ -5291,10 +5291,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "workday",
     "slug": "cotality/wd115/Global",
     "name": "CoreLogic",
-    "summary": "CoreLogic provides data, analytics, and technology solutions for the real estate, mortgage, insurance, and capital markets industries, leveraging property information and risk assessment to help lenders, insurers, and real estate professionals make informed decisions.",
-    "ats": "workday"
+    "summary": "Cotality provides property intelligence and data across the real estate ecosystem to clients in property and insurance industries. Through its India-based subsidiary Next Gear India Private Limited, Cotality develops software solutions and delivery services for the Property & Casualty Insurance and Property Restoration sectors.",
+    "source": "job_posting"
   },
   {
     "ats": "workday",
