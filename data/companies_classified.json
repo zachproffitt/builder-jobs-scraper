@@ -4699,10 +4699,11 @@
     "ats": "lever"
   },
   {
+    "ats": "ashby",
     "slug": "DeepL",
     "name": "DeepL",
-    "summary": "DeepL develops an AI-powered translation service that uses neural networks to translate text and documents between multiple languages with high accuracy. The company operates in the machine translation and language technology sector, offering both a free web interface and API access for businesses and developers.",
-    "ats": "ashby"
+    "summary": "DeepL provides translation services for speech, text, and media, and offers an API for integration.",
+    "source": "meta_description"
   },
   {
     "slug": "Deno",
