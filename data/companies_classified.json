@@ -3192,10 +3192,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "middesk",
     "name": "Middesk",
-    "summary": "Middesk builds a verification and compliance platform that helps businesses confirm the legitimacy and details of other companies during onboarding and ongoing monitoring. The company operates in the B2B fintech and compliance domain, serving customers in financial services, payments, and other regulated industries that need to verify business identity and regulatory status.",
-    "ats": "ashby"
+    "summary": "Middesk provides software that simplifies transactions between B2B companies.",
+    "source": "one_liner"
   },
   {
     "slug": "Laminar",
@@ -5006,10 +5007,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "threatlocker",
     "name": "ThreatLocker",
-    "summary": "ThreatLocker provides cybersecurity software that enables organizations to control application execution, manage file access, and detect threats through zero-trust principles. The platform helps companies protect their endpoints and data by restricting what software can run and what files can be accessed on devices, primarily serving managed service providers and enterprises.",
-    "ats": "greenhouse"
+    "summary": "ThreatLocker delivers a Zero Trust cybersecurity solutions platform that provides enterprise security software and solutions.",
+    "source": "meta_description"
   },
   {
     "slug": "top-hat",
