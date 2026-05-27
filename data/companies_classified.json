@@ -2642,10 +2642,11 @@
     "ats": "lever"
   },
   {
+    "ats": "ashby",
     "slug": "withflex",
     "name": "Flex",
-    "summary": "Flex builds software that helps small business owners manage their finances, including invoicing, expense tracking, and financial reporting tools. The company operates in the financial software and small business accounting space.",
-    "ats": "ashby"
+    "summary": "Flex builds a payments platform for HSA and FSA transactions.",
+    "source": "one_liner"
   },
   {
     "slug": "FlutterFlow",
@@ -4322,10 +4323,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "deepmind",
-    "name": "DeepMind",
-    "summary": "DeepMind is an artificial intelligence research laboratory owned by Google/Alphabet that develops machine learning systems and algorithms, with a focus on creating AI agents capable of solving complex problems across domains like games, protein folding, and scientific discovery. The company operates primarily in foundational AI research, publishing their findings and developing AI systems that tackle challenges in biology, physics, mathematics, and other scientific fields.",
-    "ats": "greenhouse"
+    "name": "Google DeepMind",
+    "summary": "Google DeepMind conducts research in artificial intelligence and computational science, combining machine learning, computer science, and domain expertise in physics, chemistry, and biology to accelerate scientific discovery. The company is pursuing a research program in materials science that aims to accelerate the discovery of new functional materials by combining AI and computational simulation with automated experimentation.",
+    "source": "job_posting"
   },
   {
     "slug": "Honey Homes",
@@ -4775,10 +4777,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "instructure",
     "name": "Instructure",
-    "summary": "Instructure develops Canvas, a learning management system used by educational institutions and organizations to deliver online courses, manage student learning, and facilitate collaboration between instructors and students. The platform serves K-12 schools, higher education institutions, and corporate training departments globally.",
-    "ats": "ashby"
+    "summary": "Instructure builds learning management system and educational technology solutions for K-12 schools, higher education institutions, and businesses, including products called Canvas, Impact, and Mastery.",
+    "source": "meta_description"
   },
   {
     "slug": "Irregular",
@@ -5251,10 +5254,11 @@
     "ats": "breezy"
   },
   {
+    "ats": "workday",
     "slug": "cityblockhealth/wd1/CityblockExternalCareerSite",
     "name": "Cityblock Health",
-    "summary": "Cityblock Health operates a healthcare delivery platform that provides primary care, behavioral health, and social services to underserved communities, particularly focusing on Medicaid patients in urban areas. The company combines clinical services with technology and social determinants of health interventions to address gaps in care access and health outcomes.",
-    "ats": "workday"
+    "summary": "Cityblock Health provides healthcare services designed to be personalized around individual patient needs and circumstances.",
+    "source": "meta_description"
   },
   {
     "ats": "workday",
@@ -9939,5 +9943,12 @@
     "name": "Proofpoint",
     "summary": "Proofpoint offers compliance and cybersecurity solutions that protect against cyber attacks across email, web, cloud, and other platforms.",
     "source": "meta_description"
+  },
+  {
+    "ats": "greenhouse",
+    "slug": "raft",
+    "name": "Raft",
+    "summary": "Raft is a U.S.-based defense technology company that builds AI/ML and data solutions for U.S. military and government agencies, including its flagship platform [R]AIMS (Raft AI Mission System) which enables operators to build, deploy, and govern AI-powered mission workflows across operational environments. The company focuses on autonomous data fusion, distributed data systems, and complex application development for federal and public agencies.",
+    "source": "job_posting"
   }
 ]
