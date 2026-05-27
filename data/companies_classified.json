@@ -3472,10 +3472,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "phoenix",
     "name": "Phoenix",
-    "summary": "Phoenix is a Canadian digital health clinic that provides online medical assessments and prescription delivery for men's health conditions including weight loss, erectile dysfunction, hair loss, testosterone deficiencies, early climax, and smoking cessation. The company operates entirely through a virtual platform, allowing patients to complete health assessments online and receive doctor-approved prescriptions delivered discreetly to their homes without visiting physical clinics or pharmacies.",
-    "ats": "ashby"
+    "summary": "Phoenix is a digital health clinic in Canada that provides healthcare services for men.",
+    "source": "one_liner"
   },
   {
     "slug": "phonely",
@@ -8273,10 +8274,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "workday",
     "slug": "csgi/wd5/CSGCareers",
     "name": "Kitewheel",
-    "summary": "Kitewheel develops software that helps agricultural equipment manufacturers and dealers manage their operations, including inventory management, service scheduling, and customer relationship tools tailored for the farm equipment industry.",
-    "ats": "workday"
+    "summary": "Kitewheel builds CSG Xponent, a real-time customer experience platform that combines journey orchestration, analytics, and omnichannel communications capabilities.",
+    "source": "meta_description"
   },
   {
     "slug": "kixeye",
