@@ -925,10 +925,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "greenhouse",
     "slug": "tailscale",
     "name": "Tailscale",
-    "summary": "Tailscale builds a VPN service that creates secure, encrypted networks connecting devices and services across the internet using WireGuard protocol. The company operates in the networking and cybersecurity domain, focusing on making it easier for teams and organizations to establish private network access without traditional VPN infrastructure.",
-    "ats": "greenhouse"
+    "summary": "Tailscale builds software that securely interconnects people and their devices regardless of location, enabling teams to protect their networks and share access to internal tools. Founded in 2019 and fully distributed, the company is backed by Accel, CRV, Insight, Heavybit, and Uncork Capital.",
+    "source": "job_posting"
   },
   {
     "slug": "temporal",
@@ -2998,10 +2999,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "kodex",
     "name": "Kodex",
-    "summary": "Kodex builds a software platform designed to centralize and streamline the intake, processing, and reporting of law enforcement data requests and subpoenas. The company operates in the legal compliance and data governance domain, serving government agencies, financial institutions, cryptocurrency companies, telecommunications providers, and other regulated organizations that regularly handle data requests from law enforcement.",
-    "ats": "ashby"
+    "summary": "Kodex makes software that helps companies process data requests from governments.",
+    "source": "one_liner"
   },
   {
     "slug": "koko",
@@ -7880,10 +7882,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "graviticsinc",
     "name": "Gravitics",
-    "summary": "Gravitics develops modular space station modules and in-space manufacturing systems designed for orbital infrastructure and commercial space stations. The company focuses on building pressurized habitation and logistics modules that can be launched, assembled, and operated in low Earth orbit.",
-    "ats": "greenhouse"
+    "summary": "Gravitics designs and manufactures large-scale orbital structures that enable commercial operations while meeting the requirements of defense and government missions. The company creates infrastructure for a space economy by building spacecraft systems designed to scale and support commercial, defense, and government missions.",
+    "source": "job_posting"
   },
   {
     "slug": "graymatter-robotics",
