@@ -2904,10 +2904,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "icarus",
     "name": "Icarus",
-    "summary": "Icarus builds APOLLO, a solar-powered, autonomous high-altitude platform that operates in the stratosphere above 60,000 feet to provide persistent aerial surveillance and communications. The company operates in the space-based sensing and intelligence domain, offering real-time imaging and low-latency connectivity as an alternative to traditional satellite systems.",
-    "ats": "greenhouse"
+    "summary": "Icarus builds solar-powered aircraft that fly at 60,000 feet for weeks at a time to deliver persistent, affordable, and scalable presence from the stratosphere. The company designs and operates lightweight, high-reliability structures for stratospheric aircraft, with work spanning mechanical subsystems, integration, production, and flight operations.",
+    "source": "job_posting"
   },
   {
     "slug": "infisical",
@@ -5639,10 +5640,11 @@
     "ats": "workable"
   },
   {
+    "ats": "workday",
     "slug": "ringcentral/wd1/RingCentral_Careers",
     "name": "RingCentral",
-    "summary": "RingCentral provides a cloud-based unified communications platform that integrates voice, video, messaging, and collaboration tools for businesses of all sizes. The company operates in the enterprise software and telecommunications space, serving customers across healthcare, finance, retail, and other industries.",
-    "ats": "workday"
+    "summary": "RingCentral provides agentic voice AI products, including an AI Receptionist, AI Virtual Assistant, and AI Conversation Expert, that enable businesses to automate voice communications.",
+    "source": "meta_description"
   },
   {
     "slug": "sailpoint/wd1/SailPoint",
@@ -5877,10 +5879,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "newrelic",
     "name": "New Relic",
-    "summary": "New Relic provides an observability platform that helps organizations monitor, troubleshoot, and optimize their software applications and infrastructure in real-time. The company serves enterprises across industries by collecting and analyzing telemetry data including metrics, logs, and traces to improve application performance and reliability.",
-    "ats": "greenhouse"
+    "summary": "New Relic builds an observability platform that provides insight into complex systems and includes a proprietary telemetry database (NRDB) that ingests, stores, and queries data at scale, along with a query language stack for processing that data.",
+    "source": "job_posting"
   },
   {
     "slug": "openrouter",
