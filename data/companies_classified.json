@@ -8040,10 +8040,11 @@
     "ats": "breezy"
   },
   {
+    "ats": "greenhouse",
     "slug": "impact",
     "name": "IMPACT.",
-    "summary": "IMPACT builds a partnership management platform that helps B2B SaaS companies, agencies, and enterprise organizations manage affiliate, channel, and referral partnerships at scale. The platform provides tracking, attribution, performance management, and payment processing tools designed to streamline partner recruitment, enablement, and compensation across distributed sales ecosystems.",
-    "ats": "greenhouse"
+    "summary": "IMPACT offers a platform for managing affiliates, influencers, and referrals that allows brands and publishers to streamline their partnership operations.",
+    "source": "meta_description"
   },
   {
     "slug": "inato",
@@ -8984,10 +8985,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "precisionaq",
     "name": "PRECISIONvalue",
-    "summary": "PRECISIONvalue develops software and consulting services that help manufacturing companies optimize production efficiency, reduce waste, and improve operational performance through data analytics and process improvement methodologies.",
-    "ats": "greenhouse"
+    "summary": "PRECISIONvalue provides healthcare access and drug commercialization services through a team of over 1,200 experts.",
+    "source": "meta_description"
   },
   {
     "slug": "prendiodbaprendiobioprocure",
