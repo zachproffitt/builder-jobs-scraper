@@ -5756,10 +5756,11 @@
     "ats": "breezy"
   },
   {
+    "ats": "workday",
     "slug": "sunrun/wd5/Sunrun_Careers",
     "name": "Sunrun",
-    "summary": "Sunrun is the largest residential solar energy company in the United States, providing rooftop solar panel systems to homeowners through purchase and lease financing options. The company operates in the distributed solar energy market, installing and maintaining solar systems that generate electricity for residential customers while handling the associated permitting, financing, and ongoing maintenance.",
-    "ats": "workday"
+    "summary": "Sunrun provides home solar panel and battery storage systems, offering installation with little to no money down and fixed energy rates.",
+    "source": "meta_description"
   },
   {
     "slug": "supernova",
