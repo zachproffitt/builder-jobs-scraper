@@ -7955,10 +7955,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "homelight",
     "name": "HomeLight",
-    "summary": "HomeLight operates a digital real estate marketplace that connects homeowners with local real estate agents and provides tools for home selling, buying, and valuation. The company aggregates agent listings and reviews to help consumers find qualified agents in their area and access home pricing data and market insights.",
-    "ats": "greenhouse"
+    "summary": "HomeLight uses data to help homebuyers and sellers find real estate agents nationwide.",
+    "source": "meta_description"
   },
   {
     "slug": "homeward",
