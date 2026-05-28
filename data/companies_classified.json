@@ -1661,10 +1661,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "moderntreasury",
     "name": "Modern Treasury",
-    "summary": "Modern Treasury builds a payments operations platform that helps finance teams manage, reconcile, and automate payment workflows across multiple banks and payment rails. The company operates in the financial infrastructure and treasury management domain, serving mid-market and enterprise organizations that need to coordinate complex, high-volume payment operations.",
-    "ats": "ashby"
+    "summary": "Modern Treasury builds payment operations tools for money movement.",
+    "source": "one_liner"
   },
   {
     "slug": "spreedly",
@@ -3356,10 +3357,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "oneleet",
     "name": "Oneleet",
-    "summary": "Oneleet builds a compliance platform that helps SaaS companies obtain SOC 2, ISO 27001, and other security certifications faster than traditional platforms by integrating security controls directly into the process. The company operates in the enterprise software compliance and security certification domain, serving fast-growing SaaS teams seeking to achieve audit-readiness without slowing their product development.",
-    "ats": "ashby"
+    "summary": "Oneleet provides a security compliance platform that helps organizations with certifications and standards including SOC 2 and ISO 27001.",
+    "source": "one_liner"
   },
   {
     "slug": "oneschema",
@@ -4439,10 +4441,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "greenhouse",
     "slug": "cloudflare",
     "name": "Cloudflare",
-    "summary": "Cloudflare builds a global network platform that provides content delivery, security, and performance services for websites and internet applications. The company operates in the web infrastructure and cybersecurity domains, offering services such as DDoS protection, Web Application Firewalls, DNS management, and SSL/TLS encryption to businesses of all sizes.",
-    "ats": "greenhouse"
+    "summary": "Cloudflare runs a global network that powers millions of websites and internet properties, providing protection and acceleration for internet applications without requiring hardware installation, software deployment, or code changes. The company's network routes web traffic through an intelligent global system designed to improve performance and reduce spam and attacks.",
+    "source": "job_posting"
   },
   {
     "ats": "greenhouse",
@@ -8126,10 +8129,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "mitratech",
     "name": "INSZoom",
-    "summary": "INSZoom provides cloud-native application security and observability solutions that help enterprises identify and remediate vulnerabilities in their containerized environments and supply chain dependencies. The platform integrates with CI/CD pipelines to deliver real-time threat detection and compliance monitoring across Kubernetes clusters and container registries.",
-    "ats": "greenhouse"
+    "summary": "INSZoom provides software for managing global immigration cases and compliance workflows.",
+    "source": "meta_description"
   },
   {
     "slug": "intellishift",
@@ -8532,10 +8536,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "medely",
     "name": "Medely",
-    "summary": "Medely operates a telehealth platform that connects patients with licensed healthcare providers for virtual consultations and prescription services. The company focuses on providing on-demand access to medical care for acute and chronic conditions across the United States.",
-    "ats": "ashby"
+    "summary": "Medely provides a network of qualified nurses and allied health professionals along with workforce management tools for healthcare facilities to fill per-diem shifts and manage staffing.",
+    "source": "meta_description"
   },
   {
     "slug": "mediaalpha",
@@ -9051,10 +9056,11 @@
     "ats": "lever"
   },
   {
+    "ats": "greenhouse",
     "slug": "prove",
     "name": "Prove",
-    "summary": "Prove provides identity verification and mobile authentication solutions that help financial institutions, fintech companies, and other enterprises verify customers and prevent fraud during onboarding and transaction processes.",
-    "ats": "greenhouse"
+    "summary": "Prove provides identity verification services used by over 2,000 companies to reduce fraud and verify consumer identities.",
+    "source": "meta_description"
   },
   {
     "slug": "puffco",
@@ -9999,5 +10005,12 @@
     "name": "Loot Labs",
     "summary": "Loot Labs builds Boxed.gg, a platform that blends digital entertainment with tangible rewards to create collectible experiences for fans. The company has served over 500,000 collectors and maintains a community of more than 125,000 Discord members.",
     "source": "job_posting"
+  },
+  {
+    "ats": "greenhouse",
+    "slug": "komodohealth",
+    "name": "Juro",
+    "summary": "Juro provides a platform for teams to agree on and manage contracts end-to-end using AI automation.",
+    "source": "meta_description"
   }
 ]
