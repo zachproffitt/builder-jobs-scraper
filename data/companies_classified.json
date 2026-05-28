@@ -4493,10 +4493,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "greenhouse",
     "slug": "samsungresearchamerica",
     "name": "Samsung Research America",
-    "summary": "Samsung Research America conducts research and development across semiconductor technology, artificial intelligence, display technology, and consumer electronics to create products and solutions for Samsung's global business units. The organization operates primarily in the advanced technology and applied research domain, focusing on areas such as chip design, machine learning systems, and next-generation display materials.",
-    "ats": "greenhouse"
+    "summary": "Samsung Research America operates the Robot Intelligence Lab, which develops robotics technologies including foundation models, vision-language-action models, vision language models, reinforcement learning, imitation learning, advanced sensing, and sensor fusion to create intelligent robotic systems. The lab collaborates with universities, startups, government labs, and other Samsung divisions to develop robotic hardware and software components, integrate sensors and actuators, design control and perception algorithms, and deploy robot platforms for data collection and real-world task performance.",
+    "source": "job_posting"
   },
   {
     "slug": "Skydropx",
@@ -5923,10 +5924,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "ashby",
     "slug": "vanta",
     "name": "Vanta",
-    "summary": "Vanta provides a software platform that automates security and compliance monitoring, helping organizations continuously demonstrate their adherence to standards like SOC 2, ISO 27001, and HIPAA without manual auditing processes.",
-    "ats": "ashby"
+    "summary": "Vanta provides automated compliance software for startups.",
+    "source": "one_liner"
   },
   {
     "slug": "vantage",
@@ -9961,6 +9963,13 @@
     "slug": "raft",
     "name": "Raft",
     "summary": "Raft is a U.S.-based defense technology company that builds AI/ML and data solutions for U.S. military and government agencies, including its flagship platform [R]AIMS (Raft AI Mission System) which enables operators to build, deploy, and govern AI-powered mission workflows across operational environments. The company focuses on autonomous data fusion, distributed data systems, and complex application development for federal and public agencies.",
+    "source": "job_posting"
+  },
+  {
+    "ats": "ashby",
+    "slug": "owner",
+    "name": "Owner",
+    "summary": "Owner builds an AI-native system for restaurant owners that combines website, online ordering, CRM, POS, and other business management tools in a single platform. The system handles demand generation, order conversion, and day-to-day business operations to help independent restaurants succeed online.",
     "source": "job_posting"
   }
 ]
