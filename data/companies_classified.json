@@ -1229,10 +1229,11 @@
     "ats": "lever"
   },
   {
+    "ats": "lever",
     "slug": "ro",
     "name": "Ro",
-    "summary": "# Ro\n\nRo builds a telehealth platform that connects patients with licensed physicians and pharmacists to prescribe and deliver medications for chronic conditions like GLP-1 weight loss drugs, erectile dysfunction treatments, and dermatology products. The company operates in the direct-to-consumer telehealth and pharmaceutical delivery space.",
-    "ats": "lever"
+    "summary": "Ro is a telehealth company that connects patients with US-licensed healthcare professionals online to provide treatment for weight loss, sexual health, hair loss, fertility, and other conditions.",
+    "source": "meta_description"
   },
   {
     "slug": "synthego",
@@ -2028,10 +2029,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "atomic-invest",
     "name": "Atomic",
-    "summary": "Atomic builds a platform that helps financial advisors and wealth managers manage concentrated stock positions and restricted stock units (RSUs) for their clients through automated diversification and tax-efficient strategies. The company operates in the wealth management and financial services technology space, serving the advisory industry.",
-    "ats": "ashby"
+    "summary": "Atomic provides an API that lets companies embed investment accounts into their services.",
+    "source": "one_liner"
   },
   {
     "slug": "auctor",
@@ -2085,10 +2087,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "bland",
     "name": "Bland AI",
-    "summary": "Bland builds an enterprise voice AI platform that powers automated phone agents capable of conducting natural conversations to handle inbound and outbound calls for use cases like appointment scheduling, payment collection, and customer service. The company operates in the enterprise software and AI telephony domain, serving businesses that need to automate high-volume call center operations.",
-    "ats": "ashby"
+    "summary": "Bland AI builds an enterprise platform that makes AI phone calls.",
+    "source": "one_liner"
   },
   {
     "ats": "ashby",
@@ -2480,10 +2483,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "ello",
     "name": "Ello",
-    "summary": "Ello builds a social media platform designed as an ad-free, artist-friendly alternative to mainstream social networks, operating in the social media and digital community domain. The platform emphasizes creator monetization, privacy, and community features tailored for artists, photographers, designers, and other creative professionals.",
-    "ats": "ashby"
+    "summary": "Ello builds an AI teacher that provides one-on-one instruction.",
+    "source": "one_liner"
   },
   {
     "slug": "eloquentai",
@@ -6924,10 +6928,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "workday",
     "slug": "bullhorn/wd1/BullhornCareers",
     "name": "Bullhorn",
-    "summary": "Bullhorn provides a cloud-based software platform for staffing and recruitment firms, offering applicant tracking, candidate relationship management, job distribution, and back-office accounting capabilities to help agencies manage hiring operations and workforce placement.",
-    "ats": "workday"
+    "summary": "Bullhorn provides software for recruiters that automates the recruiting lifecycle and includes a recruiting CRM.",
+    "source": "meta_description"
   },
   {
     "slug": "bullish/wd3/Bullish",
@@ -9171,10 +9176,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "lever",
     "slug": "revinate",
     "name": "Revinate",
-    "summary": "Revinate provides a guest experience and reputation management platform for hotels and hospitality companies, helping them collect guest feedback, manage online reviews, and optimize their digital presence across multiple channels.",
-    "ats": "lever"
+    "summary": "Revinate is a direct booking platform for the hospitality industry that helps hotels drive direct revenue and increase profitability.",
+    "source": "meta_description"
   },
   {
     "slug": "ripplcare",
@@ -9846,10 +9852,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "fuzehealth",
     "name": "Truepill",
-    "summary": "Truepill operates a digital pharmacy platform that enables patients to access prescription medications through telehealth consultations and home delivery, integrating licensed pharmacists and healthcare providers to process prescriptions online.",
-    "ats": "greenhouse"
+    "summary": "Truepill provides pharmacy services through its FuzeRx platform, which offers dispensing, access hub services, API connectivity, and white-labeling solutions for life sciences companies, payers, and providers.",
+    "source": "meta_description"
   },
   {
     "slug": "twingate",
