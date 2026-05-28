@@ -2217,10 +2217,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "casca",
     "name": "Casca",
-    "summary": "Casca builds AI-powered workflow automation software that helps enterprises streamline and optimize their business processes across departments. The company operates in the enterprise software and artificial intelligence domain, focusing on reducing manual work and improving operational efficiency through intelligent automation.",
-    "ats": "ashby"
+    "summary": "Casca provides an AI-native Loan Origination System that automates business loan origination processes for FDIC-insured banks and non-bank lenders.",
+    "source": "meta_description"
   },
   {
     "slug": "charge-robotics",
