@@ -9346,10 +9346,11 @@
     "ats": "breezy"
   },
   {
+    "ats": "ashby",
     "slug": "sentilink",
     "name": "SentiLink",
-    "summary": "SentiLink provides identity verification and fraud prevention software that uses alternative data sources and machine learning to verify consumer identities and detect fraudulent applications in financial services, lending, and fintech platforms.",
-    "ats": "ashby"
+    "summary": "SentiLink helps financial institutions detect and prevent identity fraud during the application stage.",
+    "source": "meta_description"
   },
   {
     "slug": "sesame",
