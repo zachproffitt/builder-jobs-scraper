@@ -524,11 +524,11 @@
     "ats": "lever"
   },
   {
-    "name": "Docker",
+    "ats": "ashby",
     "slug": "docker",
-    "summary": "Docker builds containerization tools that enable developers to build, share, and run applications using Docker Desktop, Docker Hub, and Docker Scout.",
-    "source_hash": "7f12dca1",
-    "ats": "ashby"
+    "name": "Docker",
+    "summary": "Docker is a software development platform.",
+    "source": "one_liner"
   },
   {
     "ats": "ashby",
@@ -6008,10 +6008,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "delinea",
     "name": "Delinea",
-    "summary": "Delinea provides identity and access management software for enterprises, specializing in privileged account management, secrets management, and identity governance solutions that help organizations control and monitor access to critical systems and sensitive credentials.",
-    "ats": "ashby"
+    "summary": "Delinea builds a cloud-native identity security platform that discovers human and machine identities, assigns access levels, detects irregularities, and responds to threats across cloud and traditional infrastructure, data, SaaS applications, and AI systems.",
+    "source": "job_posting"
   },
   {
     "slug": "eslfaceitgrouplimited",
@@ -9989,5 +9990,12 @@
     "name": "Toyota",
     "summary": "Toyota manufactures trucks, cars, SUVs, hybrids, and minivans.",
     "source": "meta_description"
+  },
+  {
+    "ats": "ashby",
+    "slug": "loot-labs",
+    "name": "Loot Labs",
+    "summary": "Loot Labs builds Boxed.gg, a platform that blends digital entertainment with tangible rewards to create collectible experiences for fans. The company has served over 500,000 collectors and maintains a community of more than 125,000 Discord members.",
+    "source": "job_posting"
   }
 ]
