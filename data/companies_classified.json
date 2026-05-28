@@ -8843,10 +8843,11 @@
     "ats": "workday"
   },
   {
+    "ats": "lever",
     "slug": "osaro",
     "name": "Osaro",
-    "summary": "Osaro develops robotic automation software that uses artificial intelligence and computer vision to enable robots to perform complex, variable tasks in manufacturing and logistics environments without requiring detailed manual programming.",
-    "ats": "lever"
+    "summary": "Osaro offers robotic piece-picking solutions for various industries.",
+    "source": "meta_description"
   },
   {
     "slug": "otis/wd5/REC_Ext_Gateway",
