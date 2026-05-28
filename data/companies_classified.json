@@ -4959,10 +4959,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "rillet",
     "name": "Rillet",
-    "summary": "Rillet provides an AI-powered customer service platform that automates support ticket handling and routing for businesses. The platform uses natural language processing to classify, prioritize, and respond to customer inquiries across multiple channels including email, chat, and social media.",
-    "ats": "ashby"
+    "summary": "Rillet makes an AI-native ERP system that automates month-end close processes, enables real-time revenue recognition, and extracts SaaS metrics from general ledger data.",
+    "source": "meta_description"
   },
   {
     "slug": "rightmovecareers",
@@ -4971,10 +4972,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "Rox-Data-Corp",
     "name": "Rox",
-    "summary": "Rox is a mobile-first platform that helps hospitality businesses like hotels, restaurants, and venues manage operations through tools for staff scheduling, communication, and task management. The platform enables frontline workers to coordinate shifts, receive updates, and manage daily workflows directly from their phones.",
-    "ats": "ashby"
+    "summary": "Rox is an agent that automatically generates pipeline, qualifies leads, books meetings, manages deals, and expands accounts for enterprise companies.",
+    "source": "meta_description"
   },
   {
     "slug": "Sandstone",
@@ -6723,10 +6725,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "avepoint",
     "name": "AvePoint",
-    "summary": "AvePoint provides cloud governance, compliance, and data management solutions for Microsoft 365, SharePoint, and other enterprise platforms. The company helps organizations manage data lifecycle, ensure regulatory compliance, and protect sensitive information across cloud and on-premises environments.",
-    "ats": "greenhouse"
+    "summary": "AvePoint provides data protection solutions.",
+    "source": "meta_description"
   },
   {
     "slug": "backflip",
@@ -9979,5 +9982,12 @@
     "name": "Owner",
     "summary": "Owner builds an AI-native system for restaurant owners that combines website, online ordering, CRM, POS, and other business management tools in a single platform. The system handles demand generation, order conversion, and day-to-day business operations to help independent restaurants succeed online.",
     "source": "job_posting"
+  },
+  {
+    "ats": "workday",
+    "slug": "toyota/wd503/TMNA",
+    "name": "Toyota",
+    "summary": "Toyota manufactures trucks, cars, SUVs, hybrids, and minivans.",
+    "source": "meta_description"
   }
 ]
