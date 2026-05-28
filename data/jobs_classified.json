@@ -340457,5 +340457,712 @@
       "equity"
     ],
     "source_hash": "97992cde"
+  },
+  "ashby-betterup-7e088340-6366-4255-9e60-62c586dc1c28": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "92bdec69"
+  },
+  "workday-rockwellautomation-Cost-Accounting-Technician_R26-3596": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8bba5ef1"
+  },
+  "greenhouse-instacart-7964589": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "49200ccf"
+  },
+  "ashby-langchain-925d5539-ea78-4d33-87e0-4b5f2d7f15e6": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "be751bf7"
+  },
+  "ashby-langchain-e86a5b13-75e7-4b4e-bc18-3c81b58d1543": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1bbf3e3b"
+  },
+  "ashby-langchain-f159330a-a8a0-4523-96b5-0ac58f9e109b": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5d08e044"
+  },
+  "greenhouse-lyft-8568524002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c520609d"
+  },
+  "greenhouse-riotgames-7545538": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5b03ec93"
+  },
+  "greenhouse-riotgames-7959411": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "38e0e1b1"
+  },
+  "greenhouse-riotgames-7959413": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "64f9db4a"
+  },
+  "greenhouse-sourcegraph91-5989776004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fc6ccb6f"
+  },
+  "workday-sunrun-Certified-Electrician-1_R66851": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "586bfa44"
+  },
+  "workday-sunrun-Electrician-Trainee_R66853": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7582dc8a"
+  },
+  "greenhouse-tenstorrent-5138778007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f9390295"
+  },
+  "workday-collectorsuniverse-Sales-Director--Hong-Kong---Asia-Pacific_JR104575": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5ae0d387"
+  },
+  "greenhouse-airbnb-7960519": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Design and build data models, pipelines, and measurement infrastructure to support Airbnb's multifamily hosting expansion; architect scalable analytics systems including attribution platforms, metrics frameworks, and experimentation tools in partnership with data engineering and product teams.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Spark",
+      "Tableau",
+      "R",
+      "Presto",
+      "Statistical Analysis",
+      "A/B Testing"
+    ],
+    "level": "senior",
+    "comp": "$136,000\u2013$160,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "3ebead2d"
+  },
+  "greenhouse-andurilindustries-5149231007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Costa Mesa, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$146k-$194k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "07fa5e43"
+  },
+  "greenhouse-andurilindustries-5149530007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Costa Mesa, CA",
+    "job_summary": "Develop requirements-based test frameworks and verification systems for safety-critical firmware across Anduril's autonomous defense platforms (Bolt, Roadrunner, Barracuda, Dive-XL). Requires TS/SCI or equivalent security clearance and direct involvement with export-controlled defense technology.",
+    "skills": [
+      "C",
+      "Python",
+      "ARM",
+      "LDRA",
+      "Jama",
+      "CI/CD",
+      "DO-178",
+      "Requirements Management"
+    ],
+    "level": "senior",
+    "comp": "$191k-$253k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "13c0aa79"
+  },
+  "greenhouse-archer56-7741074003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "comp": "$250k-$310k",
+    "comp_extras": [],
+    "source_hash": "3f69f912"
+  },
+  "greenhouse-archer56-7736340003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": "Perform structural analysis and fatigue assessment of rotor systems for all-electric vertical takeoff and landing aircraft, including metallic and composite components under flight and ground loads. Requires deep expertise in rotorcraft dynamics, finite element methods, and fatigue life prediction for aerospace structures certified to FAA standards.",
+    "skills": [
+      "ANSYS",
+      "NASTRAN",
+      "NX",
+      "Finite Element Analysis",
+      "Fatigue Analysis",
+      "Composite Materials",
+      "Python",
+      "MATLAB"
+    ],
+    "level": "senior",
+    "comp": "$125k-$160k",
+    "comp_extras": [],
+    "source_hash": "6ecbd67d"
+  },
+  "greenhouse-archer56-7740909003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": "Develop embedded safety-critical software for aircraft battery management systems, including low-level microcontroller drivers, fault detection algorithms, and digital signal processing for cell voltage and pack current monitoring. Requires DO-178C certification experience and hands-on hardware debugging of high-voltage battery systems in aerospace.",
+    "skills": [
+      "C/C++",
+      "DO-178C",
+      "CAN",
+      "MATLAB/Simulink",
+      "SPI",
+      "I2C",
+      "RTOS",
+      "Digital Signal Processing"
+    ],
+    "level": "staff",
+    "comp": "$170k-$215k",
+    "comp_extras": [],
+    "source_hash": "eb70a825"
+  },
+  "greenhouse-archer56-7740913003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": "Develop embedded safety-critical software for aircraft electric motor control systems, including low-level drivers, fault detection algorithms, and digital signal processing for real-time control. Requires DO-178C certification experience and hands-on expertise with bare-metal microcontroller development for aerospace applications.",
+    "skills": [
+      "C/C++",
+      "Python",
+      "Control Systems",
+      "DO-178C",
+      "CAN",
+      "MATLAB/Simulink",
+      "Bare-metal Embedded Systems",
+      "Motor Control"
+    ],
+    "level": "staff",
+    "comp": "$170k-$215k",
+    "comp_extras": [],
+    "source_hash": "e5522884"
+  },
+  "greenhouse-bitgo-8570028002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Palo Alto, CA",
+    "job_summary": "Lead the technical execution of product security strategy for a digital asset custody platform, building end-to-end security programs and integrating automated security controls into CI/CD pipelines. Secure high-growth FinTech and Web3 platforms handling significant Bitcoin network transaction volume; requires hands-on expertise in cloud infrastructure hardening, cryptographic key management, and defense against nation-state-level threats.",
+    "skills": [
+      "Python",
+      "Java",
+      "Kubernetes",
+      "AWS",
+      "Terraform",
+      "SAST/DAST",
+      "KMS",
+      "SOC 2 Type II"
+    ],
+    "level": "senior",
+    "comp": "$190k-$245k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "54ebbc39"
+  },
+  "greenhouse-bitgo-8570029002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Build and architect end-to-end security programs for a leading digital asset custody platform, integrating automated security controls into CI/CD pipelines and securing distributed cloud infrastructure against sophisticated adversaries. Requires hands-on expertise defending FinTech/Web3 platforms and deep experience with Kubernetes, AWS, and encryption/key management systems.",
+    "skills": [
+      "Python",
+      "Java",
+      "AWS",
+      "Kubernetes",
+      "Terraform",
+      "SAST/DAST",
+      "KMS",
+      "SOC 2 Type II"
+    ],
+    "level": "senior",
+    "comp": "$200k-$245k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "ae671ea9"
+  },
+  "workday-bakerhughes-Embedded-Software-Engineer_R158850": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Ashby de la Zouch, UK",
+    "job_summary": "Develop embedded software and control systems for next-generation energy and power generation systems using C/C++, QNX, and Embedded Linux. Work with industrial communication protocols (Modbus, CAN, IEC61850) and integrate embedded software with hardware systems for PRISMIC control platform.",
+    "skills": [
+      "C/C++",
+      "Embedded Linux",
+      "QNX",
+      "CAN",
+      "Modbus",
+      "Device Drivers",
+      "Real-Time Systems",
+      "IEC61850"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "15b033a4"
+  },
+  "workday-boeing-Boeing-Global-Services-Senior-Quality-Systems-Specialist_JR2026512056-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hazelwood, MO / Seattle, WA / San Antonio, TX / Philadelphia, PA / Mesa, AZ / Atlanta, GA / Jacksonville, FL",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$117,300-$170,200",
+    "comp_extras": [],
+    "source_hash": "e38bad3b"
+  },
+  "workday-boeing-DevSecOps-Software-Engineer_JR2026511998-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Fairfax, VA",
+    "job_summary": "Build and maintain continuous integration, deployment, and security infrastructure for signals intelligence systems deployed across defense platforms. Requires active TS/SCI clearance and on-site presence in Fairfax, VA.",
+    "skills": [
+      "Python",
+      "Java",
+      "C/C++",
+      "Red Hat Enterprise Linux",
+      "Jenkins",
+      "Ansible",
+      "Terraform",
+      "TS/SCI Clearance"
+    ],
+    "level": "mid",
+    "comp": "$126,900-$189,200",
+    "comp_extras": [],
+    "source_hash": "136631d6"
+  },
+  "workday-boeing-Test-and-Evaluation-Laboratory-Technician--Mid-Level-or-Senior-_JR2026508979-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Patuxent River, MD",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$68k-$109.25k",
+    "comp_extras": [],
+    "source_hash": "e6d95ec4"
+  },
+  "smartrecruiters-Eurofins-744000129048470": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Lancaster, PA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3cdf14dd"
+  },
+  "greenhouse-humaninterest-7962092": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$220k-$230k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "f082458a"
+  },
+  "greenhouse-knock-6008733004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$53k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "4e55c5ef"
+  },
+  "greenhouse-knock-6008725004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$53k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "9b1fed7f"
+  },
+  "greenhouse-omadahealth-7958286": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$149,600-$195,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "e486e887"
+  },
+  "workable-pony-dot-ai-6D152E1BFA": {
+    "is_engineering": null,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Fremont, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8f0bbf76"
+  },
+  "workable-pony-dot-ai-4C1F53EF5D": {
+    "is_engineering": null,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Fremont, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d76bdae1"
+  },
+  "workable-pony-dot-ai-AC3184DC42": {
+    "is_engineering": null,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b387295c"
+  },
+  "workable-pony-dot-ai-04CF19CD1E": {
+    "is_engineering": null,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Fremont, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c4ba3f24"
+  },
+  "ashby-sentilink-48ebd3af-54cd-429a-ae59-256feea94cdf": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Design and build internal security tooling including agent-based scanning, code analysis, and dynamic assessment systems while conducting hands-on penetration testing against SentiLink's AWS infrastructure and identity verification APIs. Deep AWS expertise and offensive security capability required to secure a fintech platform processing hundreds of millions of identity verifications.",
+    "skills": [
+      "Go",
+      "Rust",
+      "C++",
+      "Python",
+      "TypeScript",
+      "AWS",
+      "Penetration Testing",
+      "Cloud Security"
+    ],
+    "level": "principal",
+    "comp": "$220k-$280k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e5364e59"
+  },
+  "greenhouse-spacex-8569168002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Bastrop, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "95dbb4d5"
+  },
+  "greenhouse-trueanomalyinc-5147602007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Denver, CO / Long Beach, CA / San Francisco, CA",
+    "job_summary": "Design and deploy enterprise Linux security infrastructure across on-prem, cloud, and manufacturing environments \u2014 centralized identity management, configuration management at scale, and SIEM integration. Defense space contractor requiring TS/SCI clearance and US citizenship.",
+    "skills": [
+      "Linux",
+      "SELinux",
+      "AppArmor",
+      "PAM",
+      "Ansible",
+      "Puppet",
+      "Chef",
+      "Salt"
+    ],
+    "level": "senior",
+    "comp": "$140k-$225k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "4d0d3cea"
+  },
+  "greenhouse-xai-5149405007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Memphis, TN",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9c5eb7c9"
+  },
+  "ashby-writer-74a6d06e-3f38-44d0-9cb3-ee64fa857d12": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY / Seattle, WA / London, UK",
+    "job_summary": "Design and build automated test frameworks and quality assurance strategies for enterprise AI agents and LLM-powered applications. Requires hands-on testing of distributed systems with focus on AI/ML validation and CI/CD integration.",
+    "skills": [
+      "Python",
+      "TypeScript",
+      "Playwright",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "AI/ML Testing",
+      "Model Context Protocol"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "9b32ddd3"
+  },
+  "ashby-writer-b69a7c74-861f-4265-a5fa-8bc27f47d0c0": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": "Build comprehensive quality assurance strategies and automated test frameworks for enterprise AI agents and LLM-powered applications serving Fortune 500 companies. Design, develop, and maintain testing infrastructure for distributed AI systems with focus on model evaluation, data pipelines, and generative AI output validation.",
+    "skills": [
+      "Python",
+      "TypeScript",
+      "Playwright",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "AI/ML Testing"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "236d856c"
   }
 }
