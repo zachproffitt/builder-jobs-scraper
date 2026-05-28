@@ -5151,10 +5151,11 @@
     "ats": "workday"
   },
   {
+    "ats": "workday",
     "slug": "altusgroup/wd3/AltusGroup",
     "name": "Reonomy",
-    "summary": "Reonomy provides commercial real estate data and analytics software that aggregates property information, transaction histories, and market insights from public records and proprietary sources to help real estate professionals make investment and lending decisions.",
-    "ats": "workday"
+    "summary": "Reonomy provides a commercial real estate data platform that identifies actual property owners behind shell LLCs and sources off-market deals across more than 54 million U.S. properties.",
+    "source": "meta_description"
   },
   {
     "slug": "ampup",
