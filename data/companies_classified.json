@@ -1685,10 +1685,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "hippo70",
     "name": "Hippo",
-    "summary": "Hippo builds homeowners insurance products and related coverage solutions for the residential property insurance market. The company operates as a digital-first insurance provider offering policies with an emphasis on customer experience and modern underwriting practices for homeowners.",
-    "ats": "greenhouse"
+    "summary": "Hippo Insurance Services helps customers compare homeowners insurance quotes from over 70 carriers.",
+    "source": "meta_description"
   },
   {
     "slug": "foursquare",
@@ -2825,10 +2826,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "harperinsure",
     "name": "Harper",
-    "summary": "Harper Insure builds a digital platform for commercial business insurance, offering policies across general liability, professional liability, cyber insurance, commercial auto, and other coverage types to businesses across industries like trucking, tech, and construction. The company operates in the commercial insurance brokerage and placement domain, using technology and market access to match businesses with appropriate coverage.",
-    "ats": "ashby"
+    "summary": "Harper is an AI-native commercial insurance brokerage that helps businesses obtain commercial insurance coverage.",
+    "source": "one_liner"
   },
   {
     "slug": "Healthtech-1",
