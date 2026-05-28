@@ -168,11 +168,11 @@
     "source": "meta_description"
   },
   {
-    "name": "Atom Computing",
+    "ats": "lever",
     "slug": "atomcomputing",
-    "summary": "Atom Computing builds quantum computers using arrays of optically trapped neutral atoms for computational breakthroughs.",
-    "source_hash": "d345e53c",
-    "ats": "lever"
+    "name": "Atom Computing",
+    "summary": "Atom Computing builds quantum computers using arrays of optically trapped neutral atoms.",
+    "source": "job_posting"
   },
   {
     "ats": "lever",
