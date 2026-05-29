@@ -5364,10 +5364,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "workday",
     "slug": "devoted/wd1/Devoted",
     "name": "Devoted Health",
-    "summary": "Devoted Health is a Medicare Advantage insurance company that provides health plans and care services to seniors, combining insurance coverage with primary care clinics and care coordination to improve health outcomes for older adults.",
-    "ats": "workday"
+    "summary": "Devoted Health designs and prices Medicare Advantage benefit plans, using financial modeling and analytics to optimize plan economics, competitive positioning, and risk management across multi-state portfolios. The company rebuilds its annual bid cycle using AI-assisted workflows and automated pipelines to streamline what was previously manual analytical work.",
+    "source": "job_posting"
   },
   {
     "slug": "driver-ai-inc",
@@ -6215,10 +6216,11 @@
     "ats": "eightfold"
   },
   {
+    "ats": "workday",
     "slug": "trendmicro/wd3/External",
     "name": "Trend Micro",
-    "summary": "Trend Micro develops cybersecurity software and services including antivirus, endpoint protection, cloud security, and threat intelligence solutions for enterprises, small businesses, and consumers. The company operates in the information security industry, protecting against malware, ransomware, phishing, and other cyber threats across networks, endpoints, and cloud environments.",
-    "ats": "workday"
+    "summary": "Trend Micro makes a cybersecurity platform for enterprises that incorporates artificial intelligence.",
+    "source": "meta_description"
   },
   {
     "slug": "satoshilabs",
