@@ -3075,10 +3075,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "litellm",
     "name": "LiteLLM",
-    "summary": "LiteLLM builds an open-source Python library that provides a unified interface for calling multiple large language models from different providers like OpenAI, Anthropic, Google, and others through a single API. The company operates in the developer tools and infrastructure space, enabling developers to write model-agnostic code and easily switch between LLM providers without rewriting their applications.",
-    "ats": "ashby"
+    "summary": "LiteLLM provides a unified interface that allows users to call over 100 different language model APIs using OpenAI's API format.",
+    "source": "one_liner"
   },
   {
     "slug": "liveflow",

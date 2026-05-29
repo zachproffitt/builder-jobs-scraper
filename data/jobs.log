@@ -434,3 +434,5 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 [2026-05-29T05:54:09Z] fetch_jobs: scraper error for Insomnia (lever/kong): Lever request failed for kong: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/kong?mode=json'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
 [2026-05-29T05:54:26Z] fetch_jobs: scraper error for Mashape (ashby/kong): Ashby request failed for kong: The read operation timed out
+[2026-05-29T06:00:54Z] classify_companies: homepage fetch failed for https://berkshiregrey.com: Client error '403 Forbidden' for url 'https://berkshiregrey.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
