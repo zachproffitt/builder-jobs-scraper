@@ -1407,10 +1407,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "paxos",
     "name": "Paxos",
-    "summary": "Paxos provides blockchain infrastructure and financial services that enable institutions to issue, transfer, and settle digital assets like stablecoins and tokenized securities on public blockchains.",
-    "ats": "ashby"
+    "summary": "Paxos builds blockchain and digital asset solutions for financial services companies.",
+    "source": "meta_description"
   },
   {
     "slug": "wealthfront",
@@ -10034,5 +10035,12 @@
     "name": "Juro",
     "summary": "Juro provides a platform for teams to agree on and manage contracts end-to-end using AI automation.",
     "source": "meta_description"
+  },
+  {
+    "ats": "greenhouse",
+    "slug": "teamlfg",
+    "name": "Team LFG",
+    "summary": "Team LFG makes games for PlayStation that feature 3D character art and design. The company is hiring for a 3D Character Art Lead position to guide character art creation and mentor an art team through all phases of production.",
+    "source": "job_posting"
   }
 ]
