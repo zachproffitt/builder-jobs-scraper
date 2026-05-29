@@ -44399,5 +44399,12 @@
     "name": "Zigbee Alliance",
     "website": "https://zigbeealliance.org",
     "status": "no_ats"
+  },
+  {
+    "name": "Team LFG",
+    "website": "https://teamlfg.gg",
+    "ats": "greenhouse",
+    "slug": "teamlfg",
+    "status": "active"
   }
 ]
