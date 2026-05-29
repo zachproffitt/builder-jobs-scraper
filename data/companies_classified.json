@@ -8071,10 +8071,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "workday",
     "slug": "iheartmedia/wd5/External_iHM",
     "name": "iHeartMedia",
-    "summary": "iHeartMedia operates the largest radio broadcasting network in the United States, owning and operating thousands of radio stations across the country while also offering digital audio content through its iHeartRadio platform. The company generates revenue through advertising on its radio stations and digital properties, as well as through live events and podcasting services.",
-    "ats": "workday"
+    "summary": "iHeartMedia operates a platform that provides access to music, podcasts, and radio stations, allowing users to listen to live radio or create custom artist stations.",
+    "source": "meta_description"
   },
   {
     "slug": "illfonic",
