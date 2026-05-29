@@ -2291,10 +2291,11 @@
     "ats": "lever"
   },
   {
+    "ats": "lever",
     "slug": "CollectlyInc",
     "name": "Collectly",
-    "summary": "Collectly builds software for managing tenant screening, rent collection, and lease document automation for property managers and landlords. The company operates in the property management and real estate technology domain, providing tools to streamline the rental application and payment processes.",
-    "ats": "lever"
+    "summary": "Collectly provides software that helps healthcare organizations collect payments more efficiently.",
+    "source": "one_liner"
   },
   {
     "slug": "commonpaper",

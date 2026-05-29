@@ -399,3 +399,5 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 [2026-05-29T13:41:08Z] fetch_jobs: scraper error for Ziina (ashby/ziina): Ashby request failed for ziina: The read operation timed out
 [2026-05-29T13:41:08Z] fetch_jobs: scraper error for Zip (ashby/zip): Ashby request failed for zip: The read operation timed out
 [2026-05-29T13:41:13Z] fetch_jobs: scraper error for ConvertKit (ashby/kit): Ashby request failed for kit: The read operation timed out
+[2026-05-29T13:53:26Z] classify_companies: homepage fetch failed for https://berkshiregrey.com: Client error '403 Forbidden' for url 'https://berkshiregrey.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
