@@ -182,11 +182,11 @@
     "source": "meta_description"
   },
   {
-    "name": "Helion Energy",
+    "ats": "ashby",
     "slug": "helion",
-    "summary": "Helion Energy builds fusion power plants, with prototype Trenta achieving 100 million degree plasma temperatures.",
-    "source_hash": "9dbf19d1",
-    "ats": "ashby"
+    "name": "Helion Energy",
+    "summary": "Helion Energy builds fusion power plants.",
+    "source": "one_liner"
   },
   {
     "name": "Commonwealth Fusion",
@@ -587,11 +587,11 @@
     "source": "job_posting"
   },
   {
-    "name": "Headspace",
+    "ats": "greenhouse",
     "slug": "hs",
-    "summary": "Headspace builds a science-backed mental health app offering guided meditation and mindfulness exercises.",
-    "source_hash": "35f72971",
-    "ats": "greenhouse"
+    "name": "Headspace Health",
+    "summary": "Headspace Health delivers mental health care services including mindfulness and clinical support to organizations and their members.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
@@ -7194,10 +7194,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "workday",
     "slug": "collectorsuniverse/wd1/collectors",
     "name": "Collectors",
-    "summary": "Collectors is a marketplace platform that enables buying, selling, and trading of collectible items such as trading cards, memorabilia, coins, and other collectibles. The platform provides authentication services, pricing data, and a community for collectors to connect and transact with one another.",
-    "ats": "workday"
+    "summary": "Collectors builds infrastructure for the collectibles market that handles trust, security, and transactions.",
+    "source": "meta_description"
   },
   {
     "slug": "collegevine.com",
@@ -7636,10 +7637,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "lever",
     "slug": "everbridge",
     "name": "Everbridge",
-    "summary": "Everbridge provides critical event management and enterprise safety software that helps organizations prepare for, respond to, and recover from critical incidents including natural disasters, cybersecurity threats, and operational emergencies. The platform serves government agencies, enterprises, and critical infrastructure operators across sectors like public safety, healthcare, energy, and finance.",
-    "ats": "lever"
+    "summary": "Everbridge provides a critical event and business continuity suite that helps organizations manage safety for their people and assets.",
+    "source": "meta_description"
   },
   {
     "slug": "motus",

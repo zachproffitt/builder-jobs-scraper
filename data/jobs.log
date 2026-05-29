@@ -473,3 +473,5 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
 [2026-05-29T01:33:06Z] fetch_jobs: scraper error for Zip (ashby/zip): Ashby request failed for zip: The read operation timed out
 [2026-05-29T01:33:08Z] fetch_jobs: scraper error for Zcash Electric Coin Company (ashby/zodl): Ashby request failed for zodl: The read operation timed out
+[2026-05-29T01:39:42Z] classify_companies: homepage fetch failed for https://berkshiregrey.com: Client error '403 Forbidden' for url 'https://berkshiregrey.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
