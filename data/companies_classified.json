@@ -6306,10 +6306,11 @@
     "ats": "workable"
   },
   {
+    "ats": "ashby",
     "slug": "opengov",
     "name": "Opengov",
-    "summary": "OpenGov provides cloud-based software and services for government agencies to manage budgeting, planning, and performance tracking across finance, capital projects, and other operations.",
-    "ats": "ashby"
+    "summary": "OpenGov builds software for cities, counties, and state agencies.",
+    "source": "meta_description"
   },
   {
     "slug": "rocketlawyer",
@@ -9700,10 +9701,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "tatari",
     "name": "Tatari",
-    "summary": "Tatari provides a software platform that helps brands measure and optimize their TV advertising performance, offering analytics and attribution tools specifically designed for connected TV and traditional broadcast campaigns.",
-    "ats": "greenhouse"
+    "summary": "Tatari combines TV advertising with real-time data to manage TV ads.",
+    "source": "meta_description"
   },
   {
     "slug": "taxbit",

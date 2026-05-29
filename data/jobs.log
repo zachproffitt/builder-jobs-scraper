@@ -375,3 +375,5 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
 [2026-05-29T15:31:50Z] fetch_jobs: scraper error for Johnson Controls (workday/jci/wd5/JCI): Workday request failed for jci/wd5/JCI: Server error '520 <none>' for url 'https://jci.wd5.myworkdayjobs.com/wday/cxs/jci/JCI/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/520
+[2026-05-29T15:47:13Z] classify_companies: homepage fetch failed for https://berkshiregrey.com: Client error '403 Forbidden' for url 'https://berkshiregrey.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
