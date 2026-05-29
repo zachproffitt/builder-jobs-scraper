@@ -408,3 +408,5 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 [2026-05-29T07:51:31Z] fetch_jobs: scraper error for Wordware (ashby/wordware.ai): Ashby request failed for wordware.ai: The read operation timed out
 [2026-05-29T07:51:32Z] fetch_jobs: scraper error for Writer (ashby/writer): Ashby request failed for writer: The read operation timed out
 [2026-05-29T07:51:46Z] fetch_jobs: scraper error for Mashape (ashby/kong): Ashby request failed for kong: The read operation timed out
+[2026-05-29T08:00:57Z] classify_companies: homepage fetch failed for https://berkshiregrey.com: Client error '403 Forbidden' for url 'https://berkshiregrey.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
