@@ -8235,10 +8235,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "kafene",
     "name": "Kafene",
-    "summary": "Kafene provides software infrastructure for coffee shops and cafes to manage their operations, including point-of-sale systems, inventory tracking, and customer loyalty programs.",
-    "ats": "ashby"
+    "summary": "Kafene provides lease-to-own programs that allow businesses to attract and convert customers across different credit profiles.",
+    "source": "meta_description"
   },
   {
     "slug": "kalderos",
