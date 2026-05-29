@@ -374953,5 +374953,1598 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "85095398"
+  },
+  "greenhouse-akidolabs-4683687006": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "726d448c"
+  },
+  "workday-altaishealthsolutions-Medical-Assistant_-40": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "90ce2baa"
+  },
+  "ashby-arketa-b51f1431-2350-45f5-a076-abd6c827902e": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f825b3a3"
+  },
+  "lever-cfsenergy-c7c2f4bf-adbe-43c0-a971-59dba50ebf92": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a5dec13c"
+  },
+  "workday-boeing-NDT-Quality-Manager_JR2026512621-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "cebbfec5"
+  },
+  "ashby-envoy-9038b68a-5aa3-4d73-bb49-84f3a33a5c7e": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7677be02"
+  },
+  "workday-paloaltonetworks-Major-Account-Manager_JR-017305": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2b19e16d"
+  },
+  "workday-abbott-Director---Information-Governance_31133537-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d6d5a9b6"
+  },
+  "workday-abbott-Diabetes-Sales-Associate---Charlotte-North_31151719-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a004f281"
+  },
+  "workday-abbott-Diabetes-Sales-Associate---Indianapolis-East_31151923-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b2c8f31d"
+  },
+  "ashby-harperinsure-13eba0a6-e4e6-4c7f-88a6-1da207c2e007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8869dbe4"
+  },
+  "greenhouse-instacart-7968002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3562bb02"
+  },
+  "greenhouse-instacart-7968004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "76d1ffaf"
+  },
+  "greenhouse-ionq-5998680004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2a1b7a0b"
+  },
+  "workday-hubinternational-Senior-Operations-Coordinator_R0036727-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "67e3abbb"
+  },
+  "greenhouse-roofstock-8503090002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9960f12f"
+  },
+  "ashby-Tillster-40349e55-2d4a-4097-baf8-c8dd33f2f6e7": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "97d0d5a0"
+  },
+  "ashby-Tillster-8e9bd9bf-426d-4484-b8cf-f4f31bf5f838": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5e56ea11"
+  },
+  "ashby-Tillster-fa50f3a5-c466-41da-b26d-753b3efefd45": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0318b4d3"
+  },
+  "ashby-Tillster-e50945ee-b6b4-4334-81e6-9f9d40f40d00": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "af84b857"
+  },
+  "ashby-Tillster-4ef0ac77-ed3d-4cf7-b011-11171df46250": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5e6884c6"
+  },
+  "greenhouse-xai-5150780007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "847262b6"
+  },
+  "greenhouse-xai-5150787007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "55662e44"
+  },
+  "ashby-zip-2113e35a-8938-44b8-901f-17c60e7b199c": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d3ea5772"
+  },
+  "workday-tapestry-Sales-Support-Associate-III_JR6279": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0742f4e9"
+  },
+  "workday-tapestry-Sales-Support-Associate-II_JR6195": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8898fc3a"
+  },
+  "workday-jci-Controls-Systems-Engineer---Designer_WD30271011": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e79bf490"
+  },
+  "workday-xylem-Senior-Demand-Planner_R48598": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "60f0439c"
+  },
+  "workday-tmobile-Mobile-Associate---Retail-Sales_REQ357032-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b6edf2ee"
+  },
+  "workday-tmobile-Retail-Associate-Manager_REQ356352-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7f549e32"
+  },
+  "workday-tmobile-Mobile-Associate--Store-in-Store--Retail-Sales_REQ357047-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b5dbefb0"
+  },
+  "greenhouse-block-5230415008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5d5aced5"
+  },
+  "workday-abbott-Latam-Portfolio-Strategy---Expansion-Manager_31151912": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fb66dfeb"
+  },
+  "greenhouse-sezzle-7754085003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "eb59a477"
+  },
+  "ashby-1password-e02238ae-1bb1-41d2-9c9c-14b38f8d38fa": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$119k-$173k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "59623ac2"
+  },
+  "ashby-aiprise-8a42446b-61df-4bec-a485-2e8e3d0cf0a9": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6b86edab"
+  },
+  "greenhouse-andurilindustries-5149275007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Ashville, OH",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$24-$29/hr",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "39e60790"
+  },
+  "greenhouse-andurilindustries-5074043007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Asheville, OH",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$87k-$116k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "efad484a"
+  },
+  "greenhouse-cloudflare-7964856": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c747022e"
+  },
+  "workday-capitalone-Dealer-Success-Manager_R243532-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Pittsburgh, PA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$109,900-$125,400",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "0182b08c"
+  },
+  "workday-cotality-Senior-Professional--Talent-Management_REQ18788-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Dallas, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$77,700-$120,000",
+    "comp_extras": [],
+    "source_hash": "32afdf5d"
+  },
+  "workday-boeing-Mid-Level-Programmer-Analyst_JR2026511591-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Seal Beach, CA / Seattle, WA",
+    "job_summary": "Design, develop, and maintain Flight Operations Engineering software applications and databases for commercial aircraft and military-derivative customers. Work with SQL databases, web technologies, and Azure DevOps in a hybrid role supporting Boeing's aviation safety and operational efficiency mission.",
+    "skills": [
+      "SQL",
+      "Java",
+      "Spring Boot",
+      "Angular",
+      "TypeScript",
+      "JavaScript",
+      "Azure DevOps",
+      "Oracle"
+    ],
+    "level": "mid",
+    "comp": "$122,400-$145,000",
+    "comp_extras": [],
+    "source_hash": "3cd6a055"
+  },
+  "workday-boeing-XMLNAME-787-Operations-Center-Engineering-Technical-Manager_JR2026511360-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Everett, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$139,000 - $187,000",
+    "comp_extras": [],
+    "source_hash": "d7c21c89"
+  },
+  "workday-boeing-Operations-Center-Engineering-Manager_JR2026510995-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Seal Beach, CA",
+    "job_summary": "Lead a 24x7 operations center team diagnosing and resolving in-service aircraft systems issues (avionics, electrical, mechanical, propulsion) for commercial airline customers using Boeing maintenance documents and technical tools. Requires deep knowledge of B737, B747, B767, B777 aircraft systems and ability to manage complex technical troubleshooting in a safety-critical, fast-paced environment.",
+    "skills": [
+      "Boeing Commercial Airplanes",
+      "B737",
+      "B747",
+      "B767",
+      "B777",
+      "Aircraft Maintenance",
+      "Avionics Systems",
+      "Propulsion Systems"
+    ],
+    "level": "manager",
+    "comp": "$151k-$205k",
+    "comp_extras": [],
+    "source_hash": "e8ca7b10"
+  },
+  "workday-boeing-Spacecraft-Software-Engineer--Associate-or-Mid-Level---Millennium-Space-Systems_JR2026512655-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "El Segundo, CA",
+    "job_summary": "Develop embedded C/C++ software for satellite avionics that controls propulsion, attitude determination, and mission-critical autonomy functions. Requires TS/SCI clearance, U.S. citizenship, and 100% on-site work at a DDTC-registered facility.",
+    "skills": [
+      "C++",
+      "C",
+      "Linux",
+      "Embedded Systems",
+      "Python",
+      "Verilog",
+      "Git",
+      "TS/SCI Clearance"
+    ],
+    "level": "mid",
+    "comp": "$106,250-$182,850",
+    "comp_extras": [],
+    "source_hash": "f724db41"
+  },
+  "workday-boeing-Quality-Systems-Specialist_JR2026505344-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Everett, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$102k-$170.2k",
+    "comp_extras": [],
+    "source_hash": "b383520c"
+  },
+  "ashby-eightsleep-5d26a418-240e-4db2-9e4e-f4ac81fd61b8": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$150k-$180k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c09ae138"
+  },
+  "workday-crowdstrike-SRE-Dev-Ops-Engineer--Hybrid--Sunnyvale-_R28583": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Sunnyvale, CA",
+    "job_summary": "Build and operate production infrastructure platforms spanning multiple cloud providers and regions, serving engineering teams across a large-scale cybersecurity organization processing 3 trillion events daily. Own Kubernetes clusters, CI/CD pipelines, disaster recovery, and observability systems while moving from reactive firefighting to proactive, AI-driven automated operations.",
+    "skills": [
+      "Kubernetes",
+      "Terraform",
+      "GitOps",
+      "Prometheus",
+      "Grafana",
+      "ArgoCD",
+      "GitHub Actions",
+      "Go"
+    ],
+    "level": "senior",
+    "comp": "$120k-$180k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "4340491e"
+  },
+  "workday-empower-Premier-Service-Associate_R0059189": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$45,700-$62,875",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "bfd57966"
+  },
+  "smartrecruiters-Eurofins-744000129266109": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Diego, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e2f9f797"
+  },
+  "workday-ffive-Sr-Product-and-Innovation-Communications-Manager_RP1037688": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Seattle, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$174,400-$261,600",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "f0103f44"
+  },
+  "ashby-gamechanger-fdd0fe5e-acfa-4d8a-8665-4e696d21dd74": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$130k-$150k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "c50f859a"
+  },
+  "greenhouse-instacart-7950935": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build world-class reporting solutions and ad delivery systems for Instacart's petabyte-scale Ads platform, handling billions of transactions across retailers and brands. Lead design of new ad formats and modernize infrastructure to support rapid iteration while maintaining high code quality and system performance.",
+    "skills": [
+      "SQL",
+      "Airflow",
+      "dbt",
+      "Spark",
+      "Kafka",
+      "Rails",
+      "Distributed Systems",
+      "Data Pipeline Architecture"
+    ],
+    "level": "senior",
+    "comp": "$166k-$210k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "a6809c26"
+  },
+  "greenhouse-instacart-7951036": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Design and operate large-scale data lakehouse infrastructure spanning ingestion, stream processing, and analytical compute; architect multi-year platform roadmaps while optimizing infrastructure spend across Kafka, Spark, and Snowflake. High-autonomy role with architectural authority and responsibility for multi-million dollar infrastructure budgets.",
+    "skills": [
+      "Kafka",
+      "Apache Spark",
+      "Trino",
+      "ClickHouse",
+      "Apache Iceberg",
+      "Delta Lake",
+      "Flink",
+      "Python"
+    ],
+    "level": "senior",
+    "comp": "$166k-$210k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e74ec3e3"
+  },
+  "greenhouse-instacart-7951041": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Design and build production AI systems powering conversational shopping agents and voice AI interactions at scale, integrating foundation models and agentic experiences that serve millions of customers daily. Requires 5+ years of production ML/LLM experience with demonstrable 0-to-1 product launches and on-call operational ownership.",
+    "skills": [
+      "Python",
+      "LLM APIs",
+      "Retrieval-Augmented Generation",
+      "Vector Search",
+      "Kubernetes",
+      "Docker",
+      "AWS",
+      "Kafka"
+    ],
+    "level": "senior",
+    "comp": "$192,000\u2014$242,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "10302c9c"
+  },
+  "greenhouse-instacart-7951060": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and lead backend systems that power personalized shopping experiences, including recommendation engines, order management, and real-time customer communication at scale. Work with ML engineers and product teams to innovate feed architecture and post-checkout journey systems serving millions of users.",
+    "skills": [
+      "Ruby",
+      "Go",
+      "PostgreSQL",
+      "Datadog",
+      "Recommender Systems",
+      "Distributed Systems"
+    ],
+    "level": "senior",
+    "comp": "$192,000\u2014$242,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "4a8663c0"
+  },
+  "greenhouse-instacart-7951076": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Lead complex platform workstreams end-to-end for Instacart's fulfillment systems, designing and operating high-throughput distributed backend services powering earnings, pricing, routing, batching, matching, and dispatch. Navigate compliance requirements across multiple jurisdictions while collaborating with Legal, Finance, Policy, and Operations teams on hard external deadlines.",
+    "skills": [
+      "Python",
+      "Go",
+      "Ruby",
+      "PostgreSQL",
+      "Redis",
+      "AWS",
+      "Distributed Systems",
+      "Geospatial Systems"
+    ],
+    "level": "senior",
+    "comp": "$192,000\u2014$242,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "30a2327a"
+  },
+  "greenhouse-instacart-7951087": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build the core platform infrastructure for training and deploying AI models across Instacart, including feature stores, serving layers, SDKs, and batch inference systems. Own the platform tools enabling model fine-tuning at scale across the organization.",
+    "skills": [
+      "Distributed Systems",
+      "Python",
+      "Ray",
+      "Machine Learning Infrastructure",
+      "Kubernetes",
+      "TensorFlow",
+      "PyTorch",
+      "SQL"
+    ],
+    "level": "senior",
+    "comp": "$192k-$242k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "8265724e"
+  },
+  "greenhouse-instacart-7951096": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and own the database storage infrastructure control-plane, monitoring, and automation systems serving hundreds of petabyte-scale clusters across Instacart's core business. Lead architectural decisions on distributed database systems, AI-powered operations, and tiered storage to directly impact stability, cost, and scale for millions of daily requests.",
+    "skills": [
+      "Go",
+      "Python",
+      "Rust",
+      "PostgreSQL",
+      "Yugabyte",
+      "AWS (RDS, EC2)",
+      "GCP",
+      "Datadog"
+    ],
+    "level": "senior",
+    "comp": "$192,000\u2014$242,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "0c4b4ffd"
+  },
+  "greenhouse-instacart-7951118": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and own the in-memory datastore infrastructure and control-plane systems that power Instacart's storage platform, serving hundreds of clusters with terabytes of data and millions of daily requests. Lead the architectural evolution of distributed storage systems including automated monitoring, multi-cloud integration, and AI-powered operations at massive scale.",
+    "skills": [
+      "Go",
+      "Python",
+      "Rust",
+      "Redis",
+      "Valkey",
+      "Distributed Systems",
+      "Datadog",
+      "Control-plane systems"
+    ],
+    "level": "senior",
+    "comp": "$166,000\u2014$210,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "2ea059cf"
+  },
+  "workday-hubinternational-Claims-Technician_R0036726": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$70k-$110k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "0d126c10"
+  },
+  "workday-hubinternational-Claims-Associate_R0036725": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Chilliwack, BC",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$45k-$55k",
+    "comp_extras": [],
+    "source_hash": "f2270d39"
+  },
+  "workday-hubinternational-Senior-Risk-Consultant_R0036723-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Eugene, OR",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$100k-$130k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "02cfd07c"
+  },
+  "workday-hubinternational-Claims-Technician--Liability_R0036724": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$70k-$110k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "83dcfea0"
+  },
+  "workday-logitech-Vertical-Digital-Marketing-Specialist--B2B-_146237-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Jose, CA / Irvine, CA / Camas, WA / Dallas, TX / Toronto, Canada",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$68k-$135k",
+    "comp_extras": [],
+    "source_hash": "055484f6"
+  },
+  "greenhouse-Mill-4674154005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Bruno, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": "$72.8k-$93.6k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e71ac95e"
+  },
+  "greenhouse-newrelic-5230863008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Atlanta, GA / Portland, OR",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$102,000\u2014$128,000 USD",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "5d214f6d"
+  },
+  "greenhouse-okta-7964860": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Bellevue, WA / Chicago, IL / New York, NY / Washington, DC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$107k-$147k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "ebd9b458"
+  },
+  "ashby-openai-5bc79fde-2f1d-4bb2-8186-4a700ecff37c": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Build data pipelines, models, and validation logic for IT controls, audit readiness, and continuous control monitoring across identity, access, and configuration systems. Work with complex enterprise system data (Entra ID, GitHub, cloud infrastructure) to generate defensible audit evidence and control artifacts for SOX and regulatory compliance.",
+    "skills": [
+      "Python",
+      "SQL",
+      "Data Engineering",
+      "Analytics Engineering",
+      "Data Modeling",
+      "ETL",
+      "Databricks",
+      "Entra ID"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f66e11eb"
+  },
+  "greenhouse-pinterest-7494797": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote / Chicago, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$158,765-$326,870",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "42840fcd"
+  },
+  "greenhouse-podium81-7967715": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Lehi, UT",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "822e2d94"
+  },
+  "greenhouse-reddit-7964164": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "222ae420"
+  },
+  "greenhouse-roblox-7967080": {
+    "is_engineering": true,
+    "is_contract": true,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Mateo, CA",
+    "job_summary": "Build scalable ETL pipelines and data-as-a-product solutions for Roblox's social features, transforming raw telemetry into self-service analytics tools and datasets for product teams. Requires designing logging frameworks and optimizing data infrastructure at scale for a platform with tens of millions of daily users.",
+    "skills": [
+      "Python",
+      "SQL",
+      "ETL",
+      "Airflow",
+      "Data Warehousing",
+      "Spark",
+      "Tableau"
+    ],
+    "level": "senior",
+    "comp": "$263k-$322k",
+    "comp_extras": [],
+    "source_hash": "7d7ba25a"
+  },
+  "workable-schoolinks-ABD5053AD1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "802b071f"
+  },
+  "ashby-snowflake-073c91f2-0758-4544-9297-3f48a81fb04d": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Menlo Park, CA",
+    "job_summary": "Own the full AI engineering lifecycle for Snowflake's database engine \u2014 design agentic workflows, build enterprise-grade context engineering (function calling, tool schemas, guardrails), create evaluation pipelines, and optimize LLM-powered coding features end-to-end. Ship production AI systems at scale within a high-velocity team.",
+    "skills": [
+      "Python",
+      "TypeScript",
+      "Go",
+      "LLM Evaluation",
+      "Prompt Engineering",
+      "RAG",
+      "dbt",
+      "Airflow"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b25704ac"
+  },
+  "workday-sec-Surface-Atomic-Force-Microscopy--AFM--Engineer_R117347": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Taylor, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$76k-$145k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "9a659d81"
+  },
+  "workday-sec-Failure-Analysis-Nanoprobe-Engineer_R117350": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Taylor, TX",
+    "job_summary": "Conduct electrical characterization of semiconductor IC devices using nanoprobe systems (SEM, AFM) to determine root cause failures; analyze transistor-level behavior and generate reports for internal and external customers. Requires deep understanding of FinFET fabrication, device physics, and failure analysis methodologies in a fast-paced semiconductor environment.",
+    "skills": [
+      "SEM",
+      "AFM",
+      "Python",
+      "Semiconductor Device Physics",
+      "FinFET",
+      "ATE",
+      "FIB",
+      "Wafer-Level Reliability"
+    ],
+    "level": "mid",
+    "comp": "$76k-$145k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "8812506a"
+  },
+  "workday-sec-Failure-Analysis-Engineer_R117352": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Taylor, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$76k-$145k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "b69e104c"
+  },
+  "workday-sec-Failure-Analysis-OFI-Engineer_R117353": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Taylor, TX",
+    "job_summary": "Conduct physical failure analysis on semiconductor wafers and dies using optical fault isolation tools (Photon, Thermal emission) and automated test equipment to identify root causes for internal and external customers. Requires on-site in Austin, TX and U.S. export control authorization.",
+    "skills": [
+      "Semiconductor FinFET",
+      "Automated Test Equipment (ATE)",
+      "Teradyne UFLEX",
+      "Advantest V93K",
+      "SEM",
+      "FIB",
+      "Python",
+      "TDDB"
+    ],
+    "level": "junior",
+    "comp": "$76k-$145k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "9e501726"
+  },
+  "greenhouse-spacex-8570040002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hawthorne, CA",
+    "job_summary": "Own the health, uptime, and performance of Oracle and PostgreSQL databases across SpaceX's infrastructure, developing automation tools and disaster recovery strategies. Requires hands-on expertise in database optimization, monitoring, and Linux systems administration at scale.",
+    "skills": [
+      "Oracle",
+      "PostgreSQL",
+      "Python",
+      "Bash",
+      "Linux",
+      "SQL",
+      "Disaster Recovery",
+      "Monitoring"
+    ],
+    "level": "senior",
+    "comp": "$155k-$205k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "2c75f217"
+  },
+  "greenhouse-spacex-8572090002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hawthorne, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$220k-$290k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "169b6582"
+  },
+  "greenhouse-spacex-8572082002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "61f05fbd"
+  },
+  "greenhouse-tenstorrent-5149441007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "canada",
+    "location": "Toronto, ON",
+    "job_summary": "Design and optimize high-performance device drivers and user-space APIs for Tenstorrent's AI-IP hardware; collaborate with kernel and hardware teams on cross-layer performance optimization and customer integrations in safety-critical environments.",
+    "skills": [
+      "C",
+      "C++",
+      "Linux Kernel",
+      "Driver Development",
+      "Hardware-Software Interfaces",
+      "Performance Optimization",
+      "ISO 26262"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fed16ef8"
+  },
+  "workday-tempus-VP--Product----Oncology---Somatic-Tissue_JR202600215": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Chicago, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$330k-$430k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "05a87a40"
+  },
+  "workday-jll-Project-Management-Principal---ESM_REQ504838": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$180k-$225k",
+    "comp_extras": [],
+    "source_hash": "65f1f035"
+  },
+  "greenhouse-ursamajor-4701197005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Berthoud, CO",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$92k-$115k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e14f61b2"
+  },
+  "workday-nvidia-Senior-Power-and-Performance-Engineer_JR2019066": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": "Architect and integrate system-level power management features, controllers, and policies across NVIDIA's datacenter and client silicon products. Drive cross-functional alignment on complex power/performance tradeoffs from early architecture definition through silicon bringup and product release.",
+    "skills": [
+      "Digital Design",
+      "Power Management",
+      "DVFS",
+      "Low Power Design",
+      "C/C++",
+      "Python",
+      "Silicon Bringup",
+      "Control Systems"
+    ],
+    "level": "senior",
+    "comp": "$168k-$310.5k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e50088b1"
+  },
+  "workday-nvidia-Global-ISV-Sales-GTM-Lead_JR2018118": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$184k-$299k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "85d40682"
+  },
+  "workday-nvidia-Senior-Product-Manager--AI-Platform-and-Developer-Productivity_JR2018698": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$208,000-$327,750",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "227bc9b7"
+  },
+  "workday-nvidia-EDA-License-Engineer_JR2018563": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$152k-$287.5k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "bbea942c"
+  },
+  "workday-nvidia-GPU-Simulation-System-Software-Engineer_JR2018237": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": "Build the core infrastructure for modeling, analyzing, and debugging GPU chips, enabling simulations to run production driver stacks and applications unchanged across functional, diagnostic, and performance models. You'll work at the interface of software drivers and GPU simulation, supporting the full development lifecycle from architectural research through silicon.",
+    "skills": [
+      "C++",
+      "GPU Architecture",
+      "CUDA",
+      "GPU Simulation",
+      "Vulkan",
+      "OpenGL",
+      "DirectX",
+      "SystemVerilog"
+    ],
+    "level": "mid",
+    "comp": "$152k-$241.5k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "10167ef7"
+  },
+  "workday-nvidia-Senior-C---Software-Engineer---Infrastructure-Tools_JR2018693": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": null,
+    "job_summary": "Build and maintain scalable CI/CD infrastructure, tooling, and user-facing services that enable chip designers to schedule, track, and triage their build and deployment workflows. Work on mission-critical systems serving NVIDIA's design teams globally, with opportunities to develop agentic AI workflows and distributed computing systems.",
+    "skills": [
+      "C++",
+      "Python",
+      "Git",
+      "Perforce",
+      "Bazel",
+      "CMake",
+      "Golang",
+      "Distributed Systems"
+    ],
+    "level": "senior",
+    "comp": "$152k-$287.5k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "2f2325ce"
+  },
+  "workday-nvidia-Senior-Applied-LLM-Engineer--AI---Chip-Design_JR1989138": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": "Lead development of Agentic AI solutions including sophisticated AI agents, fine-tuning systems, and retrieval-augmented generation (RAG) pipelines for enterprise applications; apply these technologies to transform chip design workflows at scale.",
+    "skills": [
+      "Python",
+      "LLMs",
+      "Agentic Frameworks",
+      "RAG",
+      "Vector Databases",
+      "Fine-tuning",
+      "Multi-agent Systems",
+      "PyTorch"
+    ],
+    "level": "senior",
+    "comp": "$152k-$287.5k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "87146f8b"
+  },
+  "workday-nvidia-K-Career-AI-Education-Manager_JR2012208-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$136k-$218.5k (Level 4) / $176k-$276k (Level 5)",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "18cf1283"
+  },
+  "workday-nvidia-Developer-Relations-Manager--AI-Platform-and-Tools---Conversational-and-Generative-Media_JR2018979": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$152k-$241.5k (Level 3) / $184k-$287.5k (Level 4)",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "8415c528"
+  },
+  "ashby-zip-6bdf4de7-683e-4c0f-8daa-f31039c5a03e": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "8f71a433"
+  },
+  "lever-zoox-2bfdc02e-41f1-40f2-a748-4aaae3831d21": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Foster City, CA",
+    "job_summary": "Build production-grade multi-task transformers and Vision Language Action models for autonomous vehicle semantic reasoning on highways and freeways. Integrate cutting-edge AI systems with perception and motion planning to enable real-time human-level driving decisions at scale.",
+    "skills": [
+      "Transformers",
+      "Vision Language Models",
+      "PyTorch",
+      "Python",
+      "Computer Vision",
+      "Autonomous Vehicles",
+      "Real-time Systems"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d4021689"
+  },
+  "workday-toyota-Principal-Engineer---Carbon-Neutrality_10327395": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Georgetown, KY",
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b923b577"
+  },
+  "workday-tmobile-Client-Partner--Enterprise-Sales---New-England-Based_REQ346692": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$101,700-$183,480",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "790cb63a"
   }
 }
