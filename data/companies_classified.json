@@ -224,11 +224,11 @@
     "source": "meta_description"
   },
   {
-    "name": "Viam",
+    "ats": "greenhouse",
     "slug": "viamrobotics",
-    "summary": "Viam builds a robotics platform with multi-language SDKs, hardware abstracted into APIs, and fleet management for the entire lifecycle from prototype to global scale.",
-    "source_hash": "96a25eb4",
-    "ats": "greenhouse"
+    "name": "Viam",
+    "summary": "Viam builds a platform that covers the entire robotics lifecycle, providing multi-language SDKs, hardware-abstracted APIs, and fleet management capabilities from initial prototyping to global-scale deployment.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
@@ -1580,10 +1580,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "span",
     "name": "Span",
-    "summary": "Span builds hardware and software to intelligently manage distributed energy resources like solar panels, batteries, and electric vehicle chargers at the home level, helping homeowners optimize energy use and reduce costs.",
-    "ats": "ashby"
+    "summary": "Span makes smart electrical panels designed to help lower energy bills and reduce energy consumption.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
@@ -4459,10 +4460,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "greenhouse",
     "slug": "block",
     "name": "Block",
-    "summary": "Block builds a blockchain infrastructure platform that enables developers to create and deploy decentralized applications on the Ethereum network through its Rollups-as-a-Service offering. The company operates in the Web3 and blockchain technology domain, providing tools and services to simplify blockchain development and scaling.",
-    "ats": "greenhouse"
+    "summary": "Block builds integrated commerce software that enables sellers to accept payments, manage inventory, sell online and offline, offer buy now, pay later functionality, book appointments, manage customer loyalty, and hire and pay staff, along with embedded financial services tools like business loans and cash flow management.",
+    "source": "job_posting"
   },
   {
     "ats": "greenhouse",
@@ -5201,10 +5203,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "bamboo",
     "slug": "berkshiregrey",
     "name": "Berkshire Grey",
-    "summary": "Berkshire Grey develops robotic systems and software for automating parcel sorting, case picking, and material handling in logistics and fulfillment centers. The company's technology uses computer vision and AI to enable robots to identify, grasp, and sort packages of varying sizes and shapes in warehouses and distribution networks.",
-    "ats": "bamboo"
+    "summary": "Berkshire Grey builds AI and robotics solutions that automate pick, pack, and sort operations for e-commerce, retail replenishment, and logistics.",
+    "source": "job_posting"
   },
   {
     "ats": "workday",
@@ -7602,10 +7605,11 @@
     "ats": "bamboo"
   },
   {
+    "ats": "greenhouse",
     "slug": "enova",
     "name": "Enova",
-    "summary": "Enova operates an online financial services platform that provides installment loans, lines of credit, and other lending products primarily to consumers with limited access to traditional banking, operating across the United States and internationally through brands like NetCredit and Elevate.",
-    "ats": "greenhouse"
+    "summary": "Enova International provides financial technology services that offer access to credit using analytics and technology.",
+    "source": "meta_description"
   },
   {
     "slug": "enthought",
@@ -9301,10 +9305,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "encoura",
     "name": "ScaleFunder",
-    "summary": "ScaleFunder provides working capital financing and cash flow solutions for e-commerce and direct-to-consumer businesses. The platform offers merchant cash advances and inventory financing to help online retailers manage cash flow gaps and fund growth.",
-    "ats": "greenhouse"
+    "summary": "ScaleFunder provides digital fundraising solutions that connect organizations with donors online to deliver fundraising messages.",
+    "source": "meta_description"
   },
   {
     "slug": "schoolinks",
