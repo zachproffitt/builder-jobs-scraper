@@ -5614,10 +5614,11 @@
     "ats": "breezy"
   },
   {
+    "ats": "workable",
     "slug": "pony-dot-ai",
     "name": "Pony.ai",
-    "summary": "Pony.ai develops autonomous driving technology and self-driving vehicles, focusing on level 4 autonomous capabilities for both passenger cars and robotaxi services operating in China and the United States.",
-    "ats": "workable"
+    "summary": "Pony.ai develops autonomous driving technology for autonomous mobility applications.",
+    "source": "meta_description"
   },
   {
     "slug": "povio",
