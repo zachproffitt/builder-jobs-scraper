@@ -266,10 +266,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "workable",
     "slug": "huggingface",
     "name": "Hugging Face",
-    "summary": "Hugging Face builds an open-source platform and community hub for machine learning models, datasets, and applications, with a focus on natural language processing and computer vision technologies. The company provides tools, libraries, and hosting services that enable developers to discover, build, and deploy AI models at scale.",
-    "ats": "workable"
+    "summary": "Hugging Face provides open source tools and resources for artificial intelligence development.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
@@ -2762,10 +2763,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "govdash",
     "name": "GovDash",
-    "summary": "GovDash builds an AI platform designed to help businesses win and manage government contracts, covering the full lifecycle from opportunity discovery and capture through proposal development, contract management, and operations. The company operates in the government contracting domain, serving contractors and businesses that pursue federal and public sector contracts.",
-    "ats": "ashby"
+    "summary": "GovDash provides an AI platform that helps companies win and manage government contracts.",
+    "source": "one_liner"
   },
   {
     "slug": "GovEagle",
@@ -6626,10 +6628,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "appomni",
     "name": "AppOmni",
-    "summary": "AppOmni provides security and compliance solutions for SaaS applications, helping enterprises detect misconfigurations, security threats, and compliance violations across cloud productivity platforms like Salesforce, Microsoft 365, and Slack.",
-    "ats": "greenhouse"
+    "summary": "AppOmni provides enterprise security software that prevents data breaches and manages the security risks of AI agents, copilots, and third-party applications.",
+    "source": "meta_description"
   },
   {
     "slug": "appsumocareers",
@@ -7149,10 +7152,11 @@
     "ats": "workday"
   },
   {
+    "ats": "ashby",
     "slug": "clubhouse",
     "name": "Clubhouse",
-    "summary": "Clubhouse is a social audio platform that enables users to host and participate in live voice conversations organized by topic or interest, functioning as a digital alternative to in-person discussions and conferences. The platform operates in the social media and audio streaming space, allowing creators and communities to connect through real-time voice interactions rather than text or video.",
-    "ats": "ashby"
+    "summary": "Clubhouse is an app that hosts live voice chat conversations.",
+    "source": "meta_description"
   },
   {
     "slug": "CoachHub",
@@ -9003,10 +9007,11 @@
     "ats": "workday"
   },
   {
+    "ats": "greenhouse",
     "slug": "point72",
     "name": "Point72",
-    "summary": "Point72 is a multi-strategy investment firm that manages approximately $18 billion in assets across hedge funds, private equity, and credit strategies. The company operates in the financial services and asset management sector, providing capital deployment across public equities, fixed income, private investments, and alternative assets globally.",
-    "ats": "greenhouse"
+    "summary": "Point72 is a global alternative investment firm that deploys fundamental equities, systematic, macro, private credit, and venture capital strategies.",
+    "source": "meta_description"
   },
   {
     "slug": "pontera",
