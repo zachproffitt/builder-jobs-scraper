@@ -381311,5 +381311,72 @@
     "comp": "$15.00-$19.50",
     "comp_extras": [],
     "source_hash": "1c03c11e"
+  },
+  "workday-hpe-Cloud-Provider-Sales-Account-Manager_1198699-3": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "858576b4"
+  },
+  "workday-tapestry-Sales-Associate-II_JR6318": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "81b588b8"
+  },
+  "workday-empower-Premier-Brokerage-Associate_R0059190": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$50,300-$69,125",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "d2fe323c"
+  },
+  "smartrecruiters-Eurofins-744000129301099": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Ho Chi Minh City, Vietnam",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b1548456"
+  },
+  "ashby-nox-metals-f6acae24-2296-4e5f-81bf-af005a144185": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Detroit, MI",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8ef32f4a"
   }
 }
