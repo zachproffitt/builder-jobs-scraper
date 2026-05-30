@@ -381443,5 +381443,129 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "50140bef"
+  },
+  "ashby-quicknode-a66a5491-5a84-40e6-8bbf-503aab9ea1c7": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6c585fa1"
+  },
+  "greenhouse-andurilindustries-5150951007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Broomfield, CO",
+    "job_summary": "Develop state-of-the-art algorithms and high-performance software for autonomous military systems, sensor fusion, and AI-powered command and control platforms. Requires active TS/SCI clearance and deployment of research into mission-critical systems.",
+    "skills": [
+      "Applied Mathematics",
+      "Controls Theory",
+      "Machine Learning",
+      "Signal Processing",
+      "Scientific Computing",
+      "Python",
+      "C++",
+      "TS/SCI Clearance"
+    ],
+    "level": "senior",
+    "comp": "$165k-$218k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "3d6973f4"
+  },
+  "greenhouse-andurilindustries-5150953007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Waltham, MA",
+    "job_summary": "Develop state-of-the-art algorithms and high-performance software for autonomous military systems, sensor fusion, and AI-powered command and control infrastructure. Requires active TS/SCI security clearance and deployment of research into mission-critical defense systems.",
+    "skills": [
+      "Applied Mathematics",
+      "Machine Learning",
+      "Digital Signal Processing",
+      "Controls Theory",
+      "Scientific Computing",
+      "Python",
+      "C++",
+      "TS/SCI Clearance"
+    ],
+    "level": "senior",
+    "comp": "$191k-$253k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "852c8289"
+  },
+  "greenhouse-andurilindustries-5150954007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Waltham, MA",
+    "job_summary": "Develop state-of-the-art algorithms and high-performance software for AI-powered military command and control systems, autonomy, and sensor fusion. Requires active TS/SCI clearance and M.S./Ph.D. in mathematics, engineering, or related field.",
+    "skills": [
+      "Applied Mathematics",
+      "Controls Theory",
+      "Signal Processing",
+      "Machine Learning",
+      "Scientific Computing",
+      "Python",
+      "C++",
+      "TS/SCI Clearance"
+    ],
+    "level": "senior",
+    "comp": "$220k-$292k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "9767d6b5"
+  },
+  "greenhouse-andurilindustries-5150952007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Broomfield, CO",
+    "job_summary": "Develop state-of-the-art algorithms and high-performance software for AI-powered military command and control systems, autonomous systems, and sensor fusion; requires active TS/SCI clearance and MS/PhD in applied mathematics, computer science, or related field.",
+    "skills": [
+      "Applied Mathematics",
+      "Controls Theory",
+      "Signal Processing",
+      "Machine Learning",
+      "Scientific Computing",
+      "Python",
+      "C++",
+      "TS/SCI Clearance"
+    ],
+    "level": "senior",
+    "comp": "$190k-$252k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "2b504ff9"
+  },
+  "greenhouse-tempo-4265610009": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Diego, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$68k-$71k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "b51e811a"
   }
 }
