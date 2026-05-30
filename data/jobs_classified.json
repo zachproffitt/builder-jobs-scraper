@@ -381646,5 +381646,62 @@
       "equity"
     ],
     "source_hash": "2784a918"
+  },
+  "workday-tapestry-Sales-Associate-I_JR6270": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "502d3dce"
+  },
+  "greenhouse-andurilindustries-5150957007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Broomfield, CO",
+    "job_summary": "Build high-performance Rust software for real-time target tracking, multi-sensor fusion, and state estimation systems powering Anduril's AI-driven military command and control platform. Requires U.S. Secret security clearance and expertise in estimation theory, signal processing, and sensor data integration at scale.",
+    "skills": [
+      "Rust",
+      "C++",
+      "Python",
+      "Kalman filters",
+      "sensor fusion",
+      "Bayesian filtering",
+      "linear algebra",
+      "signal processing"
+    ],
+    "level": "senior",
+    "comp": "$165,000\u2013$218,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e75cc804"
+  },
+  "lever-equativ-38e2c197-8a0c-4e8e-9d5b-4b7a24beeff9": {
+    "is_engineering": true,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Paris, France",
+    "job_summary": "Design and build Equativ's generative AI platform stack, including agentic systems (MaaS/AaaS) and mission-critical AI agents that automate internal workflows across operations, ad quality, and marketplace teams. Operating at massive scale (3M+ requests/second), you'll work on industrialized agent development infrastructure and deploy production AI systems.",
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "Generative AI",
+      "LLMs",
+      "Agent Systems",
+      "Distributed Systems"
+    ],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "dfeafd51"
   }
 }
