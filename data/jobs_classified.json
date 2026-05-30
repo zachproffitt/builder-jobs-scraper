@@ -381766,5 +381766,88 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "21a0652a"
+  },
+  "workday-tapestry-Temporary-Sales-Associate_JR6353": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "42a7aa04"
+  },
+  "greenhouse-anthropic-5161402008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY / Seattle, WA / San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$275k-$370k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "deddf6ed"
+  },
+  "ashby-benchling-37596984-e4ff-4181-be96-f7ca415540f0": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Lead engineering teams building AI-powered lab workflow and data management solutions for biotech R&D; requires 5+ years managing engineering managers across multi-team organizations.",
+    "skills": [
+      "Cloud Architecture",
+      "Full-Stack Development",
+      "SaaS Platforms",
+      "Engineering Management",
+      "CI/CD",
+      "Observability Tools"
+    ],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d514340b"
+  },
+  "ashby-hinge-health-6bc1fcea-3597-4a03-9ce8-cbe69685933f": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8c10e6b4"
+  },
+  "workday-modernatx-Sr-Data-Platform-Engineer_R19117-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Warsaw, Poland",
+    "job_summary": "Design and scale data platform services on AWS using Glue, Redshift, Iceberg, and Airflow to enable self-service data ingestion, metadata governance, and secure data sharing across Moderna's organization. Build infrastructure-as-code modules and support MLOps workflows for a data mesh architecture serving data scientists and domain teams.",
+    "skills": [
+      "Python",
+      "SQL",
+      "AWS (Glue, Redshift, S3, IAM)",
+      "Apache Airflow",
+      "dbt",
+      "Apache Spark",
+      "Terraform",
+      "Pulumi"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d3c564bf"
   }
 }
