@@ -381703,5 +381703,68 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "dfeafd51"
+  },
+  "workday-tapestry-Retail-Contingent_JR6347": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9d98361f"
+  },
+  "workday-tapestry-Sales-Associate-III_JR6345-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "38ef0302"
+  },
+  "greenhouse-andurilindustries-5150958007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Waltham, MA",
+    "job_summary": "Design and deploy state-of-the-art path planning and trajectory optimization algorithms for real-time command and control systems orchestrating autonomous military platforms. Requires active Top Secret security clearance.",
+    "skills": [
+      "C++",
+      "Python",
+      "MATLAB",
+      "Path Planning Algorithms",
+      "Trajectory Optimization",
+      "Reinforcement Learning",
+      "Guidance Navigation and Control",
+      "TS/SCI Clearance"
+    ],
+    "level": "senior",
+    "comp": "$191k-$253k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "5c89c418"
+  },
+  "workday-jll-Leasing-Agent_REQ509278": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Jeddah, Saudi Arabia",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "21a0652a"
   }
 }
