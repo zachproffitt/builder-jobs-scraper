@@ -381378,5 +381378,70 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "8ef32f4a"
+  },
+  "greenhouse-outschool-4685596006": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b451133c"
+  },
+  "workday-jll-Campus-Director_REQ497274": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "12cfe1fc"
+  },
+  "workday-elevancehealth-Business-Information-Analyst-Sr_JR194436": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Meridian, ID",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fae0c6d4"
+  },
+  "smartrecruiters-Eurofins-744000129301189": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Ho Chi Minh City, Vietnam",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "941b8bf5"
+  },
+  "workday-dxctechnology-Delivery-Manager--CCTV-_51581572": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Shanghai, China",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "50140bef"
   }
 }
