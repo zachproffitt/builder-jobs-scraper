@@ -381241,5 +381241,75 @@
     "comp": "$15.00-$19.50",
     "comp_extras": [],
     "source_hash": "2a51bd2b"
+  },
+  "workday-invenergyllc-Manager--Supply-Chain_R10826-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8b3c9f23"
+  },
+  "workday-nvidia-Senior-Infrastructure-Automation-Engineer---SCM-and-HPC-AI_JR2014205": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e6aff67e"
+  },
+  "ashby-Honey Homes-ee804cb1-27be-42c6-adec-798925e465a1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$76.9k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "8d784681"
+  },
+  "ashby-Honey Homes-d2409586-3acb-4486-bdde-48aa20b40c79": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Rafael, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$80k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "78e0a06d"
+  },
+  "workday-tapestry-Cashier-II_JR6314": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "The Woodlands, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$15.00-$19.50",
+    "comp_extras": [],
+    "source_hash": "1c03c11e"
   }
 }
