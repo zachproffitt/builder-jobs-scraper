@@ -4232,10 +4232,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "vitablehealth",
     "name": "Vitable Health",
-    "summary": "Vitable Health builds a software platform that connects patients with licensed pharmacists and physicians to provide personalized medication therapy management and prescription services. The company operates in the digital health and telehealth space, focusing on chronic disease management and medication optimization for patients with conditions like diabetes, hypertension, and heart disease.",
-    "ats": "greenhouse"
+    "summary": "Vitable Health provides affordable primary care services including visits, medications, and lab tests through Individual Coverage Health Reimbursement Arrangements (ICHRA).",
+    "source": "one_liner"
   },
   {
     "slug": "vitalize",
@@ -7819,10 +7820,11 @@
     "ats": "lever"
   },
   {
+    "ats": "ashby",
     "slug": "gamechanger",
     "name": "GameChanger",
-    "summary": "GameChanger is a mobile platform that provides live scorekeeping, game streaming, and team management tools for youth and amateur sports organizations. The app allows coaches, players, and parents to track games in real-time, share live video broadcasts, and manage team rosters and schedules across baseball, softball, basketball, football, soccer, and other sports.",
-    "ats": "ashby"
+    "summary": "GameChanger offers live streaming, sports team management, and scorekeeping services for youth sports coaches and fans.",
+    "source": "meta_description"
   },
   {
     "slug": "gamefam",
@@ -8022,10 +8024,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "hopskipdrive",
     "name": "HopSkipDrive",
-    "summary": "HopSkipDrive operates a ride-sharing platform designed specifically for children, offering safe transportation for kids to school, activities, and appointments with vetted drivers and real-time parent tracking. The company focuses on the school transportation and youth mobility market, providing an alternative to traditional school buses and parent drop-offs.",
-    "ats": "greenhouse"
+    "summary": "HopSkipDrive provides supplemental student transportation and routing software.",
+    "source": "meta_description"
   },
   {
     "slug": "leantaas",
