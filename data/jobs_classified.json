@@ -380973,5 +380973,273 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "bb9417f0"
+  },
+  "workable-weekday-1-4941EC855B": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "35b90ab4"
+  },
+  "workday-tapestry-Temporary-Sales-Associate_JR6310": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "cf8d2d4c"
+  },
+  "workable-weekday-1-98A7596209": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d6d355cb"
+  },
+  "greenhouse-airbnb-7702735": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and operate a unified data access gateway and schema management system that abstracts storage complexity for Airbnb's 150+ million users while handling all critical user, listing, and financial data. Work on a distributed database system at massive scale with requirements for reliability, performance, security, and global availability.",
+    "skills": [
+      "Distributed Systems",
+      "Database Design",
+      "Java",
+      "C++",
+      "Python",
+      "Kubernetes",
+      "High Performance Infrastructure"
+    ],
+    "level": "staff",
+    "comp": "$244k-$305k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "3a48627e"
+  },
+  "ashby-Honey Homes-0c9bdae6-a404-4a13-93c0-4f0589966a4f": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Monica, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$75k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "0a248eb8"
+  },
+  "ashby-ditto-e0d1382e-cce4-4ea8-a7ba-84218e0e9361": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "b5486112"
+  },
+  "ashby-Honey Homes-5ddc2f0d-affe-4c14-abbe-821cebb49cc0": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Oakland, CA / Berkeley, CA / Piedmont, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$75k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "128c0a60"
+  },
+  "ashby-Honey Homes-908a035b-1fda-415f-a7db-2f93fc2e82a2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Palo Alto, CA / Daly City, CA / San Mateo, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$80k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "42fabd73"
+  },
+  "ashby-Honey Homes-a56ee5ba-08e9-4818-bbb3-938ee7a30d35": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Palo Alto, CA / Daly City, CA / San Mateo, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$80k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "117c80e9"
+  },
+  "ashby-Honey Homes-c26e1daa-d546-46e1-9b18-b77ea0e71068": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$80k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "695c3a30"
+  },
+  "ashby-Honey Homes-ceb968c0-a5f8-4915-8b37-18c93c18eed5": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Dallas, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$67k-$75k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "6fbf26db"
+  },
+  "ashby-Honey Homes-58502987-e432-4399-90e7-5ac5f42bd7cc": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$67k-$75k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "6cbb36bd"
+  },
+  "ashby-Honey Homes-c049c555-d891-4bcf-ac37-11d0c39429d0": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Evanston, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$72.8k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "cea379da"
+  },
+  "ashby-Honey Homes-87b49a8c-3ce3-42f3-906e-d7995c95c515": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Dublin, Ireland",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$75k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "4ad12aa2"
+  },
+  "ashby-Honey Homes-e6116585-f883-463f-b33c-f5a855c97270": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Walnut Creek, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$75k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "f6465297"
+  },
+  "greenhouse-inkind-5236903008": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": "Build AI-powered mobile experiences for a consumer dining app using React Native, integrating LLM-driven features, recommendation systems, and conversational interfaces across iOS and Android. Requires on-site presence in Austin, TX and hands-on experience with AI tooling and LLM integration.",
+    "skills": [
+      "React Native",
+      "TypeScript",
+      "Redux",
+      "React Query",
+      "REST APIs",
+      "LLM APIs",
+      "AI-assisted development"
+    ],
+    "level": "senior",
+    "comp": "$145k-$160k",
+    "comp_extras": [],
+    "source_hash": "7882b10a"
+  },
+  "workday-tapestry-Temporary-Associate_JR6311": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Clarksburg, MD",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$15.00-$19.50",
+    "comp_extras": [],
+    "source_hash": "2a51bd2b"
   }
 }
