@@ -378126,5 +378126,368 @@
       "equity"
     ],
     "source_hash": "9a753a39"
+  },
+  "lever-cfsenergy-2301f155-ecba-4439-a389-a4ac4035699b": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "553c78ee"
+  },
+  "greenhouse-five9-6009628004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "424e09b0"
+  },
+  "greenhouse-hopskipdrive-6002560004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5f7594ed"
+  },
+  "workday-jll-Workplace-Coordinator_REQ510668": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4782ee1b"
+  },
+  "workday-tapestry-Sales-Support-Associate_JR5181": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "726ad3dd"
+  },
+  "greenhouse-cloudflare-7953656": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Singapore",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f9c0f310"
+  },
+  "ashby-cohere-74856e86-8eeb-46ea-bf60-b4b4ad3352ae": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Toronto, Canada",
+    "job_summary": "Build performance monitoring, optimization, and benchmarking infrastructure for Cohere's Compass AI-powered search platform; scale search services while maintaining low latency and high availability across CPU, GPU, and autoscaled compute environments.",
+    "skills": [
+      "Python",
+      "OpenSearch",
+      "Elasticsearch",
+      "Weaviate",
+      "FastAPI",
+      "Kubernetes",
+      "GPU optimization",
+      "benchmarking frameworks"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "07a9655f"
+  },
+  "workday-boeing-Senior-Production-Engineering-Manager_JR2026511798-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "North Charleston, SC",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$170,000-$230,000",
+    "comp_extras": [],
+    "source_hash": "946516ff"
+  },
+  "workday-boeing-Senior-Production-Engineering-Manager_JR2026512675-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "North Charleston, SC",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$170k-$230k",
+    "comp_extras": [],
+    "source_hash": "ba0627a4"
+  },
+  "greenhouse-five9-5820282004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote / Irving, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$119,300\u2013$371,300",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "a9389ac8"
+  },
+  "workday-paloaltonetworks-Principal-Software-Engineer--L7-Security-_JR-016867": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": "Design and implement scalable cloud security solutions and next-generation firewalls (NGFW) for high-scale distributed systems handling application identification and content inspection across hardware, virtual, container, and cloud environments. Requires hands-on architectural leadership and deep networking expertise (TCP/UDP, socket programming) at principal level.",
+    "skills": [
+      "C",
+      "Python",
+      "Go",
+      "Kubernetes",
+      "Kafka",
+      "Redis",
+      "GCP",
+      "AWS"
+    ],
+    "level": "principal",
+    "comp": "$147k-$237.5k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "6562c8d4"
+  },
+  "ashby-gamechanger-223f815f-45f1-4ccd-9dec-6319825f364e": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Lead cross-functional engineering teams (mobile, web, backend) building new consumer products and platform capabilities for a youth sports community platform. Balance rapid experimentation with long-term scalability while developing emerging AI-powered features and engineering tooling.",
+    "skills": [],
+    "level": "manager",
+    "comp": "$240k-$260k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "f6c49ffe"
+  },
+  "greenhouse-hs-7968218": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY / Seattle, WA / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$122,400-$170,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "a97bc27e"
+  },
+  "greenhouse-hs-7968223": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY / Seattle, WA / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$122.4k-$190k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c0b2e43a"
+  },
+  "workday-abbott-Strategic-Pricing---Contract-Analyst_31150694": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$78k-$156k",
+    "comp_extras": [],
+    "source_hash": "6c08b7cd"
+  },
+  "greenhouse-hopskipdrive-6002665004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Lead the engineering organization through its next phase of scale, driving execution, fostering high-performance culture, and pioneering AI-accelerated development workflows. Manage a 30-60 person engineering team across Ruby on Rails, React, iOS/Android, and modern cloud infrastructure while balancing technical health with business outcomes.",
+    "skills": [
+      "Ruby on Rails",
+      "React",
+      "iOS",
+      "Android",
+      "AWS",
+      "GCP",
+      "AI/ML Integration"
+    ],
+    "level": "manager",
+    "comp": "$240k-$270k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "84277c29"
+  },
+  "greenhouse-momentus-6009633004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$75k-$90k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "37f71a96"
+  },
+  "greenhouse-spacex-8567522002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Cape Canaveral, FL",
+    "job_summary": "Design, build, and maintain authentication, identity management, network security, and application-level security systems protecting SpaceX infrastructure and data. Requires on-site presence at Cape Canaveral and ability to pass Air Force background check; ITAR-eligible US citizenship or permanent residency required.",
+    "skills": [
+      "Python",
+      "Go",
+      "C#",
+      "C++",
+      "Rust",
+      "PKI",
+      "SAML",
+      "OIDC"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0dbb2a12"
+  },
+  "greenhouse-spacex-8567571002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hawthorne, CA",
+    "job_summary": "Design, build, and maintain security infrastructure for SpaceX systems including authentication services, identity management, network security, and cloud deployment controls. On-site role at Cape Canaveral requiring Air Force background check and ITAR work authorization.",
+    "skills": [
+      "Python",
+      "Go",
+      "C#",
+      "C++",
+      "Rust",
+      "PKI",
+      "SAML",
+      "OIDC"
+    ],
+    "level": "mid",
+    "comp": "$130k-$180k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "afce09b4"
+  },
+  "workday-jll-Assistant-Workplace-Manager_REQ510663": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Chicago, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$61k-$75k",
+    "comp_extras": [],
+    "source_hash": "69102e25"
+  },
+  "greenhouse-vitablehealth-4701248005": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Design and own Vitable's payment infrastructure, ledgering, and financial reconciliation systems that move and track money for healthcare benefits at scale. Build systems meeting HIPAA, SOC 2, and financial compliance requirements while mentoring engineers and raising architectural standards across the organization.",
+    "skills": [
+      "Python",
+      "Django",
+      "Django REST Framework",
+      "PostgreSQL",
+      "AWS",
+      "TypeScript",
+      "Kafka",
+      "Event-Driven Architecture"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "0831ade8"
+  },
+  "workday-tapestry-Temporary-Associate_JR6294": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Destin, FL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$15.00-$19.50",
+    "comp_extras": [],
+    "source_hash": "5af3883a"
   }
 }
