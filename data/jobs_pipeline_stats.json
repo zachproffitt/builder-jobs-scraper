@@ -4,14 +4,14 @@
   "not_builder": 2,
   "unclear": 0,
   "builder_rate": 0.0,
-  "title_skipped": 3,
+  "title_skipped": 2,
   "location_skipped": 1,
-  "skipped_no_desc": 16296,
+  "skipped_no_desc": 16619,
   "errors": 0,
   "requests": 2,
-  "input_tokens": 1863,
-  "output_tokens": 425,
+  "input_tokens": 2777,
+  "output_tokens": 134,
   "cache_creation_input_tokens": 4221,
   "cache_read_input_tokens": 4221,
-  "cost_usd": 0.00968635
+  "cost_usd": 0.00914535
 }

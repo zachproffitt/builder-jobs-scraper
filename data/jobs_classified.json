@@ -380791,5 +380791,70 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "efc724ef"
+  },
+  "workday-capitalone-Manager--Project-Manager---Global-Payment-Network-Intake---Discovery_R243554-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0a60f562"
+  },
+  "workday-tapestry-Senior-Sales-Associate_JR4162": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6531a0aa"
+  },
+  "workday-nvidia-GPU-Memory-System-Architect_JR2018460": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b5359c91"
+  },
+  "workday-iheartmedia-Promotions-Assistant_Req38686-5": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Tucson, AZ",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8a6b9601"
+  },
+  "workday-iheartmedia-Promotion-Assistant_Req38685-5": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Tucson, AZ",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "26191637"
   }
 }
