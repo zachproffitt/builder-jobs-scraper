@@ -381567,5 +381567,84 @@
       "equity"
     ],
     "source_hash": "b51e811a"
+  },
+  "workday-ag-IT-Portfolio-Manager-for-Flight-Test--H-F-_JR10387909-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "527e4f46"
+  },
+  "workday-jll-Facility-Manager--Soft-Services_REQ510149": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5c400af1"
+  },
+  "workday-tapestry-Sales-Associate-III_JR6339": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bb72f1d4"
+  },
+  "greenhouse-appliedintuition-4671923005": {
+    "is_engineering": null,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Sunnyvale, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$125,000 - $222,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c3e6645e"
+  },
+  "workday-capitalone-Manager--Data-Scientist---Innovation-Hub_R243529-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Plano, TX / McLean, VA",
+    "job_summary": "Lead a team of data scientists building generative AI and machine learning solutions across billions of customer records to drive business impact in financial services. Partner with cross-functional teams to design and deploy AI-powered applications using Python, Spark, AWS, and modern ML technologies at enterprise scale.",
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "AWS",
+      "Spark",
+      "Generative AI",
+      "LLM",
+      "SQL",
+      "PyTorch or TensorFlow"
+    ],
+    "level": "manager",
+    "comp": "$179,400-$225,100",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "2784a918"
   }
 }
