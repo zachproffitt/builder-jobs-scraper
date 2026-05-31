@@ -381849,5 +381849,94 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "d3c564bf"
+  },
+  "workday-tapestry-Assistant-Store-Leader_JR6211-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5b101b50"
+  },
+  "workday-abbott-Ambassador_31151922": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d1bba994"
+  },
+  "workday-nvidia-Senior-DevOps-Engineer_JR2018930": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a8c11747"
+  },
+  "workday-abbott-Brand-Manager--Government-Marketing_31152020-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Alameda, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$114,000 - $228,000",
+    "comp_extras": [],
+    "source_hash": "0e55089b"
+  },
+  "greenhouse-vardaspace-7755455003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "El Segundo, CA",
+    "job_summary": "Build highly reliable embedded flight software systems for orbital spacecraft, including bare metal and RTOS-based code for attitude control, telemetry, and mission-critical systems. Safety-critical space domain with ITAR export control requirements; must be a US person with spacecraft or avionics software experience.",
+    "skills": [
+      "C",
+      "C++",
+      "RTOS",
+      "Embedded Systems",
+      "Python",
+      "Spacecraft Software",
+      "F'",
+      "cFS"
+    ],
+    "level": "mid",
+    "comp": "$120k-$160k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "a7832eb0"
+  },
+  "workday-tapestry-Director--Data-and-Analytics--GC_JR6357": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Shanghai, China",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8466d46c"
   }
 }
