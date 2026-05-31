@@ -383374,5 +383374,44 @@
       "equity"
     ],
     "source_hash": "329cdb65"
+  },
+  "workday-devoted-Contract-Talent-Acquisition-Partner--High-Growth-Health-Tech-_R3213": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "211547e1"
+  },
+  "greenhouse-toast-7971505": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b6a8f32b"
+  },
+  "workday-relx-Client-Manager_R114095": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Leeds, UK",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "379ffc01"
   }
 }
