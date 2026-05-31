@@ -382277,5 +382277,70 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "5117ed25"
+  },
+  "workday-paloaltonetworks-Principal-Mobile-Engineer_JR-016989": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0b508932"
+  },
+  "workday-dxctechnology-Eligibility-Case-Manager_51581575": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Queensland, Australia",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ac2d5d58"
+  },
+  "workday-dxctechnology-Worker-s-Compensation-Team-Leader_51581574": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Macquarie Park, Australia",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2906a7f5"
+  },
+  "workday-dxctechnology-Worker-s-Compensation-PIAWE-Lead_51581573": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "866b517c"
+  },
+  "workday-wiley-Assistant-Editor_R2600559": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "23f5e38b"
   }
 }
