@@ -382412,5 +382412,68 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "a75c5889"
+  },
+  "greenhouse-anthropic-5175782008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bf8a6901"
+  },
+  "workday-nvidia-Senior-Hardware-Validation-Engineer_JR2012649": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "82b97443"
+  },
+  "greenhouse-appliedintuition-4701275005": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Washington, DC",
+    "job_summary": "Lead security architecture, compliance operations, and IT infrastructure for defense programs handling classified and controlled unclassified information across multiple secure facilities and regulatory frameworks (CMMC, NIST 800-171/800-53, IL4-IL6). Requires active US security clearance, on-site presence in DC/Virginia, and deep experience scaling security programs in defense or highly regulated environments.",
+    "skills": [
+      "CMMC",
+      "NIST 800-171",
+      "NIST 800-53",
+      "Zero Trust",
+      "DFARS",
+      "FedRAMP",
+      "IL4/IL5/IL6",
+      "Security Clearance"
+    ],
+    "level": "manager",
+    "comp": "$200k-$260k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "19b79f37"
+  },
+  "greenhouse-wayve-8565894002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Tokyo, Japan",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "dae7f222"
   }
 }
