@@ -383816,5 +383816,157 @@
       "equity"
     ],
     "source_hash": "f8b8c4ba"
+  },
+  "greenhouse-ionq-6009600004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "23ed403d"
+  },
+  "workday-gdit-Deputy-Program-Manager---TS-SCI-w-Poly_RQ220923-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "772ec44a"
+  },
+  "workday-crowdstrike-Manager--Corporate-Sales--Hybrid--AUS-_R28878-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "75b61d2a"
+  },
+  "workday-visa-Delivery-Director--Visa-Consulting---Analytics_REF082587W": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3bd7f7fd"
+  },
+  "ashby-Baton-12c9b4a1-d31a-435c-a3b0-a2d3f8aa7358": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": "Build end-to-end agentic AI systems that power small business transactions\u2014from intelligent matching and document understanding to multi-step workflows that buyers and sellers interact with daily. Production AI at meaningful scale with real users and measurable outcomes in fintech.",
+    "skills": [
+      "Python",
+      "LLMs",
+      "Production AI Systems",
+      "Agentic Systems",
+      "LLM Evaluation",
+      "Go",
+      "React",
+      "TypeScript"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "aa29dc66"
+  },
+  "workday-aveva-IT-Portfolio-Management-Office-Specialist_R014144": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "London, UK / Cambridge, UK",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9b5ab28c"
+  },
+  "smartrecruiters-Eurofins-744000129344119": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Girraween, Australia",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "684959af"
+  },
+  "greenhouse-ionq-6009599004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Pleasanton, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$142,113-$186,063",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "fd7e92c0"
+  },
+  "workday-gdit-Chief-Systems-Architect---TS-SCI-w-Poly_RQ220914-2": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Chantilly, VA",
+    "job_summary": "Lead end-to-end technical architecture and modernization of cloud-based national security collection systems, guiding design decisions and engineering teams. Requires TS/SCI clearance with polygraph and on-site presence in Chantilly, VA.",
+    "skills": [
+      "Cloud Computing",
+      "AI",
+      "Machine Learning",
+      "OSINT",
+      "Distributed Systems",
+      "TS/SCI Clearance",
+      "Polygraph"
+    ],
+    "level": "principal",
+    "comp": "$170k-$230k",
+    "comp_extras": [],
+    "source_hash": "447ce4c1"
+  },
+  "workday-lighting-Sales-Intern_363663": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Lima, Peru",
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ea2d7aff"
   }
 }
