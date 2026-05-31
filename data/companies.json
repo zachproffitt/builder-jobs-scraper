@@ -20900,7 +20900,8 @@
   {
     "name": "Librar Labs",
     "website": "https://www.librarlabs.com",
-    "status": "no_ats"
+    "status": "no_ats",
+    "one_liner": "Intelligence for cultural institutions"
   },
   {
     "name": "Libretto",
@@ -44406,5 +44407,773 @@
     "ats": "greenhouse",
     "slug": "teamlfg",
     "status": "active"
+  },
+  {
+    "name": "Axel Travel",
+    "website": "https://helloaxel.com",
+    "status": "active",
+    "one_liner": "AI agent that saves you money on travel",
+    "ats": "ashby",
+    "slug": "Axel",
+    "category": [],
+    "meta_description": "Axel monitors your travel bookings 24/7 and automatically secures refunds when prices drop. Save money effortlessly on flights and hotels."
+  },
+  {
+    "name": "CentralComs",
+    "website": "https://centralcoms.com",
+    "status": "no_ats",
+    "one_liner": "Property Management AI Agents that automate leasing and maintenance."
+  },
+  {
+    "name": "Drafted",
+    "website": "https://www.drafted.ai",
+    "status": "no_ats",
+    "one_liner": "Design your home instantly with AI"
+  },
+  {
+    "name": "Hypestream",
+    "website": "https://www.hypestream.io",
+    "status": "no_ats",
+    "one_liner": "We help livestream sellers get more sales."
+  },
+  {
+    "name": "Miso Labs",
+    "website": "https://misolabs.ai",
+    "status": "no_ats",
+    "one_liner": "The most emotive foundation models for voice"
+  },
+  {
+    "name": "Plena Health",
+    "website": "https://www.plena.health",
+    "status": "no_ats",
+    "one_liner": "Plena is the AI operating system for specialty medical practices"
+  },
+  {
+    "name": "RASPIRE",
+    "website": "https://raspire.com",
+    "status": "no_ats",
+    "one_liner": "No-code runtime app security with AI"
+  },
+  {
+    "name": "Thomas",
+    "website": "https://madebythomas.ai",
+    "status": "no_ats",
+    "one_liner": "The first AI founder: a virtual human who runs his own companies."
+  },
+  {
+    "name": "SendCutSend",
+    "website": "https://sendcutsend.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Agile",
+    "website": "https://agile.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Ambience Healthcare",
+    "website": "https://ambiencehealth.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Anomali",
+    "website": "https://anomali.com",
+    "status": "active",
+    "ats": "lever",
+    "slug": "anomali",
+    "category": [],
+    "meta_description": "Discover how Anomali uses AI-driven threat intelligence and a powerful security operations platform to improve visibility, detection and cyber resilience."
+  },
+  {
+    "name": "Apache Kafka",
+    "website": "https://kafka.apache.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Appian",
+    "website": "https://appian.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "AppNexus (now Xandr)",
+    "website": "https://xandr.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Arcturus",
+    "website": "https://arcturus.ltd",
+    "status": "no_ats"
+  },
+  {
+    "name": "Armada Interactive",
+    "website": "https://armadainteractive.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Atheneum",
+    "website": "https://atheneum.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Autoware Foundation",
+    "website": "https://autoware.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Balancer Labs",
+    "website": "https://balancer.fi",
+    "status": "no_ats"
+  },
+  {
+    "name": "Berger Singerman",
+    "website": "https://bergersingerman.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Big Fish Games",
+    "website": "https://bigfishgames.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Braintree",
+    "website": "https://braintreepayments.com",
+    "status": "active",
+    "ats": "eightfold",
+    "slug": "paypal.eightfold.ai|braintreepayments.com",
+    "category": [],
+    "meta_description": "Explore PayPal Braintree and how our end-to-end payment platform can help drive growth. Learn more about PayPal Braintree on the PayPal website."
+  },
+  {
+    "name": "Bubble",
+    "website": "https://bubble.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Byju's",
+    "website": "https://byjus.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Carbify",
+    "website": "https://carbify.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Celsius Network",
+    "website": "https://celsius.network",
+    "status": "no_ats"
+  },
+  {
+    "name": "Centro",
+    "website": "https://centro.net",
+    "status": "no_ats"
+  },
+  {
+    "name": "Chartio (Atlassian)",
+    "website": "https://chartio.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Chooose",
+    "website": "https://chooose.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Contract Logix",
+    "website": "https://contractlogix.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Criteo",
+    "website": "https://criteo.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Cyber Triage",
+    "website": "https://cybertriage.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "D3 Security",
+    "website": "https://d3security.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Data Box",
+    "website": "https://databox.com",
+    "status": "active",
+    "ats": "bamboo",
+    "slug": "databox",
+    "category": [],
+    "meta_description": "Get clear, trusted answers in seconds with AI-powered analytics software. Connect 130+ data sources, build beautiful dashboards, and automate reports."
+  },
+  {
+    "name": "Dolt (DoltHub)",
+    "website": "https://dolthub.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "DriveNets",
+    "website": "https://drivenets.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "E*TRADE",
+    "website": "https://etrade.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Ecolab",
+    "website": "https://ecolab.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "EdgeIQ",
+    "website": "https://edgeiq.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Emitwise",
+    "website": "https://emitwise.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Epicor",
+    "website": "https://epicor.com",
+    "status": "active",
+    "ats": "workday",
+    "slug": "epicorsoftware/wd5/epicorjobs",
+    "category": [],
+    "meta_description": "Advanced ERP software curated to the unique needs of your business. Explore industry-specific tools for quicker ROI, better efficiency, and streamlined growth."
+  },
+  {
+    "name": "Firebase",
+    "website": "https://firebase.google.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "FireEye (Trellix)",
+    "website": "https://trellix.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Flipkart",
+    "website": "https://flipkart.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Genie",
+    "website": "https://genie.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Huawei",
+    "website": "https://huawei.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Huobi",
+    "website": "https://huobi.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "IBM Cloud",
+    "website": "https://cloud.ibm.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "IHG Hotels & Resorts",
+    "website": "https://ihghotels.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Jagged Peak",
+    "website": "https://jaggedpeak.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Kenshoo",
+    "website": "https://kenshoo.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Kindred AI",
+    "website": "https://kindred.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Kissflow",
+    "website": "https://kissflow.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Komodo Health",
+    "website": "https://komodohealth.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "LEAP",
+    "website": "https://leap.ac",
+    "status": "active",
+    "ats": "workable",
+    "slug": "leapfrog-power-inc",
+    "category": [],
+    "meta_description": "Turn your distributed energy resources into revenue through Leap"
+  },
+  {
+    "name": "Legodesk",
+    "website": "https://legodesk.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Lexion",
+    "website": "https://lexion.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Limelight Networks",
+    "website": "https://limelight.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Line",
+    "website": "https://line.me",
+    "status": "no_ats"
+  },
+  {
+    "name": "Litera",
+    "website": "https://litera.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Loktra",
+    "website": "https://loktra.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Luminance",
+    "website": "https://luminance.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Make",
+    "website": "https://make.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "MakeMyTrip",
+    "website": "https://makemytrip.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Marin Software",
+    "website": "https://marinsoftware.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Mavenlink",
+    "website": "https://mavenlink.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Mbed (ARM Mbed)",
+    "website": "https://mbed.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "MediaMath",
+    "website": "https://mediamath.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Mendix",
+    "website": "https://mendix.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Microstrategy",
+    "website": "https://microstrategy.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Mitratech",
+    "website": "https://mitratech.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "mParticle",
+    "website": "https://mparticle.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "MyCase",
+    "website": "https://mycase.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Netraum",
+    "website": "https://netraum.net",
+    "status": "no_ats"
+  },
+  {
+    "name": "NETSCALER (Citrix)",
+    "website": "https://citrix.com",
+    "status": "active",
+    "ats": "workday",
+    "slug": "tibco/wd5/Cloud_Software_Group",
+    "category": [],
+    "meta_description": "Discover the new Citrix platform, revolutionizing application delivery with enhanced security, Zero Trust frameworks, and unmatched performance. Dive into industry-specific solutions for healthcare, financial services, and government. Uncover new use cases with Citrix and NetScaler, from centralized app management to mission-critical application delivery."
+  },
+  {
+    "name": "Netsmart",
+    "website": "https://netsmart.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "NextWave Climate",
+    "website": "https://nextwave.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Nintex",
+    "website": "https://nintex.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Nykaa",
+    "website": "https://nykaa.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "NZAM (Net Zero Asset Managers)",
+    "website": "https://nzam.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Oracle Cloud",
+    "website": "https://oracle.com/cloud",
+    "status": "no_ats"
+  },
+  {
+    "name": "OutSystems",
+    "website": "https://outsystems.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Oxbotica",
+    "website": "https://oxbotica.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "OYO Rooms",
+    "website": "https://oyorooms.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Parabola",
+    "website": "https://parabola.io",
+    "status": "active",
+    "ats": "ashby",
+    "slug": "parabola-io",
+    "category": [],
+    "meta_description": "Agents that ops and finance teams actually rely on. Parabola builds agents to handle reconciliations, PO matching, accruals, and reporting at production scale \u2014 pulling data from PDFs, emails, spreadsheets, and 1,000+ data sources."
+  },
+  {
+    "name": "Parallel Wireless",
+    "website": "https://parallelwireless.com",
+    "status": "active",
+    "ats": "lever",
+    "slug": "parallelwireless",
+    "category": [],
+    "meta_description": "Parallel Wireless is leading the OpenRAN movement with the world&#039;s first 5G/4G/3G/2G cloud-native Open RAN architecture for rural and urban. Our customers include over 60 global mobile operators."
+  },
+  {
+    "name": "PlatformIO",
+    "website": "https://platformio.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Playtika",
+    "website": "https://playtika.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Process Street",
+    "website": "https://process.st",
+    "status": "no_ats"
+  },
+  {
+    "name": "Qu & Co",
+    "website": "https://quandco.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Raingain",
+    "website": "https://raingain.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Ready Robotics",
+    "website": "https://readyrobotics.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Realtek",
+    "website": "https://realtek.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Rentalcars.com",
+    "website": "https://rentalcars.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "REV Robotics",
+    "website": "https://revrobotics.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "RisingWave",
+    "website": "https://risingwave.dev",
+    "status": "no_ats"
+  },
+  {
+    "name": "Robot Cache",
+    "website": "https://robotcache.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Rocket Fuel",
+    "website": "https://rocketfuel.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Rocket Matter",
+    "website": "https://rocketmatter.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Rubicon Project (Magnite)",
+    "website": "https://magnite.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sequoia Crypto",
+    "website": "https://sequoiacap.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Shyp",
+    "website": "https://shyp.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Silentium Technology",
+    "website": "https://silentium.tech",
+    "status": "no_ats"
+  },
+  {
+    "name": "Silicon Labs",
+    "website": "https://silabs.com",
+    "status": "active",
+    "ats": "workday",
+    "slug": "silabs/wd1/SiliconlabsCareers",
+    "category": [],
+    "meta_description": "Silicon Labs makes silicon, software and solutions for a more connected world."
+  },
+  {
+    "name": "Simpli (formerly Simpli.fi)",
+    "website": "https://simpli.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Skai",
+    "website": "https://skai.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Smokeball",
+    "website": "https://smokeball.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Softr",
+    "website": "https://softr.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sphera",
+    "website": "https://sphera.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Spirent Communications",
+    "website": "https://spirent.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "SpotDraft",
+    "website": "https://spotdraft.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Squirrel AI",
+    "website": "https://squirrel-ai.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "SurrealDB",
+    "website": "https://surrealdb.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sustainalytics",
+    "website": "https://sustainalytics.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Swimlane",
+    "website": "https://swimlane.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Syspro",
+    "website": "https://syspro.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "The Trade Desk",
+    "website": "https://thetradedesk.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "ThingSpeak (MathWorks)",
+    "website": "https://mathworks.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "ThreatStream",
+    "website": "https://threatstream.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Thrive Global",
+    "website": "https://thriveglobal.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "ToursByLocals",
+    "website": "https://toursbylocals.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Trip.com",
+    "website": "https://trip.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "TripleBlind",
+    "website": "https://tripleblind.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Tubi",
+    "website": "https://tubitv.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Turnitin",
+    "website": "https://turnitin.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Twelve (Carbon Transformation)",
+    "website": "https://twelvetech.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Uber Eats",
+    "website": "https://ubereats.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Ultraleap",
+    "website": "https://ultraleap.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "UNFCCC",
+    "website": "https://unfccc.int",
+    "status": "no_ats"
+  },
+  {
+    "name": "ViaBill",
+    "website": "https://viabill.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Viastore Systems",
+    "website": "https://viastore.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Vicarious",
+    "website": "https://vicarious.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "VIPKid",
+    "website": "https://vipkid.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Visual IQ (Nielsen)",
+    "website": "https://nielsen.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Wanderu",
+    "website": "https://wanderu.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Wargaming",
+    "website": "https://wargaming.net",
+    "status": "no_ats"
+  },
+  {
+    "name": "Warpgate",
+    "website": "https://warpgate.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "WeChat",
+    "website": "https://wechat.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Wejo",
+    "website": "https://wejo.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Wyndham Hotels",
+    "website": "https://wyndhamhotels.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Zeek Project (Corelight)",
+    "website": "https://zeek.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Zephyr Project",
+    "website": "https://zephyrproject.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Zype",
+    "website": "https://zype.com",
+    "status": "no_ats"
   }
 ]
