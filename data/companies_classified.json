@@ -6765,10 +6765,11 @@
     "ats": "breezy"
   },
   {
+    "ats": "ashby",
     "slug": "Baton",
     "name": "Baton",
-    "summary": "Baton builds workflow automation and task management software that helps teams coordinate approvals, requests, and processes across their organization. The platform operates in the business process automation and enterprise workflow management space.",
-    "ats": "ashby"
+    "summary": "Baton Market is a business brokerage platform that helps users buy and sell businesses.",
+    "source": "meta_description"
   },
   {
     "slug": "becore",
