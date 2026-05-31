@@ -383267,5 +383267,112 @@
     "comp": "$15.00-$19.50",
     "comp_extras": [],
     "source_hash": "99d54a7b"
+  },
+  "greenhouse-pingidentity-8507224002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "cdc9c325"
+  },
+  "greenhouse-toast-7967404": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "474745a1"
+  },
+  "ashby-claimsorted-5d1674aa-7373-4f85-bea0-784379ad696e": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "c05639a8"
+  },
+  "ashby-claimsorted-9e24a5c7-9ed1-4043-bc52-64abb71eaba1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "7ed5d67d"
+  },
+  "workday-boeing-Chief-Architect--System-Architecting--Requirements---Interfaces-_JR2026496827-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Richardson, TX",
+    "job_summary": "Lead system architecture design and requirements definition for next-generation P-8A Advanced Airborne Sensor mission systems using open architecture principles. Requires active TS/SCI clearance and 10+ years in mission systems development and technical leadership in defense aerospace.",
+    "skills": [
+      "System Architecture",
+      "Mission Systems",
+      "Requirements Engineering",
+      "TS/SCI Clearance"
+    ],
+    "level": "senior",
+    "comp": "$210,800\u2013$285,200",
+    "comp_extras": [],
+    "source_hash": "cf00c848"
+  },
+  "greenhouse-marqeta-7743099": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Remote / London, UK",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "6078e4c3"
+  },
+  "workday-tmobile-Sr-Manager--Enterprise---Phoenix--AZ-or-Salt-Lake-City--UT_REQ354925-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Phoenix, AZ / Salt Lake City, UT",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$134,260-$242,340",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "329cdb65"
   }
 }
