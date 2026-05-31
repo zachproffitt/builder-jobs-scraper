@@ -381938,5 +381938,58 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "8466d46c"
+  },
+  "workday-tapestry-Sales-Associate-I_JR6363": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b04a19f7"
+  },
+  "greenhouse-vardaspace-7755457003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "El Segundo, CA",
+    "job_summary": "Develop flight software for spacecraft, satellite bus, and reentry capsules operating in low Earth orbit, ensuring reliable real-time control and telemetry throughout the mission. This is safety-critical aerospace software requiring expertise in bare metal and RTOS development; requires US person status under ITAR.",
+    "skills": [
+      "C++",
+      "Embedded Systems",
+      "Real-Time Software",
+      "Aerospace",
+      "Python",
+      "Rust",
+      "CCSDS",
+      "F' Framework"
+    ],
+    "level": "senior",
+    "comp": "$169k-$217k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "5f3b0833"
+  },
+  "greenhouse-khealthcareers-6009675004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$160k-$200k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "ab92a52e"
   }
 }
