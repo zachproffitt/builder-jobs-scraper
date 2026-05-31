@@ -382342,5 +382342,27 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "23f5e38b"
+  },
+  "greenhouse-anthropic-5196852008": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York City, NY / San Francisco, CA",
+    "job_summary": "Build measurement frameworks and statistical models to drive data-informed decisions across customer acquisition, expansion, and retention for a consumption-based AI platform. Apply causal inference and experimental design to guide GTM strategy at scale.",
+    "skills": [
+      "Python",
+      "SQL",
+      "A/B Testing",
+      "Causal Inference",
+      "Statistical Modeling",
+      "Data Visualization"
+    ],
+    "level": "senior",
+    "comp": "$275k-$370k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "fbf9de04"
   }
 }
