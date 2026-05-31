@@ -382364,5 +382364,53 @@
       "equity"
     ],
     "source_hash": "fbf9de04"
+  },
+  "workday-jll-Shift-BO-Chargeman-11KV_REQ510350": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0de6dee6"
+  },
+  "greenhouse-brainpop-4671622006": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Tel Aviv, Israel",
+    "job_summary": "Build full-stack features for BrainPOP's educational platform using PHP/Laravel and Vue.js, integrating AI/LLM capabilities to automate content creation and enhance user experience for 25 million students.",
+    "skills": [
+      "PHP",
+      "Laravel",
+      "Vue.js",
+      "JavaScript",
+      "MySQL",
+      "PostgreSQL",
+      "AI/LLM Integration",
+      "New Relic"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3c197786"
+  },
+  "workday-jll-Transport-Executive_REQ511467": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Bengaluru, India",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a75c5889"
   }
 }
