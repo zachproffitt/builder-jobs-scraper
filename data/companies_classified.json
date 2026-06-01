@@ -738,16 +738,18 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "generatebiomedicines",
     "name": "Generate Biomedicines",
-    "summary": "Generate Biomedicines builds computational tools and platforms for designing novel proteins using machine learning and generative AI, operating in the therapeutic protein drug development domain. The company focuses on generating and optimizing protein sequences for potential therapeutic applications rather than relying on natural or traditionally engineered proteins.",
-    "ats": "greenhouse"
+    "summary": "Generate Biomedicines develops biotechnology therapies and conducts Phase 3 clinical trials. The company seeks accounting leadership to manage its core accounting operations, financial reporting, and internal controls as it operates as a public biotechnology company.",
+    "source": "job_posting"
   },
   {
+    "ats": "greenhouse",
     "slug": "redwoodmaterials",
     "name": "Redwood Materials",
-    "summary": "Redwood Materials processes spent lithium-ion battery packs to recover and refine battery materials like nickel, cobalt, and lithium for reuse in new batteries. The company operates in battery recycling and the supply chain for electric vehicle and energy storage batteries.",
-    "ats": "greenhouse"
+    "summary": "Redwood Materials recovers, reuses, and recycles batteries to produce battery materials and energy storage systems in the U.S., integrating critical minerals back into the supply chain to support the energy transition. Founded in 2017, the company builds software-controlled battery energy storage systems and develops site controller technology to coordinate grid-scale storage operations.",
+    "source": "job_posting"
   },
   {
     "slug": "rondoenergy",
@@ -1002,10 +1004,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "inflectionai",
     "name": "Inflection AI",
-    "summary": "Inflection AI builds large language models and conversational AI products, primarily operating in the consumer-facing chatbot space. Their main product is Pi, a conversational AI assistant designed for dialogue and reasoning tasks.",
-    "ats": "greenhouse"
+    "summary": "Inflection AI builds emotionally intelligent AI software that powers interactions between individuals and enterprises.",
+    "source": "meta_description"
   },
   {
     "slug": "magic.dev",
@@ -4229,10 +4232,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "Vetcove",
     "name": "Vetcove",
-    "summary": "Vetcove builds a B2B e-commerce platform that allows veterinary clinics and animal hospitals to purchase medical supplies, pharmaceuticals, and equipment from multiple distributors through a single interface. The platform operates in the veterinary healthcare supply chain, helping practices streamline procurement and compare pricing across vendors.",
-    "ats": "ashby"
+    "summary": "Vetcove provides software and services for the animal health supply chain.",
+    "source": "one_liner"
   },
   {
     "ats": "greenhouse",
@@ -6765,10 +6769,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "breezy",
     "slug": "barn2door-inc",
     "name": "Barn2Door",
-    "summary": "Barn2Door is a marketplace platform that connects consumers directly with local farms and food producers, enabling them to purchase fresh produce, dairy, meat, and other agricultural products for home delivery or local pickup. The company operates in the farm-to-consumer e-commerce space, focusing on reducing the distance between producers and buyers while supporting small-scale and local agricultural businesses.",
-    "ats": "breezy"
+    "summary": "Barn2Door provides online platforms that enable local farms to sell their products directly to customers under their own brand.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
@@ -10067,5 +10072,12 @@
     "name": "Epicor",
     "summary": "Epicor makes enterprise resource planning (ERP) software designed for specific industries to improve return on investment, efficiency, and business growth.",
     "source": "meta_description"
+  },
+  {
+    "ats": "greenhouse",
+    "slug": "honeycomb",
+    "name": "Honeycomb",
+    "summary": "Honeycomb is a service for observability that helps developers understand and troubleshoot software systems. The company works with customers across industries including HelloFresh, Slack, LaunchDarkly, and Vanguard, offering tools for monitoring, billing, usage reporting, and access control.",
+    "source": "job_posting"
   }
 ]
