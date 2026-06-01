@@ -796,10 +796,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "greenhouse",
     "slug": "capellaspace",
     "name": "Capella Space",
-    "summary": "Capella Space builds and operates a constellation of synthetic aperture radar (SAR) satellites that provide high-resolution Earth observation imagery regardless of weather conditions or time of day. The company serves customers in defense, intelligence, disaster response, and commercial sectors who need persistent monitoring and detailed imaging of specific locations on Earth.",
-    "ats": "greenhouse"
+    "summary": "Capella Space, an IonQ company, operates synthetic aperture radar satellites and provides satellite operations services for national security and advanced sensing missions.",
+    "source": "job_posting"
   },
   {
     "ats": "greenhouse",
@@ -8340,10 +8341,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "workday",
     "slug": "wiley/wd1/wiley_careers",
     "name": "Knewton",
-    "summary": "Knewton builds adaptive learning software that personalizes educational content and assessments for students based on their individual learning patterns and performance data. The company operates in the educational technology sector, serving K-12 schools, higher education institutions, and publishers who want to improve student outcomes through data-driven, customized learning experiences.",
-    "ats": "workday"
+    "summary": "Knewton makes adaptive courseware called Knewton Alta that provides students with personalized support tailored to their individual learning needs.",
+    "source": "meta_description"
   },
   {
     "slug": "knoetic",
