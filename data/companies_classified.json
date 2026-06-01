@@ -6070,10 +6070,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "kong",
     "name": "Kong",
-    "summary": "Kong builds API gateway and connectivity platform software that helps organizations manage, secure, and route API traffic across cloud-native and hybrid environments. The company operates in the API management and infrastructure software space, serving enterprises that need to control access, enforce policies, and monitor their API ecosystems.",
-    "ats": "ashby"
+    "summary": "Kong provides API management and connectivity infrastructure that enables centralization of large language model access, automation of API workflows, and security for digital ecosystems.",
+    "source": "meta_description"
   },
   {
     "slug": "lexcheck-inc",
