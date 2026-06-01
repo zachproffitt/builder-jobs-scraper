@@ -3533,10 +3533,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "pirros",
     "name": "Pirros",
-    "summary": "Pirros builds software that helps architecture and engineering firms manage, search, and reuse Revit details and families across projects and teams through AI-powered organization and quality control. The company operates in the architecture, engineering, and construction (AEC) technology domain, specifically focusing on design production and documentation workflows for design firms.",
-    "ats": "ashby"
+    "summary": "Pirros makes a Detail Management System for architecture, engineering, and construction that includes search functionality, collaboration features, and Revit integration.",
+    "source": "meta_description"
   },
   {
     "slug": "pivotrobotics",
@@ -10089,6 +10090,13 @@
     "slug": "khealthcareers",
     "name": "K Health",
     "summary": "K Health builds and operates AI-powered virtual clinics that serve patients and physicians at major health systems, providing clinical AI products and services that operate 24/7. The company develops modern healthcare technology platforms designed to deliver reliable, private, and performant patient care experiences.",
+    "source": "job_posting"
+  },
+  {
+    "ats": "lever",
+    "slug": "agiloft",
+    "name": "Agiloft",
+    "summary": "Agiloft builds contract lifecycle management software that helps organizations manage the end-to-end process of proposing, negotiating, signing, and leveraging contracts through its Data-first Agreement Platform. The company uses artificial intelligence and integration capabilities to provide contract visibility and management solutions across the contract lifecycle.",
     "source": "job_posting"
   }
 ]
