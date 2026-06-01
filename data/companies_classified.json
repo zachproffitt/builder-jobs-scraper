@@ -2356,10 +2356,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "corvus-robotics",
     "name": "Corvus Robotics",
-    "summary": "Corvus Robotics builds autonomous drones that perform inventory management in warehouses and distribution centers by flying themselves to scan pallet labels and SKUs on racks without human intervention. The company serves 3PLs, logistics providers, retail distributors, and manufacturers who need real-time inventory visibility and automated cycle counting across their facilities.",
-    "ats": "ashby"
+    "summary": "Corvus Robotics builds autonomous drones that help warehouses scan inventory.",
+    "source": "one_liner"
   },
   {
     "slug": "cosine",
@@ -2803,10 +2804,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "lever",
     "slug": "gridware",
     "name": "Gridware",
-    "summary": "Gridware builds a platform called Active Grid Response that provides real-time visibility into electrical, physical, and environmental conditions across power grids by deploying sensors at utility poles to detect hazards like fallen limbs and damaged power lines. The company operates in the electric utility and grid infrastructure domain, helping utilities prevent outages and improve public safety by eliminating the \"Hazard Awareness Delay\" that typically occurs when utilities only discover grid hazards after they cause failures.",
-    "ats": "lever"
+    "summary": "Gridware provides technology that detects changes in electrical grid assets to help utility companies prevent hazards, restore power, and extend asset life.",
+    "source": "meta_description"
   },
   {
     "slug": "groww",
@@ -5607,10 +5609,11 @@
     "ats": "workday"
   },
   {
+    "ats": "greenhouse",
     "slug": "pingidentity",
     "name": "Ping Identity",
-    "summary": "Ping Identity provides identity and access management (IAM) software that enables enterprises to securely authenticate users and manage their digital identities across applications, APIs, and cloud environments. The company serves organizations in financial services, healthcare, government, and other sectors that require robust security and compliance for user authentication and authorization.",
-    "ats": "greenhouse"
+    "summary": "Ping Identity builds a cloud-based identity platform that enables secure access and digital experiences for enterprises, allowing users to shop, work, bank, and interact securely while protecting digital identities. The company serves more than half of the Fortune 100 and is headquartered in Denver, Colorado.",
+    "source": "job_posting"
   },
   {
     "slug": "plana",
@@ -5682,10 +5685,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "workday",
     "slug": "sailpoint/wd1/SailPoint",
     "name": "Sailpoint",
-    "summary": "SailPoint builds identity governance and access management software that helps enterprises manage user identities, control access to applications and data, and ensure compliance across their IT infrastructure. The company serves organizations across various industries that need to automate identity lifecycle processes and enforce security policies at scale.",
-    "ats": "workday"
+    "summary": "SailPoint builds a platform for managing and securing identities that dynamically adjusts access, automates access decisions, and enforces least privilege policies.",
+    "source": "meta_description"
   },
   {
     "ats": "workday",
@@ -7132,10 +7136,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "clasp-group",
     "name": "Clasp",
-    "summary": "Clasp builds a platform that helps teams manage and organize their financial documents and records, enabling better visibility and control over company finances through document automation and workflow management.",
-    "ats": "ashby"
+    "summary": "Clasp provides student loan debt repayment assistance to help companies build a more sustainable hiring pipeline and improve employee retention.",
+    "source": "meta_description"
   },
   {
     "slug": "bigtincan",
@@ -7150,10 +7155,11 @@
     "ats": "workable"
   },
   {
+    "ats": "ashby",
     "slug": "cloaked",
     "name": "Cloaked",
-    "summary": "Cloaked provides email and phone masking technology that allows users to generate temporary, disposable contact information for online transactions and communications while keeping their real identity private. The company operates in the privacy and cybersecurity domain, helping individuals protect their personal data from being collected and misused by merchants, marketers, and other third parties.",
-    "ats": "ashby"
+    "summary": "Cloaked provides data privacy protection and offers a free assessment to check if user data has been compromised.",
+    "source": "meta_description"
   },
   {
     "slug": "exclusivenetworks/wd103/Cloudrise",
@@ -7948,10 +7954,11 @@
     "ats": "workable"
   },
   {
+    "ats": "greenhouse",
     "slug": "grovecollaborative",
     "name": "Grove",
-    "summary": "Grove is an online marketplace that sells natural and eco-friendly household and personal care products, ranging from cleaning supplies and laundry detergents to vitamins and beauty items. The company focuses on curating sustainable brands and making environmentally conscious products more accessible to consumers through subscription and one-time purchase options.",
-    "ats": "greenhouse"
+    "summary": "Grove sells eco-friendly cleaning products, bamboo paper products, and vitamins and supplements from hundreds of brands, with all orders meeting ingredient standards and being carbon neutral while supporting plastic waste cleanup.",
+    "source": "meta_description"
   },
   {
     "slug": "growthday",
@@ -9575,10 +9582,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "workday",
     "slug": "stord/wd503/Stord_External_Career",
     "name": "Stord",
-    "summary": "Stord provides a logistics and fulfillment platform that connects e-commerce merchants with a network of warehouses and last-mile delivery providers to manage inventory storage, order fulfillment, and shipping. The platform operates in the third-party logistics (3PL) space, enabling businesses to outsource their warehouse and delivery operations through a unified software interface.",
-    "ats": "workday"
+    "summary": "Stord provides fulfillment, warehousing, and transportation services for direct-to-consumer and business-to-business companies, along with integrated software to manage pre-purchase and post-delivery customer experiences.",
+    "source": "meta_description"
   },
   {
     "slug": "storm8",
@@ -9829,10 +9837,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "thumbtack",
     "name": "Thumbtack",
-    "summary": "Thumbtack operates a marketplace platform that connects consumers with local service professionals such as plumbers, electricians, contractors, photographers, and tutors. The company generates revenue by charging service providers for qualified customer leads in their respective trades and service categories.",
-    "ats": "ashby"
+    "summary": "Thumbtack is a platform that helps users find local service professionals, compare prices, and book home services.",
+    "source": "meta_description"
   },
   {
     "slug": "tigerconnect/wd1/TC",
@@ -10051,5 +10060,12 @@
     "name": "Team LFG",
     "summary": "Team LFG makes games for PlayStation that feature 3D character art and design. The company is hiring for a 3D Character Art Lead position to guide character art creation and mentor an art team through all phases of production.",
     "source": "job_posting"
+  },
+  {
+    "ats": "workday",
+    "slug": "epicorsoftware/wd5/epicorjobs",
+    "name": "Epicor",
+    "summary": "Epicor makes enterprise resource planning (ERP) software designed for specific industries to improve return on investment, efficiency, and business growth.",
+    "source": "meta_description"
   }
 ]
