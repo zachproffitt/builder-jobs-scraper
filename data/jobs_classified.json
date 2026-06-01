@@ -383968,5 +383968,361 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "ea2d7aff"
+  },
+  "workday-hpe-Federal-Account-Manager--Air-Force---Space-Force---Hunter_1207351-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "dadca218"
+  },
+  "workday-hpe-Sr-Program-Manager-Project-Manager_1206697-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "67ca2193"
+  },
+  "workday-bigcommerce-Senior-Product-Manager--Payments_JR102693": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "da451e43"
+  },
+  "workday-iqvia-Consultant--Primary-Intelligence_R1547715": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "eff60432"
+  },
+  "greenhouse-tenstorrent-4825751007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c4e221c8"
+  },
+  "workday-jll-Sourcing-Analyst_REQ511608": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6868607f"
+  },
+  "workday-nvidia-Manufacturing-Test-Engineer_JR2017820": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "651a4f68"
+  },
+  "ashby-Baton-acc4eb72-7d41-4c19-a099-c9fe4b4307a0": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": "Build full-stack agentic AI systems that power Baton's marketplace for buying and selling small businesses, shipping end-to-end from problem scoping through production deployment and monitoring. Work with real user interactions, measurable outcomes, and production-level LLM inference infrastructure; requires hands-on experience shipping production AI systems and must be based in New York City.",
+    "skills": [
+      "Python",
+      "LLM",
+      "LangChain",
+      "TypeScript",
+      "React",
+      "Go",
+      "PostgreSQL",
+      "Prompt Engineering"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "0af3ab8b"
+  },
+  "workday-adobe-Performance-Media-Strategist_R169278": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Tokyo, Japan",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9d81f29c"
+  },
+  "smartrecruiters-Eurofins-744000129348256": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Girraween, Australia",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "61e08f42"
+  },
+  "workday-iqvia-Analyst--Channel-Dynamics_R1547714": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3804dd2c"
+  },
+  "workday-modernatx-Associate-Director--HEOR--Canada_R19266": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "canada",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b71b0cc0"
+  },
+  "workday-hpe-SRX-Pre-Sales-Engineer-Cloud-and-Service-Provider--Cybersecurity_1205971-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$175k-$411.5k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "1434b4d7"
+  },
+  "workday-hpe-Senior-Presales-Systems-Engineer---HPE-Networking---SLED---Enterprise--Washington-_1206909-3": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$146k-$343k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "1fce9133"
+  },
+  "workday-hpe-AI-Engineer---Developer-Productivity_1207653-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Colorado / Texas",
+    "job_summary": "Build AI-assisted developer productivity tools and workflows, including code review automations, AI personas, and internal tooling to improve engineering team efficiency. Partner with teams to prototype AI solutions in Python and track adoption metrics across multiple engineering organizations.",
+    "skills": [
+      "Python",
+      "GitHub Copilot",
+      "Claude",
+      "ChatGPT",
+      "Git",
+      "CI/CD",
+      "Prompt Engineering"
+    ],
+    "level": "mid",
+    "comp": "$120.5k-$276.5k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "8d0fd88b"
+  },
+  "workday-hpe-AI-Tools-Architect---Tech-Lead_1207652-2": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Colorado / Texas",
+    "job_summary": "Design and deploy AI-assisted code review agents and personas; build Python automation scripts and GitHub Actions integrations to drive adoption of AI tools across engineering teams. Lead a small team architecting LLM-based workflows for security, testing, and code quality use cases; requires 10+ years of software engineering experience and hands-on proficiency with AI coding tools.",
+    "skills": [
+      "Python",
+      "GitHub Actions",
+      "LLM Evaluation",
+      "CI/CD",
+      "AI/ML",
+      "GitHub Copilot"
+    ],
+    "level": "senior",
+    "comp": "$152k-$349k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "0cc85edc"
+  },
+  "workday-hpe-AI-Engineer---Developer-Productivity_1207650-2": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Colorado / Texas",
+    "job_summary": "Build AI-assisted developer productivity tools and automation workflows for engineering teams, including code review systems, CI/CD integrations, and AI personas for concrete use cases. Partner with engineering teams to design and prototype Python-based tools that measurably improve development cycle time and code quality across multiple teams.",
+    "skills": [
+      "Python",
+      "GitHub Copilot",
+      "Git",
+      "CI/CD",
+      "GitHub Actions",
+      "Prompt Engineering",
+      "LLM APIs"
+    ],
+    "level": "mid",
+    "comp": "$120.5k-$276.5k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "96e5d687"
+  },
+  "workday-hpe-Manager-Acquisition-Hunting--Public-Sector_1204502-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Massachusetts / District of Columbia / Georgia / Maryland / Texas / Virginia",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$216k-$507k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "417fefcb"
+  },
+  "workday-hpe-Senior-Principal-Product-Manager---VME--Services---Strategic-Customer-Engagement-_1201573-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "California / Texas",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$161,500-$370,500",
+    "comp_extras": [],
+    "source_hash": "9b7f80cf"
+  },
+  "workday-hpe-IT-Business-Consultant-I_1196651-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Spring, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$51.9k-$103.9k",
+    "comp_extras": [],
+    "source_hash": "a0850087"
+  },
+  "ashby-retell-ai-19a0b250-5c4a-46b2-972d-9c8f50b743c5": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Redwood City, CA",
+    "job_summary": "Build end-to-end go-to-market automation systems including lead enrichment, routing, and sales workflows using Python, SQL, and integration platforms. Scale GTM infrastructure at a $36M ARR voice AI startup growing 7x year-over-year.",
+    "skills": [
+      "Python",
+      "SQL",
+      "JavaScript",
+      "Salesforce",
+      "n8n",
+      "Clay",
+      "API Integration",
+      "Data Pipeline"
+    ],
+    "level": "mid",
+    "comp": "$190k-$260k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "57d6910c"
+  },
+  "workday-jll-Senior-Transaction-Manager_REQ502433": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Brisbane, QLD",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d69996bc"
+  },
+  "workday-xylem-Service-Center-Technician_R48554": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Kalgoorlie, Australia",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "237a2205"
   }
 }
