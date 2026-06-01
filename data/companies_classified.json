@@ -1011,10 +1011,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "magic.dev",
     "name": "Magic",
-    "summary": "Magic builds an AI software engineer that writes code and handles pull requests to help development teams automate routine coding tasks and speed up software development. The company operates in the AI-assisted software development and developer tools domain, targeting engineering teams looking to increase productivity through AI-powered code generation and automation.",
-    "ats": "ashby"
+    "summary": "Magic builds AI technology aimed at developing safe artificial general intelligence to help address major global challenges.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
@@ -5931,10 +5932,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "ashby",
     "slug": "openrouter",
     "name": "OpenRouter",
-    "summary": "OpenRouter is an API platform that provides unified access to multiple large language models from different providers, allowing developers to route requests across models like Claude, GPT-4, and others through a single interface. The company operates in the AI infrastructure space, enabling developers to compare model performance, manage costs, and implement failover strategies without integrating with each provider separately.",
-    "ats": "ashby"
+    "summary": "OpenRouter builds an AI routing and infrastructure layer that allows enterprises to access, manage, and optimize large language models across multiple providers without vendor lock-in or capacity constraints. The platform helps organizations operationalize LLMs across research, product, and production workloads while managing costs and maintaining flexibility as models evolve.",
+    "source": "job_posting"
   },
   {
     "ats": "ashby",
@@ -8451,10 +8453,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "loancrate",
     "name": "LoanCrate",
-    "summary": "LoanCrate is a financial technology platform that provides personal loans and lines of credit to consumers through an online application process. The company operates in the consumer lending space, offering quick funding decisions and digital account management for borrowers seeking short-term credit solutions.",
-    "ats": "ashby"
+    "summary": "LoanCrate builds an AI-powered Loan Origination System designed for mortgage teams to automate manual tasks, improve loan quality, and scale operations.",
+    "source": "meta_description"
   },
   {
     "slug": "logrocket",
@@ -9091,10 +9094,11 @@
     "ats": "breezy"
   },
   {
+    "ats": "lever",
     "slug": "prosper",
     "name": "Prosper Marketplace",
-    "summary": "Prosper is a peer-to-peer lending marketplace that connects individual borrowers with investors who fund personal loans ranging from $2,000 to $40,000. The platform uses proprietary credit algorithms to assess borrower risk and facilitate loans with terms typically between 3 and 5 years.",
-    "ats": "lever"
+    "summary": "Prosper Marketplace provides personal loans and credit products, offering loan amounts between $2,000 and $50,000 with rate quotes available within one minute.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
@@ -10078,6 +10082,13 @@
     "slug": "honeycomb",
     "name": "Honeycomb",
     "summary": "Honeycomb is a service for observability that helps developers understand and troubleshoot software systems. The company works with customers across industries including HelloFresh, Slack, LaunchDarkly, and Vanguard, offering tools for monitoring, billing, usage reporting, and access control.",
+    "source": "job_posting"
+  },
+  {
+    "ats": "greenhouse",
+    "slug": "khealthcareers",
+    "name": "K Health",
+    "summary": "K Health builds and operates AI-powered virtual clinics that serve patients and physicians at major health systems, providing clinical AI products and services that operate 24/7. The company develops modern healthcare technology platforms designed to deliver reliable, private, and performant patient care experiences.",
     "source": "job_posting"
   }
 ]
