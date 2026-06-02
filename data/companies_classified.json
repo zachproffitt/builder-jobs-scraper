@@ -1633,10 +1633,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "coderabbit",
     "name": "Coderabbit",
-    "summary": "# Coderabbit\n\nCoderabbit builds an AI-powered code review tool that analyzes pull requests and provides automated feedback on code quality, potential bugs, and best practices. The tool operates in the software development and DevOps domain, integrating with version control platforms like GitHub and GitLab to assist engineering teams in the code review process.",
-    "ats": "ashby"
+    "summary": "Coderabbit is an AI-powered pull request reviewer that provides context-aware feedback, line-by-line code suggestions, and real-time chat.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
@@ -3280,10 +3281,11 @@
     "ats": "lever"
   },
   {
+    "ats": "greenhouse",
     "slug": "nabis",
     "name": "Nabis",
-    "summary": "Nabis builds a B2B e-commerce platform and distribution network for cannabis products, connecting licensed cannabis brands and retailers across multiple U.S. states. The company operates in the legal cannabis industry, facilitating wholesale transactions and logistics for compliant cannabis goods.",
-    "ats": "greenhouse"
+    "summary": "Nabis operates a licensed cannabis wholesale platform.",
+    "source": "one_liner"
   },
   {
     "slug": "Nango",
@@ -8890,10 +8892,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "workday",
     "slug": "orionadvisor/wd1/Orion_Careers",
     "name": "Orion Labs",
-    "summary": "Orion Labs develops push-to-talk communication software and hardware devices that enable team coordination across distributed workforces in industrial, enterprise, and public safety environments. Their platform combines radio-like simplicity with modern messaging capabilities, allowing workers to stay connected without requiring traditional cellular networks or complex setup.",
-    "ats": "workday"
+    "summary": "Orion Advisor Solutions provides technology-enabled fiduciary processes for financial advisors and their clients.",
+    "source": "meta_description"
   },
   {
     "ats": "lever",
