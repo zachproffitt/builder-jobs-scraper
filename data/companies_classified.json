@@ -4276,10 +4276,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "warp",
     "name": "Warp",
-    "summary": "Warp builds a terminal emulator designed for software developers that replaces the traditional command line interface with a modern, AI-assisted approach featuring features like command search, completion, and collaboration capabilities. The company operates in the developer tools space, specifically focusing on improving the command-line experience for engineers.",
-    "ats": "ashby"
+    "summary": "Warp builds an employee management platform designed for high-growth companies.",
+    "source": "one_liner"
   },
   {
     "slug": "workweave",
@@ -5971,10 +5972,11 @@
     "source": "one_liner"
   },
   {
+    "ats": "ashby",
     "slug": "vantage",
     "name": "Vantage",
-    "summary": "Vantage provides cloud cost management and optimization software that helps engineering teams track, analyze, and reduce their cloud infrastructure spending across AWS, Google Cloud, Azure, and other providers.",
-    "ats": "ashby"
+    "summary": "Vantage builds a cloud cost transparency platform that helps users analyze, report, collaborate on, and optimize their cloud infrastructure costs. The company serves customers including Square, FanDuel, and Circle CI, and is backed by investors including Andreessen Horowitz, Scale Ventures, and Matthew Prince.",
+    "source": "job_posting"
   },
   {
     "ats": "greenhouse",
@@ -7095,10 +7097,11 @@
     "ats": "lever"
   },
   {
+    "ats": "lever",
     "slug": "certik",
     "name": "CertiK",
-    "summary": "CertiK provides blockchain security services including smart contract audits, formal verification, and runtime monitoring to identify vulnerabilities in cryptocurrency protocols and decentralized applications. The company operates in the blockchain and Web3 security domain, serving projects across major blockchains like Ethereum, Solana, and Polygon.",
-    "ats": "lever"
+    "summary": "CertiK provides Web3 security services that use AI and formal verification to protect and monitor smart contracts and protocols.",
+    "source": "meta_description"
   },
   {
     "slug": "chargezoom",
@@ -7270,10 +7273,11 @@
     "ats": "workday"
   },
   {
+    "ats": "ashby",
     "slug": "confiant",
     "name": "Confiant",
-    "summary": "Confiant provides a platform for detecting and preventing invalid traffic and malware in digital advertising, helping publishers and advertisers protect their ad inventory and campaigns from fraud and security threats.",
-    "ats": "ashby"
+    "summary": "Confiant provides tools to publishers and ad platforms for detecting and blocking malicious advertisements and preventing fraudulent activity.",
+    "source": "meta_description"
   },
   {
     "slug": "confluera",
