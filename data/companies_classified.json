@@ -1392,10 +1392,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "lever",
     "slug": "anchorage",
     "name": "Anchorage Digital",
-    "summary": "Anchorage Digital builds institutional-grade infrastructure and custody solutions for digital assets, serving primarily institutional clients, corporations, and fund managers that need to buy, sell, and store cryptocurrencies and blockchain tokens.",
-    "ats": "lever"
+    "summary": "Anchorage Digital is a regulated crypto platform that provides institutions with integrated financial services and infrastructure solutions through a federally chartered crypto bank in the US and operations in Singapore.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
