@@ -112,11 +112,11 @@
     "source": "meta_description"
   },
   {
-    "name": "Sierra Space",
+    "ats": "ashby",
     "slug": "sierra",
-    "summary": "Sierra Space builds an AI platform to help businesses create more human customer experiences.",
-    "source_hash": "87a5e49d",
-    "ats": "ashby"
+    "name": "Sierra Space",
+    "summary": "Sierra Space creates a platform to help businesses build better customer experiences with AI. The company is headquartered in San Francisco with offices in Atlanta, New York, London, Paris, Madrid, Munich, Singapore, Japan, and Sydney.",
+    "source": "job_posting"
   },
   {
     "ats": "greenhouse",
@@ -1025,10 +1025,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "Sierra",
     "name": "Sierra",
-    "summary": "Sierra builds an AI customer service platform that uses large language models to handle customer support interactions across multiple channels like email, chat, and phone, operating in the customer service and enterprise software domain.",
-    "ats": "ashby"
+    "summary": "Sierra builds AI software that helps businesses create more human customer experiences.",
+    "source": "meta_description"
   },
   {
     "slug": "speak",
@@ -3670,10 +3671,11 @@
     "ats": "lever"
   },
   {
+    "ats": "ashby",
     "slug": "rallyuxr",
     "name": "Rally UXR",
-    "summary": "Rally UXR builds a research platform that helps product teams conduct user experience research at scale through distributed, flexible studies with real users. The company operates in the user research and product insights domain, serving organizations that need to validate designs, gather behavioral data, and understand user needs across consumer and enterprise products.",
-    "ats": "ashby"
+    "summary": "Rally UXR builds a customer relationship management platform for user research teams.",
+    "source": "one_liner"
   },
   {
     "slug": "ramenvr",
@@ -4249,10 +4251,11 @@
     "source": "one_liner"
   },
   {
+    "ats": "ashby",
     "slug": "vitalize",
     "name": "Vitalize",
-    "summary": "Vitalize builds an AI-powered platform that unifies staffing, scheduling, flow, and capacity optimization for health systems to improve labor management and operational efficiency. The company operates in healthcare operations technology, helping hospital systems reduce manual scheduling work and optimize their clinical workforce allocation.",
-    "ats": "ashby"
+    "summary": "Vitalize builds an AI platform that unifies staffing, scheduling, flow, and capacity management for operations.",
+    "source": "meta_description"
   },
   {
     "slug": "voltalabs",
@@ -6704,10 +6707,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "assembledhq",
     "name": "Assembled",
-    "summary": "Assembled builds workforce management and customer service operations software that helps companies optimize staffing, scheduling, and agent performance in contact centers and customer support teams.",
-    "ats": "ashby"
+    "summary": "Assembled builds a support operations platform that combines workforce management and AI-powered issue resolution for handling customer support at scale.",
+    "source": "meta_description"
   },
   {
     "slug": "assignar",
