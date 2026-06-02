@@ -7615,10 +7615,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "enigmaio",
     "name": "Enigma",
-    "summary": "Enigma provides data integration and governance software that helps organizations consolidate, manage, and activate data across multiple sources and systems. The platform serves enterprises in financial services, healthcare, and other regulated industries that need to ensure data quality, compliance, and accessibility for analytics and operational use.",
-    "ats": "greenhouse"
+    "summary": "Enigma provides data on over 49 million U.S. businesses, including firmographics, contacts, and card revenue data for go-to-market and risk assessment workflows.",
+    "source": "meta_description"
   },
   {
     "slug": "enlyft",
