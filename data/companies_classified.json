@@ -5896,10 +5896,11 @@
     "ats": "workable"
   },
   {
+    "ats": "workday",
     "slug": "wisk/wd108/Wisk_Careers",
     "name": "Wisk Aero",
-    "summary": "Wisk Aero develops electric vertical takeoff and landing (eVTOL) aircraft designed for autonomous urban air mobility, targeting the creation of an air taxi service that operates without pilots.",
-    "ats": "workday"
+    "summary": "Wisk Aero builds an autonomous, all-electric air taxi, with backing from Boeing and a development history that includes six generations of aircraft and over 1,750 test flights.",
+    "source": "meta_description"
   },
   {
     "ats": "workday",
