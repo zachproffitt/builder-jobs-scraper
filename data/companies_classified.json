@@ -1045,10 +1045,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "suno",
     "name": "Suno",
-    "summary": "Suno builds an AI music generation platform that creates original songs from text prompts, allowing users to generate music across various genres and styles without requiring musical production skills. The company operates in the AI-generated music domain, competing in the broader space of generative AI tools for creative content.",
-    "ats": "ashby"
+    "summary": "Suno makes an AI music generator that creates original music.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
@@ -1729,10 +1730,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "lever",
     "slug": "sonatype",
     "name": "Sonatype",
-    "summary": "Sonatype builds software supply chain management tools, primarily focused on software composition analysis and vulnerability management for open source dependencies. The company operates in the DevSecOps and application security domain, helping organizations identify and remediate security risks in the software they build and deploy.",
-    "ats": "lever"
+    "summary": "Sonatype provides intelligence and automated governance for open source and AI development, and created Nexus Repository.",
+    "source": "meta_description"
   },
   {
     "slug": "openspace",
