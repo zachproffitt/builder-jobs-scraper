@@ -3595,10 +3595,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "probablygenetic",
     "name": "Probably Genetic",
-    "summary": "Probably Genetic provides free or insurance-billed genetic testing for patients with complex, undiagnosed symptoms to help identify rare genetic diseases. The company operates in the rare disease diagnosis space, using AI and genetics expertise to connect patients with clinical-grade testing, genetic counseling, and research partnerships with patient advocacy groups.",
-    "ats": "ashby"
+    "summary": "Probably Genetic builds a patient intelligence platform for genetic disease.",
+    "source": "one_liner"
   },
   {
     "slug": "prolific",
@@ -6929,10 +6930,11 @@
     "ats": "workable"
   },
   {
+    "ats": "greenhouse",
     "slug": "brainpop",
     "name": "BrainPOP",
-    "summary": "BrainPOP creates animated educational videos and interactive learning tools for K-12 students, covering subjects including science, social studies, English language arts, and mathematics. The platform serves schools and individual learners with curriculum-aligned content designed to make academic concepts accessible through short, engaging videos followed by interactive activities and quizzes.",
-    "ats": "greenhouse"
+    "summary": "BrainPOP creates animated educational content for children covering science, social studies, English, math, arts and music, health, and technology.",
+    "source": "meta_description"
   },
   {
     "slug": "brainscape",
@@ -7406,10 +7408,11 @@
     "ats": "breezy"
   },
   {
+    "ats": "greenhouse",
     "slug": "dealpath",
     "name": "Dealpath",
-    "summary": "Dealpath is a commercial real estate software platform that streamlines the transaction management and underwriting process for brokers, investors, and lenders. The platform centralizes deal documentation, collaboration tools, and analytics to help real estate professionals manage properties from sourcing through closing.",
-    "ats": "greenhouse"
+    "summary": "Dealpath provides a deal management platform for managing acquisitions, dispositions, development, and financing across teams with real-time visibility.",
+    "source": "meta_description"
   },
   {
     "slug": "withdefault",
