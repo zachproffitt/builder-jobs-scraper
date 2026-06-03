@@ -1059,10 +1059,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "airbyte",
     "name": "Airbyte",
-    "summary": "Airbyte builds an open-source data integration platform that extracts data from various source systems and loads it into data warehouses, lakes, and other destinations. The company operates in the data integration and ELT (extract, load, transform) space, serving organizations that need to consolidate data from multiple applications and databases for analytics and business intelligence purposes.",
-    "ats": "ashby"
+    "summary": "Airbyte provides a context layer for AI agents that connects data sources into a queryable Context Store, allowing agents to reason across systems without integrating APIs at runtime.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
@@ -3140,10 +3141,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "mach9",
     "name": "Mach9",
-    "summary": "Mach9 builds Digital Surveyor, an automated 3D mapping and feature extraction software that uses AI-powered machine learning to analyze LiDAR data and extract infrastructure features like utility poles, curbs, and paint lines from mobile mapping data. The software operates in the geospatial and surveying domain, serving survey and geospatial services companies, transportation agencies, and telecom providers who need to convert raw scanning data into design-grade CAD and GIS deliverables.",
-    "ats": "ashby"
+    "summary": "Mach9 builds AI-native CAD software for civil engineering.",
+    "source": "one_liner"
   },
   {
     "slug": "magicpatterns",
@@ -8521,10 +8523,11 @@
     "ats": "lever"
   },
   {
+    "ats": "ashby",
     "slug": "lumos",
     "name": "Lumos",
-    "summary": "Lumos builds AI-powered tax compliance and financial reporting software for accountants and tax professionals, automating document processing and tax return preparation workflows.",
-    "ats": "ashby"
+    "summary": "Lumos builds an Autonomous Identity Platform that discovers and manages access to applications, offering enhanced security, increased productivity, and reduced costs.",
+    "source": "meta_description"
   },
   {
     "slug": "lumosity",
