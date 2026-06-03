@@ -8287,10 +8287,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "karbon",
     "name": "KarbonHQ",
-    "summary": "KarbonHQ provides accounting automation software designed to help accounting firms streamline their workflows and reduce manual data entry across tax preparation, bookkeeping, and financial reporting processes.",
-    "ats": "greenhouse"
+    "summary": "Karbon builds accounting practice management software that provides visibility, efficiency, and connectivity for accounting firms.",
+    "source": "meta_description"
   },
   {
     "slug": "Kevala",
