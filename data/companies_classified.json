@@ -5025,10 +5025,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "lever",
     "slug": "sonarsource",
     "name": "SonarSource",
-    "summary": "SonarSource builds Sonar, a platform for continuous code quality and security analysis that integrates into development pipelines to identify bugs, vulnerabilities, and code smells across multiple programming languages. The company operates in the application development and DevSecOps domain, serving enterprises and development teams who need automated code review and compliance capabilities.",
-    "ats": "lever"
+    "summary": "SonarSource builds SonarQube, a code review and code verification platform that identifies quality and security issues in code.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
