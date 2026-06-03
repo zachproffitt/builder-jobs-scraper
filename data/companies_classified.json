@@ -1145,10 +1145,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "prefect",
     "name": "Prefect",
-    "summary": "Prefect builds a workflow orchestration platform that manages, monitors, and schedules data pipelines and tasks. The company operates in the data infrastructure domain, serving data engineers and analytics teams who need to automate and observe complex data workflows.",
-    "ats": "ashby"
+    "summary": "Prefect builds workflow orchestration software and provides Horizon, a platform for building AI applications, along with open-source foundations and production-ready platforms.",
+    "source": "meta_description"
   },
   {
     "slug": "semgrep",
@@ -2161,10 +2162,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "camber",
     "name": "Camber",
-    "summary": "Camber builds AI-driven revenue cycle management and medical billing software designed to automate claim submission, reduce denials, and accelerate reimbursements for healthcare providers. The company operates in healthcare administration, serving pediatric care facilities, long-term care providers, and substance use disorder treatment centers.",
-    "ats": "ashby"
+    "summary": "Camber provides admin automation software for healthcare organizations.",
+    "source": "one_liner"
   },
   {
     "ats": "ashby",
@@ -6116,10 +6118,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "lilt-corporate",
     "name": "Lilt",
-    "summary": "Lilt develops an AI-powered translation platform that combines human linguists with machine learning to deliver professional translation services for enterprise clients across multiple languages and content types.",
-    "ats": "ashby"
+    "summary": "Lilt provides AI-powered translation services that help companies manage multilingual content across connected systems while reducing translation costs and maintaining security for enterprise workflows.",
+    "source": "meta_description"
   },
   {
     "slug": "loadsmart",
@@ -7467,10 +7470,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "dnsfilter",
     "name": "DNSFilter",
-    "summary": "DNSFilter provides cloud-based DNS filtering and security services that protect organizations from malware, phishing, ransomware, and other web-based threats by filtering traffic at the DNS layer. The company serves businesses of all sizes across various industries, offering solutions that work across multiple devices and locations without requiring on-premise hardware.",
-    "ats": "greenhouse"
+    "summary": "DNSFilter delivers content filtering and website blocking solutions through protective DNS services.",
+    "source": "meta_description"
   },
   {
     "slug": "abclegalservices",
@@ -10124,6 +10128,13 @@
     "slug": "silabs/wd1/SiliconlabsCareers",
     "name": "Silicon Labs",
     "summary": "Silicon Labs makes silicon, software, and solutions for connected applications.",
+    "source": "meta_description"
+  },
+  {
+    "ats": "greenhouse",
+    "slug": "aerospike",
+    "name": "Aerospike",
+    "summary": "Aerospike builds a real-time database used for AI applications.",
     "source": "meta_description"
   }
 ]
