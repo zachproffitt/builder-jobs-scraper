@@ -1098,10 +1098,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "harnessinc",
     "name": "Harness",
-    "summary": "# Harness\n\nHarness builds a continuous delivery platform that automates software deployment pipelines and release management across cloud infrastructure. The company operates in the DevOps and software delivery automation domain, helping engineering teams reduce manual deployment processes and improve deployment frequency and reliability.",
-    "ats": "greenhouse"
+    "summary": "Harness provides a software delivery platform that manages the software development lifecycle using AI agents.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
@@ -2059,10 +2060,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "authzed",
     "name": "authzed",
-    "summary": "AuthZed builds a managed authorization platform that allows developers to define and enforce fine-grained access control policies across applications. The company operates in the identity and access management domain, specifically focusing on authorization-as-a-service infrastructure that uses a relationship-based access control model.",
-    "ats": "ashby"
+    "summary": "Authzed builds cloud infrastructure for authorization.",
+    "source": "one_liner"
   },
   {
     "slug": "axle-health",
@@ -3162,10 +3164,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "lever",
     "slug": "mashgin",
     "name": "Mashgin",
-    "summary": "Mashgin builds autonomous checkout systems that use computer vision and artificial intelligence to enable cashierless transactions in retail environments like convenience stores, airports, and corporate cafeterias. Their hardware and software platform allows customers to place items in front of a camera-equipped kiosk, which automatically identifies products and processes payments without requiring a cashier or barcode scanning.",
-    "ats": "lever"
+    "summary": "Mashgin makes self-checkout systems that use computer vision technology.",
+    "source": "one_liner"
   },
   {
     "slug": "maverickx",
@@ -3647,10 +3650,11 @@
     "ats": "lever"
   },
   {
+    "ats": "ashby",
     "slug": "pylon-labs",
     "name": "Pylon",
-    "summary": "Pylon builds a financial operations platform that helps companies automate and manage their spend across corporate cards, expense management, and accounting integrations. The company operates in the enterprise financial software space, serving mid-market and larger organizations that need to streamline their accounting workflows and gain visibility into company spending.",
-    "ats": "ashby"
+    "summary": "Pylon makes a customer support platform designed for B2B companies.",
+    "source": "one_liner"
   },
   {
     "slug": "quantstamp",
