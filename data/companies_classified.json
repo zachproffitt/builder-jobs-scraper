@@ -1282,10 +1282,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "momentus",
     "name": "Momentus",
-    "summary": "Momentus builds space tug vehicles designed to transport satellites from their initial orbital deployment point to their final operational orbits. The company operates in the commercial spaceflight and orbital transfer services sector.",
-    "ats": "greenhouse"
+    "summary": "Momentus provides space infrastructure services.",
+    "source": "one_liner"
   },
   {
     "ats": "lever",
@@ -4168,10 +4169,11 @@
     "ats": "lever"
   },
   {
+    "ats": "ashby",
     "slug": "truelinkfinancial",
     "name": "True Link",
-    "summary": "True Link builds financial products and services designed specifically for older adults, including prepaid debit cards with fraud protection features and financial management tools. The company operates in the senior financial services and consumer finance sector, focusing on helping aging populations manage money safely and combat financial exploitation.",
-    "ats": "ashby"
+    "summary": "True Link provides financial services for financial caregivers.",
+    "source": "one_liner"
   },
   {
     "slug": "truenorth",
@@ -10114,5 +10116,12 @@
     "name": "Agiloft",
     "summary": "Agiloft builds contract lifecycle management software that helps organizations manage the end-to-end process of proposing, negotiating, signing, and leveraging contracts through its Data-first Agreement Platform. The company uses artificial intelligence and integration capabilities to provide contract visibility and management solutions across the contract lifecycle.",
     "source": "job_posting"
+  },
+  {
+    "ats": "workday",
+    "slug": "silabs/wd1/SiliconlabsCareers",
+    "name": "Silicon Labs",
+    "summary": "Silicon Labs makes silicon, software, and solutions for connected applications.",
+    "source": "meta_description"
   }
 ]
