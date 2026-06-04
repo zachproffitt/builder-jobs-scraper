@@ -1973,10 +1973,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "apollo-graphql",
     "name": "Apollo",
-    "summary": "Apollo builds a GraphQL platform that includes Apollo Server (a GraphQL server implementation), Apollo Client (a JavaScript client library), and Apollo Studio (a cloud service for managing and monitoring GraphQL APIs). The company operates in the developer tools and API infrastructure space, serving teams that develop and operate GraphQL-based applications.",
-    "ats": "ashby"
+    "summary": "Apollo helps engineering teams accelerate delivery.",
+    "source": "one_liner"
   },
   {
     "slug": "archil",
