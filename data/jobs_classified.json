@@ -525698,5 +525698,597 @@
       "bonus"
     ],
     "source_hash": "bbef1e3c"
+  },
+  "workday-aveva-Marketing-Senior-Coordinator_R014074-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f79dc4a3"
+  },
+  "ashby-commure-ccac5294-e363-4d04-b22a-a078c928033c": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3e0c424b"
+  },
+  "ashby-commure-04f4edce-6b4e-4e85-a7c4-a18b13c9dab3": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ad57e685"
+  },
+  "ashby-commure-b2533ad5-9df9-4e46-a184-1445f526af4c": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bfb0ebfb"
+  },
+  "workday-firstam-Escrow-Assistant--in-office-_R057010": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0f06a64c"
+  },
+  "ashby-langchain-df72edb4-6342-45f8-b728-83b8b932a397": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bc9d09a5"
+  },
+  "greenhouse-nabis-6014599004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0d415029"
+  },
+  "greenhouse-relativity-8579694002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "efeaf42a"
+  },
+  "greenhouse-relativity-8579282002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3eb54bf9"
+  },
+  "workday-servicetitan-Customer-Success-Manager_JR115029": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e6c2b5cc"
+  },
+  "greenhouse-spacex-8579719002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "00d062fd"
+  },
+  "greenhouse-spacex-8579649002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bf2ebdc9"
+  },
+  "workday-sunrun-Certified-Electrician-1_R66330-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "01000239"
+  },
+  "workday-tmobile-Account-Executive--SMB-Sales---Boston_REQ356627-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "33a9bf76"
+  },
+  "ashby-Abridge-7bdbfaa8-1f66-48a6-8a98-907a9bea4305": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "ad394853"
+  },
+  "greenhouse-anthropic-5227810008": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA / Seattle, WA",
+    "job_summary": "Build and lead Anthropic's Privacy Engineering team to design privacy infrastructure protecting user data across AI training, inference, and product systems. Navigate novel challenges in privacy-preserving architectures, data governance, regulatory compliance (GDPR, CCPA, EU AI Act), and ML-based PII detection at scale across billions of conversations.",
+    "skills": [
+      "Data Governance",
+      "Privacy by Design",
+      "GDPR",
+      "CCPA",
+      "Encryption",
+      "Audit Logging",
+      "Threat Modeling",
+      "Distributed Systems"
+    ],
+    "level": "manager",
+    "comp": "$405k-$485k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c13b4478"
+  },
+  "ashby-apollo-graphql-af081db2-9d58-4525-8227-b5e6d800e72a": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and operate Apollo's application security program and detection/response infrastructure for a GraphQL API platform used by Netflix, Stripe, and others. Design threat models, implement SAST/DAST tooling, embed security gates into CI/CD pipelines, and lead incident response across engineering teams.",
+    "skills": [
+      "Application Security",
+      "Threat Modeling",
+      "SAST/DAST",
+      "SOC 2",
+      "AWS",
+      "GCP",
+      "Kubernetes",
+      "Terraform"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c873f0ce"
+  },
+  "workday-elevancehealth-Operations-Expert_JR194034": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Plano, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "de3428d3"
+  },
+  "workday-biibhr-Senior-Medical-Director--Global-Medical-Lead--SMA-ALS_REQ22836": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Cambridge, MA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$278k-$382k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "db9d3659"
+  },
+  "workday-bakerhughes-Customer-Services-Expert_R164314": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Red Bluff Road, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3875eb16"
+  },
+  "workday-bakerhughes-Generator---Tubes-Technician_R164311": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Red Bluff Road, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f2c7660e"
+  },
+  "greenhouse-cloudflare-7964809": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Austin, TX / New York, NY / San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$189k-$273k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "07e1f84d"
+  },
+  "ashby-david-ai-78f2b656-49bb-4cfd-99dd-02600c209ec6": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Design and build production backend services and distributed systems that ingest, transform, and serve petabytes of audio data for AI training. Own architecture and performance of high-scale data pipelines processing speech data for leading AI labs and enterprises.",
+    "skills": [
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL",
+      "AWS",
+      "Distributed Systems",
+      "IaC",
+      "API Design"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e736f5e8"
+  },
+  "ashby-delinea-d74071e6-af12-4a9c-9627-7dbe092b6fed": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Lead the design and development of Delinea's security detection and response capabilities across SIEM, EDR, NDR, and cloud platforms, building detection rules, automated playbooks, and security integrations. Requires 7+ years of hands-on security engineering or operations experience and cloud-native infrastructure expertise.",
+    "skills": [
+      "Python",
+      "PowerShell",
+      "Bash",
+      "Terraform",
+      "AWS",
+      "Azure",
+      "SIEM",
+      "EDR"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "77b73163"
+  },
+  "workday-dxctechnology-Partner-Alliance-Marketing-Manager--East-Coast_51579560": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$95,900-$178,100",
+    "comp_extras": [],
+    "source_hash": "fae1c8b6"
+  },
+  "workday-intel-Advanced-Packaging-Technology-Development-Substrates-Module-Engineer-On-Shift--Nightshift-_JR0284484": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Chandler, AZ",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$99,030-$139,810",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "82249a04"
+  },
+  "workday-intel-OTF-Failure-Analysis-Technician---Night-Shift_JR0284487": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Phoenix, AZ",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$60,450-$99,770",
+    "comp_extras": [
+      "stock bonuses"
+    ],
+    "source_hash": "495e01c9"
+  },
+  "ashby-Sierra-b6d4c3fe-5ca9-46f9-ba56-fbb190574886": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "ef8c0422"
+  },
+  "ashby-sierra-b6d4c3fe-5ca9-46f9-ba56-fbb190574886": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "0d3e27c0"
+  },
+  "ashby-span-8d8bd0cb-575d-4075-a9fe-3e3e6eaf5444": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Design and implement real-time control algorithms and functional safety architecture for the SPAN Panel, a safety-critical electrical device that manages power flow, fault detection, and system resilience in home energy systems. Requires deep expertise in electrical power systems, embedded control on microcontrollers, and hands-on experience with UL functional safety standards (UL 1998, UL 60730, UL 3141).",
+    "skills": [
+      "C++",
+      "Real-Time Control Systems",
+      "Functional Safety",
+      "UL 1998",
+      "UL 60730",
+      "UL 3141",
+      "STM32",
+      "ARM Cortex-M"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "176dc080"
+  },
+  "workday-sec-Sr-Data-Engineer_R117680": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Mountain View, CA",
+    "job_summary": "Build scalable data pipelines and warehouse systems processing billions of daily advertising events for Samsung's connected TV and digital ad platforms. Work with large-scale datasets on Snowflake and streaming systems (Kafka, Flink) supporting campaign delivery, reporting, and billing across global advertisers.",
+    "skills": [
+      "Python",
+      "Snowflake",
+      "Spark",
+      "SQL",
+      "Kafka",
+      "Airflow",
+      "AWS",
+      "Scala"
+    ],
+    "level": "senior",
+    "comp": "$170k-$210k",
+    "comp_extras": [],
+    "source_hash": "527fdec4"
+  },
+  "greenhouse-spacex-8579716002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hawthorne, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$80k-$120k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "eb1aa469"
+  },
+  "greenhouse-spacex-8577167002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Redmond, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$95k-$130k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "4940d21d"
+  },
+  "greenhouse-spacex-8577318002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Redmond, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$135,000-$200,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "13e6d322"
+  },
+  "workday-otis-Tcnico-de-Servicio_20153536": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Buenos Aires, Argentina",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "aac28235"
+  },
+  "workday-pitneybowes-CDL-A-Truck-Driver--2nd-Shift--Reading--PA-_R21827-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Reading, PA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$27/hr (approx $54k annual)",
+    "comp_extras": [],
+    "source_hash": "677f5a44"
+  },
+  "workday-tapestry-Temporary-Associate_JR6874": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Round Rock, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$15.00-$19.50",
+    "comp_extras": [],
+    "source_hash": "a50747d2"
+  },
+  "workday-tapestry-Temporary-Associate_JR6873": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Round Rock, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$15.00-$19.50/hr",
+    "comp_extras": [],
+    "source_hash": "6c305ebb"
+  },
+  "workday-tmobile-Sr-Engineer---Critical-Facilities---Bellevue-Lab-Complex-Site-Specifics_REQ351096-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Bellevue, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$90,300-$162,800",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "7bfc1757"
   }
 }
