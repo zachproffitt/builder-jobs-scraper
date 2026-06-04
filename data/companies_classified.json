@@ -3298,10 +3298,11 @@
     "source": "one_liner"
   },
   {
+    "ats": "ashby",
     "slug": "Nango",
     "name": "Nango",
-    "summary": "Nango builds an integration platform that helps software companies connect their applications to external APIs and third-party services without having to manage the underlying authentication and data synchronization complexity. They operate in the API integration and backend infrastructure domain, enabling developers to quickly add integrations with services like Salesforce, HubSpot, and other SaaS platforms.",
-    "ats": "ashby"
+    "summary": "Nango provides a single API that connects to multiple third-party services and platforms for integration purposes.",
+    "source": "one_liner"
   },
   {
     "slug": "nanonets",
