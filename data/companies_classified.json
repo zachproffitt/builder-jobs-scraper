@@ -6151,10 +6151,11 @@
     "ats": "bamboo"
   },
   {
+    "ats": "workday",
     "slug": "mavenir/wd1/Mavenir_Careers",
     "name": "Mavenir",
-    "summary": "Mavenir builds cloud-native telecom software and infrastructure solutions, including 5G radio access networks, core networks, and orchestration platforms that enable mobile operators to deploy and manage networks on standard hardware rather than proprietary equipment.",
-    "ats": "workday"
+    "summary": "Mavenir provides cloud-native software solutions for mobile networks that incorporate artificial intelligence.",
+    "source": "meta_description"
   },
   {
     "slug": "nexusstudios",
