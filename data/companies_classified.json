@@ -967,10 +967,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "naughtydog",
-    "name": "Naughty Dog",
-    "summary": "Naughty Dog is a video game developer that creates single-player and multiplayer action-adventure games for PlayStation consoles, including franchises like The Last of Us and Uncharted.",
-    "ats": "greenhouse"
+    "name": "PlayStation",
+    "summary": "PlayStation makes PS4 and PS5 gaming consoles that play video games across various genres.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
@@ -1793,10 +1794,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "webflow",
     "name": "Webflow",
-    "summary": "Webflow builds a visual web design and development platform that allows users to design, build, and launch websites without writing code. The platform operates in the no-code/low-code web development space, serving designers, freelancers, and small businesses who want to create responsive websites and manage hosting through a single application.",
-    "ats": "greenhouse"
+    "summary": "Webflow makes a website design and publishing platform that allows users to create and publish websites.",
+    "source": "one_liner"
   },
   {
     "slug": "AlephAlpha",
@@ -4936,10 +4938,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "noomgrowth",
     "name": "Noom",
-    "summary": "Noom is a digital health platform that provides personalized weight management and chronic disease prevention programs through a mobile app, combining behavioral psychology, nutrition tracking, and coaching to help users achieve sustainable health improvements.",
-    "ats": "greenhouse"
+    "summary": "Noom provides GLP-1 medication paired with a personalized program for weight loss.",
+    "source": "meta_description"
   },
   {
     "slug": "openobserve-careers",
