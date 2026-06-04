@@ -616,11 +616,11 @@
     "source": "meta_description"
   },
   {
-    "name": "Second Dinner",
+    "ats": "ashby",
     "slug": "SecondDinner",
-    "summary": "Second Dinner is an independent game development studio that creates mobile strategy games, including Marvel Snap.",
-    "source_hash": "9fa82316",
-    "ats": "ashby"
+    "name": "Second Dinner",
+    "summary": "Second Dinner is a game studio that develops games.",
+    "source": "meta_description"
   },
   {
     "name": "Undead Labs",
