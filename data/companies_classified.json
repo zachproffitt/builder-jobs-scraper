@@ -1351,10 +1351,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "jetbrains",
     "name": "JetBrains",
-    "summary": "JetBrains develops integrated development environments (IDEs) and code editing tools for software developers, including IntelliJ IDEA, PyCharm, WebStorm, and Kotlin. The company operates in the software development tools market, providing paid and free IDEs tailored to specific programming languages and frameworks.",
-    "ats": "greenhouse"
+    "summary": "JetBrains creates intelligent development tools, including IntelliJ IDEA, a Java IDE, and the Kotlin programming language.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
@@ -2684,10 +2685,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "formal",
     "name": "Formal",
-    "summary": "Formal builds a protocol-aware data security proxy that parses 15+ wire protocols to enforce least-privilege access policies at the query level, protecting databases, data warehouses, and infrastructure from unauthorized access and data exposure. The company operates in the data security and access governance domain, serving organizations that need to secure database access, mask sensitive data for compliance, govern AI agent interactions, and audit user sessions across their infrastructure.",
-    "ats": "ashby"
+    "summary": "Formal builds a reverse proxy that secures access to databases, APIs, and infrastructure through dynamic masking, real-time policies, and zero-trust access.",
+    "source": "meta_description"
   },
   {
     "slug": "formance",
