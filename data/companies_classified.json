@@ -2411,10 +2411,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "curri",
     "name": "Curri",
-    "summary": "Curri builds a logistics platform that manages last-mile delivery for construction and industrial supplies, offering capabilities for on-demand hotshot delivery, dedicated fleet management, carrier network coordination, route optimization, and less-than-truckload (LTL) services. The company operates in the construction and industrial supply delivery domain, serving businesses that need to move everything from single rush parts to national-scale supply chains.",
-    "ats": "ashby"
+    "summary": "Curri is a construction and industrial logistics platform.",
+    "source": "one_liner"
   },
   {
     "slug": "Dashlabsai",
@@ -7255,10 +7256,11 @@
     "ats": "workday"
   },
   {
+    "ats": "ashby",
     "slug": "collective",
     "name": "Collective Health",
-    "summary": "Collective Health is a healthcare benefits platform that helps employers and health plans manage employee health insurance, benefits administration, and healthcare costs through software and data analytics tools.",
-    "ats": "ashby"
+    "summary": "Collective offers financial solutions for self-employed business owners, including company formation, tax, accounting, and bookkeeping services.",
+    "source": "meta_description"
   },
   {
     "ats": "workday",
