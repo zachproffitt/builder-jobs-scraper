@@ -6237,10 +6237,11 @@
     "ats": "eightfold"
   },
   {
+    "ats": "workday",
     "slug": "sonos/wd1/Sonos",
     "name": "Sonos",
-    "summary": "Sonos designs and manufactures wireless speaker systems and audio products that enable customers to play music throughout their homes via Wi-Fi networks. The company operates in the consumer audio and smart home entertainment space, offering connected speakers, soundbars, and integrated audio solutions that work with popular music streaming services.",
-    "ats": "workday"
+    "summary": "Sonos makes a wireless home sound system that uses WiFi to deliver audio throughout a home, room by room.",
+    "source": "meta_description"
   },
   {
     "slug": "teachablecareers",
