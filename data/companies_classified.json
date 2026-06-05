@@ -5699,10 +5699,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "workday",
     "slug": "suse/wd3/Jobsatsuse",
     "name": "Rancher",
-    "summary": "Rancher builds a Kubernetes management platform that enables organizations to deploy, manage, and operate Kubernetes clusters across multiple cloud providers, on-premises data centers, and edge environments from a single centralized control plane. The company serves enterprises that need to simplify Kubernetes operations, reduce complexity, and maintain consistency across distributed infrastructure.",
-    "ats": "workday"
+    "summary": "Rancher is an open-source multi-cluster orchestration platform that helps operations teams deploy, manage, and secure enterprise Kubernetes.",
+    "source": "meta_description"
   },
   {
     "slug": "rappi/wd12/Rappi_jobs",
