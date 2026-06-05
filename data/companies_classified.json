@@ -7122,10 +7122,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "ceribell",
     "name": "Ceribell",
-    "summary": "Ceribell develops brain monitoring technology for detecting seizures in critically ill patients, offering a portable EEG system that provides real-time neurological insights in intensive care units and emergency departments.",
-    "ats": "greenhouse"
+    "summary": "Ceribell makes a point-of-care EEG solution that hospitals use to triage and continuously monitor patients at risk for seizures.",
+    "source": "meta_description"
   },
   {
     "slug": "certifid",
