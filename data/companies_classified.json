@@ -3017,10 +3017,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "Kingdom",
     "name": "Kingdom",
-    "summary": "Kingdom builds fermentation infrastructure and equipment for producing kombucha, water kefir, and other live culture beverages at commercial scale. They operate in the functional beverage and fermentation technology domain, serving producers who want to manufacture cultured drinks with standardized processes.",
-    "ats": "ashby"
+    "summary": "Kingdom makes clinically-validated Superculture\u00ae ingredients for pet health products that target the root causes of unmet pet health needs.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
@@ -5029,10 +5030,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "Sandstone",
     "name": "Sandstone",
-    "summary": "Sandstone builds AI software that helps in-house legal departments manage contracts, approvals, and legal work through conversational AI agents that understand context and automatically route tasks across existing business systems.",
-    "ats": "ashby"
+    "summary": "Sandstone is a platform that manages and resolves legal requests for in-house legal teams using agents.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
