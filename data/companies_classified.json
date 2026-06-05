@@ -630,11 +630,11 @@
     "ats": "greenhouse"
   },
   {
-    "name": "Zynga",
+    "ats": "greenhouse",
     "slug": "zyngacareers",
-    "summary": "Zynga builds online and mobile games including Farmville, Hit it Rich, and Zynga Poker.",
-    "source_hash": "b397911e",
-    "ats": "greenhouse"
+    "name": "Zynga",
+    "summary": "Zynga makes online and mobile games including Farmville, Hit it Rich, and Zynga Poker.",
+    "source": "meta_description"
   },
   {
     "name": "Firaxis Games",
@@ -2875,10 +2875,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "herondata",
     "name": "Heron Data",
-    "summary": "Heron Data builds supply chain visibility and procurement intelligence software that helps enterprises track supplier performance, manage logistics networks, and optimize sourcing decisions. The platform aggregates and analyzes real-time data on shipments, inventory, and supplier activities to provide actionable insights across manufacturing, retail, and distribution industries.",
-    "ats": "ashby"
+    "summary": "Heron Data automates document-heavy workflows in financial services and other industries.",
+    "source": "one_liner"
   },
   {
     "slug": "hitpayapp.com",
@@ -10022,10 +10023,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "unqork",
     "name": "Unqork",
-    "summary": "Unqork builds a no-code enterprise application platform that enables organizations to design, develop, and deploy complex business applications without writing code. The platform serves large enterprises across financial services, insurance, healthcare, and government sectors to accelerate digital transformation and reduce development time for mission-critical applications.",
-    "ats": "greenhouse"
+    "summary": "Unqork builds a platform for developing enterprise applications that includes AI capabilities, modernization tools for legacy systems, and governance features for development teams.",
+    "source": "meta_description"
   },
   {
     "slug": "upclear",
