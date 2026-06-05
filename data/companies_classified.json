@@ -6591,10 +6591,11 @@
     "ats": "bamboo"
   },
   {
+    "ats": "workday",
     "slug": "alegeus/wd1/Alegeus_External_Careers",
     "name": "Alegeus",
-    "summary": "Alegeus provides cloud-based software and payment solutions for health benefit accounts including Health Savings Accounts (HSAs), Flexible Spending Accounts (FSAs), and Dependent Care FSAs. The company serves employers, benefits administrators, and healthcare organizations by enabling account management, claims processing, and benefit distribution for over 70 million accounts.",
-    "ats": "workday"
+    "summary": "Alegeus provides a platform for employee benefits including HSAs and COBRA administration.",
+    "source": "meta_description"
   },
   {
     "slug": "alembic",
@@ -7607,10 +7608,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "echomark",
     "name": "EchoMark",
-    "summary": "EchoMark provides audio watermarking and fingerprinting technology that enables content creators and distributors to track, identify, and protect audio content across digital platforms and broadcast channels.",
-    "ats": "ashby"
+    "summary": "EchoMark embeds invisible forensic watermarks in documents and messages that are personalized for each recipient to protect private information.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
@@ -7937,10 +7939,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "glossgenius",
     "name": "GlossGenius",
-    "summary": "GlossGenius provides scheduling, payment processing, and business management software for beauty and wellness service providers such as salons, spas, and nail studios. The platform handles appointment booking, client communication, invoicing, and staff management for independent practitioners and small teams in the beauty industry.",
-    "ats": "greenhouse"
+    "summary": "GlossGenius provides booking, payments, and business management software for salons, spas, medspas, and other beauty and wellness businesses.",
+    "source": "meta_description"
   },
   {
     "slug": "gmo",
