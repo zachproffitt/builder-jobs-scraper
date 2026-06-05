@@ -329,11 +329,11 @@
     "source": "meta_description"
   },
   {
-    "name": "Vannevar Labs",
+    "ats": "greenhouse",
     "slug": "vannevarlabs",
-    "summary": "Vannevar builds agentic AI systems pre-trained for national security missions.",
-    "source_hash": "4237e55c",
-    "ats": "greenhouse"
+    "name": "Vannevar Labs",
+    "summary": "Vannevar Labs builds agentic AI systems pre-trained for national security missions.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
@@ -6491,10 +6491,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "workday",
     "slug": "digitalturbine/wd501/Digital_Turbine_External_Careers",
     "name": "Fyber",
-    "summary": "Fyber is a mobile advertising platform that helps app developers and publishers monetize their applications through in-app advertising, rewarded videos, and user acquisition campaigns. The company operates in the mobile app ecosystem, connecting advertisers with users across a global network of mobile applications.",
-    "ats": "workday"
+    "summary": "Fyber is a mobile advertising platform that connects app developers, brands, agencies, carriers, and device manufacturers.",
+    "source": "meta_description"
   },
   {
     "slug": "adquadrant",
@@ -7027,10 +7028,11 @@
     "ats": "bamboo"
   },
   {
+    "ats": "greenhouse",
     "slug": "businessolver",
     "name": "Businessolver",
-    "summary": "Businessolver develops cloud-based benefits administration and HR technology platforms that help employers manage employee benefits, payroll, and human resources functions. The company serves mid-market and enterprise organizations across various industries by providing software solutions for benefits enrollment, compliance, and employee engagement.",
-    "ats": "greenhouse"
+    "summary": "Businessolver provides employee benefits technology that serves over 18 million members across various industries.",
+    "source": "meta_description"
   },
   {
     "slug": "butterflymx",
