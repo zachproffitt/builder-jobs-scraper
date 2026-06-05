@@ -557638,5 +557638,644 @@
       "bonus"
     ],
     "source_hash": "7086f8b3"
+  },
+  "workday-rockwellautomation-Warehouse-Supervisor_R26-4117": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "81582a07"
+  },
+  "greenhouse-fireworksai-4277696009": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fa2c0ebc"
+  },
+  "ashby-gigaml-537777ee-a539-453f-b9ea-adf735abd325": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7fc51543"
+  },
+  "workday-hubinternational-Account-Manager--Commercial-Lines_R0036851": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "35a8781e"
+  },
+  "greenhouse-spacex-8579763002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d61139dc"
+  },
+  "greenhouse-spacex-8579761002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0be7a3d0"
+  },
+  "workday-otis-Material-Handler_20161061": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fb897721"
+  },
+  "workday-tapestry-Sales-Associate-II_JR6965": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "db7c4e0f"
+  },
+  "workday-tapestry-Store-Manager_JR6964-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "820658a8"
+  },
+  "workday-tmobile-Mobile-Associate--Store-in-Store---Retail-Sales_REQ356167-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "de51e319"
+  },
+  "workday-tmobile-Mobile-Associate---Retail-Sales_REQ357179": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "38c46f52"
+  },
+  "workday-rockwellautomation-Warehouse-Manager_R26-4095": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f708bfd0"
+  },
+  "ashby-cursor-e57836e8-c864-4817-aaa2-1b1263f0a352": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b84aab68"
+  },
+  "ashby-adaptyv-d2d7c5e8-eaaf-4140-8e44-e1fe1bbe9c3d": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Lausanne, Switzerland",
+    "job_summary": "Build automated, high-throughput analytical characterization for biologics using HPLC and mass spectrometry \u2014 transforming bespoke methods into productized capabilities integrated with lab automation, software pipelines, and AI-driven experimentation. Requires hands-on method development and validation in production biologics settings, working across biology, automation, and software teams.",
+    "skills": [
+      "HPLC",
+      "Mass Spectrometry",
+      "Protein Analytics",
+      "Antibody Characterization",
+      "LC-MS",
+      "Python",
+      "Data Pipeline Development",
+      "Analytical Method Validation"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2c948fc1"
+  },
+  "ashby-adaptyv-206ef8b0-0a46-4a55-8aa9-ed495c165d53": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Lausanne, Switzerland",
+    "job_summary": "Build and productize a high-throughput antibody developability assessment panel (thermostability, aggregation, polyreactivity, solubility assays), then integrate the experimental data with computational prediction models to create an automated service for protein engineers. This role bridges wet-lab science with lab automation and ML infrastructure in a production biotech setting.",
+    "skills": [
+      "Antibody Engineering",
+      "Biophysical Characterization",
+      "DSF",
+      "SEC-HPLC",
+      "DLS",
+      "High-Throughput Screening",
+      "Python",
+      "Data Analysis"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "03c19fdb"
+  },
+  "ashby-adaptyv-9e938c23-156b-46dd-aae3-4d498b778bd3": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Lausanne, Switzerland",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "134f0a3d"
+  },
+  "ashby-adaptyv-2c8c23dd-dab9-4876-bc0d-a5ffd68a3179": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Lausanne, Switzerland",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b1842ced"
+  },
+  "ashby-adaptyv-a83daf13-a066-4ca7-b167-a2eefa85fc5a": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Lausanne, Switzerland",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "806c64ea"
+  },
+  "greenhouse-andurilindustries-5107188007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Costa Mesa, CA",
+    "job_summary": "Lead a reliability engineering team driving design, testing, and qualification of missile systems for defense applications. Requires active U.S. security clearance and on-site presence in Costa Mesa, CA.",
+    "skills": [
+      "FMEA",
+      "FMECA",
+      "Weibull Analysis",
+      "MIL-STD-810",
+      "MIL-STD-1629",
+      "Fault Tree Analysis",
+      "Systems Engineering"
+    ],
+    "level": "manager",
+    "comp": "$166k-$220k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "6900e57b"
+  },
+  "ashby-assembledhq-90514e41-3c81-490c-960e-c14fa7c5a3e2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "642f459d"
+  },
+  "workday-aristocrat-Licensing-Specialist_R0021520": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Las Vegas, NV",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$38.5k-$71.5k",
+    "comp_extras": [],
+    "source_hash": "2231be52"
+  },
+  "ashby-clipboard-2ddc9bb3-0531-4fbe-a514-d77ed408cfd0": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "741dec10"
+  },
+  "workday-capitalone-Principal-Associate--Project-Management---DaaS-Acquisitions-Delivery-Team--Hybrid-_R242537-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Richmond, VA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$109,900-$125,400",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "d42f5817"
+  },
+  "workday-boeing-Associate-Product-Security-Engineer_JR2026512635": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hazelwood, MO",
+    "job_summary": "Develop and implement product security controls and DoD compliance requirements (RMF, JSIG, NISPOM) for P-8A training systems and virtual maintenance trainers throughout the full lifecycle. Requires active Secret Security Clearance and DoD 8570 Level II certification (CompTIA Security+ or CySA+).",
+    "skills": [
+      "DoD Risk Management Framework",
+      "Cybersecurity",
+      "Threat Analysis",
+      "Vulnerability Scanning",
+      "System Hardening",
+      "CompTIA Security+",
+      "CySA+",
+      "TS/SCI Clearance"
+    ],
+    "level": "junior",
+    "comp": "$102k-$138k",
+    "comp_extras": [],
+    "source_hash": "80d75066"
+  },
+  "ashby-happyrobot.ai-efeeb693-18e9-4b24-8d5b-bf5169a1fc55": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Barcelona, Spain",
+    "job_summary": "Build and deploy AI workforce solutions for enterprise customers, combining full-stack development with hands-on AI/ML implementation. Customer-embedded role at a Y Combinator-backed startup where you'll own end-to-end product delivery from onboarding through optimization.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Python",
+      "LLM Prompting",
+      "Voice Tuning",
+      "API Integration"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "7548c4c1"
+  },
+  "ashby-happyrobot.ai-94445ac2-1a19-4b7e-9359-360ad3f2023c": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Madrid, Spain",
+    "job_summary": "Build AI application features and integrations for enterprise customers directly, combining full-stack development (React, TypeScript, Node.js, Python) with AI/ML implementation and customer support at an early-stage AI infrastructure startup.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Python",
+      "LLM Prompting",
+      "API Integration"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "ff9244cf"
+  },
+  "workday-abbott-Procurement-Specialist---Tlalpan_31142823": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Mexico City, Mexico",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a6a4a238"
+  },
+  "workday-abbott-Quality-Engineer-I_31152692": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Liberty, SC",
+    "job_summary": "Develop and maintain quality engineering methodologies for cardiac rhythm medical devices in manufacturing and new product development. Lead process control systems, CAPA implementation, and FDA/GMP compliance for regulated medical device production.",
+    "skills": [
+      "FDA Regulations",
+      "GMP",
+      "ISO 13485",
+      "ISO 14971",
+      "Six Sigma",
+      "Lean Manufacturing",
+      "Statistical Analysis",
+      "ASQ CQE"
+    ],
+    "level": "junior",
+    "comp": "$50.7k-$101.3k",
+    "comp_extras": [],
+    "source_hash": "0127f611"
+  },
+  "workday-abbott-Team-Member-I_31149873": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Alajuela, Costa Rica",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c888493f"
+  },
+  "ashby-Honey Homes-2efb9867-8dce-40fc-9fc3-a230f6eccba1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$76.9k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "7d187bba"
+  },
+  "greenhouse-oklo-5740744004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Santa Clara, CA / Remote",
+    "job_summary": "Develop and validate thermal-hydraulic models for advanced fission reactor cores using subchannel codes (DASSH, COBRA-TF), systems codes (RELAP), and CFD; requires travel to Santa Clara HQ twice quarterly and initial on-site onboarding.",
+    "skills": [
+      "Python",
+      "RELAP",
+      "COBRA-TF",
+      "Computational Fluid Dynamics",
+      "Thermal-Hydraulics",
+      "MOOSE",
+      "SAS4A/SASSYS-1",
+      "CI/CD"
+    ],
+    "level": "junior",
+    "comp": "$80k-$175k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "b29ff8cb"
+  },
+  "greenhouse-spacex-8581272002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hawthorne, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$135k-$190k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "0cc1e979"
+  },
+  "greenhouse-spacex-8575788002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hawthorne, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$135,000-$190,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "6b296fd9"
+  },
+  "ashby-strava-3e676c3a-ecad-4108-8311-4199b02894b8": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Design and build scalable backend services for Strava's identity platform, including authentication, authorization, token lifecycle management, and account security. Partner with cross-functional teams to deliver identity foundations that enable safety, privacy, and growth across 180+ million athletes globally.",
+    "skills": [
+      "Ruby",
+      "Java",
+      "Scala",
+      "Python",
+      "Go",
+      "MySQL",
+      "Redis",
+      "Cassandra"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7fbc222b"
+  },
+  "ashby-strava-bd427f4e-e701-404a-b320-318c6840c24b": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "af8c6532"
+  },
+  "greenhouse-stripe-7985368": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Chicago, IL / Seattle, WA / New York, NY / San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c285e5e3"
+  },
+  "greenhouse-stripe-7986185": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / Seattle, WA",
+    "job_summary": "Own the technical architecture of Stripe Billing's extensibility platform, designing systems that safely execute user-authored scripts and orchestration within the billing engine while partnering with domain teams to bring extension points to production. Work on novel problems in a high-autonomy role scaling from early adoption to general availability across enterprise customers with complex billing requirements.",
+    "skills": [
+      "Distributed Systems",
+      "Service-Oriented Architecture",
+      "Domain-Driven Design",
+      "Payments Systems",
+      "Platform Engineering"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "677508c7"
+  },
+  "workday-jll-Boiler-Mechanic_REQ511825": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Mattawan, MI",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "78a50fc1"
+  },
+  "greenhouse-aerospike-8581203002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Mountain View, CA / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$300k-$335k",
+    "comp_extras": [],
+    "source_hash": "862b53b2"
+  },
+  "workday-tmobile-Principal-Engineer--Software---Enterprise-Automation--RPA---AI-_REQ354768-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Lead the architectural design and modernization of T-Mobile's enterprise robotic process automation (RPA) platform, establishing automation standards and frameworks while guiding responsible integration of AI-assisted engineering capabilities. Work directly with executive stakeholders on platform strategy and evolution across business-critical operations at scale.",
+    "skills": [
+      "UiPath",
+      "Microsoft Power Automation",
+      "Python",
+      "C#",
+      "Azure",
+      "Kubernetes",
+      "Docker",
+      "GitLab"
+    ],
+    "level": "principal",
+    "comp": "$133.5k-$240.7k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "277009e6"
   }
 }
