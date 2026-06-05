@@ -3436,10 +3436,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "output",
     "name": "Output Biosciences",
-    "summary": "Output Biosciences develops cell therapy manufacturing platforms and software solutions designed to optimize the production of cell and gene therapies at scale. The company operates in the biotechnology and bioprocessing domain, focusing on automating and improving the efficiency of manufacturing processes for regenerative medicine and cancer immunotherapy applications.",
-    "ats": "ashby"
+    "summary": "Output Biosciences develops generative AI systems trained to understand and work with biological data and language.",
+    "source": "one_liner"
   },
   {
     "ats": "greenhouse",
@@ -5160,10 +5161,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "xairatherapeutics",
     "name": "Xaira",
-    "summary": "Xaira develops AI-powered software for drug discovery and development, focusing on analyzing biological data to accelerate the identification and optimization of therapeutic candidates.",
-    "ats": "greenhouse"
+    "summary": "Xaira discovers and develops medicines using artificial intelligence.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
