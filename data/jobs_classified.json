@@ -527394,5 +527394,1132 @@
       "equity"
     ],
     "source_hash": "0cac076e"
+  },
+  "workday-boeing-Lead-Business-Operations-Project-Management-Specialist_JR2026500522-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "db6d7e8d"
+  },
+  "workday-firstam-Sales-Representative_R055498-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "13d8ea7a"
+  },
+  "smartrecruiters-InformaGroupPlc-744000130350144": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "907815e7"
+  },
+  "workday-iqvia-Senior-Recruiter--Australia-_R1524134": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9bf1bfd3"
+  },
+  "workday-iqvia-Clinical-Project-Manager--Sponsor-dedicated--Regional-PM-_R1549068": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "96551c39"
+  },
+  "workday-hpe-Receiving-Material-Handler---2nd-shift_1206570-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "76cd1ea6"
+  },
+  "workday-hpe-Services-Sales-Representative--North-East-_1207550-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "01388bf7"
+  },
+  "ashby-Sierra-26d1f737-94a6-497e-a672-93f4f652fca7": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8f885e11"
+  },
+  "ashby-sierra-26d1f737-94a6-497e-a672-93f4f652fca7": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f22d3b77"
+  },
+  "greenhouse-stripe-7977745": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0d68d82b"
+  },
+  "workday-smithnephew-Field-Service-Engineer---Growth--Malaysia---VIP-_R91005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "04ec4933"
+  },
+  "workday-jll-Facilities-Manager_REQ512731": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "cc0cf38d"
+  },
+  "workday-jll-Warehouse-Operations-Manager_REQ501613": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "56c7e4c8"
+  },
+  "greenhouse-vercel-6006148004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5d82a9a9"
+  },
+  "workday-tmobile-Retail-Associate-Manager_REQ356563-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8be77249"
+  },
+  "workday-phinia-Supplier-Quality-Engineer_R2026-0414": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fe83a915"
+  },
+  "greenhouse-newsela-7976784": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d46828d9"
+  },
+  "workday-dxctechnology-Junior-Java-Developer_51581662": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e7795570"
+  },
+  "workday-abbott-Director--Technical-Center_31152362": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "150e7fc4"
+  },
+  "workday-abbott-Commercial-Execution-Director_31152496": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e8cc6d7c"
+  },
+  "workday-abbott-Medical-Representative--ETC---Nutrition----Ha-Noi_31152464": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e4f7c7d0"
+  },
+  "workday-abbott-Associate-Marketing-Director---Digital-and-Consumer-Connections_31152587": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c9efd587"
+  },
+  "workday-abbott-Chofer---Puerto-Aysn_31152031": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "62600972"
+  },
+  "workday-abbott-Muestreador---Puerto-Aysn_31152027": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "048e724c"
+  },
+  "workday-abbott-Analista-de-Laboratorio---Punta-Arenas_31152029-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "87032878"
+  },
+  "workday-abbott-Asistente-de-Impuestos_31152387": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "12c3d66b"
+  },
+  "workday-iqvia-Associate--HR-Share-Service_R1546536": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6051e886"
+  },
+  "greenhouse-stripe-7919288": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "47fc96a9"
+  },
+  "workday-otis----_20156270": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "36aeaf84"
+  },
+  "workday-otis----_20160671": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4be64b98"
+  },
+  "workday-jll-Shift-Lead_REQ513097-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5bc96d89"
+  },
+  "workday-jll-Data-Centre-Broker---Manager-Senior-Manager-Level_REQ492169-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4387786a"
+  },
+  "workday-nvidia-Verification-Engineer---GPU-Fullchip_JR2019166": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "828a61c5"
+  },
+  "workday-nvidia-Senior-Product-Manager--AI-Inference---Dynamo_JR2019219": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "084629da"
+  },
+  "workday-nvidia-Python-Developer--Networking_JR2019176": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a46a1602"
+  },
+  "workday-nvidia-Director--Software-Engineering---SONiC_JR2019154": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2182fcc9"
+  },
+  "greenhouse-andurilindustries-5152633007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Lexington, MA",
+    "job_summary": "Develop product-agnostic software solutions for production automation, hardware testing, and manufacturing optimization in defense systems. Requires active U.S. Secret security clearance.",
+    "skills": [
+      "Python",
+      "MATLAB",
+      "Linux",
+      "Git",
+      "C/C++",
+      "SQL",
+      "JavaScript",
+      "TS/SCI Clearance"
+    ],
+    "level": "senior",
+    "comp": "$191k-$253k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "19ab9de1"
+  },
+  "greenhouse-anthropic-5194529008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$320k-$400k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "427978d2"
+  },
+  "greenhouse-clara-5156448007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "d5180f20"
+  },
+  "workday-adobe-Software-Development-Engineer_R168236-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": "Build highly scalable data processing applications on Databricks and Spark for Adobe's B2B CDP platform, optimizing distributed microservices at enterprise scale. Requires 5+ years of backend engineering experience and technical leadership of cross-functional teams.",
+    "skills": [
+      "Scala",
+      "Java",
+      "Spark",
+      "Databricks",
+      "Spring Framework",
+      "Kubernetes",
+      "AWS",
+      "Azure"
+    ],
+    "level": "senior",
+    "comp": "$177,900-$257,550",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "dc8f5107"
+  },
+  "smartrecruiters-Eurofins-744000130351219": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Sunnyvale, CA",
+    "job_summary": "Design and deploy AI agents that automate data analysis workflows for materials characterization data (XPS, spectroscopy, microscopy); build predictive models and statistical analyses to accelerate insight generation for analytical testing. Requires ITAR eligibility and experience with spectroscopy or materials characterization datasets.",
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "PyTorch or TensorFlow",
+      "Statistical Analysis",
+      "Scikit-learn",
+      "AI Agent Development",
+      "Data Pipelines",
+      "Materials Characterization"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c31606ab"
+  },
+  "workday-intel-AI-Framework-Software-Engineer_JR0284512-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Shanghai, China",
+    "job_summary": "Design and optimize AI software frameworks (e.g., SGLang, PyTorch) by implementing distributed algorithms, developing ML/DL primitives, and profiling performance across hardware backends. Work on production-scale deep learning infrastructure at Intel.",
+    "skills": [
+      "C++",
+      "Python",
+      "PyTorch",
+      "SGLang",
+      "vLLM",
+      "Deep Learning",
+      "Distributed Systems",
+      "CUDA"
+    ],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6bee780a"
+  },
+  "ashby-oneleet-a4609872-1757-4f50-8d51-0aa5a5893b00": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and maintain integrations connecting Oneleet's security platform to AWS, GCP, Azure, and third-party security tools\u2014designing data pipelines that normalize API data and handle authentication flows at scale. Backend-heavy role focused on reliability and data quality for a fast-growing Series A security startup.",
+    "skills": [
+      "Go",
+      "REST APIs",
+      "SQL",
+      "OAuth 2.0",
+      "AWS SDK",
+      "GCP Client Libraries",
+      "Azure SDK",
+      "OIDC"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "5bb15578"
+  },
+  "ashby-output-6844d3fa-84e5-4dbf-9445-f88981600148": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": "Build interpretability tools and mechanistic analysis methods to reverse-engineer a foundation model's understanding of molecular biology, making its learned representations visible and actionable for drug discovery. Requires strong publication record in mechanistic interpretability and demonstrated ability to ship production-quality analysis systems.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "Mechanistic Interpretability",
+      "Representation Analysis",
+      "Neural Network Probing",
+      "GPU Infrastructure",
+      "scikit-learn"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "8d2b4e01"
+  },
+  "ashby-output-c9207d39-7e47-4e70-8727-7f4553f4a554": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": "Design and own the full pretraining pipeline for a biological foundation model\u2014from architecture and training objectives through distributed multi-GPU training and rigorous evaluation\u2014to advance reasoning across molecular interactions and biological phenomena. PhD or 5+ years hands-on research required; strong publication record at top venues (NeurIPS, ICML, ICLR) expected.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "Representation Learning",
+      "Self-Supervised Learning",
+      "Distributed Training",
+      "Multimodal Learning",
+      "Pretraining Methods"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "28663694"
+  },
+  "ashby-output-1a24d1b4-762d-4007-b82b-ee46c273bbc5": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": "Lead the active learning cycle between biological reasoning AI models and experimental validation through CRO partnerships, designing experiments that test model predictions and generate data to improve molecular interaction understanding. Requires deep expertise in protein biology, structural relationships, and ability to translate between machine learning and experimental biology domains.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "Protein Language Models",
+      "Structural Biology",
+      "Active Learning",
+      "CRO Management",
+      "Molecular Docking",
+      "Bioinformatics"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "82a3b7a4"
+  },
+  "ashby-output-e47dadff-8a9c-4749-8234-2db3f4b7fd57": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": "Design and build generative models for molecular design across multiple modalities (small molecules, peptides, proteins), developing novel architectures, training approaches, and evaluation frameworks that produce biologically grounded, chemically valid molecules. Work spans research through production training on distributed GPU clusters, integrating biological reasoning from foundation models to enable controllable generation.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "Generative Models",
+      "Distributed Training",
+      "Molecular Modeling",
+      "Deep Learning",
+      "GPU Clusters",
+      "JAX"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "8ec38999"
+  },
+  "ashby-output-a98270b8-768c-4460-90d4-90cae895e669": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": "Build training datasets for biological reasoning AI models by sourcing, integrating, and extending molecular interaction data across protein structures, molecular databases, and experimental modalities. Own the data quality and coverage that determines what the model can learn about molecular biology at scale.",
+    "skills": [
+      "Python",
+      "Protein Structure",
+      "Molecular Docking",
+      "Bioinformatics",
+      "Machine Learning",
+      "Computational Biology",
+      "Data Pipeline Development",
+      "Cheminformatics"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "6ddd110b"
+  },
+  "workday-hpe-Systems-Engineer--NY-Metro_1207915-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$137,500-$284,000",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "f3d33120"
+  },
+  "workday-hpe-Sr-Networking-Systems-Engineer--Northern-Virginia---DC-area-_1207091-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Northern Virginia / Washington, DC / Baltimore, MD",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$146k-$343k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "4dcc3bc1"
+  },
+  "workday-hpe-Software-Engineer-III---RIS-Test_1206747-2": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Westford, MA",
+    "job_summary": "Develop and automate comprehensive test plans for BRAS/EVPN routing features across customer environments, focusing on protocol validation, feature coverage, and customer issue resolution. Requires deep expertise in networking protocols (BGP, OSPF, MPLS, EVPN) and test automation frameworks.",
+    "skills": [
+      "Python",
+      "Robot Framework",
+      "Ixia",
+      "Spirent",
+      "BGP",
+      "OSPF",
+      "MPLS",
+      "EVPN"
+    ],
+    "level": "senior",
+    "comp": "$120,500-$228,500",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "4d2a1c19"
+  },
+  "workday-hpe-AI-Product-Manager_1202960-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote / California / Georgia / North Carolina / Texas",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$120,500-$276,500",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "9382119e"
+  },
+  "workday-hpe-Principal-Network-Security---Cloud-Developer_1190830-2": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": "Design and develop end-to-end cloud and networking software solutions, from architecture through deployment, serving mission-critical applications. This senior role involves mentoring engineers, evaluating emerging technologies, and optimizing for cost and reliability across embedded networking and cloud platforms.",
+    "skills": [
+      "C++",
+      "Python",
+      "Go",
+      "Java",
+      "Kubernetes",
+      "Docker",
+      "Cloud Security",
+      "CI/CD"
+    ],
+    "level": "senior",
+    "comp": "$155,500-$315,000",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "db6c42bd"
+  },
+  "workday-smithnephew-Systems-Verification-Engineer_R91176": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Andover, MA",
+    "job_summary": "Lead system verification activities for medical device products, owning test strategies, automated test platforms, and defect tracking across hardware-software integration. Requires knowledge of medical device standards (IEC 62304, ISO 14971, IEC 60601) and FDA design controls.",
+    "skills": [
+      "C",
+      "C++",
+      "C#",
+      "Java",
+      "Python",
+      "LabVIEW",
+      "MATLAB",
+      "JIRA"
+    ],
+    "level": "mid",
+    "comp": "$85,750-$128,750",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "d35729d4"
+  },
+  "workday-smithnephew-ASEAN-Service-Growth-Manager_R91003-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "4c93a0df"
+  },
+  "workday-jll-Workplace-experience-associate_REQ509814": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Noida, UP",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b8fa78fa"
+  },
+  "workday-jll-Technician--The-President-Park-View-Towers-_REQ512810": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Bangkok, Thailand",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3f3f5f54"
+  },
+  "workday-jll-Chief-Engineer_REQ511527": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Pleasant Prairie, WI",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "713ea21b"
+  },
+  "greenhouse-xairatherapeutics-5155822007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "South San Francisco, CA",
+    "job_summary": "Design and implement automated laboratory workflows on liquid handling robots and integrated workcells, building the software, data, and LIMS-connected tools that make lab operations scalable and AI-ready. Work at the intersection of biology, robotics, software, and data systems to develop practical automation platforms that support both near-term execution and longer-term AI-enabled capabilities.",
+    "skills": [
+      "Python",
+      "C#",
+      "SQL",
+      "Hamilton",
+      "LIMS",
+      "APIs",
+      "Computer Vision",
+      "AWS"
+    ],
+    "level": "senior",
+    "comp": "$124k-$155k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "51f38026"
+  },
+  "workday-tapestry-COACH--SKP_JR6802": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Chengdu, China",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "87fd3edf"
+  },
+  "workday-nvidia-Senior-Software-Engineer--DGX-Cloud-Production-Engineering_JR2019319": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Build and operate automation for large-scale GPU clusters, developing tools and services for provisioning, validation, upgrades, monitoring, and lifecycle operations across Kubernetes-based infrastructure. Requires 8+ years building production infrastructure and hands-on incident response in distributed systems at scale.",
+    "skills": [
+      "Python",
+      "Go",
+      "Kubernetes",
+      "Linux",
+      "Terraform",
+      "ArgoCD",
+      "GPU infrastructure",
+      "GitOps"
+    ],
+    "level": "senior",
+    "comp": "$184k-$287.5k (Level 4) / $224k-$356.5k (Level 5)",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e0cf1d1f"
+  },
+  "workday-nvidia-SOC-Clock-Distribution-Engineer_JR2019203": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Design and implement system-on-chip (SOC) clock distribution architecture and physical design optimization for complex GPU and AI computing chips. Requires hands-on experience with clock tree synthesis, timing closure, and multi-power domain integration in advanced semiconductor nodes.",
+    "skills": [
+      "Clock Distribution",
+      "Physical Design",
+      "Perl",
+      "Python",
+      "Bash",
+      "Tcl",
+      "Chip Design",
+      "CDC (Clock Domain Crossing)"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8ae50ddd"
+  },
+  "workday-nvidia-Applied-AI-Researcher---World-Reconstruction-and-Generation_JR2019212": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Develop deep learning methods for 3D world reconstruction, novel view synthesis, and generative scene modeling to enable robots and autonomous systems to perceive and operate in physical environments. Work involves neural rendering, 3D Gaussian Splatting, NeRFs, and closed-loop simulation at scale.",
+    "skills": [
+      "PyTorch",
+      "Python",
+      "Computer Vision",
+      "3D Graphics",
+      "Neural Rendering",
+      "NeRF",
+      "3D Gaussian Splatting",
+      "CUDA"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0061b5d4"
+  },
+  "workday-nvidia-Senior-Deep-Learning-Hardware-Modeling-Architect---LPU_JR2019216": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": null,
+    "job_summary": "Build executable hardware models and architectural specifications for LLM inference systems, optimizing performance through C++ simulation of critical chip components. Requires deep RTL and systems-level modeling expertise to support millions of NVIDIA customers running inference workloads.",
+    "skills": [
+      "C++",
+      "RTL Design",
+      "Architecture Modeling",
+      "LLM Inference",
+      "Hardware Simulation",
+      "Profiling",
+      "Data Structures",
+      "Parallelism"
+    ],
+    "level": "senior",
+    "comp": "$152k-$287.5k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c1384672"
+  },
+  "workday-nvidia-Senior-System-Software-Engineer--CPU_JR2019268": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Develop diagnostic software drivers and system software stack for Tegra chips used in NVIDIA data center and automotive products. Requires deep kernel programming expertise and close hardware-software integration across millions of deployed systems.",
+    "skills": [
+      "C++",
+      "C",
+      "Linux Kernel",
+      "ARM",
+      "SOC Architecture",
+      "Device Drivers",
+      "Kernel Programming"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7965df93"
+  },
+  "workday-nvidia-Software-R-D-Engineer--VLSI-Physical-Design---New-College-Grad-2026_JR2019330": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": "Build optimization engines and algorithms in C++ for VLSI physical design tools (sizing, buffering, CTS, legalization, place and route), fusing traditionally independent optimization steps to improve chip frequency and power consumption. Work directly with design teams to deploy solutions into NVIDIA's internal EDA toolchain and latest GPU/AI hardware.",
+    "skills": [
+      "C++",
+      "VLSI Physical Design",
+      "Timing Optimization",
+      "Gate-Level Sizing",
+      "Clock Tree Synthesis",
+      "Cell Legalization",
+      "ICC2",
+      "Innovus"
+    ],
+    "level": "junior",
+    "comp": "$116k-$189,750 (Level 2) / $136k-$218,500 (Level 3)",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "d09a2c89"
+  },
+  "workday-nvidia-GeForce-NOW-Content-Engineer_JR2019302": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": null,
+    "job_summary": "Build the game onboarding, preparation, and distribution systems that deliver top-tier PC games to millions of users on GeForce NOW cloud gaming platform. Requires deep Windows OS internals expertise and reverse engineering skills to solve complex challenges in game compatibility and large-scale operations.",
+    "skills": [
+      "Python",
+      "C#",
+      "Go",
+      "Lua",
+      "PowerShell",
+      "Windows OS internals",
+      "Procmon",
+      "Process Explorer"
+    ],
+    "level": "mid",
+    "comp": "125,000 CAD - 175,000 CAD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "ed5206d6"
+  },
+  "workday-nvidia-Senior-AI-Infrastructure-Engineer---DGX-Cloud_JR2018820": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Design, build, and operate large-scale AI training and inferencing platforms on cloud infrastructure, managing production systems across multi-GPU clusters with a focus on reliability, performance, and automation. Requires deep expertise in distributed systems, Kubernetes, infrastructure-as-code, and on-call incident response for mission-critical GPU cloud services.",
+    "skills": [
+      "Python",
+      "Go",
+      "C++",
+      "Kubernetes",
+      "Terraform",
+      "Linux",
+      "Networking",
+      "Distributed Systems"
+    ],
+    "level": "senior",
+    "comp": "$152k-$287.5k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "2c3d7136"
   }
 }
