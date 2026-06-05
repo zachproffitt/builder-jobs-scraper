@@ -8947,10 +8947,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "workday",
     "slug": "otis/wd5/REC_Ext_Gateway",
     "name": "Otis",
-    "summary": "Otis manufactures and services elevators, escalators, and moving walkways for buildings worldwide. The company provides installation, maintenance, and modernization services across residential, commercial, and industrial properties.",
-    "ats": "workday"
+    "summary": "Otis manufactures and maintains elevators, escalators, and moving walkways, and provides modernization tools and service packages for buildings.",
+    "source": "meta_description"
   },
   {
     "slug": "Overjet",
