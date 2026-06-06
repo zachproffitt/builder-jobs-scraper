@@ -559430,5 +559430,53 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "b526b158"
+  },
+  "workable-weekday-1-5C62B0A2D3": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a8942f3d"
+  },
+  "workable-weekday-1-6153884B00": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b535c920"
+  },
+  "greenhouse-stabilityai-4886027101": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Los Angeles, CA / Remote",
+    "job_summary": "Own the ground-up build of product-led growth and lifecycle infrastructure for music and audio products across web, desktop, plugin, and mobile \u2014 designing the event model, selecting the martech stack (CDP, product analytics, lifecycle messaging, experimentation, warehouse, reverse-ETL), wiring integrations, and shipping paywall and entitlement logic that drives measurable conversion from visitor to paying customer. This is a greenfield role requiring hands-on ownership of in-app PLG mechanics and revenue-critical systems with no product manager.",
+    "skills": [
+      "TypeScript",
+      "Node.js",
+      "Python",
+      "SQL",
+      "Product Analytics",
+      "CDP",
+      "Reverse-ETL",
+      "Event Taxonomy"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d55b1f5a"
   }
 }
