@@ -560580,5 +560580,95 @@
     "comp": "$15.00-$24.25",
     "comp_extras": [],
     "source_hash": "f4ca812e"
+  },
+  "ashby-adaptyv-11d5013d-e24d-47b5-8dd3-3d5f670f753f": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Lausanne, Switzerland / Remote",
+    "job_summary": "Lead the software engineering team building the orchestration, control, and data infrastructure for an automated biology lab powered by AI agents. Shipping production code yourself while owning roadmap and team scaling \u2014 architecture spans hardware integration APIs, lab workflow orchestration, observability systems, and experimental data pipelines.",
+    "skills": [
+      "Python",
+      "distributed systems",
+      "data pipelines",
+      "API design",
+      "system architecture",
+      "Kubernetes",
+      "PostgreSQL",
+      "AI-assisted development"
+    ],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "449e0d88"
+  },
+  "workday-elevancehealth-Therapy-Services-Specialist-Sr---CareBridge_JR194829": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Nashville, TN",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "37917d92"
+  },
+  "workday-biibhr-Utilities-Technician-II_REQ23482": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Research Triangle Park, NC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$25.96-$34.13",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "e4e47646"
+  },
+  "workday-dxctechnology-RR-0366701-Associate-Manager-Software-Engineering_51580217-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Bangalore, India",
+    "job_summary": "Lead and mentor a team of software engineers on product development, providing technical guidance, code reviews, and career development while contributing to engineering strategy.",
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "31d3568e"
+  },
+  "workday-ag-HRBP-III_JR10417475": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Herndon, VA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7c2ae9ae"
+  },
+  "workday-tapestry-Associate-III_JR7011": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Milpitas, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$15.00-$24.25",
+    "comp_extras": [],
+    "source_hash": "07cfa147"
   }
 }
