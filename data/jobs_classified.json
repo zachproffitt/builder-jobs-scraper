@@ -558920,5 +558920,214 @@
     "comp": "$15.00-$19.50",
     "comp_extras": [],
     "source_hash": "1807945a"
+  },
+  "greenhouse-pinterest-7983951": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "96a7fcb2"
+  },
+  "greenhouse-talkdesk2-7859266": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1ef77999"
+  },
+  "workday-sunrun-Certified-Field-Operations-Technician_R65189": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2b66ac13"
+  },
+  "workday-sunrun-Certified-Field-Operations-Technician_R65182": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6c64300d"
+  },
+  "workday-boeing-Transportation-Analyst_JR2026512882-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Seattle, WA / Everett, WA / Auburn, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$87,550-$150,650",
+    "comp_extras": [],
+    "source_hash": "52020c1f"
+  },
+  "workday-devoted-Broker-Manager_R3239": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$75k-$85k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "67422c5f"
+  },
+  "smartrecruiters-Eurofins-744000130625219": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Lafayette, LA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "23e7da8a"
+  },
+  "workday-paloaltonetworks-Engineering-Manager---Cloud-Platform--Security---Identity-_JR-018004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": "Lead a team building distributed cloud platform services for machine identity management and protection at enterprise scale. Experience with identity systems, PKI, certificate lifecycle management, and distributed systems architecture is valued.",
+    "skills": [
+      "Distributed Systems",
+      "APIs",
+      "Service-Oriented Architecture",
+      "Cloud Platforms",
+      "Backend Systems",
+      "TLS",
+      "x509",
+      "PKI"
+    ],
+    "level": "manager",
+    "comp": "$165k-$267.5k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "2c28b2d9"
+  },
+  "workday-workday-Services-Executive---Higher-Education---Government_JR-0107952": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$119,200-$178,800",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "5b16704f"
+  },
+  "ashby-january-b2a2ec4f-2fc3-4499-9386-7292cf8f0362": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a2a9ddcd"
+  },
+  "ashby-openai-f6278b60-dd42-4aa8-a3cd-c105f75ae8ae": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Design and operate orchestration, sandboxing, and storage systems for long-running agents serving ChatGPT, Codex, and the OpenAI API at scale. Requires 9+ years of backend/infrastructure experience leading large-scale projects from ambiguous requirements to production systems.",
+    "skills": [
+      "Python",
+      "Rust",
+      "Go",
+      "Distributed Systems",
+      "Cloud Infrastructure",
+      "Kubernetes"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "dbe0b813"
+  },
+  "greenhouse-spacex-8581359002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hawthorne, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$23.00-$38.00/hour",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "a01ebbc3"
+  },
+  "greenhouse-waymo-7948185": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Mountain View, CA / San Francisco, CA",
+    "job_summary": "Build abstraction layers and cross-platform integration for Waymo's Perception software stack across heterogeneous sensor hardware (LiDAR, camera, radar). Scale multi-modal perception algorithms across millions of miles of real-world driving data while maintaining portability across diverse vehicle platforms and sensor configurations.",
+    "skills": [
+      "C++",
+      "Lidar",
+      "Camera",
+      "Radar",
+      "ML Systems",
+      "Autonomous Vehicles",
+      "Sensor Fusion",
+      "Python"
+    ],
+    "level": "senior",
+    "comp": "$213k-$263k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "9c400249"
   }
 }
