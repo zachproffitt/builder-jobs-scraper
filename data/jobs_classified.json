@@ -560840,5 +560840,44 @@
       "equity"
     ],
     "source_hash": "676d6c2b"
+  },
+  "workday-boeing-Marketing---Sales-Representative_JR2026513635-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bb9fab2c"
+  },
+  "workday-tapestry-Sales-Associate-III_JR7018": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4cb20dca"
+  },
+  "workday-modernatx-Manager--Global-Regulatory-Science-CTA_R19284-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Warsaw, Poland",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0150c6f0"
   }
 }
