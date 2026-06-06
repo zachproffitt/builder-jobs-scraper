@@ -560045,5 +560045,111 @@
     "comp": "$15.00-$19.50",
     "comp_extras": [],
     "source_hash": "986d7754"
+  },
+  "workday-tapestry-Sales-Associate-III_JR5770-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5e201ad4"
+  },
+  "workday-tapestry-Sales-Associate-III_JR5766": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6324fdff"
+  },
+  "workday-tapestry-Lead-Supervisor-II_JR6989": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "92c37f92"
+  },
+  "workday-tapestry-Assistant-Store-Manager-I_JR6996": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d1320c6a"
+  },
+  "workday-tapestry-Sales-Associate-III_JR6993": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4ea7fe32"
+  },
+  "workday-tapestry-Assistant-Store-Leader_JR6988-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "81be433d"
+  },
+  "workday-tapestry-Sales-Associate-II_JR6990": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8c929edf"
+  },
+  "ashby-coderabbit-f3df77b7-a8bf-42cc-9914-0e102ad53010": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$200k-$300k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "38003d51"
   }
 }
