@@ -559129,5 +559129,306 @@
       "bonus"
     ],
     "source_hash": "9c400249"
+  },
+  "workday-intel-Tool-Install-Project-Manager_JR0283862-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "896c0639"
+  },
+  "workday-modernatx-Sr-Clinical-Trial-Manager--Oncology_R19297": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b7b61642"
+  },
+  "workday-otis-Account-Manager_20161228": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d64b238e"
+  },
+  "workday-jll-Electrician_REQ510565": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "18a1e41d"
+  },
+  "greenhouse-airbnb-7987859": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$208k-$260k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "705b3dd1"
+  },
+  "workday-boeing-Senior-Electrical-Component-Engineer_JR2026512299-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "El Segundo, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$146,200 - $197,800",
+    "comp_extras": [],
+    "source_hash": "ae5376ff"
+  },
+  "smartrecruiters-Gerresheimer-744000090339205": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Lohr a. Main, Germany",
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4a11dfc3"
+  },
+  "lever-leantaas-70de62be-0028-4b9e-8013-12aa594b699b": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Manage and optimize Aurora/MySQL database infrastructure supporting healthcare operations software used by 1,200+ hospitals; ensure high availability, performance, and security for systems handling patient access and operational data.",
+    "skills": [
+      "Aurora",
+      "MySQL",
+      "AWS",
+      "Database Administration",
+      "High Availability",
+      "Performance Tuning",
+      "SQL"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "704fdab9"
+  },
+  "greenhouse-webflow-7986111": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$240k-$340k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "93c99fa0"
+  },
+  "workday-intel-SoC-Integration-Engineer_JR0284554": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Santa Clara, CA / Folsom, CA / Hillsboro, OR / Austin, TX",
+    "job_summary": "Design and integrate high-performance Network-on-Chip (NoC) and interconnect fabrics for Intel SoCs, optimizing across power, performance, and area constraints. Partner with architecture, IP, and physical design teams to deliver scalable silicon platforms that power millions of devices globally.",
+    "skills": [
+      "Verilog",
+      "SystemVerilog",
+      "AMBA (AXI, CHI, APB, AHB)",
+      "PCIe",
+      "CXL",
+      "Physical Design",
+      "Timing Constraints",
+      "Lint/CDC/RDC"
+    ],
+    "level": "senior",
+    "comp": "$141,910-$269,100",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "b1f82d59"
+  },
+  "workday-ag-Head-of-A220-Program-Operations_JR10417836": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Herndon, VA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b9f95553"
+  },
+  "workday-modernatx-Manufacturing-Associate-II--Drug-Substance-Operations_R19285-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$63.2k-$100.9k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "d2bc32c3"
+  },
+  "ashby-perplexity-6e328b72-9f57-49e0-a1a8-4428abf8ff81": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Design and build multimodal AI platform systems spanning immersive UIs, realtime audio/video processing, backend infrastructure, and SDKs that enable new forms of human-AI interaction beyond touch interfaces. Work across the full stack on bleeding-edge problems in audio processing, video handling, and novel input modalities at scale.",
+    "skills": [
+      "Python",
+      "Rust",
+      "C++",
+      "PyTorch",
+      "audio processing",
+      "video processing",
+      "realtime systems",
+      "backend infrastructure"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7824a086"
+  },
+  "ashby-perplexity-8fd01227-a933-4319-a281-fa6e3ce8d8ca": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Build AI agents that navigate the digital world and perform complex tasks for users across web, mobile, and cloud environments. Drive the frontier of agentic AI by developing action/decision models, permission architectures, and secure-by-design capabilities that scale to millions of users.",
+    "skills": [
+      "Python",
+      "TypeScript",
+      "Go",
+      "Rust",
+      "PyTorch",
+      "Reinforcement Learning",
+      "Browser Automation",
+      "Playwright"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "62d1863b"
+  },
+  "ashby-perplexity-affd3040-91e4-4e0c-bd2f-4b022c613f91": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Design and build recommendation and personalization systems for Perplexity's AI search platform, combining LLM intelligence with user context to drive core product experiences. Own user modeling, ranking decision layers, and data infrastructure for a product used by millions; requires hands-on ML systems experience at scale.",
+    "skills": [
+      "Machine Learning",
+      "LLM Integration",
+      "Recommendation Systems",
+      "Ranking Systems",
+      "Feature Engineering",
+      "Online Experimentation",
+      "Engagement Modeling",
+      "Model Calibration"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "68da6e4d"
+  },
+  "greenhouse-scaleai-4703343005": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY",
+    "job_summary": "Build agentic workflows and AI-powered automation tools using LLM frameworks (LangChain, LangGraph, CrewAI) that integrate Slack, Salesforce, and internal systems; deploy real systems used by Scale AI teams daily, measuring ROI and adoption metrics from day one.",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "LangChain",
+      "OpenAI",
+      "Anthropic",
+      "React",
+      "LLM APIs",
+      "RAG"
+    ],
+    "level": "intern",
+    "comp": "$74,400\u2014$111,600",
+    "comp_extras": [
+      "equity",
+      "benefits"
+    ],
+    "source_hash": "a33bf166"
+  },
+  "workday-tapestry-Temporary-Associate_JR6960": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Kansas City, KS",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$15.00-$19.50",
+    "comp_extras": [],
+    "source_hash": "009a1d2a"
+  },
+  "workday-visa-Implementation-Analyst_REF082869W": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Bogota, Colombia",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b526b158"
   }
 }
