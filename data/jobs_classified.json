@@ -559876,5 +559876,70 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "a46c1ab4"
+  },
+  "workday-tapestry-Sales-Associate_JR6982": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "78da842a"
+  },
+  "workday-tapestry-Sales-Associate-III_JR6980": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f66a17cc"
+  },
+  "workday-jll-Senior-Specialist---HR-Operations--Design_REQ511696": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Gurugram, India",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8e25648e"
+  },
+  "workday-jll-Senior-Analyst---HR-Operations_REQ510885": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Gurugram, India",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7f44947c"
+  },
+  "workday-jll-Senior-Specialist--Bid-Coordination_REQ505095": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Gurugram, India",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "df7b2d75"
   }
 }
