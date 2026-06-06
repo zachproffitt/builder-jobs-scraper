@@ -924,7 +924,7 @@
   "workday:trendmicro/wd3/External": "2026-06-06",
   "workday:relx/wd3/LexisNexisLegal": "2026-06-06",
   "workday:thomsonreuters/wd5/External_Career_Site": "2026-06-06",
-  "workday:visa/wd5/Visa": "2026-06-05",
+  "workday:visa/wd5/Visa": "2026-06-06",
   "workday:ag/wd3/Airbus": "2026-06-06",
   "greenhouse:gensyn": "2026-06-06",
   "lever:anybotics": "2026-06-06",
@@ -1411,7 +1411,7 @@
   "breezy:sonosim": "2026-06-06",
   "breezy:sourcemap-inc": "2026-06-06",
   "lever:sophos": "2026-06-06",
-  "workday:otis/wd5/REC_Ext_Gateway": "2026-06-05",
+  "workday:otis/wd5/REC_Ext_Gateway": "2026-06-06",
   "greenhouse:sparrow": "2026-06-06",
   "greenhouse:sourcescrub": "2026-06-06",
   "workable:sperasoft": "2026-06-06",
@@ -1524,6 +1524,6 @@
   "workday:epicorsoftware/wd5/epicorjobs": "2026-06-06",
   "ashby:parabola-io": "2026-06-06",
   "lever:parallelwireless": "2026-06-06",
-  "workday:tibco/wd5/Cloud_Software_Group": "2026-06-05",
+  "workday:tibco/wd5/Cloud_Software_Group": "2026-06-06",
   "workday:silabs/wd1/SiliconlabsCareers": "2026-06-06"
 }
