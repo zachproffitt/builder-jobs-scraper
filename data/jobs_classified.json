@@ -560790,5 +560790,55 @@
     "comp": "$15.00-$24.25",
     "comp_extras": [],
     "source_hash": "4b7d4509"
+  },
+  "workday-ag-Industrial-Project-Manager---Assembly---Digital-Solutions--f-m-_JR10395780": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "03bde56b"
+  },
+  "workday-tapestry-Temporary-Sales-Associate_JR7016": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f1c575e4"
+  },
+  "ashby-axle-health-2041d939-e7b6-4de7-bf5d-4507d1b9abdd": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Monica, CA",
+    "job_summary": "Lead Axle's Front-End and Mobile Engineering team while spending the majority of your time writing, reviewing, and shipping code for web and mobile applications used by clinicians, schedulers, and patients in home healthcare. Build and maintain systems compliant with healthcare data security standards (HIPAA, SOC-2, HITRUST).",
+    "skills": [
+      "React",
+      "TypeScript",
+      "React Native",
+      "JavaScript",
+      "Node.js",
+      "GraphQL",
+      "REST APIs",
+      "AWS"
+    ],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "676d6c2b"
   }
 }
