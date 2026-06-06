@@ -2072,10 +2072,11 @@
     "source": "one_liner"
   },
   {
+    "ats": "ashby",
     "slug": "axle-health",
     "name": "Axle Health",
-    "summary": "Axle Health builds software that helps healthcare providers manage orthopedic and musculoskeletal care by automating clinical workflows, documentation, and patient management. The company operates in the healthcare technology sector, specifically serving orthopedic practices, physical therapy clinics, and related medical providers.",
-    "ats": "ashby"
+    "summary": "Axle Health builds scheduling and workforce management software for home healthcare providers.",
+    "source": "one_liner"
   },
   {
     "slug": "baubap",
