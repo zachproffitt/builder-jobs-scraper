@@ -8103,10 +8103,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "lever",
     "slug": "leantaas",
     "name": "LeanTaaS",
-    "summary": "LeanTaaS develops software that uses artificial intelligence and operations research to optimize scheduling and resource allocation in healthcare systems, helping hospitals and surgical centers reduce wait times, improve staff utilization, and increase patient throughput.",
-    "ats": "lever"
+    "summary": "LeanTaaS provides AI and predictive analytics software to help hospitals optimize their operations and capacity.",
+    "source": "meta_description"
   },
   {
     "ats": "lever",
