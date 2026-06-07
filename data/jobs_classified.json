@@ -561239,5 +561239,57 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "c585d1c6"
+  },
+  "workday-abbott-Commercial-Operations-Coordinator--m-f-d-_31152331-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "efa1a585"
+  },
+  "workday-abbott-Finance-Manager-Diabetes-Care---Germany--Austria---Switzerland--DACH-_31152306": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "83a67a89"
+  },
+  "workday-paloaltonetworks-Senior---Principle-Software-Engineer--Secure-Agentic-AI-_JR-018540": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b7842add"
+  },
+  "workday-dxctechnology-Analyst-II-Business-Process-Transactions_51581609-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Riyadh, Saudi Arabia",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8733efc1"
   }
 }

@@ -2803,5 +2803,16 @@
     "title_skipped": 2,
     "location_skipped": 5,
     "cost_usd": 0.00706625
+  },
+  {
+    "ts": "2026-06-07T09:18:54Z",
+    "classified": 1,
+    "builder": 0,
+    "not_builder": 1,
+    "unclear": 0,
+    "builder_rate": 0.0,
+    "title_skipped": 2,
+    "location_skipped": 1,
+    "cost_usd": 0.00710525
   }
 ]
