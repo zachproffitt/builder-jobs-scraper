@@ -561935,5 +561935,85 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "c206b4f1"
+  },
+  "workday-jll-MIS-Coordinator_REQ512084": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "af741d6c"
+  },
+  "workday-jll-Lead-Operating-Engineer_REQ513398": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1f7219d8"
+  },
+  "workday-collectorsuniverse-Verification-Specialist--Beckett_JR104209": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Plano, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$18.50/hr",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "b5090e82"
+  },
+  "workday-phinia-HR-Intern_R2026-0404": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Auburn Hills, MI",
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "10ea7555"
+  },
+  "workday-jll-Risk---Compliance-Director_REQ513403": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Charlotte, NC / Des Moines, IA / Las Colinas, TX / San Antonio, TX / St. Louis, MO",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$140k-$160k",
+    "comp_extras": [],
+    "source_hash": "aea7caa1"
+  },
+  "workday-jll-F-B-Executive_REQ512152": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Pune, MH",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "cb0ea43a"
   }
 }
