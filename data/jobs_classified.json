@@ -562156,5 +562156,50 @@
     "comp": "$15.00-$19.50",
     "comp_extras": [],
     "source_hash": "24fcf096"
+  },
+  "greenhouse-gradial-4277812009": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e3403cf4"
+  },
+  "greenhouse-gradial-4277814009": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Seattle, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$150k-$220k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "6535d2e2"
+  },
+  "greenhouse-gradial-4277813009": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Seattle, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$150k-$220k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "03a77017"
   }
 }
