@@ -560905,5 +560905,20 @@
     "comp": "$47.8k-$54.9k",
     "comp_extras": [],
     "source_hash": "66afb4f5"
+  },
+  "workday-elevancehealth-Community-Relations-Representative-II_JR194284-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Kern County, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$26.31-$41.27",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "1c4b36cd"
   }
 }
