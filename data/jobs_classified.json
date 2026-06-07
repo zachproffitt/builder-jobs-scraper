@@ -561858,5 +561858,43 @@
     "comp": "$15.00-$19.50",
     "comp_extras": [],
     "source_hash": "5c46c6b5"
+  },
+  "workday-abbott-Manufacturing-Engineer-II_31146701-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "abbafa7e"
+  },
+  "workday-sec-CPU-Micro-architect_R117743": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": "Design and optimize microarchitecture for next-generation high-performance CPU cores (OoO superscalar processors) for AI and edge devices, working with simulation and silicon measurement data. Requires ability to access US export-controlled information.",
+    "skills": [
+      "Verilog",
+      "SystemVerilog",
+      "C++",
+      "Python",
+      "Arm ISA",
+      "x86",
+      "RISC-V",
+      "Computer Architecture"
+    ],
+    "level": "senior",
+    "comp": "$151k-$251.8k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "44050738"
   }
 }
