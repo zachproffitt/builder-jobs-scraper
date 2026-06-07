@@ -45175,5 +45175,736 @@
     "name": "Zype",
     "website": "https://zype.com",
     "status": "no_ats"
+  },
+  {
+    "name": "Agentcard",
+    "website": "https://agentcard.sh",
+    "status": "no_ats",
+    "one_liner": "debit cards for AI agents."
+  },
+  {
+    "name": "Akkari",
+    "website": "https://akkari.io",
+    "status": "no_ats",
+    "one_liner": "Autonomous Customer Operations"
+  },
+  {
+    "name": "Atrisa (formerly Refortifai)",
+    "website": "https://atrisa.ai",
+    "status": "no_ats",
+    "one_liner": "AI Agents for Analog Circuit Design"
+  },
+  {
+    "name": "Care GP",
+    "website": "https://caregp.com.au",
+    "status": "no_ats",
+    "one_liner": "AI agents to run primary healthcare operations"
+  },
+  {
+    "name": "Context.dev",
+    "website": "https://context.dev",
+    "status": "no_ats",
+    "one_liner": "We give AI agents realtime web context."
+  },
+  {
+    "name": "Humance",
+    "website": "https://www.humance.tech",
+    "status": "no_ats",
+    "one_liner": "AI that keeps complex construction projects on schedule."
+  },
+  {
+    "name": "Monte",
+    "website": "https://trymonte.ai",
+    "status": "no_ats",
+    "one_liner": "Continual Learning for Agents"
+  },
+  {
+    "name": "RealPact",
+    "website": "https://realpact.ai",
+    "status": "no_ats",
+    "one_liner": "AI-native OS for Real Estate Brokerages"
+  },
+  {
+    "name": "shotwell.ai",
+    "website": "https://shotwell.ai",
+    "status": "no_ats",
+    "one_liner": "Automated Scale AI for robotics data"
+  },
+  {
+    "name": "tday.com",
+    "website": "https://tday.com",
+    "status": "no_ats",
+    "one_liner": "AI that turns your product into on-brand marketing content"
+  },
+  {
+    "name": "Tekton Dynamics",
+    "website": "https://www.tekton-dynamics.com",
+    "status": "active",
+    "one_liner": "AI control layer for welding robots",
+    "ats": "ashby",
+    "slug": "tekton-dynamics",
+    "category": [],
+    "meta_description": "Tekton Dynamics builds the AI control layer that turns any robot into an autonomous expert welder. Automate welding even on high-mix products \u2014 no programming needed."
+  },
+  {
+    "name": "Zenbu",
+    "website": "https://www.zenbu.dev",
+    "status": "no_ats",
+    "one_liner": "The extensible IDE for coding agents"
+  },
+  {
+    "name": "Odessia",
+    "website": "https://odessia.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Adverity",
+    "website": "https://adverity.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Anaqua",
+    "website": "https://anaqua.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Anchore",
+    "website": "https://anchore.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "AppearMe",
+    "website": "https://appearme.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "ArangoDB",
+    "website": "https://arangodb.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Arrive Logistics",
+    "website": "https://arrivelogistics.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Audible (Amazon)",
+    "website": "https://audible.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Babylon Health",
+    "website": "https://babylonhealth.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Balena",
+    "website": "https://balena.io",
+    "status": "active",
+    "ats": "workable",
+    "slug": "balena",
+    "category": [],
+    "meta_description": "balenaCloud: Manage fleets of IoT Linux devices with balena\u2019s cloud platform. First 10 devices are free. Develop, deploy, and scale your IoT fleet."
+  },
+  {
+    "name": "BoomTown",
+    "website": "https://boomtownroi.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Built.io",
+    "website": "https://built.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Carbon Limit",
+    "website": "https://carbon-limit.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "CCP Games",
+    "website": "https://ccpgames.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Choice Hotels",
+    "website": "https://choicehotels.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Comply.ai",
+    "website": "https://comply.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Conveyco",
+    "website": "https://conveyco.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Coursmos",
+    "website": "https://coursmos.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "CyberGlove Systems",
+    "website": "https://cyberglovesystems.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "DataBox",
+    "website": "https://databox.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Deezer",
+    "website": "https://deezer.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Dgraph",
+    "website": "https://dgraph.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Docket Alarm",
+    "website": "https://docketalarm.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Dolby",
+    "website": "https://dolby.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "dYdX Trading",
+    "website": "https://dydx.trade",
+    "status": "no_ats"
+  },
+  {
+    "name": "EdgeAI",
+    "website": "https://edge-ai.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "eDreams ODIGEO",
+    "website": "https://edreamsodigeo.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Electric Capital",
+    "website": "https://electriccapital.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Elemental Excelerator",
+    "website": "https://elementalexcelerator.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Enel X",
+    "website": "https://enelx.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Evergreen",
+    "website": "https://evergreenai.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Flashtalking",
+    "website": "https://flashtalking.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Flyhomes",
+    "website": "https://flyhomes.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Follow Up Boss",
+    "website": "https://followupboss.com",
+    "status": "active",
+    "ats": "workday",
+    "slug": "zillow/wd5/Zillow_Group_External",
+    "category": [],
+    "meta_description": "Follow Up Boss is more than a real estate CRM. It's a flexible, open platform where top performers build thriving businesses. Get your contacts and team organized, engage with the right people at the right time, and have total visibility into your entire business."
+  },
+  {
+    "name": "Foresight.ai",
+    "website": "https://foresight.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "FreeRTOS",
+    "website": "https://freertos.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Fundrise",
+    "website": "https://fundrise.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "GENBAND",
+    "website": "https://genband.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Geofolio",
+    "website": "https://geofolio.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "GoEuro",
+    "website": "https://goeuro.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Greensmith",
+    "website": "https://greensmitheenergy.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Homology",
+    "website": "https://homology.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Illumio",
+    "website": "https://illumio.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Immersive Labs",
+    "website": "https://immersivelabs.com",
+    "status": "active",
+    "ats": "ashby",
+    "slug": "immersivelabs",
+    "category": [],
+    "meta_description": "Immersive One is the platform for continuous cyber resilience. Run realistic drills, close skill gaps with labs, benchmark performance, and be ready for any threat."
+  },
+  {
+    "name": "Infura",
+    "website": "https://infura.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Inside Real Estate",
+    "website": "https://insiderealest.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Integration.cloud",
+    "website": "https://integration.cloud",
+    "status": "no_ats"
+  },
+  {
+    "name": "Intrinsic (Alphabet)",
+    "website": "https://intrinsic.ai",
+    "status": "active",
+    "ats": "greenhouse",
+    "slug": "intrinsicrobotics",
+    "category": [],
+    "meta_description": "Intrinsic is a software and AI robotics company at Alphabet. They\u2019re building a platform for the next generation of intelligent automation."
+  },
+  {
+    "name": "JazzHR",
+    "website": "https://jazzhr.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Kabam",
+    "website": "https://kabam.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Kontract",
+    "website": "https://kontract.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Legal Robot",
+    "website": "https://legalrobot.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "LegalZoom",
+    "website": "https://legalzoom.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Legistech",
+    "website": "https://legistech.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "LinkSquares",
+    "website": "https://linksquares.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Listing Spark",
+    "website": "https://listingspark.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Llamasoft",
+    "website": "https://llamasoft.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Locus.sh",
+    "website": "https://locus.sh",
+    "status": "no_ats"
+  },
+  {
+    "name": "Logistyx Technologies",
+    "website": "https://logistyx.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Loio (LawGeex)",
+    "website": "https://loio.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Maptive",
+    "website": "https://maptive.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Matter Labs",
+    "website": "https://matterlabs.dev",
+    "status": "no_ats"
+  },
+  {
+    "name": "Measurabl",
+    "website": "https://measurabl.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Measured.com",
+    "website": "https://measured.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Memfault",
+    "website": "https://memfault.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Metaswitch Networks",
+    "website": "https://metaswitch.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "NETSCALER",
+    "website": "https://netscaler.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "NextGen Healthcare",
+    "website": "https://nextgen.com",
+    "status": "active",
+    "ats": "workday",
+    "slug": "nextgen/wd5/NextGen_Careers",
+    "category": [],
+    "meta_description": "Boost efficiency with EHR & EMR solutions in the cloud, with specialty-specific services for practices to streamline workflows and enhance patient care."
+  },
+  {
+    "name": "NextWatt",
+    "website": "https://nextwatt.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Nuance Communications",
+    "website": "https://nuance.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Nucleon",
+    "website": "https://nucleon.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "OKX",
+    "website": "https://okx.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Optmyzr",
+    "website": "https://optmyzr.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Placester",
+    "website": "https://placester.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Procera Networks",
+    "website": "https://proceranetworks.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "ProgrammableWeb",
+    "website": "https://programmableweb.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Quantum Brilliance",
+    "website": "https://quantumbrilliance.com",
+    "status": "active",
+    "ats": "bamboo",
+    "slug": "quantumbrilliance",
+    "category": [],
+    "meta_description": "Quantum Brilliance builds diamond-based quantum chips and products that operate at room temperature, enabling mass-deployable quantum technology from data centers to the field."
+  },
+  {
+    "name": "Quizlet",
+    "website": "https://quizlet.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Quotient Technology",
+    "website": "https://quotient.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Radyne",
+    "website": "https://radyne.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Raspberry Pi",
+    "website": "https://raspberrypi.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Real Geeks",
+    "website": "https://realgeeks.com",
+    "status": "active",
+    "ats": "bamboo",
+    "slug": "cinc",
+    "category": [],
+    "meta_description": "Grow your real estate business with all-in-one software. Manage leads, track activity, and build a personalized website to boost your success. Get a demo today."
+  },
+  {
+    "name": "Renode",
+    "website": "https://renode.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "RMI",
+    "website": "https://rmi.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Routific",
+    "website": "https://routific.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Schneider Electric EcoStruxure",
+    "website": "https://se.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Scroll",
+    "website": "https://scroll.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "SeekOut",
+    "website": "https://seekout.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Shopware",
+    "website": "https://shopware.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "SilverRun Technologies",
+    "website": "https://silverrun.tech",
+    "status": "no_ats"
+  },
+  {
+    "name": "SiriusXM",
+    "website": "https://siriusxm.com",
+    "status": "detected",
+    "ats": "icims",
+    "slug": "www",
+    "category": [],
+    "meta_description": "Whether it\u2019s new hip-hop and classic comedy or \u201890s jams and sports podcasts, everything you want to hear lives here at SiriusXM."
+  },
+  {
+    "name": "Slyvester Energy",
+    "website": "https://slyvestercorp.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Soda",
+    "website": "https://soda.io",
+    "status": "active",
+    "ats": "workable",
+    "slug": "soda-data-nv",
+    "category": [],
+    "meta_description": "The AI-native, fully automated data quality platform. Find, understand and fix data quality issues in seconds with Soda. From table to record-level."
+  },
+  {
+    "name": "Splice",
+    "website": "https://splice.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Stackline",
+    "website": "https://stackline.com",
+    "status": "active",
+    "ats": "greenhouse",
+    "slug": "stackline",
+    "category": [],
+    "meta_description": "Stackline is fueling the future of commerce by bringing brands and customers closer together. Stackline tools and teams help leading brands sell products across an ecosystem spanning online marketplaces, retail stores, social media, and direct-to-consumer."
+  },
+  {
+    "name": "Stream.io",
+    "website": "https://stream.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Stretch Robotics",
+    "website": "https://stretchrobotics.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Synthesis AI",
+    "website": "https://synthesis.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Tellabs",
+    "website": "https://tellabs.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Terra Quantum",
+    "website": "https://terraquantum.swiss",
+    "status": "active",
+    "ats": "greenhouse",
+    "slug": "terraquantum",
+    "category": [],
+    "meta_description": "Terra Quantum offers Quantum as a Service in the areas of quantum algorithms, quantum computing and quantum security."
+  },
+  {
+    "name": "Thomson Reuters Labs",
+    "website": "https://labs.thomsonreuters.com",
+    "status": "active",
+    "ats": "workday",
+    "slug": "thomsonreuters/wd5/External_Career_Site",
+    "category": [],
+    "meta_description": "Join us in building the next generation of AI-enabled solutions for legal, tax & accounting, risk, fraud and compliance, and media."
+  },
+  {
+    "name": "TIBCO",
+    "website": "https://tibco.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "TigerGraph",
+    "website": "https://tigergraph.com",
+    "status": "active",
+    "ats": "greenhouse",
+    "slug": "tigergraph",
+    "category": [],
+    "meta_description": "TigerGraph is the leading AI-powered graph database. Uncover hidden relationships, run real-time analytics at scale, and power fraud detection, customer 360, and AI"
+  },
+  {
+    "name": "Toppr",
+    "website": "https://toppr.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Traefik",
+    "website": "https://traefik.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Transfix",
+    "website": "https://transfixapp.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Travelodge",
+    "website": "https://travelodge.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Traveloka",
+    "website": "https://traveloka.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Tray.io",
+    "website": "https://tray.io",
+    "status": "active",
+    "ats": "ashby",
+    "slug": "tray-ai",
+    "category": [],
+    "meta_description": "Tray.ai is the AI-native enterprise iPaaS for building AI agents, governing Model Context Protocol (MCP), and integrating 700+ apps \u2014 orchestration for data and AI on one platform."
+  },
+  {
+    "name": "Unacademy",
+    "website": "https://unacademy.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Urgentem",
+    "website": "https://urgentem.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Veeva Systems",
+    "website": "https://veeva.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Vespa",
+    "website": "https://vespa.ai",
+    "status": "active",
+    "ats": "bamboo",
+    "slug": "vespaai",
+    "category": [],
+    "meta_description": "Vespa is the AI Search Platform for fast, accurate and large scale RAG, personalization, and recommendation."
+  },
+  {
+    "name": "VHT Inc",
+    "website": "https://vht.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Vitreous",
+    "website": "https://vitreous.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Voltus",
+    "website": "https://voltus.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Wind River",
+    "website": "https://windriver.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "WooCommerce",
+    "website": "https://woocommerce.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Zapata AI",
+    "website": "https://zapata.ai",
+    "status": "no_ats"
   }
 ]
