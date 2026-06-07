@@ -561793,5 +561793,70 @@
     "comp": "$15.00-$19.50",
     "comp_extras": [],
     "source_hash": "8dcefd39"
+  },
+  "workday-tapestry-Temporary-Sales-Associate_JR7045": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9127e68b"
+  },
+  "workday-tapestry-Seasonal-Sales-Associate_JR6962": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "777454b3"
+  },
+  "workday-tapestry-Store-Manager_JR7043": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2d79cfdc"
+  },
+  "workday-dxctechnology-PMO_51582273": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Cairo, Egypt",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "09ecba49"
+  },
+  "workday-tapestry-Temporary-Associate_JR7012": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Orlando, FL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$15.00-$19.50",
+    "comp_extras": [],
+    "source_hash": "5c46c6b5"
   }
 }
