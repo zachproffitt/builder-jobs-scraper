@@ -399,11 +399,11 @@
     "ats": "ashby"
   },
   {
-    "name": "Antora Energy",
+    "ats": "greenhouse",
     "slug": "antora",
-    "summary": "Antora builds factory-built thermal batteries for industrial operations using low-cost energy.",
-    "source_hash": "d5645c3f",
-    "ats": "greenhouse"
+    "name": "Antora Energy",
+    "summary": "Antora builds and deploys thermal energy storage systems that provide heat and power for industrial operations, with factory-built thermal batteries manufactured in the United States.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
@@ -3865,10 +3865,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "sift",
     "name": "Sift",
-    "summary": "Sift builds machine learning-powered fraud prevention and abuse detection software that helps online platforms identify and stop payment fraud, account takeover, and content abuse in real time. The company serves e-commerce, financial services, gaming, and sharing economy businesses by analyzing user behavior and transaction patterns to protect revenue and customer trust.",
-    "ats": "ashby"
+    "summary": "Sift builds a fraud prevention and risk-based authentication platform for digital businesses.",
+    "source": "meta_description"
   },
   {
     "slug": "SigNoz",
@@ -10188,6 +10189,13 @@
     "slug": "intrinsicrobotics",
     "name": "Intrinsic (Alphabet)",
     "summary": "Intrinsic is a software and AI robotics company at Alphabet that builds a platform for intelligent automation.",
+    "source": "meta_description"
+  },
+  {
+    "ats": "workday",
+    "slug": "zillow/wd5/Zillow_Group_External",
+    "name": "Follow Up Boss",
+    "summary": "Follow Up Boss is a real estate CRM platform that helps users organize contacts and teams, engage with prospects and clients, and track business activities.",
     "source": "meta_description"
   }
 ]
