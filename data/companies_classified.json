@@ -6307,10 +6307,11 @@
     "ats": "lever"
   },
   {
+    "ats": "greenhouse",
     "slug": "via",
     "name": "Citymapper",
-    "summary": "Citymapper builds urban mobility apps and platforms that help people navigate public transportation systems in cities around the world. The company provides real-time transit information, journey planning, and integration with multiple modes of transport across major metropolitan areas.",
-    "ats": "greenhouse"
+    "summary": "Citymapper makes a transport app available on iPhone, Android, and web platforms.",
+    "source": "meta_description"
   },
   {
     "ats": "workday",
