@@ -4346,10 +4346,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "lever",
     "slug": "offchainlabs",
     "name": "ZeroDev",
-    "summary": "ZeroDev builds smart contract wallets and account abstraction infrastructure that enables developers to create embedded wallets and custom transaction logic for blockchain applications. The company operates in the Web3 and cryptocurrency space, focusing on making it easier for applications to manage user accounts on Ethereum-compatible blockchains without requiring users to hold native tokens for gas fees.",
-    "ats": "lever"
+    "summary": "ZeroDev builds account abstraction wallets as a service.",
+    "source": "one_liner"
   },
   {
     "slug": "ziina",
@@ -7763,10 +7764,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "extrahopnetworks",
     "name": "ExtraHop",
-    "summary": "ExtraHop builds network detection and response (NDR) software that monitors and analyzes network traffic to identify security threats, performance issues, and operational anomalies in real-time across hybrid and cloud environments.",
-    "ats": "greenhouse"
+    "summary": "ExtraHop builds network visibility and security products that reveal cyber threats, vulnerabilities, and network performance issues in enterprise infrastructure. Organizations use ExtraHop to investigate security incidents, respond to threats, and maintain network operations.",
+    "source": "job_posting"
   },
   {
     "slug": "factal",
@@ -10174,6 +10176,13 @@
     "slug": "aerospike",
     "name": "Aerospike",
     "summary": "Aerospike builds a real-time database used for AI applications.",
+    "source": "meta_description"
+  },
+  {
+    "ats": "greenhouse",
+    "slug": "intrinsicrobotics",
+    "name": "Intrinsic (Alphabet)",
+    "summary": "Intrinsic is a software and AI robotics company at Alphabet that builds a platform for intelligent automation.",
     "source": "meta_description"
   }
 ]
