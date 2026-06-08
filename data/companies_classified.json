@@ -6221,10 +6221,11 @@
     "ats": "bamboo"
   },
   {
+    "ats": "workday",
     "slug": "rakuten/wd1/RakutenRewards",
     "name": "Rakuten Symphony",
-    "summary": "Rakuten Symphony is a telecommunications infrastructure and software company that provides cloud-native, disaggregated mobile network solutions and open RAN technology to telecom operators worldwide. The company enables carriers to build flexible, software-based 5G and 6G networks by offering virtualized network functions, orchestration platforms, and network management software.",
-    "ats": "workday"
+    "summary": "Rakuten Symphony operates a cash back rewards platform where members earn cash back on purchases at over 3,500 stores.",
+    "source": "meta_description"
   },
   {
     "ats": "workday",
@@ -9051,10 +9052,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "lever",
     "slug": "pigment",
     "name": "Pigment",
-    "summary": "Pigment builds a financial planning and analysis platform that enables finance teams to create, manage, and collaborate on budgets, forecasts, and financial models in real-time. The software operates in the financial planning and enterprise software domain, serving mid-market and enterprise organizations that need to streamline their FP&A processes.",
-    "ats": "lever"
+    "summary": "Pigment provides an integrated business planning platform that uses AI to help users analyze, model, and plan.",
+    "source": "meta_description"
   },
   {
     "slug": "pipe17",
