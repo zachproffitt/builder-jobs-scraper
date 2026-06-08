@@ -4165,10 +4165,11 @@
     "ats": "lever"
   },
   {
+    "ats": "greenhouse",
     "slug": "chariotdefense",
     "name": "Trace",
-    "summary": "Trace builds an AI orchestration platform that automates cross-departmental workflows by coordinating AI agents with human judgment based on contextual understanding of how a company operates. The platform operates in the enterprise workflow automation and operational AI space, helping teams manage complex multi-step processes like client onboarding and contract review.",
-    "ats": "greenhouse"
+    "summary": "Trace provides context-aware orchestration between humans and AI.",
+    "source": "one_liner"
   },
   {
     "slug": "Traverse",
@@ -6730,10 +6731,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "workday",
     "slug": "aristocrat/wd3/AristocratExternalCareersSite",
     "name": "Aristocrat",
-    "summary": "Aristocrat is a gaming and entertainment company that develops and operates electronic gaming machines, online gaming platforms, and hospitality systems for casinos, pubs, and clubs. The company manufactures poker machines and gaming content while also providing digital gaming solutions and venue management software across multiple jurisdictions globally.",
-    "ats": "workday"
+    "summary": "Aristocrat Leisure Limited is a global gaming content and technology company that publishes mobile games.",
+    "source": "meta_description"
   },
   {
     "slug": "arkoselabs",
@@ -8677,10 +8679,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "Mill",
     "name": "Mill",
-    "summary": "Mill manufactures a countertop food waste composter that breaks down food scraps into a lightweight, nutrient-rich material that can be disposed of or composted, operating in the sustainable home appliance and waste management space.",
-    "ats": "greenhouse"
+    "summary": "Mill makes a kitchen device that processes food waste into resources that can be used for composting or soil enrichment, and it has a large capacity that requires infrequent emptying.",
+    "source": "meta_description"
   },
   {
     "slug": "themindcompany",
@@ -9998,10 +10001,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "unanet",
     "name": "Unanet",
-    "summary": "Unanet provides cloud-based project accounting and resource management software designed for professional services firms, government contractors, and engineering companies. The platform integrates project financials, time and expense tracking, resource planning, and business intelligence to help organizations manage profitability and project delivery.",
-    "ats": "greenhouse"
+    "summary": "Unanet provides ERP and CRM solutions that connect projects, people, and financial systems.",
+    "source": "meta_description"
   },
   {
     "slug": "unbounce",
