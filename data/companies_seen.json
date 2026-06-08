@@ -924,7 +924,7 @@
   "workday:trendmicro/wd3/External": "2026-06-08",
   "workday:relx/wd3/LexisNexisLegal": "2026-06-08",
   "workday:thomsonreuters/wd5/External_Career_Site": "2026-06-08",
-  "workday:visa/wd5/Visa": "2026-06-07",
+  "workday:visa/wd5/Visa": "2026-06-08",
   "workday:ag/wd3/Airbus": "2026-06-08",
   "greenhouse:gensyn": "2026-06-08",
   "lever:anybotics": "2026-06-08",
@@ -1539,5 +1539,5 @@
   "greenhouse:tigergraph": "2026-06-08",
   "ashby:tray-ai": "2026-06-08",
   "bamboo:vespaai": "2026-06-08",
-  "workday:zillow/wd5/Zillow_Group_External": "2026-06-07"
+  "workday:zillow/wd5/Zillow_Group_External": "2026-06-08"
 }
