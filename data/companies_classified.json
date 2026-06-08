@@ -7025,10 +7025,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "workday",
     "slug": "bullish/wd3/Bullish",
     "name": "Bullish",
-    "summary": "Bullish is a cryptocurrency exchange and trading platform that provides spot and derivatives trading services for digital assets, along with custody and clearing infrastructure for institutional and retail traders.",
-    "ats": "workday"
+    "summary": "Bullish is a regulated digital asset exchange that allows users to buy, sell, and trade Bitcoin and Ethereum.",
+    "source": "meta_description"
   },
   {
     "slug": "buoyhealth",
