@@ -56,11 +56,11 @@
     "ats": "lever"
   },
   {
-    "name": "Linear",
+    "ats": "ashby",
     "slug": "Linear",
-    "summary": "Linear builds a product development system for teams and AI agents used by companies like OpenAI, Coinbase, and Ramp.",
-    "source_hash": "38d9d262",
-    "ats": "ashby"
+    "name": "Linear",
+    "summary": "Linear builds software for planning and building products with AI agents.",
+    "source": "meta_description"
   },
   {
     "name": "Clerk",
@@ -2743,10 +2743,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "generallegalllp",
     "name": "General Legal",
-    "summary": "General Legal is an AI-native law firm that provides contract review and negotiation services for growth-stage companies, delivering turnarounds in hours at flat-fee pricing through a Slack-integrated interface. They operate in the legal services domain, specifically handling commercial, employment, incorporation, and fundraising agreements for startups and early-growth businesses.",
-    "ats": "greenhouse"
+    "summary": "General Legal provides legal services to growth stage companies using AI technology.",
+    "source": "one_liner"
   },
   {
     "slug": "joingerald",
@@ -3900,10 +3901,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "lever",
     "slug": "skyways",
     "name": "Skyways",
-    "summary": "Skyways builds fully autonomous, long-range unmanned aircraft designed to transport cargo to remote and challenging locations in the oil and gas and military and defense sectors. Their current operational model, the V2, can fly 450 miles with a 30-pound payload, while their in-development V3 will extend range to over 1,000 miles with a 100-pound capacity.",
-    "ats": "lever"
+    "summary": "Skyways designs, builds, and operates fully autonomous long-range cargo aircraft that use a hybrid-electric architecture to take off like a helicopter and cruise like a plane, enabling autonomous delivery without traditional runway infrastructure. The company's V2 aircraft carries 30 lbs up to 500 miles, while its V3 aircraft carries 100 lbs over 1,000+ miles with 20+ hours of endurance.",
+    "source": "job_posting"
   },
   {
     "slug": "slash-financial",
@@ -5373,10 +5375,11 @@
     "ats": "bamboo"
   },
   {
+    "ats": "greenhouse",
     "slug": "conga",
     "name": "Conga",
-    "summary": "Conga provides cloud-based contract lifecycle management and digital transaction management software that helps enterprises automate the creation, negotiation, execution, and management of contracts and agreements.",
-    "ats": "greenhouse"
+    "summary": "Conga builds software that unifies commercial operations by aligning pricing, quoting, contracting, rebates, and communications so that companies can run as connected businesses with consistent buyer experiences and profitable growth.",
+    "source": "job_posting"
   },
   {
     "ats": "workday",
@@ -7533,10 +7536,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "doma",
     "name": "Doma",
-    "summary": "Doma provides title insurance and settlement services for residential real estate transactions, offering digital platforms that streamline the closing process for lenders, real estate agents, and consumers.",
-    "ats": "greenhouse"
+    "summary": "Doma Technology LLC offers solutions for lenders, real estate professionals, title agents, and homeowners that simplify and make closings more efficient, reducing cost and increasing customer satisfaction.",
+    "source": "job_posting"
   },
   {
     "slug": "dovetail",
