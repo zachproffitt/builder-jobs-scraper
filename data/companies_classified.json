@@ -2722,10 +2722,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "garage",
     "name": "Garage",
-    "summary": "Garage builds an open-source, distributed object storage system designed for self-hosted and decentralized storage infrastructure. The company operates in the cloud storage and infrastructure software domain, providing an alternative to centralized cloud storage services for organizations seeking data sovereignty and control.",
-    "ats": "ashby"
+    "summary": "Garage operates a marketplace for buying and selling emergency vehicles and equipment.",
+    "source": "meta_description"
   },
   {
     "slug": "gather",
@@ -4815,10 +4816,11 @@
     "ats": "lever"
   },
   {
+    "ats": "greenhouse",
     "slug": "figment",
     "name": "Figment",
-    "summary": "Figment provides staking infrastructure and services that allow institutions and individuals to earn rewards by participating in proof-of-stake blockchain networks, while also offering tools for managing digital assets across multiple chains.",
-    "ats": "greenhouse"
+    "summary": "Figment provides staking infrastructure that allows institutions to earn rewards and stake across more than 40 protocols.",
+    "source": "meta_description"
   },
   {
     "slug": "firetiger",
