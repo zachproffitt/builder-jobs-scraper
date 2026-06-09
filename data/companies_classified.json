@@ -3982,10 +3982,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "stack-ai",
     "name": "StackAI",
-    "summary": "StackAI builds a no-code platform that enables users to create and deploy AI applications by connecting various APIs and language models through a visual workflow interface. The platform operates in the enterprise software and artificial intelligence automation space, allowing businesses to build custom AI tools without requiring coding expertise.",
-    "ats": "ashby"
+    "summary": "StackAI builds an enterprise AI transformation platform.",
+    "source": "one_liner"
   },
   {
     "slug": "starcloud",
@@ -7121,10 +7122,11 @@
     "ats": "workable"
   },
   {
+    "ats": "ashby",
     "slug": "centerfield",
     "name": "Centerfield",
-    "summary": "Centerfield provides digital marketing and media buying services for auto dealers, helping them manage advertising campaigns across search, social, display, and other channels to drive vehicle sales and customer engagement.",
-    "ats": "ashby"
+    "summary": "Centerfield delivers outcome-based digital marketing solutions for residential service, insurance, e-commerce, and B2B brands, operating digital experiences and brands such as Business.com and BroadbandNow.com that reach more than 150 million in-market shoppers annually, powered by its proprietary Dugout platform.",
+    "source": "job_posting"
   },
   {
     "slug": "cerebral",
