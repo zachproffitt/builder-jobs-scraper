@@ -1307,10 +1307,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "aircompany",
     "name": "Air Company",
-    "summary": "Air Company captures carbon dioxide from the air and converts it into synthetic fuels and chemicals using renewable electricity and proprietary catalytic processes. The company operates in the industrial biotechnology and carbon utilization domain, producing products like sustainable aviation fuel and other hydrocarbons.",
-    "ats": "greenhouse"
+    "summary": "Air Company develops carbon conversion technology that transforms CO2 and hydrogen into synthetic fuels.",
+    "source": "meta_description"
   },
   {
     "slug": "charmindustrial",
@@ -2952,10 +2953,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "ashby",
     "slug": "infisical",
     "name": "Infisical",
-    "summary": "Infisical builds an open-source secrets management platform that helps engineering teams securely store, manage, and sync sensitive data like API keys, database credentials, and environment variables across their applications and infrastructure. The company operates in the DevOps and application security domain, providing both self-hosted and cloud-based solutions for teams of various sizes.",
-    "ats": "ashby"
+    "summary": "Infisical provides a unified platform for managing secrets, certificates, and privileged access.",
+    "source": "one_liner"
   },
   {
     "slug": "inkeep",
