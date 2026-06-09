@@ -6785,10 +6785,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "auterion",
     "name": "Auterion",
-    "summary": "Auterion develops open-source autopilot software and commercial drone operating systems for autonomous aerial vehicles, serving industrial and commercial applications including inspection, delivery, and mapping across various industries.",
-    "ats": "greenhouse"
+    "summary": "Auterion builds software platforms for autonomous systems that customers deploy onto unmanned aerial vehicles and other autonomous platforms, providing flight control software, middleware, and integration support for enterprise and government applications.",
+    "source": "job_posting"
   },
   {
     "ats": "lever",
