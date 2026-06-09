@@ -546,11 +546,11 @@
     "source": "one_liner"
   },
   {
-    "name": "Havoc AI",
+    "ats": "ashby",
     "slug": "havocai",
-    "summary": "Havoc AI develops autonomous surface vessels for defense and commercial maritime missions using collaborative autonomy technology.",
-    "source_hash": "f05a4534",
-    "ats": "ashby"
+    "name": "Havoc AI",
+    "summary": "Havoc AI builds uncrewed surface vessels (USVs) and other unmanned platforms for defense and commercial maritime missions. The company designs and integrates electrical systems for these autonomous vessels, including power conversion, energy storage, communications systems, and overall electrical architecture.",
+    "source": "job_posting"
   },
   {
     "ats": "ashby",
