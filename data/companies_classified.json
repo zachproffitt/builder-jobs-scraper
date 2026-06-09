@@ -1481,10 +1481,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "pinecone",
     "name": "Pinecone",
-    "summary": "Pinecone builds a vector database that stores and indexes high-dimensional vectors to enable fast similarity search and retrieval at scale. The company operates in the machine learning infrastructure space, focusing on vector search capabilities used for retrieval-augmented generation (RAG), semantic search, and recommendation systems.",
-    "ats": "ashby"
+    "summary": "Pinecone provides an API for searching through large datasets to find similar items in milliseconds.",
+    "source": "meta_description"
   },
   {
     "slug": "zilliz",
