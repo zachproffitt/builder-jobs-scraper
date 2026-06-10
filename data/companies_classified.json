@@ -455,11 +455,11 @@
     "source": "job_posting"
   },
   {
-    "name": "Loft Orbital",
+    "ats": "lever",
     "slug": "loftorbital",
-    "summary": "Loft Orbital builds spacecraft hardware and backend systems for satellite data management and mission control.",
-    "source_hash": "8b7e7a42",
-    "ats": "lever"
+    "name": "Loft Orbital",
+    "summary": "Loft Orbital operates a space business and is hiring a Business Development Lead to grow its European operations.",
+    "source": "job_posting"
   },
   {
     "name": "Orbital Sidekick",
@@ -2763,10 +2763,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "glimpse",
     "name": "Glimpse",
-    "summary": "Glimpse builds an AI-powered platform that automates financial operations for consumer packaged goods and retail companies, specifically handling deductions management, revenue recovery, and cash application. The company operates in the CPG and retail finance domain, serving natural, beauty, drug, convenience, and mass retail channels.",
-    "ats": "ashby"
+    "summary": "Glimpse provides a system of action for consumer packaged goods retail operations.",
+    "source": "one_liner"
   },
   {
     "slug": "gocardless",
