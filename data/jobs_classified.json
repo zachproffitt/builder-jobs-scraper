@@ -678912,5 +678912,18 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "d6affaa8"
+  },
+  "lever-atomcomputing-e4008b54-b7fe-4b0d-b81e-82bbc197acdc": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bfe46cba"
   }
 }
