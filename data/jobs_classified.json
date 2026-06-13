@@ -678938,5 +678938,57 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "3765dc92"
+  },
+  "workday-tapestry-Sales-Support-Associate-II_JR7599": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c6f9e0e2"
+  },
+  "workday-tapestry-Sales-Associate-II--b-_JR3768-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e638f418"
+  },
+  "workday-tapestry-Sales-Support-Associate-III_JR6921-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8087b50c"
+  },
+  "workday-tapestry-Temporary-Sales-Associate---Hudson-Yards_JR7597": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3a5d3ca4"
   }
 }
