@@ -678860,5 +678860,18 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "ffaf5fed"
+  },
+  "workday-tapestry-Sales-Associate_JR7574": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "219a0b06"
   }
 }
