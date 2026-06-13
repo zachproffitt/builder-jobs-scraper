@@ -678990,5 +678990,44 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "3a5d3ca4"
+  },
+  "workday-tapestry-Temporary-Sales-Support-Associate_JR7607": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "66e339cc"
+  },
+  "workday-tapestry-Temporary-Sales-Associate_JR7606": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1e621d25"
+  },
+  "workday-tapestry-Sales-Support-Associate-III_JR7604": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "19872058"
   }
 }
