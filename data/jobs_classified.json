@@ -678808,5 +678808,31 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "0e42a37e"
+  },
+  "workday-jci-Sr-Machinist_EB000753168": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b94f51c9"
+  },
+  "workday-jci-Security-Project-Manager_WD30267902": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3423f599"
   }
 }
