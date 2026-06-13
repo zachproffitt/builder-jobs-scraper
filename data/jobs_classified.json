@@ -678899,5 +678899,18 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "a4259893"
+  },
+  "workday-nvidia-Senior-IC-Foundry-Engineer_JR2019657": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d6affaa8"
   }
 }
