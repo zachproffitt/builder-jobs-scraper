@@ -378,3 +378,4 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
 [2026-06-14T01:28:24Z] fetch_jobs: scraper error for Braintree (eightfold/paypal.eightfold.ai|braintreepayments.com): Eightfold request failed for paypal.eightfold.ai|braintreepayments.com: Client error '404 NOT FOUND' for url 'https://paypal.eightfold.ai/api/pcsx/search?domain=braintreepayments.com&start=0&num=20'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-06-14T01:29:25Z] classify_companies: company error: GeoPhy: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cc2HXnV7z74kaQ71J9sua'}
