@@ -679820,5 +679820,70 @@
       "equity"
     ],
     "source_hash": "88b5b4f0"
+  },
+  "workday-tapestry-Temporary-Sales-Associate_JR7509-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8b7119e5"
+  },
+  "workday-jll-Optimization-Lead---HR-Operations_REQ512043": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4bcc4c0d"
+  },
+  "workday-ag-Technical-Data-Front-Desk-Engineer_JR10414101-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Beijing, China",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9248e7f0"
+  },
+  "workday-nvidia-Senior-Solutions-Architect--Infiniband-and-Networking-Ethernet---NVIS_JR2019687": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e23a35db"
+  },
+  "workday-tapestry-Temporary-Associate_JR7625": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Rehoboth Beach, DE",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$15.00-$19.25",
+    "comp_extras": [],
+    "source_hash": "511e552a"
   }
 }
