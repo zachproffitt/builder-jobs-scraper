@@ -680067,5 +680067,59 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "48011e5d"
+  },
+  "workday-bakerhughes-Field-Service-Engineer---Mechanical-Heavy-Duty-Gas-Turbine_R159577": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "436bd441"
+  },
+  "workday-bakerhughes-Lead-ARMO-Specialist_R164831": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b6499194"
+  },
+  "greenhouse-pingidentity-8582850002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "67f7e509"
+  },
+  "greenhouse-point72-8580591002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY / Stamford, CT",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$200k-$250k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "957c10f4"
   }
 }
