@@ -679643,5 +679643,83 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "9d7ac23d"
+  },
+  "smartrecruiters-Eurofins-744000132070289": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5426ee17"
+  },
+  "smartrecruiters-Eurofins-744000132070219": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "06e0647f"
+  },
+  "workday-tapestry-Copley-Store-Manager_JR7533": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "69422965"
+  },
+  "greenhouse-similarweb-8006825": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "97985fc1"
+  },
+  "workday-bakerhughes-Manufacturing-Experienced-Professional---Manuf-Eng-Specialist_R164851": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Talamona, Italy",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "\u20ac36,000-\u20ac49,500",
+    "comp_extras": [],
+    "source_hash": "db35dd28"
+  },
+  "workday-bakerhughes-Field-Specialist---Intelligent-Production-Systems--Turkish-Nationals-Only-_R159056": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Ankara, Turkey",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4c28a75e"
   }
 }
