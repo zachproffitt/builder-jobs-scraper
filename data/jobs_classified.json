@@ -680296,5 +680296,253 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "68e0d0ff"
+  },
+  "ashby-Deepgram-ca94591b-e754-4e2e-b1dd-50b3aa9d14ef": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f5c0e023"
+  },
+  "workday-iqvia-Network-Account-Manager-Speciality-Care---Kardiologie--m-w-d-_R1546932-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d4a98a63"
+  },
+  "workday-tapestry-Sales-Support-Associate-III_JR7622": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5d37e533"
+  },
+  "workday-nvidia-System-Design-Engineer_JR2002245": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b171c96e"
+  },
+  "workday-empower-Sr-Developer-Software_R0059332": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build scalable full-stack web applications and platform services for financial services using React, Angular, and Java-based backend systems. Lead architecture decisions, mentor engineers, and support mission-critical systems in a regulated financial services environment.",
+    "skills": [
+      "React",
+      "Angular",
+      "Java",
+      "Spring Boot",
+      "AWS",
+      "SQL",
+      "REST APIs",
+      "Docker"
+    ],
+    "level": "senior",
+    "comp": "$105,700-$149,275",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "c25f6ca3"
+  },
+  "workday-dxctechnology-Sr-Analyst-I-ERP-Package-Applications_51582586": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Wellington, New Zealand",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "20c7d624"
+  },
+  "ashby-uipath-c02f0823-6167-4d04-b0c7-4ea7c7f4e49c": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Bucharest, Romania",
+    "job_summary": "Design and build scalable cloud-native backend services powering UiPath's automation platform, handling distributed systems challenges across multi-environment deployments (cloud, on-premises, hybrid).",
+    "skills": [
+      "C#",
+      "Java",
+      "Python",
+      "Go",
+      "Kubernetes",
+      "Azure",
+      "AWS",
+      "Microservices Architecture"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "53d45b9d"
+  },
+  "ashby-uipath-2be81aae-0e50-446c-90b3-a304659588c3": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Bucharest, Romania",
+    "job_summary": "Lead architecture and design of distributed cloud services powering UiPath's automation platform; design scalable, secure, and reliable systems across cloud, on-premises, and hybrid environments. Mentor engineering teams and set technical standards for backend and cloud-native services at enterprise scale.",
+    "skills": [
+      "C#",
+      "Java",
+      "Python",
+      "Go",
+      "Kubernetes",
+      "Azure",
+      "AWS",
+      "GCP"
+    ],
+    "level": "principal",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3e182535"
+  },
+  "workday-nvidia-Senior-Storage-Production-Engineer---DGX-Cloud_JR2019643": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Design and operate large-scale distributed storage clusters for NVIDIA's GPU cloud services, optimizing for low-latency AI/ML workloads at scale. Requires deep expertise in storage architecture, distributed systems, and infrastructure automation; on-call support for production systems.",
+    "skills": [
+      "C++",
+      "Python",
+      "Kubernetes",
+      "Terraform",
+      "Prometheus",
+      "Grafana",
+      "Ansible",
+      "Distributed Systems"
+    ],
+    "level": "senior",
+    "comp": "$176k-$333.5k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "26b5995a"
+  },
+  "workday-nvidia-Senior-System-Software-Engineer_JR2019693": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Develop Windows on Arm platform drivers, bring-up tools, and debug automation for NVIDIA SOCs from pre-silicon through production. Requires hands-on ARM microarchitecture expertise, Windows kernel debugging, and silicon validation experience across multiple business verticals.",
+    "skills": [
+      "C++",
+      "Python",
+      "ARM microarchitecture",
+      "Windows Driver Model",
+      "KMDF",
+      "ACPI",
+      "UEFI",
+      "WinDBG"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "73ec5272"
+  },
+  "workday-nvidia-Senior-Product-Quality-Engineer_JR2019253": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": "Lead system-level power failure analysis and debug investigations for NVIDIA data center systems, identifying root causes in power delivery, sequencing, and protection circuits through hands-on hardware troubleshooting. Requires deep expertise in high-power server platform power architecture and customer-return failure workflows.",
+    "skills": [
+      "Power Delivery",
+      "DC-DC Converters",
+      "Multiphase VRs",
+      "Oscilloscope",
+      "Linux",
+      "IPMI",
+      "BMC",
+      "Root Cause Analysis"
+    ],
+    "level": "senior",
+    "comp": "$116k-$235.75k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "5a9fd3fd"
+  },
+  "workday-nvidia-Senior-Hardware-Customer-Quality-Engineer_JR2019376": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$168k-$322k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "eb7c0665"
+  },
+  "workday-nvidia-Senior-Hardware-Customer-Quality-Engineer_JR2019378-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$168k-$258.75k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "bf6ff0c8"
+  },
+  "workday-nvidia-NALA-Commercial-Specialist---NVIS_JR2019300": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$136k-$218.5k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "919e4225"
   }
 }
