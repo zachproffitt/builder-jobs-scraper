@@ -680210,5 +680210,91 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "7ba27b8a"
+  },
+  "workday-jci-Fire-Project-Manager-2_WD30271883-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "40de299f"
+  },
+  "workday-aristocrat-Senior-QA-AI-Engineer_R0021387": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "87e510aa"
+  },
+  "workday-abbott-Commercial-Excellence---Multichannel-CRM-Manager---Abbott-Nutrition--ANI----Madrid_31151448": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0919a6d8"
+  },
+  "workday-nvidia-Senior-Software-Engineer--Applied-AI_JR2019145": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bc4e6b3a"
+  },
+  "workday-jll-Analyst--Asset-Management-Services_REQ515112-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$120k-$135k",
+    "comp_extras": [],
+    "source_hash": "813409ac"
+  },
+  "ashby-uipath-ae769bce-9ab6-4498-bde3-373e0c8c0141": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Bucharest, Romania",
+    "job_summary": "Build and evolve the IDE (UiPath Studio) that powers automation development for hundreds of thousands of users, handling millions of projects and tens of thousands of deployments weekly. Strong domain: developer tools and productivity software at enterprise scale.",
+    "skills": [
+      "C#",
+      ".NET",
+      "XAML",
+      "WPF",
+      "multithreading",
+      "asynchronous programming",
+      "Azure"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "68e0d0ff"
   }
 }
