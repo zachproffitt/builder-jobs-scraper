@@ -680121,5 +680121,94 @@
       "bonus"
     ],
     "source_hash": "957c10f4"
+  },
+  "workday-capitalone-Senior-Associate--Product-Management---Credit-Bureau-Disputes_R244454-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6f261583"
+  },
+  "workday-thomsonreuters-Vice-President--Responsible-AI_JREQ199625-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY / Minneapolis, MN / Dallas, TX / Toronto, Canada / Zug, Switzerland",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$198,200-$368,000",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "5a69fb91"
+  },
+  "greenhouse-spacex-8591166002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Redmond, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$22.00-$37.00/hour",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "9669ef46"
+  },
+  "greenhouse-spacex-8591164002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Redmond, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$22.00-$37.00/hour",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "6f888da1"
+  },
+  "greenhouse-spacex-8591165002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Redmond, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$22.00-$37.00/hour",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "a2e56f7e"
+  },
+  "workday-stord-Area-Manager-I_JR102540": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "North Haven, CT",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7ba27b8a"
   }
 }
