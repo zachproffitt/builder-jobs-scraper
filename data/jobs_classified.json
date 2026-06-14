@@ -679328,5 +679328,31 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "286fb317"
+  },
+  "workday-jll-Senior-Project-Manager_REQ500794": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c7d7a460"
+  },
+  "workday-tapestry-Sales-Associate_JR7618": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "64087a2b"
   }
 }
