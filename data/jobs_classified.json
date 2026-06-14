@@ -679250,5 +679250,70 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "69d88d1f"
+  },
+  "workday-gdit-Senior-Sourcing---Procurement-Analyst_RQ222178-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e38fa52b"
+  },
+  "workday-gdit-Sr-Procurement-Analyst_RQ222170-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c72e3e0d"
+  },
+  "ashby-snowflake-06210ca6-b608-4087-8796-ea85f5ca84df": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "61bc56e1"
+  },
+  "workday-nvidia-Software-Engineer-Verification---Networking_JR2016516": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ce3bd0f8"
+  },
+  "workday-nvidia-QA-Engineer--DPU-Firmware_JR2019688": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ba195f74"
   }
 }
