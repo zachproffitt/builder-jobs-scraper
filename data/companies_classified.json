@@ -9731,10 +9731,11 @@
     "ats": "lever"
   },
   {
+    "ats": "greenhouse",
     "slug": "superset",
     "name": "super{set}",
-    "summary": "Superset is a data visualization and business intelligence platform that enables users to explore, visualize, and share data insights through interactive dashboards and charts. The company operates in the data analytics and visualization space, serving organizations that need to transform raw data into actionable business intelligence.",
-    "ats": "greenhouse"
+    "summary": "super{set} is a team that co-founds and builds AI-native businesses, providing capital investment and operational support across all stages of development.",
+    "source": "meta_description"
   },
   {
     "slug": "surfshark",
