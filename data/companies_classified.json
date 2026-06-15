@@ -154,11 +154,11 @@
     "source": "meta_description"
   },
   {
-    "name": "Rigetti Computing",
+    "ats": "lever",
     "slug": "rigetti",
-    "summary": "Rigetti Computing provides cloud-based quantum computing platforms and develops quantum integrated circuit design tools using data science to enhance processor performance.",
-    "source_hash": "48ac7c9b",
-    "ats": "lever"
+    "name": "Rigetti Computing",
+    "summary": "Rigetti Computing builds quantum computers for supercomputing applications.",
+    "source": "one_liner"
   },
   {
     "ats": "greenhouse",
@@ -2012,10 +2012,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "lever",
     "slug": "arraylabs.io",
     "name": "Array Labs",
-    "summary": "Array Labs designs, builds, and operates advanced radar satellites using modular, cost-effective systems designed for mass production. The company provides space-based radar technology and services including turnkey radar sensors, multistatic radar systems, and continuously refreshed digital elevation models for applications requiring high-resolution Earth observation and monitoring.",
-    "ats": "lever"
+    "summary": "Array Labs builds satellites that create a real-time 3D map of the world.",
+    "source": "one_liner"
   },
   {
     "slug": "artie",
@@ -6395,10 +6396,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "rocketlawyer",
     "name": "Rocket Lawyer",
-    "summary": "Rocket Lawyer provides online legal services and document automation software that allows individuals and small businesses to create legal documents, get attorney reviews, and access legal advice through a subscription-based platform. The company operates in the legal technology and document services space, offering templates and services for wills, business formation, contracts, and other common legal needs.",
-    "ats": "greenhouse"
+    "summary": "Rocket Lawyer provides AI-powered legal assistance, contract tools, small business support, and connections to human attorneys.",
+    "source": "meta_description"
   },
   {
     "slug": "sense",
@@ -7863,10 +7865,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "newsela",
     "name": "Newsela",
-    "summary": "Newsela builds a digital literacy platform that provides news articles and educational content adapted at multiple reading levels for K-12 students, enabling teachers to incorporate current events and nonfiction reading into their classrooms.",
-    "ats": "greenhouse"
+    "summary": "Newsela builds a platform that provides educational content to students and teachers. The company is hiring a Director of Revenue Marketing to develop marketing strategies that drive pipeline growth and revenue outcomes through demand generation, account-based marketing, and cross-functional partnership with sales and product teams.",
+    "source": "job_posting"
   },
   {
     "slug": "Framenergy",
