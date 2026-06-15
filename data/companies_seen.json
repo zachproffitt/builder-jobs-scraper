@@ -924,7 +924,7 @@
   "workday:trendmicro/wd3/External": "2026-06-15",
   "workday:relx/wd3/LexisNexisLegal": "2026-06-15",
   "workday:thomsonreuters/wd5/External_Career_Site": "2026-06-15",
-  "workday:visa/wd5/Visa": "2026-06-14",
+  "workday:visa/wd5/Visa": "2026-06-15",
   "workday:ag/wd3/Airbus": "2026-06-15",
   "greenhouse:gensyn": "2026-06-15",
   "lever:anybotics": "2026-06-15",
@@ -1521,10 +1521,10 @@
   "lever:anomali": "2026-06-15",
   "bamboo:databox": "2026-06-15",
   "workable:leapfrog-power-inc": "2026-06-15",
-  "workday:epicorsoftware/wd5/epicorjobs": "2026-06-14",
+  "workday:epicorsoftware/wd5/epicorjobs": "2026-06-15",
   "ashby:parabola-io": "2026-06-15",
   "lever:parallelwireless": "2026-06-15",
-  "workday:tibco/wd5/Cloud_Software_Group": "2026-06-14",
+  "workday:tibco/wd5/Cloud_Software_Group": "2026-06-15",
   "workday:silabs/wd1/SiliconlabsCareers": "2026-06-15",
   "ashby:tekton-dynamics": "2026-06-15",
   "workable:balena": "2026-06-15",
@@ -1535,9 +1535,9 @@
   "workable:soda-data-nv": "2026-06-15",
   "greenhouse:stackline": "2026-06-15",
   "greenhouse:terraquantum": "2026-06-15",
-  "workday:nextgen/wd5/NextGen_Careers": "2026-06-14",
+  "workday:nextgen/wd5/NextGen_Careers": "2026-06-15",
   "greenhouse:tigergraph": "2026-06-15",
   "ashby:tray-ai": "2026-06-15",
   "bamboo:vespaai": "2026-06-15",
-  "workday:zillow/wd5/Zillow_Group_External": "2026-06-14"
+  "workday:zillow/wd5/Zillow_Group_External": "2026-06-15"
 }
