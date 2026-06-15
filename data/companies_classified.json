@@ -5116,10 +5116,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "traversal",
     "name": "Traversal",
-    "summary": "Traversal builds a platform for managing and optimizing supply chain logistics, helping companies track shipments, manage inventory, and coordinate warehouse operations across distributed networks.",
-    "ats": "ashby"
+    "summary": "Traversal provides software that reduces alert noise, identifies root causes of incidents, and helps teams remediate issues.",
+    "source": "meta_description"
   },
   {
     "slug": "turnkeycareers",
@@ -9490,10 +9491,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "sesame",
     "name": "Sesame",
-    "summary": "Sesame provides dental benefits and coverage solutions, offering dental insurance plans and administrative services to employers, individuals, and families in the United States.",
-    "ats": "ashby"
+    "summary": "Sesame designs a new kind of computer focused on making voice agents part of daily life, with the ability to see, hear, and collaborate with users in natural ways. The company is hiring a Data Engineer to build and maintain data pipelines that process conversational, voice, and multimodal data to support machine learning model training and evaluation.",
+    "source": "job_posting"
   },
   {
     "slug": "shipwell",
