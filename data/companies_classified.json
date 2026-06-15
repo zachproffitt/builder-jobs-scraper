@@ -3958,10 +3958,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "spherecast",
     "name": "Spherecast",
-    "summary": "Spherecast builds an AI-powered supply chain management platform designed for consumer packaged goods brands that automates planning, forecasting, and execution across purchases, transfers, and production. The platform integrates with existing ERP systems and data warehouses to replace manual spreadsheet-based processes and enable teams to optimize inventory levels and forecast accuracy.",
-    "ats": "ashby"
+    "summary": "Spherecast builds an AI supply chain manager for consumer packaged goods companies.",
+    "source": "one_liner"
   },
   {
     "slug": "Sphinx",
@@ -7471,10 +7472,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "descope",
     "name": "Descope",
-    "summary": "Descope provides a platform for building and managing authentication and authorization flows without writing code, enabling developers to implement passwordless login, multi-factor authentication, and identity management across applications.",
-    "ats": "greenhouse"
+    "summary": "Descope provides an external identity and access management platform that enables organizations to build identity verification and authentication journeys for users, business customers, partners, AI agents, and MCP servers.",
+    "source": "meta_description"
   },
   {
     "slug": "Freshworks",
@@ -8260,10 +8262,11 @@
     "ats": "workable"
   },
   {
+    "ats": "lever",
     "slug": "intenseye",
     "name": "Intenseye",
-    "summary": "Intenseye develops AI-powered video analytics software that monitors workplace safety by detecting hazards, unsafe behaviors, and incidents in real-time using computer vision technology applied to existing security camera feeds.",
-    "ats": "lever"
+    "summary": "Intenseye is a workplace safety platform that uses computer vision AI to identify hazards and help EHS leaders improve compliance.",
+    "source": "meta_description"
   },
   {
     "ats": "workday",
