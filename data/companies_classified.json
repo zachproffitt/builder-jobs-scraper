@@ -4388,10 +4388,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "spellbrush",
     "name": "Spellbrush",
-    "summary": "Spellbrush builds AI-powered tools for generating anime and manga-style artwork, allowing users to create custom character portraits and illustrations through text prompts and interactive customization. The company operates in the generative AI and digital art software space, serving artists, content creators, and anime enthusiasts.",
-    "ats": "ashby"
+    "summary": "Spellbrush builds and operates a large-scale GPU cluster for training anime AI models. The company develops infrastructure and systems to support AI researchers in training anime image models at scale.",
+    "source": "job_posting"
   },
   {
     "ats": "greenhouse",
