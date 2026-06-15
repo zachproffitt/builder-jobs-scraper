@@ -2857,10 +2857,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "happyrobot.ai",
     "name": "HappyRobot",
-    "summary": "HappyRobot builds an AI agent platform that deploys autonomous AI workers to handle end-to-end tasks across enterprise business functions like customer support, sales, finance, operations, and logistics. The company operates in the enterprise software space, focusing on complex operational environments where AI agents can be evaluated, trained on real-time data, and coordinated alongside human teams.",
-    "ats": "ashby"
+    "summary": "HappyRobot builds an AI-native operating system that makes intelligent decisions and takes real-time actions to power autonomous operations.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
