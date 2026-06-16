@@ -4106,16 +4106,18 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "tennr",
     "name": "Tennr",
-    "summary": "Tennr builds an agentic patient orchestration platform that uses proprietary models trained on payer criteria mappings to automatically route patients through complex healthcare journeys, manage payer authorizations, and reduce claim denials for healthcare providers and networks. The platform operates in healthcare operations and patient flow management, helping providers navigate insurance requirements and coordinate care across multiple touchpoints.",
-    "ats": "ashby"
+    "summary": "Tennr is a patient orchestration platform that helps providers direct patients to appropriate care settings.",
+    "source": "meta_description"
   },
   {
+    "ats": "lever",
     "slug": "Termius",
     "name": "Termius",
-    "summary": "Termius builds a cross-platform SSH client and terminal application that enables secure remote access to servers and infrastructure. The company operates in the cybersecurity and developer tools domain, providing features like key management, team collaboration, and connection organization for IT professionals and development teams.",
-    "ats": "lever"
+    "summary": "Termius is an SSH client that includes team collaboration features.",
+    "source": "one_liner"
   },
   {
     "slug": "tesorio",
