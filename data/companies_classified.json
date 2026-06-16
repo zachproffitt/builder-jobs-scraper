@@ -7782,10 +7782,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "greenhouse",
     "slug": "evolutioniq",
     "name": "EvolutionIQ",
-    "summary": "EvolutionIQ provides AI-driven claims guidance software for insurance companies, helping to streamline and optimize the claims process. The platform offers guidance across multiple insurance domains including disability, workers' compensation, and other claims types to improve decision-making and operational efficiency.",
-    "ats": "greenhouse"
+    "summary": "EvolutionIQ provides an insurance claims guidance platform that helps carriers process claims faster and make better decisions.",
+    "source": "meta_description"
   },
   {
     "slug": "expressable",
