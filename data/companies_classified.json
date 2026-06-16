@@ -7725,10 +7725,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "envoy",
     "name": "Envoy Global, Inc.",
-    "summary": "Envoy Global provides a software platform for managing immigration and visa processes, including employment-based immigration, family-based immigration, and visa sponsorship workflows. The company serves multinational corporations, law firms, and immigration service providers who need to track and manage complex immigration cases and compliance requirements.",
-    "ats": "ashby"
+    "summary": "Envoy Global, Inc. provides visitor management, workplace management, and digital signage solutions for companies.",
+    "source": "meta_description"
   },
   {
     "slug": "equitymultiple",
