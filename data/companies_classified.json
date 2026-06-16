@@ -1526,10 +1526,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "aptoslabs",
     "name": "Aptos Labs",
-    "summary": "Aptos Labs builds the Aptos blockchain, a Layer 1 cryptocurrency network designed for high transaction throughput and low latency using the Move programming language. The company operates in the blockchain infrastructure and cryptocurrency space.",
-    "ats": "greenhouse"
+    "summary": "Aptos Labs builds products, applications, and tooling on the Aptos blockchain.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
