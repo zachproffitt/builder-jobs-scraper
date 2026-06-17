@@ -6084,10 +6084,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "lever",
     "slug": "brilliant",
     "name": "Brilliant",
-    "summary": "Brilliant is an online learning platform that teaches mathematics, science, and computer science through interactive problem-solving and visual explanations. Users progress through courses designed to build intuition and understanding in subjects like algebra, calculus, physics, chemistry, and programming.",
-    "ats": "lever"
+    "summary": "Brilliant offers interactive lessons and problem-solving courses in mathematics, programming, data analysis, artificial intelligence, and science.",
+    "source": "meta_description"
   },
   {
     "slug": "critical-manufacturing",
@@ -10246,5 +10247,12 @@
     "name": "Filevine",
     "summary": "Filevine builds a platform that combines data, documents, workflows, and teams for legal work, powered by a system called LOIS that reads and analyzes legal data to automate tasks and provide insights to legal professionals.",
     "source": "job_posting"
+  },
+  {
+    "ats": "greenhouse",
+    "slug": "pacaso",
+    "name": "Pacaso",
+    "summary": "Pacaso offers luxury vacation homes for co-ownership.",
+    "source": "meta_description"
   }
 ]
