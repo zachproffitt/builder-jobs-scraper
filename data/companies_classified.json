@@ -9273,10 +9273,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "bamboo",
     "slug": "raysecur",
     "name": "RaySecur Inc",
-    "summary": "RaySecur develops X-ray scanning technology that uses terahertz (THz) imaging to detect threats in mail, parcels, and baggage without opening packages. The company operates in the security screening and threat detection industry, serving postal services, airports, and logistics facilities globally.",
-    "ats": "bamboo"
+    "summary": "RaySecur manufactures mail security scanners and has received official Department of Homeland Security designation.",
+    "source": "meta_description"
   },
   {
     "slug": "released",
