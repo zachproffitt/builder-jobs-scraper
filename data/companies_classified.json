@@ -9284,10 +9284,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "reachdesk",
     "name": "Reachdesk",
-    "summary": "Reachdesk is a B2B gifting platform that enables sales and marketing teams to send personalized physical gifts and digital gifts to prospects and customers at scale. The company operates in the sales enablement and customer engagement space, helping businesses build stronger relationships through thoughtful gifting campaigns.",
-    "ats": "greenhouse"
+    "summary": "Reachdesk provides a platform for sending personalized gifts and branded merchandise to recipients worldwide.",
+    "source": "meta_description"
   },
   {
     "slug": "rebel-space-technologies",
