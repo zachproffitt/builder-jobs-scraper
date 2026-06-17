@@ -2457,10 +2457,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "decodahealth",
     "name": "Decoda Health",
-    "summary": "Decoda Health builds software that helps healthcare providers identify and recover uncollected revenue from insurance claims through automated coding optimization and claim management. The company operates in the healthcare revenue cycle management domain, focusing on reducing denials and improving reimbursement accuracy for medical practices and health systems.",
-    "ats": "ashby"
+    "summary": "Decoda Health builds an electronic medical record system for medical spas and elective care facilities.",
+    "source": "one_liner"
   },
   {
     "slug": "Deepnote",
@@ -3919,10 +3920,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "slope",
     "name": "Slope",
-    "summary": "Slope builds a B2B payments platform that enables businesses to send and receive payments through multiple channels including ACH, card, and check. The company operates in the financial services and payment processing domain, focusing on streamlining accounts payable and accounts receivable workflows for mid-market and enterprise organizations.",
-    "ats": "ashby"
+    "summary": "Slope provides a B2B payments platform.",
+    "source": "one_liner"
   },
   {
     "slug": "smartasset",
@@ -8243,10 +8245,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "bamboo",
     "slug": "insticator",
     "name": "Insticator",
-    "summary": "Insticator builds engagement and monetization tools for digital publishers, including interactive content formats like polls, quizzes, and surveys that increase user engagement and generate revenue through advertising and first-party data collection.",
-    "ats": "bamboo"
+    "summary": "Insticator, operating under the COOL company umbrella, builds advertising technology products including a creative ad server for personalizing and optimizing digital ads, an advertising management platform for franchise businesses, a managed service solution for agencies and brands to reach and measure audiences, an SSP and engagement platform for publishers, and a supply-side platform for publishers to maximize ad revenue. The company also offers COOL AI, a next-generation advertising platform launching in 2026 that automates the creation, buying, and optimization of digital ad campaigns across channels like Google and Facebook.",
+    "source": "job_posting"
   },
   {
     "ats": "workday",
