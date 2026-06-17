@@ -49,11 +49,11 @@
     "source": "meta_description"
   },
   {
-    "name": "Mistral",
+    "ats": "lever",
     "slug": "mistral",
-    "summary": "Mistral builds an AI platform for enterprises to customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal models using open-source technology.",
-    "source_hash": "410fb0bc",
-    "ats": "lever"
+    "name": "Mistral",
+    "summary": "Mistral provides an AI platform that allows enterprises to customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI using open models.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
