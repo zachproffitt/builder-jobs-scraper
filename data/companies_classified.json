@@ -2411,10 +2411,11 @@
     "ats": "lever"
   },
   {
+    "ats": "greenhouse",
     "slug": "culturebiosciences",
     "name": "Culture Biosciences",
-    "summary": "Culture Biosciences builds bioreactor systems and software that automate the cultivation of mammalian cells for biopharmaceutical manufacturing. The company operates in the biotech equipment and cell culture automation domain, serving companies that produce biologics like monoclonal antibodies and recombinant proteins.",
-    "ats": "greenhouse"
+    "summary": "Culture Biosciences grows cells for biotech companies.",
+    "source": "one_liner"
   },
   {
     "ats": "ashby",
