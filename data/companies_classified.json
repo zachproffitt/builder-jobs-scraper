@@ -6905,10 +6905,11 @@
     "ats": "workable"
   },
   {
+    "ats": "ashby",
     "slug": "betterup",
     "name": "BetterUp",
-    "summary": "BetterUp offers a digital coaching and mental health platform that connects users with professional coaches and therapists through a mobile app and web interface to support personal development, emotional wellness, and professional growth across organizations and individuals.",
-    "ats": "ashby"
+    "summary": "BetterUp provides a platform that offers human and AI coaching to develop employees across all organizational levels, from executives to frontline teams.",
+    "source": "meta_description"
   },
   {
     "slug": "joinparadigm",
