@@ -210,11 +210,11 @@
     "ats": "ashby"
   },
   {
-    "name": "1X Technologies",
+    "ats": "ashby",
     "slug": "1x",
-    "summary": "1X Technologies builds humanoid robots that perform household chores and provide personalized assistance.",
-    "source_hash": "4f5aac79",
-    "ats": "ashby"
+    "name": "1X Technologies",
+    "summary": "1X Technologies is an AI and robotics company that creates humanoid robots designed to perform household chores and provide personalized assistance.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
