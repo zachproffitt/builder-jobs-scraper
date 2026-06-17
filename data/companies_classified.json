@@ -5670,10 +5670,11 @@
     "ats": "workable"
   },
   {
+    "ats": "workday",
     "slug": "lighting/wd3/jobs-and-careers",
     "name": "Philips Hue",
-    "summary": "Philips Hue creates smart lighting systems that allow users to control connected LED bulbs and fixtures through mobile apps and voice assistants, offering features like color customization, scheduling, and automation for residential and commercial spaces.",
-    "ats": "workday"
+    "summary": "Philips Hue makes smart LED lights and smart home security products.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
@@ -8826,10 +8827,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "workday",
     "slug": "taylor/wd1/External",
     "name": "NEPS, LLC",
-    "summary": "NEPS, LLC provides cloud-based workforce management and staffing solutions, including applicant tracking, scheduling, and payroll processing for businesses in the hospitality, retail, and healthcare sectors. The platform helps managers streamline hiring, employee onboarding, and labor cost management through integrated software tools.",
-    "ats": "workday"
+    "summary": "NEPS, LLC operates printing press and die-cutting equipment in a manufacturing facility, performing tasks such as preparing equipment, maintaining machinery, preparing inks, and inspecting products for quality in a production environment.",
+    "source": "job_posting"
   },
   {
     "slug": "newlabcareers",
