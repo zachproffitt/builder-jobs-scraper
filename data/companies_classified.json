@@ -6219,10 +6219,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "lever",
     "slug": "padsplit",
     "name": "PadSplit",
-    "summary": "PadSplit is a real estate technology platform that rents out individual furnished bedrooms in shared homes to young professionals and students on a month-to-month basis. The company operates in the affordable housing rental market, providing tenants flexible lease terms and landlords a way to maximize rental income from single-family properties.",
-    "ats": "lever"
+    "summary": "PadSplit offers furnished rooms for rent on a weekly basis, with rent including utilities, WiFi, laundry access, and 24/7 telemedicine service.",
+    "source": "meta_description"
   },
   {
     "slug": "polygon-labs",
