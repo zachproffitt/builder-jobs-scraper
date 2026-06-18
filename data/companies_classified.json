@@ -1235,10 +1235,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "lever",
     "slug": "deepgenomics",
     "name": "Deep Genomics",
-    "summary": "Deep Genomics builds machine learning software that analyzes genomic and clinical data to predict the effects of genetic variants and identify potential drug targets for genetic diseases. The company operates in the computational genomics and precision medicine domain, focusing on applications like RNA-targeting therapeutics.",
-    "ats": "lever"
+    "summary": "Deep Genomics uses artificial intelligence to decode RNA biology and identify novel drug targets, mechanisms, and therapeutics for drug discovery and development.",
+    "source": "job_posting"
   },
   {
     "ats": "lever",
