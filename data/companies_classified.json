@@ -9869,10 +9869,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "lever",
     "slug": "teamsnap",
     "name": "TeamSnap",
-    "summary": "TeamSnap builds cloud-based software for managing youth and amateur sports teams, offering tools for scheduling, communication, roster management, and payment processing. The platform serves coaches, team administrators, and parents across various sports leagues and recreational organizations.",
-    "ats": "lever"
+    "summary": "TeamSnap provides a platform for youth sports management.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
