@@ -10000,10 +10000,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "tomo",
     "name": "Tomo Mortgage",
-    "summary": "Tomo Mortgage provides a digital mortgage platform that streamlines the home lending process through online application, underwriting, and closing for borrowers seeking mortgages. The company operates in the residential mortgage lending space, offering both purchase and refinance loans to customers in the United States.",
-    "ats": "ashby"
+    "summary": "Tomo Mortgage provides guidance to homebuyers throughout the home buying process.",
+    "source": "meta_description"
   },
   {
     "slug": "alignops",
