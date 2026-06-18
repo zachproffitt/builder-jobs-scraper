@@ -4802,10 +4802,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "digitalextremes",
     "name": "Digital Extremes",
-    "summary": "Digital Extremes is a video game developer based in London, Ontario that creates free-to-play action games, most notably Warframe, a cooperative third-person shooter with a large following across PC, consoles, and mobile platforms.",
-    "ats": "greenhouse"
+    "summary": "Digital Extremes is a video game developer that creates games including Warframe and other titles for multiple platforms.",
+    "source": "job_posting"
   },
   {
     "slug": "divvyhomes",
@@ -8084,10 +8085,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "bamboo",
     "slug": "headspin",
     "name": "HeadSpin, Inc.",
-    "summary": "HeadSpin provides a cloud-based platform for testing mobile applications and web services across real devices and networks, enabling developers and QA teams to identify and resolve performance issues before release. The platform operates in the mobile app testing and quality assurance domain, offering capabilities like device access, network simulation, and performance monitoring across global infrastructure.",
-    "ats": "bamboo"
+    "summary": "HeadSpin provides real device testing with AI-driven insights, KPI analysis, and automation across 50+ locations for app performance optimization.",
+    "source": "meta_description"
   },
   {
     "slug": "heartmath",
