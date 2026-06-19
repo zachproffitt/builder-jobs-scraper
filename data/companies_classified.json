@@ -6013,10 +6013,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "ashby",
     "slug": "reflectionai",
     "name": "Reflection AI",
-    "summary": "Reflection AI develops a platform that uses large language models to help teams analyze and improve their communication patterns, meeting effectiveness, and collaborative workflows through transcription and conversation intelligence.",
-    "ats": "ashby"
+    "summary": "Reflection AI develops open weight artificial intelligence models for individuals, agents, enterprises, and nation states. The company was founded by AI researchers and company builders from DeepMind, OpenAI, Google Brain, Meta, Character.AI, and Anthropic.",
+    "source": "job_posting"
   },
   {
     "ats": "greenhouse",
