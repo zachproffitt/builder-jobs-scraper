@@ -9684,10 +9684,11 @@
     "ats": "workable"
   },
   {
+    "ats": "greenhouse",
     "slug": "spotter",
     "name": "Spotter",
-    "summary": "Spotter builds a field service management platform that helps construction and trades companies schedule jobs, manage crews, track equipment, and coordinate work across multiple job sites.",
-    "ats": "greenhouse"
+    "summary": "Spotter connects brands with YouTube's top creators for entertainment and advertising purposes.",
+    "source": "meta_description"
   },
   {
     "slug": "starrez",
