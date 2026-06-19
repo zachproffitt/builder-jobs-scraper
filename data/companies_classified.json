@@ -10009,10 +10009,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "bamboo",
     "slug": "alignops",
     "name": "ToolWatch",
-    "summary": "ToolWatch provides GPS tracking and fleet management software for construction companies and field service businesses to monitor equipment, vehicles, and worker locations in real-time.",
-    "ats": "bamboo"
+    "summary": "ToolWatch is an asset management software that provides real-time tracking of equipment and fleets for construction operations.",
+    "source": "homepage"
   },
   {
     "slug": "touchcast",
