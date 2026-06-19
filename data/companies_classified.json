@@ -2258,10 +2258,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "charge-robotics",
     "name": "Charge Robotics",
-    "summary": "Charge Robotics builds robotic automation systems for solar panel installation and construction, addressing labor shortages that currently limit the scaling of solar energy projects. The company operates in the renewable energy sector, specifically automating the most labor-intensive tasks involved in deploying solar infrastructure.",
-    "ats": "ashby"
+    "summary": "Charge Robotics builds robots that construct solar farms.",
+    "source": "one_liner"
   },
   {
     "slug": "cinder",
@@ -5986,10 +5987,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "ashby",
     "slug": "kalshi",
     "name": "Kalshi",
-    "summary": "Kalshi is a regulated prediction market platform that allows users to trade contracts based on the outcomes of future events, including economic data releases, elections, and other real-world occurrences. The platform operates under CFTC oversight as a Designated Contract Market, enabling legal wagering on event predictions in the United States.",
-    "ats": "ashby"
+    "summary": "Kalshi is a federally regulated exchange where people can trade on events.",
+    "source": "one_liner"
   },
   {
     "ats": "greenhouse",
