@@ -504,11 +504,11 @@
     "ats": "ashby"
   },
   {
-    "name": "Larian Studios",
+    "ats": "lever",
     "slug": "larian",
-    "summary": "Larian Studios develops role-playing games and builds web platforms for their games.",
-    "source_hash": "c1816517",
-    "ats": "lever"
+    "name": "Larian Studios",
+    "summary": "Larian Studios makes role-playing games, including Baldur's Gate 3 and Divinity: Original Sin 2. The company is hiring a Graphics Programmer to maintain and extend their proprietary engine's VFX systems, including particle simulation, materials, post-process effects, and rendering/lighting pipelines.",
+    "source": "job_posting"
   },
   {
     "name": "Qdrant",
