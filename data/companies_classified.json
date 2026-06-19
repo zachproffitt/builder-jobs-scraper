@@ -8653,10 +8653,11 @@
     "ats": "workday"
   },
   {
+    "ats": "ashby",
     "slug": "mangomint",
     "name": "Mangomint",
-    "summary": "Mangomint builds a customer data platform that helps businesses unify, manage, and activate customer information across multiple touchpoints and marketing channels. The platform enables companies to create unified customer profiles, segment audiences, and personalize marketing campaigns without requiring extensive technical resources.",
-    "ats": "ashby"
+    "summary": "Mangomint makes scheduling software for hair salons, spas, nail salons, barbershops, tanning salons, massage studios, tattoo shops and similar service businesses.",
+    "source": "meta_description"
   },
   {
     "ats": "workday",
