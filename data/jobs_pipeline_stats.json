@@ -6,12 +6,12 @@
   "builder_rate": 1.0,
   "title_skipped": 2,
   "location_skipped": 0,
-  "skipped_no_desc": 15346,
+  "skipped_no_desc": 15070,
   "errors": 0,
   "requests": 2,
-  "input_tokens": 2870,
-  "output_tokens": 291,
+  "input_tokens": 1960,
+  "output_tokens": 222,
   "cache_creation_input_tokens": 4221,
   "cache_read_input_tokens": 4221,
-  "cost_usd": 0.01002335
+  "cost_usd": 0.008768350000000001
 }
