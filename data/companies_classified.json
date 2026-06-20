@@ -21,11 +21,11 @@
     "source": "meta_description"
   },
   {
-    "name": "Vercel",
+    "ats": "greenhouse",
     "slug": "vercel",
-    "summary": "Vercel builds a platform for deploying web applications, offering frameworks like Next.js, serverless functions, and edge infrastructure.",
-    "source_hash": "7842861a",
-    "ats": "greenhouse"
+    "name": "Vercel",
+    "summary": "Vercel provides frameworks, workflows, and infrastructure that developers use to build web applications.",
+    "source": "meta_description"
   },
   {
     "name": "Netlify",
