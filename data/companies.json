@@ -30901,7 +30901,8 @@
   {
     "name": "Redapto",
     "website": "https://www.redapto.com",
-    "status": "no_ats"
+    "status": "no_ats",
+    "one_liner": "Enterprise AI Transformation Platform"
   },
   {
     "name": "Redbean",
@@ -45905,6 +45906,796 @@
   {
     "name": "Zapata AI",
     "website": "https://zapata.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Async",
+    "website": "https://withasync.com",
+    "status": "no_ats",
+    "one_liner": "AI Agents for Service Businesses"
+  },
+  {
+    "name": "Cerenovus",
+    "website": "https://www.cerenovus.ai",
+    "status": "no_ats",
+    "one_liner": "Aggregate company knowledge and make inferences"
+  },
+  {
+    "name": "Glen",
+    "website": "https://www.tryglen.com",
+    "status": "no_ats",
+    "one_liner": "Shared learning for AI Agents"
+  },
+  {
+    "name": "Hop Aero",
+    "website": "https://hop-aero.com",
+    "status": "no_ats",
+    "one_liner": "Rocket cargo delivery to contested environments"
+  },
+  {
+    "name": "Hudson",
+    "website": "https://www.meethudson.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Lattice Health",
+    "website": "https://www.latticehealthai.com",
+    "status": "no_ats",
+    "one_liner": "Monitoring and governance for deployed medical imaging AI"
+  },
+  {
+    "name": "Linzumi",
+    "website": "https://linzumi.com",
+    "status": "no_ats",
+    "one_liner": "Team chat to command all your company's coding agents"
+  },
+  {
+    "name": "machine0",
+    "website": "https://machine0.io",
+    "status": "no_ats",
+    "one_liner": "Persistent & powerful cloud VMs from your CLI"
+  },
+  {
+    "name": "Maxi",
+    "website": "https://www.usemaxi.app",
+    "status": "no_ats",
+    "one_liner": "AI Agent for your personal finances"
+  },
+  {
+    "name": "Mireye",
+    "website": "https://www.mireye.com",
+    "status": "no_ats",
+    "one_liner": "Infrastructure for Physical World AI Agents"
+  },
+  {
+    "name": "No Logo",
+    "website": "https://nologo.com",
+    "status": "no_ats",
+    "one_liner": "Turn ideas into physical products"
+  },
+  {
+    "name": "Orca Client",
+    "website": "https://orcaclient.com",
+    "status": "no_ats",
+    "one_liner": "Orca lets you build, discover, and play Minecraft games with friends."
+  },
+  {
+    "name": "Osmaura",
+    "website": "https://osmaura.com",
+    "status": "no_ats",
+    "one_liner": "We find new matter opportunities for law firms."
+  },
+  {
+    "name": "Outpaint.com",
+    "website": "https://outpaint.com",
+    "status": "no_ats",
+    "one_liner": "AI that expands any video to fit any screen."
+  },
+  {
+    "name": "Pango",
+    "website": "https://pango.ai",
+    "status": "no_ats",
+    "one_liner": "Agentic OS for e-commerce operations"
+  },
+  {
+    "name": "Physical Turing",
+    "website": "https://physicalturing.ai",
+    "status": "no_ats",
+    "one_liner": "Real world testing of humanoid policies and robots"
+  },
+  {
+    "name": "Ploy",
+    "website": "https://ploy.ai",
+    "status": "no_ats",
+    "one_liner": "Ploy turns your website into your company's growth engine."
+  },
+  {
+    "name": "Prescience",
+    "website": "https://www.getprescience.com",
+    "status": "no_ats",
+    "one_liner": "Healthcare for the age of abundant intelligence."
+  },
+  {
+    "name": "Punchcard",
+    "website": "https://www.punchcard.com",
+    "status": "no_ats",
+    "one_liner": "Agentive assurance system for auditors, risk consultants, and clients."
+  },
+  {
+    "name": "Quotain",
+    "website": "https://quotain.com",
+    "status": "no_ats",
+    "one_liner": "AI sales simulations using your real deals"
+  },
+  {
+    "name": "Savant",
+    "website": "https://heysavant.com",
+    "status": "no_ats",
+    "one_liner": "Company brain every AI-native enterprise runs on"
+  },
+  {
+    "name": "Sol",
+    "website": "https://www.solbrowser.com",
+    "status": "no_ats",
+    "one_liner": "Code and browse in the same place"
+  },
+  {
+    "name": "Stably AI (Orca)",
+    "website": "https://onorca.dev",
+    "status": "no_ats",
+    "one_liner": "We make Orca, MIT open source terminal-based agent orchestrator"
+  },
+  {
+    "name": "Tolmo",
+    "website": "https://www.tolmo.com",
+    "status": "no_ats",
+    "one_liner": "Tolmo is the AI security platform that secures every layer of cloud\u2026"
+  },
+  {
+    "name": "Touchmark",
+    "website": "https://touchmark.ai",
+    "status": "no_ats",
+    "one_liner": "Prices AI by the value it delivers"
+  },
+  {
+    "name": "Tuesday Labs",
+    "website": "https://www.tuesdaylabs.com",
+    "status": "active",
+    "one_liner": "Delightful robots",
+    "ats": "ashby",
+    "slug": "tuesday-labs",
+    "category": [],
+    "meta_description": "We engineer delightful robots that tidy your home \u2014 a robotics lab and design studio in New York City crafting machines that make daily life better."
+  },
+  {
+    "name": "Niteshift",
+    "website": "https://niteshift.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "3Scale",
+    "website": "https://3scale.net",
+    "status": "no_ats"
+  },
+  {
+    "name": "AccorHotels",
+    "website": "https://accor.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "AdRoll",
+    "website": "https://adroll.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Agile Logistics",
+    "website": "https://agilog.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Amazon Care",
+    "website": "https://amazoncare.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Apache Airflow",
+    "website": "https://airflow.apache.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Apex Learning",
+    "website": "https://apexlearning.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "ArenaNet",
+    "website": "https://arena.net",
+    "status": "active",
+    "ats": "ashby",
+    "slug": "arenanet",
+    "category": [],
+    "meta_description": "Bringing art to life through our online worlds."
+  },
+  {
+    "name": "Atom Semiconductors",
+    "website": "https://atom-semiconductors.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Augmented Pixels",
+    "website": "https://augmentedpixels.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Augmento",
+    "website": "https://augmento.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Beamery",
+    "website": "https://beamery.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Beedie",
+    "website": "https://beedie.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Block (Square)",
+    "website": "https://block.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Blokable",
+    "website": "https://blokable.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "BlueCart",
+    "website": "https://bluecart.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Bridgit",
+    "website": "https://bridgit.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Buildr",
+    "website": "https://buildr.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Carbon Accounting Lab",
+    "website": "https://carbonaccountinglab.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Casper",
+    "website": "https://casper.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "ChowNow",
+    "website": "https://chownow.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Clarity AI",
+    "website": "https://clarity.ai",
+    "status": "active",
+    "ats": "greenhouse",
+    "slug": "clarityai",
+    "category": [],
+    "meta_description": "Your browser does not support the video tag. Clarity, with proof The AI-native platform for extra-financial intelligence We support financial institutions, companies, governments, and consumers in making the right decisions - efficiently, confidently, and at scale. Talk to an Expert Trusted Across Global Markets Make Better Decisions with AI-Powered Intelligence Integrate extra-financial insights into how"
+  },
+  {
+    "name": "Commerce.AI",
+    "website": "https://commerce.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Comtech Telecommunications",
+    "website": "https://comtech.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Conversant",
+    "website": "https://conversantmedia.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "CVS/Aetna Health Technology",
+    "website": "https://cvs.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Cyclr",
+    "website": "https://cyclr.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Dassault Syst\u00e8mes",
+    "website": "https://3ds.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Datablox",
+    "website": "https://datablox.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Deliverect",
+    "website": "https://deliverect.com",
+    "status": "active",
+    "ats": "lever",
+    "slug": "deliverect",
+    "category": [],
+    "meta_description": "Seamless digital ordering for every channel: dine-in, carry-out, drive-thru, delivery, and catering. First-party solutions that maximize profits and control."
+  },
+  {
+    "name": "Echo Global Logistics",
+    "website": "https://echo.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "eClinicalWorks",
+    "website": "https://eclinicalworks.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Edge Impulse",
+    "website": "https://edgeimpulse.com",
+    "status": "active",
+    "ats": "eightfold",
+    "slug": "careers.qualcomm.com|edgeimpulse.com",
+    "category": [],
+    "meta_description": "Edge Impulse is the leading development platform for machine learning on edge devices."
+  },
+  {
+    "name": "Eka Fluid Controls",
+    "website": "https://ekafluid.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Elastic.io",
+    "website": "https://elastic.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Energize Solutions",
+    "website": "https://energizesolutions.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Equinix",
+    "website": "https://equinix.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Flipdish",
+    "website": "https://flipdish.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Flubrix",
+    "website": "https://fubrix.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Fluent",
+    "website": "https://fluentco.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "GE Healthcare",
+    "website": "https://gehealthcare.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Geodis",
+    "website": "https://geodis.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "GitKraken",
+    "website": "https://gitkraken.com",
+    "status": "active",
+    "ats": "bamboo",
+    "slug": "gitkraken",
+    "category": [],
+    "meta_description": "Meet GitKraken, the creator of legendary Git tools for developers and teams - like the GitKraken Desktop, with Git GUI and CLI, Git Integration for Jira, and GitLens for VS Code."
+  },
+  {
+    "name": "Greensmith Energy",
+    "website": "https://greensmitenergy.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Grubhub",
+    "website": "https://grubhub.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Hired",
+    "website": "https://hired.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Hologram",
+    "website": "https://hologram.io",
+    "status": "active",
+    "ats": "greenhouse",
+    "slug": "hologram",
+    "category": [],
+    "meta_description": "Connect, manage, and scale your devices effortlessly with Hologram\u2014the most reliable and flexible global IoT solution for seamless, always-on connectivity."
+  },
+  {
+    "name": "Hydra",
+    "website": "https://hydra.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Illuminate",
+    "website": "https://illuminatehealth.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "IsoPlexis",
+    "website": "https://isoplexis.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Jira",
+    "website": "https://jira.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Kiosk Corporation",
+    "website": "https://kioskco.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "LiveXLive",
+    "website": "https://livexlive.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Lookahead Metaform",
+    "website": "https://lookaheadmetaform.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Looker Studio",
+    "website": "https://datastudio.google.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "MarginEdge",
+    "website": "https://marginedge.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Mediaocean",
+    "website": "https://mediaocean.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Moltin",
+    "website": "https://moltin.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "MPDV",
+    "website": "https://mpdv.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Multiverse",
+    "website": "https://multiverse.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Nerves Project",
+    "website": "https://nerves-project.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Notion AI",
+    "website": "https://notion.com",
+    "status": "active",
+    "ats": "ashby",
+    "slug": "notion",
+    "category": [],
+    "meta_description": "Build Custom Agents, search across all your apps, and automate busywork. The AI workspace where teams get more done, faster."
+  },
+  {
+    "name": "Omnivore",
+    "website": "https://omnivore.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "One Medical",
+    "website": "https://onemedical.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Optum",
+    "website": "https://optum.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Ordermark",
+    "website": "https://ordermark.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "OrderTaxi",
+    "website": "https://ordertaxi.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Palantir Technologies",
+    "website": "https://palantirtech.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Peek",
+    "website": "https://peekadventures.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Phenom",
+    "website": "https://phenom.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "PostgreSQL Global Development Group",
+    "website": "https://postgresql.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Predictronics",
+    "website": "https://predictronics.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Pubmatic",
+    "website": "https://pubmatic.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "QC Design",
+    "website": "https://qcdesign.ch",
+    "status": "no_ats"
+  },
+  {
+    "name": "QuantumBasel",
+    "website": "https://quantumbasel.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Reejig",
+    "website": "https://reejig.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Resin.io",
+    "website": "https://resin.io",
+    "status": "active",
+    "ats": "workable",
+    "slug": "balena",
+    "category": [],
+    "meta_description": "balenaCloud: Manage fleets of IoT Linux devices with balena\u2019s cloud platform. First 10 devices are free. Develop, deploy, and scale your IoT fleet."
+  },
+  {
+    "name": "Roadrunner Freight",
+    "website": "https://roadrunnertms.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Rocket Fuel Japan",
+    "website": "https://rocketfuel.co.jp",
+    "status": "no_ats"
+  },
+  {
+    "name": "Rocket10",
+    "website": "https://rocket10.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Rome2Rio",
+    "website": "https://rome2rio.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "RoomPrices",
+    "website": "https://roomprices.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Rubicon Project",
+    "website": "https://rubiconproject.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Scapula",
+    "website": "https://scapula.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sevvi",
+    "website": "https://sevvi.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sight Machine",
+    "website": "https://sightmachine.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "SimplyWise",
+    "website": "https://simplywiseapps.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sketchfab",
+    "website": "https://sketchfab.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Softweb Solutions",
+    "website": "https://softwebsolutions.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "StarRocks",
+    "website": "https://starrocks.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Stitch Labs (Flexport)",
+    "website": "https://stitchlabs.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Stoplight",
+    "website": "https://stoplight.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Superconductive",
+    "website": "https://superconductive.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sustainable Minds",
+    "website": "https://sustainableminds.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "TASK",
+    "website": "https://taskapp.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Tencent Cloud Database",
+    "website": "https://cloud.tencent.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Tizen",
+    "website": "https://tizen.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Toast Marketplace",
+    "website": "https://marketplace.toasttab.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "TouchBistro",
+    "website": "https://touchbistro.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Touchplan",
+    "website": "https://touchplan.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Tremor International",
+    "website": "https://tremorvideo.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Tripleseat",
+    "website": "https://tripleseat.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Tulip Interfaces",
+    "website": "https://tulip.co",
+    "status": "no_ats"
+  },
+  {
+    "name": "Turvo",
+    "website": "https://turvo.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Vesta",
+    "website": "https://vestainsurance.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Vimaan",
+    "website": "https://vimaan.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Vinovest",
+    "website": "https://vinovest.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "WalkMe",
+    "website": "https://walkme.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Wayflyer",
+    "website": "https://wayflyer.com",
+    "status": "active",
+    "ats": "ashby",
+    "slug": "wayflyer",
+    "category": [],
+    "meta_description": "Unlock your full potential with financing that's built for growing businesses, backed by world-leading financial institutions. Apply in minutes, access capital in hours."
+  },
+  {
+    "name": "Weta Digital",
+    "website": "https://wetadigital.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "WeWork",
+    "website": "https://wework.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Wikitude",
+    "website": "https://wikitude.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Workable",
+    "website": "https://workable.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "XPO Logistics",
+    "website": "https://xpo.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Zappar",
+    "website": "https://zappar.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "ZipperAgent",
+    "website": "https://zipperagent.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Zulip",
+    "website": "https://zulip.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Zuul",
+    "website": "https://zuul.ai",
     "status": "no_ats"
   }
 ]
