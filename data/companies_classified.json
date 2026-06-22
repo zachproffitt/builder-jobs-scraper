@@ -1491,10 +1491,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "lever",
     "slug": "zilliz",
     "name": "Zilliz",
-    "summary": "Zilliz builds Milvus, an open-source vector database designed to store and search high-dimensional vector embeddings at scale. The company operates in the domain of vector databases and AI infrastructure, serving use cases like semantic search, recommendation systems, and retrieval-augmented generation (RAG).",
-    "ats": "lever"
+    "summary": "Zilliz offers a fully managed Vector Lakebase powered by Milvus that unifies real-time vector search, lake-scale discovery, and AI data operations.",
+    "source": "meta_description"
   },
   {
     "slug": "armorcode",
