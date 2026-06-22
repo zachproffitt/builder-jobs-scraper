@@ -850,10 +850,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "seurat",
     "name": "Seurat Technologies",
-    "summary": "Seurat Technologies develops additive manufacturing technology for metal 3D printing, specifically focusing on a proprietary process that uses photochemical techniques to enable faster production of metal parts at scale. The company operates in the advanced manufacturing and industrial 3D printing sector, targeting applications in aerospace, defense, and other industries requiring high-performance metal components.",
-    "ats": "greenhouse"
+    "summary": "Seurat Technologies develops an additive manufacturing process called Area Printing that manufactures metal components using a method developed at Lawrence Livermore National Labs, enabling production at cost and quality levels competitive with conventional manufacturing techniques.",
+    "source": "job_posting"
   },
   {
     "ats": "greenhouse",
@@ -3754,10 +3755,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "rescale",
     "name": "Rescale",
-    "summary": "Rescale builds a cloud platform that enables engineers and scientists to run compute-intensive simulations and computational workloads, such as finite element analysis, computational fluid dynamics, and molecular dynamics, without requiring on-premises high-performance computing infrastructure. The company operates in the engineering simulation and scientific computing domain, serving industries including aerospace, automotive, energy, and materials science.",
-    "ats": "ashby"
+    "summary": "Rescale builds high performance computing software for the cloud.",
+    "source": "one_liner"
   },
   {
     "slug": "response",
@@ -5252,10 +5254,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "breezy",
     "slug": "arpio",
     "name": "Arpio",
-    "summary": "Arpio provides disaster recovery and business continuity solutions specifically designed for applications running on AWS, enabling organizations to automate failover and recovery processes across regions.",
-    "ats": "breezy"
+    "summary": "Arpio builds a disaster recovery platform for cloud-native applications that provides automated, application-aware disaster recovery capabilities.",
+    "source": "job_posting"
   },
   {
     "slug": "astroscale",
