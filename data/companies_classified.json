@@ -4005,10 +4005,11 @@
     "source": "one_liner"
   },
   {
+    "ats": "greenhouse",
     "slug": "starcloud",
     "name": "Starcloud",
-    "summary": "Starcloud builds orbital data centers designed to host artificial intelligence computing workloads in space, leveraging continuous solar energy and radiative cooling to achieve gigawatt-scale computational capacity. The company operates in the space infrastructure and hyperscale computing sectors, addressing the power, cooling, and permitting constraints that limit data center expansion on Earth.",
-    "ats": "greenhouse"
+    "summary": "Starcloud operates data centers located in space.",
+    "source": "one_liner"
   },
   {
     "ats": "ashby",
@@ -6109,10 +6110,11 @@
     "ats": "workable"
   },
   {
+    "ats": "ashby",
     "slug": "cylake-inc",
     "name": "Cylake",
-    "summary": "Cylake builds AI-powered data analytics software that helps enterprises process and analyze large datasets to generate business insights and support decision-making. The company operates in the enterprise software and data analytics domain, serving organizations that need to extract actionable intelligence from their data.",
-    "ats": "ashby"
+    "summary": "Cylake builds a data-driven cybersecurity platform that operates without dependence on the public cloud.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
