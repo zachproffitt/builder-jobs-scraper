@@ -981,10 +981,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "character",
     "name": "Character.ai",
-    "summary": "Character.ai builds a platform for creating and interacting with AI chatbots that simulate specific personalities and characters. The service operates in the conversational AI domain, allowing users to design custom bots and chat with AI characters based on real or fictional figures, fictional characters, or custom personas.",
-    "ats": "ashby"
+    "summary": "Character.ai builds a platform that offers role-playing chat experiences powered by large language models that have been fine-tuned through post-training techniques. The company develops and optimizes foundation models to create intelligent and engaging conversational products for millions of users.",
+    "source": "job_posting"
   },
   {
     "slug": "cognition",
