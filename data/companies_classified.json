@@ -6764,10 +6764,11 @@
     "ats": "workable"
   },
   {
+    "ats": "greenhouse",
     "slug": "arine",
     "name": "Arine",
-    "summary": "Arine develops software for managing aquaculture operations, including tools for tracking fish health, feed management, and farm performance metrics across salmon and other farmed fish species.",
-    "ats": "greenhouse"
+    "summary": "Arine builds a medication management platform for health plans and providers to manage patient medications and outcomes.",
+    "source": "meta_description"
   },
   {
     "ats": "workday",
@@ -10089,10 +10090,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "unitedmasterstranslation",
     "name": "UnitedMasters",
-    "summary": "UnitedMasters is a music distribution and artist services platform that enables independent musicians to release their music to streaming platforms like Spotify, Apple Music, and YouTube while retaining ownership and earning higher royalty rates. The company provides tools for music promotion, analytics, and direct-to-fan capabilities, operating in the independent music and digital distribution space.",
-    "ats": "greenhouse"
+    "summary": "UnitedMasters distributes music to Spotify, Apple Music, TikTok, YouTube, Instagram and 30+ other platforms for independent artists and provides brand partnership opportunities.",
+    "source": "meta_description"
   },
   {
     "slug": "unmind",
