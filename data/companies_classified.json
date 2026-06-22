@@ -1504,10 +1504,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "cobaltio",
     "name": "Cobalt",
-    "summary": "# Cobalt\n\nCobalt operates a platform that matches security researchers with organizations to conduct penetration testing and vulnerability assessments on software, web applications, and infrastructure. The company operates in the cybersecurity testing and bug bounty domain.",
-    "ats": "greenhouse"
+    "summary": "Cobalt provides a SaaS platform that connects global offensive security talent to deliver penetration testing and security services.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
@@ -2349,10 +2350,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "confido",
     "name": "Confido",
-    "summary": "Confido builds AI infrastructure software for consumer packaged goods (CPG) brands, providing tools for finance, sales, and operations functions including accounting, sales forecasting, trade planning, demand planning, and deduction management. The platform helps CPG companies automate financial processes, improve forecasting accuracy, and drive operational efficiency across their organizations.",
-    "ats": "ashby"
+    "summary": "Confido provides AI-enabled financial automation and intelligence software for consumer packaged goods brands.",
+    "source": "one_liner"
   },
   {
     "slug": "constellationspace",
