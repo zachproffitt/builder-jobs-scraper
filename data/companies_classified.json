@@ -6750,10 +6750,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "airship",
     "name": "Apptimize",
-    "summary": "Apptimize provides a mobile app experimentation platform that allows companies to run A/B tests, multivariate tests, and feature rollouts on iOS and Android applications without requiring code releases. The platform enables product teams to validate changes, optimize user experience, and gather data-driven insights before full deployment.",
-    "ats": "greenhouse"
+    "summary": "I notice the source text describes Airship, not Apptimize. Based on the source provided: Airship provides a mobile-first customer experience platform that delivers cross-channel experiences powered by AI. However, if you intended to provide information about Apptimize specifically, please share the correct source text.",
+    "source": "meta_description"
   },
   {
     "slug": "appviewx",
