@@ -6514,10 +6514,11 @@
     "ats": "workable"
   },
   {
+    "ats": "greenhouse",
     "slug": "acquia",
     "name": "Acquia",
-    "summary": "Acquia provides a cloud platform and services for building, managing, and delivering digital experiences, primarily built on the open-source Drupal content management system. The company serves enterprises across media, retail, financial services, and government sectors who need to manage complex websites, applications, and customer engagement at scale.",
-    "ats": "greenhouse"
+    "summary": "Acquia builds a content platform for marketing teams that includes AI agents, human-in-the-loop governance, and an open, composable foundation.",
+    "source": "meta_description"
   },
   {
     "ats": "lever",
