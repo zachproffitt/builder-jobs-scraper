@@ -5222,7 +5222,7 @@
     "website": "https://boeing.com",
     "category": [],
     "meta_description": "Discover news and information about The Boeing Company, a leading global aerospace company that develops, manufactures and services commercial airplanes, defense products and space systems.",
-    "status": "active"
+    "status": "inactive"
   },
   {
     "name": "BoldVoice",
@@ -15013,7 +15013,7 @@
   {
     "name": "General Dynamics",
     "website": "https://gd.com",
-    "status": "no_ats"
+    "status": "inactive"
   },
   {
     "name": "General Dynamics Information Technology",
@@ -15022,7 +15022,7 @@
     "website": "https://gdit.com",
     "category": [],
     "meta_description": "Delivering technology solutions and mission services to every major agency across the U.S. government, defense and intelligence community.",
-    "status": "active"
+    "status": "inactive"
   },
   {
     "name": "General Fusion",
