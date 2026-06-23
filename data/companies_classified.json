@@ -1270,10 +1270,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "lever",
     "slug": "waabi",
     "name": "Waabi",
-    "summary": "Waabi builds simulation and AI software for autonomous trucking. The company develops physics-based simulators and machine learning models to train and validate self-driving truck systems.",
-    "ats": "lever"
+    "summary": "Waabi develops autonomous trucks using an end-to-end AI model powered by a neural simulator to reduce development time and resources needed for self-driving vehicles.",
+    "source": "meta_description"
   },
   {
     "slug": "skyryse",
@@ -3307,10 +3308,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "mux",
     "name": "Mux",
-    "summary": "Mux provides a video infrastructure platform that enables developers to build, deliver, and monitor video experiences at scale. The company operates in the video streaming and online video technology domain, offering APIs and tools for video encoding, playback, analytics, and performance monitoring.",
-    "ats": "ashby"
+    "summary": "Mux builds video infrastructure that developers use to stream, manage, and monitor video content.",
+    "source": "one_liner"
   },
   {
     "slug": "mytos",
