@@ -8913,10 +8913,11 @@
     "ats": "lever"
   },
   {
+    "ats": "ashby",
     "slug": "nylas",
     "name": "Nylas",
-    "summary": "Nylas provides an API platform that enables developers to integrate email, calendar, and contact management functionality into their applications. The company serves businesses across various industries that need to embed communication and scheduling capabilities without building these systems from scratch.",
-    "ats": "ashby"
+    "summary": "Nylas provides APIs that enable developers to integrate email, calendar, and contact management features into their applications. The company serves over 100,000 developers and more than 900 companies across sectors including healthcare and education.",
+    "source": "job_posting"
   },
   {
     "slug": "o-p-e-n",
