@@ -1629,10 +1629,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "lovable",
     "name": "Lovable",
-    "summary": "# Lovable\n\nLovable builds an AI-powered web development tool that generates, edits, and deploys full-stack web applications from natural language descriptions and screenshots. The platform operates in the low-code/AI development tools space, targeting developers and non-technical users who want to create functional web apps without writing code from scratch.",
-    "ats": "ashby"
+    "summary": "Lovable provides a no-code and AI-powered platform for building apps, websites, and digital products without requiring deep coding skills.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
