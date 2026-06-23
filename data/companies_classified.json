@@ -3941,10 +3941,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "snapdocs",
     "name": "Snapdocs",
-    "summary": "Snapdocs builds a digital closing platform that streamlines the mortgage closing process by enabling borrowers, lenders, title companies, and notaries to prepare, sign, and exchange closing documents electronically. The company operates in the financial services and real estate technology sectors, specifically addressing the document management and e-signature needs of the residential mortgage industry.",
-    "ats": "ashby"
+    "summary": "Snapdocs provides a platform for digital mortgage closing.",
+    "source": "one_liner"
   },
   {
     "slug": "sola",
