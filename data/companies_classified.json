@@ -9941,10 +9941,11 @@
     "ats": "breezy"
   },
   {
+    "ats": "greenhouse",
     "slug": "testlio",
     "name": "Testlio",
-    "summary": "Testlio provides cloud-based software testing and quality assurance services, connecting businesses with a global network of professional testers to validate applications across devices, browsers, and operating systems.",
-    "ats": "greenhouse"
+    "summary": "Testlio provides software testing services that can be conducted in any location, on any device, in any language, and on any payment system.",
+    "source": "meta_description"
   },
   {
     "slug": "arcos",
