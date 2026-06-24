@@ -5317,10 +5317,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "workday",
     "slug": "bonterra/wd1/bonterratech",
     "name": "Bonterra",
-    "summary": "Bonterra provides cloud-based software and services for nonprofits and social enterprises, offering integrated tools for grant management, donor management, accounting, and program delivery to help organizations manage their operations and impact measurement.",
-    "ats": "workday"
+    "summary": "Bonterra builds software solutions for nonprofits, public agencies, corporations, philanthropic organizations, and foundations to support fundraising, engagement, and impact management activities.",
+    "source": "job_posting"
   },
   {
     "ats": "workday",
@@ -9095,10 +9096,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "Payscale",
     "name": "Payscale",
-    "summary": "PayScale provides cloud-based compensation software and salary data services that help organizations benchmark employee pay, conduct market analyses, and make data-driven compensation decisions. The company operates in the HR technology and workforce analytics domain, serving mid-market and enterprise companies.",
-    "ats": "ashby"
+    "summary": "Payscale provides a compensation intelligence platform that combines data, workflows, and AI-powered insights to help HR, finance, and business leaders make pay decisions across their organizations.",
+    "source": "meta_description"
   },
   {
     "slug": "payzen-inc",
