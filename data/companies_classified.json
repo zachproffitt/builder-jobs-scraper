@@ -8145,10 +8145,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "hologram",
-    "name": "Hologram, Inc.",
-    "summary": "Hologram provides cellular IoT connectivity and device management services through a global MVNO platform that enables IoT devices to connect across multiple carriers and networks worldwide. The company serves manufacturers and enterprises that need reliable, scalable wireless connectivity for connected devices without building their own infrastructure.",
-    "ats": "greenhouse"
+    "name": "Hologram",
+    "summary": "Hologram provides global IoT connectivity solutions that allow users to connect, manage, and scale devices.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
@@ -9547,10 +9548,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "showpad",
     "name": "Showpad",
-    "summary": "Showpad provides a cloud-based sales enablement platform that helps sales teams create, manage, and deliver interactive digital presentations and content to clients. The platform operates in the enterprise software space, serving sales organizations across various industries who need to streamline their sales processes and improve client engagement.",
-    "ats": "greenhouse"
+    "summary": "Showpad builds an AI-powered sales enablement platform for field sales teams.",
+    "source": "meta_description"
   },
   {
     "ats": "workday",
