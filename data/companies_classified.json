@@ -189,11 +189,11 @@
     "source": "one_liner"
   },
   {
-    "name": "Commonwealth Fusion",
+    "ats": "lever",
     "slug": "cfsenergy",
-    "summary": "Commonwealth Fusion designs and builds commercially viable fusion power plants to accelerate the transition to fusion energy.",
-    "source_hash": "c439550d",
-    "ats": "lever"
+    "name": "Commonwealth Fusion",
+    "summary": "Commonwealth Fusion Systems designs and builds commercially viable fusion power plants, including the SPARC Tokamak, a next-generation tokamak device.",
+    "source": "job_posting"
   },
   {
     "name": "Kairos Power",
@@ -9189,10 +9189,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "unconventionalinc",
     "name": "Posterity Health",
-    "summary": "Posterity Health develops software that helps healthcare organizations manage patient records, clinical workflows, and data interoperability across multiple systems and facilities. Their platform focuses on enabling seamless information sharing and reducing administrative burden for hospitals, health systems, and other healthcare providers.",
-    "ats": "greenhouse"
+    "summary": "Unconventional AI develops AI computing technology designed to achieve energy efficiency comparable to biological systems.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
