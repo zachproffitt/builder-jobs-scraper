@@ -995,10 +995,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "descript",
     "name": "Descript",
-    "summary": "# Descript\n\nDescript builds a video and audio editing tool that uses automatic transcription to let users edit multimedia by editing text, similar to how you'd edit a document in a word processor. The company operates in the media editing and production software space.",
-    "ats": "greenhouse"
+    "summary": "Descript is a tool that allows users to record, transcribe, edit, and publish video and audio content through a text-based editing interface.",
+    "source": "meta_description"
   },
   {
     "slug": "hebbia",
@@ -6650,10 +6651,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "alembic",
     "name": "Alembic",
-    "summary": "Alembic is a database migration tool for SQLAlchemy that helps developers manage schema changes across different database versions in Python applications. It automates the creation and execution of migration scripts, allowing teams to track database evolution alongside their application code.",
-    "ats": "ashby"
+    "summary": "Alembic provides AI-driven analytics software that helps users predict revenue outcomes, optimize media spend, and gain real-time insights.",
+    "source": "meta_description"
   },
   {
     "slug": "Alignable",
@@ -9855,10 +9857,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "tapcart",
     "name": "Tapcart",
-    "summary": "Tapcart builds a mobile commerce platform that enables direct-to-consumer brands to create native iOS and Android apps without coding, allowing them to sell products, manage inventory, and engage customers through mobile storefronts. The company operates in the e-commerce and mobile app development space, serving primarily Shopify merchants and other online retailers.",
-    "ats": "ashby"
+    "summary": "Tapcart builds mobile commerce apps for Shopify stores that enable personalized shopping experiences and customer engagement.",
+    "source": "meta_description"
   },
   {
     "slug": "tapcheck",
