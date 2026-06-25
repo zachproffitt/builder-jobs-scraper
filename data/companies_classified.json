@@ -3518,10 +3518,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "lever",
     "slug": "people-ai",
     "name": "People.ai",
-    "summary": "People.ai builds artificial intelligence software that automatically captures and analyzes sales activities and interactions to provide visibility into deal progression and sales team performance. The company operates in the sales intelligence and revenue intelligence domain, serving sales organizations that need data-driven insights into their pipelines and team activity.",
-    "ats": "lever"
+    "summary": "People.ai captures and analyzes business activity data to help companies identify growth opportunities.",
+    "source": "one_liner"
   },
   {
     "ats": "ashby",
@@ -7519,10 +7520,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "smartrecruiters",
     "slug": "Freshworks",
     "name": "Device42",
-    "summary": "Device42 provides a comprehensive IT asset management and data center infrastructure management platform that discovers, maps, and documents physical and virtual IT assets, networks, and dependencies across hybrid environments.",
-    "ats": "smartrecruiters"
+    "summary": "Device42 provides agentless discovery and dependency mapping software that works across legacy mainframes to cloud containers.",
+    "source": "meta_description"
   },
   {
     "slug": "devrev",
@@ -8844,10 +8846,11 @@
     "ats": "workday"
   },
   {
+    "ats": "workday",
     "slug": "kaleris/wd501/kaleris_careers",
     "name": "Navis",
-    "summary": "Navis provides software and solutions for terminal operations, port management, and logistics optimization. The company serves shipping lines, terminal operators, and port authorities with platforms that manage container movements, vessel operations, and supply chain visibility.",
-    "ats": "workday"
+    "summary": "Navis offers a supply chain logistics platform that connects shippers to an ecosystem providing real-time insights into yard operations.",
+    "source": "meta_description"
   },
   {
     "ats": "workday",
