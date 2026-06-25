@@ -1917,10 +1917,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "aiprise",
     "name": "AiPrise",
-    "summary": "AiPrise builds an AI-powered compliance platform that verifies businesses and individuals globally through products including business verification, user verification, fraud and risk scoring, and AI agents for tasks like AML screening and document analysis. They serve financial services companies including payment platforms, neobanks, cross-border payment providers, cryptocurrency and stablecoin companies, lenders, and marketplaces.",
-    "ats": "ashby"
+    "summary": "AiPrise builds an AI-powered platform that helps organizations manage global compliance requirements.",
+    "source": "one_liner"
   },
   {
     "slug": "Airweave",
