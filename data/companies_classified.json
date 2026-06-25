@@ -6593,10 +6593,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "agero",
     "name": "Agero",
-    "summary": "Agero provides roadside assistance and vehicle support services, offering emergency towing, lockout services, and repair coordination to motorists through a network of service providers across North America.",
-    "ats": "greenhouse"
+    "summary": "Agero provides driver assistance services to over 30,000 drivers daily through software and human support.",
+    "source": "meta_description"
   },
   {
     "slug": "api",
