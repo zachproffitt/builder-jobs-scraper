@@ -6818,10 +6818,11 @@
     "ats": "breezy"
   },
   {
+    "ats": "ashby",
     "slug": "assured",
     "name": "Assured",
-    "summary": "Assured provides compliance and risk management software that helps organizations automate their security assessments, audits, and evidence collection across cloud and on-premise environments to meet regulatory standards like SOC 2, ISO 27001, and HIPAA.",
-    "ats": "ashby"
+    "summary": "Assured provides SaaS solutions to property and casualty insurance carriers for digitally ingesting, servicing, and processing claims.",
+    "source": "meta_description"
   },
   {
     "slug": "atticus",
