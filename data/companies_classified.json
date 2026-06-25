@@ -9887,10 +9887,11 @@
     "ats": "workday"
   },
   {
+    "ats": "greenhouse",
     "slug": "taskrabbit",
     "name": "Taskrabbit",
-    "summary": "TaskRabbit is a marketplace platform that connects users with independent contractors to complete various household and moving tasks. The company operates in the on-demand services space, allowing customers to hire Taskers for jobs ranging from furniture assembly and handyman work to cleaning and delivery services.",
-    "ats": "greenhouse"
+    "summary": "TaskRabbit operates a same-day service platform that connects users with skilled taskers to help with cleaning, furniture assembly, home repairs, running errands, and similar tasks.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
