@@ -9406,10 +9406,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "rstudio",
     "name": "RStudio",
-    "summary": "RStudio builds integrated development environments and data science tools for the R programming language, including RStudio IDE, Shiny for interactive web applications, and R Markdown for dynamic documents. The company serves data scientists, statisticians, and analysts who work with R for statistical computing and data visualization.",
-    "ats": "greenhouse"
+    "summary": "Posit provides an enterprise data science platform for developing, deploying, and governing R and Python workflows and AI-powered applications.",
+    "source": "meta_description"
   },
   {
     "slug": "rule4",
