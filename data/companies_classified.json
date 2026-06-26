@@ -2998,10 +2998,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "lever",
     "slug": "Instrumentl",
     "name": "Instrumentl",
-    "summary": "Instrumentl builds a grant discovery and management platform that helps nonprofits, researchers, and educational institutions identify and track funding opportunities from foundations and government agencies. The platform operates in the nonprofit funding and grants management domain, providing tools to match organizations with relevant grants and streamline the application process.",
-    "ats": "lever"
+    "summary": "Instrumentl provides software that automates grant discovery and management for nonprofit organizations.",
+    "source": "one_liner"
   },
   {
     "ats": "greenhouse",
