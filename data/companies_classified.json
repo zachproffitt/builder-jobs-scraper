@@ -9907,10 +9907,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "taxbit",
     "name": "TaxBit",
-    "summary": "TaxBit provides cryptocurrency tax reporting and compliance software that helps individuals and businesses calculate capital gains, track transactions across multiple exchanges and wallets, and generate tax documents for filing with the IRS.",
-    "ats": "greenhouse"
+    "summary": "TaxBit provides tax compliance and reporting technology that automates cryptocurrency tax compliance and regulatory reporting across more than 70 jurisdictions.",
+    "source": "meta_description"
   },
   {
     "ats": "lever",
