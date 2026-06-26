@@ -4094,10 +4094,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "taktile",
     "name": "Taktile",
-    "summary": "Taktile builds an agentic decision platform designed for financial institutions that combines AI agents with human oversight to automate and accelerate critical workflows such as customer onboarding, credit decisions, AML investigations, fraud detection, and insurance underwriting. The platform operates in the financial services domain, serving banks, insurance companies, and other regulated financial organizations that need to make faster, compliant decisions at scale.",
-    "ats": "ashby"
+    "summary": "Taktile provides a platform that combines AI automation with human oversight for financial institutions to approve customers, detect fraud, and maintain compliance.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
@@ -8742,10 +8743,11 @@
     "ats": "workday"
   },
   {
+    "ats": "lever",
     "slug": "microvision",
     "name": "Microvision",
-    "summary": "Microvision develops and manufactures micro-display technology, including liquid crystal on silicon (LCoS) displays and related optical components, primarily for augmented reality, virtual reality, and consumer electronics applications.",
-    "ats": "lever"
+    "summary": "MicroVision develops integrated lidar hardware and perception software solutions for autonomous systems, robotics, automated warehouses, and agriculture. The company manufactures solid-state lidar technologies including FMCW and MEMS-based long-range lidar and flash-based short-range lidar, with applications in advanced driver-assistance systems, autonomous driving, and semi- and fully autonomous airborne and terrestrial sensor systems.",
+    "source": "job_posting"
   },
   {
     "slug": "mikmak",
