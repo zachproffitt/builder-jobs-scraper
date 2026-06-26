@@ -7723,10 +7723,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "greenhouse",
     "slug": "energyhub",
     "name": "EnergyHub",
-    "summary": "EnergyHub provides a cloud-based platform that helps utilities, aggregators, and energy service companies manage distributed energy resources like solar, batteries, and electric vehicle chargers. The company operates in the demand response and grid modernization sector, enabling real-time coordination and optimization of these devices to balance electricity supply and demand.",
-    "ats": "greenhouse"
+    "summary": "EnergyHub provides software that helps utilities scale virtual power plants to manage load growth and renewable energy integration across the grid.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
