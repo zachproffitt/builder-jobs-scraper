@@ -8465,10 +8465,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "kit",
-    "name": "Kit",
-    "summary": "Kit is a platform that enables small businesses and entrepreneurs to launch and manage online stores without technical expertise, offering tools for inventory management, order fulfillment, and multi-channel selling across social media and marketplaces.",
-    "ats": "ashby"
+    "name": "ConvertKit",
+    "summary": "ConvertKit, which operates under the brand Kit, provides an email-first platform for creators that enables them to grow and monetize their audiences through email marketing automation, audience growth tools, and digital product sales. The company serves coaches, YouTubers, authors, podcasters, and other creatives with a unified marketing hub.",
+    "source": "job_posting"
   },
   {
     "ats": "workday",
