@@ -2410,10 +2410,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "ctgt",
     "name": "CTGT",
-    "summary": "CTGT builds a deterministic AI governance platform that applies representation-level control to generative AI systems, enabling organizations to enforce policies as executable code rather than relying on probabilistic guardrails. The company operates in high-risk, regulated domains including finance, insurance, media, and consumer goods, where it provides mathematically certain audit trails and defensible compliance for enterprise deployment of AI.",
-    "ats": "ashby"
+    "summary": "CTGT builds a governance layer for deploying artificial intelligence workflows that enforces policy, prevents drift, and produces auditable decisions in real time. The system, developed from Stanford University research, is designed to make large language models more reliable and controllable for organizations.",
+    "source": "job_posting"
   },
   {
     "slug": "culdesac",
