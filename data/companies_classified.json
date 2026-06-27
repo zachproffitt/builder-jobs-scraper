@@ -2273,10 +2273,11 @@
     "source": "one_liner"
   },
   {
+    "ats": "ashby",
     "slug": "cinder",
     "name": "Cinder",
-    "summary": "Cinder builds AI-powered agents that automate trust and safety operations for online platforms, handling content moderation, fraud detection, case investigation, and copyright enforcement at scale. The company operates in the trust and safety domain, providing infrastructure that helps platforms protect users from abuse, manipulation, and policy violations.",
-    "ats": "ashby"
+    "summary": "Cinder provides infrastructure to protect companies from AI abuse.",
+    "source": "one_liner"
   },
   {
     "slug": "circuithub",
