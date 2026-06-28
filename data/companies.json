@@ -46697,5 +46697,629 @@
     "name": "Zuul",
     "website": "https://zuul.ai",
     "status": "no_ats"
+  },
+  {
+    "name": "6thSense",
+    "website": "https://6thsense.dev",
+    "status": "no_ats",
+    "one_liner": "A nervous system for physical AI"
+  },
+  {
+    "name": "Atlas Discovery",
+    "website": "https://atlasdiscovery.bio",
+    "status": "no_ats",
+    "one_liner": "Discovering the atlas of disease biology using virtual cells."
+  },
+  {
+    "name": "Bloomy",
+    "website": "https://bloomylearning.com",
+    "status": "no_ats",
+    "one_liner": "AI-powered mastery learning for K-12"
+  },
+  {
+    "name": "Blueprints",
+    "website": "https://useblueprints.ai",
+    "status": "no_ats",
+    "one_liner": "Agentic harness for financial markets"
+  },
+  {
+    "name": "Coasty",
+    "website": "https://coasty.ai",
+    "status": "no_ats",
+    "one_liner": "Building the future of knowledge work, RPA and SOPs using computer use"
+  },
+  {
+    "name": "Cova",
+    "website": "https://cova.care",
+    "status": "no_ats",
+    "one_liner": "AI-Native Home Care Agency"
+  },
+  {
+    "name": "Denta",
+    "website": "https://trydenta.com",
+    "status": "no_ats",
+    "one_liner": "The dental practice that runs itself"
+  },
+  {
+    "name": "Dialogus",
+    "website": "https://www.dialoguslabs.com",
+    "status": "no_ats",
+    "one_liner": "Infra for enterprise voice agents."
+  },
+  {
+    "name": "Dialtone",
+    "website": "https://usedialtone.com",
+    "status": "no_ats",
+    "one_liner": "AI Agents for Enterprises"
+  },
+  {
+    "name": "Experiential Labs",
+    "website": "https://experientiallabs.ai",
+    "status": "no_ats",
+    "one_liner": "World models for AI agents"
+  },
+  {
+    "name": "Florin",
+    "website": "https://florin.inc",
+    "status": "no_ats",
+    "one_liner": "The financial operating system for the companies building the future."
+  },
+  {
+    "name": "FlowManual",
+    "website": "https://flowmanual.com",
+    "status": "no_ats",
+    "one_liner": "AI for Construction's Back Office."
+  },
+  {
+    "name": "Hexclave",
+    "website": "https://hexclave.com",
+    "status": "no_ats",
+    "one_liner": "The user infrastructure platform"
+  },
+  {
+    "name": "Insurf",
+    "website": "https://www.insurf.io",
+    "status": "no_ats",
+    "one_liner": "The AI-Native Decision Infrastructure for Health Insurance"
+  },
+  {
+    "name": "Isengard Industries Inc",
+    "website": "https://isengardindustries.com",
+    "status": "no_ats",
+    "one_liner": "Mass-produced AI strike systems and Counter-UAS"
+  },
+  {
+    "name": "LATO",
+    "website": "https://www.latolabs.io",
+    "status": "no_ats",
+    "one_liner": "Agent-native research and simulation platform for investors"
+  },
+  {
+    "name": "Levocred AI",
+    "website": "https://levocred.com",
+    "status": "no_ats",
+    "one_liner": "AI for every workflow inside a credit team"
+  },
+  {
+    "name": "Markov",
+    "website": "https://www.markovstudios.com",
+    "status": "no_ats",
+    "one_liner": "Data for computer-use ai"
+  },
+  {
+    "name": "Operon",
+    "website": "https://operonsolutions.com",
+    "status": "no_ats",
+    "one_liner": "Agentic data layer for manufacturing & process industries."
+  },
+  {
+    "name": "Panelytic",
+    "website": "https://panelytic.com",
+    "status": "no_ats",
+    "one_liner": "Payment infrastructure for machines"
+  },
+  {
+    "name": "Parasma",
+    "website": "https://parasma.com",
+    "status": "no_ats",
+    "one_liner": "Training human brain cells for AI compute"
+  },
+  {
+    "name": "Perceptron ML",
+    "website": "https://perceptronml.com",
+    "status": "no_ats",
+    "one_liner": "An event-driven AI engine that turns real-world signals into action."
+  },
+  {
+    "name": "Perseus",
+    "website": "https://perseus.computer",
+    "status": "no_ats",
+    "one_liner": "Applied Lab focused on Search in Latent Spaces."
+  },
+  {
+    "name": "Poth Labs",
+    "website": "https://pothlabs.com",
+    "status": "no_ats",
+    "one_liner": "Helping companies understand why users behave the way they do"
+  },
+  {
+    "name": "Simantic",
+    "website": "https://simantic.dev",
+    "status": "no_ats",
+    "one_liner": "Firmware simulation for AI agents"
+  },
+  {
+    "name": "Specific Labs",
+    "website": "https://withspecific.com",
+    "status": "no_ats",
+    "one_liner": "Audio and Enterprise Human Data for AI"
+  },
+  {
+    "name": "Talentpluto",
+    "website": "https://talentpluto.com",
+    "status": "no_ats",
+    "one_liner": "Voice agents that represent people's careers"
+  },
+  {
+    "name": "Tell if AI",
+    "website": "https://tellif.ai",
+    "status": "no_ats",
+    "one_liner": "AI agents on real phones, growing brands across every platform."
+  },
+  {
+    "name": "Truffle",
+    "website": "https://usetruffle.ai",
+    "status": "no_ats",
+    "one_liner": "The autonomous back-of-house for restaurants."
+  },
+  {
+    "name": "Whitespace",
+    "website": "https://whitespacehq.ai",
+    "status": "no_ats",
+    "one_liner": "AI Operating System for Wholesale Distributors"
+  },
+  {
+    "name": "Engram",
+    "website": "https://engram.com",
+    "status": "active",
+    "ats": "ashby",
+    "slug": "engram",
+    "category": [],
+    "meta_description": "AI has learned the world. Now it should learn yours.\nWe train AI on your unique context so it can match or beat frontier models while using 1%-10% of the tokens."
+  },
+  {
+    "name": "Probook",
+    "website": "https://probook.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sail Research",
+    "website": "https://sail-research.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "STARK",
+    "website": "https://stark.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "A Cloud Guru",
+    "website": "https://acloudguru.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Axelar",
+    "website": "https://axelar.network",
+    "status": "no_ats"
+  },
+  {
+    "name": "Axle Logistics",
+    "website": "https://axlelogi.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Basecamp Research",
+    "website": "https://basecampresearch.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Better.com",
+    "website": "https://better.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "BlocPower",
+    "website": "https://blocpower.io",
+    "status": "active",
+    "ats": "greenhouse",
+    "slug": "blocpower",
+    "category": []
+  },
+  {
+    "name": "Buildium",
+    "website": "https://buildium.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Canvas LMS",
+    "website": "https://canvaslms.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Canvas Medical",
+    "website": "https://canvasmedical.com",
+    "status": "active",
+    "ats": "ashby",
+    "slug": "canvas-medical",
+    "category": [],
+    "meta_description": "AI-powered healthcare platform for clinics. Streamline scheduling, charting, billing, telehealth, and automation with SDK and FHIR integration."
+  },
+  {
+    "name": "Canvass",
+    "website": "https://canvasshq.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Carbon Analytics",
+    "website": "https://carbonanalytics.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Carbon Black",
+    "website": "https://carbonblack.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "CarbonPlan",
+    "website": "https://carbonplan.org",
+    "status": "active",
+    "ats": "workable",
+    "slug": "carbonplan",
+    "category": [],
+    "meta_description": "Improving the transparency and scientific integrity of climate solutions with open data and tools."
+  },
+  {
+    "name": "CarbonTech",
+    "website": "https://carbontech.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Catalyst",
+    "website": "https://catalystdevelopers.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Caulo",
+    "website": "https://caulo.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "CBRE",
+    "website": "https://cbre.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Celigo",
+    "website": "https://celigo.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Certora",
+    "website": "https://certora.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "CloudQuery",
+    "website": "https://cloudquery.io",
+    "status": "active",
+    "ats": "workable",
+    "slug": "cloudquery",
+    "category": [],
+    "meta_description": "The unified control plane for cloud operations. Inspect, govern, and automate your entire cloud estate with infrastructure, security, and FinOps context."
+  },
+  {
+    "name": "Concur Technologies",
+    "website": "https://concur.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "CoStar Group",
+    "website": "https://costargroup.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Crunchyroll",
+    "website": "https://crunchyroll.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Cyclone DX",
+    "website": "https://cyclonedx.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Dfinity",
+    "website": "https://dfinity.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Disney",
+    "website": "https://disney.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Educative",
+    "website": "https://educative.io",
+    "status": "active",
+    "ats": "lever",
+    "slug": "educative",
+    "category": [],
+    "meta_description": "Built for technical minds at every level\u2014from aspiring engineers to CTOs (and yes, even a few CEOs \ud83e\udd2b)"
+  },
+  {
+    "name": "ElectricityMap",
+    "website": "https://electricitymap.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Element Energy",
+    "website": "https://element-energy.co.uk",
+    "status": "no_ats"
+  },
+  {
+    "name": "Env0",
+    "website": "https://env0.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Fidelity Investments",
+    "website": "https://fidelity.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Forta",
+    "website": "https://forta.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Framer",
+    "website": "https://framer.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Fuse Integration",
+    "website": "https://fusesource.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "GDS (Global Distribution System)",
+    "website": "https://gds.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Goibibo",
+    "website": "https://goibibo.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Gojek",
+    "website": "https://gojek.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Goldman Sachs",
+    "website": "https://goldmansachs.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Greensill",
+    "website": "https://greensill.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "iBASEt",
+    "website": "https://ibaset.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Intezer",
+    "website": "https://intezer.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Jump Trading",
+    "website": "https://jumptrading.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Kubecost",
+    "website": "https://kubecost.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "LogicMonitor",
+    "website": "https://logicmonitor.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Logile",
+    "website": "https://logile.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Lowercarbon Capital Portfolio",
+    "website": "https://lowercarboncapital.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Luminar",
+    "website": "https://luminartech.com",
+    "status": "active",
+    "ats": "lever",
+    "slug": "microvision",
+    "category": []
+  },
+  {
+    "name": "Mansfield",
+    "website": "https://mansfield.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Memcompute",
+    "website": "https://memcompute.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Minds Machines",
+    "website": "https://mindsmachines.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Moogsoft",
+    "website": "https://moogsoft.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "OctoML",
+    "website": "https://octoml.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Openmesh",
+    "website": "https://openmesh.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Predikto",
+    "website": "https://predikto.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Preply",
+    "website": "https://preply.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Quantum Eats",
+    "website": "https://quantum-eats.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Rent Manager",
+    "website": "https://rentmanager.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sanctuary",
+    "website": "https://sanctuary.finance",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sima Technologies",
+    "website": "https://sima.tech",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sonus Networks",
+    "website": "https://sonusnet.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Spacelift",
+    "website": "https://spacelift.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Subvention",
+    "website": "https://subvention.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sumologic",
+    "website": "https://sumologic.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sylvera",
+    "website": "https://sylvera.com",
+    "status": "active",
+    "ats": "ashby",
+    "slug": "sylvera",
+    "category": [],
+    "meta_description": "Independent ratings, market data, and geospatial analysis for carbon credits and low carbon commodities. Trusted by investors, corporates, and developers."
+  },
+  {
+    "name": "TECORE Networks",
+    "website": "https://tecoretech.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Tempus",
+    "website": "https://tempus.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Tempus Applied Solutions",
+    "website": "https://tempusapplied.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Trail of Bits",
+    "website": "https://trailofbits.com",
+    "status": "active",
+    "ats": "workable",
+    "slug": "trailofbits",
+    "category": [],
+    "meta_description": "Trail of Bits secures the software, blockchains, and AI systems the world relies on. Browse our security reviews, research, open-source tools, and talks."
+  },
+  {
+    "name": "Vaayu",
+    "website": "https://vaayu.co",
+    "status": "no_ats"
+  },
+  {
+    "name": "Vanguard",
+    "website": "https://vanguard.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Vanson Bourne",
+    "website": "https://vansonbourne.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Velodyne",
+    "website": "https://velodynelidar.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Vinted",
+    "website": "https://vinted.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "WithSecure",
+    "website": "https://withsecure.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Wonderware",
+    "website": "https://wonderware.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Yugabyte",
+    "website": "https://yugabyte.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Zabbix",
+    "website": "https://zabbix.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "ZTE",
+    "website": "https://zte.com.cn",
+    "status": "no_ats"
   }
 ]
