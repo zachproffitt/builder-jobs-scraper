@@ -3743,10 +3743,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "readme",
     "name": "ReadMe",
-    "summary": "ReadMe builds a platform for creating, hosting, and managing API documentation and developer portals that helps software companies provide better onboarding and reference materials for their APIs. The company operates in the developer tools and documentation-as-a-service space, serving engineering teams and developer relations departments at technology companies.",
-    "ats": "ashby"
+    "summary": "ReadMe builds developer documentation platforms that allow companies to create customized, interactive developer hubs.",
+    "source": "one_liner"
   },
   {
     "ats": "ashby",
@@ -10122,10 +10123,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "Union",
     "name": "Union.ai",
-    "summary": "Union.ai provides a unified control plane for machine learning workflows that enables data scientists and ML engineers to build, deploy, and manage production machine learning pipelines across different compute environments. The platform integrates with existing ML infrastructure and tools to streamline the development and orchestration of complex data and ML workflows.",
-    "ats": "ashby"
+    "summary": "Union.ai builds an AI development platform that orchestrates, trains, and serves AI models to help teams move from experimentation to production.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
