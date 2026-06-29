@@ -7421,10 +7421,11 @@
     "ats": "workable"
   },
   {
+    "ats": "greenhouse",
     "slug": "convoso",
     "name": "Convoso",
-    "summary": "Convoso builds a cloud-based contact center platform that enables outbound calling, inbound customer service, and sales engagement for businesses of all sizes. The platform provides features like automatic dialing, call recording, CRM integration, and workforce management tools designed for call centers and sales teams.",
-    "ats": "greenhouse"
+    "summary": "Convoso makes outbound dialer software for call centers that helps boost contact rates and revenue.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
@@ -10310,6 +10311,13 @@
     "slug": "pacaso",
     "name": "Pacaso",
     "summary": "Pacaso offers luxury vacation homes for co-ownership.",
+    "source": "meta_description"
+  },
+  {
+    "ats": "workday",
+    "slug": "nextgen/wd5/NextGen_Careers",
+    "name": "NextGen Healthcare",
+    "summary": "NextGen Healthcare provides cloud-based electronic health record (EHR) and electronic medical record (EMR) solutions with specialty-specific services designed to help medical practices streamline workflows and manage patient care.",
     "source": "meta_description"
   }
 ]
