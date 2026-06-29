@@ -3238,10 +3238,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "method",
     "name": "Method Financial",
-    "summary": "Method Financial builds software and financial infrastructure for independent financial advisors and wealth management firms to streamline client management, portfolio tracking, and advisory operations. The company operates in the financial technology and wealth management sector, serving registered investment advisors and similar professional advisory practices.",
-    "ats": "ashby"
+    "summary": "Method Financial builds a financial connectivity API that enables access to consumer liability accounts.",
+    "source": "one_liner"
   },
   {
     "ats": "ashby",
