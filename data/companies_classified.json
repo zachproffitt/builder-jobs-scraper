@@ -8212,10 +8212,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "hungryroot",
     "name": "Hungryroot",
-    "summary": "Hungryroot operates an online grocery delivery service that uses artificial intelligence to personalize product recommendations based on customers' dietary preferences, restrictions, and shopping history, delivering fresh groceries and ready-to-eat meals to homes in select metropolitan areas.",
-    "ats": "greenhouse"
+    "summary": "Hungryroot delivers groceries and simple recipes personalized to individual customers based on their preferences.",
+    "source": "meta_description"
   },
   {
     "slug": "icon",
@@ -10320,6 +10321,13 @@
     "slug": "nextgen/wd5/NextGen_Careers",
     "name": "NextGen Healthcare",
     "summary": "NextGen Healthcare provides cloud-based electronic health record (EHR) and electronic medical record (EMR) solutions with specialty-specific services designed to help medical practices streamline workflows and manage patient care.",
+    "source": "meta_description"
+  },
+  {
+    "ats": "ashby",
+    "slug": "arenanet",
+    "name": "ArenaNet",
+    "summary": "ArenaNet develops online games that combine art and gameplay.",
     "source": "meta_description"
   }
 ]
