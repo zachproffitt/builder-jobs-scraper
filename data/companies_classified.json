@@ -4883,10 +4883,11 @@
     "ats": "lever"
   },
   {
+    "ats": "greenhouse",
     "slug": "instabase",
     "name": "Instabase",
-    "summary": "Instabase provides an intelligent document processing platform that uses machine learning to extract, classify, and validate data from unstructured documents at scale. The company serves enterprises in financial services, insurance, and other document-heavy industries that need to automate manual data entry and document workflows.",
-    "ats": "greenhouse"
+    "summary": "Instabase provides an agentic automation platform that processes complex documents to extract verifiable intelligence, designed to help enterprises deploy document automation solutions at scale.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
@@ -8176,10 +8177,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "homeward",
     "name": "Homeward",
-    "summary": "Homeward provides a software platform that helps real estate agents and brokers manage their client relationships, listings, and transactions through tools designed to streamline workflows and improve collaboration across teams in the residential real estate industry.",
-    "ats": "greenhouse"
+    "summary": "Homeward enables homebuyers to make cash offers on new homes and sell their existing homes afterward, allowing them to compete more effectively in the real estate market.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
