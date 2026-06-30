@@ -911,10 +911,11 @@
     "source": "one_liner"
   },
   {
+    "ats": "greenhouse",
     "slug": "katalyst",
     "name": "Katalyst",
-    "summary": "Katalyst builds software infrastructure for clinical trials, helping life sciences companies manage patient recruitment, enrollment, and trial operations across distributed networks. The company operates in the clinical research and pharmaceutical development domain, providing cloud-based platforms that connect sponsors, contract research organizations, and trial sites.",
-    "ats": "greenhouse"
+    "summary": "Katalyst builds robotic spacecraft that perform operations such as maneuvering, upgrading, refueling, and exploration in space. The company develops foundational capabilities to enable sustained and responsive space operations.",
+    "source": "job_posting"
   },
   {
     "slug": "netflix",
@@ -2363,10 +2364,11 @@
     "source": "one_liner"
   },
   {
+    "ats": "ashby",
     "slug": "constellationspace",
     "name": "Constellation Space",
-    "summary": "Constellation Space builds ConstellationOS, an AI-native operating system that predicts failures in space networks minutes in advance and automatically executes policy-constrained reroutes to prevent data loss across satellite constellations. The company operates in the space communications and network infrastructure domain, providing autonomous fleet orchestration for operators managing satellite networks.",
-    "ats": "ashby"
+    "summary": "Constellation Space builds an AI operating system for mega-scale satellite networks.",
+    "source": "one_liner"
   },
   {
     "slug": "conveo",
