@@ -441,11 +441,11 @@
     "source": "meta_description"
   },
   {
-    "name": "Bedrock Ocean",
+    "ats": "ashby",
     "slug": "bedrockocean",
-    "summary": "Bedrock Ocean maps the ocean floor and builds systems to do it at scale.",
-    "source_hash": "0a0483e4",
-    "ats": "ashby"
+    "name": "Bedrock Ocean",
+    "summary": "Bedrock Ocean builds and operates autonomous underwater vehicles (AUVs) that collect georeferenced ocean-floor data at commercial scale, delivering bathymetric and imagery data products to customers through its platform. The company operates vehicles that can mobilize missions from any vessel in 24 to 72 hours and uses its modular architecture\u2014including Siren (autonomous underwater vehicles), Trident (command and control), and Mosaic (subsea data fusion)\u2014to provide intelligence capabilities for government and commercial partners in maritime security, infrastructure, energy, and climate applications.",
+    "source": "job_posting"
   },
   {
     "ats": "ashby",
