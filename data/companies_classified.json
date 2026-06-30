@@ -1754,10 +1754,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "openspace",
     "name": "OpenSpace",
-    "summary": "# OpenSpace\n\nOpenSpace builds AI-powered visual documentation software that captures 360-degree photos and video on construction job sites, then uses computer vision to automatically track progress, identify defects, and document as-built conditions. The company operates in the construction technology sector, serving general contractors and project managers who need to monitor jobsite activity and create records for compliance and dispute resolution.",
-    "ats": "greenhouse"
+    "summary": "OpenSpace builds a visual intelligence platform for construction teams that converts jobsite imagery into real-time insights to support decision-making. The platform is used on over 95,000 projects worldwide.",
+    "source": "meta_description"
   },
   {
     "slug": "EnergyVault",
