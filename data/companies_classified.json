@@ -7583,10 +7583,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "abclegalservices",
     "name": "Docketly",
-    "summary": "Docketly is a legal technology platform that streamlines court document management and filing workflows for law firms and legal departments. The company provides software to organize case documents, track deadlines, and automate court filing processes across different jurisdictions.",
-    "ats": "greenhouse"
+    "summary": "Docketly connects appearance attorneys and high-volume law firms through a platform that helps manage court appearances.",
+    "source": "meta_description"
   },
   {
     "slug": "docugami",
