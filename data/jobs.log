@@ -312,3 +312,4 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
 [2026-06-30T17:47:42Z] fetch_jobs: scraper error for BlocPower (greenhouse/blocpower): Greenhouse request failed for blocpower: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/blocpower/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-06-30T17:54:53Z] classify_jobs: job error: Supercell: Global Influencer & Creator Manager — Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 207341 tokens > 200000 maximum'}, 'request_id': 'req_011CcZsd4pbbbFujfcooizWY'}
