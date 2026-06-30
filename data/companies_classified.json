@@ -7764,10 +7764,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "enthought",
     "name": "Enthought",
-    "summary": "Enthought develops scientific and data science software tools, training, and consulting services for Python-based computing. The company provides open-source libraries like Mayavi for 3D visualization and Traits for building scientific applications, along with commercial products and expert services for organizations working with large-scale data analysis and scientific computing.",
-    "ats": "greenhouse"
+    "summary": "Enthought provides scientific computing software, training, and consulting services to enterprises across manufacturing, energy, pharmaceuticals, and finance, with offices in Austin, Tokyo, and Cambridge.",
+    "source": "job_posting"
   },
   {
     "ats": "ashby",
