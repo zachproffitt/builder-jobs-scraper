@@ -1704,10 +1704,11 @@
     "ats": "lever"
   },
   {
+    "ats": "ashby",
     "slug": "synctera",
     "name": "Synctera",
-    "summary": "# Synctera\n\nSynctera builds cloud-based banking infrastructure and APIs that enable financial institutions and fintech companies to offer deposit and lending products without building these systems from scratch. The company operates in the financial services technology domain, providing core banking capabilities as a service.",
-    "ats": "ashby"
+    "summary": "Synctera provides a banking and payments platform that enables companies to build, launch, and scale embedded banking and FinTech products.",
+    "source": "meta_description"
   },
   {
     "slug": "monzo",
