@@ -1858,10 +1858,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "smartrecruiters",
     "slug": "PeopleCanFly",
     "name": "People Can Fly",
-    "summary": "People Can Fly is a video game developer that creates action games and live service titles, including franchises like Outriders and Bulletstorm. The studio operates in the gaming industry, developing games primarily for PC and console platforms.",
-    "ats": "smartrecruiters"
+    "summary": "People Can Fly creates action video games.",
+    "source": "meta_description"
   },
   {
     "slug": "readysettechnologyinc",
