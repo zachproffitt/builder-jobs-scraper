@@ -2953,10 +2953,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "humaninterest",
     "name": "Human Interest",
-    "summary": "Human Interest builds retirement plan administration software that helps small and medium-sized businesses set up and manage 401(k) plans, IRAs, and other retirement savings programs for their employees. The company operates in the fintech and benefits administration space, providing compliance management, payroll integration, and employee education tools to simplify retirement plan sponsorship.",
-    "ats": "greenhouse"
+    "summary": "Human Interest builds 401(k) retirement plans for small and medium-sized businesses.",
+    "source": "one_liner"
   },
   {
     "slug": "hypercore",
