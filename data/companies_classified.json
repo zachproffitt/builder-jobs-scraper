@@ -5621,10 +5621,11 @@
     "ats": "breezy"
   },
   {
+    "ats": "workday",
     "slug": "manh/wd5/External",
     "name": "Manhattan Associates",
-    "summary": "Manhattan Associates develops supply chain and omnichannel commerce software solutions that help retailers, manufacturers, and logistics companies manage inventory, fulfillment, and customer orders across multiple channels and locations.",
-    "ats": "workday"
+    "summary": "Manhattan Associates creates supply chain commerce technology that connects people to consumer choices across warehouses, distribution networks, and retail stores.",
+    "source": "job_posting"
   },
   {
     "slug": "masonamerica",
