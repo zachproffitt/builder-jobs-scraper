@@ -3383,10 +3383,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "usenourish",
     "name": "Nourish",
-    "summary": "Nourish builds a digital platform that helps food and beverage brands manage their nutritional labeling, compliance, and product formulation data across different markets and regulations. The company operates in the food tech and regulatory compliance domain, serving manufacturers who need to navigate varying nutritional labeling requirements across jurisdictions.",
-    "ats": "greenhouse"
+    "summary": "Nourish provides telehealth nutrition counseling services with dietitian consultations that are covered by insurance.",
+    "source": "one_liner"
   },
   {
     "slug": "novacredit",
