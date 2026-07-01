@@ -8094,10 +8094,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "ashby",
     "slug": "graymatter-robotics",
     "name": "GrayMatter Robotics",
-    "summary": "GrayMatter Robotics develops autonomous mobile robots and software solutions for material handling and logistics automation in warehouses and manufacturing facilities. Their robots navigate complex indoor environments to transport goods, optimize workflows, and integrate with existing warehouse management systems.",
-    "ats": "ashby"
+    "summary": "GrayMatter Robotics builds an AI software layer for factory floors that adapts to different parts, processes, and environments, and improves over time with use.",
+    "source": "meta_description"
   },
   {
     "slug": "gremlin",
