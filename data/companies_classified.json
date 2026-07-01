@@ -7211,10 +7211,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "lever",
     "slug": "certifid",
     "name": "CertifID",
-    "summary": "CertifID provides digital identity verification and document authentication solutions for real estate transactions and financial services. Their platform enables secure verification of parties involved in real estate closings and other financial transactions through identity proofing, document validation, and fraud detection capabilities.",
-    "ats": "lever"
+    "summary": "CertifID provides verification services for banking information to help reduce wire fraud risk.",
+    "source": "meta_description"
   },
   {
     "ats": "lever",
