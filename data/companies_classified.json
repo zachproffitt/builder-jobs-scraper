@@ -2585,10 +2585,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "eventualcomputing",
     "name": "Eventual",
-    "summary": "I cannot provide accurate information about Eventual based on the homepage content provided, as the content shown is from Daft.ai, not Eventual's website. To write a factual description of what Eventual builds and their domain, I would need access to their actual homepage or reliable information about the company.",
-    "ats": "ashby"
+    "summary": "Eventual builds an AI data engine that processes multiple types of data at various scales.",
+    "source": "one_liner"
   },
   {
     "slug": "every-io",
@@ -2603,10 +2604,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "f2-ai",
     "name": "F2",
-    "summary": "F2 builds an AI platform that helps financial services firms manage compliance, risk, and operational workflows through natural language processing and document analysis. The company operates in the financial compliance and regulatory technology sector, serving banks, asset managers, and other regulated institutions.",
-    "ats": "ashby"
+    "summary": "F2 builds an AI platform for private markets investors.",
+    "source": "one_liner"
   },
   {
     "slug": "Farcast",
