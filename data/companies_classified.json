@@ -5500,10 +5500,11 @@
     "ats": "bamboo"
   },
   {
+    "ats": "workday",
     "slug": "elemica/wd501/Elemica_Careers",
     "name": "Elemica",
-    "summary": "Elemica operates a collaborative network platform that connects chemical manufacturers, logistics providers, and other supply chain partners to optimize inventory management, reduce costs, and improve operational efficiency in the chemical industry. The platform enables members to share real-time data on production capacity, storage availability, and transportation logistics to streamline the movement of chemicals and chemical products.",
-    "ats": "workday"
+    "summary": "Elemica provides network-enabled solutions that connect global supply chains and streamline operations for buying, selling, and moving goods.",
+    "source": "meta_description"
   },
   {
     "ats": "workday",
