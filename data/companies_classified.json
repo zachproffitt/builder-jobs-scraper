@@ -8920,10 +8920,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "novoed",
     "name": "NovoED",
-    "summary": "NovoED builds an online learning platform that enables organizations to create and deliver interactive, instructor-led courses for employee training, professional development, and organizational learning. The company operates in the corporate learning and development space, serving enterprises that need to scale personalized education experiences across distributed teams.",
-    "ats": "greenhouse"
+    "summary": "NovoED builds a talent development platform that uses industry expertise to help organizations improve their results.",
+    "source": "meta_description"
   },
   {
     "slug": "nudge",
