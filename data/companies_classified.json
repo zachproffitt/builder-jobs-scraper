@@ -5052,10 +5052,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "pilothq",
     "name": "Pilot",
-    "summary": "Pilot provides accounting, bookkeeping, and tax services for e-commerce businesses and startups, handling tasks like financial statement preparation, tax filing, and bookkeeping through a combination of software and dedicated accountants.",
-    "ats": "greenhouse"
+    "summary": "Pilot provides bookkeeping, CFO, and tax services for startups and small businesses.",
+    "source": "meta_description"
   },
   {
     "slug": "quilt",
