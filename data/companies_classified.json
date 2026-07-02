@@ -9466,10 +9466,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "runzero",
     "name": "runZero",
-    "summary": "runZero builds asset discovery and network visibility software that automatically identifies and catalogs all connected devices and services across an organization's network infrastructure, including IT, IoT, and OT environments. The platform operates in the cybersecurity and network management domain, helping enterprises maintain accurate inventory of their digital assets for security and compliance purposes.",
-    "ats": "greenhouse"
+    "summary": "runZero is an exposure management platform that helps organizations find unknown assets, assess risk, and reduce cyber exposure.",
+    "source": "meta_description"
   },
   {
     "slug": "ostrohealth",
