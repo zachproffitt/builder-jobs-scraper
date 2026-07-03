@@ -303,3 +303,4 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
 [2026-07-03T15:19:28Z] fetch_jobs: scraper error for BlocPower (greenhouse/blocpower): Greenhouse request failed for blocpower: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/blocpower/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-03T15:29:33Z] classify_companies: homepage fetch failed for https://rondoenergy.com: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'rondoenergy.com'. (_ssl.c:1010)
