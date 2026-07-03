@@ -1320,10 +1320,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "lever",
     "slug": "charmindustrial",
     "name": "Charm Industrial",
-    "summary": "Charm Industrial builds equipment that converts biomass and waste into biochar while capturing carbon dioxide, which is then compressed and stored permanently underground or in products. The company operates in the carbon removal and industrial decarbonization sector.",
-    "ats": "lever"
+    "summary": "Charm Industrial provides carbon removal through bio-oil sequestration.",
+    "source": "meta_description"
   },
   {
     "slug": "twelve",
@@ -10060,10 +10061,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "Tillster",
     "name": "Tillster, Inc",
-    "summary": "Tillster develops digital ordering and payment solutions for the restaurant and foodservice industry, including mobile apps, kiosks, and online ordering platforms that help restaurants manage customer orders and transactions across multiple channels.",
-    "ats": "ashby"
+    "summary": "Tillster provides a composable restaurant platform that enables restaurants to manage multiple channels, control guest interactions, and convert restaurant data into revenue.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
