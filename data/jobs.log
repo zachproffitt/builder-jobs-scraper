@@ -305,3 +305,4 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
 [2026-07-03T17:44:28Z] fetch_jobs: scraper error for Xylem (workday/xylem/wd5/xylem-careers): Workday request failed for xylem/wd5/xylem-careers: Server error '502 Bad Gateway' for url 'https://xylem.wd5.myworkdayjobs.com/wday/cxs/xylem/xylem-careers/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[2026-07-03T17:54:48Z] classify_companies: homepage fetch failed for https://rondoenergy.com: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'rondoenergy.com'. (_ssl.c:1010)
