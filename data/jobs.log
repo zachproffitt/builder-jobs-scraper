@@ -323,3 +323,4 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
 [2026-07-04T11:42:52Z] fetch_jobs: scraper error for Edge Impulse (eightfold/careers.qualcomm.com|edgeimpulse.com): Eightfold request failed for careers.qualcomm.com|edgeimpulse.com: Client error '404 NOT FOUND' for url 'https://careers.qualcomm.com/api/pcsx/search?domain=edgeimpulse.com&start=0&num=20'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-04T11:43:40Z] classify_companies: homepage fetch failed for https://rondoenergy.com: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'rondoenergy.com'. (_ssl.c:1010)
