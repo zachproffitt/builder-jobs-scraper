@@ -10351,5 +10351,12 @@
     "name": "ArenaNet",
     "summary": "ArenaNet develops online games that combine art and gameplay.",
     "source": "meta_description"
+  },
+  {
+    "ats": "workday",
+    "slug": "accenture/wd103/AccentureCareers",
+    "name": "Accenture",
+    "summary": "Accenture is a professional services company that provides strategy, consulting, technology, and operations services to help organizations build their digital capabilities, optimize operations, and accelerate growth.",
+    "source": "job_posting"
   }
 ]
