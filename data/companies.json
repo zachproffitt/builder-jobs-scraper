@@ -47321,5 +47321,471 @@
     "name": "ZTE",
     "website": "https://zte.com.cn",
     "status": "no_ats"
+  },
+  {
+    "name": "args",
+    "website": "https://args.io",
+    "status": "no_ats",
+    "one_liner": "A better GItHub"
+  },
+  {
+    "name": "Bylaw",
+    "website": "https://www.usebylaw.com",
+    "status": "no_ats",
+    "one_liner": "Guarantee your agents use the right evidence before they act."
+  },
+  {
+    "name": "Clado",
+    "website": "https://clado.ai",
+    "status": "no_ats",
+    "one_liner": "Global People Search"
+  },
+  {
+    "name": "Cosmic Robotics",
+    "website": "https://www.cosmicrobotics.com",
+    "status": "active",
+    "one_liner": "Autonomous construction on Earth and beyond",
+    "ats": "ashby",
+    "slug": "cosmic-robotics",
+    "category": [],
+    "meta_description": "New tools for new frontiers. Autonomous construction equipment to build critical infrastructure \u2014 the first frontier: utility-scale solar."
+  },
+  {
+    "name": "Discovered Materials",
+    "website": "https://discoveredmaterials.com",
+    "status": "no_ats",
+    "one_liner": "AI scientists to discover materials for the semiconductor industry."
+  },
+  {
+    "name": "Edviro",
+    "website": "https://edviroenergy.com",
+    "status": "no_ats",
+    "one_liner": "Energy world models that fix energy waste before it becomes expensive."
+  },
+  {
+    "name": "Ekpa",
+    "website": "https://goekpa.com",
+    "status": "no_ats",
+    "one_liner": "Building Autonomous Research Agents for Trading"
+  },
+  {
+    "name": "Feyn",
+    "website": "https://www.usefeyn.com",
+    "status": "no_ats",
+    "one_liner": "Custom models trained on your data"
+  },
+  {
+    "name": "Greypoint Industries",
+    "website": "https://greypointindustries.ca",
+    "status": "no_ats",
+    "one_liner": "Manufacturing the future of autonomous swarm warfare."
+  },
+  {
+    "name": "Inkbox",
+    "website": "https://inkbox.ai",
+    "status": "no_ats",
+    "one_liner": "Give your AI agents email, phone, iMessage and an internet address"
+  },
+  {
+    "name": "Instance",
+    "website": "https://tryinstance.app",
+    "status": "no_ats",
+    "one_liner": "A benchmark for synthetic video"
+  },
+  {
+    "name": "loopfour",
+    "website": "https://www.loopfour.com",
+    "status": "no_ats",
+    "one_liner": "AI for finance, without the black box."
+  },
+  {
+    "name": "Midplane",
+    "website": "https://midplane.ai",
+    "status": "no_ats",
+    "one_liner": "The safety layer between AI agents and your database"
+  },
+  {
+    "name": "Molagri",
+    "website": "https://molagri.com",
+    "status": "no_ats",
+    "one_liner": "Biopesticides that are safe for humans and bees."
+  },
+  {
+    "name": "Nebula Security",
+    "website": "https://nebusec.ai",
+    "status": "no_ats",
+    "one_liner": "An AI-native cybersecurity company"
+  },
+  {
+    "name": "OS3",
+    "website": "https://os3robotics.com",
+    "status": "no_ats",
+    "one_liner": "Intelligence and Machines for Physical Labor"
+  },
+  {
+    "name": "Ossus",
+    "website": "https://www.ossus.com",
+    "status": "no_ats",
+    "one_liner": "Intelligence for cultural institutions"
+  },
+  {
+    "name": "Ovlo",
+    "website": "https://ovlo.ai",
+    "status": "no_ats",
+    "one_liner": "Founder led hiring for London startups"
+  },
+  {
+    "name": "Petrarch",
+    "website": "https://petrarch.co",
+    "status": "no_ats",
+    "one_liner": "Market maker for specialized data assets"
+  },
+  {
+    "name": "Praxis AI",
+    "website": "https://www.praxisrobotics.io",
+    "status": "no_ats",
+    "one_liner": "Turns every company into a data vendor"
+  },
+  {
+    "name": "Prized",
+    "website": "https://prized.dev",
+    "status": "no_ats",
+    "one_liner": "Internal tools, built by the people who use them."
+  },
+  {
+    "name": "Risklytics",
+    "website": "https://www.risklytics.ai",
+    "status": "no_ats",
+    "one_liner": "AI-powered catastrophe risk modeling"
+  },
+  {
+    "name": "Salem Robotics Inc",
+    "website": "https://salemroboticsinc.com",
+    "status": "no_ats",
+    "one_liner": "We deploy robots for inspections in hazardous spaces, like nuclear."
+  },
+  {
+    "name": "Scope3D (fka WeReno)",
+    "website": "https://scope3d.com",
+    "status": "no_ats",
+    "one_liner": "AI-powered 3D building twins for design, renovation, and CapEx."
+  },
+  {
+    "name": "TwentyTwo",
+    "website": "https://twentytwo.bio",
+    "status": "active",
+    "one_liner": "AI infrastructure for biosecurity",
+    "ats": "ashby",
+    "slug": "LatchBio",
+    "category": [],
+    "meta_description": "Securing the future of biotechnology through intelligent screening and responsible innovation."
+  },
+  {
+    "name": "Verdant",
+    "website": "https://www.verdantapp.com",
+    "status": "no_ats",
+    "one_liner": "AI-native land-use permit management for local gov"
+  },
+  {
+    "name": "Accenture",
+    "website": "https://accenture.com",
+    "status": "active",
+    "ats": "workday",
+    "slug": "accenture/wd103/AccentureCareers",
+    "category": [],
+    "meta_description": "Across industries and around the world, we\u2019re creating better experiences for people using emerging technologies and human ingenuity. Together, we can reinvent anything."
+  },
+  {
+    "name": "Allot Communications",
+    "website": "https://allot.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Aurora Energy Research",
+    "website": "https://auroraer.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Brivity",
+    "website": "https://brivity.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Bugsnag",
+    "website": "https://bugsnag.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Cagivar",
+    "website": "https://cagivar.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Capgemini",
+    "website": "https://capgemini.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Celo Foundation",
+    "website": "https://celo.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Checkmarx",
+    "website": "https://checkmarx.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Climate TRACE",
+    "website": "https://climatetrace.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Climavision",
+    "website": "https://climavision.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Clip",
+    "website": "https://clip.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Cognizant",
+    "website": "https://cognizant.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Constructor",
+    "website": "https://constructorio.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Courseworks (EAB)",
+    "website": "https://eab.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "DaVinci Resolve",
+    "website": "https://blackmagicdesign.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Dematic",
+    "website": "https://dematic.com",
+    "status": "active",
+    "ats": "workday",
+    "slug": "kiongroup/wd3/KION_SCS",
+    "category": [],
+    "meta_description": "Welcome to Dematic North America. Supply Chain Automation, Material Handling, Warehouse Management, Logistics, Software & IT, and Consulting Services."
+  },
+  {
+    "name": "Dyson",
+    "website": "https://dyson.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "EPAM Systems",
+    "website": "https://epam.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Everactive",
+    "website": "https://everactive.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Figurative",
+    "website": "https://figurative.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Fusebit",
+    "website": "https://fusebit.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Golioth",
+    "website": "https://golioth.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Greensolver",
+    "website": "https://greensolver.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "HashiCorp Vault",
+    "website": "https://vaultproject.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Hookdeck",
+    "website": "https://hookdeck.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Hootsuite Academy",
+    "website": "https://hootsuite.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "HotPads",
+    "website": "https://hotpads.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "ILMxLAB (Lucasfilm)",
+    "website": "https://ilmxlab.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Infosys",
+    "website": "https://infosys.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Integromat",
+    "website": "https://integromat.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Ivy Tech",
+    "website": "https://ivytechgroup.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Netstock",
+    "website": "https://netstock.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Next.js",
+    "website": "https://nextjs.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Olive AI",
+    "website": "https://oliveai.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "OTA Insight",
+    "website": "https://otainsight.com",
+    "status": "active",
+    "ats": "greenhouse",
+    "slug": "lighthouse",
+    "category": [],
+    "meta_description": "Lighthouse transforms complexity into confidence with actionable insights, business intelligence & pricing solutions that maximize revenue."
+  },
+  {
+    "name": "PipedreamCo",
+    "website": "https://pipedream.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Pivotal (VMware)",
+    "website": "https://vmware.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Power Automate",
+    "website": "https://powerautomate.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Proxibid",
+    "website": "https://proxibid.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Quantumrock",
+    "website": "https://quantumrock.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Red Hat Integration",
+    "website": "https://redhat.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "RetailMeNot",
+    "website": "https://retailmenot.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sauce Labs",
+    "website": "https://saucelabs.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sotheby's International Realty",
+    "website": "https://sothebysrealty.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Stitcher",
+    "website": "https://stitcher.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Tailwind Labs",
+    "website": "https://tailwindlabs.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "TCS (Tata Consultancy Services)",
+    "website": "https://tcs.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "The Defiant",
+    "website": "https://thedefiant.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Thoughtworks",
+    "website": "https://thoughtworks.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Vedantu",
+    "website": "https://vedantu.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Vianode",
+    "website": "https://vianode.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "VIAVI Solutions",
+    "website": "https://viavisolutions.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "VRTL World",
+    "website": "https://vrtlworld.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Windy",
+    "website": "https://windy.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Xano",
+    "website": "https://xano.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Zeus Living",
+    "website": "https://zeuslivingrentals.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Zoominfo (formerly ZoomInfo)",
+    "website": "https://zoominfo.com",
+    "status": "no_ats"
   }
 ]
