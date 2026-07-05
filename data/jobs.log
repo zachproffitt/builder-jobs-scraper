@@ -305,3 +305,4 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
 [2026-07-05T14:52:19Z] fetch_jobs: scraper error for Johnson Controls (workday/jci/wd5/JCI): Workday request failed for jci/wd5/JCI: Client error '429 Too Many Requests' for url 'https://jci.wd5.myworkdayjobs.com/wday/cxs/jci/JCI/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+[2026-07-05T14:55:46Z] classify_companies: homepage fetch failed for https://rondoenergy.com: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'rondoenergy.com'. (_ssl.c:1010)
