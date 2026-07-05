@@ -304,3 +304,4 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
 [2026-07-05T00:10:28Z] fetch_jobs: scraper error for Visa (workday/visa/wd5/Visa): Workday request failed for visa/wd5/Visa: Client error '429 Too Many Requests' for url 'https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+[2026-07-05T00:11:03Z] classify_companies: homepage fetch failed for https://rondoenergy.com: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'rondoenergy.com'. (_ssl.c:1010)
