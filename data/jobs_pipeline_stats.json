@@ -1,17 +1,17 @@
 {
   "classified": 4,
-  "builder": 0,
-  "not_builder": 4,
+  "builder": 1,
+  "not_builder": 3,
   "unclear": 0,
-  "builder_rate": 0.0,
-  "title_skipped": 4,
-  "location_skipped": 4,
-  "skipped_no_desc": 13084,
+  "builder_rate": 0.25,
+  "title_skipped": 6,
+  "location_skipped": 2,
+  "skipped_no_desc": 13732,
   "errors": 0,
   "requests": 4,
-  "input_tokens": 4002,
-  "output_tokens": 631,
+  "input_tokens": 4692,
+  "output_tokens": 650,
   "cache_creation_input_tokens": 4221,
   "cache_read_input_tokens": 12663,
-  "cost_usd": 0.01369955
+  "cost_usd": 0.014484549999999999
 }
