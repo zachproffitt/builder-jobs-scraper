@@ -3672,10 +3672,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "prox",
     "name": "Prox",
-    "summary": "Prox builds AI-powered technical support systems that help customers get answers about complex physical products like ATVs, snowmobiles, and watercraft without having to search through manuals. The company operates in the customer support and product information domain, serving manufacturers who need to streamline how customers access technical specifications and maintenance guidance for their products.",
-    "ats": "ashby"
+    "summary": "Prox provides AI technical support for complex physical products.",
+    "source": "one_liner"
   },
   {
     "slug": "pulley",
