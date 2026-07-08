@@ -316,3 +316,4 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
 [2026-07-08T20:30:31Z] fetch_jobs: scraper error for Johnson Controls (workday/jci/wd5/JCI): Workday request failed for jci/wd5/JCI: Server error '520 <none>' for url 'https://jci.wd5.myworkdayjobs.com/wday/cxs/jci/JCI/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/520
+[2026-07-08T20:54:24Z] classify_companies: homepage fetch failed for https://rondoenergy.com: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'rondoenergy.com'. (_ssl.c:1010)

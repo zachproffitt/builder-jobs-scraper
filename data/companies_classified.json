@@ -6566,10 +6566,11 @@
     "ats": "workable"
   },
   {
+    "ats": "greenhouse",
     "slug": "acuitymd",
     "name": "AcuityMD",
-    "summary": "AcuityMD builds a cloud-based platform for managing diagnostic imaging workflows in healthcare facilities, enabling radiologists and clinicians to access, review, and collaborate on medical images from any device. The company serves hospitals, imaging centers, and health systems that need to streamline their picture archiving and communication systems (PACS) and improve diagnostic efficiency.",
-    "ats": "greenhouse"
+    "summary": "AcuityMD is a MedTech intelligence platform that combines data, AI-powered insights, and workflows to help teams move faster and win more.",
+    "source": "meta_description"
   },
   {
     "ats": "workday",
