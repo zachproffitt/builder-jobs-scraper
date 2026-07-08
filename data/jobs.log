@@ -330,3 +330,4 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
 [2026-07-08T11:53:32Z] fetch_jobs: scraper error for Follow Up Boss (workday/zillow/wd5/Zillow_Group_External): Workday request failed for zillow/wd5/Zillow_Group_External: Client error '429 Too Many Requests' for url 'https://zillow.wd5.myworkdayjobs.com/wday/cxs/zillow/Zillow_Group_External/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+[2026-07-08T13:28:16Z] classify_companies: homepage fetch failed for https://rondoenergy.com: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'rondoenergy.com'. (_ssl.c:1010)

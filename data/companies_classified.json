@@ -2202,10 +2202,11 @@
     "source": "one_liner"
   },
   {
+    "ats": "ashby",
     "slug": "Cambly",
     "name": "Cambly",
-    "summary": "Cambly operates an online platform that connects English language learners with native English-speaking tutors for one-on-one conversation practice and lessons via video chat. The company operates in the online education and language learning sector, offering flexible scheduling and on-demand tutoring to students worldwide.",
-    "ats": "ashby"
+    "summary": "Cambly provides on-demand access to English tutors over video chat.",
+    "source": "one_liner"
   },
   {
     "slug": "campfire",
@@ -7871,10 +7872,11 @@
     "ats": "breezy"
   },
   {
+    "ats": "greenhouse",
     "slug": "fairmarkit",
     "name": "Fairmarkit",
-    "summary": "Fairmarkit provides a procurement platform that helps mid-market and enterprise companies source products and services through an automated RFQ (request for quotation) and supplier management system. The platform connects buyers with vetted suppliers across various categories and streamlines the bidding process to reduce procurement costs and cycle times.",
-    "ats": "greenhouse"
+    "summary": "Fairmarkit is an autonomous sourcing platform that uses AI and generative AI capabilities to help procurement teams manage sourcing events and identify cost savings.",
+    "source": "meta_description"
   },
   {
     "slug": "farmshelf",
