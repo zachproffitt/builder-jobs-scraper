@@ -196,11 +196,11 @@
     "source": "job_posting"
   },
   {
-    "name": "Kairos Power",
+    "ats": "greenhouse",
     "slug": "kairospower",
-    "summary": "Kairos Power builds advanced nuclear reactors delivering reliable, safe power at scale.",
-    "source_hash": "1fdc7dba",
-    "ats": "greenhouse"
+    "name": "Kairos Power",
+    "summary": "Kairos Power builds advanced nuclear reactors that deliver reliable and safe nuclear power at scale.",
+    "source": "meta_description"
   },
   {
     "name": "Figure AI",
@@ -3802,10 +3802,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "revenuecat",
     "name": "RevenueCat",
-    "summary": "RevenueCat builds infrastructure and APIs that help mobile app developers manage in-app subscriptions, manage app monetization, and handle billing across iOS, Android, and web platforms. The company provides a backend service that abstracts away the complexity of integrating with Apple App Store, Google Play Store, and other app store billing systems, allowing developers to focus on their core product rather than subscription management.",
-    "ats": "ashby"
+    "summary": "RevenueCat provides an API for managing in-app subscriptions.",
+    "source": "one_liner"
   },
   {
     "slug": "tryriot",
@@ -10363,5 +10364,12 @@
     "name": "Accenture",
     "summary": "Accenture is a professional services company that provides strategy, consulting, technology, and operations services to help organizations build their digital capabilities, optimize operations, and accelerate growth.",
     "source": "job_posting"
+  },
+  {
+    "ats": "workday",
+    "slug": "kiongroup/wd3/KION_SCS",
+    "name": "Dematic",
+    "summary": "Dematic provides supply chain automation, material handling, warehouse management, logistics, software, IT, and consulting services.",
+    "source": "meta_description"
   }
 ]
