@@ -1461,10 +1461,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "rain",
     "name": "Rain Neuromorphics",
-    "summary": "Rain Neuromorphics develops neuromorphic computing processors that mimic biological brain structures to perform AI inference tasks with significantly lower power consumption than traditional GPUs. The company targets edge computing and embedded AI applications where energy efficiency and real-time processing are critical requirements.",
-    "ats": "ashby"
+    "summary": "Rain Neuromorphics builds a compute platform for AI infrastructure.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
@@ -8844,10 +8845,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "MotherDuck",
     "name": "MotherDuck",
-    "summary": "MotherDuck is a cloud-based analytics platform that provides a managed DuckDB service, allowing users to query large datasets directly in the browser without managing infrastructure. The company operates in the data analytics and SQL query engine space, offering serverless compute for analytical workloads with integration capabilities for various data sources.",
-    "ats": "ashby"
+    "summary": "MotherDuck provides a cloud data warehouse based on DuckDB that offers serverless SQL analytics without requiring infrastructure management.",
+    "source": "meta_description"
   },
   {
     "slug": "movandi",
