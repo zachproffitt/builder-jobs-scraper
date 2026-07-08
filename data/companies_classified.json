@@ -1556,10 +1556,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "cultureamp",
     "name": "Culture Amp",
-    "summary": "Culture Amp builds software that helps organizations collect, analyze, and act on employee feedback through surveys, pulse checks, and performance reviews. The platform operates in the human resources and employee experience management domain.",
-    "ats": "greenhouse"
+    "summary": "Culture Amp provides an employee experience platform that offers performance, development, and employee engagement tools.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
@@ -8552,10 +8553,11 @@
     "ats": "lever"
   },
   {
+    "ats": "ashby",
     "slug": "Kustomer",
     "name": "Kustomer",
-    "summary": "Kustomer builds a customer service platform that unifies conversations across email, SMS, social media, chat, and other channels into a single inbox for support teams. The company serves businesses of all sizes in the customer service and support operations domain.",
-    "ats": "ashby"
+    "summary": "Kustomer provides a customer service CRM platform that unifies conversations across channels, automates workflows, and includes AI-powered features to deliver personalized support.",
+    "source": "meta_description"
   },
   {
     "slug": "smartling",
