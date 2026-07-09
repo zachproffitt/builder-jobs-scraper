@@ -5644,10 +5644,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "bamboo",
     "slug": "masonamerica",
     "name": "Mason",
-    "summary": "Mason builds a platform that allows teams to create, manage, and share internal knowledge bases and documentation without requiring coding skills. The company operates in the enterprise software space, focusing on helping organizations centralize and organize their institutional knowledge.",
-    "ats": "bamboo"
+    "summary": "Mason provides a platform for developing and deploying smart devices from concept to market.",
+    "source": "one_liner"
   },
   {
     "ats": "workday",
@@ -10380,6 +10381,13 @@
     "slug": "kiongroup/wd3/KION_SCS",
     "name": "Dematic",
     "summary": "Dematic provides supply chain automation, material handling, warehouse management, logistics, software, IT, and consulting services.",
+    "source": "meta_description"
+  },
+  {
+    "ats": "lever",
+    "slug": "includedhealth",
+    "name": "Grand Rounds",
+    "summary": "Included Health delivers integrated virtual care and healthcare navigation services for employers and health plans.",
     "source": "meta_description"
   }
 ]
