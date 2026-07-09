@@ -3964,10 +3964,11 @@
     "source": "one_liner"
   },
   {
+    "ats": "greenhouse",
     "slug": "smartasset",
     "name": "SmartAsset",
-    "summary": "SmartAsset is a financial technology company that builds interactive tools and calculators to help consumers make informed decisions about personal finance topics including mortgages, taxes, retirement planning, and investments. The platform operates in the digital financial advisory and consumer finance education space, providing free calculators and matching services that connect users with financial advisors and lenders.",
-    "ats": "greenhouse"
+    "summary": "SmartAsset is a marketplace that connects consumers with financial advisors.",
+    "source": "one_liner"
   },
   {
     "ats": "ashby",
@@ -5456,10 +5457,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "workday",
     "slug": "darktrace/wd3/DarktaceExternal",
     "name": "Darktrace",
-    "summary": "Darktrace develops autonomous cybersecurity software that uses machine learning and AI to detect and respond to cyber threats in real-time across enterprise networks, cloud environments, and industrial systems without requiring predefined threat signatures.",
-    "ats": "workday"
+    "summary": "Darktrace provides AI software that detects and stops ongoing cyber-attacks within seconds, including ransomware, email phishing, and threats targeting cloud environments and critical infrastructure.",
+    "source": "meta_description"
   },
   {
     "slug": "deako",
