@@ -8870,10 +8870,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "nabla",
     "name": "Nabla",
-    "summary": "Nabla builds software platforms that help healthcare providers manage clinical workflows and patient communications, including ambient AI tools that automatically document patient encounters and administrative tasks.",
-    "ats": "ashby"
+    "summary": "Nabla builds an AI assistant that helps clinicians with clinical documentation, ambient listening, dictation, coding, and workflow management to streamline their clinical and financial operations. The company's software is used by over 100,000 clinicians across 130+ healthcare organizations.",
+    "source": "job_posting"
   },
   {
     "slug": "nalpeiron-inc",
