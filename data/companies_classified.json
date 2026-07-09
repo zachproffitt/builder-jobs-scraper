@@ -1742,10 +1742,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "radar",
     "name": "Radar",
-    "summary": "# Radar\n\nRadar builds location APIs and SDKs that enable mobile applications to detect user location, geofencing, and movement patterns. They operate in the location intelligence domain, serving mobile app developers who need to integrate location-based features like geofences, trip tracking, and place detection.",
-    "ats": "ashby"
+    "summary": "Radar provides a platform for geofencing, maps, and geo-compliance.",
+    "source": "meta_description"
   },
   {
     "slug": "carbon",
@@ -8384,10 +8385,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "ivalua",
     "name": "Ivalua",
-    "summary": "Ivalua provides a cloud-based procurement and supply chain management platform that helps enterprises streamline sourcing, purchasing, and supplier management processes. The company serves large organizations across industries seeking to optimize spend, reduce costs, and manage supplier relationships through its integrated software suite.",
-    "ats": "greenhouse"
+    "summary": "Ivalua provides a cloud-based spend management platform that enables companies to manage procurement across all spending categories and suppliers. The company was created in 2000 and serves hundreds of global brands to help them increase profitability, improve environmental and social governance performance, and lower risk.",
+    "source": "job_posting"
   },
   {
     "slug": "jampp",
