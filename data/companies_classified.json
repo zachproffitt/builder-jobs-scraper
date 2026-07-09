@@ -752,10 +752,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "greenhouse",
     "slug": "rondoenergy",
     "name": "Rondo Energy",
-    "summary": "# Rondo Energy\n\nRondo Energy builds thermal energy storage systems that use heated sand to store and release heat for industrial processes. The company operates in the industrial decarbonization sector, focusing on helping manufacturing facilities reduce emissions from high-temperature heating applications.",
-    "ats": "greenhouse"
+    "summary": "Rondo Energy makes high-temperature industrial energy storage equipment that operates at temperatures up to 1500\u00b0C and requires integrated measurement systems for temperature, pressure, and flow monitoring in extreme thermal and electrical environments.",
+    "source": "job_posting"
   },
   {
     "ats": "greenhouse",
