@@ -1624,10 +1624,11 @@
     "source": "one_liner"
   },
   {
+    "ats": "ashby",
     "slug": "Deepgram",
     "name": "Deepgram",
-    "summary": "Deepgram builds APIs and models for automatic speech recognition (ASR) and natural language understanding that convert audio into text and extract meaning from spoken content. The company operates in the speech AI domain, serving developers and enterprises that need to process voice data in applications like transcription, call analysis, and voice-enabled services.",
-    "ats": "ashby"
+    "summary": "Deepgram builds AI for speech transcription and understanding.",
+    "source": "one_liner"
   },
   {
     "slug": "Jasper AI",
