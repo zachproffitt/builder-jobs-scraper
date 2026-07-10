@@ -10395,5 +10395,12 @@
     "name": "Grand Rounds",
     "summary": "Included Health delivers integrated virtual care and healthcare navigation services for employers and health plans.",
     "source": "meta_description"
+  },
+  {
+    "ats": "ashby",
+    "slug": "LatchBio",
+    "name": "TwentyTwo",
+    "summary": "TwentyTwo builds AI infrastructure for biosecurity.",
+    "source": "one_liner"
   }
 ]
