@@ -5266,10 +5266,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "workday",
     "slug": "veradigm/wd12/VR",
     "name": "Veradigm",
-    "summary": "Veradigm provides cloud-based electronic health record and healthcare data platforms that enable clinicians, patients, and researchers to access and share medical information across healthcare systems and settings.",
-    "ats": "workday"
+    "summary": "Veradigm conducts programming and analytic tasks on large real-world evidence projects using EHR and claims data to produce research suitable for peer-reviewed medical journal publication.",
+    "source": "job_posting"
   },
   {
     "ats": "workday",
@@ -9001,10 +9002,11 @@
     "ats": "lever"
   },
   {
+    "ats": "lever",
     "slug": "olo",
     "name": "Olo",
-    "summary": "Olo provides a digital ordering and management platform for restaurants, enabling them to accept orders across multiple channels including their own websites, mobile apps, third-party delivery services, and social media, while managing operations and customer data from a single system.",
-    "ats": "lever"
+    "summary": "Olo provides a restaurant technology platform that enables digital ordering, catering, payments, marketing, and loyalty programs.",
+    "source": "meta_description"
   },
   {
     "slug": "om1",
