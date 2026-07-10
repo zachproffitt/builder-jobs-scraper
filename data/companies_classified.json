@@ -8149,10 +8149,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "harrys",
     "name": "Harry's Inc.",
-    "summary": "Harry's Inc. manufactures and sells men's grooming products including razors, shaving cream, and other personal care items, primarily through direct-to-consumer channels and retail partnerships. The company operates in the consumer packaged goods and personal care space, competing with traditional razor manufacturers and grooming brands.",
-    "ats": "greenhouse"
+    "summary": "Harry's Inc. is a men's grooming brand that offers shave, body, hair, and skin care products and is part of Mammoth Brands, a consumer packaged goods company that also owns the brands Flamingo, Lume, Mando, and Coterie.",
+    "source": "job_posting"
   },
   {
     "ats": "bamboo",
