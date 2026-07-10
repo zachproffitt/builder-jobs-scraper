@@ -10154,10 +10154,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "unbounce",
     "name": "Unbounce",
-    "summary": "Unbounce is a landing page builder and conversion optimization platform that enables marketers and agencies to create, test, and deploy high-converting landing pages without coding. The platform provides drag-and-drop page building, A/B testing tools, and AI-powered optimization features to help businesses improve their digital marketing performance.",
-    "ats": "greenhouse"
+    "summary": "Unbounce provides software for optimizing website conversions.",
+    "source": "meta_description"
   },
   {
     "slug": "perionnetworkltd",
