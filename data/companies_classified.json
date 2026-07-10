@@ -6891,10 +6891,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "avantus",
     "name": "Avantus",
-    "summary": "Avantus is a software company that provides workforce management and scheduling solutions designed for businesses with shift-based operations, including retail, hospitality, and healthcare sectors. Their platform helps organizations optimize labor scheduling, manage compliance, and improve employee engagement through tools for shift planning, time tracking, and workforce analytics.",
-    "ats": "greenhouse"
+    "summary": "Avantus develops and builds utility-scale solar and energy storage projects throughout the project lifecycle.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
@@ -7920,10 +7921,11 @@
     "ats": "lever"
   },
   {
+    "ats": "lever",
     "slug": "fireworkhq",
     "name": "Firework",
-    "summary": "Firework provides a short-form video platform and infrastructure for businesses to create, distribute, and monetize shoppable video content across websites, mobile apps, and social channels. The company operates in the video commerce and content management space, enabling retailers and brands to integrate interactive video experiences that drive engagement and sales.",
-    "ats": "lever"
+    "summary": "Firework provides a video commerce platform that helps brands connect with customers and drive conversions through video-based shopping experiences across online and offline channels.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
