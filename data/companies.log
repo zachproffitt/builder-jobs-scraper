@@ -1,134 +1,170 @@
-[2026-07-05 00:58:33 UTC] [yc] Fetching Algolia API key from YC company page...
-[2026-07-05 00:58:33 UTC] [yc] Fetching all companies from Algolia index 'YCCompany_production'...
-[2026-07-05 00:58:34 UTC] [yc] Fetched 6006 total companies from YC
-[2026-07-05 00:58:34 UTC] [yc] Active companies: 4159 | New: 26
-[2026-07-05 00:58:34 UTC] [yc] Added 26 new stubs to data/companies.json
-[2026-07-05 00:58:34 UTC] [vc] Scraping Founders Fund...
-[2026-07-05 00:58:35 UTC] [vc] Founders Fund: 62 companies
-[2026-07-05 00:58:35 UTC] [vc] Founders Fund: 0 new companies
-[2026-07-05 00:58:35 UTC] [vc] Scraping Khosla Ventures...
-[2026-07-05 00:58:35 UTC] [vc] Khosla Ventures: 15 companies
-[2026-07-05 00:58:35 UTC] [vc] Khosla Ventures: 0 new companies
-[2026-07-05 00:58:35 UTC] [vc] Scraping Greylock...
-[2026-07-05 00:58:36 UTC] [vc] Greylock: 158 companies
-[2026-07-05 00:58:36 UTC] [vc] Greylock: 0 new companies
-[2026-07-05 00:58:36 UTC] [vc] Scraping Sequoia...
-[2026-07-05 00:58:37 UTC] [vc] Sequoia: 412 companies
-[2026-07-05 00:58:37 UTC] [vc] Sequoia: 0 new companies
-[2026-07-05 00:58:37 UTC] [vc] Total new companies across all VCs: 0
-[2026-07-05 00:58:37 UTC] [vc] Nothing to add.
-[2026-07-05 00:58:37 UTC] [industry] Fetching industry categories from Claude...
-[2026-07-05 00:58:48 UTC] [industry] Got 30 industries
-[2026-07-05 00:58:52 UTC] [industry] AI and machine learning: 25 returned, 0 new
-[2026-07-05 00:58:58 UTC] [industry] Cloud computing and infrastructure: 25 returned, 0 new
-[2026-07-05 00:59:04 UTC] [industry] Developer tools and platforms: 25 returned, 1 new
-[2026-07-05 00:59:10 UTC] [industry] Data engineering and analytics: 25 returned, 0 new
-[2026-07-05 00:59:16 UTC] [industry] Cybersecurity and identity: 25 returned, 1 new
-[2026-07-05 00:59:21 UTC] [industry] Web and mobile development: 25 returned, 2 new
-[2026-07-05 00:59:28 UTC] [industry] DevOps and infrastructure automation: 25 returned, 1 new
-[2026-07-05 00:59:34 UTC] [industry] Database systems: 25 returned, 0 new
-[2026-07-05 00:59:40 UTC] [industry] Observability and monitoring: 25 returned, 1 new
-[2026-07-05 00:59:46 UTC] [industry] Fintech and financial services: 25 returned, 0 new
-[2026-07-05 00:59:52 UTC] [industry] E-commerce and retail technology: 25 returned, 2 new
-[2026-07-05 01:00:00 UTC] [industry] SaaS and business software: 25 returned, 0 new
-[2026-07-05 01:00:04 UTC] [industry] Healthcare and life sciences: 25 returned, 1 new
-[2026-07-05 01:00:10 UTC] [industry] Gaming and interactive entertainment: 25 returned, 1 new
-[2026-07-05 01:00:17 UTC] [industry] Autonomous systems and robotics: 25 returned, 1 new
-[2026-07-05 01:00:22 UTC] [industry] Internet of Things and embedded systems: 25 returned, 2 new
-[2026-07-05 01:00:28 UTC] [industry] Telecommunications and networking: 25 returned, 2 new
-[2026-07-05 01:00:34 UTC] [industry] Media and entertainment technology: 25 returned, 2 new
-[2026-07-05 01:00:40 UTC] [industry] Cybersecurity operations: 25 returned, 0 new
-[2026-07-05 01:00:46 UTC] [industry] Augmented and virtual reality: 25 returned, 1 new
-[2026-07-05 01:00:53 UTC] [industry] Supply chain and logistics software: 25 returned, 5 new
-[2026-07-05 01:00:58 UTC] [industry] Climate tech and sustainability: 25 returned, 8 new
-[2026-07-05 01:01:04 UTC] [industry] EdTech and online learning: 25 returned, 3 new
-[2026-07-05 01:01:10 UTC] [industry] Quantum computing: 25 returned, 0 new
-[2026-07-05 01:01:16 UTC] [industry] Blockchain and cryptocurrency: 25 returned, 2 new
-[2026-07-05 01:01:22 UTC] [industry] API and integration platforms: 25 returned, 6 new
-[2026-07-05 01:01:28 UTC] [industry] Low-code and no-code platforms: 25 returned, 1 new
-[2026-07-05 01:01:34 UTC] [industry] Enterprise software modernization: 25 returned, 9 new
-[2026-07-05 01:01:40 UTC] [industry] Real estate and property technology: 25 returned, 5 new
-[2026-07-05 01:01:46 UTC] [industry] Travel and hospitality technology: 25 returned, 1 new
-[2026-07-05 01:01:46 UTC] [industry] Total new companies: 58
-[2026-07-05 01:01:46 UTC] [industry] Added 58 new stubs to data/companies.json
-[2026-07-05 01:02:49 UTC] [ats] Resolved: 5 supported, 0 detected (no scraper), 79 not found
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Petrarch (petrarch.co)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Greypoint Industries (greypointindustries.ca)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: OS3 (os3robotics.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Praxis AI (www.praxisrobotics.io)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Ovlo (ovlo.ai)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Discovered Materials (discoveredmaterials.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Feyn (www.usefeyn.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Instance (tryinstance.app)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Ossus (www.ossus.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Risklytics (www.risklytics.ai)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Nebula Security (nebusec.ai)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Verdant (www.verdantapp.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: loopfour (www.loopfour.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Bylaw (www.usebylaw.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Cagivar (cagivar.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Clado (clado.ai)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Molagri (molagri.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Allot Communications (allot.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Midplane (midplane.ai)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Inkbox (inkbox.ai)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Scope3D (fka WeReno) (scope3d.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: args (args.io)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Climavision (climavision.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Checkmarx (checkmarx.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Salem Robotics Inc (salemroboticsinc.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Clip (clip.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Ekpa (goekpa.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Climate TRACE (climatetrace.org)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Constructor (constructorio.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Figurative (figurative.ai)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Fusebit (fusebit.io)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Courseworks (EAB) (eab.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Celo Foundation (celo.org)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: EPAM Systems (epam.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Brivity (brivity.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: ILMxLAB (Lucasfilm) (ilmxlab.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Everactive (everactive.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Bugsnag (bugsnag.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: HotPads (hotpads.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: DaVinci Resolve (blackmagicdesign.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Prized (prized.dev)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Edviro (edviroenergy.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Next.js (nextjs.org)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Netstock (netstock.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Ivy Tech (ivytechgroup.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Aurora Energy Research (auroraer.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Golioth (golioth.io)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Sotheby's International Realty (sothebysrealty.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: HashiCorp Vault (vaultproject.io)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Hookdeck (hookdeck.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: PipedreamCo (pipedream.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: RetailMeNot (retailmenot.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Cognizant (cognizant.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: The Defiant (thedefiant.io)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Pivotal (VMware) (vmware.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Hootsuite Academy (hootsuite.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Infosys (infosys.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Dyson (dyson.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Capgemini (capgemini.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Stitcher (stitcher.io)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Olive AI (oliveai.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Zeus Living (zeuslivingrentals.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Sauce Labs (saucelabs.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Power Automate (powerautomate.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: VRTL World (vrtlworld.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Thoughtworks (thoughtworks.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Zoominfo (formerly ZoomInfo) (zoominfo.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Red Hat Integration (redhat.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Windy (windy.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Vianode (vianode.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Integromat (integromat.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: VIAVI Solutions (viavisolutions.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Proxibid (proxibid.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Xano (xano.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: TCS (Tata Consultancy Services) (tcs.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Vedantu (vedantu.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Quantumrock (quantumrock.ai)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Greensolver (greensolver.com)
-[2026-07-05 01:02:49 UTC] [ats] ATS not detected: Tailwind Labs (tailwindlabs.com)
-[2026-07-05 01:02:49 UTC] [ats] Written to data/companies.json
+[2026-07-12 03:33:29 UTC] [yc] Fetching Algolia API key from YC company page...
+[2026-07-12 03:33:30 UTC] [yc] Fetching all companies from Algolia index 'YCCompany_production'...
+[2026-07-12 03:33:32 UTC] [yc] Fetched 6035 total companies from YC
+[2026-07-12 03:33:32 UTC] [yc] Active companies: 4186 | New: 41
+[2026-07-12 03:33:32 UTC] [yc] Added 41 new stubs to data/companies.json
+[2026-07-12 03:33:32 UTC] [vc] Scraping Founders Fund...
+[2026-07-12 03:33:32 UTC] [vc] Founders Fund: 62 companies
+[2026-07-12 03:33:32 UTC] [vc] Founders Fund: 0 new companies
+[2026-07-12 03:33:32 UTC] [vc] Scraping Khosla Ventures...
+[2026-07-12 03:33:33 UTC] [vc] Khosla Ventures: 15 companies
+[2026-07-12 03:33:33 UTC] [vc] Khosla Ventures: 0 new companies
+[2026-07-12 03:33:33 UTC] [vc] Scraping Greylock...
+[2026-07-12 03:33:34 UTC] [vc] Greylock: 158 companies
+[2026-07-12 03:33:34 UTC] [vc] Greylock: 0 new companies
+[2026-07-12 03:33:34 UTC] [vc] Scraping Sequoia...
+[2026-07-12 03:33:36 UTC] [vc] Sequoia: 412 companies
+[2026-07-12 03:33:36 UTC] [vc] Sequoia: 0 new companies
+[2026-07-12 03:33:36 UTC] [vc] Total new companies across all VCs: 0
+[2026-07-12 03:33:36 UTC] [vc] Nothing to add.
+[2026-07-12 03:33:36 UTC] [industry] Fetching industry categories from Claude...
+[2026-07-12 03:33:47 UTC] [industry] Got 29 industries
+[2026-07-12 03:33:51 UTC] [industry] AI and machine learning: 25 returned, 0 new
+[2026-07-12 03:33:56 UTC] [industry] Cloud infrastructure: 25 returned, 1 new
+[2026-07-12 03:34:06 UTC] [industry] Cybersecurity: 25 returned, 1 new
+[2026-07-12 03:34:09 UTC] [industry] Developer tools: 25 returned, 2 new
+[2026-07-12 03:34:14 UTC] [industry] Data engineering and analytics: 25 returned, 2 new
+[2026-07-12 03:34:23 UTC] [industry] Databases and data storage: 25 returned, 2 new
+[2026-07-12 03:34:27 UTC] [industry] DevOps and infrastructure: 25 returned, 3 new
+[2026-07-12 03:34:32 UTC] [industry] E-commerce and retail technology: 25 returned, 2 new
+[2026-07-12 03:34:38 UTC] [industry] Fintech and financial services: 25 returned, 1 new
+[2026-07-12 03:34:45 UTC] [industry] Healthcare technology: 25 returned, 3 new
+[2026-07-12 03:34:51 UTC] [industry] Observability and monitoring: 25 returned, 4 new
+[2026-07-12 03:34:58 UTC] [industry] Real estate and property tech: 25 returned, 6 new
+[2026-07-12 03:35:03 UTC] [industry] SaaS and business software: 25 returned, 0 new
+[2026-07-12 03:35:08 UTC] [industry] EdTech and learning platforms: 25 returned, 2 new
+[2026-07-12 03:35:15 UTC] [industry] Gaming and interactive entertainment: 25 returned, 1 new
+[2026-07-12 03:35:20 UTC] [industry] Social media and content platforms: 25 returned, 0 new
+[2026-07-12 03:35:27 UTC] [industry] Telecommunications and networking: 25 returned, 2 new
+[2026-07-12 03:35:33 UTC] [industry] Internet of Things: 25 returned, 3 new
+[2026-07-12 03:35:38 UTC] [industry] Autonomous vehicles and robotics: 25 returned, 3 new
+[2026-07-12 03:35:45 UTC] [industry] Supply chain and logistics: 25 returned, 3 new
+[2026-07-12 03:35:51 UTC] [industry] Marketing and advertising technology: 25 returned, 4 new
+[2026-07-12 03:35:57 UTC] [industry] Travel and hospitality technology: 25 returned, 2 new
+[2026-07-12 03:36:04 UTC] [industry] Media and entertainment tech: 25 returned, 2 new
+[2026-07-12 03:36:09 UTC] [industry] Climate and sustainability tech: 25 returned, 12 new
+[2026-07-12 03:36:15 UTC] [industry] Quantum computing: 25 returned, 1 new
+[2026-07-12 03:36:20 UTC] [industry] Blockchain and cryptocurrency: 25 returned, 2 new
+[2026-07-12 03:36:27 UTC] [industry] Augmented reality and virtual reality: 25 returned, 0 new
+[2026-07-12 03:36:33 UTC] [industry] Agriculture technology: 25 returned, 10 new
+[2026-07-12 03:36:39 UTC] [industry] Manufacturing and industrial tech: 25 returned, 9 new
+[2026-07-12 03:36:39 UTC] [industry] Total new companies: 83
+[2026-07-12 03:36:39 UTC] [industry] Added 83 new stubs to data/companies.json
+[2026-07-12 03:38:10 UTC] [ats] Resolved: 8 supported, 0 detected (no scraper), 116 not found
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: IRBC (irbc.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Agnost AI (agnost.ai)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Libra Robotics (www.librabots.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: 83 Sciences (83sciences.ai)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Conifer (www.conifer.build)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Justinian (justinianai.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Litmus (litmushiring.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Floracene (www.floracene.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Earendil Robotics (earendil.io)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: InferEdge (www.inferedge.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Amulet (amulet.so)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Monumint (monumint.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Rindler (rindler.ai)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Hanji (hanji.dev)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Portalform (portalform.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Robocurve (robocurve.org)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Osseus (osseus.ai)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Palette (palettetechnology.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: HyperProbe (hyperprobe.co)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Alkera AI (alkera.ai)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: OpenCode (opencode.ai)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: ProvenMetal (provenmetal.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Glop.dev (www.glop.dev)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Ag-Tech Genomics (agtech-genomics.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Tempa (tempa.agency)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: General Learning (generallearning.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Speko (speko.ai)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Definite (www.usedefinite.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: TrustAI (auto.trytrust.ai)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Alloovium (www.alloovium.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: LemonLime (www.lemonlime.ai)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: OpenTrade (opentrade.live)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Understudy Labs (understudylabs.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: MSPilot (mspilot.io)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Vestris (vestris.ai)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Trope (trope.ai)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Torus (www.usetorus.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: screenpipe (screenpipe.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Anchor Protocol (anchorprotocol.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Apache Beam (beam.apache.org)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Augmentir (augmentir.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Skymerse (skymerse.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Zomma (zommalabs.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Apptis Technologies (apptis.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Aspen Technology (aspentech.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Afterpay (afterpay.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Rise Reforming (rise-reforming.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: OpenRelay (www.openrelay.inc)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: CloudHealth (VMware) (cloudhealthtech.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Calibrate Health (calibrate.care)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Chewy (chewy.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Dig Security (dig.security)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Beckhoff (beckhoff.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Ecomaps (ecomaps.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Garten Rothkopf (garten-rothkopf.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Farmsmart (farmsmart.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Bandwidth Inc (bandwidth.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Geosys (geosys.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Chef (Progress) (progress.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Connecterra (connecterra.io)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Bilibili (bilibili.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Climate Analytics (climateanalytics.org)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Loom Systems (loomsystems.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Carbon Lighthouse (carbonlighthouse.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Anthology (anthology.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Farm Technology (farmdroid.dk)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Kickstarter (kickstarter.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Honda (honda.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Kakao Games (kakaogames.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Lastminute.com (lastminute.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Heap (heap.io)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: OpsRamp (opsramp.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Pattern Energy (patternenergy.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Realogy (realogy.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: CySec (cysec.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: BMW (bmw.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Micropython (micropython.org)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: AppLovin (applovin.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Gradle (gradle.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: OpenCV (opencv.org)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Rogue Robotics (roguerobotics.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Soilgrid (soilgrid.ai)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Scaphandre (hubblo.org)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Memverge (memverge.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Skillsoft (skillsoft.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Rahko (rahko.ai)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Rentometer (rentometer.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Splice Machine (splicemachine.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Optimizely (optimizely.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Speedrun (speedrun.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Telit (telit.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Senseair (senseair.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: SolarWinds (solarwinds.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Rockerbox (rockerbox.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: VTS (vts.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Voxware (voxware.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Zebra Medical Vision (zebra-med.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Presenso (presenso.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Mitsubishi Electric (mitsubishielectric.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Upland Software (uplandsoftware.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: ORTEC (ortec.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Vrbo (HomeAway) (vrbo.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: The Linux Foundation (linuxfoundation.org)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Singtel (singtel.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Rivery (rivery.io)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: PTV Group (ptvgroup.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Sentera (sentera.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Zillow Group (zillowgroup.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Gradiant (gradiant.org)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: World Resources Institute (wri.org)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Yamaha Motor (yamaha-motor.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Dude Solutions (dudesolutions.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: u-blox (u-blox.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Truveta (truveta.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Determine (determine.com)
+[2026-07-12 03:38:10 UTC] [ats] ATS not detected: Brookfield Renewable (brookfieldrenewable.com)
+[2026-07-12 03:38:10 UTC] [ats] Written to data/companies.json

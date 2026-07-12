@@ -47787,5 +47787,698 @@
     "name": "Zoominfo (formerly ZoomInfo)",
     "website": "https://zoominfo.com",
     "status": "no_ats"
+  },
+  {
+    "name": "83 Sciences",
+    "website": "https://83sciences.ai",
+    "status": "no_ats",
+    "one_liner": "AI-native materials discovery powered by unpublished experimental data"
+  },
+  {
+    "name": "Agnost AI",
+    "website": "https://agnost.ai",
+    "status": "no_ats",
+    "one_liner": "Product analytics for teams building conversational agents"
+  },
+  {
+    "name": "Alkera AI",
+    "website": "https://alkera.ai",
+    "status": "no_ats",
+    "one_liner": "Data engineering and data science agents that are reliable and safe"
+  },
+  {
+    "name": "Alloovium",
+    "website": "https://www.alloovium.com",
+    "status": "no_ats",
+    "one_liner": "Construction paperwork that finally works for your team"
+  },
+  {
+    "name": "Amulet",
+    "website": "https://amulet.so",
+    "status": "no_ats",
+    "one_liner": "Agents that drive customer success"
+  },
+  {
+    "name": "Conifer",
+    "website": "https://www.conifer.build",
+    "status": "no_ats",
+    "one_liner": "Local-first least cost routing system to reduce 80%+ token spend"
+  },
+  {
+    "name": "Definite",
+    "website": "https://www.usedefinite.com",
+    "status": "no_ats",
+    "one_liner": "The most accurate financial agents"
+  },
+  {
+    "name": "Earendil Robotics",
+    "website": "https://earendil.io",
+    "status": "no_ats",
+    "one_liner": "Drone swarm defence at a small-unit level"
+  },
+  {
+    "name": "Floracene",
+    "website": "https://www.floracene.com",
+    "status": "no_ats",
+    "one_liner": "Optimized medical device purchasing for independent providers"
+  },
+  {
+    "name": "General Learning",
+    "website": "https://generallearning.com",
+    "status": "no_ats",
+    "one_liner": "AI tutors for students."
+  },
+  {
+    "name": "Glop.dev",
+    "website": "https://www.glop.dev",
+    "status": "no_ats",
+    "one_liner": "How great teams ship with AI"
+  },
+  {
+    "name": "Hanji",
+    "website": "https://hanji.dev",
+    "status": "no_ats",
+    "one_liner": "Turn complex documents into AI-ready data"
+  },
+  {
+    "name": "HyperProbe",
+    "website": "https://hyperprobe.co",
+    "status": "no_ats",
+    "one_liner": "Your coding agent writes code. Now let it fix prod too."
+  },
+  {
+    "name": "InferEdge",
+    "website": "https://www.inferedge.com",
+    "status": "no_ats",
+    "one_liner": "Agentic AI for buy-side firms"
+  },
+  {
+    "name": "IRBC",
+    "website": "https://irbc.com",
+    "status": "no_ats",
+    "one_liner": "AI native meeting platform"
+  },
+  {
+    "name": "Justinian",
+    "website": "https://justinianai.com",
+    "status": "no_ats",
+    "one_liner": "Builders of the first AI-native government affairs firm."
+  },
+  {
+    "name": "LemonLime",
+    "website": "https://www.lemonlime.ai",
+    "status": "no_ats",
+    "one_liner": "No-code AI that learns your business and self-creates automations."
+  },
+  {
+    "name": "Libra Robotics",
+    "website": "https://www.librabots.com",
+    "status": "no_ats",
+    "one_liner": "Autonomous robots for solar farm construction"
+  },
+  {
+    "name": "Litmus",
+    "website": "https://litmushiring.com",
+    "status": "no_ats",
+    "one_liner": "Run an async work trial on every engineer you interview."
+  },
+  {
+    "name": "Monumint",
+    "website": "https://monumint.com",
+    "status": "no_ats",
+    "one_liner": "Conversational AI purpose-built for financial services"
+  },
+  {
+    "name": "MSPilot",
+    "website": "https://mspilot.io",
+    "status": "no_ats",
+    "one_liner": "Turn AI adoption into a recurring revenue line."
+  },
+  {
+    "name": "OpenCode",
+    "website": "https://opencode.ai",
+    "status": "no_ats",
+    "one_liner": "The open source AI coding agent"
+  },
+  {
+    "name": "OpenRelay",
+    "website": "https://www.openrelay.inc",
+    "status": "no_ats",
+    "one_liner": "Distributed, hardware-agnostic AI inference"
+  },
+  {
+    "name": "OpenTrade",
+    "website": "https://opentrade.live",
+    "status": "no_ats",
+    "one_liner": "Investing for the rest of us"
+  },
+  {
+    "name": "Osseus",
+    "website": "https://osseus.ai",
+    "status": "no_ats",
+    "one_liner": "The secure research brain for accelerating R&D"
+  },
+  {
+    "name": "Palette",
+    "website": "https://palettetechnology.com",
+    "status": "no_ats",
+    "one_liner": "An interactive AI video generation and editing platform"
+  },
+  {
+    "name": "Portalform",
+    "website": "https://portalform.com",
+    "status": "no_ats",
+    "one_liner": "Build and host internal tools"
+  },
+  {
+    "name": "ProvenMetal",
+    "website": "https://provenmetal.com",
+    "status": "no_ats",
+    "one_liner": "Fast-turn, American made PCBs"
+  },
+  {
+    "name": "Rindler",
+    "website": "https://rindler.ai",
+    "status": "no_ats",
+    "one_liner": "The translation layer between AI agents and the web"
+  },
+  {
+    "name": "Rise Reforming",
+    "website": "https://rise-reforming.com",
+    "status": "no_ats",
+    "one_liner": "We turn waste gases into valuable supply-secure chemicals"
+  },
+  {
+    "name": "Robocurve",
+    "website": "https://robocurve.org",
+    "status": "no_ats",
+    "one_liner": "We measure how well robots can do real-world jobs."
+  },
+  {
+    "name": "screenpipe",
+    "website": "https://screenpipe.com",
+    "status": "no_ats",
+    "one_liner": "Capture how you work and turn that into agents"
+  },
+  {
+    "name": "Skymerse",
+    "website": "https://skymerse.com",
+    "status": "no_ats",
+    "one_liner": "Autopilot for Flight Operations"
+  },
+  {
+    "name": "Speko",
+    "website": "https://speko.ai",
+    "status": "no_ats",
+    "one_liner": "OpenRouter for voice AI"
+  },
+  {
+    "name": "Tempa",
+    "website": "https://tempa.agency",
+    "status": "no_ats",
+    "one_liner": "Drop in growth system for scaling startups"
+  },
+  {
+    "name": "Torus",
+    "website": "https://www.usetorus.com",
+    "status": "no_ats",
+    "one_liner": "Legora for physical engineering firms"
+  },
+  {
+    "name": "Trope",
+    "website": "https://trope.ai",
+    "status": "no_ats",
+    "one_liner": "Modernize ERP Implementations with AI"
+  },
+  {
+    "name": "TrustAI",
+    "website": "https://auto.trytrust.ai",
+    "status": "no_ats",
+    "one_liner": "Suggested cross-tool automations that run in one-click in background"
+  },
+  {
+    "name": "Understudy Labs",
+    "website": "https://understudylabs.com",
+    "status": "no_ats",
+    "one_liner": "Effortlessly move to open weight models"
+  },
+  {
+    "name": "Vestris",
+    "website": "https://vestris.ai",
+    "status": "no_ats",
+    "one_liner": "Replaces title searchers and closes property deals"
+  },
+  {
+    "name": "Zomma",
+    "website": "https://zommalabs.com",
+    "status": "no_ats",
+    "one_liner": "Computer Use Agents for back offices in finance"
+  },
+  {
+    "name": "Afterpay",
+    "website": "https://afterpay.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Ag-Tech Genomics",
+    "website": "https://agtech-genomics.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Akselos",
+    "website": "https://akselos.com",
+    "status": "active",
+    "ats": "bamboo",
+    "slug": "akselos",
+    "category": [],
+    "meta_description": "Akselos provides Structural Performance Management software. We optimise designs, run predictive maintenance & safely extend the life of critical assets."
+  },
+  {
+    "name": "Anchor Protocol",
+    "website": "https://anchorprotocol.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Anthology",
+    "website": "https://anthology.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Anza",
+    "website": "https://anza.xyz",
+    "status": "active",
+    "ats": "workable",
+    "slug": "anza-xyz",
+    "category": [],
+    "meta_description": "Anza is the leading Solana-focused software development firm, building resilient, elegant, and impactful protocols."
+  },
+  {
+    "name": "Apache Beam",
+    "website": "https://beam.apache.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "AppLovin",
+    "website": "https://applovin.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Apptis Technologies",
+    "website": "https://apptis.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Aspen Technology",
+    "website": "https://aspentech.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Augmentir",
+    "website": "https://augmentir.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Bandwidth Inc",
+    "website": "https://bandwidth.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Beckhoff",
+    "website": "https://beckhoff.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Bilibili",
+    "website": "https://bilibili.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "BMW",
+    "website": "https://bmw.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Brookfield Renewable",
+    "website": "https://brookfieldrenewable.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Calibrate Health",
+    "website": "https://calibrate.care",
+    "status": "no_ats"
+  },
+  {
+    "name": "Carbon Lighthouse",
+    "website": "https://carbonlighthouse.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Chef (Progress)",
+    "website": "https://progress.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Chewy",
+    "website": "https://chewy.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Climate Analytics",
+    "website": "https://climateanalytics.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Climatiq",
+    "website": "https://climatiq.io",
+    "status": "active",
+    "ats": "ashby",
+    "slug": "climatiq",
+    "category": [],
+    "meta_description": "Measure and embed carbon calculations into any product with Climatiq's emission factor API, PCF Studio, and scientifically vetted datasets."
+  },
+  {
+    "name": "CloudHealth (VMware)",
+    "website": "https://cloudhealthtech.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Connecterra",
+    "website": "https://connecterra.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "CySec",
+    "website": "https://cysec.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Determine",
+    "website": "https://determine.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Dig Security",
+    "website": "https://dig.security",
+    "status": "no_ats"
+  },
+  {
+    "name": "Dude Solutions",
+    "website": "https://dudesolutions.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Ecomaps",
+    "website": "https://ecomaps.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Entrata",
+    "website": "https://entrata.com",
+    "status": "active",
+    "ats": "lever",
+    "slug": "entrata",
+    "category": [],
+    "meta_description": "Entrata is the operating system for Autonomous Property Management\u2122 \u2014 unifying leasing, payments, renewals, and resident experience, with AI embedded across workflows to execute operations within your guardrails and drive portfolio performance."
+  },
+  {
+    "name": "Environmental Defense Fund",
+    "website": "https://edf.org",
+    "status": "active",
+    "ats": "workday",
+    "slug": "osv-edf/wd5/EDF_External_Careers",
+    "category": [],
+    "meta_description": "We&#039;re a global environmental organization driving game-changing solutions to our biggest environmental issues like climate change, air pollution and more."
+  },
+  {
+    "name": "Farm Technology",
+    "website": "https://farmdroid.dk",
+    "status": "no_ats"
+  },
+  {
+    "name": "Farmsmart",
+    "website": "https://farmsmart.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Garten Rothkopf",
+    "website": "https://garten-rothkopf.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Geosys",
+    "website": "https://geosys.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Gradiant",
+    "website": "https://gradiant.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Gradle",
+    "website": "https://gradle.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Heap",
+    "website": "https://heap.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Honda",
+    "website": "https://honda.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Humio (CrowdStrike)",
+    "website": "https://humio.com",
+    "status": "active",
+    "ats": "workday",
+    "slug": "crowdstrike/wd5/crowdstrikecareers",
+    "category": [],
+    "meta_description": "Uncover security and reliability issues before they impact your business with CrowdStrike Falcon\u00ae LogScale\u2122."
+  },
+  {
+    "name": "Kakao Games",
+    "website": "https://kakaogames.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Kickstarter",
+    "website": "https://kickstarter.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Lastminute.com",
+    "website": "https://lastminute.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Loom Systems",
+    "website": "https://loomsystems.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Memverge",
+    "website": "https://memverge.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Micropython",
+    "website": "https://micropython.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Mitsubishi Electric",
+    "website": "https://mitsubishielectric.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "OpenCV",
+    "website": "https://opencv.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "OpsRamp",
+    "website": "https://opsramp.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Optimizely",
+    "website": "https://optimizely.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "ORTEC",
+    "website": "https://ortec.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "OSIsoft",
+    "website": "https://osisoft.com",
+    "status": "active",
+    "ats": "workday",
+    "slug": "aveva/wd3/AVEVA_careers",
+    "category": [],
+    "meta_description": "Collect, aggregate, and enrich real-time operations data for immediate problem-solving and easily deliver formatted data to enterprise applications and advanced analytics."
+  },
+  {
+    "name": "Pattern Energy",
+    "website": "https://patternenergy.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Presenso",
+    "website": "https://presenso.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "PTV Group",
+    "website": "https://ptvgroup.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Rahko",
+    "website": "https://rahko.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Realogy",
+    "website": "https://realogy.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Rentometer",
+    "website": "https://rentometer.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Rivery",
+    "website": "https://rivery.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Rockerbox",
+    "website": "https://rockerbox.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Rogue Robotics",
+    "website": "https://roguerobotics.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Scaphandre",
+    "website": "https://hubblo.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Senseair",
+    "website": "https://senseair.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sentera",
+    "website": "https://sentera.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Singtel",
+    "website": "https://singtel.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Skillsoft",
+    "website": "https://skillsoft.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Soilgrid",
+    "website": "https://soilgrid.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "SolarWinds",
+    "website": "https://solarwinds.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Speedrun",
+    "website": "https://speedrun.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Splice Machine",
+    "website": "https://splicemachine.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sui",
+    "website": "https://sui.io",
+    "status": "active",
+    "ats": "ashby",
+    "slug": "Sui",
+    "category": [],
+    "meta_description": "Sui is a high-performance blockchain delivering the full stack for a new global economy. One modular, decentralized system. From first commit to global scale."
+  },
+  {
+    "name": "Telit",
+    "website": "https://telit.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "The Linux Foundation",
+    "website": "https://linuxfoundation.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Truveta",
+    "website": "https://truveta.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "u-blox",
+    "website": "https://u-blox.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Upland Software",
+    "website": "https://uplandsoftware.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Voxware",
+    "website": "https://voxware.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Vrbo (HomeAway)",
+    "website": "https://vrbo.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "VTS",
+    "website": "https://vts.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "World Resources Institute",
+    "website": "https://wri.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Yamaha Motor",
+    "website": "https://yamaha-motor.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Zebra Medical Vision",
+    "website": "https://zebra-med.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Zillow Group",
+    "website": "https://zillowgroup.com",
+    "status": "no_ats"
   }
 ]
