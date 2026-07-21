@@ -1749,10 +1749,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "carbon",
     "name": "Carbon",
-    "summary": "# Carbon\n\nCarbon builds 3D printing systems and materials that use a technology called CLIP (Continuous Liquid Interface Production) to manufacture parts from photopolymer resins. The company operates in industrial manufacturing, producing equipment and materials for applications in automotive, dental, consumer goods, and healthcare sectors.",
-    "ats": "greenhouse"
+    "summary": "Carbon makes 3D printing systems using Digital Light Synthesis technology to produce parts ranging from prototypes to end-use components.",
+    "source": "meta_description"
   },
   {
     "ats": "lever",
