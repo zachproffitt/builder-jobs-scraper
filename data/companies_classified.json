@@ -8410,10 +8410,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "january",
     "name": "January",
-    "summary": "January builds an AI-powered platform for mental health support that provides therapy-like conversations and personalized guidance for managing anxiety, depression, and other mental health conditions.",
-    "ats": "ashby"
+    "summary": "January provides debt management services that allow consumers to settle debts and manage their accounts online with flexible payment options.",
+    "source": "meta_description"
   },
   {
     "slug": "jirav",
@@ -8875,10 +8876,11 @@
     "ats": "breezy"
   },
   {
+    "ats": "ashby",
     "slug": "mural",
     "name": "Mural",
-    "summary": "Mural is a digital workspace platform that enables distributed teams to collaborate on visual work like brainstorming, planning, and design through an infinite canvas interface. The platform serves product teams, design agencies, and enterprises across industries looking to conduct remote workshops and collaborative ideation sessions.",
-    "ats": "ashby"
+    "summary": "Mural is a visual workspace that enables teams to plan, strategize, and execute projects together.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
