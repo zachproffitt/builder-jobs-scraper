@@ -2858,10 +2858,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "Greenboard",
     "name": "Greenboard",
-    "summary": "Greenboard builds an AI-native compliance software platform that helps financial institutions manage SEC and FINRA regulatory requirements across communications, employee conduct, marketing, and firm operations. The company serves financial advisors, broker-dealers, hedge funds, private funds, and RIAs, enabling them to consolidate their entire compliance program into a single unified system.",
-    "ats": "ashby"
+    "summary": "Greenboard builds a modern operating system for financial back offices.",
+    "source": "one_liner"
   },
   {
     "ats": "lever",
