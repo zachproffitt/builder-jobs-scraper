@@ -7682,10 +7682,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "dscout",
     "name": "Dscout",
-    "summary": "Dscout is a user research platform that enables companies to recruit participants, conduct studies, and gather qualitative insights through surveys, video interviews, and mobile diaries. The platform serves product teams, UX researchers, and marketers who need to understand user behavior and validate product decisions.",
-    "ats": "greenhouse"
+    "summary": "Dscout provides AI-powered feedback and testing tools that help teams gather input from real people to validate ideas and iterate on product development.",
+    "source": "meta_description"
   },
   {
     "slug": "dstillery",
