@@ -327,3 +327,37 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422
 [2026-07-21T00:09:26Z] fetch_jobs: scraper error for Sui (ashby/Sui): Ashby request failed for Sui: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Sui'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-21T00:17:58Z] classify_jobs: metrics push failed: Client error '429 Too Many Requests' for url 'https://prometheus-prod-67-prod-us-west-0.grafana.net/api/prom/push'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+[2026-07-21T00:18:29Z] classify_jobs: metrics push failed: Client error '429 Too Many Requests' for url 'https://prometheus-prod-67-prod-us-west-0.grafana.net/api/prom/push'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+[2026-07-21T00:18:40Z] classify_jobs: metrics push failed: Client error '429 Too Many Requests' for url 'https://prometheus-prod-67-prod-us-west-0.grafana.net/api/prom/push'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+[2026-07-21T00:19:04Z] classify_jobs: metrics push failed: Client error '429 Too Many Requests' for url 'https://prometheus-prod-67-prod-us-west-0.grafana.net/api/prom/push'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+[2026-07-21T00:19:22Z] classify_jobs: metrics push failed: Client error '429 Too Many Requests' for url 'https://prometheus-prod-67-prod-us-west-0.grafana.net/api/prom/push'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+[2026-07-21T00:19:37Z] classify_jobs: metrics push failed: Client error '429 Too Many Requests' for url 'https://prometheus-prod-67-prod-us-west-0.grafana.net/api/prom/push'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+[2026-07-21T00:19:40Z] classify_jobs: metrics push failed: Client error '429 Too Many Requests' for url 'https://prometheus-prod-67-prod-us-west-0.grafana.net/api/prom/push'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+[2026-07-21T00:20:14Z] classify_jobs: metrics push failed: Client error '429 Too Many Requests' for url 'https://prometheus-prod-67-prod-us-west-0.grafana.net/api/prom/push'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+[2026-07-21T00:20:16Z] classify_jobs: metrics push failed: Client error '429 Too Many Requests' for url 'https://prometheus-prod-67-prod-us-west-0.grafana.net/api/prom/push'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+[2026-07-21T00:20:52Z] classify_jobs: metrics push failed: Client error '429 Too Many Requests' for url 'https://prometheus-prod-67-prod-us-west-0.grafana.net/api/prom/push'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+[2026-07-21T00:20:58Z] classify_jobs: metrics push failed: Client error '429 Too Many Requests' for url 'https://prometheus-prod-67-prod-us-west-0.grafana.net/api/prom/push'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+[2026-07-21T00:21:41Z] classify_jobs: metrics push failed: Client error '429 Too Many Requests' for url 'https://prometheus-prod-67-prod-us-west-0.grafana.net/api/prom/push'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+[2026-07-21T00:21:47Z] classify_jobs: metrics push failed: Client error '429 Too Many Requests' for url 'https://prometheus-prod-67-prod-us-west-0.grafana.net/api/prom/push'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+[2026-07-21T00:21:59Z] classify_jobs: metrics push failed: Client error '429 Too Many Requests' for url 'https://prometheus-prod-67-prod-us-west-0.grafana.net/api/prom/push'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+[2026-07-21T00:22:35Z] classify_jobs: metrics push failed: Client error '429 Too Many Requests' for url 'https://prometheus-prod-67-prod-us-west-0.grafana.net/api/prom/push'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+[2026-07-21T00:22:53Z] classify_jobs: metrics push failed: Client error '429 Too Many Requests' for url 'https://prometheus-prod-67-prod-us-west-0.grafana.net/api/prom/push'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+[2026-07-21T00:26:36Z] classify_jobs: metrics push failed: Client error '429 Too Many Requests' for url 'https://prometheus-prod-67-prod-us-west-0.grafana.net/api/prom/push'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
