@@ -2748,10 +2748,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "furtherai",
     "name": "FurtherAI",
-    "summary": "FurtherAI builds domain-specific AI software that automates document processing and data extraction workflows for insurance professionals, including carriers, MGAs, brokers, and reinsurers. The platform handles tasks like submission intake, underwriting, claims processing, and policy verification across commercial property, auto, cyber, life and health, and excess and surplus insurance lines.",
-    "ats": "ashby"
+    "summary": "FurtherAI builds AI software for the insurance industry to automate workforce tasks.",
+    "source": "one_liner"
   },
   {
     "ats": "ashby",
@@ -4238,10 +4239,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "treasuryprime",
     "name": "Treasury Prime",
-    "summary": "Treasury Prime builds APIs and infrastructure that enable fintechs and software platforms to embed banking-as-a-service capabilities, allowing their customers to open accounts, transfer funds, and access other financial services without building these systems from scratch. The company operates in the financial technology and banking infrastructure space, serving as an intermediary between non-bank software companies and the regulated banking partners that provide the underlying financial services.",
-    "ats": "greenhouse"
+    "summary": "Treasury Prime provides embedded banking software that enables companies to integrate banking capabilities into their applications and connects them with banking partners through a marketplace.",
+    "source": "one_liner"
   },
   {
     "slug": "trela",
@@ -4281,10 +4283,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "usul",
     "name": "Usul",
-    "summary": "Usul builds an AI platform that helps government contractors identify, pursue, and win federal contracts by automatically matching opportunities to their capabilities, connecting them with decision-makers at contracting offices, and providing competitive intelligence on pricing and incumbent contractors. The company operates in the government contracting and defense procurement space, serving contractors across the federal market.",
-    "ats": "ashby"
+    "summary": "Usul provides an AI platform for defense and government contract bidding and management.",
+    "source": "one_liner"
   },
   {
     "ats": "ashby",
@@ -4774,10 +4777,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "canonical",
     "name": "Canonical",
-    "summary": "Canonical develops and supports Ubuntu, an open-source Linux distribution, and provides enterprise software solutions including cloud infrastructure, container orchestration, and security services built around the Ubuntu platform.",
-    "ats": "greenhouse"
+    "summary": "Canonical provides open source software and support services for enterprises.",
+    "source": "meta_description"
   },
   {
     "slug": "carbondirect",
@@ -8769,10 +8773,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "mediaalpha",
     "name": "MediaAlpha",
-    "summary": "MediaAlpha operates a digital marketing platform that connects consumers with insurance, financial services, and healthcare providers through performance-based advertising and lead generation. The company facilitates transactions between advertisers and publishers, matching consumer inquiries with relevant service providers across multiple verticals including auto insurance, health insurance, and Medicare.",
-    "ats": "greenhouse"
+    "summary": "MediaAlpha is a customer acquisition solutions provider that uses technology and data science to reach consumers shopping for property and casualty insurance, health insurance, life insurance, and similar high-consideration categories.",
+    "source": "job_posting"
   },
   {
     "slug": "merciv",
@@ -9846,10 +9851,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "lever",
     "slug": "superannotate",
     "name": "SuperAnnotate",
-    "summary": "SuperAnnotate provides a data annotation platform that enables enterprises to label and prepare training data for machine learning models, with features for image, video, document, and audio annotation across computer vision, natural language processing, and other AI use cases.",
-    "ats": "lever"
+    "summary": "SuperAnnotate builds annotation and evaluation pipelines for creating and managing AI training data across various use cases.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
@@ -9884,10 +9890,11 @@
     "ats": "lever"
   },
   {
+    "ats": "bamboo",
     "slug": "switchfly",
     "name": "Switchfly",
-    "summary": "Switchfly provides a technology platform that enables airlines, hotels, and other travel companies to create and manage loyalty program partnerships and ancillary revenue opportunities through dynamic inventory exchange and monetization tools.",
-    "ats": "bamboo"
+    "summary": "Switchfly provides employee rewards and loyalty programs that offer members travel experiences as benefits.",
+    "source": "meta_description"
   },
   {
     "ats": "workday",
@@ -10402,5 +10409,12 @@
     "name": "TwentyTwo",
     "summary": "TwentyTwo builds AI infrastructure for biosecurity.",
     "source": "one_liner"
+  },
+  {
+    "ats": "greenhouse",
+    "slug": "clarityai",
+    "name": "Clarity AI",
+    "summary": "Clarity AI provides an AI platform that helps financial institutions, companies, governments, and consumers integrate extra-financial intelligence into decision-making.",
+    "source": "meta_description"
   }
 ]
