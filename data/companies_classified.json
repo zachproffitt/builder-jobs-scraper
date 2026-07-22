@@ -3897,10 +3897,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "shepherd",
     "name": "Shepherd",
-    "summary": "Shepherd builds insurance software that helps independent insurance agents manage their books of business, including client management, policy administration, and commission tracking. The company operates in the InsurTech domain, serving the property and casualty insurance market.",
-    "ats": "ashby"
+    "summary": "Shepherd provides insurance for builders and operators in the construction and infrastructure industries.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
