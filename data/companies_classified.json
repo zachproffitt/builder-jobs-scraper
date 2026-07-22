@@ -9172,10 +9172,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "payzen-inc",
     "name": "PayZen",
-    "summary": "PayZen provides a payment processing platform that enables merchants to accept online and mobile payments while managing fraud prevention and payment analytics across multiple channels and geographies.",
-    "ats": "ashby"
+    "summary": "PayZen offers interest-free patient financing that does not affect credit scores, helping patients afford medical care while improving payment collection for healthcare providers.",
+    "source": "meta_description"
   },
   {
     "slug": "justanswer",
