@@ -9110,10 +9110,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "workday",
     "slug": "learfield/wd5/Paciolan",
     "name": "Paciolan",
-    "summary": "Paciolan provides ticketing and venue management software for sports teams, entertainment venues, and performing arts organizations. The platform handles ticket sales, distribution, revenue management, and fan engagement for large-scale events and venues.",
-    "ats": "workday"
+    "summary": "Paciolan provides integrated ticketing, fundraising, marketing, and data analytics technology solutions.",
+    "source": "meta_description"
   },
   {
     "slug": "paddle",
