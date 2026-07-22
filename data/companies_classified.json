@@ -1443,10 +1443,11 @@
     "ats": "lever"
   },
   {
+    "ats": "lever",
     "slug": "grailbio",
     "name": "GRAIL",
-    "summary": "GRAIL builds blood tests designed to detect multiple cancer types in asymptomatic people before symptoms appear. The company operates in the oncology and early cancer detection domain, focusing on developing liquid biopsy technology that analyzes circulating tumor DNA in blood samples.",
-    "ats": "lever"
+    "summary": "GRAIL develops technologies for early cancer detection using next-generation sequencing, clinical studies, and data science, and offers the Galleri test, a multi-cancer early detection product.",
+    "source": "job_posting"
   },
   {
     "ats": "greenhouse",
