@@ -1382,10 +1382,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "chainalysis-careers",
     "name": "Chainalysis",
-    "summary": "Chainalysis provides blockchain analysis software and intelligence services that help financial institutions, government agencies, and cryptocurrency exchanges detect and prevent illicit activity such as money laundering, sanctions evasion, and fraud on public blockchains.",
-    "ats": "ashby"
+    "summary": "Chainalysis provides blockchain analysis and investigation services to government agencies, cryptocurrency businesses, and financial institutions.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
