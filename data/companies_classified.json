@@ -9107,10 +9107,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "Overjet",
     "name": "OVERJET",
-    "summary": "Overjet develops artificial intelligence software that analyzes dental imaging to assist dentists in treatment planning and insurance claim processing by automatically detecting cavities, bone loss, and other dental conditions.",
-    "ats": "ashby"
+    "summary": "Overjet provides dental AI software that supports dental service organizations, dentists, dental groups, insurance companies, and health plans.",
+    "source": "meta_description"
   },
   {
     "ats": "workday",
@@ -9209,10 +9210,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "pipe17",
     "name": "Pipe17",
-    "summary": "Pipe17 builds supply chain management software that helps mid-market manufacturers and distributors integrate and automate their operations across multiple systems like ERPs, inventory platforms, and logistics networks.",
-    "ats": "greenhouse"
+    "summary": "Pipe17 provides AI-native connectivity and enterprise-grade order management capabilities for businesses.",
+    "source": "meta_description"
   },
   {
     "slug": "pison",
