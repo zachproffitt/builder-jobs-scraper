@@ -5163,10 +5163,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "top-hat",
     "name": "Tophat",
-    "summary": "Tophat provides a cloud-based learning management system and interactive classroom platform designed to help educators create engaging digital learning experiences for students in higher education and corporate training settings.",
-    "ats": "ashby"
+    "summary": "Top Hat provides software that enables instructors to engage students through in-class polls, quizzes, discussions, and AI-powered assistance, as well as personalized content delivery.",
+    "source": "meta_description"
   },
   {
     "slug": "tourlanegmbh",
