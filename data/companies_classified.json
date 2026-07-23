@@ -7972,10 +7972,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "freenome",
     "name": "Freenome",
-    "summary": "Freenome develops blood-based cancer screening tests that use artificial intelligence to detect circulating tumor DNA and identify early-stage cancers before symptoms appear. The company focuses on oncology diagnostics, particularly developing multi-cancer detection assays to enable earlier intervention and improved patient outcomes.",
-    "ats": "greenhouse"
+    "summary": "Freenome develops blood tests that detect cancer early.",
+    "source": "meta_description"
   },
   {
     "slug": "fresha",
