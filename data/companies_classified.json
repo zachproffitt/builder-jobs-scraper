@@ -2949,10 +2949,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "hubblenetwork",
     "name": "Hubble Network",
-    "summary": "Hubble Network builds a satellite IoT constellation that provides global connectivity for IoT devices in remote and underserved areas without existing cellular infrastructure. The company operates in the satellite communications and Internet of Things domain, offering narrowband connectivity services to enable tracking, monitoring, and communication for applications across industries like agriculture, maritime, and logistics.",
-    "ats": "greenhouse"
+    "summary": "Hubble Network builds a satellite network that enables Bluetooth devices to communicate with satellites, allowing wireless connectivity without traditional cellular or internet infrastructure.",
+    "source": "one_liner"
   },
   {
     "ats": "ashby",
@@ -3645,10 +3646,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "postscript",
     "name": "Postscript",
-    "summary": "Postscript builds SMS and email marketing automation software designed specifically for e-commerce businesses to engage customers through text messaging and email campaigns. The platform helps online retailers drive sales through targeted messaging, abandoned cart recovery, and customer retention features.",
-    "ats": "greenhouse"
+    "summary": "Postscript builds an SMS platform for e-commerce merchants to generate revenue through text message marketing.",
+    "source": "one_liner"
   },
   {
     "slug": "powerus",
@@ -7852,10 +7854,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "motus",
     "name": "Motus",
-    "summary": "Motus builds cloud-based workforce management software that helps organizations schedule, track, and optimize their field service and mobile workforce operations across industries like utilities, telecommunications, and home services.",
-    "ats": "greenhouse"
+    "summary": "Motus provides vehicle reimbursement solutions that help organizations optimize spend, reduce risk, and increase productivity.",
+    "source": "meta_description"
   },
   {
     "slug": "every-mother",
@@ -8158,10 +8161,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "gumgum",
     "name": "GumGum",
-    "summary": "GumGum builds computer vision and AI technology that analyzes visual content across digital media to detect brand safety risks, including unsuitable contexts, counterfeit products, and misaligned advertising placements. The company operates in the digital advertising and brand protection space, serving advertisers and publishers who need to ensure their ads appear in appropriate environments.",
-    "ats": "greenhouse"
+    "summary": "GumGum provides an ad tech platform that delivers display, video, and CTV/OTT advertising with AI-powered contextual targeting and attention-based insights.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
