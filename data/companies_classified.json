@@ -1160,10 +1160,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "semgrep",
     "name": "Semgrep",
-    "summary": "Semgrep builds a static analysis tool that scans source code to find bugs, security vulnerabilities, and code quality issues across multiple programming languages. The company operates in the application security and developer tooling domain, serving software development teams that want to automate code scanning in their CI/CD pipelines.",
-    "ats": "ashby"
+    "summary": "Semgrep builds an application security platform that scans source code to identify security issues using static analysis, software composition analysis, and secrets detection.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
