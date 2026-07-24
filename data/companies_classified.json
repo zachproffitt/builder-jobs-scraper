@@ -10432,5 +10432,12 @@
     "name": "Clarity AI",
     "summary": "Clarity AI provides an AI platform that helps financial institutions, companies, governments, and consumers integrate extra-financial intelligence into decision-making.",
     "source": "meta_description"
+  },
+  {
+    "ats": "lever",
+    "slug": "anomali",
+    "name": "Anomali",
+    "summary": "Anomali provides AI-driven threat intelligence and a security operations platform designed to improve visibility, detection, and cyber resilience.",
+    "source": "meta_description"
   }
 ]
