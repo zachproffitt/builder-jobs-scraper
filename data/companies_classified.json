@@ -7147,10 +7147,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "butterflymx",
     "name": "ButterflyMX",
-    "summary": "ButterflyMX builds a cloud-based access control and intercom system for multifamily residential buildings, allowing residents to unlock doors and receive packages remotely through mobile apps and web interfaces. The company operates in the proptech and building management software space, serving apartment complexes, condominiums, and other multitenant properties.",
-    "ats": "ashby"
+    "summary": "ButterflyMX makes a property access system that allows users to view video feeds and unlock doors or gates from a smartphone, with easy installation and operation.",
+    "source": "meta_description"
   },
   {
     "slug": "canceriq",
