@@ -1197,7 +1197,7 @@
   "greenhouse:hungryroot": "2026-07-26",
   "ashby:siena": "2026-07-26",
   "ashby:icon": "2026-07-26",
-  "breezy:illfonic": "2026-07-25",
+  "breezy:illfonic": "2026-07-26",
   "greenhouse:impact": "2026-07-26",
   "greenhouse:incode": "2026-07-26",
   "ashby:inato": "2026-07-26",
@@ -1539,7 +1539,7 @@
   "greenhouse:tigergraph": "2026-07-26",
   "ashby:tray-ai": "2026-07-26",
   "bamboo:vespaai": "2026-07-26",
-  "workday:zillow/wd5/Zillow_Group_External": "2026-07-25",
+  "workday:zillow/wd5/Zillow_Group_External": "2026-07-26",
   "greenhouse:clarityai": "2026-07-26",
   "ashby:arenanet": "2026-07-26",
   "lever:deliverect": "2026-07-26",
@@ -1559,5 +1559,9 @@
   "workable:anza-xyz": "2026-07-26",
   "ashby:climatiq": "2026-07-26",
   "bamboo:akselos": "2026-07-26",
-  "lever:entrata": "2026-07-26"
+  "lever:entrata": "2026-07-26",
+  "ashby:river": "2026-07-26",
+  "lever:dnb": "2026-07-26",
+  "ashby:secureframe": "2026-07-26",
+  "workday:chrobinson/wd5/CHRobinson": "2026-07-26"
 }
