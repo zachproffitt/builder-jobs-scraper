@@ -48480,5 +48480,886 @@
     "name": "Zillow Group",
     "website": "https://zillowgroup.com",
     "status": "no_ats"
+  },
+  {
+    "name": "/dev/fast",
+    "website": "https://dev.fast",
+    "status": "no_ats",
+    "one_liner": "/dev/fast is the AI-native code forge"
+  },
+  {
+    "name": "Agency Tool Company",
+    "website": "https://agencytool.company",
+    "status": "no_ats",
+    "one_liner": "Reliable infrastructure to build, deploy and manage real-world robots."
+  },
+  {
+    "name": "Aktoria Robotics",
+    "website": "https://aktoria.com",
+    "status": "no_ats",
+    "one_liner": "Human as API for robots"
+  },
+  {
+    "name": "Almanac",
+    "website": "https://codealmanac.com",
+    "status": "no_ats",
+    "one_liner": "Self updating wiki for your coding agents"
+  },
+  {
+    "name": "Assemble",
+    "website": "https://www.assemble.ai",
+    "status": "no_ats",
+    "one_liner": "Agents for Enterprise IT"
+  },
+  {
+    "name": "Atomarine",
+    "website": "https://atomarine.co",
+    "status": "no_ats",
+    "one_liner": "Off shore nuclear powered data centers at sea."
+  },
+  {
+    "name": "Avoca Systems",
+    "website": "https://avocasystems.com",
+    "status": "no_ats",
+    "one_liner": "The AI-powered operating system for radiology networks"
+  },
+  {
+    "name": "Axelrod",
+    "website": "https://axelrod.live",
+    "status": "no_ats",
+    "one_liner": "Boutique Hotels that run themselves"
+  },
+  {
+    "name": "Belvedir",
+    "website": "https://belvedir.ai",
+    "status": "no_ats",
+    "one_liner": "The autonomous private AI platform."
+  },
+  {
+    "name": "Billow AI Labs",
+    "website": "https://thebillow.ai",
+    "status": "no_ats",
+    "one_liner": "AI-native Accounting Firm to Replace the Big-4"
+  },
+  {
+    "name": "Bizmark",
+    "website": "https://bizmark.ai",
+    "status": "no_ats",
+    "one_liner": "The bespoke operating system for manufacturers."
+  },
+  {
+    "name": "Breez Labs",
+    "website": "https://www.breezlabs.com",
+    "status": "no_ats",
+    "one_liner": "Helping Companies Deploy Email Agents in High Trust Domains"
+  },
+  {
+    "name": "Brumby (Formerly GrazeMate)",
+    "website": "https://brumby",
+    "status": "no_ats",
+    "one_liner": "Robot Cowboys that Herd Cattle with AI Drones"
+  },
+  {
+    "name": "Capuchin",
+    "website": "https://capuchin.ai",
+    "status": "no_ats",
+    "one_liner": "Search and automation for engineer-to-order companies"
+  },
+  {
+    "name": "Computable",
+    "website": "https://getcomputable.com",
+    "status": "no_ats",
+    "one_liner": "Buy, sell, and redeem GPU hours for any week with instant liquidity"
+  },
+  {
+    "name": "Daqstra",
+    "website": "https://www.daqstra.com",
+    "status": "no_ats",
+    "one_liner": "AI-native orchestration for physical R&D testing"
+  },
+  {
+    "name": "Derya",
+    "website": "https://usederya.com",
+    "status": "no_ats",
+    "one_liner": "AI-Native Logistics Office"
+  },
+  {
+    "name": "Donkey",
+    "website": "https://donkey.trade",
+    "status": "no_ats",
+    "one_liner": "The AI-native trading company: China factory-direct for US importers"
+  },
+  {
+    "name": "ED1TH",
+    "website": "https://www.ed1th.com",
+    "status": "no_ats",
+    "one_liner": "Jarvis IRL"
+  },
+  {
+    "name": "Egoist Machines",
+    "website": "https://ego.ist",
+    "status": "no_ats",
+    "one_liner": "User-owned memory and preferences that work across every AI app"
+  },
+  {
+    "name": "Elip AI",
+    "website": "https://www.tryelip.ai",
+    "status": "no_ats",
+    "one_liner": "Cooking something sweet and salty!"
+  },
+  {
+    "name": "Fabraix",
+    "website": "https://fabraix.com",
+    "status": "no_ats",
+    "one_liner": "The world's frontier hacker for AI agents."
+  },
+  {
+    "name": "Gamgee",
+    "website": "https://gamgee.io",
+    "status": "no_ats",
+    "one_liner": "Scalable Personalised Cancer Treatment"
+  },
+  {
+    "name": "hardware intelligence",
+    "website": "https://hardwareintelligence.ai",
+    "status": "no_ats",
+    "one_liner": "Agentic chip design with ultrafast feedback loops"
+  },
+  {
+    "name": "Here",
+    "website": "https://here.fm",
+    "status": "no_ats",
+    "one_liner": "Where friends watch, play and hang together in digital rooms"
+  },
+  {
+    "name": "Hoplite",
+    "website": "https://hoplite.sh",
+    "status": "no_ats",
+    "one_liner": "Effortlessly deploy cloud software factories."
+  },
+  {
+    "name": "Illume Labs",
+    "website": "https://www.illumelabs.ai",
+    "status": "no_ats",
+    "one_liner": "24/7 Personal Health & Longevity Companion"
+  },
+  {
+    "name": "Induction Labs",
+    "website": "https://inductionlabs.com",
+    "status": "no_ats",
+    "one_liner": "Building intellectually curious AI"
+  },
+  {
+    "name": "Instaplay",
+    "website": "https://instaplay.ai",
+    "status": "no_ats",
+    "one_liner": "AI-Native Social Platform, Starting with Games"
+  },
+  {
+    "name": "Kebra",
+    "website": "https://kebra.ai",
+    "status": "no_ats",
+    "one_liner": "Make your field service company AI-native"
+  },
+  {
+    "name": "Last Accounting Company",
+    "website": "https://lastaccountingcompany.com",
+    "status": "no_ats",
+    "one_liner": "Agent-native accounting firm."
+  },
+  {
+    "name": "Locke",
+    "website": "https://locke.inc",
+    "status": "no_ats",
+    "one_liner": "Builders of the first AI-native government affairs firm."
+  },
+  {
+    "name": "Lumeria",
+    "website": "https://lumeria.skin",
+    "status": "no_ats",
+    "one_liner": "Oura Ring for Skin."
+  },
+  {
+    "name": "Maingen",
+    "website": "https://www.maingen.ai",
+    "status": "no_ats",
+    "one_liner": "RL environments for industrial operations"
+  },
+  {
+    "name": "Manifold",
+    "website": "https://www.manifoldindustries.ai",
+    "status": "no_ats",
+    "one_liner": "Low-cost, deployment-ready robotic labor for warehouses"
+  },
+  {
+    "name": "Neuron Industries",
+    "website": "https://neuronindustries.com",
+    "status": "no_ats",
+    "one_liner": "Industrial Controllers built for AI"
+  },
+  {
+    "name": "Nex",
+    "website": "https://nex.ai",
+    "status": "no_ats",
+    "one_liner": "Claude Cowork for GTM Automations"
+  },
+  {
+    "name": "Olam Labs",
+    "website": "https://olamlabs.ai",
+    "status": "no_ats",
+    "one_liner": "Evaluating models for behavior and performance through simulated games"
+  },
+  {
+    "name": "OneCLI",
+    "website": "https://onecli.sh",
+    "status": "no_ats",
+    "one_liner": "The Identity Gateway for AI Agents"
+  },
+  {
+    "name": "Ooak Data",
+    "website": "https://ooakdata.com",
+    "status": "no_ats",
+    "one_liner": "We build the world's largest library of real-world business workflow\u2026"
+  },
+  {
+    "name": "Orvixo",
+    "website": "https://www.orvixo.ai",
+    "status": "no_ats",
+    "one_liner": "AI advanced planning and optimisation for manufacturers."
+  },
+  {
+    "name": "Paper Instruments",
+    "website": "https://www.paperinstruments.com",
+    "status": "no_ats",
+    "one_liner": "Open-source frontier models for knowledge work"
+  },
+  {
+    "name": "PokerClubHub",
+    "website": "https://www.pokerclubhub.com",
+    "status": "no_ats",
+    "one_liner": "Host a Poker Club and Make Money"
+  },
+  {
+    "name": "Proof of Human",
+    "website": "https://poh.org",
+    "status": "no_ats",
+    "one_liner": "continuous human verification without CAPTCHAs or user friction"
+  },
+  {
+    "name": "Proprio Robotics",
+    "website": "https://www.propriorobotics.com",
+    "status": "no_ats",
+    "one_liner": "Building autonomous data centers"
+  },
+  {
+    "name": "Rapidfolio",
+    "website": "https://rapidfolio.com",
+    "status": "no_ats",
+    "one_liner": "AI for fintechs & banks"
+  },
+  {
+    "name": "Rational",
+    "website": "https://rational.to",
+    "status": "no_ats",
+    "one_liner": "AI Employees for Accounting"
+  },
+  {
+    "name": "rekursiv.ai",
+    "website": "https://rekursiv.ai",
+    "status": "no_ats",
+    "one_liner": "Scale AI scientists whose own breakthroughs accelerate the next."
+  },
+  {
+    "name": "RonanRx Inc.",
+    "website": "https://ronanrx.com",
+    "status": "no_ats",
+    "one_liner": "We use AI to personalize peptides to your biology"
+  },
+  {
+    "name": "Shielded",
+    "website": "https://www.shieldedglobal.com",
+    "status": "no_ats",
+    "one_liner": "We automate supply chain and financial risk management"
+  },
+  {
+    "name": "Singularity",
+    "website": "https://www.singularityus.com",
+    "status": "no_ats",
+    "one_liner": "Building and Protecting an Exciting Future"
+  },
+  {
+    "name": "Sota2",
+    "website": "https://www.sota2.com",
+    "status": "no_ats",
+    "one_liner": "Help business find and discover AI solutions"
+  },
+  {
+    "name": "SubVysion",
+    "website": "https://subvysion.com",
+    "status": "no_ats",
+    "one_liner": "We help contractors dig safer with 3D maps of underground\u2026"
+  },
+  {
+    "name": "Tally",
+    "website": "https://www.tallyhq.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Traceforce",
+    "website": "https://www.traceforce.ai",
+    "status": "no_ats",
+    "one_liner": "Securing AI native apps directly on devices"
+  },
+  {
+    "name": "Vendo",
+    "website": "https://vendo.run",
+    "status": "no_ats",
+    "one_liner": "Let your users build their own features on top of your product"
+  },
+  {
+    "name": "Waddle Labs",
+    "website": "https://www.waddlelabs.ai",
+    "status": "no_ats",
+    "one_liner": "Agents for robotics control."
+  },
+  {
+    "name": "Zaplar",
+    "website": "https://zaplar.com",
+    "status": "no_ats",
+    "one_liner": "Agentic Hotel Operating System"
+  },
+  {
+    "name": "Chai Discovery",
+    "website": "https://chai-discovery.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Glow",
+    "website": "https://glow.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "River",
+    "website": "https://river.com",
+    "status": "active",
+    "ats": "ashby",
+    "slug": "river",
+    "category": [],
+    "meta_description": "Invest in bitcoin with confidence on River. Buy bitcoin in minutes. Zero fees on recurring buys. Earn bitcoin interest on cash while you bank."
+  },
+  {
+    "name": "Sable AI",
+    "website": "https://sable-ai.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "A10 Networks",
+    "website": "https://a10networks.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "AeroFarms",
+    "website": "https://aerofarms.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Agnostiq",
+    "website": "https://agnostiq.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Agora",
+    "website": "https://agoratech.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Amper AI",
+    "website": "https://amper.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Apache Superset",
+    "website": "https://superset.apache.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "ArcBest",
+    "website": "https://arcb.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Ascensus",
+    "website": "https://ascensus.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "AutoGrid",
+    "website": "https://auto-grid.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Axon",
+    "website": "https://axon.co",
+    "status": "no_ats"
+  },
+  {
+    "name": "Biofourmis",
+    "website": "https://biofourmis.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Bowery Farming",
+    "website": "https://boweryfarming.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "C.H. Robinson",
+    "website": "https://chrobinson.com",
+    "status": "active",
+    "ats": "workday",
+    "slug": "chrobinson/wd5/CHRobinson",
+    "category": [],
+    "meta_description": "Reliably meet all your global logistics and technology needs with C.H. Robinson. Supply chain management is optimized with our experience, data, and scale."
+  },
+  {
+    "name": "Canoo",
+    "website": "https://canoo.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "ChargePoint",
+    "website": "https://chargepoint.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Clearway Energy",
+    "website": "https://clearwayenergy.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Cohasset Associates",
+    "website": "https://cohasset.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "ContractPodAi",
+    "website": "https://contractpod.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "DB Schenker",
+    "website": "https://dbschenker.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Deltek",
+    "website": "https://deltek.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Document Crunch",
+    "website": "https://documentcrunch.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Donnelley Financial Solutions",
+    "website": "https://dfinsolutions.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Doxly",
+    "website": "https://doxlyapp.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Dun & Bradstreet",
+    "website": "https://dnb.com",
+    "status": "active",
+    "ats": "lever",
+    "slug": "dnb",
+    "category": [],
+    "meta_description": "Verified business data and persistent identity help you reduce risk, improve decisions, and drive growth across your organization."
+  },
+  {
+    "name": "Eclipse Foundation",
+    "website": "https://eclipse.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Eka",
+    "website": "https://ekaplus.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Eka Software Solutions",
+    "website": "https://eka.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "EnerTech Capital Portfolio",
+    "website": "https://enertech.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Epicery",
+    "website": "https://epicery.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "eSpeed",
+    "website": "https://espeedinc.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Exoplanet",
+    "website": "https://exoplanetventures.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Exterro",
+    "website": "https://exterro.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Farmigo",
+    "website": "https://farmigo.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Fastcase",
+    "website": "https://fastcase.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Front Desk Anywhere",
+    "website": "https://frontdeskanywhere.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Glu Mobile",
+    "website": "https://glu.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Gorillas",
+    "website": "https://gorillas.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Grailed",
+    "website": "https://grailed.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Guardicore",
+    "website": "https://guardicore.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "HelloFresh",
+    "website": "https://hellofresh.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Home Assistant",
+    "website": "https://home-assistant.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Hotelogix",
+    "website": "https://hotelogix.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Hyperproof",
+    "website": "https://hyperproof.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Immersed",
+    "website": "https://immersed.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Intellegens",
+    "website": "https://intellegens.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "J.B. Hunt",
+    "website": "https://jbhunt.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "JinmuHealth",
+    "website": "https://jinmuhealth.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Jiva",
+    "website": "https://jiva.ag",
+    "status": "no_ats"
+  },
+  {
+    "name": "Justworks",
+    "website": "https://justworks.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Kakao",
+    "website": "https://kakao.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Kalera",
+    "website": "https://kalera.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Kalypso",
+    "website": "https://kalypso.com",
+    "status": "active",
+    "ats": "workday",
+    "slug": "rockwellautomation/wd1/External-Kalypso",
+    "category": [],
+    "meta_description": "Kalypso is a diverse team of consultants, innovators, strategists, data scientists and technologists. We bring digital solutions to product problems."
+  },
+  {
+    "name": "Kayrros",
+    "website": "https://kayrros.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Kentik",
+    "website": "https://kentik.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Kontrol Technologies",
+    "website": "https://kontroltech.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Koyeb",
+    "website": "https://koyeb.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "LG Energy Solution",
+    "website": "https://lgessbattery.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Lighthouse",
+    "website": "https://lighthousepms.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Lime",
+    "website": "https://li.me",
+    "status": "active",
+    "ats": "ashby",
+    "slug": "Lime",
+    "category": [],
+    "meta_description": "Go car-free with the world\u2019s largest shared electric vehicle company. Lime is on a mission to build a future where transportation is shared, affordable\u2026"
+  },
+  {
+    "name": "LogicGate",
+    "website": "https://logicgate.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Logikcull",
+    "website": "https://logikcull.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Moderne",
+    "website": "https://moderne.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Navex Global",
+    "website": "https://navexglobal.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Neustar",
+    "website": "https://neustar.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Ninjacart",
+    "website": "https://ninjacart.in",
+    "status": "no_ats"
+  },
+  {
+    "name": "Ocado",
+    "website": "https://ocado.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "One Network Enterprises",
+    "website": "https://onenetwork.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "OpenWrt",
+    "website": "https://openwrt.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Orbitz",
+    "website": "https://orbitz.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Ozon",
+    "website": "https://ozon.ru",
+    "status": "no_ats"
+  },
+  {
+    "name": "Paylocity",
+    "website": "https://paylocity.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Pennylane (Xanadu)",
+    "website": "https://pennylane.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Pixelverse",
+    "website": "https://pixelverse.xyz",
+    "status": "no_ats"
+  },
+  {
+    "name": "Plataine",
+    "website": "https://plataine.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Priceline",
+    "website": "https://priceline.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Quantic Dream",
+    "website": "https://quanticdream.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Radware",
+    "website": "https://radware.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Ripe",
+    "website": "https://ripetomatoes.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "RoomKeyPMS",
+    "website": "https://roomkeypms.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Route4Me",
+    "website": "https://route4me.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "SafeGraph",
+    "website": "https://safegraph.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Saft Batteries",
+    "website": "https://saftbatteries.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Secureframe",
+    "website": "https://secureframe.com",
+    "status": "active",
+    "ats": "ashby",
+    "slug": "secureframe",
+    "category": [],
+    "meta_description": "Get compliant, mitigate risk, and build trust with customers\u2028using automation backed by world-class experts."
+  },
+  {
+    "name": "SolarEdge Technologies",
+    "website": "https://solaredge.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Solarmax Technology",
+    "website": "https://solarmaxtech.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Spot Automation",
+    "website": "https://spotrobotics.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Staah",
+    "website": "https://staah.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Stryker Robotics",
+    "website": "https://stryker.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Takealot",
+    "website": "https://takealot.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Thomson Reuters DISCO",
+    "website": "https://disco.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "ThredUP",
+    "website": "https://thredup.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Tuya Smart",
+    "website": "https://tuya.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Ultimate Software",
+    "website": "https://ultimatesoftware.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Uplight",
+    "website": "https://uplight.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Vivint Solar",
+    "website": "https://vivintsolar.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Vroom",
+    "website": "https://vroom.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "vSpatial",
+    "website": "https://vspatial.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Wander",
+    "website": "https://wanderbnb.com",
+    "status": "no_ats"
   }
 ]
