@@ -6970,10 +6970,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "bamboo",
     "slug": "beqom",
     "name": "Beqom",
-    "summary": "Beqom provides cloud-based compensation management software that helps enterprises design, manage, and optimize employee pay, bonuses, and incentive structures across their organizations.",
-    "ats": "bamboo"
+    "summary": "Beqom makes an enterprise compensation platform that manages pay equity, compensation, and performance for large companies globally.",
+    "source": "meta_description"
   },
   {
     "slug": "betabox",
