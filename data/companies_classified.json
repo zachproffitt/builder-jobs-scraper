@@ -4305,10 +4305,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "intrinsic-safety",
     "name": "Variance",
-    "summary": "Variance builds software for managing and optimizing sales teams, focusing on real-time coaching, call recording and analysis, and pipeline management tools. The company operates in the sales enablement and revenue intelligence domain, serving sales organizations that need visibility into team performance and customer conversations.",
-    "ats": "ashby"
+    "summary": "Variance builds AI agents for fraud review and investigations.",
+    "source": "one_liner"
   },
   {
     "slug": "vellum",
@@ -9763,10 +9764,11 @@
     "ats": "breezy"
   },
   {
+    "ats": "lever",
     "slug": "sophos",
     "name": "Sophos",
-    "summary": "Sophos develops cybersecurity software and services for businesses and consumers, offering endpoint protection, network security, encryption, and managed detection and response capabilities across on-premises and cloud environments.",
-    "ats": "lever"
+    "summary": "Sophos provides cybersecurity defenses and services to protect organizations from cyberattacks.",
+    "source": "meta_description"
   },
   {
     "slug": "sourcemap-inc",
