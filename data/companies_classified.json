@@ -7176,10 +7176,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "cardflight",
     "name": "CardFlight",
-    "summary": "CardFlight provides a mobile payment processing platform that enables businesses to accept credit and debit card payments through smartphones and tablets. The company operates in the financial services and payments industry, offering point-of-sale solutions primarily for small to medium-sized businesses, retailers, and service providers.",
-    "ats": "greenhouse"
+    "summary": "CardFlight builds payment acceptance software, including its product SwipeSimple, which is used by small businesses across the US to process payments.",
+    "source": "meta_description"
   },
   {
     "slug": "cardiosense",
