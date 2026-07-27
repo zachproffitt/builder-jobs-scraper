@@ -7119,10 +7119,11 @@
     "ats": "bamboo"
   },
   {
+    "ats": "ashby",
     "slug": "buildout",
     "name": "Buildout, Inc.",
-    "summary": "Buildout develops commercial real estate software that helps brokers and teams manage listings, marketing, and client relationships. The platform operates in the commercial property brokerage space, providing tools for CRE professionals to streamline their workflows and improve deal management.",
-    "ats": "ashby"
+    "summary": "Buildout provides a platform that helps commercial real estate brokers manage client relationships and transactions from initial contact through commission in a single system.",
+    "source": "meta_description"
   },
   {
     "ats": "workday",
