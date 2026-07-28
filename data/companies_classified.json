@@ -2932,10 +2932,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "hive.co",
     "name": "Hive",
-    "summary": "Hive builds project management and collaboration software that helps teams organize work, track progress, and communicate across tasks and projects. The platform operates in the workplace productivity and team collaboration domain, serving organizations that need to coordinate work across multiple team members and departments.",
-    "ats": "ashby"
+    "summary": "Hive provides marketing automation software for event promoters that includes email, SMS, advertising, and customer relationship management capabilities.",
+    "source": "one_liner"
   },
   {
     "slug": "hivehealth",
