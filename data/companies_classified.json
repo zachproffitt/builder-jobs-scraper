@@ -6779,10 +6779,11 @@
     "ats": "bamboo"
   },
   {
+    "ats": "ashby",
     "slug": "antimetal",
     "name": "Antimetal",
-    "summary": "Antimetal provides software for procurement teams to manage supplier relationships and purchase orders across their supply chain, helping companies reduce costs and improve efficiency in their sourcing operations.",
-    "ats": "ashby"
+    "summary": "Antimetal is an AI platform that helps users understand, manage, and automate their infrastructure after deployment.",
+    "source": "meta_description"
   },
   {
     "slug": "apperio-1",
