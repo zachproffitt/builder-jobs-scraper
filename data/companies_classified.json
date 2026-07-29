@@ -9457,10 +9457,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "workday",
     "slug": "reputation/wd1/External",
     "name": "Reputation",
-    "summary": "Reputation is a software platform that helps businesses manage their online presence, customer reviews, and digital reputation across multiple channels including Google, Yelp, Facebook, and other review sites. The platform enables companies to monitor mentions, respond to customer feedback, and analyze sentiment to improve their brand perception and customer experience.",
-    "ats": "workday"
+    "summary": "Reputation builds an AI-powered platform that helps companies measure, manage, and scale their reputation performance by aggregating and analyzing customer feedback across all channels to provide predictive insights. Founded in 2013, the company serves Fortune 1000 companies, automotive manufacturers, healthcare systems, and property management firms.",
+    "source": "job_posting"
   },
   {
     "ats": "workday",
