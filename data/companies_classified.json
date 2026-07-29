@@ -3313,10 +3313,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "momentic",
     "name": "Momentic",
-    "summary": "Momentic builds AI-powered testing agents that automatically generate, execute, and maintain end-to-end tests for web and mobile applications. The company operates in the software quality assurance and test automation domain, helping development teams reduce manual testing effort and improve software reliability.",
-    "ats": "ashby"
+    "summary": "Momentic builds an automated testing platform powered by AI.",
+    "source": "one_liner"
   },
   {
     "slug": "moonvalley-ai",
