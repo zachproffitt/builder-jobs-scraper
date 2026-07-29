@@ -1181,10 +1181,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "socket",
     "name": "Socket",
-    "summary": "Socket builds supply chain security tools that detect and prevent malicious open source packages and dependencies from being installed in software projects. They operate in the software security domain, specifically focused on protecting developers and organizations from compromised or malicious code in their dependency management and build processes.",
-    "ats": "ashby"
+    "summary": "Socket builds tools that help development and security teams find, audit, and manage open source code to reduce security busywork. Founded by Feross Aboukhadijeh, Socket has raised $125M in funding and serves customers including Anthropic, xAI, Figma, and Vercel.",
+    "source": "job_posting"
   },
   {
     "ats": "greenhouse",
@@ -3119,10 +3120,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "latent",
     "name": "Latent",
-    "summary": "Latent builds software that uses artificial intelligence to detect early signs of disease from medical imaging scans, operating in the healthcare diagnostics domain. Their platform analyzes medical images to identify abnormalities that might indicate conditions like cancer or other serious diseases before they become advanced.",
-    "ats": "ashby"
+    "summary": "Latent builds medical language models to automate healthcare operations.",
+    "source": "one_liner"
   },
   {
     "slug": "legalist",
