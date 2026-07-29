@@ -5230,10 +5230,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "withcoverage",
     "name": "WithCoverage",
-    "summary": "WithCoverage provides insurance marketplace software that helps small businesses and individuals compare and purchase commercial and personal insurance policies from multiple carriers through a single platform.",
-    "ats": "greenhouse"
+    "summary": "WithCoverage provides an alternative to traditional insurance brokers for managing risk.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
