@@ -8,6 +8,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from badges import REMOTE_BADGE, HYBRID_BADGE, NEW_BADGE, skill_badge
+from job_filters import classify_location
 from render_common import (
     clean_location, company_logo_html, abbrev_comp,
     strip_location_from_title, is_new_within, SUPPORTED_ATS,
@@ -43,11 +44,24 @@ def collect_jobs() -> tuple[list[dict], dict[str, str], int]:
     if CLASSIFIED_FILE.exists():
         classified = json.loads(CLASSIFIED_FILE.read_text())
 
+    def in_scope(job: dict) -> bool:
+        """Board scope is remote + Colorado. The LLM-normalized location wins;
+        fall back to the raw ATS field, then to the scraper's remote flag."""
+        cl = classified.get(job["id"], {})
+        for candidate in (cl.get("location"), job.get("location")):
+            scope = classify_location(candidate)
+            if scope in ("remote", "colorado"):
+                return True
+            if scope in ("elsewhere", "international"):
+                return False
+        return job.get("remote") is True
+
     eng_jobs = [
         j for j in raw_jobs
         if classified.get(j["id"], {}).get("is_engineering") is True
         and not classified.get(j["id"], {}).get("is_contract", False)
         and classified.get(j["id"], {}).get("region") in ("us", "canada")
+        and in_scope(j)
     ]
     raw_total = len(eng_jobs)
 
@@ -367,8 +381,9 @@ def main():
         out_path=README,
         title="Builder Jobs",
         subtitle=(
-            "A curated index of engineering roles from YC startups, VC-backed companies,"
-            " and major tech — classified by Claude, updated hourly, and removed after 14 days."
+            "A curated index of remote and Colorado engineering roles from YC startups,"
+            " VC-backed companies, and major tech — classified by Claude, updated hourly,"
+            " and removed after 14 days."
             " Each listing links directly to the company's job board."
         ),
         footer="[Jobs older than 24 hours →](ARCHIVE.md)",
@@ -382,7 +397,7 @@ def main():
         out_path=ARCHIVE_README,
         title="Builder Jobs — Archive",
         subtitle=(
-            "Engineering roles posted more than 24 hours ago."
+            "Remote and Colorado engineering roles posted more than 24 hours ago."
             " Listings are removed after 14 days."
             " Each listing links directly to the company's job board."
         ),

@@ -11,13 +11,19 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 
+from job_filters import (
+    SKIP_REASON_LOCATION,
+    SKIP_REASON_TITLE,
+    classify_location,
+    location_in_scope,
+    title_is_skip,
+)
 from log import log_error as _log_error
 from llm import BACKEND, CLAUDE_MODEL, OLLAMA_MODEL, chat, get_usage, get_last_call_usage
 from metrics import push as push_metrics, board_metrics
 
 JOBS_FILE = Path(__file__).parent.parent / "data" / "jobs_raw.json"
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "jobs_classified.json"
-TITLE_SKIP_FILE = Path(__file__).parent.parent / "data" / "job_title_skip_patterns.json"
 HISTORY_FILE = Path(__file__).parent.parent / "data" / "classify_history.json"
 LOG_FILE = Path(__file__).parent.parent / "data" / "jobs.log"
 
@@ -237,57 +243,6 @@ USER_TEMPLATE = """\
 
 CLASSIFY_VERSION = "2"  # bump to force re-classification of all jobs
 
-_TITLE_SKIP_PATTERNS: tuple[str, ...] = tuple(
-    json.loads(TITLE_SKIP_FILE.read_text()) if TITLE_SKIP_FILE.exists() else []
-)
-
-_INTL_LOCATION_RE = re.compile(
-    r"\b("
-    # Europe
-    r"france|germany|spain|italy|netherlands|belgium|sweden|norway|denmark|finland|"
-    r"poland|czech|austria|switzerland|portugal|ireland|united kingdom|"
-    r"scotland|england|wales|greece|turkey|ukraine|romania|hungary|serbia|"
-    r"croatia|slovakia|slovenia|bulgaria|latvia|lithuania|estonia|"
-    # Asia-Pacific
-    r"india|singapore|japan|south korea|china|australia|new zealand|"
-    r"vietnam|thailand|malaysia|indonesia|philippines|taiwan|hong kong|"
-    # Middle East / Africa
-    r"israel|uae|dubai|saudi arabia|qatar|egypt|nigeria|kenya|south africa|"
-    # Latin America
-    r"mexico|brazil|colombia|chile|argentina|peru|"
-    # Regional codes
-    r"emea|apac|latam|dach"
-    r")\b",
-    re.IGNORECASE,
-)
-
-# If a US/Canada indicator is present, don't skip even if international name also appears
-# (e.g. "San Francisco, CA / London, UK" → passes through to LLM)
-# "New Mexico" listed explicitly because \bmexico\b would otherwise match it.
-_US_SAFE_RE = re.compile(
-    r"\bUnited States\b|\bUSA\b|\bNew Mexico\b"
-    r"|(?:^|[,/;\s])(?:AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|"
-    r"NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY|DC)"
-    r"(?:[,/;\s]|$)",
-    re.IGNORECASE,
-)
-
-
-def title_is_skip(title: str) -> bool:
-    t = title.lower()
-    return any(p in t for p in _TITLE_SKIP_PATTERNS)
-
-
-def location_is_international(location: str | None) -> bool:
-    if not location:
-        return False
-    loc = location.strip()
-    if not loc or loc.lower() == "remote":
-        return False
-    if _US_SAFE_RE.search(loc):
-        return False
-    return bool(_INTL_LOCATION_RE.search(loc))
-
 
 def content_hash(job: dict) -> str:
     key = f"v{CLASSIFY_VERSION}:{job['id']}:{job['title']}:{job.get('raw_text', '')[:200]}:{job.get('location', '')}"
@@ -376,7 +331,51 @@ def classify_with_llm(job: dict) -> dict:
     return parse_response(text)
 
 
+def skip_entry(job: dict, reason: str, region: str = "unclear") -> dict:
+    """Cache entry for a job filtered out before any LLM call.
+
+    `skip_reason` makes the skip reversible: widen a filter, purge the entries
+    it wrote (--purge-skips), and the next run classifies them normally.
+    """
+    return {
+        "is_engineering": False,
+        "is_contract": False,
+        "is_hybrid": False,
+        "region": region,
+        "location": None,
+        "job_summary": None,
+        "skills": [],
+        "level": None,
+        "comp": None,
+        "comp_extras": [],
+        "skip_reason": reason,
+        "source_hash": content_hash(job),
+    }
+
+
+def purge_skips(reason: str) -> None:
+    """Drop cached pre-filter skips so a widened filter can reconsider them."""
+    if not OUTPUT_FILE.exists():
+        print(f"No cache at {OUTPUT_FILE}")
+        return
+    existing = json.loads(OUTPUT_FILE.read_text())
+    keep = {k: v for k, v in existing.items() if v.get("skip_reason") != reason}
+    removed = len(existing) - len(keep)
+    OUTPUT_FILE.write_text(json.dumps(keep, indent=2))
+    print(f"Purged {removed} entries with skip_reason={reason!r}; {len(keep)} remain.")
+    if removed:
+        print("Jobs still in the current window will be reclassified on the next run.")
+
+
 def main():
+    if "--purge-skips" in sys.argv:
+        i = sys.argv.index("--purge-skips")
+        if i + 1 >= len(sys.argv):
+            print(f"Usage: --purge-skips <{SKIP_REASON_LOCATION}|{SKIP_REASON_TITLE}>")
+            sys.exit(1)
+        purge_skips(sys.argv[i + 1])
+        return
+
     jobs = json.loads(JOBS_FILE.read_text())
 
     existing: dict[str, dict] = {}
@@ -397,46 +396,26 @@ def main():
     pending = [j for j in jobs if (j.get("raw_text") or "").strip() and needs_work(j)]
     title_skipped = [j for j in pending if title_is_skip(j["title"])]
     remaining = [j for j in pending if not title_is_skip(j["title"])]
-    location_skipped = [j for j in remaining if location_is_international(j.get("location"))]
-    with_desc = [j for j in remaining if not location_is_international(j.get("location"))]
+    location_skipped = [j for j in remaining if not location_in_scope(j.get("location"))]
+    with_desc = [j for j in remaining if location_in_scope(j.get("location"))]
     without_desc = sum(1 for j in jobs if not (j.get("raw_text") or "").strip())
+    ambiguous = sum(1 for j in with_desc if classify_location(j.get("location")) == "ambiguous")
 
     for job in title_skipped:
-        existing[job["id"]] = {
-            "is_engineering": False,
-            "is_contract": False,
-            "is_hybrid": False,
-            "region": "unclear",
-            "location": None,
-            "job_summary": None,
-            "skills": [],
-            "level": None,
-            "comp": None,
-            "comp_extras": [],
-            "source_hash": content_hash(job),
-        }
+        existing[job["id"]] = skip_entry(job, SKIP_REASON_TITLE)
         print(f"  [title-skip] {job['company']}: {job['title']}")
 
     for job in location_skipped:
-        existing[job["id"]] = {
-            "is_engineering": False,
-            "is_contract": False,
-            "is_hybrid": False,
-            "region": "international",
-            "location": None,
-            "job_summary": None,
-            "skills": [],
-            "level": None,
-            "comp": None,
-            "comp_extras": [],
-            "source_hash": content_hash(job),
-        }
-        print(f"  [location-skip] {job['company']}: {job['title']} [{job.get('location', '')}]")
+        scope = classify_location(job.get("location"))
+        region = "international" if scope == "international" else "unclear"
+        existing[job["id"]] = skip_entry(job, SKIP_REASON_LOCATION, region=region)
+        print(f"  [{scope}-skip] {job['company']}: {job['title']} [{job.get('location', '')}]")
 
     with_desc.sort(key=lambda j: 0 if j.get("first_seen") == today else 1)
 
     print(f"\nBackend: {BACKEND} ({'Claude ' + CLAUDE_MODEL if BACKEND == 'claude' else 'Ollama ' + OLLAMA_MODEL})")
-    print(f"{len(with_desc)} jobs to classify, {len(title_skipped)} title-skipped, {len(location_skipped)} location-skipped, {without_desc} skipped (no description)")
+    print("Scope: remote + Colorado (out-of-scope locations skipped before any LLM call)")
+    print(f"{len(with_desc)} jobs to classify ({ambiguous} on an ambiguous location), {len(title_skipped)} title-skipped, {len(location_skipped)} location-skipped, {without_desc} skipped (no description)")
     print(f"Workers: {WORKERS}\n")
 
     if not with_desc:
@@ -531,6 +510,7 @@ def main():
         "builder_rate": round(builder_rate, 4),
         "title_skipped": len(title_skipped),
         "location_skipped": len(location_skipped),
+        "location_ambiguous": ambiguous,
         "skipped_no_desc": without_desc,
         "errors": errors,
         **usage,
@@ -550,6 +530,7 @@ def main():
         "builder_rate": round(builder_rate, 4),
         "title_skipped": len(title_skipped),
         "location_skipped": len(location_skipped),
+        "location_ambiguous": ambiguous,
         "cost_usd": usage.get("cost_usd", 0.0),
     })
     HISTORY_FILE.write_text(json.dumps(history, indent=2))
@@ -562,6 +543,7 @@ def main():
         {"name": "builder_pipeline_classified",         "value": classified},
         {"name": "builder_pipeline_title_skipped",      "value": len(title_skipped)},
         {"name": "builder_pipeline_location_skipped",   "value": len(location_skipped)},
+        {"name": "builder_pipeline_location_ambiguous", "value": ambiguous},
         {"name": "builder_pipeline_no_desc",            "value": without_desc},
         {"name": "builder_pipeline_result_builder",     "value": eng},
         {"name": "builder_pipeline_result_not_builder", "value": not_eng},

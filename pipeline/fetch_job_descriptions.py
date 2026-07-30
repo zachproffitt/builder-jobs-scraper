@@ -9,12 +9,15 @@ Workable:    job page HTML
 Workday:     per-job CXS detail endpoint
 Eightfold:   per-position pcsx API
 
-By default only processes jobs first_seen today.
-Use --all to backfill all jobs without descriptions.
+By default only processes jobs first_seen today, and only jobs that pass the
+same free pre-filters classify_jobs.py uses (title skip list, remote + Colorado
+scope) — there's no point fetching a description for a job that will never be
+classified. Use --no-filter to fetch regardless of scope.
 
 Usage:
-    python fetch_job_descriptions.py          # today's new jobs only
-    python fetch_job_descriptions.py --all    # all without descriptions
+    python fetch_job_descriptions.py              # today's new, in-scope jobs
+    python fetch_job_descriptions.py --all        # all without descriptions
+    python fetch_job_descriptions.py --no-filter  # ignore title/location scope
 """
 
 import json
@@ -26,6 +29,7 @@ from pathlib import Path
 
 import httpx
 
+from job_filters import job_in_scope
 from scrapers._base import html_to_text
 
 JOBS_FILE = Path(__file__).parent.parent / "data" / "jobs_raw.json"
@@ -149,24 +153,27 @@ FETCHERS = {
 
 def main():
     fetch_all = "--all" in sys.argv
+    apply_filter = "--no-filter" not in sys.argv
     today = datetime.now(timezone.utc).date().isoformat()
 
     jobs = json.loads(JOBS_FILE.read_text())
 
-    to_fetch = [
+    candidates = [
         j for j in jobs
         if j.get("source") in FETCHERS
         and not j.get("raw_text", "").strip()
         and (fetch_all or j.get("first_seen") == today)
     ]
+    to_fetch = [j for j in candidates if job_in_scope(j)] if apply_filter else candidates
+    out_of_scope = len(candidates) - len(to_fetch)
 
     if not to_fetch:
         scope = "all" if fetch_all else "today's"
-        print(f"No {scope} jobs need descriptions")
+        print(f"No {scope} jobs need descriptions ({out_of_scope} out of scope)")
         return
 
     scope = "all" if fetch_all else "today's new"
-    print(f"Fetching descriptions for {len(to_fetch)} {scope} jobs...")
+    print(f"Fetching descriptions for {len(to_fetch)} {scope} jobs ({out_of_scope} skipped as out of scope)...")
 
     job_index = {j["id"]: j for j in jobs}
     lock = threading.Lock()

@@ -29,9 +29,26 @@ Runs hourly via GitHub Actions. Commits to both repos automatically.
 
 Pipeline metrics are pushed to Grafana Cloud via Prometheus. [Dashboard →](https://zachproffitt.grafana.net/public-dashboards/72012ff58fc04ad7bade3cd5b6c40316)
 
+## Scope
+
+The board covers **remote and Colorado** roles. That scope is enforced in
+`pipeline/job_filters.py` and applied *before* any spend: a job whose title
+matches the skip list, or whose location is neither remote nor Colorado, never
+gets a description fetch or an LLM call. Locations with no usable signal
+("United States", "Multiple Locations", blank) still go to Claude, since those
+often hide a remote role whose remote-ness is only stated in the description.
+
+Pre-filter skips are cached with a `skip_reason` field. To widen the scope, edit
+the regexes in `job_filters.py`, then reopen the affected jobs:
+
+```
+PYTHONPATH=. python pipeline/classify_jobs.py --purge-skips location
+```
+
 ## Classification
 
-Each job is sent to Claude with a structured prompt that extracts:
+Each job that survives the pre-filters is sent to Claude with a structured
+prompt that extracts:
 
 - **BUILDER** — does this role primarily write code?
 - **SUMMARY** — 1–2 sentence description
@@ -41,7 +58,8 @@ Each job is sent to Claude with a structured prompt that extracts:
 - **HYBRID / CONTRACT** — work arrangement flags
 - **REGION** — us / canada / international / unclear
 
-Non-engineering, contract, and international (outside US/Canada) roles are filtered out.
+Non-engineering, contract, and international (outside US/Canada) roles are filtered out,
+as are any that Claude resolves to a location outside the remote + Colorado scope.
 
 ## Supported ATS
 
