@@ -6500,10 +6500,11 @@
     "ats": "eightfold"
   },
   {
+    "ats": "greenhouse",
     "slug": "sezzle",
     "name": "Sezzle",
-    "summary": "Sezzle is a fintech company that provides buy-now-pay-later services, allowing consumers to make purchases and pay for them through installment payments over time. The platform partners with e-commerce retailers and online merchants to offer point-of-sale financing options to their customers.",
-    "ats": "greenhouse"
+    "summary": "Sezzle provides a buy-now-pay-later service that allows customers to make purchases and split the cost into four interest-free payments.",
+    "source": "meta_description"
   },
   {
     "slug": "verdigris",
