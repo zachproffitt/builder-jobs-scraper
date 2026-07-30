@@ -1,335 +1,492 @@
-[2026-07-30T14:26:06Z] fetch_jobs: scraper error for Accelevents (greenhouse/accelevents): Greenhouse request failed for accelevents: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/accelevents/jobs'
+[2026-07-30T16:43:07Z] fetch_jobs: scraper error for Abilitie (greenhouse/abilitie): Greenhouse request failed for abilitie: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:07Z] fetch_jobs: scraper error for Absci (greenhouse/absci): Greenhouse request failed for absci: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/absci/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:06Z] fetch_jobs: scraper error for Absci (greenhouse/absci): Greenhouse request failed for absci: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/absci/jobs'
+[2026-07-30T16:43:07Z] fetch_jobs: scraper error for Accelevents (greenhouse/accelevents): Greenhouse request failed for accelevents: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/accelevents/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:06Z] fetch_jobs: scraper error for Acciyo (bamboo/www): BambooHR request failed for www: Client error '404 Not Found' for url 'https://www.bamboohr.com/careers/list'
+[2026-07-30T16:43:07Z] fetch_jobs: scraper error for ABL Space Systems (lever/ablspacesystems): Lever request failed for ablspacesystems: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/ablspacesystems?mode=json'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:06Z] fetch_jobs: scraper error for Activepieces (bamboo/documentation): BambooHR request failed for documentation: Client error '404 Not Found' for url 'https://documentation.bamboohr.com/careers/list'
+[2026-07-30T16:43:08Z] fetch_jobs: scraper error for AcuityMD (greenhouse/acuitymd): Greenhouse request failed for acuitymd: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:08Z] fetch_jobs: scraper error for Acciyo (bamboo/www): BambooHR request failed for www: Client error '404 Not Found' for url 'https://www.bamboohr.com/careers/list'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:06Z] fetch_jobs: scraper error for ABL Space Systems (lever/ablspacesystems): Lever request failed for ablspacesystems: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/ablspacesystems?mode=json'
+[2026-07-30T16:43:08Z] fetch_jobs: scraper error for Activepieces (bamboo/documentation): BambooHR request failed for documentation: Client error '404 Not Found' for url 'https://documentation.bamboohr.com/careers/list'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:06Z] fetch_jobs: scraper error for Aetion (greenhouse/aetion): Greenhouse request failed for aetion: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/aetion/jobs'
+[2026-07-30T16:43:08Z] fetch_jobs: scraper error for Aetion (greenhouse/aetion): Greenhouse request failed for aetion: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/aetion/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:06Z] fetch_jobs: scraper error for adQuadrant (bamboo/adquadrant): BambooHR JSON parse failed for adquadrant: Expecting value: line 1 column 1 (char 0)
-[2026-07-30T14:26:07Z] fetch_jobs: scraper error for AgilityIO (ashby/api): Ashby request failed for api: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/api'
+[2026-07-30T16:43:08Z] fetch_jobs: scraper error for adQuadrant (bamboo/adquadrant): BambooHR JSON parse failed for adquadrant: Expecting value: line 1 column 1 (char 0)
+[2026-07-30T16:43:08Z] fetch_jobs: scraper error for AgilityIO (ashby/api): Ashby request failed for api: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/api'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:07Z] fetch_jobs: scraper error for Agolo (greenhouse/agolo): Greenhouse request failed for agolo: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/agolo/jobs'
+[2026-07-30T16:43:08Z] fetch_jobs: scraper error for Agolo (greenhouse/agolo): Greenhouse request failed for agolo: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/agolo/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:07Z] fetch_jobs: scraper error for Airweave (ashby/Airweave): Ashby request failed for Airweave: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Airweave'
+[2026-07-30T16:43:08Z] fetch_jobs: scraper error for aifleet (greenhouse/aifleet): Greenhouse request failed for aifleet: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/aifleet/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:07Z] fetch_jobs: scraper error for Aisera (greenhouse/aiserajobs): Greenhouse request failed for aiserajobs: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/aiserajobs/jobs'
+[2026-07-30T16:43:09Z] fetch_jobs: scraper error for Airweave (ashby/Airweave): Ashby request failed for Airweave: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Airweave'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:07Z] fetch_jobs: scraper error for Akili Interactive (greenhouse/akiliinteractive): Greenhouse request failed for akiliinteractive: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/akiliinteractive/jobs'
+[2026-07-30T16:43:09Z] fetch_jobs: scraper error for Akili Interactive (greenhouse/akiliinteractive): Greenhouse request failed for akiliinteractive: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/akiliinteractive/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:07Z] fetch_jobs: scraper error for Aktana (bamboo/aktana): BambooHR JSON parse failed for aktana: Expecting value: line 1 column 1 (char 0)
-[2026-07-30T14:26:10Z] fetch_jobs: scraper error for Amplify (workday/amplify/wd1/Amplify_Careers): Workday request failed for amplify/wd1/Amplify_Careers: Client error '403 Forbidden' for url 'https://amplify.wd1.myworkdayjobs.com/wday/cxs/amplify/Amplify_Careers/jobs'
+[2026-07-30T16:43:09Z] fetch_jobs: scraper error for Aisera (greenhouse/aiserajobs): Greenhouse request failed for aiserajobs: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/aiserajobs/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:09Z] fetch_jobs: scraper error for Aktana (bamboo/aktana): BambooHR JSON parse failed for aktana: Expecting value: line 1 column 1 (char 0)
+[2026-07-30T16:43:10Z] fetch_jobs: scraper error for Alogent (bamboo/alogent): BambooHR request failed for alogent: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:11Z] fetch_jobs: scraper error for Allscripts (workday/veradigm/wd12/VR): Workday request failed for veradigm/wd12/VR: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:11Z] fetch_jobs: scraper error for Amplify (workday/amplify/wd1/Amplify_Careers): Workday request failed for amplify/wd1/Amplify_Careers: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:12Z] fetch_jobs: scraper error for AndPlus (bamboo/andplus): BambooHR JSON parse failed for andplus: Expecting value: line 1 column 1 (char 0)
+[2026-07-30T16:43:12Z] fetch_jobs: scraper error for Anova Technologies (bamboo/anovasolutions): BambooHR request failed for anovasolutions: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:12Z] fetch_jobs: scraper error for Amount (workday/fis/wd5/SearchJobs): Workday request failed for fis/wd5/SearchJobs: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:13Z] fetch_jobs: scraper error for Applied Intuition (greenhouse/appliedintuition): Greenhouse request failed for appliedintuition: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/appliedintuition/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:13Z] fetch_jobs: scraper error for AppSumo (greenhouse/appsumocareers): Greenhouse request failed for appsumocareers: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/appsumocareers/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:14Z] fetch_jobs: scraper error for Arine (greenhouse/arine): Greenhouse request failed for arine: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/arine/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:14Z] fetch_jobs: scraper error for ARQ (ashby/ARQ): Ashby request failed for ARQ: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:14Z] fetch_jobs: scraper error for Ascend.io (ashby/ascend-io): Ashby request failed for ascend-io: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/ascend-io'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:15Z] fetch_jobs: scraper error for Adobe (workday/adobe/wd5/external_experienced): Workday request failed for adobe/wd5/external_experienced: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:15Z] fetch_jobs: scraper error for Aristocrat (workday/aristocrat/wd3/AristocratExternalCareersSite): Workday request failed for aristocrat/wd3/AristocratExternalCareersSite: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:15Z] fetch_jobs: scraper error for AtHoc (workday/bb/wd3/BlackBerry): Workday request failed for bb/wd3/BlackBerry: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:15Z] fetch_jobs: scraper error for Athelas (ashby/Commure-Athelas): Ashby request failed for Commure-Athelas: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Commure-Athelas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:15Z] fetch_jobs: scraper error for Abbott (workday/abbott/wd5/abbottcareers): Workday request failed for abbott/wd5/abbottcareers: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:15Z] fetch_jobs: scraper error for Attunix (greenhouse/redapt): Greenhouse request failed for redapt: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:16Z] fetch_jobs: scraper error for BambooHR (bamboo/www): BambooHR request failed for www: Client error '404 Not Found' for url 'https://www.bamboohr.com/careers/list'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:16Z] fetch_jobs: scraper error for Bastion (ashby/bastion): Ashby request failed for bastion: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:17Z] fetch_jobs: scraper error for Bellhop (lever/bellhops): Lever request failed for bellhops: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/bellhops?mode=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:17Z] fetch_jobs: scraper error for BeCore (bamboo/becore): BambooHR JSON parse failed for becore: Expecting value: line 1 column 1 (char 0)
+[2026-07-30T16:43:18Z] fetch_jobs: scraper error for BIOS Health (workable/bios-3): Workable request failed for bios-3: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:19Z] fetch_jobs: scraper error for Block (greenhouse/block): Greenhouse request failed for block: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:19Z] fetch_jobs: scraper error for Blue Onion (ashby/Blue): Ashby request failed for Blue: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Blue'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:20Z] fetch_jobs: scraper error for BlueCore (greenhouse/bluecoreinc): Greenhouse request failed for bluecoreinc: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/bluecoreinc/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:20Z] fetch_jobs: scraper error for Booksy (workable/booksy-1): Workable request failed for booksy-1: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:21Z] fetch_jobs: scraper error for Brandcast (lever/brandcast): Lever request failed for brandcast: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/brandcast?mode=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:21Z] fetch_jobs: scraper error for BrandYourself (greenhouse/brandyourself): Greenhouse request failed for brandyourself: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/brandyourself/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:22Z] fetch_jobs: scraper error for Anthem Health (workday/elevancehealth/wd1/ANT): Workday request failed for elevancehealth/wd1/ANT: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:23Z] fetch_jobs: scraper error for Buildxact (greenhouse/buildxact): Greenhouse request failed for buildxact: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/buildxact/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:23Z] fetch_jobs: scraper error for BuildZoom (lever/buildzoom): Lever request failed for buildzoom: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/buildzoom?mode=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:23Z] fetch_jobs: scraper error for Booz Allen Hamilton (workday/bah/wd1/BAH_Jobs): Workday request failed for bah/wd1/BAH_Jobs: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:23Z] fetch_jobs: scraper error for BrowserStack (workday/browserstack/wd3/External): Workday request failed for browserstack/wd3/External: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:23Z] fetch_jobs: scraper error for Bullhorn (workday/bullhorn/wd1/BullhornCareers): Workday request failed for bullhorn/wd1/BullhornCareers: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:23Z] fetch_jobs: scraper error for Camber (ashby/camber): Ashby request failed for camber: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:24Z] fetch_jobs: scraper error for Capy (ashby/capy): Ashby request failed for capy: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:24Z] fetch_jobs: scraper error for Cargo (greenhouse/airbyte): Greenhouse request failed for airbyte: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/airbyte/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:25Z] fetch_jobs: scraper error for Cavnue (greenhouse/cavnue): Greenhouse request failed for cavnue: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:25Z] fetch_jobs: scraper error for CDC Software (workable/j): Workable request failed for j: Client error '404 Not Found' for url 'https://apply.workable.com/api/v3/accounts/j/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:26Z] fetch_jobs: scraper error for Cerebras Systems (greenhouse/cerebrassystems): Greenhouse request failed for cerebrassystems: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/cerebrassystems/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:26Z] fetch_jobs: scraper error for Cerence Inc. (workday/cerence/wd5/Cerence): Workday request failed for cerence/wd5/Cerence: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:27Z] fetch_jobs: scraper error for Anduril Industries (greenhouse/andurilindustries): Greenhouse request failed for andurilindustries: The read operation timed out
+[2026-07-30T16:43:27Z] fetch_jobs: scraper error for ChartHop (ashby/ChartHop): Ashby request failed for ChartHop: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:28Z] fetch_jobs: scraper error for CipherHealth (greenhouse/cipherhealth): Greenhouse request failed for cipherhealth: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:28Z] fetch_jobs: scraper error for Circular (greenhouse/nowcircular): Greenhouse request failed for nowcircular: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/nowcircular/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:28Z] fetch_jobs: scraper error for Airbus Helicopters (workday/ag/wd3/Airbus): Workday request failed for ag/wd3/Airbus: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:28Z] fetch_jobs: scraper error for Citymapper (greenhouse/via): Greenhouse request failed for via: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:29Z] fetch_jobs: scraper error for Capital One (workday/capitalone/wd12/Capital_One): Workday request failed for capitalone/wd12/Capital_One: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:29Z] fetch_jobs: scraper error for CoachHub (ashby/CoachHub): Ashby request failed for CoachHub: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/CoachHub'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:30Z] fetch_jobs: scraper error for Coder (ashby/Coder): Ashby request failed for Coder: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:30Z] fetch_jobs: scraper error for CollegeVine (ashby/collegevine.com): Ashby request failed for collegevine.com: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/collegevine.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:31Z] fetch_jobs: scraper error for Common Paper (greenhouse/commonpaper): Greenhouse request failed for commonpaper: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/commonpaper/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:32Z] fetch_jobs: scraper error for Complete (ashby/complete): Ashby request failed for complete: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:32Z] fetch_jobs: scraper error for CityMD (workday/shm/wd5/Summit_CityMD): Workday request failed for shm/wd5/Summit_CityMD: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:33Z] fetch_jobs: scraper error for Conga (greenhouse/conga): Greenhouse request failed for conga: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:33Z] fetch_jobs: scraper error for Constellation Space (ashby/constellationspace): Ashby request failed for constellationspace: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:33Z] fetch_jobs: scraper error for Conveo (ashby/conveo): Ashby request failed for conveo: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:33Z] fetch_jobs: scraper error for Copy.ai (lever/CopyAI): Lever request failed for CopyAI: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/CopyAI?mode=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:33Z] fetch_jobs: scraper error for Coris (ashby/coris): Ashby request failed for coris: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/coris'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:34Z] fetch_jobs: scraper error for CreatorIQ (greenhouse/creatoriq): Greenhouse request failed for creatoriq: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/creatoriq/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:36Z] fetch_jobs: scraper error for Cybsafe (bamboo/cybsafe): BambooHR request failed for cybsafe: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:36Z] fetch_jobs: scraper error for Baker Hughes (workday/bakerhughes/wd5/BakerHughes): Workday request failed for bakerhughes/wd5/BakerHughes: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:37Z] fetch_jobs: scraper error for Datacurve (ashby/datacurve): Ashby request failed for datacurve: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/datacurve'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:37Z] fetch_jobs: scraper error for Dataiku (greenhouse/dataiku): Greenhouse request failed for dataiku: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:37Z] fetch_jobs: scraper error for CSC (workday/dxctechnology/wd1/DXCJobs): Workday request failed for dxctechnology/wd1/DXCJobs: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:37Z] fetch_jobs: scraper error for dbt Labs (greenhouse/dbtlabsinc): Greenhouse request failed for dbtlabsinc: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/dbtlabsinc/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:38Z] fetch_jobs: scraper error for Deloitte Consulting (lever/deloitte): Lever request failed for deloitte: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/deloitte?mode=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:38Z] fetch_jobs: scraper error for Demodesk (greenhouse/demodesk): Greenhouse request failed for demodesk: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/demodesk/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:38Z] fetch_jobs: scraper error for Denim (greenhouse/denim): Greenhouse request failed for denim: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/denim/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:38Z] fetch_jobs: scraper error for Deno (ashby/Deno): Ashby request failed for Deno: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Deno'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:40Z] fetch_jobs: scraper error for Colliers (workday/colliers/wd3/Colliers-External-Career-Site): Workday request failed for colliers/wd3/Colliers-External-Career-Site: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:40Z] fetch_jobs: scraper error for Darktrace (workday/darktrace/wd3/DarktaceExternal): Workday request failed for darktrace/wd3/DarktaceExternal: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:40Z] fetch_jobs: scraper error for Demisto (workday/paloaltonetworks/wd5/panwexternalcareers): Workday request failed for paloaltonetworks/wd5/panwexternalcareers: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:40Z] fetch_jobs: scraper error for DirectShifts (greenhouse/directshifts): Greenhouse request failed for directshifts: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/directshifts/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:41Z] fetch_jobs: scraper error for DistroKid (greenhouse/distrokid): Greenhouse request failed for distrokid: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:41Z] fetch_jobs: scraper error for Divvy Homes (greenhouse/divvyhomes): Greenhouse request failed for divvyhomes: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/divvyhomes/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:41Z] fetch_jobs: scraper error for Doe (ashby/doe): Ashby request failed for doe: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:41Z] fetch_jobs: scraper error for Casetext (workday/thomsonreuters/wd5/External_Career_Site): Workday request failed for thomsonreuters/wd5/External_Career_Site: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:42Z] fetch_jobs: scraper error for Dragos (greenhouse/dragos): Greenhouse request failed for dragos: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:42Z] fetch_jobs: scraper error for doxo (greenhouse/doxocareers): Greenhouse request failed for doxocareers: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doxocareers/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:42Z] fetch_jobs: scraper error for DrugDev (workday/iqvia/wd1/IQVIA): Workday request failed for iqvia/wd1/IQVIA: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:43Z] fetch_jobs: scraper error for Dyneti Technologies (ashby/dyneti): Ashby request failed for dyneti: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:43Z] fetch_jobs: scraper error for Echodyne (greenhouse/echodynecorp): Greenhouse request failed for echodynecorp: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:44Z] fetch_jobs: scraper error for Ekho (ashby/ekho): Ashby request failed for ekho: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:44Z] fetch_jobs: scraper error for Electric Air (ashby/electricair): Ashby request failed for electricair: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:45Z] fetch_jobs: scraper error for Embrace (greenhouse/embrace): Greenhouse request failed for embrace: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/embrace/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:45Z] fetch_jobs: scraper error for CrowdStrike (workday/crowdstrike/wd5/crowdstrikecareers): Workday request failed for crowdstrike/wd5/crowdstrikecareers: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:46Z] fetch_jobs: scraper error for Eppo (ashby/eppo): Ashby request failed for eppo: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/eppo'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:46Z] fetch_jobs: scraper error for ESL (greenhouse/eslfaceitgrouplimited): Greenhouse request failed for eslfaceitgrouplimited: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:46Z] fetch_jobs: scraper error for EquityMultiple (greenhouse/equitymultiple): Greenhouse request failed for equitymultiple: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/equitymultiple/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:46Z] fetch_jobs: scraper error for Ethic (greenhouse/ethicinvesting): Greenhouse request failed for ethicinvesting: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:47Z] fetch_jobs: scraper error for Every Mother (lever/every-mother): Lever request failed for every-mother: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/every-mother?mode=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:48Z] fetch_jobs: scraper error for Empower Retirement (workday/empower/wd12/empower): Workday request failed for empower/wd12/empower: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:49Z] fetch_jobs: scraper error for Draper (workday/draper/wd5/Draper_Careers): Workday request failed for draper/wd5/Draper_Careers: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:49Z] fetch_jobs: scraper error for Fetch (greenhouse/fetchrewards): Greenhouse request failed for fetchrewards: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/fetchrewards/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:50Z] fetch_jobs: scraper error for Culture Amp (greenhouse/cultureamp): Greenhouse request failed for cultureamp: The read operation timed out
+[2026-07-30T16:43:50Z] fetch_jobs: scraper error for Finitive (bamboo/finitive): BambooHR JSON parse failed for finitive: Expecting value: line 1 column 1 (char 0)
+[2026-07-30T16:43:51Z] fetch_jobs: scraper error for Evisort (workday/workday/wd5/Workday): Workday request failed for workday/wd5/Workday: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:51Z] fetch_jobs: scraper error for Firstbase.io (ashby/firstbaseio): Ashby request failed for firstbaseio: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/firstbaseio'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:51Z] fetch_jobs: scraper error for F5 Networks (workday/ffive/wd5/f5jobs): Workday request failed for ffive/wd5/f5jobs: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:52Z] fetch_jobs: scraper error for Formance (ashby/formance): Ashby request failed for formance: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:52Z] fetch_jobs: scraper error for Fram Energy (ashby/Framenergy): Ashby request failed for Framenergy: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Framenergy'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:53Z] fetch_jobs: scraper error for Fundology (ashby/DealRoom): Ashby request failed for DealRoom: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/DealRoom'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:53Z] fetch_jobs: scraper error for Fundera (lever/fundera): Lever request failed for fundera: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/fundera?mode=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:53Z] fetch_jobs: scraper error for G2 (greenhouse/g2crowd): Greenhouse request failed for g2crowd: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/g2crowd/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:54Z] fetch_jobs: scraper error for Gamefam (greenhouse/gamefam): Greenhouse request failed for gamefam: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/gamefam/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:54Z] fetch_jobs: scraper error for Gerald Technologies, Inc (lever/joingerald): Lever request failed for joingerald: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/joingerald?mode=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:55Z] fetch_jobs: scraper error for GiveCard (ashby/GiveCard): Ashby request failed for GiveCard: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/GiveCard'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:55Z] fetch_jobs: scraper error for Goldbelly (greenhouse/goldbelly): Greenhouse request failed for goldbelly: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/goldbelly/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:55Z] fetch_jobs: scraper error for Frame.io (workday/adobe/wd5/external_experienced): Workday request failed for adobe/wd5/external_experienced: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:56Z] fetch_jobs: scraper error for Goldbely (greenhouse/goldbelly): Greenhouse request failed for goldbelly: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/goldbelly/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:56Z] fetch_jobs: scraper error for Gordian Software (ashby/Gordian): Ashby request failed for Gordian: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Gordian'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:56Z] fetch_jobs: scraper error for Gradia Health (ashby/Gradia): Ashby request failed for Gradia: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:56Z] fetch_jobs: scraper error for Docugami (greenhouse/docugami): Greenhouse request failed for docugami: The read operation timed out
+[2026-07-30T16:43:56Z] fetch_jobs: scraper error for Grammarly (greenhouse/grammarly): Greenhouse request failed for grammarly: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/grammarly/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:57Z] fetch_jobs: scraper error for Green Canopy NODE (greenhouse/greencanopy): Greenhouse request failed for greencanopy: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/greencanopy/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:57Z] fetch_jobs: scraper error for Greenboard (ashby/Greenboard): Ashby request failed for Greenboard: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:57Z] fetch_jobs: scraper error for GrowthDay (greenhouse/growthday): Greenhouse request failed for growthday: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/growthday/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:43:58Z] fetch_jobs: scraper error for HappyRobot (ashby/happyrobot.ai): Ashby request failed for happyrobot.ai: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:58Z] fetch_jobs: scraper error for Hebbia AI (ashby/hebbia-ai): Ashby request failed for hebbia-ai: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:58Z] fetch_jobs: scraper error for Hightouch (greenhouse/hightouch): Greenhouse request failed for hightouch: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:59Z] fetch_jobs: scraper error for Hiya Inc. (ashby/hiya): Ashby request failed for hiya: [Errno 104] Connection reset by peer
+[2026-07-30T16:43:59Z] fetch_jobs: scraper error for HitPay (ashby/hitpayapp.com): Ashby request failed for hitpayapp.com: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/hitpayapp.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:00Z] fetch_jobs: scraper error for Inari Agriculture (greenhouse/inariagriculture): Greenhouse request failed for inariagriculture: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/inariagriculture/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:00Z] fetch_jobs: scraper error for Inflection AI (greenhouse/inflectionai): Greenhouse request failed for inflectionai: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:01Z] fetch_jobs: scraper error for DXC Technology (workday/dxctechnology/wd1/DXCJobs): Workday request failed for dxctechnology/wd1/DXCJobs: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:02Z] fetch_jobs: scraper error for Interactive Brokers (greenhouse/ibkr): Greenhouse request failed for ibkr: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/ibkr/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:03Z] fetch_jobs: scraper error for Isomorphic Labs (greenhouse/isomorphiclabs): Greenhouse request failed for isomorphiclabs: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:04Z] fetch_jobs: scraper error for Intel (workday/intel/wd1/External): Workday request failed for intel/wd1/External: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:04Z] fetch_jobs: scraper error for IQVIA (workday/iqvia/wd1/IQVIA): Workday request failed for iqvia/wd1/IQVIA: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:05Z] fetch_jobs: scraper error for Jasper.ai (ashby/Jasper): Ashby request failed for Jasper: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Jasper'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:05Z] fetch_jobs: scraper error for iHeartMedia (workday/iheartmedia/wd5/External_iHM): Workday request failed for iheartmedia/wd5/External_iHM: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:05Z] fetch_jobs: scraper error for Invenergy (workday/invenergyllc/wd1/invenergycareers): Workday request failed for invenergyllc/wd1/invenergycareers: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:05Z] fetch_jobs: scraper error for Joyn Bio (greenhouse/ginkgobioworks): Greenhouse request failed for ginkgobioworks: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:05Z] fetch_jobs: scraper error for JobGet (greenhouse/jobget): Greenhouse request failed for jobget: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/jobget/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:05Z] fetch_jobs: scraper error for Kajabi (greenhouse/kajabi): Greenhouse request failed for kajabi: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/kajabi/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:06Z] fetch_jobs: scraper error for Key2Act (workday/volarisgroup/wd3/WennSoft): Workday request failed for volarisgroup/wd3/WennSoft: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:06Z] fetch_jobs: scraper error for Kevala (lever/Kevala): Lever request failed for Kevala: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/Kevala?mode=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:06Z] fetch_jobs: scraper error for KindHealth (greenhouse/kindsnacks): Greenhouse request failed for kindsnacks: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:06Z] fetch_jobs: scraper error for KIXEYE (bamboo/kixeye): BambooHR request failed for kixeye: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:07Z] fetch_jobs: scraper error for Knowde (greenhouse/knowde): Greenhouse request failed for knowde: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/knowde/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:07Z] fetch_jobs: scraper error for Knowtex (ashby/ashby-embed-demo-org): Ashby request failed for ashby-embed-demo-org: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:07Z] fetch_jobs: scraper error for Komaza (lever/komaza): Lever request failed for komaza: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/komaza?mode=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:07Z] fetch_jobs: scraper error for Juniper Networks (workday/hpe/wd5/Jobsathpe): Workday request failed for hpe/wd5/Jobsathpe: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:08Z] fetch_jobs: scraper error for Lago (ashby/lago): Ashby request failed for lago: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:08Z] fetch_jobs: scraper error for Lattice (greenhouse/lattice): Greenhouse request failed for lattice: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:08Z] fetch_jobs: scraper error for Language.ai (greenhouse/smartling): Greenhouse request failed for smartling: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:09Z] fetch_jobs: scraper error for LineLeap (greenhouse/lineleap): Greenhouse request failed for lineleap: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/lineleap/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:09Z] fetch_jobs: scraper error for LiveChat (lever/livechatinc): Lever request failed for livechatinc: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/livechatinc?mode=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:10Z] fetch_jobs: scraper error for Logiwa (greenhouse/logiwacareers): Greenhouse request failed for logiwacareers: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/logiwacareers/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:11Z] fetch_jobs: scraper error for Lumosity (lever/lumosity): Lever request failed for lumosity: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/lumosity?mode=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:11Z] fetch_jobs: scraper error for Mach Industries (workday/luminegrp/wd3/TOMIA): Workday request failed for luminegrp/wd3/TOMIA: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:11Z] fetch_jobs: scraper error for MachineMetrics, Inc. (greenhouse/machinemetrics): Greenhouse request failed for machinemetrics: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/machinemetrics/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:11Z] fetch_jobs: scraper error for Maihem (ashby/maihem): Ashby request failed for maihem: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/maihem'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:11Z] fetch_jobs: scraper error for Mainstay (greenhouse/admithub): Greenhouse request failed for admithub: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/admithub/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:11Z] fetch_jobs: scraper error for MaintainX (greenhouse/maintainx): Greenhouse request failed for maintainx: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/maintainx/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:11Z] fetch_jobs: scraper error for Malvern Media (workday/spectris/wd3/Malvern_Panalytical_Careers): Workday request failed for spectris/wd3/Malvern_Panalytical_Careers: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:11Z] fetch_jobs: scraper error for Mandolin (ashby/mandolin): Ashby request failed for mandolin: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:12Z] fetch_jobs: scraper error for MariaDB (greenhouse/mariadbplc): Greenhouse request failed for mariadbplc: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:12Z] fetch_jobs: scraper error for Maven Clinic (ashby/maven): Ashby request failed for maven: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:12Z] fetch_jobs: scraper error for Mavenir (workday/mavenir/wd1/Mavenir_Careers): Workday request failed for mavenir/wd1/Mavenir_Careers: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:12Z] fetch_jobs: scraper error for Markaz Technologies (bamboo/markaztechnologies): BambooHR JSON parse failed for markaztechnologies: Expecting value: line 1 column 1 (char 0)
+[2026-07-30T16:44:12Z] fetch_jobs: scraper error for May Mobility (greenhouse/maymobility): Greenhouse request failed for maymobility: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:12Z] fetch_jobs: scraper error for Logitech (workday/logitech/wd5/Logitech): Workday request failed for logitech/wd5/Logitech: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:12Z] fetch_jobs: scraper error for Medal (ashby/medal): Ashby request failed for medal: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/medal'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:12Z] fetch_jobs: scraper error for Meltano (greenhouse/meltano): Greenhouse request failed for meltano: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/meltano/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:13Z] fetch_jobs: scraper error for Metal (ashby/metal.so): Ashby request failed for metal.so: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:13Z] fetch_jobs: scraper error for Mezmo (greenhouse/logdna): Greenhouse request failed for logdna: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/logdna/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:14Z] fetch_jobs: scraper error for Mindera (workable/j): Workable request failed for j: Client error '404 Not Found' for url 'https://apply.workable.com/api/v3/accounts/j/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:14Z] fetch_jobs: scraper error for Minicor (ashby/Laminar): Ashby request failed for Laminar: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:14Z] fetch_jobs: scraper error for JLL (workday/jll/wd1/jllcareers): Workday request failed for jll/wd1/jllcareers: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:14Z] fetch_jobs: scraper error for ModernLoop (greenhouse/modernloop): Greenhouse request failed for modernloop: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/modernloop/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:14Z] fetch_jobs: scraper error for Modumetal (bamboo/resources): BambooHR request failed for resources: Client error '404 Not Found' for url 'https://resources.bamboohr.com/careers/list'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:14Z] fetch_jobs: scraper error for MoonPay (greenhouse/moonpay): Greenhouse request failed for moonpay: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/moonpay/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:15Z] fetch_jobs: scraper error for Montoux (bamboo/montoux): BambooHR JSON parse failed for montoux: Expecting value: line 1 column 1 (char 0)
+[2026-07-30T16:44:15Z] fetch_jobs: scraper error for MosaicML (greenhouse/mosaicml): Greenhouse request failed for mosaicml: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/mosaicml/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:15Z] fetch_jobs: scraper error for Motion (ashby/motion): Ashby request failed for motion: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/motion'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:44:15Z] fetch_jobs: scraper error for Mutiny (ashby/Mutiny): Ashby request failed for Mutiny: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:16Z] fetch_jobs: scraper error for Nash (ashby/Nash): Ashby request failed for Nash: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:16Z] fetch_jobs: scraper error for NantOmics (workday/nant/wd5/Nant): Workday request failed for nant/wd5/Nant: Client error '403 Forbidden' for url 'https://nant.wd5.myworkdayjobs.com/wday/cxs/nant/Nant/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-07-30T14:26:11Z] fetch_jobs: scraper error for AndPlus (bamboo/andplus): BambooHR JSON parse failed for andplus: Expecting value: line 1 column 1 (char 0)
-[2026-07-30T14:26:14Z] fetch_jobs: scraper error for Applied Intuition (greenhouse/appliedintuition): Greenhouse request failed for appliedintuition: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/appliedintuition/jobs'
+[2026-07-30T16:44:16Z] fetch_jobs: scraper error for Netflix (lever/netflix): Lever request failed for netflix: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/netflix?mode=json'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:14Z] fetch_jobs: scraper error for AppSumo (greenhouse/appsumocareers): Greenhouse request failed for appsumocareers: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/appsumocareers/jobs'
+[2026-07-30T16:44:16Z] fetch_jobs: scraper error for Newsela (greenhouse/newsela): Greenhouse request failed for newsela: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:17Z] fetch_jobs: scraper error for Ninth Wave (bamboo/resources): BambooHR request failed for resources: Client error '404 Not Found' for url 'https://resources.bamboohr.com/careers/list'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:14Z] fetch_jobs: scraper error for aifleet (greenhouse/aifleet): Greenhouse request failed for aifleet: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/aifleet/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:14Z] fetch_jobs: scraper error for Arine (greenhouse/arine): Greenhouse request failed for arine: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/arine/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:15Z] fetch_jobs: scraper error for Ascend.io (ashby/ascend-io): Ashby request failed for ascend-io: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/ascend-io'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:15Z] fetch_jobs: scraper error for Athelas (ashby/Commure-Athelas): Ashby request failed for Commure-Athelas: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Commure-Athelas'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:18Z] fetch_jobs: scraper error for BambooHR (bamboo/www): BambooHR request failed for www: Client error '404 Not Found' for url 'https://www.bamboohr.com/careers/list'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:19Z] fetch_jobs: scraper error for BeCore (bamboo/becore): BambooHR JSON parse failed for becore: Expecting value: line 1 column 1 (char 0)
-[2026-07-30T14:26:20Z] fetch_jobs: scraper error for Bellhop (lever/bellhops): Lever request failed for bellhops: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/bellhops?mode=json'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:25Z] fetch_jobs: scraper error for Blue Onion (ashby/Blue): Ashby request failed for Blue: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Blue'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:26Z] fetch_jobs: scraper error for BlueCore (greenhouse/bluecoreinc): Greenhouse request failed for bluecoreinc: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/bluecoreinc/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:26Z] fetch_jobs: scraper error for Anduril Industries (greenhouse/andurilindustries): Greenhouse request failed for andurilindustries: The read operation timed out
-[2026-07-30T14:26:26Z] fetch_jobs: scraper error for BrandYourself (greenhouse/brandyourself): Greenhouse request failed for brandyourself: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/brandyourself/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:27Z] fetch_jobs: scraper error for Brandcast (lever/brandcast): Lever request failed for brandcast: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/brandcast?mode=json'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:28Z] fetch_jobs: scraper error for Buildxact (greenhouse/buildxact): Greenhouse request failed for buildxact: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/buildxact/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:28Z] fetch_jobs: scraper error for BuildZoom (lever/buildzoom): Lever request failed for buildzoom: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/buildzoom?mode=json'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:30Z] fetch_jobs: scraper error for Cargo (greenhouse/airbyte): Greenhouse request failed for airbyte: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/airbyte/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:31Z] fetch_jobs: scraper error for CDC Software (workable/j): Workable request failed for j: Client error '404 Not Found' for url 'https://apply.workable.com/api/v3/accounts/j/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:31Z] fetch_jobs: scraper error for Cerebras Systems (greenhouse/cerebrassystems): Greenhouse request failed for cerebrassystems: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/cerebrassystems/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:34Z] fetch_jobs: scraper error for Circular (greenhouse/nowcircular): Greenhouse request failed for nowcircular: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/nowcircular/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:41Z] fetch_jobs: scraper error for CoachHub (ashby/CoachHub): Ashby request failed for CoachHub: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/CoachHub'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:42Z] fetch_jobs: scraper error for Clearpath Robotics (workday/rockwellautomation/wd1/External_Rockwell_Automation): Workday request failed for rockwellautomation/wd1/External_Rockwell_Automation: Server error '502 Bad Gateway' for url 'https://rockwellautomation.wd1.myworkdayjobs.com/wday/cxs/rockwellautomation/External_Rockwell_Automation/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
-[2026-07-30T14:26:43Z] fetch_jobs: scraper error for CollegeVine (ashby/collegevine.com): Ashby request failed for collegevine.com: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/collegevine.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:46Z] fetch_jobs: scraper error for Common Paper (greenhouse/commonpaper): Greenhouse request failed for commonpaper: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/commonpaper/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:49Z] fetch_jobs: scraper error for Copy.ai (lever/CopyAI): Lever request failed for CopyAI: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/CopyAI?mode=json'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:49Z] fetch_jobs: scraper error for Coris (ashby/coris): Ashby request failed for coris: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/coris'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:50Z] fetch_jobs: scraper error for CreatorIQ (greenhouse/creatoriq): Greenhouse request failed for creatoriq: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/creatoriq/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:55Z] fetch_jobs: scraper error for Datacurve (ashby/datacurve): Ashby request failed for datacurve: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/datacurve'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:55Z] fetch_jobs: scraper error for dbt Labs (greenhouse/dbtlabsinc): Greenhouse request failed for dbtlabsinc: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/dbtlabsinc/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:56Z] fetch_jobs: scraper error for Deloitte Consulting (lever/deloitte): Lever request failed for deloitte: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/deloitte?mode=json'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:57Z] fetch_jobs: scraper error for Demodesk (greenhouse/demodesk): Greenhouse request failed for demodesk: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/demodesk/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:57Z] fetch_jobs: scraper error for Denim (greenhouse/denim): Greenhouse request failed for denim: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/denim/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:57Z] fetch_jobs: scraper error for Deno (ashby/Deno): Ashby request failed for Deno: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Deno'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:59Z] fetch_jobs: scraper error for DirectShifts (greenhouse/directshifts): Greenhouse request failed for directshifts: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/directshifts/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:59Z] fetch_jobs: scraper error for Divvy Homes (greenhouse/divvyhomes): Greenhouse request failed for divvyhomes: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/divvyhomes/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:26:59Z] fetch_jobs: scraper error for Doe (ashby/doe): Ashby request failed for doe: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/doe'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:00Z] fetch_jobs: scraper error for doxo (greenhouse/doxocareers): Greenhouse request failed for doxocareers: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doxocareers/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:08Z] fetch_jobs: scraper error for Embrace (greenhouse/embrace): Greenhouse request failed for embrace: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/embrace/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:14Z] fetch_jobs: scraper error for Eppo (ashby/eppo): Ashby request failed for eppo: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/eppo'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:15Z] fetch_jobs: scraper error for EquityMultiple (greenhouse/equitymultiple): Greenhouse request failed for equitymultiple: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/equitymultiple/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:17Z] fetch_jobs: scraper error for Every Mother (lever/every-mother): Lever request failed for every-mother: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/every-mother?mode=json'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:24Z] fetch_jobs: scraper error for Fetch (greenhouse/fetchrewards): Greenhouse request failed for fetchrewards: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/fetchrewards/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:26Z] fetch_jobs: scraper error for Finitive (bamboo/finitive): BambooHR JSON parse failed for finitive: Expecting value: line 1 column 1 (char 0)
-[2026-07-30T14:27:27Z] fetch_jobs: scraper error for Firstbase.io (ashby/firstbaseio): Ashby request failed for firstbaseio: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/firstbaseio'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:30Z] fetch_jobs: scraper error for Fram Energy (ashby/Framenergy): Ashby request failed for Framenergy: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Framenergy'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:32Z] fetch_jobs: scraper error for Fundera (lever/fundera): Lever request failed for fundera: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/fundera?mode=json'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:32Z] fetch_jobs: scraper error for Fundology (ashby/DealRoom): Ashby request failed for DealRoom: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/DealRoom'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:32Z] fetch_jobs: scraper error for G2 (greenhouse/g2crowd): Greenhouse request failed for g2crowd: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/g2crowd/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:33Z] fetch_jobs: scraper error for Gamefam (greenhouse/gamefam): Greenhouse request failed for gamefam: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/gamefam/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:34Z] fetch_jobs: scraper error for Gerald Technologies, Inc (lever/joingerald): Lever request failed for joingerald: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/joingerald?mode=json'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:35Z] fetch_jobs: scraper error for GiveCard (ashby/GiveCard): Ashby request failed for GiveCard: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/GiveCard'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:36Z] fetch_jobs: scraper error for Goldbely (greenhouse/goldbelly): Greenhouse request failed for goldbelly: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/goldbelly/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:36Z] fetch_jobs: scraper error for Goldbelly (greenhouse/goldbelly): Greenhouse request failed for goldbelly: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/goldbelly/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:36Z] fetch_jobs: scraper error for Gordian Software (ashby/Gordian): Ashby request failed for Gordian: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Gordian'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:37Z] fetch_jobs: scraper error for Gradia Health (ashby/Gradia): Ashby request failed for Gradia: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Gradia'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:38Z] fetch_jobs: scraper error for Grammarly (greenhouse/grammarly): Greenhouse request failed for grammarly: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/grammarly/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:38Z] fetch_jobs: scraper error for Green Canopy NODE (greenhouse/greencanopy): Greenhouse request failed for greencanopy: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/greencanopy/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:39Z] fetch_jobs: scraper error for GrowthDay (greenhouse/growthday): Greenhouse request failed for growthday: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/growthday/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:41Z] fetch_jobs: scraper error for HitPay (ashby/hitpayapp.com): Ashby request failed for hitpayapp.com: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/hitpayapp.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:43Z] fetch_jobs: scraper error for Inari Agriculture (greenhouse/inariagriculture): Greenhouse request failed for inariagriculture: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/inariagriculture/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:49Z] fetch_jobs: scraper error for Interactive Brokers (greenhouse/ibkr): Greenhouse request failed for ibkr: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/ibkr/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:51Z] fetch_jobs: scraper error for Jasper.ai (ashby/Jasper): Ashby request failed for Jasper: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Jasper'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:53Z] fetch_jobs: scraper error for JobGet (greenhouse/jobget): Greenhouse request failed for jobget: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/jobget/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:55Z] fetch_jobs: scraper error for Kajabi (greenhouse/kajabi): Greenhouse request failed for kajabi: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/kajabi/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:55Z] fetch_jobs: scraper error for Kevala (lever/Kevala): Lever request failed for Kevala: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/Kevala?mode=json'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:58Z] fetch_jobs: scraper error for KIXEYE (bamboo/kixeye): BambooHR JSON parse failed for kixeye: Expecting value: line 1 column 1 (char 0)
-[2026-07-30T14:27:58Z] fetch_jobs: scraper error for Knowde (greenhouse/knowde): Greenhouse request failed for knowde: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/knowde/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:27:59Z] fetch_jobs: scraper error for Komaza (lever/komaza): Lever request failed for komaza: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/komaza?mode=json'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:06Z] fetch_jobs: scraper error for LineLeap (greenhouse/lineleap): Greenhouse request failed for lineleap: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/lineleap/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:07Z] fetch_jobs: scraper error for LiveChat (lever/livechatinc): Lever request failed for livechatinc: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/livechatinc?mode=json'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:09Z] fetch_jobs: scraper error for Logiwa (greenhouse/logiwacareers): Greenhouse request failed for logiwacareers: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/logiwacareers/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:12Z] fetch_jobs: scraper error for Lumosity (lever/lumosity): Lever request failed for lumosity: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/lumosity?mode=json'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:13Z] fetch_jobs: scraper error for MachineMetrics, Inc. (greenhouse/machinemetrics): Greenhouse request failed for machinemetrics: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/machinemetrics/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:13Z] fetch_jobs: scraper error for Maihem (ashby/maihem): Ashby request failed for maihem: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/maihem'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:13Z] fetch_jobs: scraper error for Mainstay (greenhouse/admithub): Greenhouse request failed for admithub: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/admithub/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:16Z] fetch_jobs: scraper error for MaintainX (greenhouse/maintainx): Greenhouse request failed for maintainx: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/maintainx/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:17Z] fetch_jobs: scraper error for Markaz Technologies (bamboo/markaztechnologies): BambooHR JSON parse failed for markaztechnologies: Expecting value: line 1 column 1 (char 0)
-[2026-07-30T14:28:18Z] fetch_jobs: scraper error for Medal (ashby/medal): Ashby request failed for medal: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/medal'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:18Z] fetch_jobs: scraper error for Meltano (greenhouse/meltano): Greenhouse request failed for meltano: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/meltano/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:19Z] fetch_jobs: scraper error for Mezmo (greenhouse/logdna): Greenhouse request failed for logdna: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/logdna/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:19Z] fetch_jobs: scraper error for Mindera (workable/j): Workable request failed for j: Client error '404 Not Found' for url 'https://apply.workable.com/api/v3/accounts/j/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:20Z] fetch_jobs: scraper error for Minicor (ashby/Laminar): Ashby request failed for Laminar: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Laminar'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:20Z] fetch_jobs: scraper error for Modumetal (bamboo/resources): BambooHR request failed for resources: Client error '404 Not Found' for url 'https://resources.bamboohr.com/careers/list'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:21Z] fetch_jobs: scraper error for Montoux (bamboo/montoux): BambooHR JSON parse failed for montoux: Expecting value: line 1 column 1 (char 0)
-[2026-07-30T14:28:21Z] fetch_jobs: scraper error for MoonPay (greenhouse/moonpay): Greenhouse request failed for moonpay: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/moonpay/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:21Z] fetch_jobs: scraper error for MosaicML (greenhouse/mosaicml): Greenhouse request failed for mosaicml: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/mosaicml/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:22Z] fetch_jobs: scraper error for Motion (ashby/motion): Ashby request failed for motion: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/motion'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:22Z] fetch_jobs: scraper error for ModernLoop (greenhouse/modernloop): Greenhouse request failed for modernloop: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/modernloop/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:23Z] fetch_jobs: scraper error for NantOmics (workday/nant/wd5/Nant): Workday request failed for nant/wd5/Nant: Client error '403 Forbidden' for url 'https://nant.wd5.myworkdayjobs.com/wday/cxs/nant/Nant/jobs'
+[2026-07-30T16:44:17Z] fetch_jobs: scraper error for Noora Health (bamboo/images7): BambooHR request failed for images7: Client error '403 Forbidden' for url 'https://images7.bamboohr.com/careers/list'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-07-30T14:28:23Z] fetch_jobs: scraper error for Netflix (lever/netflix): Lever request failed for netflix: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/netflix?mode=json'
+[2026-07-30T16:44:17Z] fetch_jobs: scraper error for Northrop Grumman (eightfold/jobs.northropgrumman.com|northropgrumman.com): Eightfold request failed for jobs.northropgrumman.com|northropgrumman.com: Client error '404 NOT FOUND' for url 'https://jobs.northropgrumman.com/api/pcsx/search?domain=northropgrumman.com&start=0&num=20'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:24Z] fetch_jobs: scraper error for Ninth Wave (bamboo/resources): BambooHR request failed for resources: Client error '404 Not Found' for url 'https://resources.bamboohr.com/careers/list'
+[2026-07-30T16:44:17Z] fetch_jobs: scraper error for NutriSense (greenhouse/nutrisense): Greenhouse request failed for nutrisense: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/nutrisense/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:24Z] fetch_jobs: scraper error for Noora Health (bamboo/images7): BambooHR request failed for images7: Client error '403 Forbidden' for url 'https://images7.bamboohr.com/careers/list'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-07-30T14:28:25Z] fetch_jobs: scraper error for Northrop Grumman (eightfold/jobs.northropgrumman.com|northropgrumman.com): Eightfold request failed for jobs.northropgrumman.com|northropgrumman.com: Client error '404 NOT FOUND' for url 'https://jobs.northropgrumman.com/api/pcsx/search?domain=northropgrumman.com&start=0&num=20'
+[2026-07-30T16:44:18Z] fetch_jobs: scraper error for LexisNexis (workday/relx/wd3/LexisNexisLegal): Workday request failed for relx/wd3/LexisNexisLegal: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:19Z] fetch_jobs: scraper error for OpenSpace (greenhouse/openspace): Greenhouse request failed for openspace: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:19Z] fetch_jobs: scraper error for Optery (ashby/optery): Ashby request failed for optery: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/optery'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:25Z] fetch_jobs: scraper error for NutriSense (greenhouse/nutrisense): Greenhouse request failed for nutrisense: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/nutrisense/jobs'
+[2026-07-30T16:44:19Z] fetch_jobs: scraper error for Orfium (workable/j): Workable request failed for j: Client error '404 Not Found' for url 'https://apply.workable.com/api/v3/accounts/j/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:28Z] fetch_jobs: scraper error for Optery (ashby/optery): Ashby request failed for optery: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/optery'
+[2026-07-30T16:44:19Z] fetch_jobs: scraper error for Ossia (workable/j): Workable request failed for j: Client error '404 Not Found' for url 'https://apply.workable.com/api/v3/accounts/j/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:28Z] fetch_jobs: scraper error for Orfium (workable/j): Workable request failed for j: Client error '404 Not Found' for url 'https://apply.workable.com/api/v3/accounts/j/jobs'
+[2026-07-30T16:44:20Z] fetch_jobs: scraper error for Insureon (workday/hubinternational/wd1/HUBInternational): Workday request failed for hubinternational/wd1/HUBInternational: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:20Z] fetch_jobs: scraper error for Paddle (ashby/paddle): Ashby request failed for paddle: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:21Z] fetch_jobs: scraper error for Parker (ashby/parker): Ashby request failed for parker: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:21Z] fetch_jobs: scraper error for Particle Health (greenhouse/particlehealth): Greenhouse request failed for particlehealth: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/particlehealth/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:29Z] fetch_jobs: scraper error for Ossia (workable/j): Workable request failed for j: Client error '404 Not Found' for url 'https://apply.workable.com/api/v3/accounts/j/jobs'
+[2026-07-30T16:44:21Z] fetch_jobs: scraper error for PartnerStack (greenhouse/partnerstack): Greenhouse request failed for partnerstack: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/partnerstack/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:31Z] fetch_jobs: scraper error for Particle Health (greenhouse/particlehealth): Greenhouse request failed for particlehealth: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/particlehealth/jobs'
+[2026-07-30T16:44:21Z] fetch_jobs: scraper error for Pawp, Inc (greenhouse/pawp): Greenhouse request failed for pawp: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/pawp/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:31Z] fetch_jobs: scraper error for PartnerStack (greenhouse/partnerstack): Greenhouse request failed for partnerstack: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/partnerstack/jobs'
+[2026-07-30T16:44:22Z] fetch_jobs: scraper error for Philips Hue (workday/lighting/wd3/jobs-and-careers): Workday request failed for lighting/wd3/jobs-and-careers: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:23Z] fetch_jobs: scraper error for Pine Park Health (greenhouse/pineparkhealth): Greenhouse request failed for pineparkhealth: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/pineparkhealth/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:31Z] fetch_jobs: scraper error for Pawp, Inc (greenhouse/pawp): Greenhouse request failed for pawp: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/pawp/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:37Z] fetch_jobs: scraper error for Pine Park Health (greenhouse/pineparkhealth): Greenhouse request failed for pineparkhealth: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/pineparkhealth/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:41Z] fetch_jobs: scraper error for PlushCare (workday/osv-accolade/wd5/External_Careers): Workday request failed for osv-accolade/wd5/External_Careers: Client error '422 Unprocessable Entity' for url 'https://osv-accolade.wd5.myworkdayjobs.com/wday/cxs/osv-accolade/External_Careers/jobs'
+[2026-07-30T16:44:23Z] fetch_jobs: scraper error for Pax8 (workday/pax8inc/wd12/Pax8Careers): Workday request failed for pax8inc/wd12/Pax8Careers: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:24Z] fetch_jobs: scraper error for PlushCare (workday/osv-accolade/wd5/External_Careers): Workday request failed for osv-accolade/wd5/External_Careers: Client error '422 Unprocessable Entity' for url 'https://osv-accolade.wd5.myworkdayjobs.com/wday/cxs/osv-accolade/External_Careers/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422
-[2026-07-30T14:28:42Z] fetch_jobs: scraper error for Proclaim (lever/freshhealth): Lever request failed for freshhealth: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/freshhealth?mode=json'
+[2026-07-30T16:44:24Z] fetch_jobs: scraper error for Pontera (greenhouse/pontera): Greenhouse request failed for pontera: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:24Z] fetch_jobs: scraper error for Preservica (greenhouse/preservica): Greenhouse request failed for preservica: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:24Z] fetch_jobs: scraper error for Proclaim (lever/freshhealth): Lever request failed for freshhealth: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/freshhealth?mode=json'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:50Z] fetch_jobs: scraper error for Quantropi (bamboo/quantropi): BambooHR JSON parse failed for quantropi: Expecting value: line 1 column 1 (char 0)
-[2026-07-30T14:28:51Z] fetch_jobs: scraper error for Rainforest (lever/rainforest): Lever request failed for rainforest: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/rainforest?mode=json'
+[2026-07-30T16:44:24Z] fetch_jobs: scraper error for Palo Alto Networks (workday/paloaltonetworks/wd5/panwexternalcareers): Workday request failed for paloaltonetworks/wd5/panwexternalcareers: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:24Z] fetch_jobs: scraper error for PsiQuantum (greenhouse/psiquantum): Greenhouse request failed for psiquantum: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:24Z] fetch_jobs: scraper error for Puffco (greenhouse/puffco): Greenhouse request failed for puffco: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:24Z] fetch_jobs: scraper error for Otis (workday/otis/wd5/REC_Ext_Gateway): Workday request failed for otis/wd5/REC_Ext_Gateway: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:25Z] fetch_jobs: scraper error for Pump.co (greenhouse/pumpcareers): Greenhouse request failed for pumpcareers: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:25Z] fetch_jobs: scraper error for Quantropi (bamboo/quantropi): BambooHR request failed for quantropi: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:25Z] fetch_jobs: scraper error for Q2 (workday/q2ebanking/wd5/Q2): Workday request failed for q2ebanking/wd5/Q2: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:26Z] fetch_jobs: scraper error for Rainforest (lever/rainforest): Lever request failed for rainforest: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/rainforest?mode=json'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:56Z] fetch_jobs: scraper error for Rappi (workday/rappi/wd12/es): Workday request failed for rappi/wd12/es: Client error '404 Not Found' for url 'https://rappi.wd12.myworkdayjobs.com/wday/cxs/rappi/es/jobs'
+[2026-07-30T16:44:26Z] fetch_jobs: scraper error for Ramp (ashby/ramp): Ashby request failed for ramp: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:27Z] fetch_jobs: scraper error for Rappi (workday/rappi/wd12/es): Workday request failed for rappi/wd12/es: Client error '404 Not Found' for url 'https://rappi.wd12.myworkdayjobs.com/wday/cxs/rappi/es/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:28:59Z] fetch_jobs: scraper error for Refersion (greenhouse/refersion): Greenhouse request failed for refersion: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/refersion/jobs'
+[2026-07-30T16:44:27Z] fetch_jobs: scraper error for PTC (workday/ptc/wd1/PTC): Workday request failed for ptc/wd1/PTC: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:27Z] fetch_jobs: scraper error for ReadySet (greenhouse/readysettechnologyinc): Greenhouse request failed for readysettechnologyinc: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:27Z] fetch_jobs: scraper error for Recall.ai (ashby/Recall): Ashby request failed for Recall: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:28Z] fetch_jobs: scraper error for Refersion (greenhouse/refersion): Greenhouse request failed for refersion: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/refersion/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:02Z] fetch_jobs: scraper error for Response (ashby/response): Ashby request failed for response: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/response'
+[2026-07-30T16:44:28Z] fetch_jobs: scraper error for Rescale (ashby/rescale): Ashby request failed for rescale: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:28Z] fetch_jobs: scraper error for Resilience (workday/resilience/wd1/Resilience_Careers): Workday request failed for resilience/wd1/Resilience_Careers: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:28Z] fetch_jobs: scraper error for Response (ashby/response): Ashby request failed for response: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/response'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:02Z] fetch_jobs: scraper error for ReversingLabs (workable/j): Workable request failed for j: Client error '404 Not Found' for url 'https://apply.workable.com/api/v3/accounts/j/jobs'
+[2026-07-30T16:44:29Z] fetch_jobs: scraper error for ReversingLabs (workable/j): Workable request failed for j: Client error '404 Not Found' for url 'https://apply.workable.com/api/v3/accounts/j/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:03Z] fetch_jobs: scraper error for Rippl (greenhouse/ripplcare): Greenhouse request failed for ripplcare: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/ripplcare/jobs'
+[2026-07-30T16:44:29Z] fetch_jobs: scraper error for Rippl (greenhouse/ripplcare): Greenhouse request failed for ripplcare: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/ripplcare/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:04Z] fetch_jobs: scraper error for RunPod (greenhouse/runpod): Greenhouse request failed for runpod: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/runpod/jobs'
+[2026-07-30T16:44:30Z] fetch_jobs: scraper error for Rocket Lawyer (greenhouse/rocketlawyer): Greenhouse request failed for rocketlawyer: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:30Z] fetch_jobs: scraper error for Routefusion (ashby/routefusion): Ashby request failed for routefusion: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:30Z] fetch_jobs: scraper error for RunPod (greenhouse/runpod): Greenhouse request failed for runpod: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/runpod/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:05Z] fetch_jobs: scraper error for RxDefine (greenhouse/ostrohealth): Greenhouse request failed for ostrohealth: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/ostrohealth/jobs'
+[2026-07-30T16:44:31Z] fetch_jobs: scraper error for RxDefine (greenhouse/ostrohealth): Greenhouse request failed for ostrohealth: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/ostrohealth/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:06Z] fetch_jobs: scraper error for SandboxAQ (greenhouse/sandboxaq): Greenhouse request failed for sandboxaq: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/sandboxaq/jobs'
+[2026-07-30T16:44:31Z] fetch_jobs: scraper error for Sailpoint (workday/sailpoint/wd1/SailPoint): Workday request failed for sailpoint/wd1/SailPoint: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:32Z] fetch_jobs: scraper error for SandboxAQ (greenhouse/sandboxaq): Greenhouse request failed for sandboxaq: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/sandboxaq/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:08Z] fetch_jobs: scraper error for Scrapinghub (workable/j): Workable request failed for j: Client error '404 Not Found' for url 'https://apply.workable.com/api/v3/accounts/j/jobs'
+[2026-07-30T16:44:32Z] fetch_jobs: scraper error for SciPlay (workday/lnw/wd5/SciPlayExternalCareersSite): Workday request failed for lnw/wd5/SciPlayExternalCareersSite: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:32Z] fetch_jobs: scraper error for Scope AR (lever/scopear): Lever request failed for scopear: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/scopear?mode=json'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:09Z] fetch_jobs: scraper error for Seam (greenhouse/seam): Greenhouse request failed for seam: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/seam/jobs'
+[2026-07-30T16:44:32Z] fetch_jobs: scraper error for Scrapinghub (workable/j): Workable request failed for j: Client error '404 Not Found' for url 'https://apply.workable.com/api/v3/accounts/j/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:09Z] fetch_jobs: scraper error for Secoda (ashby/Secoda): Ashby request failed for Secoda: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Secoda'
+[2026-07-30T16:44:32Z] fetch_jobs: scraper error for Seam (greenhouse/seam): Greenhouse request failed for seam: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/seam/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:09Z] fetch_jobs: scraper error for Scope AR (lever/scopear): Lever request failed for scopear: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/scopear?mode=json'
+[2026-07-30T16:44:32Z] fetch_jobs: scraper error for Second Dinner (ashby/SecondDinner): Ashby request failed for SecondDinner: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:32Z] fetch_jobs: scraper error for Secoda (ashby/Secoda): Ashby request failed for Secoda: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Secoda'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:10Z] fetch_jobs: scraper error for Segment (eightfold/jobs.twilio.com|segment.com): Eightfold request failed for jobs.twilio.com|segment.com: Client error '404 NOT FOUND' for url 'https://jobs.twilio.com/api/pcsx/search?domain=segment.com&start=0&num=20'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:10Z] fetch_jobs: scraper error for SendGrid (eightfold/jobs.twilio.com|sendgrid.com): Eightfold request failed for jobs.twilio.com|sendgrid.com: Client error '404 NOT FOUND' for url 'https://jobs.twilio.com/api/pcsx/search?domain=sendgrid.com&start=0&num=20'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:10Z] fetch_jobs: scraper error for SecureSave (breezy/securesave): Breezy request failed for securesave: Client error '403 Forbidden' for url 'https://breezy.hr/'
+[2026-07-30T16:44:32Z] fetch_jobs: scraper error for SecurityScorecard (greenhouse/securityscorecard): Greenhouse request failed for securityscorecard: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:33Z] fetch_jobs: scraper error for SecureSave (breezy/securesave): Breezy request failed for securesave: Client error '403 Forbidden' for url 'https://breezy.hr/'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-07-30T14:29:22Z] fetch_jobs: scraper error for Smarking (workable/api): Workable request failed for api: Client error '404 Not Found' for url 'https://apply.workable.com/api/v3/accounts/api/jobs'
+[2026-07-30T16:44:33Z] fetch_jobs: scraper error for Segment (eightfold/jobs.twilio.com|segment.com): Eightfold request failed for jobs.twilio.com|segment.com: Client error '404 NOT FOUND' for url 'https://jobs.twilio.com/api/pcsx/search?domain=segment.com&start=0&num=20'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:22Z] fetch_jobs: scraper error for Smartwaiver (bamboo/3pointdev): BambooHR JSON parse failed for 3pointdev: Expecting value: line 1 column 1 (char 0)
-[2026-07-30T14:29:23Z] fetch_jobs: scraper error for Sojern (greenhouse/sojern): Greenhouse request failed for sojern: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/sojern/jobs'
+[2026-07-30T16:44:33Z] fetch_jobs: scraper error for SendGrid (eightfold/jobs.twilio.com|sendgrid.com): Eightfold request failed for jobs.twilio.com|sendgrid.com: Client error '404 NOT FOUND' for url 'https://jobs.twilio.com/api/pcsx/search?domain=sendgrid.com&start=0&num=20'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:28Z] fetch_jobs: scraper error for Sparrow Inc. (greenhouse/sparrow): Greenhouse request failed for sparrow: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/sparrow/jobs'
+[2026-07-30T16:44:34Z] fetch_jobs: scraper error for Samsung R&D (workday/sec/wd3/Samsung_Careers): Workday request failed for sec/wd3/Samsung_Careers: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:35Z] fetch_jobs: scraper error for SiFive (workday/sifive/wd1/sifivecareers): Workday request failed for sifive/wd1/sifivecareers: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:36Z] fetch_jobs: scraper error for SingleStore (greenhouse/singlestore): Greenhouse request failed for singlestore: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:37Z] fetch_jobs: scraper error for Qualcomm (eightfold/careers.qualcomm.com|qualcomm.com): Eightfold request failed for careers.qualcomm.com|qualcomm.com: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:37Z] fetch_jobs: scraper error for Smarking (workable/api): Workable request failed for api: Client error '404 Not Found' for url 'https://apply.workable.com/api/v3/accounts/api/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:30Z] fetch_jobs: scraper error for Storm8 (greenhouse/storm8): Greenhouse request failed for storm8: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/storm8/jobs'
+[2026-07-30T16:44:38Z] fetch_jobs: scraper error for Sinefa (workday/paloaltonetworks/wd5/panwexternalcareers): Workday request failed for paloaltonetworks/wd5/panwexternalcareers: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:38Z] fetch_jobs: scraper error for Smartwaiver (bamboo/3pointdev): BambooHR JSON parse failed for 3pointdev: Expecting value: line 1 column 1 (char 0)
+[2026-07-30T16:44:39Z] fetch_jobs: scraper error for Sojern (greenhouse/sojern): Greenhouse request failed for sojern: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/sojern/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:30Z] fetch_jobs: scraper error for Strata Identity (greenhouse/strataidentity): Greenhouse request failed for strataidentity: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/strataidentity/jobs'
+[2026-07-30T16:44:40Z] fetch_jobs: scraper error for Smith & Nephew (workday/smithnephew/wd5/External): Workday request failed for smithnephew/wd5/External: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:41Z] fetch_jobs: scraper error for Sparrow Inc. (greenhouse/sparrow): Greenhouse request failed for sparrow: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:41Z] fetch_jobs: scraper error for Nvidia (workday/nvidia/wd5/NVIDIAExternalCareerSite): Workday request failed for nvidia/wd5/NVIDIAExternalCareerSite: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:42Z] fetch_jobs: scraper error for Stord (workday/stord/wd503/Stord_External_Career): Workday request failed for stord/wd503/Stord_External_Career: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:42Z] fetch_jobs: scraper error for Storm8 (greenhouse/storm8): Greenhouse request failed for storm8: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/storm8/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:31Z] fetch_jobs: scraper error for StyleSeat (greenhouse/styleseat32): Greenhouse request failed for styleseat32: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/styleseat32/jobs'
+[2026-07-30T16:44:42Z] fetch_jobs: scraper error for Strata Identity (greenhouse/strataidentity): Greenhouse request failed for strataidentity: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/strataidentity/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:31Z] fetch_jobs: scraper error for Sully.ai (ashby/sully-ai): Ashby request failed for sully-ai: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/sully-ai'
+[2026-07-30T16:44:42Z] fetch_jobs: scraper error for Sully.ai (ashby/sully-ai): Ashby request failed for sully-ai: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:42Z] fetch_jobs: scraper error for StyleSeat (greenhouse/styleseat32): Greenhouse request failed for styleseat32: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/styleseat32/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:33Z] fetch_jobs: scraper error for Superhuman (greenhouse/grammarly): Greenhouse request failed for grammarly: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/grammarly/jobs'
+[2026-07-30T16:44:43Z] fetch_jobs: scraper error for Superhuman (greenhouse/grammarly): Greenhouse request failed for grammarly: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/grammarly/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:34Z] fetch_jobs: scraper error for SwiftSku (greenhouse/swiftsku): Greenhouse request failed for swiftsku: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/swiftsku/jobs'
+[2026-07-30T16:44:43Z] fetch_jobs: scraper error for Supernova (bamboo/supernova): BambooHR request failed for supernova: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:43Z] fetch_jobs: scraper error for SwiftSku (greenhouse/swiftsku): Greenhouse request failed for swiftsku: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/swiftsku/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:35Z] fetch_jobs: scraper error for sync. (ashby/sync.so): Ashby request failed for sync.so: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/sync.so'
+[2026-07-30T16:44:43Z] fetch_jobs: scraper error for Sygaldry Technologies (ashby/sygaldry-technologies): Ashby request failed for sygaldry-technologies: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:43Z] fetch_jobs: scraper error for sync. (ashby/sync.so): Ashby request failed for sync.so: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/sync.so'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:40Z] fetch_jobs: scraper error for Temporal (greenhouse/temporal): Greenhouse request failed for temporal: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/temporal/jobs'
+[2026-07-30T16:44:48Z] fetch_jobs: scraper error for Teledyne (workday/flir/wd1/flircareers): Workday request failed for flir/wd1/flircareers: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:48Z] fetch_jobs: scraper error for Temporal (greenhouse/temporal): Greenhouse request failed for temporal: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/temporal/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:40Z] fetch_jobs: scraper error for Terapify (bamboo/terapify): BambooHR JSON parse failed for terapify: Expecting value: line 1 column 1 (char 0)
-[2026-07-30T14:29:42Z] fetch_jobs: scraper error for The Robot Learning Company (ashby/robot-learning-co): Ashby request failed for robot-learning-co: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/robot-learning-co'
+[2026-07-30T16:44:50Z] fetch_jobs: scraper error for Tempus AI (workday/tempus/wd5/Tempus_Careers): Workday request failed for tempus/wd5/Tempus_Careers: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:50Z] fetch_jobs: scraper error for Terapify (bamboo/terapify): BambooHR JSON parse failed for terapify: Expecting value: line 1 column 1 (char 0)
+[2026-07-30T16:44:50Z] fetch_jobs: scraper error for TextPower, Inc. (workable/arcos): Workable request failed for arcos: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:52Z] fetch_jobs: scraper error for The Robot Learning Company (ashby/robot-learning-co): Ashby request failed for robot-learning-co: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/robot-learning-co'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:43Z] fetch_jobs: scraper error for THEOplayer (eightfold/jobs.dolby.com|theoplayer.com): Eightfold request failed for jobs.dolby.com|theoplayer.com: Client error '404 NOT FOUND' for url 'https://jobs.dolby.com/api/pcsx/search?domain=theoplayer.com&start=0&num=20'
+[2026-07-30T16:44:52Z] fetch_jobs: scraper error for THEOplayer (eightfold/jobs.dolby.com|theoplayer.com): Eightfold request failed for jobs.dolby.com|theoplayer.com: Client error '404 NOT FOUND' for url 'https://jobs.dolby.com/api/pcsx/search?domain=theoplayer.com&start=0&num=20'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:43Z] fetch_jobs: scraper error for Thinkful (workday/osv-chegg/wd5/Chegg): Workday request failed for osv-chegg/wd5/Chegg: Client error '422 Unprocessable Entity' for url 'https://osv-chegg.wd5.myworkdayjobs.com/wday/cxs/osv-chegg/Chegg/jobs'
+[2026-07-30T16:44:52Z] fetch_jobs: scraper error for Sensormatic Electronics (workday/jci/wd5/JCI): Workday request failed for jci/wd5/JCI: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:53Z] fetch_jobs: scraper error for Thinkful (workday/osv-chegg/wd5/Chegg): Workday request failed for osv-chegg/wd5/Chegg: Client error '422 Unprocessable Entity' for url 'https://osv-chegg.wd5.myworkdayjobs.com/wday/cxs/osv-chegg/Chegg/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422
-[2026-07-30T14:29:43Z] fetch_jobs: scraper error for ThreatX (workday/osv-a10networks/wd503/A10CareerSite): Workday request failed for osv-a10networks/wd503/A10CareerSite: Client error '422 Unprocessable Entity' for url 'https://osv-a10networks.wd503.myworkdayjobs.com/wday/cxs/osv-a10networks/A10CareerSite/jobs'
+[2026-07-30T16:44:53Z] fetch_jobs: scraper error for ThreatX (workday/osv-a10networks/wd503/A10CareerSite): Workday request failed for osv-a10networks/wd503/A10CareerSite: Client error '422 Unprocessable Entity' for url 'https://osv-a10networks.wd503.myworkdayjobs.com/wday/cxs/osv-a10networks/A10CareerSite/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422
-[2026-07-30T14:29:43Z] fetch_jobs: scraper error for ThriveCart (greenhouse/thrivecart): Greenhouse request failed for thrivecart: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/thrivecart/jobs'
+[2026-07-30T16:44:53Z] fetch_jobs: scraper error for ThriveCart (greenhouse/thrivecart): Greenhouse request failed for thrivecart: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/thrivecart/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:45Z] fetch_jobs: scraper error for Tourlane (greenhouse/tourlanegmbh): Greenhouse request failed for tourlanegmbh: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/tourlanegmbh/jobs'
+[2026-07-30T16:44:53Z] fetch_jobs: scraper error for Tillo (ashby/tillo): Ashby request failed for tillo: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:54Z] fetch_jobs: scraper error for Tourlane (greenhouse/tourlanegmbh): Greenhouse request failed for tourlanegmbh: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/tourlanegmbh/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:45Z] fetch_jobs: scraper error for Touchcast (bamboo/touchcast): BambooHR JSON parse failed for touchcast: Expecting value: line 1 column 1 (char 0)
-[2026-07-30T14:29:46Z] fetch_jobs: scraper error for Traverse (ashby/Traverse): Ashby request failed for Traverse: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Traverse'
+[2026-07-30T16:44:54Z] fetch_jobs: scraper error for Touchcast (bamboo/touchcast): BambooHR JSON parse failed for touchcast: Expecting value: line 1 column 1 (char 0)
+[2026-07-30T16:44:54Z] fetch_jobs: scraper error for Tint (greenhouse/tintai): Greenhouse request failed for tintai: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:54Z] fetch_jobs: scraper error for TransPerfect (workday/transperfect/wd5/transperfect): Workday request failed for transperfect/wd5/transperfect: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:55Z] fetch_jobs: scraper error for Traversal (ashby/traversal): Ashby request failed for traversal: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:55Z] fetch_jobs: scraper error for Treasury Prime (greenhouse/treasuryprime): Greenhouse request failed for treasuryprime: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:55Z] fetch_jobs: scraper error for Traverse (ashby/Traverse): Ashby request failed for Traverse: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Traverse'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:47Z] fetch_jobs: scraper error for TrueNorth (greenhouse/truenorth): Greenhouse request failed for truenorth: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/truenorth/jobs'
+[2026-07-30T16:44:55Z] fetch_jobs: scraper error for True Anomaly (greenhouse/trueanomalyinc): Greenhouse request failed for trueanomalyinc: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:56Z] fetch_jobs: scraper error for TrueNorth (greenhouse/truenorth): Greenhouse request failed for truenorth: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/truenorth/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:48Z] fetch_jobs: scraper error for Tydo (ashby/tydo): Ashby request failed for tydo: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/tydo'
+[2026-07-30T16:44:57Z] fetch_jobs: scraper error for Tydo (ashby/tydo): Ashby request failed for tydo: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/tydo'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:48Z] fetch_jobs: scraper error for Ubiquity6 (greenhouse/ubiquity6): Greenhouse request failed for ubiquity6: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/ubiquity6/jobs'
+[2026-07-30T16:44:57Z] fetch_jobs: scraper error for Ubiquity6 (greenhouse/ubiquity6): Greenhouse request failed for ubiquity6: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/ubiquity6/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:58Z] fetch_jobs: scraper error for Vitable Health (greenhouse/vitablehealth): Greenhouse request failed for vitablehealth: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/vitablehealth/jobs'
+[2026-07-30T16:44:58Z] fetch_jobs: scraper error for Undead Labs (greenhouse/undeadlabsllc): Greenhouse request failed for undeadlabsllc: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:58Z] fetch_jobs: scraper error for Union.ai (ashby/Union): Ashby request failed for Union: [Errno 104] Connection reset by peer
+[2026-07-30T16:44:59Z] fetch_jobs: scraper error for Trend Micro (workday/trendmicro/wd3/External): Workday request failed for trendmicro/wd3/External: [Errno 104] Connection reset by peer
+[2026-07-30T16:45:01Z] fetch_jobs: scraper error for Trimble (workday/trimble/wd1/TrimbleCareers): Workday request failed for trimble/wd1/TrimbleCareers: [Errno 104] Connection reset by peer
+[2026-07-30T16:45:01Z] fetch_jobs: scraper error for Veradigm (workday/veradigm/wd12/VR): Workday request failed for veradigm/wd12/VR: [Errno 104] Connection reset by peer
+[2026-07-30T16:45:01Z] fetch_jobs: scraper error for Vitable Health (greenhouse/vitablehealth): Greenhouse request failed for vitablehealth: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/vitablehealth/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:29:59Z] fetch_jobs: scraper error for Willow (ashby/willowvoice): Ashby request failed for willowvoice: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/willowvoice'
+[2026-07-30T16:45:03Z] fetch_jobs: scraper error for WithCoverage (greenhouse/withcoverage): Greenhouse request failed for withcoverage: [Errno 104] Connection reset by peer
+[2026-07-30T16:45:03Z] fetch_jobs: scraper error for Willow (ashby/willowvoice): Ashby request failed for willowvoice: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/willowvoice'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:30:00Z] fetch_jobs: scraper error for Wordware (ashby/wordware.ai): Ashby request failed for wordware.ai: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/wordware.ai'
+[2026-07-30T16:45:03Z] fetch_jobs: scraper error for Wordware (ashby/wordware.ai): Ashby request failed for wordware.ai: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/wordware.ai'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:30:00Z] fetch_jobs: scraper error for Yummy (lever/yummysuperapp): Lever request failed for yummysuperapp: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/yummysuperapp?mode=json'
+[2026-07-30T16:45:03Z] fetch_jobs: scraper error for Writesonic (workable/writesonic): Workable request failed for writesonic: [Errno 104] Connection reset by peer
+[2026-07-30T16:45:03Z] fetch_jobs: scraper error for Yummy (lever/yummysuperapp): Lever request failed for yummysuperapp: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/yummysuperapp?mode=json'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:30:06Z] fetch_jobs: scraper error for Allbirds (greenhouse/allbirds): Greenhouse request failed for allbirds: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/allbirds/jobs'
+[2026-07-30T16:45:04Z] fetch_jobs: scraper error for Tapestry - Coach, Kate Spade, and Stuart Weitzman (workday/tapestry/wd108/Tapestry_Careers): Workday request failed for tapestry/wd108/Tapestry_Careers: [Errno 104] Connection reset by peer
+[2026-07-30T16:45:05Z] fetch_jobs: scraper error for Pitney Bowes (Location Intelligence) (workday/pitneybowes/wd1/PBCareers): Workday request failed for pitneybowes/wd1/PBCareers: [Errno 104] Connection reset by peer
+[2026-07-30T16:45:05Z] fetch_jobs: scraper error for Allbirds (greenhouse/allbirds): Greenhouse request failed for allbirds: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/allbirds/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:30:06Z] fetch_jobs: scraper error for Catchpoint (greenhouse/catchpoint): Greenhouse request failed for catchpoint: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/catchpoint/jobs'
+[2026-07-30T16:45:05Z] fetch_jobs: scraper error for Catchpoint (greenhouse/catchpoint): Greenhouse request failed for catchpoint: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/catchpoint/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:30:06Z] fetch_jobs: scraper error for Generate Capital (greenhouse/generatecapital): Greenhouse request failed for generatecapital: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/generatecapital/jobs'
+[2026-07-30T16:45:06Z] fetch_jobs: scraper error for Generate Capital (greenhouse/generatecapital): Greenhouse request failed for generatecapital: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/generatecapital/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:30:09Z] fetch_jobs: scraper error for Insomnia (lever/kong): Lever request failed for kong: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/kong?mode=json'
+[2026-07-30T16:45:07Z] fetch_jobs: scraper error for Insomnia (lever/kong): Lever request failed for kong: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/kong?mode=json'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:30:15Z] fetch_jobs: scraper error for Braintree (eightfold/paypal.eightfold.ai|braintreepayments.com): Eightfold request failed for paypal.eightfold.ai|braintreepayments.com: Client error '404 NOT FOUND' for url 'https://paypal.eightfold.ai/api/pcsx/search?domain=braintreepayments.com&start=0&num=20'
+[2026-07-30T16:45:07Z] fetch_jobs: scraper error for OTA Insights (greenhouse/lighthouse): Greenhouse request failed for lighthouse: [Errno 104] Connection reset by peer
+[2026-07-30T16:45:08Z] fetch_jobs: scraper error for Shippeo (smartrecruiters/Shippeo): SmartRecruiters request failed for Shippeo: [Errno 104] Connection reset by peer
+[2026-07-30T16:45:08Z] fetch_jobs: scraper error for Toyota (workday/toyota/wd503/TMNA): Workday request failed for toyota/wd503/TMNA: [Errno 104] Connection reset by peer
+[2026-07-30T16:45:08Z] fetch_jobs: scraper error for Xylem (workday/xylem/wd5/xylem-careers): Workday request failed for xylem/wd5/xylem-careers: [Errno 104] Connection reset by peer
+[2026-07-30T16:45:09Z] fetch_jobs: scraper error for Braintree (eightfold/paypal.eightfold.ai|braintreepayments.com): Eightfold request failed for paypal.eightfold.ai|braintreepayments.com: Client error '404 NOT FOUND' for url 'https://paypal.eightfold.ai/api/pcsx/search?domain=braintreepayments.com&start=0&num=20'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:30:25Z] fetch_jobs: scraper error for Edge Impulse (eightfold/careers.qualcomm.com|edgeimpulse.com): Eightfold request failed for careers.qualcomm.com|edgeimpulse.com: Client error '404 NOT FOUND' for url 'https://careers.qualcomm.com/api/pcsx/search?domain=edgeimpulse.com&start=0&num=20'
+[2026-07-30T16:45:09Z] fetch_jobs: scraper error for Visa (workday/visa/wd5/Visa): Workday request failed for visa/wd5/Visa: [Errno 104] Connection reset by peer
+[2026-07-30T16:45:12Z] fetch_jobs: scraper error for Proofpoint (workday/proofpoint/wd5/proofpointcareers): Workday request failed for proofpoint/wd5/proofpointcareers: [Errno 104] Connection reset by peer
+[2026-07-30T16:45:13Z] fetch_jobs: scraper error for Thomson Reuters Labs (workday/thomsonreuters/wd5/External_Career_Site): Workday request failed for thomsonreuters/wd5/External_Career_Site: [Errno 104] Connection reset by peer
+[2026-07-30T16:45:13Z] fetch_jobs: scraper error for Nginx (workday/ffive/wd5/f5jobs): Workday request failed for ffive/wd5/f5jobs: [Errno 104] Connection reset by peer
+[2026-07-30T16:45:14Z] fetch_jobs: scraper error for Edge Impulse (eightfold/careers.qualcomm.com|edgeimpulse.com): Eightfold request failed for careers.qualcomm.com|edgeimpulse.com: Client error '404 NOT FOUND' for url 'https://careers.qualcomm.com/api/pcsx/search?domain=edgeimpulse.com&start=0&num=20'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:30:25Z] fetch_jobs: scraper error for BlocPower (greenhouse/blocpower): Greenhouse request failed for blocpower: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/blocpower/jobs'
+[2026-07-30T16:45:14Z] fetch_jobs: scraper error for Resin.io (workable/balena): Workable request failed for balena: [Errno 104] Connection reset by peer
+[2026-07-30T16:45:14Z] fetch_jobs: scraper error for BlocPower (greenhouse/blocpower): Greenhouse request failed for blocpower: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/blocpower/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:30:28Z] fetch_jobs: scraper error for Environmental Defense Fund (workday/osv-edf/wd5/EDF_External_Careers): Workday request failed for osv-edf/wd5/EDF_External_Careers: Client error '422 Unprocessable Entity' for url 'https://osv-edf.wd5.myworkdayjobs.com/wday/cxs/osv-edf/EDF_External_Careers/jobs'
+[2026-07-30T16:45:15Z] fetch_jobs: scraper error for Workday (workday/workday/wd5/Workday): Workday request failed for workday/wd5/Workday: [Errno 104] Connection reset by peer
+[2026-07-30T16:45:15Z] fetch_jobs: scraper error for Environmental Defense Fund (workday/osv-edf/wd5/EDF_External_Careers): Workday request failed for osv-edf/wd5/EDF_External_Careers: Client error '422 Unprocessable Entity' for url 'https://osv-edf.wd5.myworkdayjobs.com/wday/cxs/osv-edf/EDF_External_Careers/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422
-[2026-07-30T14:30:30Z] fetch_jobs: scraper error for Sui (ashby/Sui): Ashby request failed for Sui: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Sui'
+[2026-07-30T16:45:15Z] fetch_jobs: scraper error for Sui (ashby/Sui): Ashby request failed for Sui: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Sui'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-07-30T14:30:36Z] fetch_jobs: scraper error for Kalypso (workday/rockwellautomation/wd1/External-Kalypso): Workday request failed for rockwellautomation/wd1/External-Kalypso: Client error '403 Forbidden' for url 'https://rockwellautomation.wd1.myworkdayjobs.com/wday/cxs/rockwellautomation/External-Kalypso/jobs'
+[2026-07-30T16:45:16Z] fetch_jobs: scraper error for Kalypso (workday/rockwellautomation/wd1/External-Kalypso): Workday request failed for rockwellautomation/wd1/External-Kalypso: Client error '403 Forbidden' for url 'https://rockwellautomation.wd1.myworkdayjobs.com/wday/cxs/rockwellautomation/External-Kalypso/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-07-30T14:30:37Z] fetch_jobs: scraper error for Lime (ashby/Lime): Ashby request failed for Lime: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Lime'
+[2026-07-30T16:45:16Z] fetch_jobs: scraper error for Lime (ashby/Lime): Ashby request failed for Lime: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Lime'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-30T16:45:17Z] fetch_jobs: scraper error for T-Mobile (workday/tmobile/wd1/External): Workday request failed for tmobile/wd1/External: [Errno 104] Connection reset by peer
+[2026-07-30T16:45:17Z] fetch_jobs: scraper error for C.H. Robinson (workday/chrobinson/wd5/CHRobinson): Workday request failed for chrobinson/wd5/CHRobinson: [Errno 104] Connection reset by peer
+[2026-07-30T16:45:20Z] fetch_jobs: scraper error for Dematic (workday/kiongroup/wd3/KION_SCS): Workday request failed for kiongroup/wd3/KION_SCS: [Errno 104] Connection reset by peer
+[2026-07-30T16:45:29Z] fetch_jobs: scraper error for Johnson Controls (workday/jci/wd5/JCI): Workday request failed for jci/wd5/JCI: [Errno 104] Connection reset by peer
+[2026-07-30T16:45:38Z] fetch_jobs: scraper error for Accenture (workday/accenture/wd103/AccentureCareers): Workday request failed for accenture/wd103/AccentureCareers: [Errno 104] Connection reset by peer
