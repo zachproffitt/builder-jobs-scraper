@@ -29,6 +29,14 @@ COMPANIES_README = JOBS_REPO / "COMPANIES.md"
 
 README_WINDOW_HOURS = 24
 
+# Shown near the top of every generated index. Keep it in sync with the scope
+# enforced in pipeline/job_filters.py.
+SCOPE_BANNER = (
+    "> **Scope: remote and Colorado roles only.**"
+    " This board is currently filtered to remote positions and roles based in Colorado."
+    " Openings elsewhere are not indexed."
+)
+
 
 def collect_jobs() -> tuple[list[dict], dict[str, str], int]:
     """Read from data files, filter to renderable engineering jobs, deduplicate multi-city roles."""
@@ -210,6 +218,8 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
         "",
         f"### {stats}",
         "",
+        SCOPE_BANNER,
+        "",
     ]
 
     if scope_note:
@@ -290,6 +300,8 @@ def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: 
         ),
         "",
         f"### **{len(companies_sorted)} companies** · **{total_jobs} open roles** ({new_recent} new)",
+        "",
+        SCOPE_BANNER,
         "",
         "[← All roles](README.md) &nbsp;·&nbsp; [Remote only →](REMOTE.md) &nbsp;·&nbsp; [How it works →](https://github.com/zachproffitt/builder-jobs-scraper)",
         "",
