@@ -167,6 +167,10 @@ _NO_SIGNAL_VALUES = frozenset(
         "multiple",
         "field",
         "field based",
+        # Workday phrasing — no location signal, so the description decides.
+        "location negotiable",
+        "location flexible",
+        "flexible location",
         "us",
         "u.s.",
         "usa",

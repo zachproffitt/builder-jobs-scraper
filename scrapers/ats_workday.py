@@ -1,3 +1,4 @@
+import re
 from datetime import date
 
 import httpx
@@ -6,6 +7,28 @@ from ._base import Job, ScraperError, html_to_text
 
 API_URL = "https://{tenant}.{partition}.myworkdayjobs.com/wday/cxs/{tenant}/{board}/jobs"
 JOB_URL = "https://{tenant}.{partition}.myworkdayjobs.com/{board}{path}"
+
+# Requisition IDs sit alongside the location in bulletFields — "R00333571",
+# "12345", "JR-2024-8871". Anything of that shape is not a place name.
+_REQ_ID_RE = re.compile(r"^[A-Z]{0,4}[-_]?\d[\w-]*$", re.IGNORECASE)
+
+
+def _location_from(item: dict) -> str | None:
+    """Workday tenants disagree about where the location lives.
+
+    Most return `locationsText`. Some (Accenture, for one) omit it entirely and
+    put the location in `bulletFields` next to the requisition ID:
+    `['R00333571', 'Riga']`. Without this fallback those postings arrive with no
+    location at all, which defeats the pre-LLM geographic filter and sends every
+    one of them to the classifier.
+    """
+    text = item.get("locationsText")
+    if text and text.strip():
+        return text.strip()
+
+    bullets = [str(b).strip() for b in (item.get("bulletFields") or []) if str(b).strip()]
+    places = [b for b in bullets if not _REQ_ID_RE.match(b)]
+    return " / ".join(places) if places else None
 
 
 def scrape(company: str, slug: str) -> list[Job]:
@@ -52,7 +75,7 @@ def scrape(company: str, slug: str) -> list[Job]:
         # Extract a native ID from the path (last path segment)
         native_id = external_path.rsplit("/", 1)[-1] if "/" in external_path else external_path
 
-        location = item.get("locationsText") or None
+        location = _location_from(item)
         remote = "remote" in (location or "").lower()
 
         jobs.append(Job(
