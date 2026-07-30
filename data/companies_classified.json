@@ -7435,10 +7435,11 @@
     "ats": "lever"
   },
   {
+    "ats": "workday",
     "slug": "talentmanagementsolution/wd3/Computrition-Careers",
     "name": "Computrition, Inc",
-    "summary": "Computrition provides nutrition management software and services for schools, foodservice operators, and healthcare facilities to plan menus, manage dietary compliance, and optimize food operations. The company serves institutional kitchens and cafeterias across K-12 schools, universities, senior living communities, and corporate dining environments.",
-    "ats": "workday"
+    "summary": "Computrition provides foodservice software systems that optimize food, nutrition, and retail operations.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
