@@ -1635,10 +1635,11 @@
     "source": "one_liner"
   },
   {
+    "ats": "ashby",
     "slug": "Jasper AI",
     "name": "Jasper",
-    "summary": "Jasper is an AI writing platform that helps marketing teams and enterprises generate content at scale, including copy for ads, emails, social media, and web pages. The company serves businesses in marketing, sales, and content creation who need to produce high-quality written content efficiently.",
-    "ats": "ashby"
+    "summary": "Jasper creates content using artificial intelligence.",
+    "source": "one_liner"
   },
   {
     "ats": "ashby",
