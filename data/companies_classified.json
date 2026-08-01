@@ -7302,10 +7302,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "breezy",
     "slug": "citizenshipper",
     "name": "CitizenShipper",
-    "summary": "CitizenShipper is a peer-to-peer shipping marketplace that connects people who need to transport items with drivers willing to deliver them along their existing routes. The platform operates in the logistics and transportation domain, enabling individuals and small businesses to ship packages, furniture, and other goods at lower costs by leveraging unused vehicle capacity.",
-    "ats": "breezy"
+    "summary": "CitizenShipper operates a platform that connects customers with vetted drivers to transport pets, cars, boats, motorcycles, and furniture.",
+    "source": "meta_description"
   },
   {
     "slug": "shm/wd5/Summit_CityMD",
