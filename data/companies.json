@@ -49361,5 +49361,788 @@
     "name": "Wander",
     "website": "https://wanderbnb.com",
     "status": "no_ats"
+  },
+  {
+    "name": "Amorphic Labs",
+    "website": "https://www.amorphiclabs.com",
+    "status": "no_ats",
+    "one_liner": "Agentic, Personalized Product Demo Videos for Sales"
+  },
+  {
+    "name": "Applied Electrodynamics, Inc.",
+    "website": "https://www.ae-dyn.com",
+    "status": "no_ats",
+    "one_liner": "A new kind of camera that can see through walls."
+  },
+  {
+    "name": "Atlia",
+    "website": "https://www.atlia.com",
+    "status": "no_ats",
+    "one_liner": "We are the AI-native property management company"
+  },
+  {
+    "name": "Axial",
+    "website": "https://axialcompute.com",
+    "status": "no_ats",
+    "one_liner": "Accelerated Physics Kernels for Computational Engineering"
+  },
+  {
+    "name": "Buildbox",
+    "website": "https://heybuildbox.com",
+    "status": "no_ats",
+    "one_liner": "Understand how users experience your AI agents"
+  },
+  {
+    "name": "Clicks Health",
+    "website": "https://clickshealth.com",
+    "status": "no_ats",
+    "one_liner": "AI agents for your healthcare back-office operations."
+  },
+  {
+    "name": "COACH",
+    "website": "https://www.getcoach.com",
+    "status": "no_ats",
+    "one_liner": "The AI Coach for in person sales reps."
+  },
+  {
+    "name": "Collar",
+    "website": "https://usecollarai.com",
+    "status": "no_ats",
+    "one_liner": "The platform for AI-native private market investors."
+  },
+  {
+    "name": "Decawork",
+    "website": "https://decawork.ai",
+    "status": "no_ats",
+    "one_liner": "The Agent Control Plane for IT teams"
+  },
+  {
+    "name": "Dock",
+    "website": "https://trydock.ai",
+    "status": "no_ats",
+    "one_liner": "Multiplayer agent workspace to run your company"
+  },
+  {
+    "name": "Ekho Labs",
+    "website": "https://ekholabs.com",
+    "status": "no_ats",
+    "one_liner": "Decisions for disrupted freight"
+  },
+  {
+    "name": "Executor",
+    "website": "https://executor.sh",
+    "status": "no_ats",
+    "one_liner": "The open source integration management layer for AI."
+  },
+  {
+    "name": "Fluid Markets",
+    "website": "https://fluidinvesting.com",
+    "status": "no_ats",
+    "one_liner": "Invest in public companies KPIs"
+  },
+  {
+    "name": "Fuse AI",
+    "website": "https://fuseai.com",
+    "status": "no_ats",
+    "one_liner": "#1 AI Platform for Outbound Sales"
+  },
+  {
+    "name": "GitCafe",
+    "website": "https://gitcafe.dev",
+    "status": "no_ats",
+    "one_liner": "GitCafe is a modern replacement for GitHub."
+  },
+  {
+    "name": "GloGlo",
+    "website": "https://gloglo.com",
+    "status": "no_ats",
+    "one_liner": "AI glucose companion for diabetics"
+  },
+  {
+    "name": "Graphify Labs",
+    "website": "https://www.graphify.com",
+    "status": "no_ats",
+    "one_liner": "On-device knowledge graph engine for enterprises"
+  },
+  {
+    "name": "Grip",
+    "website": "https://www.griprobotics.ai",
+    "status": "no_ats",
+    "one_liner": "Physical AI for waste management"
+  },
+  {
+    "name": "Gutgutgoose",
+    "website": "https://gutgutgoose.com",
+    "status": "no_ats",
+    "one_liner": "Personalized probiotics, guaranteed to colonize."
+  },
+  {
+    "name": "hiloop",
+    "website": "https://hiloop.ai",
+    "status": "no_ats",
+    "one_liner": "Infrastructure for recursive self-improvement"
+  },
+  {
+    "name": "Hubble",
+    "website": "https://hubble.ai",
+    "status": "no_ats",
+    "one_liner": "The intelligence layer for patient information"
+  },
+  {
+    "name": "Kara",
+    "website": "https://karalabs.ai",
+    "status": "no_ats",
+    "one_liner": "Making diamond an engineering material"
+  },
+  {
+    "name": "Lamb Labs",
+    "website": "https://lamb-labs.com",
+    "status": "no_ats",
+    "one_liner": "World's fastest AI models"
+  },
+  {
+    "name": "Lambda Robotics",
+    "website": "https://lambdarobotics.ai",
+    "status": "no_ats",
+    "one_liner": "Robotics for AI Infrastructure"
+  },
+  {
+    "name": "Layers",
+    "website": "https://www.layers.bio",
+    "status": "no_ats",
+    "one_liner": "A 30 min appointment to measure everything in your body"
+  },
+  {
+    "name": "Luca IQ",
+    "website": "https://lucaiq.com",
+    "status": "no_ats",
+    "one_liner": "API First Tax Calculator for CPAs"
+  },
+  {
+    "name": "Marble",
+    "website": "https://joinmarble.ai",
+    "status": "no_ats",
+    "one_liner": "The autonomous back-of-house for restaurants."
+  },
+  {
+    "name": "Mirabelle",
+    "website": "https://meetmirabelle.com",
+    "status": "no_ats",
+    "one_liner": "Your robot chef"
+  },
+  {
+    "name": "OpenVector",
+    "website": "https://openvector.com",
+    "status": "no_ats",
+    "one_liner": "AI that turns any camera to an autonomous worker with real-time vision"
+  },
+  {
+    "name": "Parameter (fka Hex Security)",
+    "website": "https://parameter.ai?utm_source=ycombinator&utm_medium=referral&utm_campaign=parameter-profile",
+    "status": "no_ats",
+    "one_liner": "Agentic Offensive Security at Scale"
+  },
+  {
+    "name": "Standard Machines",
+    "website": "https://standardmachines.com",
+    "status": "no_ats",
+    "one_liner": "Environments For Chip Design"
+  },
+  {
+    "name": "Stoa",
+    "website": "https://www.stoaexchange.com",
+    "status": "no_ats",
+    "one_liner": "The market behind AI hardware."
+  },
+  {
+    "name": "Stratum Industries",
+    "website": "https://stratumindustries.co",
+    "status": "no_ats",
+    "one_liner": "AI agents that clear the U.S. government backlog."
+  },
+  {
+    "name": "Synapse Semiconductor",
+    "website": "https://synapsesemi.org",
+    "status": "no_ats",
+    "one_liner": "Collapsing the edge AI vision hardware stack into one wafer"
+  },
+  {
+    "name": "TareBio",
+    "website": "https://tarebio.com",
+    "status": "no_ats",
+    "one_liner": "Vaccines for any cancer or infection in weeks"
+  },
+  {
+    "name": "tash",
+    "website": "https://www.tash.cards",
+    "status": "no_ats",
+    "one_liner": "The investment platform for sports & trading cards"
+  },
+  {
+    "name": "Tracer",
+    "website": "https://tracerml.ai",
+    "status": "no_ats",
+    "one_liner": "Combining open-source AI models for better answers at lower cost"
+  },
+  {
+    "name": "Trident",
+    "website": "https://tridentsecurity.io",
+    "status": "no_ats",
+    "one_liner": "Secure your cloud and webapps by finding real attack paths"
+  },
+  {
+    "name": "Wondering",
+    "website": "https://wondering.app",
+    "status": "no_ats",
+    "one_liner": "Duolingo for learning anything, but 10x better"
+  },
+  {
+    "name": "Tolan",
+    "website": "https://tolans.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Acumatica",
+    "website": "https://acumatica.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Akenza",
+    "website": "https://akenza.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Apriso",
+    "website": "https://apriso.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Arrivy",
+    "website": "https://arrivy.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Banuba",
+    "website": "https://banuba.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "BASF Digital Farming",
+    "website": "https://basf.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Bayer Crop Science (Digital)",
+    "website": "https://bayer.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "BBC",
+    "website": "https://bbc.co.uk",
+    "status": "no_ats"
+  },
+  {
+    "name": "Blinkist",
+    "website": "https://blinkist.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "BlockFi",
+    "website": "https://blockfi.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Bridgera",
+    "website": "https://bridgera.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Bridgewater Systems",
+    "website": "https://bsecure.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Buildpacks.io",
+    "website": "https://buildpacks.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Cambridge Quantum Computing",
+    "website": "https://cambridgequantum.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "CLM Matrix",
+    "website": "https://clmmatrix.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Conviction AI",
+    "website": "https://conviction.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "CrazyLabs",
+    "website": "https://crazylabs.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Dacast",
+    "website": "https://dacast.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "DeployHub",
+    "website": "https://deployhub.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Deskera",
+    "website": "https://deskera.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "DuckDB Labs",
+    "website": "https://duckdb.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Duke Energy",
+    "website": "https://duke-energy.com",
+    "status": "active",
+    "ats": "workday",
+    "slug": "dukeenergy/wd1/search",
+    "category": [],
+    "meta_description": "Everything you need to know about energy savings and information regarding energy service for your home from Duke Energy."
+  },
+  {
+    "name": "eeki by John Deere",
+    "website": "https://eekitech.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Einride",
+    "website": "https://einride.tech",
+    "status": "no_ats"
+  },
+  {
+    "name": "Equinix Metal",
+    "website": "https://equinixmetal.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "ERPNext",
+    "website": "https://erpnext.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Exari",
+    "website": "https://exari.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "EXFO",
+    "website": "https://exfo.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Expedia Group (Hotels.com)",
+    "website": "https://expediagroup.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Farmbrite",
+    "website": "https://farmbrite.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Fluence Energy",
+    "website": "https://fluencenergy.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Foghorn Systems",
+    "website": "https://foghornio.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "FoxNext Games",
+    "website": "https://foxnextgames.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "General Assembly",
+    "website": "https://generalassemb.ly",
+    "status": "active",
+    "ats": "greenhouse",
+    "slug": "generalassembly",
+    "category": [],
+    "meta_description": "Get the tech skills to get hired. Our award-winning tech courses give you the training you need to break into your dream technology career."
+  },
+  {
+    "name": "Glass",
+    "website": "https://glass.photo",
+    "status": "no_ats"
+  },
+  {
+    "name": "Green Charge Networks",
+    "website": "https://greencharge.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Greenstone",
+    "website": "https://greenstoneebs.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Gumlet",
+    "website": "https://gumlet.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Hexagon Manufacturing Intelligence",
+    "website": "https://hexagon.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Hitachi Energy",
+    "website": "https://hitachienergy.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Holodia",
+    "website": "https://holodia.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "HouseLogic",
+    "website": "https://houselogic.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Hubstaff",
+    "website": "https://hubstaff.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Invensys (Schneider Electric)",
+    "website": "https://invensys.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Inventory Labs",
+    "website": "https://inventorylabs.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Jam City",
+    "website": "https://jamcity.com",
+    "status": "active",
+    "ats": "lever",
+    "slug": "jamcity",
+    "category": [],
+    "meta_description": "Jam City connects people around the world through great games."
+  },
+  {
+    "name": "Konekt",
+    "website": "https://konekt.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Kroll Ontrack",
+    "website": "https://kroll.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "LawLytics",
+    "website": "https://lawlytics.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Lemmy",
+    "website": "https://lemmy.ml",
+    "status": "no_ats"
+  },
+  {
+    "name": "Letterboxd",
+    "website": "https://letterboxd.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "LG Chem Energy Solution",
+    "website": "https://lgchem.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Linnworks",
+    "website": "https://linnworks.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "LivePeer",
+    "website": "https://livepeer.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Lucidworks",
+    "website": "https://lucidworks.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "MachineShop",
+    "website": "https://machineshop.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Magento",
+    "website": "https://magento.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Mahindra Agri Solutions",
+    "website": "https://mahindraagri.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "MES Vision",
+    "website": "https://mesvision.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Multiverse Computing",
+    "website": "https://multiversecomputing.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Nebula",
+    "website": "https://nebulaiot.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Netcode for GameObjects",
+    "website": "https://netcode.dev",
+    "status": "no_ats"
+  },
+  {
+    "name": "Nobul",
+    "website": "https://nobul.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Ola Electric",
+    "website": "https://olaelectric.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Orderchamp",
+    "website": "https://orderchamp.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Outfit7",
+    "website": "https://outfit7.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "OVH",
+    "website": "https://ovh.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Packet",
+    "website": "https://packet.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Paramount",
+    "website": "https://paramount.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Pipefy",
+    "website": "https://pipefy.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Pixelfed",
+    "website": "https://pixelfed.social",
+    "status": "no_ats"
+  },
+  {
+    "name": "Plantix (BASF)",
+    "website": "https://plantix.app",
+    "status": "no_ats"
+  },
+  {
+    "name": "PlayEveryWare",
+    "website": "https://playeveryware.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Playrix",
+    "website": "https://playrix.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Printful",
+    "website": "https://printful.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "QpiAI",
+    "website": "https://qpiai.tech",
+    "status": "no_ats"
+  },
+  {
+    "name": "RapidMiner",
+    "website": "https://rapidminer.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Real Conveyancing",
+    "website": "https://realconveyancing.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Realty Mogul",
+    "website": "https://realtymogul.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Red5 Pro",
+    "website": "https://red5.net",
+    "status": "no_ats"
+  },
+  {
+    "name": "Remo.TV (formerly Remoduler)",
+    "website": "https://remo.tv",
+    "status": "no_ats"
+  },
+  {
+    "name": "Section.io",
+    "website": "https://section.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "SenseTime",
+    "website": "https://sensetime.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "SeventyEight",
+    "website": "https://seventyeight.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sigma Systems",
+    "website": "https://sigma-systems.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Skedaddle",
+    "website": "https://skedaddle.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Software AG IOTSPL",
+    "website": "https://softwareag.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Stitch Fix Logistics",
+    "website": "https://stitchfix.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sungrow",
+    "website": "https://sungrowpower.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Suntech Power",
+    "website": "https://suntech.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "SUSE",
+    "website": "https://suse.com",
+    "status": "active",
+    "ats": "workday",
+    "slug": "suse/wd3/Jobsatsuse",
+    "category": [],
+    "meta_description": "Modernize your infrastructure with SUSE Linux Enterprise servers, cloud technology for IaaS, and SUSE's software-defined..."
+  },
+  {
+    "name": "Travelocity",
+    "website": "https://travelocity.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "TriNet",
+    "website": "https://trinet.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "TUI Group",
+    "website": "https://tui.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Uber Freight",
+    "website": "https://uberfreight.com",
+    "status": "active",
+    "ats": "greenhouse",
+    "slug": "uberfreight",
+    "category": [],
+    "meta_description": "Harness the industry-leading combination of technology, partnership, and capacity to drive big results."
+  },
+  {
+    "name": "Ulticom",
+    "website": "https://ulticom.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Verifact",
+    "website": "https://verifact.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Vortex",
+    "website": "https://vortexlaw.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Warner Bros. Discovery",
+    "website": "https://warnerbros.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Watermark",
+    "website": "https://watermarkeducation.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Waveform",
+    "website": "https://waveform.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Wildlife Studios",
+    "website": "https://wildlifestudios.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Wowza",
+    "website": "https://wowza.com",
+    "status": "active",
+    "ats": "workable",
+    "slug": "wowza-media-systems",
+    "category": [],
+    "meta_description": "Build mission critical video streaming infrastructure with flexible video server solutions for live and on demand streaming. Deploy on prem, cloud, edge, or air gapped environments with secure, low latency delivery."
+  },
+  {
+    "name": "W\u00e4rtsil\u00e4",
+    "website": "https://wartsila.com",
+    "status": "no_ats"
   }
 ]
