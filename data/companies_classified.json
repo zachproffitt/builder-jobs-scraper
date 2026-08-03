@@ -6956,10 +6956,11 @@
     "ats": "bamboo"
   },
   {
+    "ats": "bamboo",
     "slug": "beehiiv",
     "name": "beehiiv",
-    "summary": "beehiiv is an all-in-one platform for newsletter creators that provides tools for writing, sending, monetizing, and growing email newsletters with built-in analytics and audience management features.",
-    "ats": "bamboo"
+    "summary": "Beehiiv provides newsletter creation and monetization tools that allow users to build email newsletters and websites without coding.",
+    "source": "meta_description"
   },
   {
     "slug": "bellhops",
