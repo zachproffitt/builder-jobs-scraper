@@ -2335,10 +2335,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "Close",
     "name": "Close",
-    "summary": "Close builds a customer relationship management (CRM) platform designed specifically for sales teams, offering features like built-in calling, email automation, and contact management to help businesses manage customer interactions and close deals more efficiently. The platform operates in the B2B software-as-a-service sector, serving primarily small to mid-sized sales organizations across various industries.",
-    "ats": "ashby"
+    "summary": "Close builds CRM and sales automation tools for startups and small to medium-sized businesses.",
+    "source": "one_liner"
   },
   {
     "slug": "Cofactr",
