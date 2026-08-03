@@ -6856,10 +6856,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "array",
     "name": "Array Health",
-    "summary": "Array Health operates a cloud-based healthcare data platform that aggregates and normalizes clinical and financial data from multiple healthcare systems, enabling providers and payers to perform analytics, reporting, and population health management.",
-    "ats": "greenhouse"
+    "summary": "Array Health provides embedded finance products that help clients increase customer engagement and revenue.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
