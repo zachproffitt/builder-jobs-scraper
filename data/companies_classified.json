@@ -6511,10 +6511,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "lever",
     "slug": "verdigris",
     "name": "Verdigris",
-    "summary": "Verdigris develops artificial intelligence and IoT sensor systems that monitor and analyze energy consumption in commercial and industrial buildings, providing real-time insights into electrical systems and equipment performance to help organizations reduce energy waste and operating costs.",
-    "ats": "lever"
+    "summary": "Verdigris uses 8 kHz waveform analysis to detect equipment degradation and prevent outages in AI data centers.",
+    "source": "meta_description"
   },
   {
     "slug": "avisbudget/wd1/Zipcar_Careers",
@@ -8538,10 +8539,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "workday",
     "slug": "ifg/wd1/KH",
     "name": "King's Hawaiian",
-    "summary": "King's Hawaiian makes sweet, soft dinner rolls and baked goods that are distributed through grocery stores and foodservice channels across North America. The company produces iconic products like their original Hawaiian rolls, as well as sandwich buns, hot dog buns, and other bakery items that have become staples in American households since 1950.",
-    "ats": "workday"
+    "summary": "King's Hawaiian makes Hawaiian bread and baked goods.",
+    "source": "meta_description"
   },
   {
     "slug": "kins",
