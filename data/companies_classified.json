@@ -10471,5 +10471,12 @@
     "name": "C.H. Robinson",
     "summary": "C.H. Robinson provides global logistics and supply chain management services.",
     "source": "meta_description"
+  },
+  {
+    "ats": "ashby",
+    "slug": "acorns",
+    "name": "Acorns",
+    "summary": "Acorns offers a micro-investing platform designed to help customers build wealth through automated investment programs. The company also provides Acorns Early, a related product offering, and serves families with various financial wellness tools.",
+    "source": "job_posting"
   }
 ]
