@@ -363,3 +363,5 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
 [2026-08-04T12:12:53Z] fetch_jobs: scraper error for Kalypso (workday/rockwellautomation/wd1/External-Kalypso): Workday request failed for rockwellautomation/wd1/External-Kalypso: Client error '403 Forbidden' for url 'https://rockwellautomation.wd1.myworkdayjobs.com/wday/cxs/rockwellautomation/External-Kalypso/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+[2026-08-04T12:17:20Z] classify_jobs: metrics push failed: [Errno 101] Network is unreachable
+[2026-08-04T12:17:24Z] classify_jobs: metrics push failed: [Errno 101] Network is unreachable
