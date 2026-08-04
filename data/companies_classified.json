@@ -832,10 +832,11 @@
     "source": "homepage"
   },
   {
+    "ats": "greenhouse",
     "slug": "primerai",
     "name": "Primer AI",
-    "summary": "# Primer AI\n\nPrimer AI builds natural language processing software that extracts and summarizes information from large volumes of text and documents, primarily serving government and defense organizations that need to process intelligence reports and classified information at scale.",
-    "ats": "greenhouse"
+    "summary": "Primer AI builds decision-ready artificial intelligence software for organizations that need to process large amounts of information quickly and make high-stakes decisions based on trusted analysis. The company serves leaders, operators, and analysts with AI systems that enable real-time understanding of changing information.",
+    "source": "job_posting"
   },
   {
     "ats": "greenhouse",
@@ -3058,10 +3059,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "lever",
     "slug": "jitxinc",
     "name": "JITX",
-    "summary": "JITX builds software tools that automate the design and layout of printed circuit boards (PCBs), allowing engineers to programmatically generate hardware designs rather than manually creating them through traditional CAD interfaces. The company operates in the electronic design automation (EDA) space, specifically targeting the PCB design workflow.",
-    "ats": "lever"
+    "summary": "JITX builds software for automatic circuit board design.",
+    "source": "one_liner"
   },
   {
     "slug": "junction",
