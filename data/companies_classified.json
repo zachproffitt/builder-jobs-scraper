@@ -9215,10 +9215,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "justanswer",
     "name": "Pearl Health",
-    "summary": "Pearl Health provides cloud-based software for healthcare providers to manage clinical documentation, revenue cycle operations, and patient data across their organizations. The platform integrates electronic health record data with administrative workflows to help hospitals and health systems improve billing accuracy and operational efficiency.",
-    "ats": "greenhouse"
+    "summary": "Pearl Health helps independent professionals capture leads, book clients, and automate follow-up.",
+    "source": "meta_description"
   },
   {
     "slug": "percent-technologies",
