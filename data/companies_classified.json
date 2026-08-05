@@ -10482,5 +10482,12 @@
     "name": "Acorns",
     "summary": "Acorns offers a micro-investing platform designed to help customers build wealth through automated investment programs. The company also provides Acorns Early, a related product offering, and serves families with various financial wellness tools.",
     "source": "job_posting"
+  },
+  {
+    "ats": "ashby",
+    "slug": "zodl",
+    "name": "Zcash Electric Coin Company",
+    "summary": "The Electric Coin Company builds Zcash, a cryptocurrency protocol, and through its Zodl (Zcash Open Development Lab) division develops software including Zodl mobile (iOS and Android) with cross-chain swaps, Zallet (a full-node Zcash wallet written in Rust), and planned products such as Zodl Vault, web-based wallets, and headless wallet infrastructure.",
+    "source": "job_posting"
   }
 ]
