@@ -7218,10 +7218,11 @@
     "ats": "breezy"
   },
   {
+    "ats": "greenhouse",
     "slug": "cavnue",
     "name": "Cavnue",
-    "summary": "Cavnue develops autonomous vehicle infrastructure and connectivity solutions that enable safe self-driving car operations on public roads. The company works with transportation agencies and vehicle manufacturers to integrate smart road technology, real-time data systems, and vehicle-to-infrastructure communication to support autonomous vehicle deployment.",
-    "ats": "greenhouse"
+    "summary": "Cavnue, a Consor company, develops smart road technologies that create a real-time digital twin of roadway environments using sensors, cameras, and AI-enabled analytics to provide operational insights for modernizing how roads are operated and managed. The company deploys these digital infrastructure solutions across the United States to help public and private clients improve safety, efficiency, and accessibility for transportation users.",
+    "source": "job_posting"
   },
   {
     "ats": "greenhouse",
