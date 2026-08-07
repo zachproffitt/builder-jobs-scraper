@@ -2406,10 +2406,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "cortex",
     "name": "Cortex",
-    "summary": "Cortex builds an Engineering Operations Platform that centralizes operational data across an organization's tools to measure and improve engineering team maturity, production readiness, and developer productivity. The platform serves engineering leaders, platform teams, and SRE teams operating in the software development and infrastructure management domain.",
-    "ats": "greenhouse"
+    "summary": "Cortex makes an internal developer portal that helps developers by reducing overhead and administrative burdens.",
+    "source": "one_liner"
   },
   {
     "ats": "ashby",
