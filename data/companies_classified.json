@@ -5064,10 +5064,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "percona",
     "name": "Percona",
-    "summary": "Percona provides open source database software and professional services for MySQL, PostgreSQL, and MongoDB, including distributions, tools, and consulting expertise to help organizations optimize and manage their database infrastructure.",
-    "ats": "ashby"
+    "summary": "Percona provides open source database solutions and support services for MySQL, PostgreSQL, MongoDB, and MariaDB.",
+    "source": "meta_description"
   },
   {
     "ats": "lever",
@@ -9631,10 +9632,11 @@
     "ats": "breezy"
   },
   {
+    "ats": "bamboo",
     "slug": "anaqua",
     "name": "SeeUnity",
-    "summary": "SeeUnity builds software that enables real-time collaboration and communication for distributed teams, focusing on video conferencing, screen sharing, and virtual workspace features. The platform operates in the business communication and remote work technology domain.",
-    "ats": "bamboo"
+    "summary": "SeeUnity provides API-based enterprise content integration and migration products that help professionals synchronize and migrate data across on-premise or cloud-based ECM systems and external applications.",
+    "source": "meta_description"
   },
   {
     "slug": "semsee",
