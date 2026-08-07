@@ -8356,10 +8356,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "inmarket",
     "name": "InMarket",
-    "summary": "InMarket builds a location-based marketing platform that uses mobile data to identify and reach consumers at physical locations, enabling brands to deliver targeted offers and measure foot traffic patterns in real-world retail environments.",
-    "ats": "greenhouse"
+    "summary": "InMarket provides real-time marketing and measurement services that help marketers connect brands with customers at specific times and locations.",
+    "source": "meta_description"
   },
   {
     "slug": "inshur",
