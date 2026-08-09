@@ -50144,5 +50144,620 @@
     "name": "W\u00e4rtsil\u00e4",
     "website": "https://wartsila.com",
     "status": "no_ats"
+  },
+  {
+    "name": "afterfive",
+    "website": "https://afterfive.club",
+    "status": "no_ats",
+    "one_liner": "Life starts after five."
+  },
+  {
+    "name": "Agent FM",
+    "website": "https://www.agentfm.ai",
+    "status": "no_ats",
+    "one_liner": "One group chat to hear and steer your coding agents."
+  },
+  {
+    "name": "Arbital",
+    "website": "https://www.arbital.xyz",
+    "status": "no_ats",
+    "one_liner": "The trading terminal for perps, memes, and stocks."
+  },
+  {
+    "name": "Audun",
+    "website": "https://www.getaudun.com",
+    "status": "no_ats",
+    "one_liner": "AI-native debt collection"
+  },
+  {
+    "name": "CarSignal",
+    "website": "https://www.trycarsignal.com",
+    "status": "no_ats",
+    "one_liner": "The Smart Operating System for Auto Shops."
+  },
+  {
+    "name": "Caution",
+    "website": "https://caution.co",
+    "status": "no_ats",
+    "one_liner": "Hosting platform for software you don't want to get hacked"
+  },
+  {
+    "name": "Chromie",
+    "website": "https://chromie.dev",
+    "status": "no_ats",
+    "one_liner": "find, qualify, & win gov contracts with AI"
+  },
+  {
+    "name": "Click",
+    "website": "https://www.useclick.ai",
+    "status": "no_ats",
+    "one_liner": "Web search & connectors for agents"
+  },
+  {
+    "name": "Dartboard",
+    "website": "https://dartboard.ai",
+    "status": "no_ats",
+    "one_liner": "AI-native remote operations center for hardware fleets"
+  },
+  {
+    "name": "Dawn Industries",
+    "website": "https://www.dawnxr.com",
+    "status": "no_ats",
+    "one_liner": "Automatic Diagnosis & Fix for Industrial Automation Cells"
+  },
+  {
+    "name": "Dreach",
+    "website": "https://dreach.ai",
+    "status": "no_ats",
+    "one_liner": "Never miss a lead"
+  },
+  {
+    "name": "Exosat",
+    "website": "https://www.exosat.com",
+    "status": "no_ats",
+    "one_liner": "Building a sovereign Starlink"
+  },
+  {
+    "name": "Feldy",
+    "website": "https://www.feldy.ai",
+    "status": "no_ats",
+    "one_liner": "Field-First AI for home services"
+  },
+  {
+    "name": "Forward",
+    "website": "https://www.useforward.co",
+    "status": "no_ats",
+    "one_liner": "Unifying Global Private Credit"
+  },
+  {
+    "name": "Hebbian Robotics",
+    "website": "https://hebbianrobotics.com",
+    "status": "no_ats",
+    "one_liner": "APIs for searching and analyzing Physical AI data at scale"
+  },
+  {
+    "name": "herdr",
+    "website": "https://herdr.dev",
+    "status": "no_ats",
+    "one_liner": "building the open agent runtime"
+  },
+  {
+    "name": "IMPACT Drones",
+    "website": "https://www.impact-drones.com",
+    "status": "no_ats",
+    "one_liner": "Air Defense as a Service for Civilian Infrastructure."
+  },
+  {
+    "name": "Khotan (formerly Pollinate)",
+    "website": "https://www.khotan.com",
+    "status": "no_ats",
+    "one_liner": "AI Agents for the supply chain."
+  },
+  {
+    "name": "Marengo",
+    "website": "https://marengox.com",
+    "status": "no_ats",
+    "one_liner": "Automating engineering design, starting with data centers."
+  },
+  {
+    "name": "Neuromorphic",
+    "website": "https://www.neuromorphic.vision",
+    "status": "no_ats",
+    "one_liner": "Building embodiment agnostic robot brains."
+  },
+  {
+    "name": "Omanta",
+    "website": "https://omanta.com",
+    "status": "no_ats",
+    "one_liner": "A research lab for one"
+  },
+  {
+    "name": "Prodigy Research",
+    "website": "https://prodigy.markets",
+    "status": "no_ats",
+    "one_liner": "Training the world's best foundation model for quantitative finance."
+  },
+  {
+    "name": "Qlo",
+    "website": "https://www.getqlo.com",
+    "status": "no_ats",
+    "one_liner": "AI that automates underwriting for commercial insurance carriers"
+  },
+  {
+    "name": "Qokedas",
+    "website": "https://qokedas.com",
+    "status": "no_ats",
+    "one_liner": "Teaching models to decode the physical world"
+  },
+  {
+    "name": "Radley",
+    "website": "https://radley.health",
+    "status": "no_ats",
+    "one_liner": "AI-native, full-stack radiology practice"
+  },
+  {
+    "name": "Rasyn",
+    "website": "https://www.rasyn.ai",
+    "status": "no_ats",
+    "one_liner": "Towards a General Intelligence for Chemistry"
+  },
+  {
+    "name": "Ravion",
+    "website": "https://www.ravion.com?ref=bookface",
+    "status": "no_ats",
+    "one_liner": "Ultimate command center for your cloud infrastructure"
+  },
+  {
+    "name": "Riften",
+    "website": "https://riften.ai",
+    "status": "no_ats",
+    "one_liner": "Earned Intelligence for every company."
+  },
+  {
+    "name": "Sagaland",
+    "website": "https://sagaland.ai",
+    "status": "no_ats",
+    "one_liner": "AI entertainment platform"
+  },
+  {
+    "name": "Sapien",
+    "website": "https://www.asksapien.ai",
+    "status": "no_ats",
+    "one_liner": "Synthetic populations for decisions"
+  },
+  {
+    "name": "Solo Labs",
+    "website": "https://jcode.sh",
+    "status": "no_ats",
+    "one_liner": "Coding Agents"
+  },
+  {
+    "name": "SpaceFlow Technologies, Inc.",
+    "website": "https://spaceflow.tech",
+    "status": "no_ats",
+    "one_liner": "The managed runtime for enterprise AI agents"
+  },
+  {
+    "name": "Tiriel AI",
+    "website": "https://tiriel.ai",
+    "status": "no_ats",
+    "one_liner": "The AI workforce for freight dispatch"
+  },
+  {
+    "name": "Ultrasonium",
+    "website": "https://ultrasonium.com",
+    "status": "no_ats",
+    "one_liner": "Manufacturing the metal parts the world runs on faster, cheaper, safer"
+  },
+  {
+    "name": "Within",
+    "website": "https://within.ai",
+    "status": "active",
+    "one_liner": "Company Brain for people and agents to work in harmony.",
+    "ats": "ashby",
+    "slug": "within-ai",
+    "category": [],
+    "meta_description": "Within turns how your organization operates into a Company Brain\u2014then allocates work between people and agents."
+  },
+  {
+    "name": "Fortell",
+    "website": "https://fortell.com",
+    "status": "active",
+    "ats": "ashby",
+    "slug": "fortell",
+    "category": [],
+    "meta_description": "Discover Fortell's clinically proven AI hearing aids. Superior speech clarity in noisy environments, backed by science. Request your appointment."
+  },
+  {
+    "name": "Valar Atomics",
+    "website": "https://valar-atomics.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "42 Degrees",
+    "website": "https://42degrees.us",
+    "status": "no_ats"
+  },
+  {
+    "name": "Adjust",
+    "website": "https://adjust.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "AlectroLabs",
+    "website": "https://alectrolabs.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Apache Hadoop",
+    "website": "https://hadoop.apache.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Apartment List",
+    "website": "https://apartmentlist.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Aricent",
+    "website": "https://aricent.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Buildtech",
+    "website": "https://buildtech.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "ClassPass",
+    "website": "https://classpass.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Coupang",
+    "website": "https://coupang.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Coursmill",
+    "website": "https://coursmill.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "dbt Cloud",
+    "website": "https://cloud.getdbt.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Docketwise",
+    "website": "https://docketwise.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Edgio",
+    "website": "https://edg.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Element Logic",
+    "website": "https://elementlogic.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "ESG Book",
+    "website": "https://esgbook.com",
+    "status": "active",
+    "ats": "workable",
+    "slug": "esg-book",
+    "category": [],
+    "meta_description": "ESG Book provides financial institutions and corporates with cutting-edge sustainability data and an advanced disclosure platform."
+  },
+  {
+    "name": "FinancialForce",
+    "website": "https://financialforce.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Fishbowl",
+    "website": "https://fishbowlinventory.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Harman International",
+    "website": "https://harman.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "HLS Media",
+    "website": "https://hlsmedia.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Homepoint",
+    "website": "https://homepoint.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Hortonworks",
+    "website": "https://hortonworks.com",
+    "status": "active",
+    "ats": "workday",
+    "slug": "cloudera/wd5/External_Career",
+    "category": [],
+    "meta_description": "Cloudera is the only hybrid data and AI platform company that brings AI to data anywhere: In clouds, in data centers, and at the edge."
+  },
+  {
+    "name": "Hydrogen",
+    "website": "https://hydrogen.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Indeed",
+    "website": "https://indeed.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Infinera",
+    "website": "https://infinera.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Innodata",
+    "website": "https://innodata.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Kahoot!",
+    "website": "https://kahoot.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "LawVision",
+    "website": "https://lawvision.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Lexology",
+    "website": "https://lexology.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Lowercarbon Capital",
+    "website": "https://lowercarbon.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Lucidchart",
+    "website": "https://lucidchart.com",
+    "status": "active",
+    "ats": "greenhouse",
+    "slug": "lucidsoftware",
+    "category": [],
+    "meta_description": "Create next-generation diagrams with AI, data, and automation in Lucidchart. Understand and optimize every system and process."
+  },
+  {
+    "name": "Match Group",
+    "website": "https://match.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Mobilegeddon",
+    "website": "https://mobilegeddon.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "MyFitnessPal",
+    "website": "https://myfitnesspal.com",
+    "status": "active",
+    "ats": "greenhouse",
+    "slug": "myfitnesspal",
+    "category": [],
+    "meta_description": "Reach your health, fitness & weight goals with MyFitnessPal, the #1 nutrition tracking app. Macro & calorie calculator, food tracker, and fasting app in one. Download today!"
+  },
+  {
+    "name": "Nuxt Labs",
+    "website": "https://nuxt.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Omron Robotics",
+    "website": "https://omron.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Onecom",
+    "website": "https://onecom.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Onfido",
+    "website": "https://onfido.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Onna",
+    "website": "https://onna.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Operant Networks",
+    "website": "https://operantnetworks.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "OroKube",
+    "website": "https://orokube.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Pallycon",
+    "website": "https://pallycon.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Playtesting",
+    "website": "https://playtesting.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Point",
+    "website": "https://pointcentral.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Pragma Engine",
+    "website": "https://pragmaengine.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Pymetrics",
+    "website": "https://pymetrics.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "QCI (Quantum Computing Inc)",
+    "website": "https://quantumcomputinginc.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Rocket Math",
+    "website": "https://rocketmath.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Rootstock",
+    "website": "https://rootstock.cloud",
+    "status": "no_ats"
+  },
+  {
+    "name": "Scaler Academy",
+    "website": "https://scaler.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Shipment",
+    "website": "https://shipment.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Silverfinch",
+    "website": "https://silverfinch.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Skylo",
+    "website": "https://skylohq.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "SmartRecruiters",
+    "website": "https://smartrecruiters.com",
+    "status": "active",
+    "ats": "smartrecruiters",
+    "slug": "work-with-us",
+    "category": [],
+    "meta_description": "Enterprise-grade hiring platform designed for HR and recruiting talent. SmartRecruiters all-in-one solution, so you can track applicants and hire easily."
+  },
+  {
+    "name": "Smartsheet",
+    "website": "https://smartsheet.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "St\u00e4ubli",
+    "website": "https://staubli.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Svelte",
+    "website": "https://svelte.dev",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sweetgreen",
+    "website": "https://sweetgreen.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Taleo",
+    "website": "https://taleo.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Target (ecommerce)",
+    "website": "https://target.com",
+    "status": "active",
+    "ats": "workday",
+    "slug": "target/wd5/targetcareers",
+    "category": [],
+    "meta_description": "Shop Target online and in-store for everything from groceries and essentials to clothing and electronics. Choose contactless pickup or delivery today."
+  },
+  {
+    "name": "Techman Robot",
+    "website": "https://techmanrobot.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Thomson Reuters CLEAR",
+    "website": "https://clear.thomsonreuters.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Tinder",
+    "website": "https://tinder.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Trello",
+    "website": "https://trello.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Veracode",
+    "website": "https://veracode.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Vite",
+    "website": "https://vitejs.dev",
+    "status": "no_ats"
+  },
+  {
+    "name": "Walmart (ecommerce)",
+    "website": "https://walmart.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Wrike",
+    "website": "https://wrike.com",
+    "status": "active",
+    "ats": "greenhouse",
+    "slug": "wrike",
+    "category": [],
+    "meta_description": "Easily build, connect, and scale workflows with Wrike. Enjoy 360\u00b0 visibility, seamless collaboration, and the freedom to let work flow."
+  },
+  {
+    "name": "Xata",
+    "website": "https://xata.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Yelp",
+    "website": "https://yelp.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Zipongo",
+    "website": "https://zipongo.com",
+    "status": "active",
+    "ats": "lever",
+    "slug": "foodsmart",
+    "category": [],
+    "meta_description": "With a national network of registered dietitians, we've helped over 3 million members improve their health with personalized nutrition guidance from the comfort of their own home."
+  },
+  {
+    "name": "ZipRecruiter",
+    "website": "https://ziprecruiter.com",
+    "status": "no_ats"
   }
 ]
