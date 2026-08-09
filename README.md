@@ -2,7 +2,7 @@
 
 Hourly pipeline that scrapes engineering jobs from company career pages, classifies each role with Claude, and publishes a curated index to **[zachproffitt/builder-jobs](https://github.com/zachproffitt/builder-jobs)**.
 
-<sub>Last updated August 2, 2026 at 04:38 UTC</sub>
+<sub>Last updated August 9, 2026 at 02:29 UTC</sub>
 
 ## Pipeline
 
@@ -65,16 +65,16 @@ as are any that Claude resolves to a location outside the remote + Colorado scop
 
 | ATS | Companies | Scraper |
 |---|---|---|
-| Ashby | 588 | `scrapers/ats_ashby.py` |
-| Greenhouse | 573 | `scrapers/ats_greenhouse.py` |
-| Lever | 190 | `scrapers/ats_lever.py` |
-| Workday | 178 | `scrapers/ats_workday.py` |
+| Ashby | 590 | `scrapers/ats_ashby.py` |
+| Greenhouse | 576 | `scrapers/ats_greenhouse.py` |
+| Lever | 191 | `scrapers/ats_lever.py` |
+| Workday | 180 | `scrapers/ats_workday.py` |
 | BambooHR | 76 | `scrapers/ats_bamboo.py` |
 | Breezy | 51 | `scrapers/ats_breezy.py` |
-| Workable | 78 | `scrapers/ats_workable.py` |
-| SmartRecruiters | 12 | `scrapers/ats_smartrecruiters.py` |
+| Workable | 79 | `scrapers/ats_workable.py` |
+| SmartRecruiters | 13 | `scrapers/ats_smartrecruiters.py` |
 | Eightfold | 8 | `scrapers/ats_eightfold.py` |
-| **Total** | **1754** | |
+| **Total** | **1764** | |
 
 ## Company sources
 
