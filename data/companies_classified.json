@@ -8854,10 +8854,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "themindcompany",
     "name": "MindSnacks",
-    "summary": "MindSnacks builds mobile language learning games that teach vocabulary and grammar through bite-sized, game-based lessons for languages including Spanish, French, German, Mandarin, and other languages. The company operates in the educational technology sector, focusing on making language acquisition accessible and engaging through smartphone apps.",
-    "ats": "ashby"
+    "summary": "MindSnacks makes Elevate, a brain training app that helps users build focus, memory, math, and reading skills through daily exercises.",
+    "source": "meta_description"
   },
   {
     "slug": "resources",
