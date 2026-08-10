@@ -5,14 +5,14 @@
   "unclear": 0,
   "builder_rate": 0.0,
   "title_skipped": 0,
-  "location_skipped": 2,
+  "location_skipped": 3,
   "location_ambiguous": 1,
-  "skipped_no_desc": 16501,
+  "skipped_no_desc": 15986,
   "errors": 0,
   "requests": 1,
-  "input_tokens": 903,
-  "output_tokens": 371,
+  "input_tokens": 2323,
+  "output_tokens": 332,
   "cache_creation_input_tokens": 4221,
   "cache_read_input_tokens": 0,
-  "cost_usd": 0.00803425
+  "cost_usd": 0.00925925
 }
