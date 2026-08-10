@@ -9878,10 +9878,11 @@
     "ats": "workday"
   },
   {
+    "ats": "greenhouse",
     "slug": "striiminc",
     "name": "Striim",
-    "summary": "Striim builds a real-time data integration and streaming platform that enables organizations to capture, process, and deliver data from various sources to cloud and on-premises destinations with minimal latency. The platform specializes in continuous data replication, change data capture, and event streaming across databases, applications, and data warehouses.",
-    "ats": "greenhouse"
+    "summary": "Striim provides real-time data integration across private and public cloud environments using change data capture and data streams.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
