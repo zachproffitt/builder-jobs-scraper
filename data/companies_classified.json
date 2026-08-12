@@ -7057,10 +7057,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "bloomreach",
     "name": "Bloomreach",
-    "summary": "Bloomreach provides a commerce experience platform that helps businesses deliver personalized shopping experiences across digital channels through AI-driven discovery, merchandising, and content management solutions.",
-    "ats": "greenhouse"
+    "summary": "Bloomreach makes Loomi AI, an agentic platform that personalizes customer experiences in real time across email, web, mobile, and search channels.",
+    "source": "meta_description"
   },
   {
     "slug": "blueconic",
