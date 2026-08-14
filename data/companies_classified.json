@@ -2027,10 +2027,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "arketa",
     "name": "Arketa",
-    "summary": "Arketa builds modern booking software and business management tools designed specifically for wellness studios and fitness businesses such as yoga, pilates, gyms, and group fitness operations. The platform combines class and appointment scheduling, membership management, marketing automations, client CRM, and financial tools to help studio owners streamline operations and grow revenue.",
-    "ats": "ashby"
+    "summary": "Arketa provides software and tools for fitness and wellness businesses.",
+    "source": "one_liner"
   },
   {
     "slug": "ARQ",
