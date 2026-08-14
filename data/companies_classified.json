@@ -10498,5 +10498,12 @@
     "name": "Zcash Electric Coin Company",
     "summary": "The Electric Coin Company builds Zcash, a cryptocurrency protocol, and through its Zodl (Zcash Open Development Lab) division develops software including Zodl mobile (iOS and Android) with cross-chain swaps, Zallet (a full-node Zcash wallet written in Rust), and planned products such as Zodl Vault, web-based wallets, and headless wallet infrastructure.",
     "source": "job_posting"
+  },
+  {
+    "ats": "greenhouse",
+    "slug": "lighthouse",
+    "name": "OTA Insight",
+    "summary": "OTA Insight provides business intelligence and pricing solutions for revenue optimization.",
+    "source": "meta_description"
   }
 ]
