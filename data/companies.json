@@ -50759,5 +50759,636 @@
     "name": "ZipRecruiter",
     "website": "https://ziprecruiter.com",
     "status": "no_ats"
+  },
+  {
+    "name": "Akon Labs",
+    "website": "https://akonlabs.com",
+    "status": "no_ats",
+    "one_liner": "Nervous System for AI Agents"
+  },
+  {
+    "name": "Bernard",
+    "website": "https://bernardhq.com",
+    "status": "active",
+    "one_liner": "AI employees that run home appliance repair companies",
+    "ats": "ashby",
+    "slug": "bernard",
+    "category": [],
+    "meta_description": "Bernard is an AI-powered operating system for the trades that helps technicians diagnose appliances faster, automate documentation, and source parts instantly to eliminate callbacks and paperwork."
+  },
+  {
+    "name": "Clerked",
+    "website": "https://clerked.ai",
+    "status": "no_ats",
+    "one_liner": "AI clerks that automate your payables"
+  },
+  {
+    "name": "CODEXA",
+    "website": "https://codexa.com.br",
+    "status": "no_ats",
+    "one_liner": "AI Agent runs the entire international trade operation"
+  },
+  {
+    "name": "DeepReach Inc.",
+    "website": "https://www.deepreach.ai",
+    "status": "no_ats",
+    "one_liner": "Real-world data network for robots & world models"
+  },
+  {
+    "name": "Dipole Labs",
+    "website": "https://dipolelabs.com",
+    "status": "no_ats",
+    "one_liner": "AI-controlled optical switching for AI clusters"
+  },
+  {
+    "name": "Dream",
+    "website": "https://www.pingdream.com",
+    "status": "no_ats",
+    "one_liner": "Pocket-sized AI cameras that catch asset damage."
+  },
+  {
+    "name": "EdotEnv",
+    "website": "https://edotenv.com",
+    "status": "no_ats",
+    "one_liner": "A Quant Neolab building toward RSI via quant trading"
+  },
+  {
+    "name": "Enact",
+    "website": "https://enact.company",
+    "status": "no_ats",
+    "one_liner": "The post-training layer for robotics."
+  },
+  {
+    "name": "Erinys",
+    "website": "https://erinys.ai",
+    "status": "no_ats",
+    "one_liner": "Building the first network of AI-native law firms"
+  },
+  {
+    "name": "Evergrove",
+    "website": "https://www.evergrovelabs.com",
+    "status": "no_ats",
+    "one_liner": "Voice agents that accelerate care coordination in workers' comp"
+  },
+  {
+    "name": "Familiar",
+    "website": "https://thefamiliarlab.com",
+    "status": "no_ats",
+    "one_liner": "World Models for Accurate Humans."
+  },
+  {
+    "name": "Financial Datasets",
+    "website": "https://financialdatasets.ai",
+    "status": "no_ats",
+    "one_liner": "Connect your agent to the stock market"
+  },
+  {
+    "name": "Hemlock",
+    "website": "https://hemlock.info",
+    "status": "no_ats",
+    "one_liner": "Force-sensing wristband for training robotic AI"
+  },
+  {
+    "name": "Impractical",
+    "website": "https://impractical.ai",
+    "status": "no_ats",
+    "one_liner": "Your autonomous motion designer that turns every feature into a\u2026"
+  },
+  {
+    "name": "Kandor",
+    "website": "https://kandorlabs.com",
+    "status": "no_ats",
+    "one_liner": "Making health insurance invisible"
+  },
+  {
+    "name": "Lyon",
+    "website": "https://lyon.so",
+    "status": "no_ats",
+    "one_liner": "Foundation models on enterprise transaction data."
+  },
+  {
+    "name": "Magma",
+    "website": "https://magmahq.ai",
+    "status": "no_ats",
+    "one_liner": "Monetize your agent's traces."
+  },
+  {
+    "name": "Mass Magnetics",
+    "website": "https://massmagnetics.com",
+    "status": "no_ats",
+    "one_liner": "USA-made magnetics for aerospace, robotics and defense."
+  },
+  {
+    "name": "Mentlio",
+    "website": "https://mentlio.com",
+    "status": "no_ats",
+    "one_liner": "Engineering Intelligence and Token Optimization for the AI-Coding Era"
+  },
+  {
+    "name": "Meteoric",
+    "website": "https://meteoric.earth",
+    "status": "no_ats",
+    "one_liner": "Drones that clear clouds over solar farms"
+  },
+  {
+    "name": "MOCHI.TV",
+    "website": "https://www.mochi.tv",
+    "status": "no_ats",
+    "one_liner": "1 Minute Anime"
+  },
+  {
+    "name": "Moving Atoms",
+    "website": "https://movingatoms.ai",
+    "status": "no_ats",
+    "one_liner": "Solving Robotics with World Models trained on Internet-Scale Video"
+  },
+  {
+    "name": "NODI Energy",
+    "website": "https://www.nodienergy.com",
+    "status": "no_ats",
+    "one_liner": "Distributed energy infrastructure unlocking grid power to data centers"
+  },
+  {
+    "name": "Openbenchmarks",
+    "website": "https://openbenchmarks.com",
+    "status": "no_ats",
+    "one_liner": "Openbenchmarks helps Agents pick the right vendors via Benchmarking"
+  },
+  {
+    "name": "Pacific",
+    "website": "https://gopacific.ai",
+    "status": "no_ats",
+    "one_liner": "Mass-producing and deploying micro data centers for Earth and Space"
+  },
+  {
+    "name": "Palisade",
+    "website": "https://palisade.run",
+    "status": "no_ats",
+    "one_liner": "AI sales agents that run your marketplace"
+  },
+  {
+    "name": "Peer",
+    "website": "https://peer-freight.com",
+    "status": "no_ats",
+    "one_liner": "AI-native freight brokerage"
+  },
+  {
+    "name": "Pennant",
+    "website": "https://www.getpennant.ai",
+    "status": "no_ats",
+    "one_liner": "The Corporate Governance OS for Public Markets"
+  },
+  {
+    "name": "PRINCEPS",
+    "website": "https://princeps.dev",
+    "status": "no_ats",
+    "one_liner": "AI-native insurance company for the compute economy"
+  },
+  {
+    "name": "Relaw",
+    "website": "https://www.relaw.ai",
+    "status": "no_ats",
+    "one_liner": "AI Legal OS"
+  },
+  {
+    "name": "RingMD",
+    "website": "https://www.ring.md",
+    "status": "no_ats",
+    "one_liner": "We work with governments to implement telemedicine programs."
+  },
+  {
+    "name": "Shiraz AI",
+    "website": "https://shiraz.ai",
+    "status": "no_ats",
+    "one_liner": "Robots that learn on the job"
+  },
+  {
+    "name": "Simulithic",
+    "website": "https://simulithic.com",
+    "status": "no_ats",
+    "one_liner": "Simulate how any product change will perform before shipping."
+  },
+  {
+    "name": "Standard Medical",
+    "website": "https://standardmedical.com",
+    "status": "no_ats",
+    "one_liner": "A primary care clinic where AI earns clinical autonomy"
+  },
+  {
+    "name": "Tarifflo Inc.",
+    "website": "https://www.tarifflo.com",
+    "status": "no_ats",
+    "one_liner": "Supply chain compliance and cost savings"
+  },
+  {
+    "name": "Tenor",
+    "website": "https://heytenor.com",
+    "status": "no_ats",
+    "one_liner": "AI workers that attribute the outcome back to the token spend"
+  },
+  {
+    "name": "Touchy",
+    "website": "https://touchyapp.com",
+    "status": "no_ats",
+    "one_liner": "The AI assistant that doesn't fight for your attention"
+  },
+  {
+    "name": "TovenAI",
+    "website": "https://toven.ai",
+    "status": "no_ats",
+    "one_liner": "AI agents for compliance at institutional trading firms"
+  },
+  {
+    "name": "TryNearby",
+    "website": "https://trynearby.com",
+    "status": "no_ats",
+    "one_liner": "Local creators for local businesses"
+  },
+  {
+    "name": "twentyfour26",
+    "website": "https://twentyfour26.com",
+    "status": "no_ats",
+    "one_liner": "On Demand CNC Prototyping"
+  },
+  {
+    "name": "Veltha",
+    "website": "https://veltha.ai",
+    "status": "no_ats",
+    "one_liner": "AI claims adjuster for regulated insurance"
+  },
+  {
+    "name": "Verdict Machine",
+    "website": "https://verdictmachine.com",
+    "status": "no_ats",
+    "one_liner": "AI cybersecurity for financial institutions' digital assets"
+  },
+  {
+    "name": "Vernius Systems, Inc.",
+    "website": "https://www.vernius.systems",
+    "status": "no_ats",
+    "one_liner": "Autonomous radar guidance for interceptors"
+  },
+  {
+    "name": "Vorelios",
+    "website": "https://vorelios.com",
+    "status": "no_ats",
+    "one_liner": "AI that simulates physics 1000x faster"
+  },
+  {
+    "name": "Waybill",
+    "website": "https://www.waybill.to",
+    "status": "no_ats",
+    "one_liner": "Managed procurement & inventory for hardware teams."
+  },
+  {
+    "name": "WonderTx",
+    "website": "https://wondertx.ai",
+    "status": "no_ats",
+    "one_liner": "Extrapolative AI to unlock First-in-Class drugs"
+  },
+  {
+    "name": "ActionIQ",
+    "website": "https://actioniq.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Altair Engineering",
+    "website": "https://altair.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Animoca Brands",
+    "website": "https://animocabrands.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Ansys",
+    "website": "https://ansys.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "AppNexus",
+    "website": "https://appnexus.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Bit",
+    "website": "https://bit.dev",
+    "status": "no_ats"
+  },
+  {
+    "name": "Bosch Software Innovations",
+    "website": "https://bosch-si.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Butterfly Network",
+    "website": "https://butterflynetwork.com",
+    "status": "active",
+    "ats": "greenhouse",
+    "slug": "butterflynetwork",
+    "category": [],
+    "meta_description": "Welcome to connected medicine. Butterfly brings the power of ultrasound into your assessment, diagnosis and treatment process. One probe. Whole-body imaging. For any medical system."
+  },
+  {
+    "name": "Captura",
+    "website": "https://captura.energy",
+    "status": "no_ats"
+  },
+  {
+    "name": "Carbon Upcycling UCLA",
+    "website": "https://carbonupcycling.ucla.edu",
+    "status": "no_ats"
+  },
+  {
+    "name": "Chromatic",
+    "website": "https://chromatic.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Clarifai",
+    "website": "https://clarifai.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Clause",
+    "website": "https://clause.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "CloudWalk",
+    "website": "https://cloudwalk.cn",
+    "status": "no_ats"
+  },
+  {
+    "name": "CommonLit",
+    "website": "https://commonlit.org",
+    "status": "active",
+    "ats": "lever",
+    "slug": "commonlit",
+    "category": [],
+    "meta_description": "Explore a comprehensive literacy program that offers a full-year ELA curriculum, benchmark assessments, professional development, and more."
+  },
+  {
+    "name": "ffmpeg",
+    "website": "https://ffmpeg.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Flexpoint",
+    "website": "https://flexpoint.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Footprint Analytics",
+    "website": "https://footprintanalytics.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "GoToMeeting",
+    "website": "https://gotomeeting.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Hexagon",
+    "website": "https://hexagonis.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "KeyCDN",
+    "website": "https://keycdn.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Kopitive",
+    "website": "https://kopitive.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Kornia",
+    "website": "https://kornia.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Krafton",
+    "website": "https://krafton.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Labelbox",
+    "website": "https://labelbox.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Legible",
+    "website": "https://legible.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Lighthouse Systems",
+    "website": "https://lighthouse.systems",
+    "status": "no_ats"
+  },
+  {
+    "name": "Lytics",
+    "website": "https://lytics.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "MediaKind",
+    "website": "https://mediakind.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Megvii",
+    "website": "https://megvii.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Mindsphere (Siemens IoT)",
+    "website": "https://mindsphere.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "MinIO",
+    "website": "https://min.io",
+    "status": "active",
+    "ats": "greenhouse",
+    "slug": "minio",
+    "category": [],
+    "meta_description": "Give every AI agent access to your enterprise's knowledge. AIStor delivers persistent memory and AI-ready data for training, inference, and intelligent agents."
+  },
+  {
+    "name": "Move, Inc.",
+    "website": "https://move.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Nexon",
+    "website": "https://nexon.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Notion Energy",
+    "website": "https://notionenergy.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "NREL (National Renewable Energy Laboratory)",
+    "website": "https://nrel.gov",
+    "status": "no_ats"
+  },
+  {
+    "name": "Nuvei",
+    "website": "https://nuvei.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Optilogic",
+    "website": "https://optilogic.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "PadMapper",
+    "website": "https://padmapper.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Posti",
+    "website": "https://posti.com",
+    "status": "active",
+    "ats": "workday",
+    "slug": "posti/wd3/external",
+    "category": [],
+    "meta_description": "Postilla teemme logistiikasta vaivatonta tarjoamalla kaikki palvelut kuljettamisesta varastointiin ja tavaroiden k\u00e4sittelyyn saman katon alta."
+  },
+  {
+    "name": "Redpoint Global",
+    "website": "https://redpointglobal.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "RoomRaccoon",
+    "website": "https://roomraccoon.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Scribe Security",
+    "website": "https://scribe.security",
+    "status": "no_ats"
+  },
+  {
+    "name": "Scytec DataCollect",
+    "website": "https://scytec.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Seal Software",
+    "website": "https://sealsoftware.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Softeon",
+    "website": "https://softeon.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Subbly",
+    "website": "https://subbly.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sunnova",
+    "website": "https://sunnova.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sustainability Tracking, Reporting and Knowledge System",
+    "website": "https://start.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Tealium",
+    "website": "https://tealium.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Telerik",
+    "website": "https://telerik.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Telestream",
+    "website": "https://telestream.net",
+    "status": "no_ats"
+  },
+  {
+    "name": "Tile",
+    "website": "https://tile.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Tive",
+    "website": "https://tiveinc.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Tokopedia",
+    "website": "https://tokopedia.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Transporeon",
+    "website": "https://transporeon.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Treasure Data",
+    "website": "https://treasuredata.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Trunk",
+    "website": "https://trunk.io",
+    "status": "active",
+    "ats": "lever",
+    "slug": "trunkio",
+    "category": [],
+    "meta_description": "The CI reliability platform that detects flaky tests and accelerates merges. Trusted by Zillow, Brex, and Faire."
+  },
+  {
+    "name": "Turn",
+    "website": "https://turn.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Virtual Staging AI",
+    "website": "https://virtualstagingai.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "VIVEPORT",
+    "website": "https://viveport.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Vorne Industries",
+    "website": "https://vorne.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "WebAR.rocks",
+    "website": "https://webarkit.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Zenlayer",
+    "website": "https://zenlayer.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Zeta Global",
+    "website": "https://zetaglobal.com",
+    "status": "no_ats"
   }
 ]
