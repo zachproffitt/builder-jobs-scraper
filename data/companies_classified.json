@@ -6780,10 +6780,11 @@
     "ats": "breezy"
   },
   {
+    "ats": "bamboo",
     "slug": "anovasolutions",
     "name": "Anova Technologies",
-    "summary": "Anova Technologies develops precision cooking equipment including immersion circulators and sous vide devices for both home and commercial kitchens, enabling users to cook food at controlled temperatures for consistent results.",
-    "ats": "bamboo"
+    "summary": "Anova Technologies builds and maintains a Salesforce platform that powers sales operations across its business units, including Revenue Cloud implementation with product catalog management, pricing controls, guided selling, contract management, and order management capabilities. The company manages integrations between Salesforce and surrounding business systems including marketing automation, ERP, billing, and customer support platforms.",
+    "source": "job_posting"
   },
   {
     "slug": "pctelincorp",
