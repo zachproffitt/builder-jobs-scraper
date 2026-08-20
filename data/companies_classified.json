@@ -6897,10 +6897,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "redapt",
     "name": "Attunix",
-    "summary": "Attunix develops software that helps companies manage and optimize their energy consumption across buildings and facilities. Their platform collects data from IoT sensors and smart meters to provide real-time monitoring, analytics, and recommendations for reducing energy usage and costs.",
-    "ats": "greenhouse"
+    "summary": "insufficient The source text is a job description for a Forward Deployed Engineer position at Redapt, not a description of the company \"Attunix\" or what it builds. The source does not contain factual information about what Attunix makes or does as a company.",
+    "source": "job_posting"
   },
   {
     "ats": "greenhouse",
