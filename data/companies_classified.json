@@ -6257,10 +6257,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "lever",
     "slug": "loadsmart",
     "name": "Loadsmart",
-    "summary": "Loadsmart is a digital freight marketplace that connects shippers with carrier companies to facilitate the booking and execution of trucking shipments across North America. The platform uses technology to streamline logistics operations by providing real-time pricing, automated load matching, and tracking capabilities for less-than-truckload (LTL) and full truckload (FTL) transportation.",
-    "ats": "lever"
+    "summary": "Loadsmart offers transportation services and software solutions for shippers, carriers, and warehouses.",
+    "source": "meta_description"
   },
   {
     "slug": "magic",
