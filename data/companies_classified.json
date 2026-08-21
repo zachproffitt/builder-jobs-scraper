@@ -4803,10 +4803,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "carbondirect",
     "name": "Carbon Direct",
-    "summary": "Carbon Direct provides carbon management software and consulting services that help companies measure, reduce, and offset their greenhouse gas emissions across their operations and supply chains.",
-    "ats": "greenhouse"
+    "summary": "Carbon Direct offers carbon management services including carbon measurement, emissions reduction, and carbon removal solutions.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
