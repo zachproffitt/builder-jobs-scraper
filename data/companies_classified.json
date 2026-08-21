@@ -8510,10 +8510,11 @@
     "ats": "lever"
   },
   {
+    "ats": "workday",
     "slug": "volarisgroup/wd3/WennSoft",
     "name": "Key2Act",
-    "summary": "Key2Act builds a cloud-based platform that enables companies to manage employee engagement and workplace culture through digital experiences, surveys, and communication tools designed to improve organizational performance and employee satisfaction.",
-    "ats": "workday"
+    "summary": "Key2Act provides job costing, project management, and field service software for Microsoft Dynamics 365 Business Central and Dynamics GP.",
+    "source": "meta_description"
   },
   {
     "slug": "kiddom",
