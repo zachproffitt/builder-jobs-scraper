@@ -1,9 +1,9 @@
 {
-  "total": 20665,
-  "new": 7,
+  "total": 20300,
+  "new": 9,
   "closed": 0,
-  "aged_out": 77304,
+  "aged_out": 75534,
   "archived": 0,
   "carried": 0,
-  "errors": 194
+  "errors": 201
 }
