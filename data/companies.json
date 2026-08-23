@@ -51390,5 +51390,415 @@
     "name": "Zeta Global",
     "website": "https://zetaglobal.com",
     "status": "no_ats"
+  },
+  {
+    "name": "Aerogen Systems",
+    "website": "https://www.aerogensystems.com",
+    "status": "no_ats",
+    "one_liner": "Building the future of advanced chip manufacturing."
+  },
+  {
+    "name": "Allia Health",
+    "website": "https://allia.health",
+    "status": "no_ats",
+    "one_liner": "Clinically Integrated Group for Mental Health"
+  },
+  {
+    "name": "antimattr",
+    "website": "https://antimattr.one",
+    "status": "no_ats",
+    "one_liner": "voice-first hardware interface for human-agent interaction"
+  },
+  {
+    "name": "Antropi Robotics",
+    "website": "https://www.antropi.world",
+    "status": "no_ats",
+    "one_liner": "Autonomous CNC factories for faster hardware"
+  },
+  {
+    "name": "Bunting Labs",
+    "website": "https://buntinglabs.com",
+    "status": "no_ats",
+    "one_liner": "AI Models for GIS"
+  },
+  {
+    "name": "Callbook AI",
+    "website": "https://callbook.ai",
+    "status": "no_ats",
+    "one_liner": "AI collections agency for late stage portfolios"
+  },
+  {
+    "name": "Capveon",
+    "website": "https://capveon.ai",
+    "status": "no_ats",
+    "one_liner": "Turning infrastructure demand into action"
+  },
+  {
+    "name": "CoArena",
+    "website": "https://coarena.ai",
+    "status": "no_ats",
+    "one_liner": "The biggest crowdsourced benchmark for Computer-Use"
+  },
+  {
+    "name": "Conviction",
+    "website": "https://convictiontrade.ai",
+    "status": "no_ats",
+    "one_liner": "Anyone Can Trade"
+  },
+  {
+    "name": "Covera",
+    "website": "https://www.covera-agents.com",
+    "status": "no_ats",
+    "one_liner": "AI-native OS for insurance brokers"
+  },
+  {
+    "name": "Edgerun",
+    "website": "https://edgerun.com",
+    "status": "no_ats",
+    "one_liner": "Military exoskeletons"
+  },
+  {
+    "name": "Gini",
+    "website": "https://ginicomputer.com",
+    "status": "no_ats",
+    "one_liner": "AI coworker in Slack and Teams"
+  },
+  {
+    "name": "Glep",
+    "website": "https://glep.com",
+    "status": "no_ats",
+    "one_liner": "AI-Native Spend platform built for Real Estate businesses"
+  },
+  {
+    "name": "Grocalo",
+    "website": "https://grocalo.com",
+    "status": "no_ats",
+    "one_liner": "AI brain that runs content for creators"
+  },
+  {
+    "name": "Hilstart",
+    "website": "https://hilstart.io",
+    "status": "no_ats",
+    "one_liner": "Autonomous Hardware Testing"
+  },
+  {
+    "name": "Lantern AI",
+    "website": "https://www.lantern.md",
+    "status": "no_ats",
+    "one_liner": "Turn Your Taste Into Hires"
+  },
+  {
+    "name": "Liquid Compute",
+    "website": "https://www.liquidcompute.com",
+    "status": "no_ats",
+    "one_liner": "Pending CFTC regulation to be the first cash and physically settled\u2026"
+  },
+  {
+    "name": "Marker",
+    "website": "https://onmarker.com",
+    "status": "no_ats",
+    "one_liner": "Platform and FDEs for rebuilding businesses agent-first"
+  },
+  {
+    "name": "Multiplier",
+    "website": "https://multiplier.ai",
+    "status": "no_ats",
+    "one_liner": "Agent harnesses for asset managers"
+  },
+  {
+    "name": "Radius",
+    "website": "https://www.radiusbrowser.com",
+    "status": "no_ats",
+    "one_liner": "Code and browse in the same place"
+  },
+  {
+    "name": "Ranla",
+    "website": "https://ranla.ai",
+    "status": "no_ats",
+    "one_liner": "The AI growth marketer that turns SaaS signups into revenue"
+  },
+  {
+    "name": "RGI Labs",
+    "website": "https://www.rgilabs.com",
+    "status": "no_ats",
+    "one_liner": "Robust & recursively self-improving general intelligence"
+  },
+  {
+    "name": "Snap Poker",
+    "website": "https://playsnappoker.com",
+    "status": "no_ats",
+    "one_liner": "The social network for online poker"
+  },
+  {
+    "name": "Spectre Intelligence",
+    "website": "https://www.spectreintelligence.ai",
+    "status": "no_ats",
+    "one_liner": "We are a multi-strategy trading firm that trains AI traders."
+  },
+  {
+    "name": "Studio",
+    "website": "https://trystudio.ai",
+    "status": "no_ats",
+    "one_liner": "Engineer the future"
+  },
+  {
+    "name": "Veeza AI",
+    "website": "https://veeza.ai",
+    "status": "no_ats",
+    "one_liner": "AI travel agent for people with weak passports, starting with visas."
+  },
+  {
+    "name": "Sabi",
+    "website": "https://sabi.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Worldcoin",
+    "website": "https://worldcoin.org",
+    "status": "active",
+    "ats": "ashby",
+    "slug": "Tools",
+    "category": [],
+    "meta_description": "World ensures that every human benefits from the age of AI. Join millions of real humans in 160 countries with World\u00a0ID and World\u00a0App."
+  },
+  {
+    "name": "AgroSmart",
+    "website": "https://agrosmart.com.br",
+    "status": "no_ats"
+  },
+  {
+    "name": "Agrotech",
+    "website": "https://agrotech.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Arrived",
+    "website": "https://arrived.co",
+    "status": "no_ats"
+  },
+  {
+    "name": "BatchMaster Software",
+    "website": "https://batchmaster.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Blue River Technology",
+    "website": "https://bluerivert.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Bosch Rexroth",
+    "website": "https://boschrexroth.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Branch",
+    "website": "https://branch.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Cadre",
+    "website": "https://cadre.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Carbon Accounting API",
+    "website": "https://carbonintensity.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Cogiscan",
+    "website": "https://cogiscan.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Conservis",
+    "website": "https://conservisag.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "CropX",
+    "website": "https://cropx.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "DroneDeploy",
+    "website": "https://dronedeploy.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "EnergiMine",
+    "website": "https://energimine.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Envase",
+    "website": "https://envase.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "FarmShots",
+    "website": "https://farmshots.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Firebird",
+    "website": "https://firebirdsql.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Fold Health",
+    "website": "https://foldhealth.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Fortive (Intelomer)",
+    "website": "https://fortive.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Genius ERP",
+    "website": "https://geniuseap.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Golden",
+    "website": "https://golden.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Highjump",
+    "website": "https://highjump.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Inhabit",
+    "website": "https://inhabit.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Insomniac Games (Sony)",
+    "website": "https://insomniacgames.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Kunak",
+    "website": "https://kunaktech.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Lokad",
+    "website": "https://lokad.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "MercuryGate",
+    "website": "https://mercurygate.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Obe Mobility",
+    "website": "https://obemobility.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Pando",
+    "website": "https://pandotech.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Plantix",
+    "website": "https://plantix.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Prometheus Operator",
+    "website": "https://prometheus-operator.dev",
+    "status": "no_ats"
+  },
+  {
+    "name": "Quixel (Epic Games)",
+    "website": "https://quixel.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Ro (Roman)",
+    "website": "https://romanhealth.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Scapesetter",
+    "website": "https://scapesetter.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Seismic",
+    "website": "https://seismic.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sensorium",
+    "website": "https://sensorium.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Slauth",
+    "website": "https://slauth.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Soyl",
+    "website": "https://soyl.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "SparkMeter",
+    "website": "https://sparkmeter.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Splacer",
+    "website": "https://splacer.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "StereoLabs",
+    "website": "https://stereolabs.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Topcon",
+    "website": "https://topcon.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "VYPR",
+    "website": "https://vypr.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Wattpad Energy",
+    "website": "https://wattpad.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "WeRide",
+    "website": "https://weride.tech",
+    "status": "no_ats"
+  },
+  {
+    "name": "Wiggle Labs",
+    "website": "https://wigglelabs.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Xilinx",
+    "website": "https://xilinx.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Zcash",
+    "website": "https://z.cash",
+    "status": "no_ats"
   }
 ]
