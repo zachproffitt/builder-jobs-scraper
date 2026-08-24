@@ -8645,10 +8645,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "learnlux",
     "name": "LearnLux",
-    "summary": "LearnLux provides AI-powered financial wellness software that helps employees understand and optimize their personal finances through personalized guidance and educational content. The platform operates in the employee benefits and financial literacy space, integrating with employer benefits programs to deliver workplace financial wellness solutions.",
-    "ats": "greenhouse"
+    "summary": "LearnLux provides financial wellbeing services and financial planning resources for workforce employees.",
+    "source": "meta_description"
   },
   {
     "slug": "fifththird/wd5/Providecareers",
