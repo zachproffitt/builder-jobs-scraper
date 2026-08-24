@@ -9944,10 +9944,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "lever",
     "slug": "SwiftlySystems",
     "name": "Swiftly",
-    "summary": "Swiftly provides a mobile platform that enables field workers in retail, grocery, and other consumer-facing businesses to access real-time inventory data, execute tasks, and capture information directly from store shelves. The company's software helps retailers optimize shelf management, reduce out-of-stocks, and improve operational efficiency through mobile-first tools designed for frontline workers.",
-    "ats": "lever"
+    "summary": "Swiftly provides a platform that helps retailers drive in-store sales and grow digital revenue, while offering brands advertising tools to increase product velocity across grocery locations.",
+    "source": "meta_description"
   },
   {
     "ats": "bamboo",
