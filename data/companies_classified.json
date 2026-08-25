@@ -7400,10 +7400,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "greenhouse",
     "slug": "coinme",
     "name": "Coinme",
-    "summary": "Coinme operates a network of cryptocurrency ATMs and kiosks across North America that allow users to buy and sell Bitcoin and other digital currencies using cash, debit cards, and bank transfers. The company provides both physical machines in retail locations and software infrastructure for operators to deploy their own cryptocurrency vending machines.",
-    "ats": "greenhouse"
+    "summary": "Coinme provides technology that enables platforms to allow their customers to buy, sell, and store cryptocurrency through websites, customer portals, or mobile apps.",
+    "source": "meta_description"
   },
   {
     "slug": "luminegrp/wd3/COLLAB",
