@@ -1953,10 +1953,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "aleph",
     "name": "Aleph",
-    "summary": "Aleph builds AI-native financial planning and analysis software that automates data consolidation, financial reporting, and forecasting for finance teams. The company operates in the financial software domain, serving organizations ranging from PE-backed companies to venture-backed startups that need to streamline their FP&A processes and close cycles faster.",
-    "ats": "ashby"
+    "summary": "Aleph makes financial planning and analysis software that provides on-demand data, deeper insights, automated reports, and spreadsheet integrations.",
+    "source": "meta_description"
   },
   {
     "slug": "alexai",
