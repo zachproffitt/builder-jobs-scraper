@@ -3526,10 +3526,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "greenhouse",
     "slug": "pairteam",
     "name": "Pair Team",
-    "summary": "Pair Team combines clinicians, AI support, and community partnerships to coordinate comprehensive care for Medicaid and Medicare patients, addressing medical, behavioral, and social needs including housing, food, nutrition, and transportation. The company operates in the healthcare sector, specifically serving low-income and government-insured populations through its care team and AI health advocate platform called Flora.",
-    "ats": "greenhouse"
+    "summary": "Pair Team connects vulnerable patients to local care teams that help them overcome barriers and access physical, mental, and social services.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
