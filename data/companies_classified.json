@@ -6895,10 +6895,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "atticus",
     "name": "Atticus",
-    "summary": "Atticus provides AI-powered legal research and document analysis tools designed to help attorneys and legal professionals conduct faster and more comprehensive case research, with features for statute analysis, case law comparison, and legal writing assistance.",
-    "ats": "ashby"
+    "summary": "Atticus provides assistance with disability benefits, workers' compensation, and Veterans Affairs benefits by helping users navigate government and legal processes.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
