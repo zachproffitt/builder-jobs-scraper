@@ -13575,5 +13575,17 @@
     "location_skipped": 92,
     "location_ambiguous": 24,
     "cost_usd": 0.19770345
+  },
+  {
+    "ts": "2026-08-29T02:18:50Z",
+    "classified": 68,
+    "builder": 19,
+    "not_builder": 49,
+    "unclear": 0,
+    "builder_rate": 0.2794,
+    "title_skipped": 27,
+    "location_skipped": 38,
+    "location_ambiguous": 17,
+    "cost_usd": 0.19420395000000001
   }
 ]
