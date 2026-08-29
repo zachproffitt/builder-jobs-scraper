@@ -1120,10 +1120,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "Influxdata",
     "name": "InfluxData",
-    "summary": "InfluxData builds InfluxDB, a time-series database designed to store and query timestamped data at scale, along with related tools for data collection and visualization. The company operates in the time-series data infrastructure space, serving use cases in monitoring, observability, and IoT applications.",
-    "ats": "ashby"
+    "summary": "InfluxData builds a platform for building and operating time series applications.",
+    "source": "one_liner"
   },
   {
     "ats": "greenhouse",
