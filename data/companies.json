@@ -51800,5 +51800,557 @@
     "name": "Zcash",
     "website": "https://z.cash",
     "status": "no_ats"
+  },
+  {
+    "name": "CueBench",
+    "website": "https://cuebench.dev",
+    "status": "no_ats",
+    "one_liner": "RL post-training for science reasoning and performance engineering"
+  },
+  {
+    "name": "Ethos Space Resources",
+    "website": "https://ethos-space.com",
+    "status": "no_ats",
+    "one_liner": "We make Silicon on the Moon."
+  },
+  {
+    "name": "Most Robotic",
+    "website": "https://mostrobotic.com",
+    "status": "no_ats",
+    "one_liner": "Research lab for physical AI"
+  },
+  {
+    "name": "OneTriangle",
+    "website": "https://onetriangle.ai",
+    "status": "no_ats",
+    "one_liner": "The cheapest, fastest lightweight inference."
+  },
+  {
+    "name": "OpenTag",
+    "website": "https://www.tryopentag.com",
+    "status": "no_ats",
+    "one_liner": "Model Agnostic Claude Tag"
+  },
+  {
+    "name": "Quippy",
+    "website": "https://quippyapp.com",
+    "status": "no_ats",
+    "one_liner": "Helps build social skills through daily practice"
+  },
+  {
+    "name": "Quotient Labs",
+    "website": "https://quotientlabs.com",
+    "status": "no_ats",
+    "one_liner": "Use Claude Code at 47% less cost in one line of installation."
+  },
+  {
+    "name": "Redoubt Insurance",
+    "website": "https://www.redoubt.agency",
+    "status": "no_ats",
+    "one_liner": "Commercial insurance for small businesses"
+  },
+  {
+    "name": "Sentient OS",
+    "website": "https://sentient-os.ai",
+    "status": "no_ats",
+    "one_liner": "On-device AI that knows your entire life and does your work overnight."
+  },
+  {
+    "name": "Talos",
+    "website": "https://www.talos-us.com",
+    "status": "no_ats",
+    "one_liner": "Predictive maintenance for power infrastructure."
+  },
+  {
+    "name": "The Subvocal Company",
+    "website": "https://subvocal.company",
+    "status": "no_ats",
+    "one_liner": "Talk to your computer without talking"
+  },
+  {
+    "name": "Turnstone",
+    "website": "https://myturnstone.ai",
+    "status": "no_ats",
+    "one_liner": "Work with agents that already know you"
+  },
+  {
+    "name": "Veriad",
+    "website": "https://veriad.com",
+    "status": "no_ats",
+    "one_liner": "Enterprise marketing agents"
+  },
+  {
+    "name": "Workers IO",
+    "website": "https://workers.io",
+    "status": "no_ats",
+    "one_liner": "Deterministic Virtual Machines"
+  },
+  {
+    "name": "18F (GSA)",
+    "website": "https://18f.gsa.gov",
+    "status": "no_ats"
+  },
+  {
+    "name": "Arrayent (Comtech)",
+    "website": "https://arrayent.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Atomwise",
+    "website": "https://atomwise.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Beeck Center (Georgetown)",
+    "website": "https://beeckcenter.georgetown.edu",
+    "status": "no_ats"
+  },
+  {
+    "name": "Bleximo",
+    "website": "https://bleximo.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Blueground",
+    "website": "https://blueground.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "BNRG",
+    "website": "https://bnrg.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "Brightline",
+    "website": "https://brightlinetech.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Broad Institute",
+    "website": "https://broadinstitute.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Caltech (IQIM)",
+    "website": "https://caltech.edu",
+    "status": "no_ats"
+  },
+  {
+    "name": "Casita",
+    "website": "https://casita.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Cflowenergy",
+    "website": "https://cflowenergy.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "CGI Federal",
+    "website": "https://cgi.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "CivicPlus",
+    "website": "https://civicplus.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Civicstar Technologies",
+    "website": "https://civicstar.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "CNET Metaverse",
+    "website": "https://cnet.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Code for America",
+    "website": "https://codeforamerica.org",
+    "status": "active",
+    "ats": "greenhouse",
+    "slug": "codeforamerica",
+    "category": [],
+    "meta_description": "We\u2019ve been working for more than a decade with governments and communities across the country to break down barriers and find real solutions."
+  },
+  {
+    "name": "Common",
+    "website": "https://common.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Container xChange",
+    "website": "https://container-xchange.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Continental Automotive",
+    "website": "https://continental.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Dado",
+    "website": "https://dadolaw.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Delft University of Technology",
+    "website": "https://tudelft.nl",
+    "status": "no_ats"
+  },
+  {
+    "name": "Denso",
+    "website": "https://denso.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Digital.gov",
+    "website": "https://digital.gov",
+    "status": "no_ats"
+  },
+  {
+    "name": "DNAnexus",
+    "website": "https://dnanexus.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "DNV",
+    "website": "https://dnv.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Dockets",
+    "website": "https://dockets.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Dyno Therapeutics",
+    "website": "https://dynotherapeutics.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "EcoChain",
+    "website": "https://ecochain.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Elektrobit",
+    "website": "https://elektrobit.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Expensify",
+    "website": "https://expensify.com",
+    "status": "active",
+    "ats": "ashby",
+    "slug": "expensify",
+    "category": []
+  },
+  {
+    "name": "Fluence",
+    "website": "https://fluenceenergy.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Greenbill",
+    "website": "https://greenbill.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Helix TCO",
+    "website": "https://helixtco.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "HomeLoan.com",
+    "website": "https://homeloan.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Illume",
+    "website": "https://illumelabs.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Kabbage",
+    "website": "https://kabbage.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Kareo",
+    "website": "https://kareo.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Kick",
+    "website": "https://kick.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Kokpit",
+    "website": "https://kokpit.app",
+    "status": "no_ats"
+  },
+  {
+    "name": "K\u00f6rber Supply Chain",
+    "website": "https://koerber-supplychain.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Lawyaw",
+    "website": "https://lawyaw.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Legal.io",
+    "website": "https://legal.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Lexoo",
+    "website": "https://lexoo.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "LG Electronics Automotive",
+    "website": "https://lg.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "LLaMA Foundation",
+    "website": "https://llama.meta",
+    "status": "no_ats"
+  },
+  {
+    "name": "Maximus",
+    "website": "https://maximus.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Measurable Data Analytics",
+    "website": "https://measurabledataanalytics.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Meli",
+    "website": "https://meli.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "MindSight Studios",
+    "website": "https://mindmesh.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "MIT (QuEIST)",
+    "website": "https://mit.edu",
+    "status": "no_ats"
+  },
+  {
+    "name": "Mobiledev",
+    "website": "https://mobiledev.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Modernizing Medicine",
+    "website": "https://modmed.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Neara",
+    "website": "https://neara.com",
+    "status": "active",
+    "ats": "ashby",
+    "slug": "neara",
+    "category": []
+  },
+  {
+    "name": "NeoCity",
+    "website": "https://neocity.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Nest (Google subsidiary)",
+    "website": "https://nest.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "NextEra Energy Resources",
+    "website": "https://nexteraenergyresources.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Oak Ridge National Laboratory",
+    "website": "https://ornl.gov",
+    "status": "no_ats"
+  },
+  {
+    "name": "OpenEarth",
+    "website": "https://openearth.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Panasonic Automotive Systems",
+    "website": "https://panasonic.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "PathoGenesis",
+    "website": "https://pathogenesis.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Periscope Data",
+    "website": "https://periscopedata.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Placemeter",
+    "website": "https://placemeter.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Playtech",
+    "website": "https://playtech.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Prove Labs",
+    "website": "https://provelabs.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Pryzm",
+    "website": "https://pryzm.ai",
+    "status": "no_ats"
+  },
+  {
+    "name": "QinetiQ",
+    "website": "https://qinetiq.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "RE/MAX",
+    "website": "https://remax.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Regrow Agriculture",
+    "website": "https://regrow.ag",
+    "status": "no_ats"
+  },
+  {
+    "name": "Relation Therapeutics",
+    "website": "https://relationrx.com",
+    "status": "active",
+    "ats": "ashby",
+    "slug": "relationrx",
+    "category": [],
+    "meta_description": "Discovering biology\u2019s relationships, curing disease."
+  },
+  {
+    "name": "Resmed",
+    "website": "https://resmed.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Ribbon",
+    "website": "https://ribbonhome.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Riot.im (Element)",
+    "website": "https://element.io",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sensibl",
+    "website": "https://sensibl.co",
+    "status": "no_ats"
+  },
+  {
+    "name": "Seven Bridges Genomics",
+    "website": "https://sevenbridges.com",
+    "status": "active",
+    "ats": "lever",
+    "slug": "sevenbridges",
+    "category": [],
+    "meta_description": "Seven Bridges is the biomedical data analysis company accelerating breakthroughs in genomics research for cancer, drug development and precision medicine."
+  },
+  {
+    "name": "Solarmax",
+    "website": "https://solarmax.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sophia Genetics",
+    "website": "https://sophiagenetics.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Suncontract",
+    "website": "https://suncontract.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Superplastic",
+    "website": "https://superplastic.co",
+    "status": "no_ats"
+  },
+  {
+    "name": "Sust Global",
+    "website": "https://sustglobal.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Terrascope",
+    "website": "https://terrascope.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Trainline",
+    "website": "https://thetrainline.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Transparency International",
+    "website": "https://transparency.org",
+    "status": "no_ats"
+  },
+  {
+    "name": "Treenotch",
+    "website": "https://treenotch.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Tyler Technologies",
+    "website": "https://tylertech.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "University of Waterloo (IQC)",
+    "website": "https://uwaterloo.ca",
+    "status": "no_ats"
+  },
+  {
+    "name": "Upstart",
+    "website": "https://upstart.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Visteon",
+    "website": "https://visteon.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Wickr",
+    "website": "https://wickr.com",
+    "status": "no_ats"
+  },
+  {
+    "name": "Zymergen",
+    "website": "https://zymergen.com",
+    "status": "no_ats"
   }
 ]
