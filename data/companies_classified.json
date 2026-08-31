@@ -10518,5 +10518,12 @@
     "name": "OTA Insight",
     "summary": "OTA Insight provides business intelligence and pricing solutions for revenue optimization.",
     "source": "meta_description"
+  },
+  {
+    "ats": "greenhouse",
+    "slug": "butterflynetwork",
+    "name": "Butterfly Network",
+    "summary": "Butterfly Network makes an ultrasound probe that provides whole-body imaging for medical assessment, diagnosis, and treatment across different medical systems.",
+    "source": "meta_description"
   }
 ]
